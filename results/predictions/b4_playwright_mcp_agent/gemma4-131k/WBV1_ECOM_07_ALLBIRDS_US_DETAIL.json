@@ -1,0 +1,79 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Allbirds",
+        "description": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas. Lightweight, breathable, easy to wear on repeat. Comfortable enough for all day. Simple enough to go with everything.\n\n[...]\n\nCanvas upper made from a breathable blend of hemp and organic cotton—light, airy, and easy to wear all day.\n\nSweetFoam® cushioning made from sugarcane delivers comfort and energy return.\n\nDual-density memory foam insole adds extra softness and comfort that doesn’t quit.",
+        "image_urls": [
+          null
+        ],
+        "price_raw": "$75",
+        "product_name": "Men's Canvas Cruiser",
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas",
+        "rating": 4,
+        "review_count": "29 Reviews"
+      },
+      "provenance": {
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "description": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas..."
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Multiple product image swatches visible in the snapshot."
+        },
+        "price_raw": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$75"
+        },
+        "product_name": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Men's Canvas Cruiser"
+        },
+        "product_url": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.allbirds.com/products/mens-cruiser-canvas"
+        },
+        "rating": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4"
+        },
+        "review_count": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "29 Reviews"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 32.778,
+    "input_tokens": 25372,
+    "output_tokens": 1743,
+    "total_tokens": 27115,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_07_ALLBIRDS_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_07_ALLBIRDS_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,2327 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_LISTING",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image1.jpg",
+        "old_price_raw": "$140",
+        "price_raw": "$120",
+        "product_name": "MEN'S VARSITY AIRY Mushroom",
+        "product_url": "https://example.com/product1",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S VARSITY AIRY Mushroom"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image2.jpg",
+        "old_price_raw": "$75",
+        "price_raw": "$75",
+        "product_name": "MEN'S CANVAS CRUISER SLIP ON Deep Navy Stripes",
+        "product_url": "https://example.com/product2",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S CANVAS CRUISER SLIP ON Deep Navy Stripes"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image3.jpg",
+        "old_price_raw": "$100",
+        "price_raw": "$120",
+        "product_name": "MEN'S VARSITY Parchment",
+        "product_url": "https://example.com/product3",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S VARSITY Parchment"
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image4.jpg",
+        "old_price_raw": "$135",
+        "price_raw": "$135",
+        "product_name": "MEN'S CRUISER TERRALUX Toasted Coconut",
+        "product_url": "https://example.com/product4",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S CRUISER TERRALUX Toasted Coconut"
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image5.jpg",
+        "old_price_raw": "$135",
+        "price_raw": "$145",
+        "product_name": "MEN'S DASHER NZ RELAY Seagrass",
+        "product_url": "https://example.com/product5",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S DASHER NZ RELAY Seagrass"
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image6.jpg",
+        "old_price_raw": "$100",
+        "price_raw": "$100",
+        "product_name": "MEN'S TREE RUNNER Mist",
+        "product_url": "https://example.com/product6",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S TREE RUNNER Mist"
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image7.jpg",
+        "old_price_raw": "$115",
+        "price_raw": "$115",
+        "product_name": "MEN'S CRUISER JERSEY Light Grey/Anthracite",
+        "product_url": "https://example.com/product7",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S CRUISER JERSEY Light Grey/Anthracite"
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image8.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S VARSITY TERRALUX Toasted Coconut",
+        "product_url": "https://example.com/product8",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S VARSITY TERRALUX Toasted Coconut"
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image9.jpg",
+        "old_price_raw": "$135",
+        "price_raw": "$135",
+        "product_name": "MEN'S RUNNER NZ JERSEY Light Grey/Anthracite",
+        "product_url": "https://example.com/product9",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S RUNNER NZ JERSEY Light Grey/Anthracite"
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image10.jpg",
+        "old_price_raw": "$52",
+        "price_raw": "$75",
+        "product_name": "ALLBIRDS SLIPPER Light Tan",
+        "product_url": "https://example.com/product10",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "ALLBIRDS SLIPPER Light Tan"
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image11.jpg",
+        "old_price_raw": "$95",
+        "price_raw": "$130",
+        "product_name": "MEN'S VARSITY CRUISER Light Grey/Anthracite",
+        "product_url": "https://example.com/product11",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S VARSITY CRUISER Light Grey/Anthracite"
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image12.jpg",
+        "old_price_raw": "$55",
+        "price_raw": "$75",
+        "product_name": "MEN'S ALLBIRDS SLIDE Natural Black",
+        "product_url": "https://example.com/product12",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S ALLBIRDS SLIDE Natural Black"
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image13.jpg",
+        "old_price_raw": "$105",
+        "price_raw": "$105",
+        "product_name": "MEN'S WOOL CRUISER Forest Green",
+        "product_url": "https://example.com/product13",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL CRUISER Forest Green"
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image14.jpg",
+        "old_price_raw": "$100",
+        "price_raw": "$100",
+        "product_name": "MEN'S WOOL CRUISER SLIP ON Dark Grey",
+        "product_url": "https://example.com/product14",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL CRUISER SLIP ON Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image15.jpg",
+        "old_price_raw": "$140",
+        "price_raw": "$140",
+        "product_name": "MEN'S TREE GLIDER Mushroom",
+        "product_url": "https://example.com/product15",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S TREE GLIDER Mushroom"
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image16.jpg",
+        "old_price_raw": "$110",
+        "price_raw": "$110",
+        "product_name": "MEN'S KIWI CLOG Dark Camel",
+        "product_url": "https://example.com/product16",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S KIWI CLOG Dark Camel"
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image17.jpg",
+        "old_price_raw": "$105",
+        "price_raw": "$105",
+        "product_name": "MEN'S CRUISER Verdant Green",
+        "product_url": "https://example.com/product17",
+        "rating": null,
+        "review_count": null,
+        "short_description": "NEW COLOR"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S CRUISER Verdant Green"
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image18.jpg",
+        "old_price_raw": "$160",
+        "price_raw": "$160",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product18",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image19.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product19",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image20.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product20",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image21.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product21",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image22.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product22",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image23.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product23",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image24.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product24",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image25.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product25",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_026",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image26.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product26",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_027",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image27.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product27",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_028",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image28.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product28",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_029",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image29.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product29",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_030",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image30.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product30",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_031",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image31.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product31",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_032",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image32.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product32",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_033",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image33.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product33",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_034",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image34.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product34",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_035",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image35.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product35",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_036",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image36.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product36",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_037",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image37.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product37",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_038",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image38.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product38",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_039",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image39.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product39",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_040",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image40.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product40",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_041",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image41.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product41",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_042",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image42.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product42",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_043",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image43.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product43",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_044",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image44.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product44",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_045",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image45.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product45",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_046",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image46.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product46",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_047",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image47.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product47",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_048",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image48.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product48",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_049",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image49.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product49",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_050",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image50.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product50",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_051",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image51.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product51",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_052",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image52.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product52",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_053",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image53.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product53",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_054",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image54.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product54",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_055",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image55.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product55",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_056",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image56.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product56",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_057",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image57.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product57",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_058",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image58.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product58",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_059",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image59.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product59",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_060",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image60.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product60",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_061",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image61.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product61",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_062",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image62.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product62",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_063",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image63.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product63",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_064",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image64.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product64",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_065",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image65.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product65",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_066",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image66.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product66",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_067",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image67.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product67",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_068",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image68.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product68",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_069",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image69.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product69",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_070",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image70.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product70",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_071",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image71.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product71",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_072",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image72.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product72",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_073",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image73.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product73",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_074",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image74.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product74",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_075",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image75.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product75",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_076",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image76.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product76",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_077",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image77.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product77",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_078",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image78.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product78",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_079",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image79.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product79",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_080",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image80.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product80",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_081",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image81.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product81",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_082",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image82.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product82",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_083",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image83.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product83",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_084",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image84.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product84",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_085",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image85.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product85",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_086",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image86.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product86",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_087",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image87.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product87",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_088",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image88.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product88",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_089",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image89.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product89",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_090",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image90.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product90",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_091",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image91.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product91",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_092",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image92.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product92",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_093",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image93.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product93",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_094",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image94.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product94",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_095",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image95.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product95",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_096",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image96.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product96",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_097",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image97.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product97",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_098",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image98.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product98",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_099",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image99.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product99",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_100",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image100.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product100",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_101",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image101.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product101",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_102",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image102.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product102",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_103",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image103.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product103",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_104",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image104.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product104",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_105",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image105.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product105",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_106",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image106.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product106",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_107",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image107.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product107",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_108",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image108.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product108",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_109",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image109.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product109",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_110",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image110.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product110",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_111",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image111.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product111",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_112",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image112.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product112",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_113",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image113.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product113",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_114",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image114.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "product_url": "https://example.com/product114",
+        "rating": null,
+        "review_count": null,
+        "short_description": "WATERPROOF"
+      },
+      "provenance": {
+        "url": "https://example.com/men-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+      }
+    },
+    {
+      "record_id": "pred_115",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image115.jpg",
+        "old_price_raw": "$145",
+        "price_raw": "$145",
+        "product_name": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey",
+        "provenance": {
+          "url": "https://example.com/men-shoes",
+          "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_listing_men_shoes",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF Dark Grey"
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 362.475,
+    "input_tokens": 6439,
+    "output_tokens": 23279,
+    "total_tokens": 29718,
+    "num_tiles": 4,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_07_ALLBIRDS_US_LISTING\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_07_ALLBIRDS_US_LISTING\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_07_ALLBIRDS_US_LISTING\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_07_ALLBIRDS_US_LISTING\\tile_04.png"
+    ],
+    "error": null
+  }
+}

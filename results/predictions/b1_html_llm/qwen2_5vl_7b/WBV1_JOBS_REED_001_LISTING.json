@@ -1,0 +1,46 @@
+{
+  "task_id": "WBV1_JOBS_REED_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "jobTitle": "Senior Developer",
+        "companyName": "Reed",
+        "location": "London, UK",
+        "salaryRange": "£50k - £65k per annum",
+        "employmentType": "Permanent"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "jobTitle": "Software Developer",
+        "companyName": "Oscar Technology",
+        "location": "Birmingham, West Midlands (County)",
+        "salaryRange": "£42k - £50k per annum",
+        "employmentType": "Contract"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 38.266,
+    "input_tokens": 78698,
+    "output_tokens": 129,
+    "total_tokens": 78827,
+    "initial_input_tokens": 78698,
+    "initial_output_tokens": 129,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

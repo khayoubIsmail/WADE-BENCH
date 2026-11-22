@@ -1,0 +1,128 @@
+{
+  "task_id": "WBV1_ACAD_10TIMES_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Plastprintpack Ethiopia",
+        "description": "International Trade Show on Plastics & Printing & Packaging. Now in its 8th edition plastprintpack Ethiopia 2026 retunrs to Addis Ababa, showcasing the impressive growth and vast potential of Ethiopia's plastic, printing and packaging sectors. Organised by fairtrade Messe in cooperation with local partners Prana Events, the exhibition will bring thousands of industry professionals from Ethiopia and around the globe, making it a must-attend event for anyone in the future of plastics, printing and packaging in the region.",
+        "event_start_date": "2026-06-25",
+        "event_end_date": "2026-06-27",
+        "event_url": "https://10times.com/plast-packprint-ethiopia",
+        "location": "Addis Ababa, Ethiopia",
+        "organizer": "fairtrade Messe GmbH & Co. KG",
+        "website": "https://10times.com/plast-packprint-ethiopia",
+        "event_type": "Trade Show",
+        "chairpersons": [
+          {
+            "name": "Nega Mulu",
+            "provenance": {
+              "source": "text.txt",
+              "text_quote": "Deputy General Manager at Ethilux Global Trading one member plc"
+            }
+          },
+          {
+            "name": "Simegn Kassa",
+            "provenance": {
+              "source": "text.txt",
+              "text_quote": "Simegn Kassa at Liyans"
+            }
+          }
+        ],
+        "contact": {
+          "person": "fairtrade Messe GmbH & Co. KG",
+          "provenance": {
+            "source": "page.safe.html",
+            "text_quote": "fairtrade Messe GmbH & Co. KG"
+          }
+        },
+        "additional_option": "8th Edition",
+        "organized_by": "fairtrade Messe GmbH & Co. KG",
+        "image_urls": [
+          {
+            "url": "https://img.10times.com/event/w1969df71b29b67673610537fbb14b5a/1559707463726/1559650814035.jpg?imgeng=/w_225/h_150/m_stretch",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null
+            }
+          },
+          {
+            "url": "https://img.10times.com/event/w1969df71b29b67673610537fbb14b5a/1559707463726/1559650814035.jpg?imgeng=/w_225/h_150/m_letterbox_000000_30",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null
+            }
+          },
+          {
+            "url": "https://img.10times.com/industry/30-wrapper.jpg?imgeng=/w_225/h_150/m_stretch",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null
+            }
+          },
+          {
+            "url": "https://img.10times.com/event/13157fe8496520463cdfbfc4720cbbb/1559707465270/1559650817151.jpg?imgeng=/w_225/h_150/m_stretch",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null
+            }
+          },
+          {
+            "url": "https://img.10times.com/event/13157fe8496520463cdfbfc4720cbbb/1559707465270/1559650817151.jpg?imgeng=/w_225/h_150/m_letterbox_000000_30",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null
+            }
+          }
+        ]
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.safe.html",
+          "text_quote": "Plastprintpack Ethiopia"
+        },
+        "description": {
+          "source": "visible_text",
+          "text_quote": "\"International Trade Show on Plastics & Printing & Packaging\"... making it a must-attend event for anyone in the future of plastics, printing and packaging in the region."
+        },
+        "event_start_date": {
+          "source": "page.safe.html",
+          "text_quote": "25 - 27 Jun 2026"
+        },
+        "event_end_date": {
+          "source": "page.safe.html",
+          "text_quote": "25 - 27 Jun 2026"
+        },
+        "event_url": {
+          "source": "metadata.json",
+          "text_quote": "https://10times.com/plast-packprint-ethiopia"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "text_quote": "Addis Ababa, Ethiopia"
+        },
+        "organizer": {
+          "source": "visible_text",
+          "text_quote": "fairtrade Messe GmbH & Co. KG"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 33.014,
+    "input_tokens": 27749,
+    "output_tokens": 1464,
+    "total_tokens": 29213,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_10TIMES_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_10TIMES_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

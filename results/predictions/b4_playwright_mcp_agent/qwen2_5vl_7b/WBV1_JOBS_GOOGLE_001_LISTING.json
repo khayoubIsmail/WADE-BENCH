@@ -1,0 +1,98 @@
+{
+  "task_id": "WBV1_JOBS_GOOGLE_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Director, Business Intelligence",
+        "company_name": null,
+        "job_url": "https://www.google.com/about/careers/applications/jobs/results/137691136725525190-director-business-intelligence",
+        "location": "Sunnyvale, CA, USA",
+        "salary": {
+          "min_amount": null,
+          "max_amount": null,
+          "currency": null,
+          "period": null
+        },
+        "employment_type": "Director+",
+        "posted_date": null,
+        "application_deadline": null,
+        "tags": [
+          "director",
+          "business intelligence"
+        ],
+        "categories": [],
+        "work_arrangement": "onsite",
+        "job_experience_level": "Director+",
+        "qualifications": [
+          "20 years of professional experience or 18 years with an advanced degree\n10 years of experience leading teams product management teams, working cross-functionally, and guiding data influenced planning, prioritization, and strategy development\nExperience in assessing and analyzing developer sentiment and subjective feedback regarding productivity and the overall developer experience\nExperience defining and translating engineering productivity metrics into insights and actions\nExperience working with multiple business stakeholders at various levels, aligning strategy with the business vision"
+        ],
+        "job_description": null,
+        "apply_url": null,
+        "company_logo_url": null
+      },
+      "provenance": {
+        "source": "page.html",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Director, Business Intelligence"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "job_title": "Mechanical Technician (Servicetechniker/Wartungstechniker) (German)",
+        "company_name": null,
+        "job_url": "https://www.google.com/about/careers/applications/jobs/results/112249296652247750-mechanical-technician-servicetechnikerwartungstechniker-german",
+        "location": "Kronstorf, Austria",
+        "salary": {
+          "min_amount": null,
+          "max_amount": null,
+          "currency": null,
+          "period": null
+        },
+        "employment_type": "Early",
+        "posted_date": null,
+        "application_deadline": null,
+        "tags": [
+          "mechanical technician",
+          "servicetechniker/wartungstechniker"
+        ],
+        "categories": [],
+        "work_arrangement": "onsite",
+        "job_experience_level": null,
+        "qualifications": [
+          "Associate's degree, trade school certification, or other certified training in a related technical field, or equivalent practical experience.\n2 years of mechanical/HVAC experience in an industrial or commercial environment.\nAbility to participate in material handling tasks such as lifting, carrying or moving up to 50 lbs (23 kg) of equipment, the required use of safety equipment such as limited weight bearing work platforms, ladders, step stools and personal protective equipment (PPE) like safety harnesses in accordance with safety and ergonomic guidelines and assessments.\nAbility to communicate in German fluently to engage with clients in this region."
+        ],
+        "job_description": null,
+        "apply_url": null,
+        "company_logo_url": null
+      },
+      "provenance": {
+        "source": "page.html",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Mechanical Technician (Servicetechniker/Wartungstechniker) (German)"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 33.116,
+    "input_tokens": 23065,
+    "output_tokens": 1648,
+    "total_tokens": 24713,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_GOOGLE_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_GOOGLE_001_LISTING_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

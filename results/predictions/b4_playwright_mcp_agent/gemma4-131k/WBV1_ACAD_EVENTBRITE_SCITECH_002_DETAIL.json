@@ -1,0 +1,57 @@
+{
+  "task_id": "WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": null,
+        "event_name": "Get Started: Algo & Bot Trading 101",
+        "event_start_date": "2026-06-04",
+        "event_url": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472",
+        "location": {
+          "value": "Online event",
+          "normalized_value": null
+        }
+      },
+      "provenance": {
+        "event_end_date": {
+          "source": "embedded_json",
+          "text_quote": "endDate\":\"2026-06-04T18:30:00-05:00\""
+        },
+        "event_name": {
+          "source": "html_signals",
+          "text_quote": "Get Started: Algo & Bot Trading 101"
+        },
+        "event_start_date": {
+          "source": "embedded_json",
+          "text_quote": "startDate\":\"2026-06-04T17:30:00-05:00\""
+        },
+        "event_url": {
+          "source": "embedded_json",
+          "text_quote": "\"url\":\"https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472\""
+        },
+        "location": {
+          "source": "page.safe.html",
+          "text_quote": "Online event"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 12.727,
+    "input_tokens": 20101,
+    "output_tokens": 383,
+    "total_tokens": 20484,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

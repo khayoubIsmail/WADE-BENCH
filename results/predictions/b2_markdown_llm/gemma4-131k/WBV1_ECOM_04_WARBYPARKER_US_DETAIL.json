@@ -1,0 +1,39 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Warby Parker",
+        "description": "Made from hand-polished cellulose acetate. Everything included for $95. We also offer progressive, blue-light-filtering, and anti-fatigue lenses—plus more! View all lens types Single-vision prescriptions Also choose readers or non-prescription lenses Polycarbonate lenses The most impact-resistant lens material for glasses Anti-reflective and scratch-resistant lens coatings And our lenses block 100% of UV rays Free shipping On every single order at Warby Parker Free returns or exchanges Within 30 days of purchase Free scratched lens replacement Guaranteed for prescription lenses within six months of purchase FSA, HSA, and insurance accepted Save an average of $100 when you use insurance Buy a Pair, Give a Pair For every pair purchased, a pair of glasses is distributed to someone in need",
+        "image_urls": [
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkuOTk5NTEgNS4yNUMxMC40MTM3IDUuMjUgMTAuNzQ5NSA1LjU4NTc5IDEwLjc0OTUgNkMxMC43NDk1IDYuNDE0MjEgMTAuNDEzNyA2Ljc1IDkuOTk5NTEgNi43NUg4Ljg4NzIxQzguMDIyMDUgNi43NTAxNSA3LjIzMzI5IDcuMjQ2MzkgNi44NTg4OSA4LjAyNjM3TDIuMzYzNzcgMTcuMzkxNkMyLjI4NDM3IDE3LjU1NzMgMi40MDQ3NyAxNy43NDk1IDIuNTg4MzggMTcuNzVIMy4wNTYxNUMzLjQ1Mjk2IDE0Ljg3NCA1Ljk2MTc0IDE0LjAwMDEgOC45OTk1MSAxNEMxMS41NjQ2IDE0IDEzLjc1MjcgMTQuNjIzNiAxNC42MTA4IDE2LjU0ODhDMTQuOTg1NSAxNi4zNzQzIDE1LjQ0ODQgMTYuMjUwMSAxNS45OTk1IDE2LjI1QzE2LjU1MDEgMTYuMjUgMTcuMDEyNyAxNi4zNzQ3IDE3LjM4NzIgMTYuNTQ4OEMxOC4yNDUxIDE0LjYyMzIgMjAuNDM0MyAxNC4wMDAxIDIyLjk5OTUgMTRDMjYuMDM3NSAxNCAyOC41NDcgMTQuODczOSAyOC45NDM4IDE3Ljc1SDI5LjQxMDZDMjkuNTk0NSAxNy43NDk3IDI5LjcxNDkgMTcuNTU3NSAyOS42MzUzIDE3LjM5MTZMMjQuODY3NyA3LjQ1ODk4QzI0LjY1OTYgNy4wMjU3OSAyNC4yMjEzIDYuNzUgMjMuNzQwNyA2Ljc1SDIxLjk5OTVDMjEuNTg1NSA2Ljc0OTc5IDIxLjI0OTUgNi40MTQwOCAyMS4yNDk1IDZDMjEuMjQ5NSA1LjU4NTkyIDIxLjU4NTUgNS4yNTAyMSAyMS45OTk1IDUuMjVIMjMuNzQwN0MyNC43OTgyIDUuMjUgMjUuNzYyNSA1Ljg1NjM5IDI2LjIyMDIgNi44MDk1N0wzMC45ODc4IDE2Ljc0MzJDMzEuNTQ1MSAxNy45MDQ3IDMwLjY5ODkgMTkuMjQ5NyAyOS40MTA2IDE5LjI1SDI4Ljk2ODNDMjguNjU2MyAyMi40ODA1IDI2LjEwMjYgMjUgMjIuOTk5NSAyNUMxOS42ODYgMjQuOTk5OCAxNi45OTk1IDIyLjEyNjcgMTYuOTk5NSAxOC41ODNDMTYuOTk5NSAxOC40MDQ1IDE3LjAwNzYgMTguMjMyNCAxNy4wMjEgMTguMDY2NEMxNi43OTgxIDE3LjkwNjYgMTYuNDY2NCAxNy43NSAxNS45OTk1IDE3Ljc1QzE1LjUzMjEgMTcuNzUwMSAxNS4xOTk5IDE3LjkwNjMgMTQuOTc3MSAxOC4wNjY0QzE0Ljk5MDQgMTguMjMyNCAxNC45OTk1IDE4LjQwNDQgMTQuOTk5NSAxOC41ODNDMTQuOTk5NSAyMi4xMjY4IDEyLjMxMzIgMjUgOC45OTk1MSAyNUM1Ljg5NjU4IDI0Ljk5OTggMy4zNDM2OCAyMi40ODAzIDMuMDMxNzQgMTkuMjVIMj4uNjg4MnANCiAgICAgICA8cGF0aCBkPSJNNzk5OTUxIDE1LjVDNy40NDk1IDE1LjUgNi4yOTY5NyAxNS43NTIyIDUuNTcxNzggMTYuMjIxN0M0Ljk2MzMxIDE2LjYxNTcgNC40OTk1OSAxNy4yNTc2IDQuNDk5NTEgMTguNTgzQzQuNDk5NTEgMjEuMzk0NyA2LjYwNzY2IDIzLjQ5OTggOC45OTk1MSAyMy41QzExLjM5MTUgMjMuNSAxMy40OTk1IDIxLjM5NDkgMTMuNDk5NSAxOC41ODNDMTMuNDk5NSAxOC4yMTQ0IDEzLjQ2MTggMTcuODk5MiAxMy4zOTcgMTcuNjI3TDEzLjM2MTggMTcuNjA1NUwxMy4zNjI4IDE3LjYwNDVWMTcuNjAyNUMxMy4zNjMzIDE3LjYwMTcgMTMuMzY0MSAxNy42MDA2IDEzLjM2NDcgMTcuNTk5NkMxMy4zNjYxIDE3LjU5NzUgMTMuMzY4IDE3LjU5NTMgMTMuMzY5NiAxNy41OTI4QzEzLjM3MyAxNy41ODc1IDEzLjM3NzYgMTcuNTgxMyAxMy4zODIzIDE3LjU3NDJMMTMuMzgzMyAxNy41NzEzQzEzLjIwOTQgMTYuODk4MyAxMi44NTUgMTYuNDk4NiAxMi40MjcyIDE2LjIyMTdDMTEuNzAyIDE1Ljc1MjMgMTAuNTQ5NSAxNS41IDguOTk5NTEgMTUuNVpNMjIuOTk5NSAxNS41QzIxLjQ0OTUgMTUuNSAyMC4yOTcgMTUuNzUyMiAxOS41NzE4IDE2LjIyMTdDMTkuMTQzOSAxNi40OTg3IDE4Ljc4ODUgMTYuODk4NiAxOC42MTQ3IDE3LjU3MjNMMTk.NjE2NyAxNy41NzQyQzE4LjYyMTQgMTcuNTgxMyAxOC42MjYgMTcuNTg3NSAxOC42Mjk0IDE3LjU5MjhDMTguNjMxIDE3LjU5NTMgMTguNjMyOSAxNy41OTc1IDE4LjYzNDMgMTcuNTk5NkMxOC42MzQ5IDE3LjYwMDYgMTguNjM1NyAxNy42MDE3IDE4LjYzNjIgMTcuNjAyNVYxNy42MDQ1TDE4LjYzNzIgMTcuNjA1NUMxOC42MzU4IDE3LjYwNjQgMTguNjI5MSAxNy42MDk2IDE4LjYwMTEgMTcuNjI3QzE4LjUzNjMgMTcuODk5MSAxOC40OTk1IDE4LjIxNDYgMTguNDk5NSAxOC41ODNDMTguNDk5NSAyMS4zOTQ3IDIwLjYwNzcgMjMuNDk5OCAyMi45OTk1IDIzLjVDMjUuMzkxNSAyMy41IDI3LjQ5OTUgMjEuMzk0OSAyNy40OTk1IDE4LjU4M0MyNy40OTk0IDE3LjI1NzQgMjcuMDM1OSAxNi42MTU3IDI2LjQyNzIgMTYuMjIxN0MyNS43MDIgMTUuNzUyMyAyNC41NDk1IDE1LjUgMjIuOTk5NSAxNS41WiIgZmlsbD0iI2ZmZmZmZmZmIi8+Cjwvc3ZnPgo="
+        ],
+        "price_raw": "Starting at $95",
+        "product_name": "Wilkie Eyeglasses in Black Matte Eclipse — Medium",
+        "product_url": null,
+        "rating": "4.3",
+        "review_count": "350"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "details": "Extracted from the main product title and review summary section."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 32.16,
+    "input_tokens": 15500,
+    "output_tokens": 2378,
+    "total_tokens": 17878,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "task_id": "WBV1_GOV_SELL2WALES_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": {
+          "value": "General Practice (GP) Managed Print Services",
+          "provenance": {
+            "selector": ".col-12 h1",
+            "text_quote": "<h1>General Practice (GP) Managed Print Services</h1>"
+          }
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620878",
+          "provenance": {
+            "selector": "<base href=\"https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620878\">",
+            "text_quote": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620878"
+          }
+        },
+        "notice_type": {
+          "value": "UK2",
+          "provenance": {
+            "selector": ".notice-type",
+            "text_quote": "<p class=\"notice-type\">UK2</p>"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-27",
+          "provenance": {
+            "selector": ".publication-dates li:nth-child(1)",
+            "text_quote": "First published: 27 May 2026"
+          }
+        },
+        "last_modified_date": {
+          "value": "2026-05-27",
+          "provenance": {
+            "selector": ".publication-dates li:nth-child(2)",
+            "text_quote": "Last modified: 27 May 2026"
+          }
+        },
+        "authority_id": {
+          "value": "AA81853",
+          "provenance": {
+            "selector": "#ctl00_MainBody_lblAuthorityId",
+            "text_quote": "<dd class=\"col-sm-9\" id=\"ctl00_MainBody_lblAuthorityId\">AA81853</dd>"
+          }
+        },
+        "awarding_agency": {
+          "value": "Digital Health & Care Wales",
+          "provenance": {
+            "selector": "#ctl00_MainBody_lblPublishedBy a",
+            "text_quote": "<a href=\"/Search/Search_AuthProfile.aspx?ID=AA81853\">Digital Health &amp; Care Wales</a>"
+          }
+        },
+        "buyer": {
+          "value": "Digital Health and Care Wales",
+          "provenance": {
+            "selector": ".uk-notice-body h3:nth-child(2)",
+            "text_quote": "<h3>Digital Health and Care Wales</h3>"
+          }
+        },
+        "buyer_address": {
+          "value": "Ty Glan-Yr-Afon, 21 Cowbridge Road East, Cardiff, CF11 9AD, United Kingdom",
+          "provenance": {
+            "selector": ".uk-notice-body p:nth-child(3) ~ p:nth-child(4) ~ p:nth-child(5)",
+            "text_quote": "<p>Address 1: Ty Glan-Yr-Afon, 21 Cowbridge Road East</p><p>Town/City: Cardiff</p><p>Postcode: CF11 9AD</p><p>Country: United Kingdom</p>"
+          }
+        },
+        "contact_name": {
+          "value": "Daniel Gregory",
+          "provenance": {
+            "selector": ".uk-notice-body p:nth-child(6)",
+            "text_quote": "<p>Contact name: Daniel Gregory</p>"
+          }
+        },
+        "contact_information": {
+          "value": "Daniel.Gregory@wales.nhs.uk",
+          "provenance": {
+            "selector": ".uk-notice-body p:nth-child(7)",
+            "text_quote": "<p>Email: <a href=\"mailto:Daniel.Gregory@wales.nhs.uk\">Daniel.Gregory@wales.nhs.uk</a></p>"
+          }
+        },
+        "contract_value": {
+          "value": "7148426.25",
+          "provenance": {
+            "selector": ".uk-notice-body p:nth-child(3)",
+            "text_quote": "<p>7148426.25 GBP Excluding VAT</p>"
+          }
+        },
+        "contract_duration": {
+          "value": "Oct 2028 to Oct 2033 (with potential extension to Oct 2035)",
+          "provenance": {
+            "selector": ".uk-notice-body p:nth-child(4) ~ p",
+            "text_quote": "<p>Contract dates (estimated)</p><p>14 October 2028, 00:00AM to 13 October 2033, 23:59PM</p><p>Extension end date (if all the extensions are used): 13 October 2035</p>"
+          }
+        },
+        "deadline_date": {
+          "value": "2026-07-01",
+          "provenance": {
+            "selector": "#ctl00_MainBody_lblDeadlineDate",
+            "text_quote": "<dd class=\"col-sm-9\" id=\"ctl00_MainBody_lblDeadlineDate\">01 July 2026</dd>"
+          }
+        },
+        "closing_time": {
+          "value": "23:59PM",
+          "provenance": {
+            "selector": "#ctl00_MainBody_lblDeadlineDate",
+            "text_quote": "<dd class=\"col-sm-9\" id=\"ctl00_MainBody_lblDeadlineDate\">01 July 2026</dd>"
+          }
+        },
+        "procurement_reference": {
+          "value": "PRJ-1320",
+          "provenance": {
+            "selector": ".uk-notice-body h3:nth-child(1) + p",
+            "text_quote": "<p>PRJ-1320</p>"
+          }
+        },
+        "procurement_category": {
+          "value": "Services",
+          "provenance": {
+            "selector": ".uk-notice-body h3:nth-child(3) + p",
+            "text_quote": "<p>Services</p>"
+          }
+        },
+        "procurement_nature": {
+          "value": "Goods",
+          "provenance": {
+            "selector": ".uk-notice-body h3:nth-child(4) + p",
+            "text_quote": "<p>Goods</p>"
+          }
+        },
+        "location": {
+          "value": "Wales, United Kingdom",
+          "provenance": {
+            "selector": ".uk-notice-body li:nth-child(1)",
+            "text_quote": "UKL - Wales"
+          }
+        },
+        "tender_reference": {
+          "value": "MAY620878",
+          "provenance": {
+            "selector": ".btn-red-hero",
+            "text_quote": "<button aria-expanded=\"false\" class=\"btn-red-hero download-icon dropdown-toggle\" data-bs-toggle=\"dropdown\" type=\"button\">Download notice: MAY620878</button>"
+          }
+        },
+        "procurement_method": {
+          "value": "Market Engagement",
+          "provenance": {
+            "selector": ".uk-notice-body p:nth-child(1)",
+            "text_quote": "Digital Health Care Wales (DHCW) intends to conduct market engagement with providers who may interested in bidding for the GP Managed Print Service Contract."
+          }
+        },
+        "overview": {
+          "value": "General Practice (GP) Managed Print Services. The current fleet is approximately 7,800 devices, the majority of which require a solution based on USB connectivity. Procurement to cover the following themes: Print Hardware and Installation, Print Consumables, Training and Documentation for Practices, Management of Print Assets and Print Availability (Break/Fix Services), Provision of Print Activity Reporting and Analytics, including reporting by media type at enterprise, site, and device level, to support operational management, cost transparency, and sustainability objectives",
+          "provenance": {
+            "selector": ".uk-notice-body p:nth-child(1) ~ p:nth-child(2)",
+            "text_quote": "General Practice (GP) Managed Print Services. The current fleet is approximately 7,800 devices, the majority of which require a solution based on USB connectivity. Procurement to cover the following themes:\n- Print Hardware and Installation, \n- Print Consumables, \n- Training and Documentation for Practices, \n- Management of Print Assets and Print Availability (Break/Fix Services), \n- Provision of Print Activity Reporting and Analytics, including reporting by media type at enterprise, site, and device level, to support operational management, cost transparency, and sustainability objectives"
+          }
+        },
+        "bidding_details": {
+          "value": "Due date: 01 July 2026, 23:59PM. Has the engagement period already ended?: No",
+          "provenance": {
+            "selector": ".uk-notice-body section:nth-child(4) div p:nth-child(2)",
+            "text_quote": "<p>Due date</p><p>01 July 2026, 23:59PM</p><p>Has the engagement period already ended?</p><p>No</p>"
+          }
+        },
+        "attachments": {
+          "value": "PDF, HTML, XML",
+          "provenance": {
+            "selector": ".dropdown-menu li input[type='submit']",
+            "text_quote": "<input aria-label=\"PDF download\" class=\"dropdown-item\" name=\"ctl00$MainBody$noticeHero$ctl04\" type=\"submit\" value=\"PDF\"/>\n<input aria-label=\"HTML download\" class=\"dropdown-item\" name=\"ctl00$MainBody$noticeHero$ctl05\" type=\"submit\" value=\"HTML\"/>\n<input aria-label=\"XML download\" class=\"dropdown-item\" name=\"ctl00$MainBody$noticeHero$ctl06\" type=\"submit\" value=\"XML\"/>"
+          }
+        },
+        "links": {
+          "value": "https://dhcw.nhs.wales/",
+          "provenance": {
+            "selector": ".uk-notice-body p:nth-child(5) a",
+            "text_quote": "<p>Website: <a href=\"https://dhcw.nhs.wales/\" target=\"_blank\">https://dhcw.nhs.wales/</a></p>"
+          }
+        },
+        "website": {
+          "value": "https://dhcw.nhs.wales/",
+          "provenance": {
+            "selector": ".uk-notice-body p:nth-child(5) a",
+            "text_quote": "<p>Website: <a href=\"https://dhcw.nhs.wales/\" target=\"_blank\">https://dhcw.nhs.wales/</a></p>"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.html",
+        "selector_used": "body"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 37.85,
+    "input_tokens": 19179,
+    "output_tokens": 2772,
+    "total_tokens": 21951,
+    "initial_input_tokens": 19179,
+    "initial_output_tokens": 2772,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

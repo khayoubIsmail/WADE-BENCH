@@ -1,0 +1,54 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.finn.no/boelig-til-salg/skivebakken-19-5018-bergen",
+        "price": {
+          "amount": 1350000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "address": "Skivebakken 19, 5018 Bergen",
+        "property_type": "Leilighet",
+        "bedrooms": 1,
+        "bathrooms": 0.0,
+        "floor_area": {
+          "value": 13,
+          "unit": "m2"
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 6.454,
+    "input_tokens": 6892,
+    "output_tokens": 217,
+    "total_tokens": 7109,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_FINN_EIENDOM_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_FINN_EIENDOM_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_FINN_EIENDOM_002_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

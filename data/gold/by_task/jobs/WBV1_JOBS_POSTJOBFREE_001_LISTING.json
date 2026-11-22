@@ -1,0 +1,1157 @@
+{
+  "task_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING",
+  "website_id": "postjobfree",
+  "schema_id": "job_listing_v1",
+  "snapshot_id": "postjobfree_listing",
+  "snapshot_path": "raw_snapshots/jobs/postjobfree_listing",
+  "live_url": "https://www.postjobfree.com/jobs?q=engineer",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 10
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_001",
+      "fields": {
+        "job_title": {
+          "value": "Mechanical Engineer III",
+          "normalized": "Mechanical Engineer III"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/bwv490/mechanical-engineer-iii-santa-barbara-ca",
+          "normalized": "https://www.postjobfree.com/job/bwv490/mechanical-engineer-iii-santa-barbara-ca"
+        },
+        "company_name": {
+          "value": "LaunchPoint Electric Propulsion Solutions, Inc.",
+          "normalized": "LaunchPoint Electric Propulsion Solutions, Inc."
+        },
+        "location": {
+          "value": "Santa Barbara, CA, 93190",
+          "normalized": "Santa Barbara, CA, 93190"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "job_description": {
+          "value": "... MechanicalEngineerIII LaunchPoint EPS is seeking a multidisciplined and self-motivated MechanicalEngineerIII to join our team in Goleta, CA. The ME III will assist in product development as well as R&D projects. The successful candidate will ...",
+          "normalized": "... MechanicalEngineerIII LaunchPoint EPS is seeking a multidisciplined and self-motivated MechanicalEngineerIII to join our team in Goleta, CA. The ME III will assist in product development as well as R&D projects. The successful candidate will ..."
+        },
+        "date_publication": {
+          "value": "May 23",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bwv490/mechanical-engineer-iii-santa-barbara-ca']",
+          "xpath": "//a[@href='/job/bwv490/mechanical-engineer-iii-santa-barbara-ca']",
+          "text_quote": "Mechanical Engineer III",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bwv490/mechanical-engineer-iii-santa-barbara-ca']",
+          "xpath": "//a[@href='/job/bwv490/mechanical-engineer-iii-santa-barbara-ca']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3 > a[href='/job/bwv490/mechanical-engineer-iii-santa-barbara-ca']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[1]/div/span[1]",
+          "text_quote": "LaunchPoint Electric Propulsion Solutions, Inc.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[1]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[1]/div/span[2]",
+          "text_quote": "Santa Barbara, CA, 93190",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[1]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[1]/div/div/span[2]",
+          "text_quote": "May 23",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[1]/div/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_002",
+      "fields": {
+        "job_title": {
+          "value": "Manufacturing New Product Introduction Engineer II",
+          "normalized": "Manufacturing New Product Introduction Engineer II"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/bwywiw/manufacturing-new-ii-santa-barbara-ca",
+          "normalized": "https://www.postjobfree.com/job/bwywiw/manufacturing-new-ii-santa-barbara-ca"
+        },
+        "company_name": {
+          "value": "LaunchPoint Electric Propulsion Solutions, Inc.",
+          "normalized": "LaunchPoint Electric Propulsion Solutions, Inc."
+        },
+        "location": {
+          "value": "Santa Barbara, CA, 93116",
+          "normalized": "Santa Barbara, CA, 93116"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "job_description": {
+          "value": "... Manufacturing New Product Introduction (NPI)EngineerII LaunchPoint Electric Propulsion Solutions, Inc. is seeking an experienced Manufacturing NPIEngineerII to introduce and develop innovative products for manufacturing, highly efficient ...",
+          "normalized": "... Manufacturing New Product Introduction (NPI)EngineerII LaunchPoint Electric Propulsion Solutions, Inc. is seeking an experienced Manufacturing NPIEngineerII to introduce and develop innovative products for manufacturing, highly efficient ..."
+        },
+        "date_publication": {
+          "value": "May 27",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bwywiw/manufacturing-new-ii-santa-barbara-ca']",
+          "xpath": "//a[@href='/job/bwywiw/manufacturing-new-ii-santa-barbara-ca']",
+          "text_quote": "Manufacturing New Product Introduction Engineer II",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[2]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bwywiw/manufacturing-new-ii-santa-barbara-ca']",
+          "xpath": "//a[@href='/job/bwywiw/manufacturing-new-ii-santa-barbara-ca']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[2]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h3 > a[href='/job/bwywiw/manufacturing-new-ii-santa-barbara-ca']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[2]/div/span[1]",
+          "text_quote": "LaunchPoint Electric Propulsion Solutions, Inc.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[2]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[2]/div/span[2]",
+          "text_quote": "Santa Barbara, CA, 93116",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[2]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[2]/div/div/span[2]",
+          "text_quote": "May 27",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[2]/div/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_003",
+      "fields": {
+        "job_title": {
+          "value": "Quality, Test, & Compliance Engineer",
+          "normalized": "Quality, Test, & Compliance Engineer"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/bopzaq/quality-test-compliance-goleta-ca-93117",
+          "normalized": "https://www.postjobfree.com/job/bopzaq/quality-test-compliance-goleta-ca-93117"
+        },
+        "company_name": {
+          "value": "CMC Rescue Inc",
+          "normalized": "CMC Rescue Inc"
+        },
+        "location": {
+          "value": "Goleta, CA, 93117",
+          "normalized": "Goleta, CA, 93117"
+        },
+        "salary": {
+          "value": "86511USD - 129767USD per year",
+          "normalized": {
+            "min_amount": 86511.0,
+            "max_amount": 129767.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            },
+            "period": "year"
+          }
+        },
+        "job_description": {
+          "value": "Job Description Job Title: Quality, Test, & ComplianceEngineer- Specialist As a leader in life safety equipment and an employee-owned company, we combine purpose-driven innovation with a culture of ownership. Every team member has a voice, a stake ...",
+          "normalized": "Job Description Job Title: Quality, Test, & ComplianceEngineer- Specialist As a leader in life safety equipment and an employee-owned company, we combine purpose-driven innovation with a culture of ownership. Every team member has a voice, a stake ..."
+        },
+        "date_publication": {
+          "value": "May 27",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bopzaq/quality-test-compliance-goleta-ca-93117']",
+          "xpath": "//a[@href='/job/bopzaq/quality-test-compliance-goleta-ca-93117']",
+          "text_quote": "Quality, Test, & Compliance Engineer",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[3]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bopzaq/quality-test-compliance-goleta-ca-93117']",
+          "xpath": "//a[@href='/job/bopzaq/quality-test-compliance-goleta-ca-93117']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[3]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > h3 > a[href='/job/bopzaq/quality-test-compliance-goleta-ca-93117']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[3]/div/span[1]",
+          "text_quote": "CMC Rescue Inc",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[3]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[3]/div/span[2]",
+          "text_quote": "Goleta, CA, 93117",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[3]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[3]/div/div[1]",
+          "text_quote": "86511USD - 129767USD per year",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[3]/div/div[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[3]/div/div[2]/span[2]",
+          "text_quote": "May 27",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[3]/div/div[2]/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2) > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_004",
+      "fields": {
+        "job_title": {
+          "value": "Lead Mechanical Engineer",
+          "normalized": "Lead Mechanical Engineer"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/bpdkh3/lead-mechanical-engineer-new-haven-ct",
+          "normalized": "https://www.postjobfree.com/job/bpdkh3/lead-mechanical-engineer-new-haven-ct"
+        },
+        "company_name": {
+          "value": "proteowise inc.",
+          "normalized": "proteowise inc."
+        },
+        "location": {
+          "value": "New Haven, CT, 06511",
+          "normalized": "New Haven, CT, 06511"
+        },
+        "salary": {
+          "value": "90000USD - 120000USD per year",
+          "normalized": {
+            "min_amount": 90000.0,
+            "max_amount": 120000.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            },
+            "period": "year"
+          }
+        },
+        "job_description": {
+          "value": "... \u00b7 Successful track record of commercial launch, especially launching fluidic, microfluid disposables a plus \u00b7 BS Mechanical or BS BiomedicalEngineer. MS or PhD a plus. \u00b7 5 years industry experience. More a plus. Full-time",
+          "normalized": "... \u00b7 Successful track record of commercial launch, especially launching fluidic, microfluid disposables a plus \u00b7 BS Mechanical or BS BiomedicalEngineer. MS or PhD a plus. \u00b7 5 years industry experience. More a plus. Full-time"
+        },
+        "date_publication": {
+          "value": "May 27",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bpdkh3/lead-mechanical-engineer-new-haven-ct']",
+          "xpath": "//a[@href='/job/bpdkh3/lead-mechanical-engineer-new-haven-ct']",
+          "text_quote": "Lead Mechanical Engineer",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[4]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bpdkh3/lead-mechanical-engineer-new-haven-ct']",
+          "xpath": "//a[@href='/job/bpdkh3/lead-mechanical-engineer-new-haven-ct']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[4]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > h3 > a[href='/job/bpdkh3/lead-mechanical-engineer-new-haven-ct']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[4]/div/span[1]",
+          "text_quote": "proteowise inc.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[4]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[4]/div/span[2]",
+          "text_quote": "New Haven, CT, 06511",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[4]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[4]/div/div[1]",
+          "text_quote": "90000USD - 120000USD per year",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[4]/div/div[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[4]/div/div[2]/span[2]",
+          "text_quote": "May 27",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[4]/div/div[2]/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div > div:nth-of-type(2) > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_005",
+      "fields": {
+        "job_title": {
+          "value": "Mechanical Engineer III",
+          "normalized": "Mechanical Engineer III"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/bwot5z/mechanical-engineer-iii-santa-barbara-ca",
+          "normalized": "https://www.postjobfree.com/job/bwot5z/mechanical-engineer-iii-santa-barbara-ca"
+        },
+        "company_name": {
+          "value": "LaunchPoint Electric Propulsion Solutions, Inc.",
+          "normalized": "LaunchPoint Electric Propulsion Solutions, Inc."
+        },
+        "location": {
+          "value": "Santa Barbara, CA, 93116",
+          "normalized": "Santa Barbara, CA, 93116"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "job_description": {
+          "value": "... MechanicalEngineerIII LaunchPoint EPS is seeking a multidisciplined and self-motivated MechanicalEngineerIII to join our team in Goleta, CA. The ME III will assist in product development as well as R&D projects. The successful candidate will ...",
+          "normalized": "... MechanicalEngineerIII LaunchPoint EPS is seeking a multidisciplined and self-motivated MechanicalEngineerIII to join our team in Goleta, CA. The ME III will assist in product development as well as R&D projects. The successful candidate will ..."
+        },
+        "date_publication": {
+          "value": "May 23",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bwot5z/mechanical-engineer-iii-santa-barbara-ca']",
+          "xpath": "//a[@href='/job/bwot5z/mechanical-engineer-iii-santa-barbara-ca']",
+          "text_quote": "Mechanical Engineer III",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[5]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bwot5z/mechanical-engineer-iii-santa-barbara-ca']",
+          "xpath": "//a[@href='/job/bwot5z/mechanical-engineer-iii-santa-barbara-ca']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[5]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > h3 > a[href='/job/bwot5z/mechanical-engineer-iii-santa-barbara-ca']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[5]/div/span[1]",
+          "text_quote": "LaunchPoint Electric Propulsion Solutions, Inc.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[5]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[5]/div/span[2]",
+          "text_quote": "Santa Barbara, CA, 93116",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[5]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[5]/div/div/span[2]",
+          "text_quote": "May 23",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[5]/div/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_006",
+      "fields": {
+        "job_title": {
+          "value": "Manufacturing Engineer",
+          "normalized": "Manufacturing Engineer"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/bybnu2/manufacturing-engineer-san-jose-ca",
+          "normalized": "https://www.postjobfree.com/job/bybnu2/manufacturing-engineer-san-jose-ca"
+        },
+        "company_name": {
+          "value": "Stealth Battery Startup",
+          "normalized": "Stealth Battery Startup"
+        },
+        "location": {
+          "value": "San Jose, CA",
+          "normalized": "San Jose, CA"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "job_description": {
+          "value": "... About the Role We are seeking a motivated ManufacturingEngineerto drive process development of a novel battery technology. In this role, you will design, execute, and analyze experiments to deepen our understanding of process-design-material ...",
+          "normalized": "... About the Role We are seeking a motivated ManufacturingEngineerto drive process development of a novel battery technology. In this role, you will design, execute, and analyze experiments to deepen our understanding of process-design-material ..."
+        },
+        "date_publication": {
+          "value": "May 27",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bybnu2/manufacturing-engineer-san-jose-ca']",
+          "xpath": "//a[@href='/job/bybnu2/manufacturing-engineer-san-jose-ca']",
+          "text_quote": "Manufacturing Engineer",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[6]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bybnu2/manufacturing-engineer-san-jose-ca']",
+          "xpath": "//a[@href='/job/bybnu2/manufacturing-engineer-san-jose-ca']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[6]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > h3 > a[href='/job/bybnu2/manufacturing-engineer-san-jose-ca']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[6]/div/span[1]",
+          "text_quote": "Stealth Battery Startup",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[6]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[6]/div/span[2]",
+          "text_quote": "San Jose, CA",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[6]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[6]/div/div/span[2]",
+          "text_quote": "May 27",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[6]/div/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_007",
+      "fields": {
+        "job_title": {
+          "value": "Senior ASIC Design Engineer",
+          "normalized": "Senior ASIC Design Engineer"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/bwjvgc/senior-asic-design-engineer-san-jose-ca",
+          "normalized": "https://www.postjobfree.com/job/bwjvgc/senior-asic-design-engineer-san-jose-ca"
+        },
+        "company_name": {
+          "value": "InnoGrit Corporation",
+          "normalized": "InnoGrit Corporation"
+        },
+        "location": {
+          "value": "San Jose, CA",
+          "normalized": "San Jose, CA"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "job_description": {
+          "value": "Position: Senior ASIC DesignEngineerLocation: San Jose What We OfferOpportunity to work on cutting-edge AI-SSD architectureHigh-impact role in next-generation storage innovationCollaborative and fast-paced engineering culture Responsibilities 1. ...",
+          "normalized": "Position: Senior ASIC DesignEngineerLocation: San Jose What We OfferOpportunity to work on cutting-edge AI-SSD architectureHigh-impact role in next-generation storage innovationCollaborative and fast-paced engineering culture Responsibilities 1. ..."
+        },
+        "date_publication": {
+          "value": "May 27",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bwjvgc/senior-asic-design-engineer-san-jose-ca']",
+          "xpath": "//a[@href='/job/bwjvgc/senior-asic-design-engineer-san-jose-ca']",
+          "text_quote": "Senior ASIC Design Engineer",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[7]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bwjvgc/senior-asic-design-engineer-san-jose-ca']",
+          "xpath": "//a[@href='/job/bwjvgc/senior-asic-design-engineer-san-jose-ca']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[7]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > h3 > a[href='/job/bwjvgc/senior-asic-design-engineer-san-jose-ca']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[7]/div/span[1]",
+          "text_quote": "InnoGrit Corporation",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[7]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[7]/div/span[2]",
+          "text_quote": "San Jose, CA",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[7]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[7]/div/div/span[2]",
+          "text_quote": "May 27",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[7]/div/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_008",
+      "fields": {
+        "job_title": {
+          "value": "Process Engineer",
+          "normalized": "Process Engineer"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/bp35fb/process-engineer-seymour-ct-06483",
+          "normalized": "https://www.postjobfree.com/job/bp35fb/process-engineer-seymour-ct-06483"
+        },
+        "company_name": {
+          "value": "Microboard",
+          "normalized": "Microboard"
+        },
+        "location": {
+          "value": "Seymour, CT, 06483",
+          "normalized": "Seymour, CT, 06483"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "job_description": {
+          "value": "ProcessEngineerCT - Seymour, CT 06483 Description ProcessEngineerI The ProcessEngineerI works under the direct supervision of the Director of Engineering. Process engineers provide support to their leadership throughout the design and ...",
+          "normalized": "ProcessEngineerCT - Seymour, CT 06483 Description ProcessEngineerI The ProcessEngineerI works under the direct supervision of the Director of Engineering. Process engineers provide support to their leadership throughout the design and ..."
+        },
+        "date_publication": {
+          "value": "May 12",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bp35fb/process-engineer-seymour-ct-06483']",
+          "xpath": "//a[@href='/job/bp35fb/process-engineer-seymour-ct-06483']",
+          "text_quote": "Process Engineer",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[8]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/bp35fb/process-engineer-seymour-ct-06483']",
+          "xpath": "//a[@href='/job/bp35fb/process-engineer-seymour-ct-06483']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[8]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > h3 > a[href='/job/bp35fb/process-engineer-seymour-ct-06483']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[8]/div/span[1]",
+          "text_quote": "Microboard",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[8]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[8]/div/span[2]",
+          "text_quote": "Seymour, CT, 06483",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[8]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > div > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[8]/div/div/span[2]",
+          "text_quote": "May 12",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[8]/div/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > div > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_009",
+      "fields": {
+        "job_title": {
+          "value": "Automation Engineer (Intern)",
+          "normalized": "Automation Engineer (Intern)"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/byb91r/automation-engineer-milpitas-ca-95035",
+          "normalized": "https://www.postjobfree.com/job/byb91r/automation-engineer-milpitas-ca-95035"
+        },
+        "company_name": {
+          "value": "Six Sigma Services",
+          "normalized": "Six Sigma Services"
+        },
+        "location": {
+          "value": "Milpitas, CA, 95035",
+          "normalized": "Milpitas, CA, 95035"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "job_description": {
+          "value": "... We are currently hiring an AutomationEngineer(Intern). Position Summary: Join our diverse team of engineers to design, assemble, and release a wide variety of custom equipment to our on-site manufacturing line. Take ownership of a project as you ...",
+          "normalized": "... We are currently hiring an AutomationEngineer(Intern). Position Summary: Join our diverse team of engineers to design, assemble, and release a wide variety of custom equipment to our on-site manufacturing line. Take ownership of a project as you ..."
+        },
+        "date_publication": {
+          "value": "May 27",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/byb91r/automation-engineer-milpitas-ca-95035']",
+          "xpath": "//a[@href='/job/byb91r/automation-engineer-milpitas-ca-95035']",
+          "text_quote": "Automation Engineer (Intern)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[9]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/byb91r/automation-engineer-milpitas-ca-95035']",
+          "xpath": "//a[@href='/job/byb91r/automation-engineer-milpitas-ca-95035']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[9]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > h3 > a[href='/job/byb91r/automation-engineer-milpitas-ca-95035']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[9]/div/span[1]",
+          "text_quote": "Six Sigma Services",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[9]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[9]/div/span[2]",
+          "text_quote": "Milpitas, CA, 95035",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[9]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[9]/div/div/span[2]",
+          "text_quote": "May 27",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[9]/div/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_POSTJOBFREE_001_LISTING_010",
+      "fields": {
+        "job_title": {
+          "value": "Network Engineer",
+          "normalized": "Network Engineer"
+        },
+        "job_url": {
+          "value": "https://www.postjobfree.com/job/btxre2/network-engineer-west-haven-ct",
+          "normalized": "https://www.postjobfree.com/job/btxre2/network-engineer-west-haven-ct"
+        },
+        "company_name": {
+          "value": "Omni Data, LLC",
+          "normalized": "Omni Data, LLC"
+        },
+        "location": {
+          "value": "West Haven, CT, 06516",
+          "normalized": "West Haven, CT, 06516"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "job_description": {
+          "value": "... Job Description Omni is looking for a motivated NetworkEngineer. This is an engineering and troubleshooting position supporting a large and diverse customer base. We are looking for a very personable, motivated, responsible and tech savvy ...",
+          "normalized": "... Job Description Omni is looking for a motivated NetworkEngineer. This is an engineering and troubleshooting position supporting a large and diverse customer base. We are looking for a very personable, motivated, responsible and tech savvy ..."
+        },
+        "date_publication": {
+          "value": "May 27",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/btxre2/network-engineer-west-haven-ct']",
+          "xpath": "//a[@href='/job/btxre2/network-engineer-west-haven-ct']",
+          "text_quote": "Network Engineer",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[10]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "job_url": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "a[href='/job/btxre2/network-engineer-west-haven-ct']",
+          "xpath": "//a[@href='/job/btxre2/network-engineer-west-haven-ct']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[10]/h3/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > h3 > a[href='/job/btxre2/network-engineer-west-haven-ct']",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_attr_match_reanchored"
+        },
+        "company_name": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div > span:nth-of-type(1)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[10]/div/span[1]",
+          "text_quote": "Omni Data, LLC",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[10]/div/span[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div > span:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "location": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[10]/div/span[2]",
+          "text_quote": "West Haven, CT, 06516",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[10]/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        },
+        "salary": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "job_description": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not found in static page.html; provenance not verifiable from frozen DOM"
+        },
+        "date_publication": {
+          "snapshot_id": "postjobfree_listing",
+          "css_selector": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div > div > span:nth-of-type(2)",
+          "xpath": "/html/body/div/div[2]/div[2]/div[10]/div/div/span[2]",
+          "text_quote": "May 27",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[2]/div[2]/div[10]/div/div/span[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div > div > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "existing_text_match_reanchored"
+        }
+      }
+    }
+  ]
+}

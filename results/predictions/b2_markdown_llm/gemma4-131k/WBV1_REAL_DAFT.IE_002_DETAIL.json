@@ -1,0 +1,54 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "N/A (Implied from context)",
+        "address": "14 Riverwood Place, Castleknock, Dublin 15, D15R9T0",
+        "property_type": "House",
+        "price": {
+          "amount": 595000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 130,
+          "unit": "m2"
+        },
+        "energy_rating": "B2",
+        "listing_title": null,
+        "description": "DNG is delighted to present 14 Riverwood Place to the market. This exceptional, larger-style family home is ideally nestled in a quiet enclave of only seventeen houses. Featuring an impressive attic conversion and an extensive south-facing rear garden, this property offers an attractive opportunity for discerning purchasers. The interior consists of light-filled living spaces throughout. Accommodation includes an entrance hall with a guest toilet, living room, dining room and kitchen / breakfast room with a complementing utility room. On the first floor, there are three bedrooms, including a master en-suite and a family bathroom. Additionally, the attic has been impressively converted and includes its own toilet. The layout and quality finish make this a perfect turn-key solution for families. The exterior features well-appointed gardens, including a secluded 15m / 50ft south-facing rear garden with gated side access. The front driveway provides off-street parking, with additional parking available around this quiet enclave. Riverwood is excellently located near Castleknock and Blanchardstown villages, the Blanchardstown Shopping Centre and the Phoenix Park. The area is well-serviced by buses and is a 10-minute walk from Coolmine Train Station. The M3, M50, Dublin City Centre and Dublin Airport are all easily accessible. The property falls within the catchment area for Castleknock Community College and other reputable schools. Viewing is highly recommended.",
+        "additional_facilities": [
+          "off-street parking",
+          "additional parking available around this quiet enclave"
+        ],
+        "images_urls": [
+          "/static/images/daft-logo.svg"
+        ]
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "14 Riverwood Place, Castleknock, Dublin 15, D15R9T0 €595,000 3 Bed 4 Bath 130 m² Semi-D"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 10.258,
+    "input_tokens": 14333,
+    "output_tokens": 632,
+    "total_tokens": 14965,
+    "repaired": false,
+    "error": null
+  }
+}

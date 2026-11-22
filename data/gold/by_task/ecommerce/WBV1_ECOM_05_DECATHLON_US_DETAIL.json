@@ -1,0 +1,284 @@
+{
+  "task_id": "WBV1_ECOM_05_DECATHLON_US_DETAIL",
+  "website_id": "decathlon_us",
+  "schema_id": "product_detail_v1",
+  "snapshot_id": "decathlon_us_detail_sample",
+  "snapshot_path": "raw_snapshots/ecommerce/decathlon_us_detail_sample",
+  "live_url": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ECOM_05_DECATHLON_US_DETAIL_001",
+      "fields": {
+        "product_name": {
+          "value": "Quechua NH100 Arpenaz 10 L Hiking Backpack",
+          "normalized": "Quechua NH100 Arpenaz 10 L Hiking Backpack"
+        },
+        "price_raw": {
+          "value": "$19.99",
+          "normalized": {
+            "amount": 19.99,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "description": {
+          "value": "This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort.",
+          "normalized": "This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort."
+        },
+        "brand": {
+          "value": "Quechua",
+          "normalized": "Quechua"
+        },
+        "color": {
+          "value": "Black",
+          "normalized": "Black"
+        },
+        "rating": {
+          "value": "4.8",
+          "normalized": 4.8
+        },
+        "review_count": {
+          "value": "18045\n          reviews",
+          "normalized": 18045
+        },
+        "sku": {
+          "value": "ID 8775634",
+          "normalized": "ID 8775634"
+        },
+        "image_url": {
+          "value": "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg",
+          "normalized": "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg"
+        },
+        "availability": {
+          "value": null,
+          "normalized": null
+        },
+        "first_review_title": {
+          "value": "The 10L WITH bottle slot",
+          "normalized": "The 10L WITH bottle slot"
+        },
+        "first_review_content": {
+          "value": "There are now two Quechua 10L Hiking Backpacks, one for $5.99 and one for $9.99. The appearance and quality and features are much better on this $9.99 one that has an external mesh bottle slot, plus interior zipper slot, plus better straps and rear panel padding. It's the bougie edition. Highly recommended for flights. Note that for occasional use the original lacks features and bougie-appeal, but folds flatter in your carryon.",
+          "normalized": "There are now two Quechua 10L Hiking Backpacks, one for $5.99 and one for $9.99. The appearance and quality and features are much better on this $9.99 one that has an external mesh bottle slot, plus interior zipper slot, plus better straps and rear panel padding. It's the bougie edition. Highly recommended for flights. Note that for occasional use the original lacks features and bougie-appeal, but folds flatter in your carryon."
+        },
+        "capacity_or_size": {
+          "value": "10 L",
+          "normalized": "10 L"
+        },
+        "key_features": {
+          "value": null,
+          "normalized": null
+        },
+        "color_options": {
+          "value": [
+            "Black",
+            "Slate Blue",
+            "Yellow Ochre",
+            "Dark Green",
+            "Golden Brown"
+          ],
+          "normalized": [
+            "Black",
+            "Slate Blue",
+            "Yellow Ochre",
+            "Dark Green",
+            "Golden Brown"
+          ]
+        },
+        "image_urls": {
+          "value": [
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423260.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423258.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423261.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423259.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423262.jpg"
+          ],
+          "normalized": [
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423260.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423258.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423261.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423259.jpg",
+            "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2423262.jpg"
+          ]
+        },
+        "product_url": {
+          "value": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147",
+          "normalized": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "a.link",
+          "xpath": "//*[@id='ProductInformation-template--18434715287614__main']/div[1]/div[2]/div[1]/a[1]",
+          "text_quote": "Quechua NH100 Arpenaz 10 L Hiking Backpack",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/div[2]/div/div[2]/div/div[2]/div[1]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "span.price-item--regular.compare-at-price",
+          "xpath": "//*[@id='product-card-AS1pMWUs4VWN2WXN5Q__static-product-card-3']/div[1]/product-price[1]/div[1]/div[2]/span[2]/span[2]",
+          "text_quote": "$19.99",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[3]/product-recommendations/div[2]/div[2]/div/slideshow-component/slideshow-container/slideshow-slides/slideshow-slide[4]/div/product-card/div/product-price/div/div[2]/span[2]/span[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(3) > product-recommendations:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > slideshow-component:nth-of-type(1) > slideshow-container:nth-of-type(1) > slideshow-slides:nth-of-type(1) > slideshow-slide:nth-of-type(4) > div:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(1) > product-price:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "description": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "span.metafield-multi_line_text_field",
+          "xpath": "//*[@id='ProductInformation-template--18434715287614__main']/div[1]/div[2]/rte-formatter[1]/h5[1]/span[1]",
+          "text_quote": "This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/div[2]/div/div[2]/div/div[2]/rte-formatter/h5/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > rte-formatter:nth-of-type(1) > h5:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "brand": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "a.link",
+          "xpath": "//*[@id='ProductInformation-template--18434715287614__main']/div[1]/div[2]/div[1]/a[1]",
+          "text_quote": "Quechua",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/div[2]/div/div[2]/div/div[2]/div[1]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "color": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "span.variant-option__swatch-value",
+          "xpath": "//*[@id='ProductInformation-template--18434715287614__main']/div[1]/div[2]/variant-picker[1]/form[1]/fieldset[1]/legend[1]/span[1]/span[1]",
+          "text_quote": "Black",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/div[2]/div/div[2]/div/div[2]/variant-picker/form/fieldset/legend/span/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > variant-picker:nth-of-type(1) > form:nth-of-type(1) > fieldset:nth-of-type(1) > legend:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "div#averageRating",
+          "xpath": "//*[@id='averageRating']",
+          "text_quote": "4.8",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section/div/div[2]/div[1]/div[1]/div[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "review_count": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "p.rating-count.paragraph",
+          "xpath": "//*[@id='ProductInformation-template--18434715287614__main']/div[1]/div[2]/div[2]/div[2]/div[3]/p[1]",
+          "text_quote": "18045 reviews",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "sku": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "div#pdpModelCode",
+          "xpath": "//*[@id='pdpModelCode']",
+          "text_quote": "ID 8775634",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/div[2]/div/div[2]/div/div[2]/div[4]/div",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1)"
+        },
+        "first_review_title": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "h3.pdp-reviews__review-title.font-title-m",
+          "xpath": "//*[@id='reviewsList']/div[1]/h3[1]",
+          "text_quote": "The 10L WITH bottle slot",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section/div/div[2]/div[2]/div[1]/h3",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)"
+        },
+        "first_review_content": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "p.pdp-reviews__review-text",
+          "xpath": "//*[@id='reviewsList']/div[1]/p[1]",
+          "text_quote": "There are now two Quechua 10L Hiking Backpacks, one for $5.99 and one for $9.99. The appearance and quality and features",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section/div/div[2]/div[2]/div[1]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "capacity_or_size": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "a.link",
+          "xpath": "//*[@id='ProductInformation-template--18434715287614__main']/div[1]/div[2]/div[1]/a[1]",
+          "text_quote": "10 L",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/div[2]/div/div[2]/div/div[2]/div[1]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "color_options": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "span.variant-option__swatch-value",
+          "xpath": "//*[@id='ProductInformation-template--18434715287614__main']/div[1]/div[2]/variant-picker[1]/form[1]/fieldset[1]/legend[1]/span[1]/span[1]",
+          "text_quote": "Black",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/div[2]/div/div[2]/div/div[2]/variant-picker/form/fieldset/legend/span/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > variant-picker:nth-of-type(1) > form:nth-of-type(1) > fieldset:nth-of-type(1) > legend:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "meta[content*='1712059796']",
+          "xpath": "//meta[@content='http://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg?v=1712059796']",
+          "text_quote": null,
+          "attribute": "content",
+          "xpath_absolute": "/html/head/meta[11]",
+          "css_selector_absolute": "html > head > meta:nth-of-type(11)"
+        },
+        "availability": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "key_features": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "image_urls": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "meta[content*='1712059796']",
+          "xpath": "//meta[@content='http://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg?v=1712059796']",
+          "text_quote": null,
+          "attribute": "content",
+          "xpath_absolute": "/html/head/meta[11]",
+          "css_selector_absolute": "html > head > meta:nth-of-type(11)"
+        },
+        "product_url": {
+          "snapshot_id": "decathlon_us_detail_sample",
+          "css_selector": "a[href*='40129897988158']",
+          "xpath": "//a[contains(@href,'40129897988158')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/div[1]/div[2]/div/div[2]/div/div[2]/div[1]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

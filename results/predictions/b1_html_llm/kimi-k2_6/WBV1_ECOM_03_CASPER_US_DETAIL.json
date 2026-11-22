@@ -1,0 +1,201 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Casper",
+        "description": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love.",
+        "image_urls": [
+          "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=2048",
+          "https://casper.com/cdn/shop/files/The-One-PDP-Grid2-Feel.jpg?v=1773690918&width=1920",
+          "https://casper.com/cdn/shop/files/The-One-PDP-grid3-RTBs.jpg?v=1773690918&width=1920",
+          "https://casper.com/cdn/shop/files/The-One-PDP-grid4-Layers.jpg?v=1773690918&width=1920",
+          "https://casper.com/cdn/shop/files/The-One-PDP-grid5-Lifestyle.jpg?v=1773690918&width=1920",
+          "https://casper.com/cdn/shop/files/Mattress-PDP-Badges.jpg?v=1773690991&width=3580"
+        ],
+        "price_raw": "$799",
+        "product_name": "The One",
+        "product_url": "https://casper.com/products/casper-one-foam?variant=41670971261009",
+        "rating": "4.4",
+        "review_count": "17796",
+        "availability": "InStock",
+        "color": null,
+        "discount_percentage": "20%",
+        "first_review": null,
+        "image_url": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=2048",
+        "shipping_text": "In-stock, ships in 2-3 business days | Free shipping & returns",
+        "size_or_volume": "Queen",
+        "sku": "CASPRONEMATQUEEN",
+        "available_colors": null,
+        "available_sizes": [
+          "Twin",
+          "Twin XL",
+          "Full",
+          "Queen",
+          "King",
+          "California King",
+          "Split King"
+        ],
+        "available_widths": null,
+        "capacity_or_size": null,
+        "care": null,
+        "color_name": null,
+        "color_options": null,
+        "colors_options": null,
+        "currency": "USD",
+        "first_review_content": null,
+        "first_review_details": null,
+        "first_review_rating": null,
+        "first_review_text": null,
+        "first_review_title": null,
+        "fit": null,
+        "foam_model": "The One",
+        "key_features": [
+          "Cozy Cover",
+          "Breathable Foams"
+        ],
+        "material": null,
+        "materials": [
+          "Top layer of breathable polyurethane foam",
+          "Second layer of memory foam",
+          "Durable base of polyurethane foam"
+        ],
+        "measurements": "60\" W x 80\" L x 11\" H",
+        "old_price_raw": "$999",
+        "price": 799.0,
+        "selected_width": null,
+        "seller_name": "Casper Sleep",
+        "shipping_info": "Free shipping & returns",
+        "short_description": "Premium Foam Mattress",
+        "style_color": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Casper Sleep"
+        },
+        "description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[name='description']",
+          "text_quote": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love."
+        },
+        "image_urls": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-gallery img",
+          "text_quote": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=2048"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "sale-price.text-lg.text-on-sale",
+          "text_quote": "$799"
+        },
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "h1.h2",
+          "text_quote": "The One"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "link[rel='canonical']",
+          "text_quote": "https://casper.com/products/casper-one-foam"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".yotpo-sr-bottom-line-score",
+          "text_quote": "4.4"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".yotpo-sr-bottom-line-text--right-panel",
+          "text_quote": "(17796)"
+        },
+        "availability": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[type='application/ld+json']",
+          "text_quote": "\"availability\":\"http://schema.org/InStock\""
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "on-sale-badge.badge--on-sale",
+          "text_quote": "SAVE 20%"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:image']",
+          "text_quote": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=2048"
+        },
+        "shipping_text": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pdp-msbd-msg",
+          "text_quote": "In-stock, ships in 2-3 business days | Free shipping & returns"
+        },
+        "size_or_volume": {
+          "source": "page.html",
+          "css_selector_or_xpath": "label.block-swatch.is-selected span.variant-badge-title",
+          "text_quote": "Queen"
+        },
+        "sku": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-variant-id='41670971261009']",
+          "text_quote": "CASPRONEMATQUEEN"
+        },
+        "available_sizes": {
+          "source": "page.html",
+          "css_selector_or_xpath": "input[name*='option1'] + label span.variant-badge-title",
+          "text_quote": "Twin, Twin XL, Full, Queen, King, California King, Split King"
+        },
+        "materials": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".accordion__content ul li",
+          "text_quote": "Top layer of breathable polyurethane foam, Second layer of memory foam, Durable base of polyurethane foam"
+        },
+        "measurements": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".accordion__content h6 + p",
+          "text_quote": "60\" W x 80\" L x 11\" H"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "compare-at-price.text-lg.text-subdued.line-through",
+          "text_quote": "$999"
+        },
+        "price": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='product:price:amount']",
+          "text_quote": "999.00"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-info__text strong",
+          "text_quote": "Premium Foam Mattress"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='product:price:currency']",
+          "text_quote": "USD"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 109.042,
+    "input_tokens": 200645,
+    "output_tokens": 1389,
+    "total_tokens": 202034,
+    "initial_input_tokens": 200645,
+    "initial_output_tokens": 1389,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

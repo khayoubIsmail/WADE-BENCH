@@ -1,0 +1,275 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Allbirds",
+        "description": "Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with everything.",
+        "image_urls": [
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_LEFT_df58554d-c598-43ea-8ec2-e1f1c0155ccf.png?v=1768955521",
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_BACK_41a00c46-98de-480a-a6e0-a68a6cf09a5b.png?v=1768955521",
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_TD_a5e9e107-fce3-40e1-bbda-4020c586334a.png?v=1768955522",
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_SOLE_8604c34f-2e60-45ae-9368-627fd980a9c8.png?v=1768955521",
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_PAIR_3Q_ace4d1cc-c23b-4831-8ca3-02d7d372cbe9.png?v=1768955522"
+        ],
+        "price_raw": "$75",
+        "product_name": "Men's Canvas Cruiser",
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas",
+        "rating": 4.0,
+        "review_count": 29,
+        "availability": "InStock",
+        "color": "Anthracite (Natural White Sole)",
+        "currency": "USD",
+        "first_review": null,
+        "image_url": "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_LEFT_df58554d-c598-43ea-8ec2-e1f1c0155ccf.png?v=1768955521",
+        "shipping_text": "+ Free shipping",
+        "size_or_volume": null,
+        "sku": "A12415M080",
+        "available_colors": [
+          "Anthracite",
+          "Blizzard",
+          "Warm White",
+          "True Navy",
+          "Sea Spray",
+          "Mushroom",
+          "Chestnut",
+          "Burnt Olive",
+          "Auburn",
+          "Soft Eucalyptus",
+          "Port",
+          "Nautical Gold",
+          "Deep Navy Stripes",
+          "Stormy Lilac",
+          "Dusty Pink"
+        ],
+        "available_sizes": [
+          "8",
+          "8.5",
+          "9",
+          "9.5",
+          "10",
+          "10.5",
+          "11",
+          "11.5",
+          "12",
+          "12.5",
+          "13",
+          "13.5",
+          "14"
+        ],
+        "available_widths": null,
+        "capacity_or_size": null,
+        "care": "Yes, they're machine washable. Remove the insoles, hand wash those separately, and let everything air dry. Fresh again.",
+        "color_name": "Anthracite",
+        "color_options": null,
+        "colors_options": null,
+        "discount_percentage": null,
+        "first_review_content": null,
+        "first_review_details": null,
+        "first_review_rating": null,
+        "first_review_text": null,
+        "first_review_title": null,
+        "fit": "The Cruiser Canvas fits true-to-size for most customers.",
+        "foam_model": null,
+        "key_features": [
+          "Hemp and organic cotton canvas upper is light, breathable, and durable",
+          "Merino wool-blend lining for softness, socks optional",
+          "Sugarcane-based SweetFoam® cushioning with responsive energy return",
+          "Plush Featherbed™ memory foam insole for extra comfort and bounce"
+        ],
+        "material": "Canvas",
+        "materials": [
+          "Canvas upper made from a breathable blend of hemp and organic cotton",
+          "SweetFoam® sugarcane-based EVA foam provides comfort and durability while being light on the planet",
+          "Merino wool blend lining for uncompromising comfort and softness"
+        ],
+        "measurements": null,
+        "old_price_raw": null,
+        "price": 75.0,
+        "selected_width": null,
+        "seller_name": "Allbirds",
+        "shipping_info": "Free Shipping on Orders over $75",
+        "short_description": "Lightweight canvas sneakers made with breathable hemp and organic cotton. Cushioned comfort, easy style, and all-day wearability.",
+        "style_color": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "description": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "meta[property='og:description']",
+          "text_quote_or_attribute": "Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with everything."
+        },
+        "image_urls": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "script[type='application/ld+json']",
+          "text_quote_or_attribute": "\"image\":\"https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_LEFT_df58554d-c598-43ea-8ec2-e1f1c0155ccf.png%3Fv=1768955521%26width=1000\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "div[data-product-price='$75']",
+          "text_quote_or_attribute": "$75"
+        },
+        "product_name": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "h1",
+          "text_quote_or_attribute": "Men's Canvas Cruiser"
+        },
+        "product_url": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "link[rel='canonical']",
+          "text_quote_or_attribute": "https://www.allbirds.com/products/mens-cruiser-canvas"
+        },
+        "rating": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "script[type='application/ld+json']",
+          "text_quote_or_attribute": "\"ratingValue\":4"
+        },
+        "review_count": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "script[type='application/ld+json']",
+          "text_quote_or_attribute": "\"reviewCount\":29"
+        },
+        "availability": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "script[type='application/ld+json']",
+          "text_quote_or_attribute": "\"availability\":\"https://schema.org/InStock\""
+        },
+        "color": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "div[data-product-color='Anthracite (Natural White Sole)']",
+          "text_quote_or_attribute": "Anthracite (Natural White Sole)"
+        },
+        "currency": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "script[type='application/ld+json']",
+          "text_quote_or_attribute": "\"priceCurrency\":\"USD\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "meta[property='og:image']",
+          "text_quote_or_attribute": "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_LEFT_df58554d-c598-43ea-8ec2-e1f1c0155ccf.png?v=1768955521"
+        },
+        "shipping_text": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "span.font-geograph",
+          "text_quote_or_attribute": "+ Free shipping"
+        },
+        "sku": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "li[data-variant-sku='A12415M080']",
+          "text_quote_or_attribute": "A12415M080"
+        },
+        "available_colors": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "button[data-color-swatch]",
+          "text_quote_or_attribute": "Anthracite,Blizzard,Warm White,True Navy,Sea Spray,Mushroom,Chestnut,Burnt Olive,Auburn,Soft Eucalyptus,Port,Nautical Gold,Deep Navy Stripes,Stormy Lilac,Dusty Pink"
+        },
+        "available_sizes": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "ul.grid-size-selector li button",
+          "text_quote_or_attribute": "8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,13.5,14"
+        },
+        "care": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "div[data-accordion-content='care'] p",
+          "text_quote_or_attribute": "Yes, they're machine washable. Remove the insoles, hand wash those separately, and let everything air dry. Fresh again."
+        },
+        "color_name": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "span[data-color-name] span.font-geograph",
+          "text_quote_or_attribute": "Anthracite"
+        },
+        "fit": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "div[data-pdp-size-selector] p",
+          "text_quote_or_attribute": "The Cruiser Canvas fits true-to-size for most customers."
+        },
+        "key_features": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "ul.list-disc li",
+          "text_quote_or_attribute": "Hemp and organic cotton canvas upper is light, breathable, and durable"
+        },
+        "material": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "div[data-product-material='canvas']",
+          "text_quote_or_attribute": "canvas"
+        },
+        "materials": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "div[data-desktop-accordion-content='materials'] p",
+          "text_quote_or_attribute": "Canvas upper made from a breathable blend of hemp and organic cotton"
+        },
+        "price": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "meta[property='og:price:amount']",
+          "text_quote_or_attribute": "75.00"
+        },
+        "seller_name": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "shipping_info": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "span.block.text-xs",
+          "text_quote_or_attribute": "Free Shipping on Orders over $75"
+        },
+        "short_description": {
+          "source": "page.html",
+          "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+          "css_selector_or_xpath": "meta[name='description']",
+          "text_quote_or_attribute": "Lightweight canvas sneakers made with breathable hemp and organic cotton. Cushioned comfort, easy style, and all-day wearability."
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 127.769,
+    "input_tokens": 205044,
+    "output_tokens": 2585,
+    "total_tokens": 207629,
+    "initial_input_tokens": 205044,
+    "initial_output_tokens": 2585,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

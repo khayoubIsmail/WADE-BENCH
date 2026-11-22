@@ -1,0 +1,53 @@
+{
+  "task_id": "WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "DEZAART",
+        "description": "This handmade wood pendant light combines contemporary industrial design with a mid-century modern feeling. What is so unique about this lamp is the fact that it creates streams of shadow and light on the ceiling and walls. The stronger the light, the bigger the casting shadows.",
+        "image_urls": [
+          "https://www.example.com/image1.jpg",
+          "https://www.example.com/image2.jpg",
+          "https://www.example.com/image3.jpg",
+          "https://www.example.com/image4.jpg"
+        ],
+        "price_raw": "MAD 1,157.25+ MAD 1,653.21+",
+        "product_name": "Wood Pendant Light | Mid Century Modern | Handmade Lamp Ceiling Lamp | Chandelier Lighting | Industrial Lamp | Wood Lamphade | Lamp Shade",
+        "product_url": "https://www.example.com/product-url",
+        "rating": "4.8",
+        "review_count": "5"
+      },
+      "provenance": {
+        "url": "https://www.example.com/product-url",
+        "snapshot_id": "data/raw_snapshots/ecommerce/etsy_home_living_detail_sample",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "This handmade wood pendant light combines contemporary industrial design with a mid-century modern feeling."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 7.25,
+    "input_tokens": 5015,
+    "output_tokens": 322,
+    "total_tokens": 5337,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

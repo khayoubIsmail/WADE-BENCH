@@ -1,0 +1,34 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "property_address": "14 Riverwood Place, Castleknock, Dublin 15",
+        "bedrooms": "3 Bed",
+        "bathrooms": "2 Bath",
+        "total_area": "130 m²"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 91.435,
+    "input_tokens": 113451,
+    "output_tokens": 641,
+    "total_tokens": 114092,
+    "initial_input_tokens": 112767,
+    "initial_output_tokens": 583,
+    "repair_input_tokens": 684,
+    "repair_output_tokens": 58,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

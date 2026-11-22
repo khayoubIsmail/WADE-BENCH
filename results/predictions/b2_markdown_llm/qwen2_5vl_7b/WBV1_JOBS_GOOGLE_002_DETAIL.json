@@ -1,0 +1,32 @@
+{
+  "task_id": "WBV1_JOBS_GOOGLE_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Director, Business Intelligence",
+        "company_name": null,
+        "job_url": "https://www.google.com/about/careers/applications/jobs/results/137691136725525190-director-business-intelligence"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 6.158,
+    "input_tokens": 18692,
+    "output_tokens": 125,
+    "total_tokens": 18817,
+    "repaired": false,
+    "error": null
+  }
+}

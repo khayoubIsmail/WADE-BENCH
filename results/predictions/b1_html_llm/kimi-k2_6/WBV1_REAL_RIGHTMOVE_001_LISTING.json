@@ -1,0 +1,270 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.rightmove.co.uk/properties/89583912#/?channel=RES_BUY",
+        "address": "Completed Manchester Apartment – 6% Rental Yields | Buy-to-Let Investment",
+        "property_type": "Apartment",
+        "price": {
+          "amount": 200000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "description": "1-bedroom apartment in central Manchester offering projected rental yields of 6%+.",
+        "published_date": "2026-06-28",
+        "images_urls": [
+          "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ccee2f2b4/89583912/ccee2f2b47d2afee8e11593db21b9966_max_476x317.jpeg",
+          "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e2409e11/89583912/5e2409e11d94f50a08b2da63f708a337_max_476x317.jpeg",
+          "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f8ce8f00c/89583912/f8ce8f00cb85f876049f55e8ed74dc12_max_476x317.jpeg"
+        ],
+        "listing_agent_name": "RW Invest",
+        "listing_agent_logo": "https://media.rightmove.co.uk:443/partner-logo/17607006-PRODUCTS_LOGO-1766059692.jpeg",
+        "listing_agent_phone": "0151 453 4672"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/properties/89583912#/?channel=RES_BUY\"]",
+          "text_quote": "href=\"/properties/89583912#/?channel=RES_BUY\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address[aria-label=\"Property address: Completed Manchester Apartment – 6% Rental Yields | Buy-to-Let Investment \"]",
+          "text_quote": "Completed Manchester Apartment – 6% Rental Yields | Buy-to-Let Investment "
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "span[aria-label=\"Apartment\"]",
+          "text_quote": "Apartment"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div.PropertyPrice_price__VL65t",
+          "text_quote": "£200,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[aria-label=\"1 in property\"]",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span[aria-label=\"1 in property\"]",
+          "text_quote": "1"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "p[data-testid=\"property-description\"]",
+          "text_quote": "1-bedroom apartment in central Manchester offering projected rental yields of 6%+."
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "span.MarketedBy_addedOrReduced__Vtc9o",
+          "text_quote": "Added yesterday"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[data-testid=\"property-img-1\"], img[data-testid=\"property-img-2\"], img[data-testid=\"property-img-10\"]",
+          "text_quote": "src=\"https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ccee2f2b4/89583912/ccee2f2b47d2afee8e11593db21b9966_max_476x317.jpeg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "a[title=\"RW Invest, Liverpool\"]",
+          "text_quote": "RW Invest, Liverpool"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"RW Invest, Liverpool Estate Agent Logo\"]",
+          "text_quote": "src=\"https://media.rightmove.co.uk:443/partner-logo/17607006-PRODUCTS_LOGO-1766059692.jpeg\""
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[href=\"tel:0151 453 4672\"]",
+          "text_quote": "0151 453 4672"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.rightmove.co.uk/properties/142655393#/?channel=COM_BUY",
+        "address": "North Werneth, Oldham, Greater Manchester, OL9",
+        "property_type": "Land",
+        "price": {
+          "amount": 14000000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "description": "An extremely rare opportunity to acquire a brownfield development site (approximately 8.7 acres) in the heart of Oldham for an excellent residential and commercial project on the former Hartford Mill site. The current landowners have undertaken extensive research into planning potent...",
+        "images_urls": [
+          "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2ff67ac4a/142655393/2ff67ac4adbefe59419e76e32b23634d_max_476x317.jpeg",
+          "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/79caeddd2/142655393/79caeddd2e4fd04b697ae25c1e1069f1_max_476x317.jpeg",
+          "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/69dd905d1/142655393/69dd905d17ac570135775c572afc98d0_max_476x317.jpeg"
+        ],
+        "listing_agent_name": "Entwistle Green",
+        "listing_agent_logo": "https://media.rightmove.co.uk:443/partner-logo/85452-PRODUCTS_LOGO-1766057641.jpeg",
+        "listing_agent_phone": "0161 524 3592"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/properties/142655393#/?channel=COM_BUY\"]",
+          "text_quote": "href=\"/properties/142655393#/?channel=COM_BUY\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address[aria-label=\"Property address: North Werneth, Oldham, Greater Manchester, OL9\"]",
+          "text_quote": "North Werneth, Oldham, Greater Manchester, OL9"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "span[aria-label=\"Land\"]",
+          "text_quote": "Land"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div.PropertyPrice_price__VL65t",
+          "text_quote": "£14,000,000"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "p[data-testid=\"property-description\"]",
+          "text_quote": "An extremely rare opportunity to acquire a brownfield development site (approximately 8.7 acres) in the heart of Oldham for an excellent residential and commercial project on the former Hartford Mill site. The current landowners have undertaken extensive research into planning potent..."
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[data-testid=\"property-img-1\"], img[data-testid=\"property-img-2\"], img[data-testid=\"property-img-17\"]",
+          "text_quote": "src=\"https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2ff67ac4a/142655393/2ff67ac4adbefe59419e76e32b23634d_max_476x317.jpeg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "a[title=\"Entwistle Green, Bury\"]",
+          "text_quote": "Entwistle Green, Bury"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Entwistle Green, Bury Estate Agent Logo\"]",
+          "text_quote": "src=\"https://media.rightmove.co.uk:443/partner-logo/85452-PRODUCTS_LOGO-1766057641.jpeg\""
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[href=\"tel:0161 524 3592\"]",
+          "text_quote": "0161 524 3592"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.rightmove.co.uk/properties/166978733#/?channel=RES_BUY",
+        "address": "Stenner Lane, Didsbury, M20",
+        "property_type": "Detached",
+        "price": {
+          "amount": 4500000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "bedrooms": 9,
+        "bathrooms": 7,
+        "description": "Built in Walter Gropius's Bauhaus style of architecture, Fernbank is one of Didsbury's MOST SPECTACULAR and truly remarkable PRIVATE RESIDENCES. Occupying a commanding position overlooking Fletcher Moss Park, the property boasts 120 degree panoramic views over Stenner Woods and beyond...",
+        "published_date": "2025-09-13",
+        "images_urls": [
+          "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ea29f946/166978733/3ea29f946c231a523f8e1c08fb95e382_max_476x317.jpeg",
+          "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bc00814bd/166978733/bc00814bdad9a4283334ff3ea3225386_max_476x317.jpeg",
+          "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/803e9ac54/166978733/803e9ac54f2b77633cefb3b0c5e8e78d_max_476x317.jpeg"
+        ],
+        "listing_agent_name": "Philip James Kennedy",
+        "listing_agent_logo": "https://media.rightmove.co.uk:443/partner-logo/21999-PRODUCTS_LOGO-1766058082.jpeg",
+        "listing_agent_phone": "0161 524 4262"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/properties/166978733#/?channel=RES_BUY\"]",
+          "text_quote": "href=\"/properties/166978733#/?channel=RES_BUY\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address[aria-label=\"Property address: Stenner Lane, Didsbury, M20\"]",
+          "text_quote": "Stenner Lane, Didsbury, M20"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "span[aria-label=\"Detached\"]",
+          "text_quote": "Detached"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div.PropertyPrice_price__VL65t",
+          "text_quote": "£4,500,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[aria-label=\"9 in property\"]",
+          "text_quote": "9"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span[aria-label=\"7 in property\"]",
+          "text_quote": "7"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "p[data-testid=\"property-description\"]",
+          "text_quote": "Built in Walter Gropius's Bauhaus style of architecture, Fernbank is one of Didsbury's MOST SPECTACULAR and truly remarkable PRIVATE RESIDENCES. Occupying a commanding position overlooking Fletcher Moss Park, the property boasts 120 degree panoramic views over Stenner Woods and beyond..."
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "span.MarketedBy_addedOrReduced__Vtc9o",
+          "text_quote": "Added on 13/09/2025"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[data-testid=\"property-img-1\"], img[data-testid=\"property-img-3\"], img[data-testid=\"property-img-2\"]",
+          "text_quote": "src=\"https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ea29f946/166978733/3ea29f946c231a523f8e1c08fb95e382_max_476x317.jpeg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "a[title=\"Philip James Kennedy, Didsbury\"]",
+          "text_quote": "Philip James Kennedy, Didsbury"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Philip James Kennedy, Didsbury Estate Agent Logo\"]",
+          "text_quote": "src=\"https://media.rightmove.co.uk:443/partner-logo/21999-PRODUCTS_LOGO-1766058082.jpeg\""
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[href=\"tel:0161 524 4262\"]",
+          "text_quote": "0161 524 4262"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 233.896,
+    "input_tokens": 262240,
+    "output_tokens": 5205,
+    "total_tokens": 267445,
+    "initial_input_tokens": 259587,
+    "initial_output_tokens": 2555,
+    "repair_input_tokens": 2653,
+    "repair_output_tokens": 2650,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

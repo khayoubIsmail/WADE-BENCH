@@ -1,0 +1,321 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_002_DETAIL",
+  "website_id": "rightmove",
+  "schema_id": "real_estate_listing_v1",
+  "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+  "snapshot_path": "raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_002_DETAIL",
+  "live_url": "https://www.rightmove.co.uk/properties/146059961#/?channel=RES_LET",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_REAL_RIGHTMOVE_002_DETAIL_001",
+      "fields": {
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk/property-photo/163416c0b/146059961/163416c0b8779be92a589b447092794f.jpg",
+            "https://media.rightmove.co.uk/property-photo/c0449f695/146059961/c0449f695143265e38f4ad7ad9dfadd0.jpg",
+            "https://media.rightmove.co.uk/property-photo/e7d04d88b/146059961/e7d04d88ba8565ae28b5e8db51c487fb.jpg",
+            "https://media.rightmove.co.uk/property-photo/5e6ec18e5/146059961/5e6ec18e5911bc58b345f701666cced6.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/163416c0b/146059961/163416c0b8779be92a589b447092794f_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/c0449f695/146059961/c0449f695143265e38f4ad7ad9dfadd0_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/5e6ec18e5/146059961/5e6ec18e5911bc58b345f701666cced6_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/7cb507092/146059961/7cb5070923fdb44ba070a9fc3363196f_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/95f1bbd45/146059961/95f1bbd452532da92f3b5fff127b20fe_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/0872346c8/146059961/0872346c8e7b113bbe7375e3a2bd9c17_max_135x100.jpg"
+          ],
+          "normalized": [
+            "https://media.rightmove.co.uk/property-photo/163416c0b/146059961/163416c0b8779be92a589b447092794f.jpg",
+            "https://media.rightmove.co.uk/property-photo/c0449f695/146059961/c0449f695143265e38f4ad7ad9dfadd0.jpg",
+            "https://media.rightmove.co.uk/property-photo/e7d04d88b/146059961/e7d04d88ba8565ae28b5e8db51c487fb.jpg",
+            "https://media.rightmove.co.uk/property-photo/5e6ec18e5/146059961/5e6ec18e5911bc58b345f701666cced6.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/163416c0b/146059961/163416c0b8779be92a589b447092794f_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/c0449f695/146059961/c0449f695143265e38f4ad7ad9dfadd0_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/5e6ec18e5/146059961/5e6ec18e5911bc58b345f701666cced6_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/7cb507092/146059961/7cb5070923fdb44ba070a9fc3363196f_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/95f1bbd45/146059961/95f1bbd452532da92f3b5fff127b20fe_max_135x100.jpg",
+            "https://media.rightmove.co.uk/dir/property-photo/0872346c8/146059961/0872346c8e7b113bbe7375e3a2bd9c17_max_135x100.jpg"
+          ]
+        },
+        "address": {
+          "value": "The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ",
+          "normalized": "The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ"
+        },
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/146059961",
+          "normalized": "https://www.rightmove.co.uk/properties/146059961"
+        },
+        "rating": {
+          "value": "4.8",
+          "normalized": 4.8
+        },
+        "review_count": {
+          "value": "291",
+          "normalized": 291
+        },
+        "price": {
+          "value": "\u00a31,100 pcm",
+          "normalized": {
+            "amount": 1100.0,
+            "currency": {
+              "name": "British pound",
+              "code": "GBP",
+              "symbol": "\u00a3"
+            }
+          }
+        },
+        "published_date": {
+          "value": "22/03/2024",
+          "normalized": "2024-03-22"
+        },
+        "listing_office": {
+          "value": "Way of Life - The Lansdowne, The Lansdowne",
+          "normalized": "Way of Life - The Lansdowne, The Lansdowne"
+        },
+        "listing_agent_logo": {
+          "value": "https://media.rightmove.co.uk/partner-logo/26552246-LOGO-1765974144.jpeg",
+          "normalized": "https://media.rightmove.co.uk/partner-logo/26552246-LOGO-1765974144.jpeg"
+        },
+        "listing_agent_location": {
+          "value": "Hagley Road,, Ladywood,, Birmingham,, B16 8FU",
+          "normalized": "Hagley Road,, Ladywood,, Birmingham,, B16 8FU"
+        },
+        "furnish_type": {
+          "value": "Furnished",
+          "normalized": "furnished"
+        },
+        "property_type": {
+          "value": "Apartment",
+          "normalized": "apartment"
+        },
+        "bedrooms": {
+          "value": "1",
+          "normalized": 1
+        },
+        "bathrooms": {
+          "value": "1",
+          "normalized": 1
+        },
+        "has_parking": {
+          "value": "Yes",
+          "normalized": true
+        },
+        "key_features": {
+          "value": [
+            "24h Concierge Service",
+            "Bike storage",
+            "Central Living",
+            "Double Glazing",
+            "Gym",
+            "Porter Security"
+          ],
+          "normalized": [
+            "24h Concierge Service",
+            "Bike storage",
+            "Central Living",
+            "Double Glazing",
+            "Gym",
+            "Porter Security"
+          ]
+        },
+        "description": {
+          "value": "This luxurious one-bedroom apartment is pet friendly and situated on the 13th floor, fitted out to provide the best living experience possible. It has a generously sized open living space with floor to ceiling windows, one double bedroom with built-in wardrobe, a high quality kitchen with lots of storage space and integrated appliances. The apartment is furnished with private parking spaces available for an additional fee (POA). There also is a secure bike storage which includes a fully kitted workshop.\nThis residence is run by Way of Life, an award-winning specialist rental accommodation brand that puts people at the heart of it all. We work with the world\u2019s most in-demand interior designers to create community-focused rental accommodation with the mood of a member\u2019s club, while striving to make the resident experience as simple as possible.\nFollow us on Instagram for more @wayoflifeuk.\nInteriors by world-renowned designers\nWelcoming on-site management team (rated 4.5 on Homeviews)\nHigh energy efficiency rating\nPet-friendly policy\nResident app\nExclusive resident benefits\nBike storage and parcel lockers\nLife at The Lansdowne comes with plenty of perks.\nAbove and below ground parking is available, and there\u2019s fast WiFi in all apartments and shared spaces.\nThe building is pet-friendly, with both cats and dogs welcome, while an onsite team is ready to respond to any day-to-day queries. Residents also benefit from secure internal bicycle storage, as well as individual smart parcel lockers accessible day and night. The Way of Life app is a dedicated hub that handles the technical bits of your tenancy.\nABOUT THE BUILDING\nThe bright, double-height lobby gives way to a series of smart workspaces and lounges across two levels. With herringbone floors underfoot, soft globe lighting overhead and rows of velvet Gubi \u2018Beetle\u2019 chairs, the ground floor workspace is a far cry from staid corporate office. Pull up a pew at a communal desk or sink into an armchair in the library-like green room for a laptop session away from the buzz. For speedy refreshment there\u2019s a well-stocked kitchenette with wine glasses and tumblers for after hours.\nFramed by reeded glass doors, the post room has individual resident boxes set into bespoke timber cabinets and perches for quick sorting. A dedicated parcel room connected to this space takes the hassle out of deliveries.\nThe spacious, air-conditioned gym on the lower ground floor is stocked with state-of-the-art TechnoGym equipment, including distinctive weight and cardio zones. Refine your routine or try something new, from punching bags to curved treadmills. A secure bike storage area nearby includes a workshop for on-the-go maintenance and a table tennis table.\nAn airy, flexible space for co-working, events and good conversation, the cultural mixer is The Lansdowne\u2019s central hub. Choose a cubicle for ultimate privacy when you\u2019re plugged in, or settle in with a book or laptop by the window. Ideal for birthdays or gatherings that require a little extra fanfare, there\u2019s a fully-equipped kitchen at the far end and a solid oak dining table to seat up to 18.\nFor cosy catch ups with the neighbours, The Den is a sophisticated hangout space with a wall-mounted television, pool table and a stack of board games for competitive Scrabble nights. Cobalt blue walls, plush sofas and totem-like side tables for snacks and drinks lend it the feel of a private cinema.\nABOUT THE AREA\nJust off well-connected Five Ways, The Lansdowne sits at the juncture of buzzy central Birmingham and some of the city\u2019s best-loved neighbourhoods. Top transport links mean a tram stop on your doorstep, Five Ways station within a seven minute walk and Birmingham New Street just over twenty. Broadway Plaza, with its Odeon Luxe cinema, is tucked away behind the residence.\nFrom here head north for Gas Street Basin, the Mailbox and canalside hotspot Brindleyplace, or venture east to artsy Digbeth for neighbourhood cafes and street food festivals. The south end of Broad Street is a few minutes\u2019 walk for swift passage home after cocktails or clubbing.\nYou\u2019re also a stone\u2019s throw from Edgbaston Village for independents, restaurants and best-in-Birmingham pubs. Runners and cyclists will relish the quietetude of Edgbaston Reservoir and the Harborne Walkway, once an old railway line and now a green artery through the city.\nABOUT WAY OF LIFE\nWay of Life lays the foundation for renters to make a home. Working with some of the world\u2019s most respected interior designers, we create distinctive residences that feature in Wallpaper*, ELLE Decor and Dezeen. Every detail is considered, from the warmth of a light bulb to the textured finish of a kitchen counter.\nWe like to practice what we preach, so we\u2019ve made ourselves accountable in setting a new standard for renting. Way of Life is a voluntary member of governing bodies that hold us to strict codes in property, service and the protection of tenancy deposits, and our online tenancy management system is available 24/7 for ultimate peace of mind. No unexpected fees. No troublesome small print. Just leases that are straightforward and easy to manage.",
+          "normalized": "This luxurious one-bedroom apartment is pet friendly and situated on the 13th floor, fitted out to provide the best living experience possible. It has a generously sized open living space with floor to ceiling windows, one double bedroom with built-in wardrobe, a high quality kitchen with lots of storage space and integrated appliances. The apartment is furnished with private parking spaces available for an additional fee (POA). There also is a secure bike storage which includes a fully kitted workshop.\nThis residence is run by Way of Life, an award-winning specialist rental accommodation brand that puts people at the heart of it all. We work with the world\u2019s most in-demand interior designers to create community-focused rental accommodation with the mood of a member\u2019s club, while striving to make the resident experience as simple as possible.\nFollow us on Instagram for more @wayoflifeuk.\nInteriors by world-renowned designers\nWelcoming on-site management team (rated 4.5 on Homeviews)\nHigh energy efficiency rating\nPet-friendly policy\nResident app\nExclusive resident benefits\nBike storage and parcel lockers\nLife at The Lansdowne comes with plenty of perks.\nAbove and below ground parking is available, and there\u2019s fast WiFi in all apartments and shared spaces.\nThe building is pet-friendly, with both cats and dogs welcome, while an onsite team is ready to respond to any day-to-day queries. Residents also benefit from secure internal bicycle storage, as well as individual smart parcel lockers accessible day and night. The Way of Life app is a dedicated hub that handles the technical bits of your tenancy.\nABOUT THE BUILDING\nThe bright, double-height lobby gives way to a series of smart workspaces and lounges across two levels. With herringbone floors underfoot, soft globe lighting overhead and rows of velvet Gubi \u2018Beetle\u2019 chairs, the ground floor workspace is a far cry from staid corporate office. Pull up a pew at a communal desk or sink into an armchair in the library-like green room for a laptop session away from the buzz. For speedy refreshment there\u2019s a well-stocked kitchenette with wine glasses and tumblers for after hours.\nFramed by reeded glass doors, the post room has individual resident boxes set into bespoke timber cabinets and perches for quick sorting. A dedicated parcel room connected to this space takes the hassle out of deliveries.\nThe spacious, air-conditioned gym on the lower ground floor is stocked with state-of-the-art TechnoGym equipment, including distinctive weight and cardio zones. Refine your routine or try something new, from punching bags to curved treadmills. A secure bike storage area nearby includes a workshop for on-the-go maintenance and a table tennis table.\nAn airy, flexible space for co-working, events and good conversation, the cultural mixer is The Lansdowne\u2019s central hub. Choose a cubicle for ultimate privacy when you\u2019re plugged in, or settle in with a book or laptop by the window. Ideal for birthdays or gatherings that require a little extra fanfare, there\u2019s a fully-equipped kitchen at the far end and a solid oak dining table to seat up to 18.\nFor cosy catch ups with the neighbours, The Den is a sophisticated hangout space with a wall-mounted television, pool table and a stack of board games for competitive Scrabble nights. Cobalt blue walls, plush sofas and totem-like side tables for snacks and drinks lend it the feel of a private cinema.\nABOUT THE AREA\nJust off well-connected Five Ways, The Lansdowne sits at the juncture of buzzy central Birmingham and some of the city\u2019s best-loved neighbourhoods. Top transport links mean a tram stop on your doorstep, Five Ways station within a seven minute walk and Birmingham New Street just over twenty. Broadway Plaza, with its Odeon Luxe cinema, is tucked away behind the residence.\nFrom here head north for Gas Street Basin, the Mailbox and canalside hotspot Brindleyplace, or venture east to artsy Digbeth for neighbourhood cafes and street food festivals. The south end of Broad Street is a few minutes\u2019 walk for swift passage home after cocktails or clubbing.\nYou\u2019re also a stone\u2019s throw from Edgbaston Village for independents, restaurants and best-in-Birmingham pubs. Runners and cyclists will relish the quietetude of Edgbaston Reservoir and the Harborne Walkway, once an old railway line and now a green artery through the city.\nABOUT WAY OF LIFE\nWay of Life lays the foundation for renters to make a home. Working with some of the world\u2019s most respected interior designers, we create distinctive residences that feature in Wallpaper*, ELLE Decor and Dezeen. Every detail is considered, from the warmth of a light bulb to the textured finish of a kitchen counter.\nWe like to practice what we preach, so we\u2019ve made ourselves accountable in setting a new standard for renting. Way of Life is a voluntary member of governing bodies that hold us to strict codes in property, service and the protection of tenancy deposits, and our online tenancy management system is available 24/7 for ultimate peace of mind. No unexpected fees. No troublesome small print. Just leases that are straightforward and easy to manage."
+        },
+        "reviews": {
+          "value": [
+            {
+              "rating": "5.0",
+              "person_name": "George Thomas Mangalapallil",
+              "title": "Brilliant Property \u2b50\ufe0f",
+              "review_content": "I live in Lansdowne B16 and can confidently say it\u2019s one of the best properties I\u2019ve lived in during my time in the UK. The building is exceptionally well maintained, very clean, and managed to a high standard.\nThe staff are professional and courteous and also thanks to Irina , Building Manager, who was helpful and cooperative and made the move in a seamless process for us \n\nI would highly recommend this property to anyone looking for a great place to live. Please tell us about the good and bad aspects of living in your local area: I have only positive things to say about the development. Lansdowne is ideally located, with supermarkets, nurseries, GP surgeries, and hospitals all nearby. Everything you need is within a short travel time of around 10 minutes max. There\u2019s also a great selection of restaurants in the area, which adds to the convenience and lifestyle appeal.\nOne minor downside might be some traffic noise, but this is effectively addressed by the excellent soundproofing in the apartments. Overall, it\u2019s an excellent place to live. How has the building management responded to any problems or issues you have raised: All the issues were attended to very swiftly and effectively. The portal is very user friendly too. Please share one thing (or more) which you wish you had known before you moved in: I do hope the parking allocation process can be improved so that spaces are assigned as soon as a tenant moves in. Personally, I had to wait a few weeks to get my parking sorted, which made things quite difficult during that time.\nAside from this, everything else has been very good",
+              "date": "May 2026"
+            }
+          ],
+          "normalized": [
+            {
+              "rating": "5.0",
+              "person_name": "George Thomas Mangalapallil",
+              "title": "Brilliant Property \u2b50\ufe0f",
+              "review_content": "I live in Lansdowne B16 and can confidently say it\u2019s one of the best properties I\u2019ve lived in during my time in the UK. The building is exceptionally well maintained, very clean, and managed to a high standard.\nThe staff are professional and courteous and also thanks to Irina , Building Manager, who was helpful and cooperative and made the move in a seamless process for us \n\nI would highly recommend this property to anyone looking for a great place to live. Please tell us about the good and bad aspects of living in your local area: I have only positive things to say about the development. Lansdowne is ideally located, with supermarkets, nurseries, GP surgeries, and hospitals all nearby. Everything you need is within a short travel time of around 10 minutes max. There\u2019s also a great selection of restaurants in the area, which adds to the convenience and lifestyle appeal.\nOne minor downside might be some traffic noise, but this is effectively addressed by the excellent soundproofing in the apartments. Overall, it\u2019s an excellent place to live. How has the building management responded to any problems or issues you have raised: All the issues were attended to very swiftly and effectively. The portal is very user friendly too. Please share one thing (or more) which you wish you had known before you moved in: I do hope the parking allocation process can be improved so that spaces are assigned as soon as a tenant moves in. Personally, I had to wait a few weeks to get my parking sorted, which made things quite difficult during that time.\nAside from this, everything else has been very good",
+              "date": "2026-05"
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'163416c0b8779be92a589b447092794f.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/main/div/article/div/div[1]/div[1]/section/div/a[1]/div/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "main#main ._38rRoDgM898XoMhNRXSWGq .WJG_W7faYk84nW-6sCBVi ._1kesCpEjLyhQyzhf_suDHz .H2aPmrbOxrd-nTRANQzAY ._1KCWj_-6e8-7_oJv_prX0H .h3U6cGyEUf76tvCpYisik ._2uQQ3SV0eMHL1P6t5ZDo2q",
+          "xpath": "//h1[@itemprop='streetAddress']",
+          "text_quote": "The Lansdowne, 25 Hagley Road,",
+          "attribute": null,
+          "xpath_absolute": "//main[@id='main']/div/div[3]/div/div[1]/div[1]/div/h1",
+          "css_selector_absolute": "main#main > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > h1"
+        },
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "a[href*='146059961']",
+          "xpath": "//link[contains(@href,'properties/146059961')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/head[1]/link[7]",
+          "css_selector_absolute": "html > head > link:nth-of-type(7)"
+        },
+        "rating": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "main#main ._38rRoDgM898XoMhNRXSWGq .WJG_W7faYk84nW-6sCBVi ._1kesCpEjLyhQyzhf_suDHz .rvsAwardsSummaryContainer .rvsAwardsSummaryContent .rvsRatingsBlock",
+          "xpath": "//main[@id='main']/div/div[3]/div/div[6]/div/button",
+          "text_quote": "4.8",
+          "attribute": null,
+          "xpath_absolute": "//main[@id='main']/div/div[3]/div/div[6]/div/button",
+          "css_selector_absolute": "main#main > div > div:nth-of-type(3) > div > div:nth-of-type(6) > div > button"
+        },
+        "review_count": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "main#main .rmds_light-theme .rvsPaginatedReviewsBG .rvsPaginatedReviewsContainer .rvsReviewsStats .rvsReviewStat .rvsRatingStatContainer .rvsReviewStatText",
+          "xpath": "//main[@id='main']/section/div[2]/div/div/div[1]/span/p",
+          "text_quote": "291",
+          "attribute": null,
+          "xpath_absolute": "//main[@id='main']/section/div[2]/div/div/div[1]/span/p",
+          "css_selector_absolute": "main#main > section > div:nth-of-type(2) > div > div > div:nth-of-type(1) > span > p"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "div[data-testid='price']",
+          "xpath": "//a[contains(@href,'properties/88924407')]/div[2]",
+          "text_quote": "\u00a31,100 pcm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/main/div/div[3]/div/section/div/div/div[1]/div/a/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "main#main ._38rRoDgM898XoMhNRXSWGq .WJG_W7faYk84nW-6sCBVi ._1kesCpEjLyhQyzhf_suDHz ._2fFy6nQs_hX4a6WEDR-B-6 ._5KANqpn5yboC4UXVUxwjZ ._3Kl5bSUaVKx1bidl6IHGj7 ._1NmnYm1CWDZHxDfsCNf-WJ ._1q3dx8PQU8WWiT7uw7J9Ck",
+          "xpath": "//main[@id='main']/div/div[3]/div/article[1]/div/div/div[2]/div[2]",
+          "text_quote": "22/03/2024",
+          "attribute": null,
+          "xpath_absolute": "//main[@id='main']/div/div[3]/div/article[1]/div/div/div[2]/div[2]",
+          "css_selector_absolute": "main#main > div > div:nth-of-type(3) > div > article:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+        },
+        "listing_office": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "div#contact-agent-aside > div > div > div:nth-of-type(1)",
+          "xpath": "//body[1]/div[2]/main[1]/div[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]",
+          "text_quote": "Way of Life - The Lansdowne, T",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/main[1]/div[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]",
+          "css_selector_absolute": "main#main > div > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(1) > div > div:nth-of-type(1)"
+        },
+        "listing_agent_logo": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "img[href*='None']",
+          "xpath": "//body/div[2]/main/div/div[3]/div/article[1]/div/a/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/main/div/div[3]/div/article[1]/div/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_agent_location": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "furnish_type": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "article[data-testid='primary-layout'] dl > div:nth-of-type(3) > dd",
+          "xpath": "//dd[contains(normalize-space(.), 'Furnished')]",
+          "text_quote": "Furnished",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/main/div/div[3]/div/article[2]/div[1]/dl/div[3]/dd",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(3) > dd:nth-of-type(1)"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "dl#info-reel > div:nth-of-type(1) > dd",
+          "xpath": "//dd[contains(normalize-space(.), 'Apartment')]",
+          "text_quote": "Apartment",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/main[1]/div[1]/div[3]/div[1]/dl[1]/div[1]/dd[1]",
+          "css_selector_absolute": "main#main > div > div:nth-of-type(3) > div > dl > div:nth-of-type(1) > dd"
+        },
+        "bedrooms": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "dl#info-reel > div:nth-of-type(2) > dd",
+          "xpath": "//body[1]/div[2]/main[1]/div[1]/div[3]/div[1]/dl[1]/div[2]/dd[1]",
+          "text_quote": "1",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/main[1]/div[1]/div[3]/div[1]/dl[1]/div[2]/dd[1]",
+          "css_selector_absolute": "main#main > div > div:nth-of-type(3) > div > dl > div:nth-of-type(2) > dd"
+        },
+        "bathrooms": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "dl#info-reel > div:nth-of-type(3) > dd",
+          "xpath": "//body[1]/div[2]/main[1]/div[1]/div[3]/div[1]/dl[1]/div[3]/dd[1]",
+          "text_quote": "1",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/main[1]/div[1]/div[3]/div[1]/dl[1]/div[3]/dd[1]",
+          "css_selector_absolute": "main#main > div > div:nth-of-type(3) > div > dl > div:nth-of-type(3) > dd"
+        },
+        "has_parking": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "article[data-testid='primary-layout']",
+          "xpath": "//main[@id='main']/div/div[3]/div/article[3]/dl/div[2]/dd",
+          "text_quote": "Yes",
+          "attribute": null,
+          "xpath_absolute": "//main[@id='main']/div/div[3]/div/article[3]/dl/div[2]/dd",
+          "css_selector_absolute": "main#main > div > div:nth-of-type(3) > div > article:nth-of-type(3) > dl > div:nth-of-type(2) > dd"
+        },
+        "key_features": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "[data-testid='keyFeatures']",
+          "xpath": "//ul[@data-testid='keyFeatures']",
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": "//main[@id='main']/div/div[3]/div/article[3]/ul",
+          "css_selector_absolute": "main#main > div > div:nth-of-type(3) > div > article:nth-of-type(3) > ul"
+        },
+        "description": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "p[href*='None']",
+          "xpath": "//p[contains(normalize-space(.), 'This luxurious one-bedroom apartment is pet friend')]",
+          "text_quote": "This luxurious one-bedroom apartment is pet friendly and situated on the 13th floor, fitted out to provide the best living experience possible. It has a generou",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/main/div/div[3]/div/article[3]/div[3]/div/div/p[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > article:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "reviews": {
+          "snapshot_id": "SNAP_REAL_RIGHTMOVE_002_DETAIL",
+          "css_selector": "main#main section ul",
+          "xpath": "//ul[contains(normalize-space(.), 'I live in Lansdowne B16 and can confidently say it')]",
+          "text_quote": "I live in Lansdowne B16 and can confidently say it\u2019s one of the best properties I\u2019ve lived in during my time in the UK. The building is exceptionally well maint",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/main/section/div[3]/div/div[1]/ul",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

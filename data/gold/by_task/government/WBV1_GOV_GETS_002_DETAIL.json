@@ -1,0 +1,257 @@
+{
+  "task_id": "WBV1_GOV_GETS_002_DETAIL",
+  "website_id": "gets_002",
+  "schema_id": "tender_notice_v1",
+  "snapshot_id": "gets_002_detail",
+  "snapshot_path": "raw_snapshots/government/gets_002_detail",
+  "live_url": "https://www.gets.govt.nz/",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_GOV_GETS_002_DETAIL_001",
+      "fields": {
+        "tender_title": {
+          "value": "Commercial Cleaning Services",
+          "normalized": "Commercial Cleaning Services"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MSD/ExternalTenderDetails.htm?id=34048938",
+          "normalized": "https://www.gets.govt.nz/MSD/ExternalTenderDetails.htm?id=34048938"
+        },
+        "rfx_id": {
+          "value": "34048938",
+          "normalized": "34048938"
+        },
+        "reference": {
+          "value": null,
+          "normalized": null
+        },
+        "open_date": {
+          "value": "Thursday, 7 May 2026 7:00 PM (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-07T19:00:00"
+        },
+        "close_date": {
+          "value": "Friday, 29 May 2026 12:00 PM (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T12:00:00"
+        },
+        "department": {
+          "value": "Procurement Solutions",
+          "normalized": "Procurement Solutions"
+        },
+        "tender_type": {
+          "value": "Request for Information (Market research) (RFI)",
+          "normalized": "Request for Information (Market research) (RFI)"
+        },
+        "tender_coverage": {
+          "value": "Sole Agency",
+          "normalized": "Sole Agency"
+        },
+        "categories": {
+          "value": [
+            "47000000 - Cleaning Equipment and Supplies",
+            "76110000 - Cleaning and janitorial services"
+          ],
+          "normalized": [
+            "47000000 - Cleaning Equipment and Supplies",
+            "76110000 - Cleaning and janitorial services"
+          ]
+        },
+        "regions": {
+          "value": "New Zealand",
+          "normalized": "New Zealand"
+        },
+        "required_pre_qualifications": {
+          "value": "None",
+          "normalized": "None"
+        },
+        "alternate_physical_delivery_address": {
+          "value": null,
+          "normalized": null
+        },
+        "alternate_physical_fax_number": {
+          "value": null,
+          "normalized": null
+        },
+        "contact": {
+          "value": [
+            {
+              "name": "Liam Macdonald",
+              "email": "Liam.Macdonald015@msd.govt.nz"
+            }
+          ],
+          "normalized": [
+            {
+              "name": "Liam Macdonald",
+              "email": "Liam.Macdonald015@msd.govt.nz"
+            }
+          ]
+        },
+        "overview": {
+          "value": "MSD is undertaking early market engagement through this RFI to better understand current market capability and geographic coverage, explore recommended cleaning service models (input-based, outcome-based, or hybrid), understand best-practice approaches to consumables management and identify risks, opportunities, and innovation relevant to large, multi-site government portfolios. The information gathered through this RFI will be used to support planning and to help determine future requirements and future procurement approach, if any. This RFI does not commit MSD to proceeding with a procurement, retendering existing contracts or adopting any particular service model or solution.",
+          "normalized": "MSD is undertaking early market engagement through this RFI to better understand current market capability and geographic coverage, explore recommended cleaning service models (input-based, outcome-based, or hybrid), understand best-practice approaches to consumables management and identify risks, opportunities, and innovation relevant to large, multi-site government portfolios. The information gathered through this RFI will be used to support planning and to help determine future requirements and future procurement approach, if any. This RFI does not commit MSD to proceeding with a procurement, retendering existing contracts or adopting any particular service model or solution."
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#bd > h1:nth-of-type(1)",
+          "xpath": "//*[@id='bd']/h1[1]",
+          "text_quote": "Commercial Cleaning Services",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/h1",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > h1"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "base[href='https://www.gets.govt.nz/MSD/ExternalTenderDetails.htm?id=34048938']",
+          "xpath": "//base[@href='https://www.gets.govt.nz/MSD/ExternalTenderDetails.htm?id=34048938']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/head/base",
+          "css_selector_absolute": "html > head > base"
+        },
+        "rfx_id": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]",
+          "text_quote": "34048938",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[1]/td[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2)"
+        },
+        "open_date": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(2)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]",
+          "text_quote": "Thursday, 7 May 2026 7:00 PM (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[4]/td[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(2)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[2]",
+          "text_quote": "Friday, 29 May 2026 12:00 PM (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[5]/td[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2)"
+        },
+        "department": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(6) > td:nth-of-type(2)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[2]",
+          "text_quote": "Procurement Solutions",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[6]/td[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(6) > td:nth-of-type(2)"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(2)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[2]",
+          "text_quote": "Request for Information (Market research) (RFI)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[7]/td[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2)"
+        },
+        "tender_coverage": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(8) > td:nth-of-type(2)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[8]/td[2]",
+          "text_quote": "Sole Agency [?]",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[8]/td[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2)"
+        },
+        "categories": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(2)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[9]/td[2]",
+          "text_quote": "47000000 - Cleaning Equipment and Supplies",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[9]/td[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2)"
+        },
+        "regions": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(10) > td:nth-of-type(2)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[10]/td[2]",
+          "text_quote": "New Zealand",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[10]/td[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(10) > td:nth-of-type(2)"
+        },
+        "required_pre_qualifications": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(11) > td:nth-of-type(2)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[11]/td[2]",
+          "text_quote": "None",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[11]/td[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(11) > td:nth-of-type(2)"
+        },
+        "contact": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(12)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[12]",
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/table/tbody/tr[12]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > table > tbody > tr:nth-of-type(12)",
+          "provenance_granularity": "container"
+        },
+        "overview": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": "div#yui-main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='yui-main']/div[1]/div[1]/div[1]/p[1]",
+          "text_quote": "MSD is undertaking early market engagement through",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[3]/div[1]/div[2]/div/div/div/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > p"
+        },
+        "reference": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "alternate_physical_delivery_address": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "alternate_physical_fax_number": {
+          "snapshot_id": "gets_002_detail",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    }
+  ]
+}

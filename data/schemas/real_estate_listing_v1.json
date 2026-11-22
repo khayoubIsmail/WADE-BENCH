@@ -1,0 +1,187 @@
+{
+  "schema_id": "real_estate_listing_v1",
+  "domain": "real_estate",
+  "version": "2.0",
+  "description": "Schema for extracting property listings from real estate listing/search/browse pages. Each record represents one property card as shown on the listing page.",
+
+  "required_fields": [
+    "listing_url",
+    "price"
+  ],
+
+  "optional_fields": {
+    "address": {
+      "type": "string",
+      "description": "Full or partial address of the property as shown on the listing card.",
+      "normalization": "Preserve the address as shown. Do not geocode.",
+      "sites": ["apartments", "century_21", "daft.ie", "finn_eiendom", "leboncoin", "maroc_annonces", "onthemarket", "realestate.co.nz", "rightmove"]
+    },
+    "listing_title": {
+      "type": "string",
+      "description": "Title or headline of the listing card (e.g. '3-bed house in Dublin').",
+      "sites": ["finn_eiendom", "maroc_annonces", "realestate.co.nz"]
+    },
+    "property_type": {
+      "type": "string",
+      "description": "Type of property (e.g. 'Apartment', 'House', 'Studio', 'Villa'). Retain the site's original label.",
+      "sites": ["apartments", "daft.ie", "finn_eiendom", "leboncoin", "maroc_annonces", "onthemarket", "realestate.co.nz", "rightmove"]
+    },
+    "price": {
+      "type": "object",
+      "description": "Asking price. Structured as {amount, currency_code, currency_symbol, period} where period applies to rental listings (e.g. 'month'). For sale prices, period is null.",
+      "normalization": "Extract numerical amount, ISO 4217 currency code, and symbol. For rental, capture the billing period.",
+      "sites": ["all"]
+    },
+    "bedrooms": {
+      "type": "integer",
+      "description": "Number of bedrooms.",
+      "sites": ["apartments", "century_21", "daft.ie", "finn_eiendom", "onthemarket", "realestate.co.nz", "redfin", "rightmove"]
+    },
+    "bathrooms": {
+      "type": "number",
+      "description": "Number of bathrooms (may be fractional, e.g. 1.5).",
+      "sites": ["apartments", "century_21", "daft.ie", "onthemarket", "realestate.co.nz", "redfin", "rightmove"]
+    },
+    "bathrooms_partial": {
+      "type": "integer",
+      "description": "Number of partial/half bathrooms.",
+      "sites": ["apartments"]
+    },
+    "floor_area": {
+      "type": "object",
+      "description": "Floor/living area. Structured as {value, unit} where unit is 'm2', 'ft2', or 'sqm'.",
+      "normalization": "Preserve original unit. Do not convert between units unless explicitly requested.",
+      "sites": ["apartments", "century_21", "daft.ie", "finn_eiendom", "leboncoin", "realestate.co.nz", "redfin"]
+    },
+    "rooms": {
+      "type": "integer",
+      "description": "Total number of rooms (used on French and Moroccan sites where rooms ≠ bedrooms).",
+      "sites": ["leboncoin"]
+    },
+    "energy_rating": {
+      "type": "string",
+      "description": "Energy performance certificate/rating (e.g. 'B2', 'C', 'D').",
+      "sites": ["daft.ie", "leboncoin"]
+    },
+    "price_per_m2": {
+      "type": "object",
+      "description": "Price per square metre. Structured as {amount, currency_code, currency_symbol}.",
+      "sites": ["leboncoin"]
+    },
+    "sale_type": {
+      "type": "string",
+      "description": "Sale method (e.g. 'auction', 'private_treaty', 'tender').",
+      "sites": ["realestate.co.nz"]
+    },
+    "tenure": {
+      "type": "string",
+      "description": "Ownership tenure (e.g. 'Eierskap', 'Leasehold', 'Freehold').",
+      "sites": ["finn_eiendom"]
+    },
+    "monthly_fees": {
+      "type": "object",
+      "description": "Monthly co-op/HOA/maintenance fees. Structured as {amount, currency_code}.",
+      "sites": ["finn_eiendom"]
+    },
+    "total_price": {
+      "type": "object",
+      "description": "Total price including debt/fees (Finn Eiendom: asking price + joint debt). Structured as {amount, currency_code}.",
+      "sites": ["finn_eiendom"]
+    },
+    "status": {
+      "type": "string",
+      "description": "Listing status (e.g. 'Active', 'Pending', 'Sold').",
+      "sites": ["century_21"]
+    },
+    "published_date": {
+      "type": "string",
+      "description": "Date the listing was published. Normalize to ISO 8601 (YYYY-MM-DD).",
+      "normalization": "Convert to YYYY-MM-DD. Resolve relative dates (e.g. 'Added 3 days ago') using the snapshot date.",
+      "sites": ["maroc_annonces", "rightmove"]
+    },
+    "open_house_schedule": {
+      "type": "array",
+      "description": "Scheduled open house dates/times (e.g. [{date, time_start, time_end}]).",
+      "sites": ["century_21", "finn_eiendom", "redfin"]
+    },
+    "key_features": {
+      "type": "array",
+      "description": "Short feature bullet points shown on the listing card.",
+      "sites": ["onthemarket", "redfin"]
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description or teaser text shown on the listing card.",
+      "sites": ["rightmove"]
+    },
+    "mls_number": {
+      "type": "string",
+      "description": "MLS listing identifier.",
+      "sites": ["apartments", "century_21"]
+    },
+    "additional_facilities": {
+      "type": "array",
+      "description": "Additional facilities shown on the listing card (Leboncoin-specific).",
+      "sites": ["leboncoin"]
+    },
+    "images_urls": {
+      "type": "array",
+      "description": "List of property image URLs from the listing card.",
+      "sites": ["apartments", "century_21", "daft.ie", "finn_eiendom", "leboncoin", "maroc_annonces", "onthemarket", "realestate.co.nz", "redfin", "rightmove"]
+    },
+    "listing_agent": {
+      "type": "object",
+      "description": "Agent or brokerage info as shown on the card. May include name, phone, and/or photo.",
+      "sites": ["apartments", "century_21", "daft.ie", "redfin", "rightmove"]
+    },
+    "listing_agent_name": {
+      "type": "string",
+      "description": "Name of the listing agent.",
+      "sites": ["daft.ie", "realestate.co.nz"]
+    },
+    "listing_agent_logo": {
+      "type": "string",
+      "description": "URL of the agent/agency logo.",
+      "sites": ["daft.ie", "finn_eiendom", "leboncoin", "onthemarket", "realestate.co.nz", "rightmove"]
+    },
+    "listing_agent_photo": {
+      "type": "string",
+      "description": "URL of the agent's profile photo.",
+      "sites": ["daft.ie", "realestate.co.nz"]
+    },
+    "listing_agent_phone": {
+      "type": "string",
+      "description": "Agent contact phone number.",
+      "sites": ["onthemarket", "rightmove"]
+    },
+    "listing_office": {
+      "type": "string",
+      "description": "Name of the listing agency or office.",
+      "sites": ["finn_eiendom", "leboncoin", "onthemarket", "realestate.co.nz"]
+    },
+    "parking": {
+      "type": ["string", "integer"],
+      "description": "Parking availability or count.",
+      "sites": ["apartments"]
+    }
+  },
+
+  "normalization_rules": {
+    "price": "Extract numerical amount without currency symbols. Identify currency by ISO 4217 code. For rentals, capture the period (month/week).",
+    "floor_area": "Preserve the original value and unit (m2, ft2). Do not convert between units.",
+    "published_date": "Convert to ISO 8601 (YYYY-MM-DD). Resolve relative dates using the snapshot date.",
+    "listing_url": "Return the full absolute URL.",
+    "images_urls": "Return a list of full absolute image URLs."
+  },
+
+  "canonical_record_key": ["listing_url"],
+
+  "provenance_required": true,
+
+  "notes": [
+    "The 'listing_title' field is absent on many sites — in those cases 'address' serves as the primary text identifier.",
+    "'price' is a structured object (not a raw string). Use {amount, currency_code, currency_symbol, period}.",
+    "'floor_area' preserves the original unit (m2 or ft2) — do not auto-convert.",
+    "Use 'address' for location information on listing cards; 'location' from the old schema is replaced by 'address'."
+  ]
+}

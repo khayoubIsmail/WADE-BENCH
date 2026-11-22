@@ -1,0 +1,42 @@
+{
+  "task_id": "WBV1_JOBS_GOOGLE_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Director, Business Intelligence",
+        "company_name": null,
+        "job_url": "https://www.google.com/about/careers/applications/job/54321"
+      },
+      "provenance": {
+        "page.snapshot.md": true
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "job_title": "Mechanical Technician (Servicetechniker/Wartungstechniker) (German)",
+        "company_name": null,
+        "job_url": "https://www.google.com/about/careers/applications/job/54322"
+      },
+      "provenance": {
+        "page.snapshot.md": true
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 11.487,
+    "input_tokens": 29842,
+    "output_tokens": 204,
+    "total_tokens": 30046,
+    "repaired": false,
+    "error": null
+  }
+}

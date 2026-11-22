@@ -1,0 +1,2311 @@
+{
+  "task_id": "WBV1_JOBS_NATURECAREERS_001_LISTING",
+  "website_id": "naturecareers",
+  "schema_id": "job_listing_v1",
+  "snapshot_id": "naturecareers_listing",
+  "snapshot_path": "raw_snapshots/jobs/naturecareers_listing",
+  "live_url": "https://www.nature.com/naturecareers/jobs",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 20
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_001",
+      "fields": {
+        "job_title": {
+          "value": "Associate/Senior Editor, Nature Communications (Human Behaviour)",
+          "normalized": "Associate/Senior Editor, Nature Communications (Human Behaviour)"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860948/-associate-senior-editor-nature-communications-human-behaviour-/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860948/-associate-senior-editor-nature-communications-human-behaviour-/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Title: Associate/Senior Editor, Nature Communications (Human Behaviour team) Location: New York, Jersey City, Philadelphia, Berlin, Shanghai, Pune ...",
+          "normalized": "Title: Associate/Senior Editor, Nature Communications (Human Behaviour team) Location: New York, Jersey City, Philadelphia, Berlin, Shanghai, Pune ..."
+        },
+        "location": {
+          "value": "New York City, New York (US)",
+          "normalized": "New York City, New York (US)"
+        },
+        "salary": {
+          "value": "Associate Editor: $80,000/Senior Editor: $95,000",
+          "normalized": {
+            "min_amount": 80000.0,
+            "max_amount": 95000.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            },
+            "period": null
+          }
+        },
+        "company_name": {
+          "value": "Springer Nature Ltd",
+          "normalized": "Springer Nature Ltd"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860948 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860948']/div[1]/h3[1]",
+          "text_quote": "Associate/Senior Editor, Nature Communications (Human Behaviour)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860948 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860948']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860948 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860948']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860948 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860948']/div[1]/p[1]",
+          "text_quote": "Title: Associate/Senior Editor, Nature Communications (Human Behaviour team) Location: New York, Jersey City, Philadelphia, Berlin, Shanghai, Pune ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860948 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860948']/div[1]/ul[1]/li[1]",
+          "text_quote": "New York City, New York (US)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860948 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860948']/div[1]/ul[1]/li[2]",
+          "text_quote": "Associate Editor: $80,000/Senior Editor: $95,000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860948 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860948']/div[1]/ul[1]/li[3]",
+          "text_quote": "Springer Nature Ltd",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_002",
+      "fields": {
+        "job_title": {
+          "value": "Global Talent Recruitment Announcement of the College of Engineering, HZAU",
+          "normalized": "Global Talent Recruitment Announcement of the College of Engineering, HZAU"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/0cbac729-18c4-4ffc-a399-1725cb26824b/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/0cbac729-18c4-4ffc-a399-1725cb26824b/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12856815/global-talent-recruitment-announcement-of-the-college-of-engineering-hzau/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12856815/global-talent-recruitment-announcement-of-the-college-of-engineering-hzau/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Join HZAU's global faculty team to advance research with competitive benefits.",
+          "normalized": "Join HZAU's global faculty team to advance research with competitive benefits."
+        },
+        "location": {
+          "value": "Wuhan, Hubei (CN)",
+          "normalized": "Wuhan, Hubei (CN)"
+        },
+        "salary": {
+          "value": "Competitive salary",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Huazhong Agricultural University (HZAU)",
+          "normalized": "Huazhong Agricultural University (HZAU)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12856815 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12856815']/div[1]/h3[1]",
+          "text_quote": "Global Talent Recruitment Announcement of the College of Engineering, HZAU",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12856815 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12856815']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/0cbac729-18c4-4ffc-a399-1725cb26824b/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12856815 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12856815']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12856815 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12856815']/div[1]/p[1]",
+          "text_quote": "Join HZAU's global faculty team to advance research with competitive benefits.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12856815 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12856815']/div[1]/ul[1]/li[1]",
+          "text_quote": "Wuhan, Hubei (CN)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12856815 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12856815']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12856815 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12856815']/div[1]/ul[1]/li[3]",
+          "text_quote": "Huazhong Agricultural University (HZAU)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_003",
+      "fields": {
+        "job_title": {
+          "value": "Postdoctoral Fellow in Immunology",
+          "normalized": "Postdoctoral Fellow in Immunology"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/1ae75571-97da-4886-9acd-58600d8e279b/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/1ae75571-97da-4886-9acd-58600d8e279b/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860932/postdoctoral-fellow-in-immunology/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860932/postdoctoral-fellow-in-immunology/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "The Department of Medicine at Boston University, Bosmann Laboratory, is recruiting highly motivated Postdoctoral Fellows to work on projects in Imm...",
+          "normalized": "The Department of Medicine at Boston University, Bosmann Laboratory, is recruiting highly motivated Postdoctoral Fellows to work on projects in Imm..."
+        },
+        "location": {
+          "value": "Boston, Massachusetts (US)",
+          "normalized": "Boston, Massachusetts (US)"
+        },
+        "salary": {
+          "value": "67,500-75,000",
+          "normalized": {
+            "min_amount": 67500.0,
+            "max_amount": 75000.0,
+            "currency": null,
+            "period": null
+          }
+        },
+        "company_name": {
+          "value": "BU Pulmonary",
+          "normalized": "BU Pulmonary"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860932 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860932']/div[1]/h3[1]",
+          "text_quote": "Postdoctoral Fellow in Immunology",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "img[src='//www.nature.com/naturecareers/getasset/1ae75571-97da-4886-9acd-58600d8e279b/']",
+          "xpath": "//img[@src='//www.nature.com/naturecareers/getasset/1ae75571-97da-4886-9acd-58600d8e279b/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/1ae75571-97da-4886-9acd-58600d8e279b/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860932 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860932']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860932 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860932']/div[1]/p[1]",
+          "text_quote": "The Department of Medicine at Boston University, Bosmann Laboratory, is recruiting highly motivated Postdoctoral Fellows to work on projects in Imm...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860932 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860932']/div[1]/ul[1]/li[1]",
+          "text_quote": "Boston, Massachusetts (US)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860932 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860932']/div[1]/ul[1]/li[2]",
+          "text_quote": "67,500-75,000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860932 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860932']/div[1]/ul[1]/li[3]",
+          "text_quote": "BU Pulmonary",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_004",
+      "fields": {
+        "job_title": {
+          "value": "Independent Investigator Fellowship Program",
+          "normalized": "Independent Investigator Fellowship Program"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/286dade0-3211-4605-b10a-20d1dfcccbe1/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/286dade0-3211-4605-b10a-20d1dfcccbe1/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860918/independent-investigator-fellowship-program/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860918/independent-investigator-fellowship-program/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "NIBS invites applications from outstanding early-career scientists for the Independent Investigator Fellowship Program.",
+          "normalized": "NIBS invites applications from outstanding early-career scientists for the Independent Investigator Fellowship Program."
+        },
+        "location": {
+          "value": "Beijing (CN)",
+          "normalized": "Beijing (CN)"
+        },
+        "salary": {
+          "value": "Internationally competitive salary and research support",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "National Institute of Biological Sciences, Beijing",
+          "normalized": "National Institute of Biological Sciences, Beijing"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860918 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860918']/div[1]/h3[1]",
+          "text_quote": "Independent Investigator Fellowship Program",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "img[src='//www.nature.com/naturecareers/getasset/286dade0-3211-4605-b10a-20d1dfcccbe1/']",
+          "xpath": "//img[@src='//www.nature.com/naturecareers/getasset/286dade0-3211-4605-b10a-20d1dfcccbe1/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/286dade0-3211-4605-b10a-20d1dfcccbe1/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860918 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860918']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860918 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860918']/div[1]/p[1]",
+          "text_quote": "NIBS invites applications from outstanding early-career scientists for the Independent Investigator Fellowship Program.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860918 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860918']/div[1]/ul[1]/li[1]",
+          "text_quote": "Beijing (CN)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860918 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860918']/div[1]/ul[1]/li[2]",
+          "text_quote": "Internationally competitive salary and research support",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860918 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860918']/div[1]/ul[1]/li[3]",
+          "text_quote": "National Institute of Biological Sciences, Beijing",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_005",
+      "fields": {
+        "job_title": {
+          "value": "Faculty Positions",
+          "normalized": "Faculty Positions"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/f7df8eba-7c1f-4976-9314-a31ec5a82ac8/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/f7df8eba-7c1f-4976-9314-a31ec5a82ac8/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860809/faculty-positions/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860809/faculty-positions/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Faculty Positions in Physics and Astronomy National Tsing Hua University, Taiwan (located in Hsinchu \u2013 the heart of Taiwan\u2019s science and tech hub)",
+          "normalized": "Faculty Positions in Physics and Astronomy National Tsing Hua University, Taiwan (located in Hsinchu \u2013 the heart of Taiwan\u2019s science and tech hub)"
+        },
+        "location": {
+          "value": "Hsinchu,Taiwan (TW)",
+          "normalized": "Hsinchu,Taiwan (TW)"
+        },
+        "salary": {
+          "value": "Salary will be commensurate with qualifications and experience.",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "The Department of Physics and Institute of Astronomy at National Tsing Hua University, Taiwan",
+          "normalized": "The Department of Physics and Institute of Astronomy at National Tsing Hua University, Taiwan"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860809 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860809']/div[1]/h3[1]",
+          "text_quote": "Faculty Positions",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "img[src='//www.nature.com/naturecareers/getasset/f7df8eba-7c1f-4976-9314-a31ec5a82ac8/']",
+          "xpath": "//img[@src='//www.nature.com/naturecareers/getasset/f7df8eba-7c1f-4976-9314-a31ec5a82ac8/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/f7df8eba-7c1f-4976-9314-a31ec5a82ac8/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860809 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860809']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860809 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860809']/div[1]/p[1]",
+          "text_quote": "Faculty Positions in Physics and Astronomy National Tsing Hua University, Taiwan (located in Hsinchu \u2013 the heart of Taiwan\u2019s science and tech hub)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860809 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860809']/div[1]/ul[1]/li[1]",
+          "text_quote": "Hsinchu,Taiwan (TW)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860809 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860809']/div[1]/ul[1]/li[2]",
+          "text_quote": "Salary will be commensurate with qualifications and experience.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860809 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860809']/div[1]/ul[1]/li[3]",
+          "text_quote": "The Department of Physics and Institute of Astronomy at National Tsing Hua University, Taiwan",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_006",
+      "fields": {
+        "job_title": {
+          "value": "Associate or Senior Editor (Nature Geoscience \u2013 Biogeochemistry)",
+          "normalized": "Associate or Senior Editor (Nature Geoscience \u2013 Biogeochemistry)"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860894/associate-or-senior-editor-nature-geoscience-biogeochemistry-/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860894/associate-or-senior-editor-nature-geoscience-biogeochemistry-/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Job Title: Associate or Senior Editor (Nature Geoscience - Biogeochemistry) Organisation: Nature Portfolio Location: Shanghai, Beijing, Milan and P...",
+          "normalized": "Job Title: Associate or Senior Editor (Nature Geoscience - Biogeochemistry) Organisation: Nature Portfolio Location: Shanghai, Beijing, Milan and P..."
+        },
+        "location": {
+          "value": "Shanghai, Beijing, Milan and Pune",
+          "normalized": "Shanghai, Beijing, Milan and Pune"
+        },
+        "salary": {
+          "value": "Competitive salary + excellent benefits package",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Springer Nature Ltd",
+          "normalized": "Springer Nature Ltd"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860894 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860894']/div[1]/h3[1]",
+          "text_quote": "Associate or Senior Editor (Nature Geoscience \u2013 Biogeochemistry)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860894 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860894']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860894 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860894']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860894 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860894']/div[1]/p[1]",
+          "text_quote": "Job Title: Associate or Senior Editor (Nature Geoscience - Biogeochemistry) Organisation: Nature Portfolio Location: Shanghai, Beijing, Milan and P...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860894 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860894']/div[1]/ul[1]/li[1]",
+          "text_quote": "Shanghai, Beijing, Milan and Pune",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860894 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860894']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary + excellent benefits package",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860894 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860894']/div[1]/ul[1]/li[3]",
+          "text_quote": "Springer Nature Ltd",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_007",
+      "fields": {
+        "job_title": {
+          "value": "Associate or Senior Editor (Nature Geoscience - Solid Earth)",
+          "normalized": "Associate or Senior Editor (Nature Geoscience - Solid Earth)"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860893/associate-or-senior-editor-nature-geoscience-solid-earth-/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860893/associate-or-senior-editor-nature-geoscience-solid-earth-/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Job Title: Associate or Senior Editor (Nature Geoscience - Solid Earth) Organisation: Nature Portfolio Location: Shanghai, Beijing, Milan and Pune ...",
+          "normalized": "Job Title: Associate or Senior Editor (Nature Geoscience - Solid Earth) Organisation: Nature Portfolio Location: Shanghai, Beijing, Milan and Pune ..."
+        },
+        "location": {
+          "value": "Shanghai, Beijing, Milan and Pune",
+          "normalized": "Shanghai, Beijing, Milan and Pune"
+        },
+        "salary": {
+          "value": "Competitive salary + excellent benefits package",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Springer Nature Ltd",
+          "normalized": "Springer Nature Ltd"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860893 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860893']/div[1]/h3[1]",
+          "text_quote": "Associate or Senior Editor (Nature Geoscience - Solid Earth)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860893 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860893']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860893 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860893']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860893 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860893']/div[1]/p[1]",
+          "text_quote": "Job Title: Associate or Senior Editor (Nature Geoscience - Solid Earth) Organisation: Nature Portfolio Location: Shanghai, Beijing, Milan and Pune ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860893 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860893']/div[1]/ul[1]/li[1]",
+          "text_quote": "Shanghai, Beijing, Milan and Pune",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860893 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860893']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary + excellent benefits package",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860893 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860893']/div[1]/ul[1]/li[3]",
+          "text_quote": "Springer Nature Ltd",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_008",
+      "fields": {
+        "job_title": {
+          "value": "Associate or Senior Editor, Nature Reviews Physics",
+          "normalized": "Associate or Senior Editor, Nature Reviews Physics"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860877/associate-or-senior-editor-nature-reviews-physics/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860877/associate-or-senior-editor-nature-reviews-physics/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Job Title: Associate or Senior Editor, Nature Reviews Physics Location: Shanghai, Beijing or Madrid\u00a0\u2013 Hybrid working model Applications Deadline: 8...",
+          "normalized": "Job Title: Associate or Senior Editor, Nature Reviews Physics Location: Shanghai, Beijing or Madrid\u00a0\u2013 Hybrid working model Applications Deadline: 8..."
+        },
+        "location": {
+          "value": "Shanghai, Beijing or Madrid \u2013 Hybrid working model",
+          "normalized": "Shanghai, Beijing or Madrid \u2013 Hybrid working model"
+        },
+        "salary": {
+          "value": "Competitive salary + excellent benefits package",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Springer Nature Ltd",
+          "normalized": "Springer Nature Ltd"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860877 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860877']/div[1]/h3[1]",
+          "text_quote": "Associate or Senior Editor, Nature Reviews Physics",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860877 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860877']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860877 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860877']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860877 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860877']/div[1]/p[1]",
+          "text_quote": "Job Title: Associate or Senior Editor, Nature Reviews Physics Location: Shanghai, Beijing or Madrid \u2013 Hybrid working model Applications Deadline: 8...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860877 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860877']/div[1]/ul[1]/li[1]",
+          "text_quote": "Shanghai, Beijing or Madrid \u2013 Hybrid working model",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860877 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860877']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary + excellent benefits package",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860877 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860877']/div[1]/ul[1]/li[3]",
+          "text_quote": "Springer Nature Ltd",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_009",
+      "fields": {
+        "job_title": {
+          "value": "Postdoctoral Research Fellow in Semiconductor Devices at NIMS",
+          "normalized": "Postdoctoral Research Fellow in Semiconductor Devices at NIMS"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/3f2abcd7-0e9b-4caf-8a6e-fbe070c437f1/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/3f2abcd7-0e9b-4caf-8a6e-fbe070c437f1/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860817/postdoctoral-research-fellow-in-semiconductor-devices-at-nims/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860817/postdoctoral-research-fellow-in-semiconductor-devices-at-nims/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "NIMS invites applications for a Postdoctoral Research Fellow in Semiconductor Devices (approx. 4M-6M JPY per annum, at Tsukuba, Japan).",
+          "normalized": "NIMS invites applications for a Postdoctoral Research Fellow in Semiconductor Devices (approx. 4M-6M JPY per annum, at Tsukuba, Japan)."
+        },
+        "location": {
+          "value": "Tsukuba, Japan (JP)",
+          "normalized": "Tsukuba, Japan (JP)"
+        },
+        "salary": {
+          "value": "approx. 4M-6M JPY per annum",
+          "normalized": {
+            "min_amount": 4000000.0,
+            "max_amount": 6000000.0,
+            "currency": {
+              "name": "Japanese yen",
+              "code": "JPY",
+              "symbol": "\u00a5"
+            },
+            "period": "year",
+            "approximate": true
+          }
+        },
+        "company_name": {
+          "value": "National Institute for Materials Science (NIMS)",
+          "normalized": "National Institute for Materials Science (NIMS)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860817 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860817']/div[1]/h3[1]",
+          "text_quote": "Postdoctoral Research Fellow in Semiconductor Devices at NIMS",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860817 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860817']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/3f2abcd7-0e9b-4caf-8a6e-fbe070c437f1/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860817 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860817']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860817 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860817']/div[1]/p[1]",
+          "text_quote": "NIMS invites applications for a Postdoctoral Research Fellow in Semiconductor Devices (approx. 4M-6M JPY per annum, at Tsukuba, Japan).",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860817 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860817']/div[1]/ul[1]/li[1]",
+          "text_quote": "Tsukuba, Japan (JP)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860817 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860817']/div[1]/ul[1]/li[2]",
+          "text_quote": "approx. 4M-6M JPY per annum",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860817 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860817']/div[1]/ul[1]/li[3]",
+          "text_quote": "National Institute for Materials Science (NIMS)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_010",
+      "fields": {
+        "job_title": {
+          "value": "Permanent Researcher in Next-Generation Semiconductor Devices at NIMS",
+          "normalized": "Permanent Researcher in Next-Generation Semiconductor Devices at NIMS"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/3f2abcd7-0e9b-4caf-8a6e-fbe070c437f1/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/3f2abcd7-0e9b-4caf-8a6e-fbe070c437f1/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860806/permanent-researcher-in-next-generation-semiconductor-devices-at-nims/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860806/permanent-researcher-in-next-generation-semiconductor-devices-at-nims/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "NIMS invites applications for a Permanent Researcher in Next-Generation Semiconductor Devices (approx. 6M-10M JPY per annum, at Tsukuba, Japan).",
+          "normalized": "NIMS invites applications for a Permanent Researcher in Next-Generation Semiconductor Devices (approx. 6M-10M JPY per annum, at Tsukuba, Japan)."
+        },
+        "location": {
+          "value": "Tsukuba, Japan (JP)",
+          "normalized": "Tsukuba, Japan (JP)"
+        },
+        "salary": {
+          "value": "approx. 6M-10M JPY per annum",
+          "normalized": {
+            "min_amount": 6000000.0,
+            "max_amount": 10000000.0,
+            "currency": {
+              "name": "Japanese yen",
+              "code": "JPY",
+              "symbol": "\u00a5"
+            },
+            "period": "year",
+            "approximate": true
+          }
+        },
+        "company_name": {
+          "value": "National Institute for Materials Science (NIMS)",
+          "normalized": "National Institute for Materials Science (NIMS)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860806 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860806']/div[1]/h3[1]",
+          "text_quote": "Permanent Researcher in Next-Generation Semiconductor Devices at NIMS",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860806 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860806']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/3f2abcd7-0e9b-4caf-8a6e-fbe070c437f1/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860806 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860806']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860806 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860806']/div[1]/p[1]",
+          "text_quote": "NIMS invites applications for a Permanent Researcher in Next-Generation Semiconductor Devices (approx. 6M-10M JPY per annum, at Tsukuba, Japan).",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860806 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860806']/div[1]/ul[1]/li[1]",
+          "text_quote": "Tsukuba, Japan (JP)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860806 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860806']/div[1]/ul[1]/li[2]",
+          "text_quote": "approx. 6M-10M JPY per annum",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860806 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860806']/div[1]/ul[1]/li[3]",
+          "text_quote": "National Institute for Materials Science (NIMS)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_011",
+      "fields": {
+        "job_title": {
+          "value": "Global Recruitment for Faculty, Postdocs, and Specialists at Hangzhou Institute of Medicine, CAS",
+          "normalized": "Global Recruitment for Faculty, Postdocs, and Specialists at Hangzhou Institute of Medicine, CAS"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/1c3bae40-91a7-4f46-8e23-c2fa83848be4/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/1c3bae40-91a7-4f46-8e23-c2fa83848be4/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12840795/global-recruitment-for-faculty-postdocs-and-specialists-at-hangzhou-institute-of-medicine-cas-/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12840795/global-recruitment-for-faculty-postdocs-and-specialists-at-hangzhou-institute-of-medicine-cas-/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Seeking exceptional Senior/Junior PIs, Postdocs, and Core Specialists globally year-round",
+          "normalized": "Seeking exceptional Senior/Junior PIs, Postdocs, and Core Specialists globally year-round"
+        },
+        "location": {
+          "value": "Hangzhou, China",
+          "normalized": "Hangzhou, China"
+        },
+        "salary": {
+          "value": "Competitive salary and benefits. Specific compensation can be negotiated further",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Hangzhou Institute of Medicine Chinese Academy of Sciences (HIMCAS)",
+          "normalized": "Hangzhou Institute of Medicine Chinese Academy of Sciences (HIMCAS)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12840795 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12840795']/div[1]/h3[1]",
+          "text_quote": "Global Recruitment for Faculty, Postdocs, and Specialists at Hangzhou Institute of Medicine, CAS",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[12]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(12) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "img[src='//www.nature.com/naturecareers/getasset/1c3bae40-91a7-4f46-8e23-c2fa83848be4/']",
+          "xpath": "//img[@src='//www.nature.com/naturecareers/getasset/1c3bae40-91a7-4f46-8e23-c2fa83848be4/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[12]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(12) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/1c3bae40-91a7-4f46-8e23-c2fa83848be4/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12840795 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12840795']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[12]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(12) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12840795 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12840795']/div[1]/p[1]",
+          "text_quote": "Seeking exceptional Senior/Junior PIs, Postdocs, and Core Specialists globally year-round",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[12]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(12) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12840795 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12840795']/div[1]/ul[1]/li[1]",
+          "text_quote": "Hangzhou, China",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[12]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(12) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12840795 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12840795']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary and benefits. Specific compensation can be negotiated further",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[12]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(12) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12840795 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12840795']/div[1]/ul[1]/li[3]",
+          "text_quote": "Hangzhou Institute of Medicine Chinese Academy of Sciences (HIMCAS)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[12]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(12) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_012",
+      "fields": {
+        "job_title": {
+          "value": "Biotech and Healthcare Investment Associate",
+          "normalized": "Biotech and Healthcare Investment Associate"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/bebae711-ec20-48b0-a545-8f53385a7ecb/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/bebae711-ec20-48b0-a545-8f53385a7ecb/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860834/biotech-and-healthcare-investment-associate/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860834/biotech-and-healthcare-investment-associate/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Join a dedicated Biotechnology and Healthcare investment team at a Boston-based multi-billion-dollar family office.",
+          "normalized": "Join a dedicated Biotechnology and Healthcare investment team at a Boston-based multi-billion-dollar family office."
+        },
+        "location": {
+          "value": "Boston, Massachusetts (US)",
+          "normalized": "Boston, Massachusetts (US)"
+        },
+        "salary": {
+          "value": "attractive compensation structure with performance-driven upside",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Boston-based Family Office",
+          "normalized": "Boston-based Family Office"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860834 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860834']/div[1]/h3[1]",
+          "text_quote": "Biotech and Healthcare Investment Associate",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "img[src='//www.nature.com/naturecareers/getasset/bebae711-ec20-48b0-a545-8f53385a7ecb/']",
+          "xpath": "//img[@src='//www.nature.com/naturecareers/getasset/bebae711-ec20-48b0-a545-8f53385a7ecb/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/bebae711-ec20-48b0-a545-8f53385a7ecb/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860834 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860834']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860834 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860834']/div[1]/p[1]",
+          "text_quote": "Join a dedicated Biotechnology and Healthcare investment team at a Boston-based multi-billion-dollar family office.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860834 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860834']/div[1]/ul[1]/li[1]",
+          "text_quote": "Boston, Massachusetts (US)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860834 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860834']/div[1]/ul[1]/li[2]",
+          "text_quote": "attractive compensation structure with performance-driven upside",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860834 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860834']/div[1]/ul[1]/li[3]",
+          "text_quote": "Boston-based Family Office",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_013",
+      "fields": {
+        "job_title": {
+          "value": "Assistant Professor in Structural Geology and Geomechanics",
+          "normalized": "Assistant Professor in Structural Geology and Geomechanics"
+        },
+        "company_logo_url": {
+          "value": null,
+          "normalized": null
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860833/assistant-professor-in-structural-geology-and-geomechanics/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860833/assistant-professor-in-structural-geology-and-geomechanics/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "The Department of Earth and Planetary Sciences (https://epsci.stanford.edu) at Stanford University and the Stanford Doerr School of Sustainability ...",
+          "normalized": "The Department of Earth and Planetary Sciences (https://epsci.stanford.edu) at Stanford University and the Stanford Doerr School of Sustainability ..."
+        },
+        "location": {
+          "value": "Stanford, California (US)",
+          "normalized": "Stanford, California (US)"
+        },
+        "salary": {
+          "value": "$143,500 - $180,000",
+          "normalized": {
+            "min_amount": 143500.0,
+            "max_amount": 180000.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            },
+            "period": null
+          }
+        },
+        "company_name": {
+          "value": "Earth & Planetary Sciences Department",
+          "normalized": "Earth & Planetary Sciences Department"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860833 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860833']/div[1]/h3[1]",
+          "text_quote": "Assistant Professor in Structural Geology and Geomechanics",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860833 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860833']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860833 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860833']/div[1]/p[1]",
+          "text_quote": "The Department of Earth and Planetary Sciences (https://epsci.stanford.edu) at Stanford University and the Stanford Doerr School of Sustainability ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860833 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860833']/div[1]/ul[1]/li[1]",
+          "text_quote": "Stanford, California (US)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860833 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860833']/div[1]/ul[1]/li[2]",
+          "text_quote": "$143,500 - $180,000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860833 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860833']/div[1]/ul[1]/li[3]",
+          "text_quote": "Earth & Planetary Sciences Department",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_014",
+      "fields": {
+        "job_title": {
+          "value": "Biostatistician / Epidemiologist \u2013 Clinical Epidemiology Research Center (CERC) and Yale University",
+          "normalized": "Biostatistician / Epidemiologist \u2013 Clinical Epidemiology Research Center (CERC) and Yale University"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/c5573f36-e5c9-44b1-b72e-95a0dd2a90c4/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/c5573f36-e5c9-44b1-b72e-95a0dd2a90c4/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860823/biostatistician-epidemiologist-clinical-epidemiology-research-center-cerc-and-yale-university-/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860823/biostatistician-epidemiologist-clinical-epidemiology-research-center-cerc-and-yale-university-/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "The Clinical Epidemiology Research Center and Yale seek an Epidemiologist/Biostatistician to contribute to improving healthcare for US Veterans",
+          "normalized": "The Clinical Epidemiology Research Center and Yale seek an Epidemiologist/Biostatistician to contribute to improving healthcare for US Veterans"
+        },
+        "location": {
+          "value": "West Haven, Connecticut",
+          "normalized": "West Haven, Connecticut"
+        },
+        "salary": {
+          "value": "depends on experience",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Yale University School of Medicine",
+          "normalized": "Yale University School of Medicine"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860823 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860823']/div[1]/h3[1]",
+          "text_quote": "Biostatistician / Epidemiologist \u2013 Clinical Epidemiology Research Center (CERC) and Yale University",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "img[src='//www.nature.com/naturecareers/getasset/c5573f36-e5c9-44b1-b72e-95a0dd2a90c4/']",
+          "xpath": "//img[@src='//www.nature.com/naturecareers/getasset/c5573f36-e5c9-44b1-b72e-95a0dd2a90c4/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/c5573f36-e5c9-44b1-b72e-95a0dd2a90c4/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860823 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860823']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860823 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860823']/div[1]/p[1]",
+          "text_quote": "The Clinical Epidemiology Research Center and Yale seek an Epidemiologist/Biostatistician to contribute to improving healthcare for US Veterans",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860823 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860823']/div[1]/ul[1]/li[1]",
+          "text_quote": "West Haven, Connecticut",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860823 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860823']/div[1]/ul[1]/li[2]",
+          "text_quote": "depends on experience",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860823 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860823']/div[1]/ul[1]/li[3]",
+          "text_quote": "Yale University School of Medicine",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_015",
+      "fields": {
+        "job_title": {
+          "value": "Unlock Your Potential with a PhD at Scuola Superiore Meridionale - for a.y. 2026/27",
+          "normalized": "Unlock Your Potential with a PhD at Scuola Superiore Meridionale - for a.y. 2026/27"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/abf9063f-01f5-48d0-a1e4-ad3e2b1f4b8a/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/abf9063f-01f5-48d0-a1e4-ad3e2b1f4b8a/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860814/unlock-your-potential-with-a-phd-at-scuola-superiore-meridionale-for-a-y-2026-27/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860814/unlock-your-potential-with-a-phd-at-scuola-superiore-meridionale-for-a-y-2026-27/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Nestled in the vibrant city of Naples, Italy, SSM is a prestigious institution of higher learning and research",
+          "normalized": "Nestled in the vibrant city of Naples, Italy, SSM is a prestigious institution of higher learning and research"
+        },
+        "location": {
+          "value": "Naples (IT)",
+          "normalized": "Naples (IT)"
+        },
+        "salary": {
+          "value": "\u20ac19,000 per year",
+          "normalized": {
+            "min_amount": 19000.0,
+            "max_amount": 19000.0,
+            "currency": {
+              "name": "Euro",
+              "code": "EUR",
+              "symbol": "\u20ac"
+            },
+            "period": "year"
+          }
+        },
+        "company_name": {
+          "value": "Scuola Superiore Meridionale",
+          "normalized": "Scuola Superiore Meridionale"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860814 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860814']/div[1]/h3[1]",
+          "text_quote": "Unlock Your Potential with a PhD at Scuola Superiore Meridionale - for a.y. 2026/27",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "img[src='//www.nature.com/naturecareers/getasset/abf9063f-01f5-48d0-a1e4-ad3e2b1f4b8a/']",
+          "xpath": "//img[@src='//www.nature.com/naturecareers/getasset/abf9063f-01f5-48d0-a1e4-ad3e2b1f4b8a/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/abf9063f-01f5-48d0-a1e4-ad3e2b1f4b8a/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860814 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860814']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860814 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860814']/div[1]/p[1]",
+          "text_quote": "Nestled in the vibrant city of Naples, Italy, SSM is a prestigious institution of higher learning and research",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860814 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860814']/div[1]/ul[1]/li[1]",
+          "text_quote": "Naples (IT)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860814 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860814']/div[1]/ul[1]/li[2]",
+          "text_quote": "\u20ac19,000 per year",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860814 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860814']/div[1]/ul[1]/li[3]",
+          "text_quote": "Scuola Superiore Meridionale",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_016",
+      "fields": {
+        "job_title": {
+          "value": "Associate or Senior Editor, BMC Medicine",
+          "normalized": "Associate or Senior Editor, BMC Medicine"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860813/associate-or-senior-editor-bmc-medicine/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860813/associate-or-senior-editor-bmc-medicine/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Job Title:\u00a0\u00a0\u00a0 Associate or Senior Editor, BMC Medicine Location:\u00a0\u00a0\u00a0 Shanghai or New York, Hybrid Working Model Application Deadline: July 6th, 2026...",
+          "normalized": "Job Title:\u00a0\u00a0\u00a0 Associate or Senior Editor, BMC Medicine Location:\u00a0\u00a0\u00a0 Shanghai or New York, Hybrid Working Model Application Deadline: July 6th, 2026..."
+        },
+        "location": {
+          "value": "Shanghai or New York, Hybrid Working Model",
+          "normalized": "Shanghai or New York, Hybrid Working Model"
+        },
+        "salary": {
+          "value": "Competitive salary + excellent benefits package",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Springer Nature Ltd",
+          "normalized": "Springer Nature Ltd"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860813 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860813']/div[1]/h3[1]",
+          "text_quote": "Associate or Senior Editor, BMC Medicine",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860813 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860813']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860813 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860813']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860813 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860813']/div[1]/p[1]",
+          "text_quote": "Job Title: Associate or Senior Editor, BMC Medicine Location: Shanghai or New York, Hybrid Working Model Application Deadline: July 6th, 2026...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860813 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860813']/div[1]/ul[1]/li[1]",
+          "text_quote": "Shanghai or New York, Hybrid Working Model",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860813 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860813']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary + excellent benefits package",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860813 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860813']/div[1]/ul[1]/li[3]",
+          "text_quote": "Springer Nature Ltd",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_017",
+      "fields": {
+        "job_title": {
+          "value": "Tsinghua Shenzhen International Graduate School",
+          "normalized": "Tsinghua Shenzhen International Graduate School"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/770f4b6d-65ad-442c-99e5-396573e3416c/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/770f4b6d-65ad-442c-99e5-396573e3416c/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860778/tsinghua-shenzhen-international-graduate-school-/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860778/tsinghua-shenzhen-international-graduate-school-/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Join Tsinghua SIGS as a faculty member and contribute to academic excellence and global impact.",
+          "normalized": "Join Tsinghua SIGS as a faculty member and contribute to academic excellence and global impact."
+        },
+        "location": {
+          "value": "Tsinghua SIGS is located in Shenzhen, a vibrant innovation hub in the Guangdong-Hong Kong-Macao Greater Bay Area.",
+          "normalized": "Tsinghua SIGS is located in Shenzhen, a vibrant innovation hub in the Guangdong-Hong Kong-Macao Greater Bay Area."
+        },
+        "salary": {
+          "value": "competitive, experience-based salary",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Tsinghua Shenzhen International Graduate School",
+          "normalized": "Tsinghua Shenzhen International Graduate School"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860778 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860778']/div[1]/h3[1]",
+          "text_quote": "Tsinghua Shenzhen International Graduate School",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "img[src='//www.nature.com/naturecareers/getasset/770f4b6d-65ad-442c-99e5-396573e3416c/']",
+          "xpath": "//img[@src='//www.nature.com/naturecareers/getasset/770f4b6d-65ad-442c-99e5-396573e3416c/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/770f4b6d-65ad-442c-99e5-396573e3416c/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860778 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860778']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860778 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860778']/div[1]/p[1]",
+          "text_quote": "Join Tsinghua SIGS as a faculty member and contribute to academic excellence and global impact.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860778 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860778']/div[1]/ul[1]/li[1]",
+          "text_quote": "Tsinghua SIGS is located in Shenzhen, a vibrant innovation hub in the Guangdong-Hong Kong-Macao Greater Bay Area.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860778 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860778']/div[1]/ul[1]/li[2]",
+          "text_quote": "competitive, experience-based salary",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860778 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860778']/div[1]/ul[1]/li[3]",
+          "text_quote": "Tsinghua Shenzhen International Graduate School",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_018",
+      "fields": {
+        "job_title": {
+          "value": "Talent Recruitment Announcement of the College of Informatics, Huazhong Agricultural University",
+          "normalized": "Talent Recruitment Announcement of the College of Informatics, Huazhong Agricultural University"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/0cbac729-18c4-4ffc-a399-1725cb26824b/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/0cbac729-18c4-4ffc-a399-1725cb26824b/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12848707/talent-recruitment-announcement-of-the-college-of-informatics-huazhong-agricultural-university/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12848707/talent-recruitment-announcement-of-the-college-of-informatics-huazhong-agricultural-university/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Join Huazhong Agricultural University",
+          "normalized": "Join Huazhong Agricultural University"
+        },
+        "location": {
+          "value": "No.1 Shizishan Street, Hongshan District, Wuhan, Hubei Province, China",
+          "normalized": "No.1 Shizishan Street, Hongshan District, Wuhan, Hubei Province, China"
+        },
+        "salary": {
+          "value": "Competitive salary",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Huazhong Agricultural University (HZAU)",
+          "normalized": "Huazhong Agricultural University (HZAU)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12848707 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12848707']/div[1]/h3[1]",
+          "text_quote": "Talent Recruitment Announcement of the College of Informatics, Huazhong Agricultural University",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12848707 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12848707']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/0cbac729-18c4-4ffc-a399-1725cb26824b/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12848707 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12848707']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12848707 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12848707']/div[1]/p[1]",
+          "text_quote": "Join Huazhong Agricultural University",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12848707 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12848707']/div[1]/ul[1]/li[1]",
+          "text_quote": "No.1 Shizishan Street, Hongshan District, Wuhan, Hubei Province, China",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12848707 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12848707']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12848707 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12848707']/div[1]/ul[1]/li[3]",
+          "text_quote": "Huazhong Agricultural University (HZAU)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_019",
+      "fields": {
+        "job_title": {
+          "value": "Multiple Faculty and Postdoctoral Positions in Ultrasound Medicine and Engineering",
+          "normalized": "Multiple Faculty and Postdoctoral Positions in Ultrasound Medicine and Engineering"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/9dd570c4-33e7-4b49-b3e1-530b9bfe6f03/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/9dd570c4-33e7-4b49-b3e1-530b9bfe6f03/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12853239/multiple-faculty-and-postdoctoral-positions-in-ultrasound-medicine-and-engineering/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12853239/multiple-faculty-and-postdoctoral-positions-in-ultrasound-medicine-and-engineering/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Seeking global talents at all levels (Distinguished, Leading, Young Scholars, Postdocs).",
+          "normalized": "Seeking global talents at all levels (Distinguished, Leading, Young Scholars, Postdocs)."
+        },
+        "location": {
+          "value": "Chongqing (CN)",
+          "normalized": "Chongqing (CN)"
+        },
+        "salary": {
+          "value": "Highly competitive, commensurate with rank and experience. Top talent package negotiable.",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "State Key Laboratory of Ultrasound in Medicine and Engineering,  Chongqing Medical University.",
+          "normalized": "State Key Laboratory of Ultrasound in Medicine and Engineering,  Chongqing Medical University."
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12853239 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12853239']/div[1]/h3[1]",
+          "text_quote": "Multiple Faculty and Postdoctoral Positions in Ultrasound Medicine and Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "img[src='//www.nature.com/naturecareers/getasset/9dd570c4-33e7-4b49-b3e1-530b9bfe6f03/']",
+          "xpath": "//img[@src='//www.nature.com/naturecareers/getasset/9dd570c4-33e7-4b49-b3e1-530b9bfe6f03/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/9dd570c4-33e7-4b49-b3e1-530b9bfe6f03/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12853239 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12853239']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12853239 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12853239']/div[1]/p[1]",
+          "text_quote": "Seeking global talents at all levels (Distinguished, Leading, Young Scholars, Postdocs).",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12853239 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12853239']/div[1]/ul[1]/li[1]",
+          "text_quote": "Chongqing (CN)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12853239 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12853239']/div[1]/ul[1]/li[2]",
+          "text_quote": "Highly competitive, commensurate with rank and experience. Top talent package negotiable.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12853239 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12853239']/div[1]/ul[1]/li[3]",
+          "text_quote": "State Key Laboratory of Ultrasound in Medicine and Engineering, Chongqing Medical University.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_NATURECAREERS_001_LISTING_020",
+      "fields": {
+        "job_title": {
+          "value": "Associate or Senior Editor, Nature Human Behaviour",
+          "normalized": "Associate or Senior Editor, Nature Human Behaviour"
+        },
+        "company_logo_url": {
+          "value": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/",
+          "normalized": "https://www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/"
+        },
+        "job_url": {
+          "value": "https://www.nature.com/naturecareers/job/12860787/associate-or-senior-editor-nature-human-behaviour/?LinkSource=PremiumListing",
+          "normalized": "https://www.nature.com/naturecareers/job/12860787/associate-or-senior-editor-nature-human-behaviour/?LinkSource=PremiumListing"
+        },
+        "job_description": {
+          "value": "Job Title: Associate or Senior Editor, Nature Human Behaviour Organisation: Nature Portfolio Location: Shanghai, Milan or Pune \u2013 hybrid working mod...",
+          "normalized": "Job Title: Associate or Senior Editor, Nature Human Behaviour Organisation: Nature Portfolio Location: Shanghai, Milan or Pune \u2013 hybrid working mod..."
+        },
+        "location": {
+          "value": "Shanghai, Milan or Pune \u2013 hybrid working model",
+          "normalized": "Shanghai, Milan or Pune \u2013 hybrid working model"
+        },
+        "salary": {
+          "value": "Competitive salary + excellent benefits package",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "Springer Nature Ltd",
+          "normalized": "Springer Nature Ltd"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860787 > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860787']/div[1]/h3[1]",
+          "text_quote": "Associate or Senior Editor, Nature Human Behaviour",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/h3",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > h3",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860787 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860787']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > img[src='//www.nature.com/naturecareers/getasset/121465b9-8274-400b-b7a9-ebfcc5a13127/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_url": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860787 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860787']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860787 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860787']/div[1]/p[1]",
+          "text_quote": "Job Title: Associate or Senior Editor, Nature Human Behaviour Organisation: Nature Portfolio Location: Shanghai, Milan or Pune \u2013 hybrid working mod...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860787 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-12860787']/div[1]/ul[1]/li[1]",
+          "text_quote": "Shanghai, Milan or Pune \u2013 hybrid working model",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860787 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-12860787']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary + excellent benefits package",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "naturecareers_listing",
+          "css_selector": "li#item-12860787 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-12860787']/div[1]/ul[1]/li[3]",
+          "text_quote": "Springer Nature Ltd",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "task_id": "WBV1_JOBS_EUROBRUSSELS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Public Affairs Consultant",
+        "company_name": "EFC - European Football Clubs",
+        "location": "Brussels",
+        "job_url": "https://www2.eurobrussels.com/job_display/291646/Public_Affairs_Consultant_EFC_European_Football_Clubs_Brussels_Belgium",
+        "job_description": "Track and analyse policy, legislative and regulatory developments at the EU and/or (inter)national level that affect EFC, its members and European club football more generally. Provide EFC with relevant information and clear assessments of political and",
+        "tags": [
+          "Communication/Public Relations",
+          "Education and Culture",
+          "Industry Association"
+        ],
+        "work_arrangement": "hybrid",
+        "application_deadline": "2024-06-05"
+      },
+      "provenance": {
+        "job_title": "page.html",
+        "company_name": "page.html",
+        "location": "page.html",
+        "job_url": "page.html",
+        "job_description": "page.html",
+        "tags": "page.html",
+        "work_arrangement": "page.html",
+        "application_deadline": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "job_title": "Senior Communications Officer",
+        "company_name": "REScoop.eu",
+        "location": null,
+        "job_url": "https://www2.eurobrussels.com/job_display/291628/Senior_Communications_Officer_REScoopeu_Brussels_Belgium",
+        "job_description": null,
+        "tags": [],
+        "work_arrangement": null
+      },
+      "provenance": {
+        "job_title": "page.html",
+        "company_name": "page.html",
+        "location": null,
+        "job_url": "page.html",
+        "job_description": null,
+        "tags": null,
+        "work_arrangement": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 10.08,
+    "input_tokens": 18919,
+    "output_tokens": 552,
+    "total_tokens": 19471,
+    "initial_input_tokens": 18919,
+    "initial_output_tokens": 552,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.coldwellbankerhomes.com/ca/san-francisco/130-maywood-dr/pid_71582925/",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "url: https://www.coldwellbankerhomes.com/ca/san-francisco/130-maywood-dr/pid_71582925/"
+          }
+        },
+        "address": {
+          "value": "130 Maywood Dr San Francisco, CA 94127",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "130 Maywood Dr San Francisco, CA 94127"
+          }
+        },
+        "listing_title": {
+          "value": "130 Maywood Drive, San Francisco, CA 94127",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "130 Maywood Dr San Francisco, CA 94127"
+          }
+        },
+        "property_type": {
+          "value": "Single Family",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Single Family"
+          }
+        },
+        "price": {
+          "amount": 2395000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e68",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "$2,395,000"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e96",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "\"4\" Beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e98",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "\"2\" Full Baths"
+          }
+        },
+        "bathrooms_partial": {
+          "value": 1,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e10",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "\"1\" Partial Bath"
+          }
+        },
+        "floor_area": {
+          "value": 2392,
+          "unit": "Sq. Ft.",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e13",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "2,392 Sq. Ft."
+          }
+        },
+        "rooms": {
+          "value": 8,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e15",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "\"8\""
+          }
+        },
+        "energy_rating": {
+          "value": null,
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "price_per_m2": {
+          "amount": null,
+          "currency_code": null,
+          "currency_symbol": null,
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "sale_type": {
+          "value": null,
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "tenure": {
+          "value": null,
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "monthly_fees": {
+          "amount": 2,
+          "currency_code": "USD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e160",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "$2/month"
+          }
+        },
+        "total_price": {
+          "amount": null,
+          "currency_code": null,
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "status": {
+          "value": "Pending",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e71",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Pending"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-27",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e173",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "6/5/2026"
+          }
+        },
+        "open_house_schedule": {
+          "value": [],
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "key_features": {
+          "value": [],
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "description": {
+          "value": "Magnificent, hidden storybook Traditional Pacific Ocean view home tucked away on prime block in an oasis setting behind an enchanting, gated courtyard garden entrance w/patio. Inviting brick walkway leads to a notable front door & into a gracious foyer w/spacious center hall floor plan & convenient coat closet. Impressive formal living rm w/recessed lighting boasts a gas fireplace w/classic mantel surround, gleaming random-plank hardwood floors & a grand picture window offering sweeping views from the Olympic Club & Harding Park to Lake Merced, the Pacific Ocean & the Farallon Islands. The splendid formal dining rm w/corrugated glass privacy windows & striking chandelier is perfect for entertaining! Beautifully remodeled gourmet kitchen w/fantastic light-filled breakfast area & panoramic ocean views showcases all stainless-steel appliances incl a Bosch five-burner gas range w/griddle & hood, Bosch microwave & an LG refrigerator, luxury marble counters, gorgeous custom wood cabinets, built-in ironing board & large pantry. Lovely powder rm w/sleek herringbone tile floor & chic wallpaper finishes the main floor. Attractive open-banister staircase ascends to the upper-level landing w/4BR/2BA, hallway & linen closet. Remarkable master suite w/marvelous walk-in closet enjoys a terrific remodeled en-suite marble tiled bath w/heated towel rack & a great shower over jetted tub. Three additional bedrooms − two w/phenomenal ocean views, one with big walk-in closet − and a fabulous second remodeled marble tiled full bath w/window, closet, vanity sink, mirror & shower over cast-iron tub end this floor. The lower level w/high ceilings includes a dramatic step-down family/media rm w/built-in speakers & fancy chandeliers, hobby rm/laundry area w/folding table, washer & dryer, & a home gym space w/access to the yard. Wonderful, landscaped backyard w/natural stone wall, expansive flowerbed, lush green lawn, blooming hydrangeas, mature plants & trees!",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "#e142",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Magnificent, hidden storybook Traditional Pacific Ocean view home tucked away on prime block in an oasis setting behind an enchanting, gated courtyard garden entrance w/patio. Inviting brick walkway leads to a notable front door & into a gracious foyer w/spacious center hall floor plan & convenient coat closet. Impressive formal living rm w/recessed lighting boasts a gas fireplace w/classic mantel surround, gleaming random-plank hardwood floors & a grand picture window offering sweeping views from the Olympic Club & Harding Park to Lake Merced, the Pacific Ocean & the Farallon Islands. The splendid formal dining rm w/corrugated glass privacy windows & striking chandelier is perfect for entertaining! Beautifully remodeled gourmet kitchen w/fantastic light-filled breakfast area & panoramic ocean views showcases all stainless-steel appliances incl a Bosch five-burner gas range w/griddle & hood, Bosch microwave & an LG refrigerator, luxury marble counters, gorgeous custom wood cabinets, built-in ironing board & large pantry. Lovely powder rm w/sleek herringbone tile floor & chic wallpaper finishes the main floor. Attractive open-banister staircase ascends to the upper-level landing w/4BR/2BA, hallway & linen closet. Remarkable master suite w/marvelous walk-in closet enjoys a terrific remodeled en-suite marble tiled bath w/heated towel rack & a great shower over jetted tub. Three additional bedrooms − two w/phenomenal ocean views, one with big walk-in closet − and a fabulous second remodeled marble tiled full bath w/window, closet, vanity sink, mirror & shower over cast-iron tub end this floor. The lower level w/high ceilings includes a dramatic step-down family/media rm w/built-in speakers & fancy chandeliers, hobby rm/laundry area w/folding table, washer & dryer, & a home gym space w/access to the yard. Wonderful, landscaped backyard w/natural stone wall, expansive flowerbed, lush green lawn, blooming hydrangeas, mature plants & trees!"
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 128.369,
+    "input_tokens": 52682,
+    "output_tokens": 8255,
+    "total_tokens": 60937,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_APARTMENTS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_APARTMENTS_002_DETAIL_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

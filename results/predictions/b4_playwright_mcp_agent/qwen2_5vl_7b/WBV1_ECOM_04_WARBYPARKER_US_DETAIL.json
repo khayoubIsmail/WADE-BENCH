@@ -1,0 +1,42 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Warby Parker",
+        "description": "Wilkie Eyeglasses in Black Matte Eclipse — Medium | Warby Parker",
+        "image_urls": [
+          "https://www.warbyparker.com/eyeglasses/wilkie/black-matte-eclipse?w=medium"
+        ],
+        "price_raw": "$95",
+        "product_name": "Wilkie Eyeglasses in Black Matte Eclipse — Medium",
+        "product_url": "https://www.warbyparker.com/eyeglasses/wilkie/black-matte-eclipse?w=medium",
+        "rating": 4.3,
+        "review_count": 350
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Wilkie Eyeglasses in Black Matte Eclipse — Medium | Warby Parker"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 11.251,
+    "input_tokens": 20040,
+    "output_tokens": 222,
+    "total_tokens": 20262,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_04_WARBYPARKER_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_04_WARBYPARKER_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

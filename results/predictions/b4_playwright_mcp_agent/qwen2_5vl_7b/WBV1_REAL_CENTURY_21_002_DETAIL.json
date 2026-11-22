@@ -1,0 +1,35 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/detail/ca/foster-city/516-saint-vincent-ln/lid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx",
+        "price": {
+          "amount": 2798000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 30.317,
+    "input_tokens": 41220,
+    "output_tokens": 320,
+    "total_tokens": 41540,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_CENTURY_21_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_CENTURY_21_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

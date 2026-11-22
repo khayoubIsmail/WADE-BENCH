@@ -1,0 +1,30 @@
+{
+  "task_id": "WBV1_GOV_CFIN_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Refurbishment works Harris Academy Beckenham",
+        "tender_url": "https://www.contractsfinder.service.gov.uk/notice/2b06444b-814c-43b5-a102-8379666b1f2c?origin=SearchResults&p=1"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 230.043,
+    "input_tokens": 26518,
+    "output_tokens": 12634,
+    "total_tokens": 39152,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_CFIN_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_CFIN_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

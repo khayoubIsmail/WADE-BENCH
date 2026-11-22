@@ -1,0 +1,81 @@
+{
+  "task_id": "WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "DEZAART",
+        "description": "This handmade wood pendant light combines contemporary industrial design with a mid-century modern feeling. What is so unique about this lamp is the fact that it creates streams of shadow and light on the ceiling and walls. The stronger the light, the bigger the casting shadows.\n\nThe stronger the light, the bigger the casting shadows.",
+        "image_urls": [
+          "https://i.etsystatic.com/11286611/r/il/2697d2/7288657719/il_794xN.7288657719_ga05.jpg",
+          "https://i.etsystatic.com/11286611/r/il/8c44d9/6560156193/il_794xN.6560156193_l18x.jpg",
+          "https://i.etsystatic.com/11286611/r/il/f9ee7d/6512022340/il_794xN.6512022340_nj99.jpg",
+          "https://i.etsystatic.com/11286611/r/il/19976e/6512022270/il_794xN.6512022270_hehs.jpg",
+          "https://i.etsystatic.com/11286611/r/il/b0cb2c/6512022172/il_794xN.6512022172_9qp5.jpg",
+          "https://i.etsystatic.com/11286611/r/il/df8475/6512022194/il_794xN.6512022194_nnhr.jpg",
+          "https://i.etsystatic.com/11286611/r/il/3571f6/7376161272/il_794xN.7376161272_b9l9.jpg",
+          "https://i.etsystatic.com/11286611/r/il/e4c472/5853869512/il_794xN.5853869512_7nul.jpg",
+          "https://i.etsystatic.com/11286611/r/il/bbcd82/7376161194/il_794xN.7376161194_kypz.jpg",
+          "https://i.etsystatic.com/11286611/r/il/42b1f1/7376161232/il_794xN.7376161232_ij0v.jpg"
+        ],
+        "price_raw": "MAD 1,157.25+",
+        "product_name": "Wood Pendant Light | Mid Century Modern | Handmade Lamp | Ceiling Lamp | Chandelier Lighting | Industrial Lamp | Wood Lampshade | Lamp Shade",
+        "product_url": "https://www.etsy.com/listing/86136800/large-linen-tablecloth-natural-custom",
+        "rating": 5,
+        "review_count": 4799,
+        "size_or_material": [
+          {
+            "option": "Select an option"
+          },
+          {
+            "option": "8 X 19in OAK LIGHT (MAD 1,157.25)"
+          },
+          {
+            "option": "8 X 19in OAK WARM (MAD 1,157.25)"
+          },
+          {
+            "option": "8 X 19in OAK DARK (MAD 1,157.25)"
+          },
+          {
+            "option": "12 X 23in OAK LIGHT (MAD 1,446.56)"
+          },
+          {
+            "option": "12 X 23in OAK WARM (MAD 1,446.56)"
+          },
+          {
+            "option": "12 X 23in OAK DARK (MAD 1,446.56)"
+          }
+        ],
+        "seller_name": "DEZAART",
+        "seller_url": "https://www.etsy.com/shop/DEZAART?ref=shop-header-name&listing_id=86136800&from_page=listing",
+        "shipping_info": {
+          "cost_to_ship": "MAD 279.26",
+          "country_of_origin": "Greece"
+        },
+        "title_quote_or_attribute": "Wood Pendant Light | Mid Century Modern | Handmade Lamp | Ceiling Lamp | Chandelier Lighting | Industrial Lamp | Wood Lampshade | Lamp Shade - Etsy Morocco"
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector_or_xpath": null,
+        "text_quote": "Wood Pendant Light | Mid Century Modern | Handmade Lamp | Ceiling Lamp | Chandelier Lighting | Industrial Lamp | Wood Lampshade | Lamp Shade - Etsy Morocco"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 54.881,
+    "input_tokens": 37993,
+    "output_tokens": 2488,
+    "total_tokens": 40481,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

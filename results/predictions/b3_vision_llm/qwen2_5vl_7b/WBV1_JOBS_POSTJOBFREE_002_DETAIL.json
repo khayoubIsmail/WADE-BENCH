@@ -1,0 +1,49 @@
+{
+  "task_id": "WBV1_JOBS_POSTJOBFREE_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Mechanical Engineer III",
+        "company_name": "LaunchPoint Electric Propulsion Solutions, Inc.",
+        "location": "Santa Barbara, CA, 93190",
+        "job_url": "https://www.postjobfree.com/mechanical-engineer-iii-launchpoint-electric-propulsion-solutions-inc-santa-barbara-ca-93190",
+        "salary_min": 50000,
+        "salary_max": 135000,
+        "salary_currency": "USD",
+        "salary_period": "YEAR",
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-05-23T00:00:00Z",
+        "application_deadline": null,
+        "work_arrangement": "onsite"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 6.043,
+    "input_tokens": 8596,
+    "output_tokens": 240,
+    "total_tokens": 8836,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_POSTJOBFREE_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_POSTJOBFREE_002_DETAIL\\tile_02.png"
+    ],
+    "error": null
+  }
+}

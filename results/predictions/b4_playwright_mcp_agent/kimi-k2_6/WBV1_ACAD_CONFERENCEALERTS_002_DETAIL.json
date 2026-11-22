@@ -1,0 +1,133 @@
+{
+  "task_id": "WBV1_ACAD_CONFERENCEALERTS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)",
+        "event_start_date": "2026-06-29",
+        "event_end_date": "2026-07-01",
+        "event_url": "https://conferencealerts.com/show-event?id=274920",
+        "location": "Palma de Mallorca, Spain",
+        "event_type": "Conference",
+        "arrangement_type": "online and in-person",
+        "website": "https://iated.org/edulearn/",
+        "contact_person": "EDULEARN25 Technical Secretariat",
+        "organizer": "IATED Academy",
+        "abstract_deadline": "2026-03-12",
+        "description": "EDULEARN is one of the world's leading international education conferences, bringing together lecturers, researchers, technologists and professionals in the field of education. Each year, it hosts more than 800 experts from around the globe.",
+        "edition": "18th annual"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)"
+        },
+        "event_start_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "29th June to 1st July 2026"
+        },
+        "event_end_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "29th June to 1st July 2026"
+        },
+        "event_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://conferencealerts.com/show-event?id=274920"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Palma de Mallorca, Spain"
+        },
+        "event_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Conference"
+        },
+        "arrangement_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "online and in-person"
+        },
+        "website": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://iated.org/edulearn/"
+        },
+        "contact_person": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Contact person: EDULEARN25 Technical Secretariat"
+        },
+        "organizer": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Organized by: IATED Academy"
+        },
+        "abstract_deadline": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Deadline for abstracts/proposals: 12th March 2026"
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "EDULEARN is one of the world's leading international education conferences, bringing together lecturers, researchers, technologists and professionals in the field of education. Each year, it hosts more than 800 experts from around the globe."
+        },
+        "edition": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "18th annual International Conference on Education and New Learning Technologies"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 19.473,
+    "input_tokens": 10377,
+    "output_tokens": 687,
+    "total_tokens": 11064,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_CONFERENCEALERTS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_CONFERENCEALERTS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

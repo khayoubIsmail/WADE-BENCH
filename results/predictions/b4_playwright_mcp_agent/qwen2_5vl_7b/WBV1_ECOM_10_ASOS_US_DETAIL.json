@@ -1,0 +1,42 @@
+{
+  "task_id": "WBV1_ECOM_10_ASOS_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "ASOS",
+        "description": "Vila chiffon trapeze mini dress in light pink",
+        "image_urls": [
+          "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626?colourWayId=210606627"
+        ],
+        "price_raw": "$73.00",
+        "product_name": "Vila chiffon trapeze mini dress in light pink",
+        "product_url": "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626?colourWayId=210606627",
+        "rating": null,
+        "review_count": 1
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector_or_xpath": null,
+        "text_quote": "Vila chiffon trapeze mini dress in light pink | ASOS"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 15.605,
+    "input_tokens": 21182,
+    "output_tokens": 265,
+    "total_tokens": 21447,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_10_ASOS_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_10_ASOS_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

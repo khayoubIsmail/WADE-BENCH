@@ -1,0 +1,45 @@
+{
+  "task_id": "WBV1_ACAD_EVENTBRITE_SCITECH_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Online Science & Tech Events",
+        "description": "Find new online science & tech events on Eventbrite.",
+        "event_url": "https://www.eventbrite.com/b/online/science-and-tech/",
+        "location": null,
+        "event_start_date": null,
+        "event_end_date": null,
+        "website": "https://www.eventbrite.com/b/online/science-and-tech/"
+      },
+      "provenance": {
+        "event_name": "page.html",
+        "description": "page.html",
+        "event_url": "page.html",
+        "location": null,
+        "event_start_date": null,
+        "event_end_date": null,
+        "website": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 5.923,
+    "input_tokens": 18060,
+    "output_tokens": 237,
+    "total_tokens": 18297,
+    "initial_input_tokens": 18060,
+    "initial_output_tokens": 237,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

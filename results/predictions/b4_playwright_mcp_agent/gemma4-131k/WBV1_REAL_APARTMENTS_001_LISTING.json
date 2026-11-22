@@ -1,0 +1,245 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.coldwellbankerhomes.com/ca/san-francisco/899-40th-ave/pid_71927566/",
+          "provenance": {
+            "source": "links",
+            "text_quote": "899 40th Ave San Francisco, CA 94121"
+          }
+        },
+        "address": {
+          "value": "899 40th Ave San Francisco, CA 94121",
+          "provenance": {
+            "source": "page.safe.html",
+            "text_quote": "899 40th Ave San Francisco, CA 94121"
+          }
+        },
+        "listing_title": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "property_type": {
+          "value": "Duplex",
+          "provenance": {
+            "source": "text.txt",
+            "text_quote": "Duplex"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1198000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "text_quote": "$1,198,000"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "text_quote": "2 Beds"
+          }
+        },
+        "bathrooms": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "bathrooms_partial": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "floor_area": {
+          "value": {
+            "amount": 1963,
+            "unit": "Sq. Ft."
+          },
+          "provenance": {
+            "source": "text.txt",
+            "text_quote": "1,963 Sq. Ft."
+          }
+        },
+        "rooms": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "energy_rating": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "price_per_m2": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "sale_type": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "tenure": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "monthly_fees": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "total_price": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "status": {
+          "value": "Active",
+          "provenance": {
+            "source": "text.txt",
+            "text_quote": "Active"
+          }
+        },
+        "published_date": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "open_house_schedule": {
+          "value": [
+            {
+              "date": "Sat6/13",
+              "time_start": "1",
+              "time_end": "4"
+            }
+          ],
+          "provenance": {
+            "source": "page.safe.html",
+            "text_quote": "Open House Sat6/13 1-4"
+          }
+        },
+        "key_features": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "description": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "mls_number": {
+          "value": "ML82050671",
+          "provenance": {
+            "source": "text.txt",
+            "text_quote": "MLS # ML82050671"
+          }
+        },
+        "additional_facilities": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://s.cbhomes.com/p/i/spacer/1-x-1/1.gif"
+          ],
+          "provenance": {
+            "source": "html_signals",
+            "text_quote": "Image sources for the listing."
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Intero Real Estate Services, Karin Cunningham"
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "text_quote": "Listed by Intero Real Estate Services, Karin Cunningham"
+          }
+        },
+        "listing_agent_name": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "listing_agent_logo": {
+          "value": "https://s.cbhomes.com/p/i/mls/mls-listings-inc/2.png",
+          "provenance": {
+            "source": "html_signals",
+            "text_quote": "MLSListings Inc-CA logo"
+          }
+        },
+        "listing_agent_photo": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "listing_agent_phone": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        },
+        "listing_office": {
+          "value": "Intero Real Estate Services",
+          "provenance": {
+            "source": "page.safe.html",
+            "text_quote": "Listed by Intero Real Estate Services, Karin Cunningham"
+          }
+        },
+        "parking": {
+          "value": null,
+          "provenance": {
+            "source": null
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 131.299,
+    "input_tokens": 43973,
+    "output_tokens": 8192,
+    "total_tokens": 52165,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_APARTMENTS_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_APARTMENTS_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

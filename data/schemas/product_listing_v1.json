@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_id": "product_listing_v1",
+  "domain": "E-commerce / Products",
+  "version": "1.0",
+  "description": "Extract product/listing cards from category, collection, marketplace, or search-result pages.",
+  "record_type": "product_listing",
+  "required_fields": [
+    "discount_percentage",
+    "image_url",
+    "old_price_raw",
+    "price_raw",
+    "product_name",
+    "product_url",
+    "rating",
+    "review_count",
+    "short_description"
+  ],
+  "recommended_fields": [
+    "availability",
+    "brand",
+    "category",
+    "color",
+    "color_options",
+    "currency",
+    "seller_name"
+  ],
+  "optional_fields": [
+    "available_colors",
+    "available_widths",
+    "color_name",
+    "image_urls",
+    "price",
+    "product_subtitle",
+    "size_or_volume"
+  ],
+  "normalization_rules": {
+    "url_fields": "Convert relative URLs to absolute URLs.",
+    "price_fields": "Preserve raw price text and add numeric value when parseable. Do not hallucinate missing prices.",
+    "currency": "Use visible currency symbol/code; otherwise infer from verified regional site and mark inferred=true in provenance.",
+    "rating": "Normalize to 0-5 scale when possible and preserve raw text.",
+    "review_count": "Normalize to integer.",
+    "duplicates": "Deduplicate primarily by product_url; fallback to product_name + price_raw + image_url.",
+    "missing_values": "Use null for unavailable fields."
+  },
+  "canonical_record_key": [
+    "product_url"
+  ],
+  "fallback_record_key": [
+    "product_name",
+    "price_raw",
+    "image_url"
+  ],
+  "provenance_required": true,
+  "provenance_minimum": [
+    "url",
+    "snapshot_id",
+    "css_selector_or_xpath",
+    "text_quote_or_attribute"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury/m1fv7m7sc",
+        "price": {
+          "amount": 786,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "12B Mary Street, Papanui",
+        "property_type": "House",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 130,
+          "unit": "m²"
+        },
+        "tenure": null
+      },
+      "provenance": {
+        "source_files": [
+          "page.safe.html",
+          "page.html",
+          "text.txt",
+          "ax_tree.json",
+          "metadata.json"
+        ],
+        "visible_text": "Property value - 12B Mary Street, Papanui - realestate.co.nz\nAutomated estimate\n$786K\nEstimate updated on 25/05/2026\nGet instant updates Save this property for instant updates",
+        "ax_tree_excerpt": "{\n  \"nodes\": [\n    {\n      \"nodeId\": \"1\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"RootWebArea\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 144\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Property value - 12B Mary Street, Papanui - realestate.co.nz\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": true\n        },\n        {\n          \"name\": \"focused\",\n          \"value\": true\n        },\n        {\n          \"name\": \"busy\",\n          \"value\": 1\n        }\n      ],\n      \"childIds\": [\n        \"2\"\n      ],\n      \"backendDOMNodeId\": 1,\n      \"frameId\": \"DC490439F875DB0661EC01A11F7029BA\"\n    }\n  ]\n}",
+        "html_signals": {
+          "title": "Property value - 12B Mary Street, Papanui - realestate.co.nz",
+          "headings": [
+            {
+              "tag": "h3",
+              "text": "$786K"
+            },
+            {
+              "tag": "h3",
+              "text": "Estimate updated on 25/05/2026"
+            }
+          ],
+          "links": [
+            {
+              "text": null,
+              "href": "https://www.realestate.co.nz/"
+            }
+          ]
+        },
+        "embedded_json": {
+          "@context": "https://schema.org/",
+          "@type": "SingleFamilyResidence",
+          "url": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury/m1fv7m7sc",
+          "description": "2 beds 1 bath 130 sqm 386 sqm section",
+          "image": null,
+          "name": "12B Mary Street, Papanui, Christchurch City, Canterbury",
+          "numberOfRooms": "2",
+          "floorSize": {
+            "@type": "QuantitativeValue",
+            "value": "130",
+            "unitCode": "MTK"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -43.4971515833,
+            "longitude": 172.6141012333
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "12B Mary Street",
+            "addressLocality": "Papanui",
+            "addressRegion": "Christchurch City",
+            "postalCode": "8053"
+          }
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 29.702,
+    "input_tokens": 27970,
+    "output_tokens": 1000,
+    "total_tokens": 28970,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

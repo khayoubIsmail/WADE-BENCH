@@ -1,0 +1,70 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": null,
+        "price": {
+          "amount": 995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "274 Mangels Ave, San Francisco, CA 94127",
+        "property_type": "Single Family",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "bathrooms_partial": 0,
+        "floor_area": {
+          "value": 1101,
+          "unit": "sq ft"
+        },
+        "parking": "1 Car Garage",
+        "status": "Coming Soon",
+        "mls_number": "426130436",
+        "listing_agent_name": "Gary Chang",
+        "listing_agent_phone": "(415) 246-2144",
+        "listing_agent": {
+          "name": "Gary Chang",
+          "phone": "(415) 246-2144",
+          "photo": null
+        },
+        "listing_office": "Coldwell Banker Realty",
+        "description": "Wonderful opportunity in Sunnyside District. Convenient to Bart and Glen Park hub. Mostly original 2 bedroom 1 bath with added room and full bath down off 1 car garage to upslope yard.",
+        "images_urls": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "bbox": null,
+        "text_quote": "$995,000 COMING SOON | For Sale Coming Soon Single Family 2 Beds 1 Full Bath 1,101 Sq. Ft. 1 Car Garage Updated 12 days ago | Full Property Details for 274 Mangels Ave | Gary Chang (415) 246-2144"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 14.901,
+    "input_tokens": 7807,
+    "output_tokens": 299,
+    "total_tokens": 8106,
+    "num_tiles": 4,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_002_DETAIL\\tile_04.png"
+    ],
+    "error": null
+  }
+}

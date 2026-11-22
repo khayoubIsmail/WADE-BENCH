@@ -1,0 +1,96 @@
+{
+  "task_id": "WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2026-06-07",
+        "event_name": "Great Exhibition Road Festival",
+        "event_start_date": "2026-06-06",
+        "event_url": "https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/",
+        "location": {
+          "value": "London, Greater London, United Kingdom",
+          "provenance": {
+            "addressLocality": "South Kensington Campus",
+            "addressRegion": "London",
+            "addressCountry": "United Kingdom"
+          }
+        },
+        "description": {
+          "value": "The Great Exhibition Road Festival is a free annual celebration of science and the arts each summer in South Kensington. Join us on 6-7 June 2026 from 12.00-18.00 each day for a weekend of free science and arts events for all ages.",
+          "provenance": {
+            "selector": "div.module[itemprop='description']",
+            "text_quote": "The Great Exhibition Road Festival is a free annual celebration of science and the arts each summer in South Kensington. Join us on 6-7 June 2026 from 12.00-18.00 each day for a weekend of free science and arts events for all ages."
+          }
+        },
+        "event_start_time": {
+          "value": "12:00",
+          "provenance": {
+            "selector": ".event-details__list .event-details__time",
+            "text_quote": "12.00<0xC2><0xA0>-<0xC2><0xA0>18.00 <span class=\"event-details__tz\">BST</span>"
+          }
+        },
+        "event_end_time": {
+          "value": "18:00",
+          "provenance": {
+            "selector": ".event-details__list .event-details__time",
+            "text_quote": "12.00<0xC2><0xA0>-<0xC2><0xA0>18.00 <span class=\"event-details__tz\">BST</span>"
+          }
+        },
+        "cost": {
+          "value": "Free",
+          "provenance": {
+            "selector": ".event-details__list li:nth-child(2) span",
+            "text_quote": "Free"
+          }
+        },
+        "contact": {
+          "value": "festival@imperial.ac.uk",
+          "provenance": {
+            "selector": ".event-details__secondary a[href^='mailto:']",
+            "text_quote": "Festival Team"
+          }
+        },
+        "website": {
+          "value": "https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/",
+          "provenance": {
+            "selector": "meta[property='og:url']",
+            "text_quote": "https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/"
+          }
+        },
+        "image_urls": {
+          "value": [
+            "/ImageCropToolT4/imageTool/uploaded-images/250608-gerf-festival-bf-979-57-2_1777546039310_eventfeatured2018_x1.jpg"
+          ],
+          "provenance": {
+            "selector": "meta[property='og:image:secure_url']",
+            "text_quote": "https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/250608-gerf-festival-bf-979-57-2_1777546039310_eventlandscape2018_x1.jpg"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 15.453,
+    "input_tokens": 17422,
+    "output_tokens": 1017,
+    "total_tokens": 18439,
+    "initial_input_tokens": 17422,
+    "initial_output_tokens": 1017,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

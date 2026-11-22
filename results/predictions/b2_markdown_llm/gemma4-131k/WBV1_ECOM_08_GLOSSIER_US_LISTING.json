@@ -1,0 +1,80 @@
+{
+  "task_id": "WBV1_ECOM_08_GLOSSIER_US_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": null,
+        "old_price_raw": "Sale price 518 dh",
+        "price_raw": "Sale price 130 dh",
+        "product_name": "Balm Dotcom Nourishing lip balm Sparkling Rosé",
+        "product_url": "/en-ma/products/balm-dotcom?variant=47047554892021",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Nourishing lip balm"
+      },
+      "provenance": {
+        "url": "/en-ma/products/balm-dotcom?variant=47047554892021",
+        "snapshot_id": "page.markdown.md",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Balm Dotcom Nourishing lip balm Sparkling Rosé 173 dh Add to bag"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": null,
+        "old_price_raw": "Sale price 173 dh",
+        "price_raw": "Black Cherry 173 dh",
+        "product_name": "Balm Dotcom Nourishing lip balm Black Cherry",
+        "product_url": "/en-ma/products/balm-dotcom?variant=46731565859061",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Nourishing lip balm"
+      },
+      "provenance": {
+        "url": "/en-ma/products/balm-dotcom?variant=46731565859061",
+        "snapshot_id": "page.markdown.md",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Black Cherry 173 dh Add to bag"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": null,
+        "old_price_raw": "Sale price 173 dh",
+        "price_raw": "Birthday 173 dh",
+        "product_name": "Balm Dotcom Nourishing lip balm Birthday",
+        "product_url": "/en-ma/products/balm-dotcom?variant=46731565891829",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Nourishing lip balm"
+      },
+      "provenance": {
+        "url": "/en-ma/products/balm-dotcom?variant=46731565891829",
+        "snapshot_id": "page.markdown.md",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Birthday 173 dh Add to bag"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 11.269,
+    "input_tokens": 12829,
+    "output_tokens": 744,
+    "total_tokens": 13573,
+    "repaired": false,
+    "error": null
+  }
+}

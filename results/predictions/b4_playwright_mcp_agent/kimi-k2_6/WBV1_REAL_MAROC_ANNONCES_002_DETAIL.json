@@ -1,0 +1,148 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+        "price": {
+          "amount": 1185000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "listing_title": "Vend joli appart Maarif",
+        "address": "Casablanca / Maarif",
+        "property_type": "Appartements",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 72,
+          "unit": "m2"
+        },
+        "published_date": "2020-05-28",
+        "description": "Particulier vend joli appartement Maarif avec parking constitué d'un salon, deux chambres, cuisine équipée, salle de bain, proche de toutes commodités, Possibilité de le vendre MEUBLÉ pour les intéressés.",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/315/6112302.jpg",
+          "https://www.marocannonces.com/user_images/315/2355782.jpg",
+          "https://www.marocannonces.com/user_images/315/1186400.jpg",
+          "https://www.marocannonces.com/user_images/315/2806113.jpg",
+          "https://www.marocannonces.com/user_images/315/7968577.jpg",
+          "https://www.marocannonces.com/user_images/315/7640438.jpg"
+        ],
+        "listing_agent_name": "Riffi",
+        "listing_agent_phone": "064-5******"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "strong",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 185 000 DH"
+        },
+        "listing_title": {
+          "source": "page.safe.html",
+          "css_selector": "h1",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Vend joli appart Maarif"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href*='quartier']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Casablanca / Maarif"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href*='categorie/315']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Appartements"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href*='f_135=3']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href*='f_136=1']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href*='f_134=72']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "72"
+        },
+        "published_date": {
+          "source": "page.safe.html",
+          "css_selector": "li",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Publiée le: 28 May-20:23"
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector": "div strong + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Particulier vend joli appartement Maarif avec parking constitué d'un salon, deux chambres, cuisine équipée, salle de bain, proche de toutes commodités, Possibilité de le vendre MEUBLÉ pour les intéressés."
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "img[src^='user_images/315/']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "user_images/315/6112302.jpg"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "dd",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Riffi"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "div.generic span",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "064-5******"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 20.064,
+    "input_tokens": 21253,
+    "output_tokens": 877,
+    "total_tokens": 22130,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_MAROC_ANNONCES_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_MAROC_ANNONCES_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

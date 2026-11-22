@@ -1,0 +1,56 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "http://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+        "price": {
+          "amount": 1185000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "listing_title": "Vend joli appart Maarif",
+        "address": "Casablanca / Maarif",
+        "property_type": "Appartements",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 72,
+          "unit": "m2"
+        },
+        "published_date": "2020-05-28",
+        "images_urls": [
+          "http://www.marocannonces.com/user_images/315/6112302.jpg"
+        ],
+        "listing_agent_name": "Riffi",
+        "listing_agent_phone": "064-5******"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "record_index": 0,
+        "extraction_method": "direct",
+        "text_quote": "1 185 000 DH Vend joli appart Maarif Casablanca / Maarif Publiée le: 28 May-20:23 Vue: 5 Annonce N°: 10387457 1 / 6 Play Stop Surface en M 2 : 72 Nombre de Chambres : 3 Salles de bain : 1 Ville : Casablanca Detail de l'annonce : Particulier vend joli appartement Maarif avec parking constitué d'un salon, deux chambres, cuisine équipée, salle de bain, proche de toutes commodités, Possibilité de le vendre MEUBLÉ pour les intéressés. Annonceur : Riffi Téléphone : 064-5******",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 8.05,
+    "input_tokens": 9444,
+    "output_tokens": 383,
+    "total_tokens": 9827,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.redfin.com/for-sale/nyc/bronx/2749-fish-ave",
+        "price": {
+          "amount": 375000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "2749 Fish Ave, Bronx, NY 10469",
+        "property_type": "Single-family",
+        "bedrooms": 3,
+        "bathrooms": 3.5,
+        "floor_area": {
+          "value": 2058,
+          "unit": "sq ft"
+        },
+        "published_date": "2026-05-27T04:29:00Z",
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "text_quote": "FOR SALE $375,000"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 9.889,
+    "input_tokens": 11527,
+    "output_tokens": 255,
+    "total_tokens": 11782,
+    "num_tiles": 6,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REDFIN_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REDFIN_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REDFIN_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REDFIN_002_DETAIL\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REDFIN_002_DETAIL\\tile_05.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REDFIN_002_DETAIL\\tile_06.png"
+    ],
+    "error": null
+  }
+}

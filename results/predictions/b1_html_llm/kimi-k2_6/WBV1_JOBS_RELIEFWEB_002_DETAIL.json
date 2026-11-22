@@ -1,0 +1,124 @@
+{
+  "task_id": "WBV1_JOBS_RELIEFWEB_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Medical Doctor Gaza",
+        "job_url": "https://reliefweb.int/job/4215856/medical-doctor-gaza",
+        "company_name": "CADUS e.V.",
+        "location": "occupied Palestinian territory",
+        "posted_date": "2026-06-11",
+        "application_deadline": "2026-06-14",
+        "employment_type": "Job",
+        "country": "occupied Palestinian territory",
+        "tags": [
+          "Health",
+          "Other"
+        ],
+        "job_description": "⚠️ Important We are currently running a time-critical emergency crewing process for the rotations around June 23 – August 4 and July 12 – August 18 (medical doctor) as recently announced via social media. If you are interested and available for these rotations, and have already applied via this crewing form within the past 6 weeks, you do not need to submit a new application. To speed up the process, simply email us to announce your availability: crewing-gaza(a)cadus.org Background As a humanitarian organization, CADUS has been working in Gaza since February 2024 to support local capacities in their emergency relief operations. Our current program focuses on complementing existing MedEvac capacities, providing medical training and working alongside national and local partners within Field Hospitals. Key facts for all Positions: 5 weeks in country/4-5 weeks out (except Tech/Log: 6 weeks in/5 weeks out)\nFlexibility is required as rotation timings can change. You can clarify this with HR...",
+        "theme": "Health",
+        "years_of_experience": "5-9 years",
+        "apply_url": "https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&d=905616002382993",
+        "what_we_offer": "Competitive, market-standard compensation\nTravel, accommodation, and per diem fully covered\nDirect line management in-country, with close support from the Berlin back office\nRegular security checks and thorough deployment preparation\nPsychological and wellbeing support throughout the mission, including fatigue management\nWork in a highly qualified and motivated international team on a meaningful humanitarian mission\nPre-deployment briefing and training, with post-deployment debriefing\nContext sensitive operational and living conditions\nOpportunities for professional development and on-the-job learning",
+        "how_to_apply": "Please apply through this form: https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&d=905616002382993\nPlease check your spam folder and add our email to your contacts to ensure you receive future messages."
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.html",
+          "selector": "h1.rw-article__title",
+          "text_quote": "Medical Doctor Gaza"
+        },
+        "job_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://reliefweb.int/job/4215856/medical-doctor-gaza"
+        },
+        "company_name": {
+          "source": "page.html",
+          "selector": "dd.rw-entity-meta__tag-value--source a",
+          "text_quote": "CADUS e.V."
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "p.rw-entity-country-slug--above a",
+          "text_quote": "occupied Palestinian territory"
+        },
+        "posted_date": {
+          "source": "page.html",
+          "selector": "dd.rw-entity-meta__tag-value--posted time",
+          "text_quote": "2026-06-11T19:51:05+00:00"
+        },
+        "application_deadline": {
+          "source": "page.html",
+          "selector": "dd.rw-entity-meta__tag-value--closing time",
+          "text_quote": "2026-06-14T00:00:00+00:00"
+        },
+        "employment_type": {
+          "source": "page.html",
+          "selector": "dd.rw-entity-meta__tag-value--type a",
+          "text_quote": "Job"
+        },
+        "country": {
+          "source": "page.html",
+          "selector": "dd.rw-entity-meta__tag-value--country a",
+          "text_quote": "occupied Palestinian territory"
+        },
+        "tags": {
+          "source": "page.html",
+          "selector": "meta[name='keywords']",
+          "text_quote": "Health, Other"
+        },
+        "job_description": {
+          "source": "page.html",
+          "selector": "script[type='application/ld+json']",
+          "text_quote": "description: \"⚠️ Important We are currently running a time-critical emergency crewing process...\""
+        },
+        "theme": {
+          "source": "page.html",
+          "selector": "dd.rw-entity-meta__tag-value--theme a",
+          "text_quote": "Health"
+        },
+        "years_of_experience": {
+          "source": "page.html",
+          "selector": "dd.rw-entity-meta__tag-value--experience a",
+          "text_quote": "5-9 years"
+        },
+        "apply_url": {
+          "source": "page.html",
+          "selector": "section.rw-how-to-apply a",
+          "text_quote": "https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&d=905616002382993"
+        },
+        "what_we_offer": {
+          "source": "page.html",
+          "selector": ".rw-article__content ol:nth-of-type(2)",
+          "text_quote": "Competitive, market-standard compensation"
+        },
+        "how_to_apply": {
+          "source": "page.html",
+          "selector": "section.rw-how-to-apply",
+          "text_quote": "Please apply through this form:"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 53.97,
+    "input_tokens": 73036,
+    "output_tokens": 1047,
+    "total_tokens": 74083,
+    "initial_input_tokens": 73036,
+    "initial_output_tokens": 1047,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

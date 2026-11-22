@@ -1,0 +1,27 @@
+{
+  "schema_id": "service_listing_v1",
+  "domain": "services/listings",
+  "description": "Schema for general service listings such as personal or professional services.",
+  "required_fields": [
+    "service_name",
+    "provider_name",
+    "service_url"
+  ],
+  "optional_fields": [
+    "category",
+    "location",
+    "price_range",
+    "description",
+    "contact_info",
+    "rating",
+    "reviews_count"
+  ],
+  "normalization_rules": {
+    "price_range": "Extract minimum and maximum price values and currency.",
+    "rating": "Convert to numeric value (e.g., 4.8)",
+    "reviews_count": "Convert to integer.",
+    "location": "Normalize location names to a consistent format (City, Region, Country)."
+  },
+  "canonical_record_key": ["service_name", "provider_name", "service_url"],
+  "provenance_required": true
+}

@@ -1,0 +1,706 @@
+{
+  "task_id": "WBV1_JOBS_REED_001_LISTING",
+  "source_files": {
+    "page_html": "data/raw_snapshots/jobs/reed_listing/page.html",
+    "page_safe_html": "data/raw_snapshots/jobs/reed_listing/page.safe.html",
+    "text_txt": "data/raw_snapshots/jobs/reed_listing/text.txt",
+    "ax_tree": "data/raw_snapshots/jobs/reed_listing/ax_tree.json",
+    "metadata": "data/raw_snapshots/jobs/reed_listing/metadata.json",
+    "screenshot": "data/raw_snapshots/jobs/reed_listing/screenshot.png"
+  },
+  "mcp": {
+    "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/jobs/reed_listing/page.safe.html",
+    "available_tools": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "browser_snapshot": "### Page\n- Page URL: http://127.0.0.1:65315/page.safe.html\n- Page Title: Developer Jobs - Developer Vacancies | Reed.co.uk\n### Snapshot\n```yaml\n- generic [ref=e2]:\n  - dialog [ref=e4]:\n    - document [ref=e5]:\n      - generic [ref=e6]:\n        - banner [ref=e7]:\n          - heading \"Session expired\" [level=2] [ref=e8]\n        - generic [ref=e10]:\n          - paragraph [ref=e11]: Your session has expired.\n          - paragraph [ref=e12]: Please refresh the page to continue.\n          - paragraph [ref=e13]:\n            - button \"Refresh\" [ref=e14]\n  - generic [ref=e15]:\n    - navigation [ref=e16]:\n      - generic [ref=e17]:\n        - button \"Toggle menu\" [ref=e19]\n        - generic [ref=e20]:\n          - link \"Reed.co.uk\" [ref=e21] [cursor=pointer]:\n            - /url: /\n            - img \"Reed.co.uk\" [ref=e22]\n          - list [ref=e23]:\n            - listitem [ref=e24]:\n              - link \"Jobs\" [ref=e25] [cursor=pointer]:\n                - /url: /\n            - listitem [ref=e26]:\n              - link \"Courses\" [ref=e27] [cursor=pointer]:\n                - /url: /courses/?itm_source=js_navigation&itm_medium=jobseeker&itm_campaign=courses_tab&itm_content=standard_version\n            - listitem [ref=e28]:\n              - link \"Career advice\" [ref=e29] [cursor=pointer]:\n                - /url: /career-advice/\n            - listitem [ref=e30]:\n              - link \"Recruiting? Post a job\" [ref=e31] [cursor=pointer]:\n                - /url: /recruiter/\n                - generic [ref=e32]:\n                  - text: Recruiting?\n                  - strong [ref=e33]: Post a job\n          - generic [ref=e34]:\n            - link \"Register CV\" [ref=e35] [cursor=pointer]:\n              - /url: /authentication/register?returnTo=%2Fweb-jobseeker-jobs%2Fjobs%2Fdeveloper-jobs\n            - list [ref=e36]:\n              - listitem [ref=e37]:\n                - link \"Saved jobs\" [ref=e38] [cursor=pointer]:\n                  - /url: /account/jobs/shortlisted-jobs\n                  - img [ref=e40]\n                  - text: Saved jobs\n              - listitem [ref=e42]:\n                - link \"Sign in\" [ref=e43] [cursor=pointer]:\n                  - /url: /authentication/login?returnTo=%2Fweb-jobseeker-jobs%2Fjobs%2Fdeveloper-jobs\n      - list [ref=e44]:\n        - listitem [ref=e45]:\n          - link \"Jobs\" [ref=e46] [cursor=pointer]:\n            - /url: /\n        - listitem [ref=e47]:\n          - link \"Courses\" [ref=e48] [cursor=pointer]:\n            - /url: /courses/?itm_source=js_navigation&itm_medium=jobseeker&itm_campaign=courses_tab&itm_content=standard_version\n        - listitem [ref=e49]:\n          - link \"Career advice\" [ref=e50] [cursor=pointer]:\n            - /url: /career-advice/\n        - listitem [ref=e51]:\n          - link \"Recruiting? Post a job\" [ref=e52] [cursor=pointer]:\n            - /url: /recruiter/\n            - generic [ref=e53]:\n              - text: Recruiting?\n              - strong [ref=e54]: Post a job\n    - button \"developer jobs\" [ref=e56]:\n      - generic [ref=e57]:\n        - strong [ref=e58]: developer\n        - text: jobs\n    - search [ref=e59]:\n      - generic [ref=e60]:\n        - generic [ref=e61]:\n          - generic [ref=e62]:\n            - text: What\n            - generic [ref=e63]:\n              - textbox [ref=e64]: developer\n              - button \"clear keywords\" [ref=e65]:\n                - img [ref=e66]\n          - generic [ref=e69]:\n            - text: Where\n            - generic [ref=e70]:\n              - textbox \"town or postcode\" [ref=e71]\n              - button \"Get current location\" [ref=e72]:\n                - img [ref=e73]\n          - button \"Search jobs\" [ref=e77]\n          - link \"Browse jobs\" [ref=e79] [cursor=pointer]:\n            - /url: /popularjobs\n            - text: Browse jobs\n            - img [ref=e80]\n        - generic [ref=e82]:\n          - text: \"Similar searches:\"\n          - list [ref=e83]:\n            - listitem [ref=e84]:\n              - link \"It jobs\" [ref=e85] [cursor=pointer]:\n                - /url: /jobs/it-jobs\n            - listitem [ref=e86]:\n              - link \"Customer jobs\" [ref=e87] [cursor=pointer]:\n                - /url: /jobs/customer-jobs\n            - listitem [ref=e88]:\n              - link \"Software jobs\" [ref=e89] [cursor=pointer]:\n                - /url: /jobs/software-jobs\n            - listitem [ref=e90]:\n              - link \"Software Developer jobs\" [ref=e91] [cursor=pointer]:\n                - /url: /jobs/software-developer-jobs\n            - listitem [ref=e92]:\n              - link \"Software Engineer jobs\" [ref=e93] [cursor=pointer]:\n                - /url: /jobs/software-engineer-jobs\n            - listitem [ref=e94]:\n              - link \"Developer Jobs in London\" [ref=e95] [cursor=pointer]:\n                - /url: /jobs/developer-jobs-in-london\n            - listitem [ref=e96]:\n              - link \"Developer Jobs in Lancashire\" [ref=e97] [cursor=pointer]:\n                - /url: /jobs/developer-jobs-in-lancashire\n            - listitem [ref=e98]:\n              - link \"Developer Jobs in West Midlands (County)\" [ref=e99] [cursor=pointer]:\n                - /url: /jobs/developer-jobs-in-west-midlands-county\n    - generic [ref=e100]:\n      - generic [ref=e101]:\n        - generic [ref=e102]:\n          - heading \"3,499 Developer Jobs\" [level=1] [ref=e104]:\n            - text: 3,499\n            - link \"Developer\" [ref=e105] [cursor=pointer]:\n              - /url: /jobs/developer-jobs\n            - text: Jobs\n          - generic [ref=e108]:\n            - generic [ref=e112]:\n              - generic [ref=e118]:\n                - paragraph [ref=e119]: New filters have been added\n                - button [ref=e120]:\n                  - img\n              - button \"Filter criteria\" [ref=e123]:\n                - img [ref=e124]\n                - text: Filter\n            - button \"Get Job Alerts\" [ref=e130]:\n              - img [ref=e131]\n              - text: Get job alerts\n        - generic [ref=e134]:\n          - main [ref=e135]:\n            - article [ref=e137]:\n              - generic [ref=e138]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e139]\n              - generic [ref=e140]:\n                - button \"Senior Developer\" [ref=e141]\n                - generic [ref=e142]:\n                  - generic [ref=e143]:\n                    - generic [ref=e144]:\n                      - generic [ref=e145]: Promoted\n                      - heading \"Senior Developer\" [level=2] [ref=e146]:\n                        - link \"Senior Developer\" [ref=e147] [cursor=pointer]:\n                          - /url: /jobs/senior-developer/56875053?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e148]:\n                        - text: 4 days ago by\n                        - link \"Reed\" [ref=e149] [cursor=pointer]:\n                          - /url: /jobs/reed-specialist-recruitment/p40693\n                      - list [ref=e150]:\n                        - listitem [ref=e151]:\n                          - img \"Salary\" [ref=e152]\n                          - text: £90,000 per annum\n                        - listitem [ref=e154]:\n                          - img \"Location\" [ref=e155]\n                          - text: London\n                        - listitem [ref=e157]:\n                          - img \"Clock\" [ref=e158]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e160]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e161]\n                  - complementary\n                  - link \"Reed jobs\" [ref=e165] [cursor=pointer]:\n                    - /url: /jobs/reed-specialist-recruitment/p40693\n                    - img \"Reed jobs\" [ref=e166]\n                  - generic [ref=e167]:\n                    - button \"Shortlist job\" [ref=e168]:\n                      - img\n                    - button \"hide job\" [ref=e170]:\n                      - img\n            - article [ref=e173]:\n              - generic [ref=e174]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e175]\n              - generic [ref=e176]:\n                - button \"Senior Developer\" [ref=e177]\n                - generic [ref=e178]:\n                  - generic [ref=e179]:\n                    - generic [ref=e180]:\n                      - generic [ref=e181]: Featured\n                      - heading \"Senior Developer\" [level=2] [ref=e182]:\n                        - link \"Senior Developer\" [ref=e183] [cursor=pointer]:\n                          - /url: /jobs/senior-developer/56875053?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e184]:\n                        - text: 4 days ago by\n                        - link \"Reed\" [ref=e185] [cursor=pointer]:\n                          - /url: /jobs/reed-specialist-recruitment/p40693\n                      - list [ref=e186]:\n                        - listitem [ref=e187]:\n                          - img \"Salary\" [ref=e188]\n                          - text: £90,000 per annum\n                        - listitem [ref=e190]:\n                          - img \"Location\" [ref=e191]\n                          - text: London\n                        - listitem [ref=e193]:\n                          - img \"Clock\" [ref=e194]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e196]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e197]\n                  - complementary\n                  - link \"Reed jobs\" [ref=e201] [cursor=pointer]:\n                    - /url: /jobs/reed-specialist-recruitment/p40693\n                    - img \"Reed jobs\" [ref=e202]\n                  - generic [ref=e203]:\n                    - button \"Shortlist job\" [ref=e204]:\n                      - img\n                    - button \"hide job\" [ref=e206]:\n                      - img\n            - article [ref=e209]:\n              - generic [ref=e210]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e211]\n              - generic [ref=e212]:\n                - button \"Junior Developer\" [ref=e213]\n                - generic [ref=e214]:\n                  - generic [ref=e215]:\n                    - generic [ref=e216]:\n                      - generic [ref=e217]:\n                        - text: New\n                        - generic [ref=e218]:\n                          - img [ref=e219]\n                          - text: Easy Apply\n                      - heading \"Junior Developer\" [level=2] [ref=e221]:\n                        - link \"Junior Developer\" [ref=e222] [cursor=pointer]:\n                          - /url: /jobs/junior-developer/57037836?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e223]:\n                        - text: Yesterday by\n                        - link \"Vensis\" [ref=e224] [cursor=pointer]:\n                          - /url: /jobs/vensis-112698/p112698\n                      - list [ref=e225]:\n                        - listitem [ref=e226]:\n                          - img \"Salary\" [ref=e227]\n                          - text: £28,000 per annum\n                        - listitem [ref=e229]:\n                          - img \"Location\" [ref=e230]\n                          - text: Brough, North Humberside\n                        - listitem [ref=e232]:\n                          - img \"Clock\" [ref=e233]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e235]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e236]\n                  - complementary\n                  - link \"Vensis jobs\" [ref=e240] [cursor=pointer]:\n                    - /url: /jobs/vensis-112698/p112698\n                    - img \"Vensis jobs\" [ref=e241]\n                  - generic [ref=e242]:\n                    - button \"Shortlist job\" [ref=e243]:\n                      - img\n                    - button \"hide job\" [ref=e245]:\n                      - img\n            - article [ref=e248]:\n              - generic [ref=e249]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e250]\n              - generic [ref=e251]:\n                - button \"Web Developer\" [ref=e252]\n                - generic [ref=e253]:\n                  - generic [ref=e254]:\n                    - generic [ref=e255]:\n                      - heading \"Web Developer\" [level=2] [ref=e256]:\n                        - link \"Web Developer\" [ref=e257] [cursor=pointer]:\n                          - /url: /jobs/web-developer/57033902?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e258]:\n                        - text: 2 days ago by\n                        - link \"Iken Business Ltd.\" [ref=e259] [cursor=pointer]:\n                          - /url: /jobs/iken-business-ltd-79173/p79173\n                      - list [ref=e260]:\n                        - listitem [ref=e261]:\n                          - img \"Salary\" [ref=e262]\n                          - text: £30,000 - £40,000 per annum\n                        - listitem [ref=e264]:\n                          - img \"Location\" [ref=e265]\n                          - text: Bristol, Avon\n                        - listitem [ref=e267]:\n                          - img \"Clock\" [ref=e268]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e270]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e271]\n                  - complementary\n                  - link \"Iken Business Ltd. jobs\" [ref=e275] [cursor=pointer]:\n                    - /url: /jobs/iken-business-ltd-79173/p79173\n                    - img \"Iken Business Ltd. jobs\" [ref=e276]\n                  - generic [ref=e277]:\n                    - button \"Shortlist job\" [ref=e278]:\n                      - img\n                    - button \"hide job\" [ref=e280]:\n                      - img\n            - article [ref=e283]:\n              - generic [ref=e284]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e285]\n              - generic [ref=e286]:\n                - button \"Senior Software Developer\" [ref=e287]\n                - generic [ref=e288]:\n                  - generic [ref=e289]:\n                    - generic [ref=e290]:\n                      - heading \"Senior Software Developer\" [level=2] [ref=e291]:\n                        - link \"Senior Software Developer\" [ref=e292] [cursor=pointer]:\n                          - /url: /jobs/senior-software-developer/56904263?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e293]:\n                        - text: 15 May by\n                        - link \"TyneStack Partners Ltd\" [ref=e294] [cursor=pointer]:\n                          - /url: /jobs/tynestack-partners-ltd/p112140\n                      - list [ref=e295]:\n                        - listitem [ref=e296]:\n                          - img \"Salary\" [ref=e297]\n                          - text: £55,000 - £65,000 per annum\n                        - listitem [ref=e299]:\n                          - img \"Location\" [ref=e300]\n                          - text: Newcastle Upon Tyne, Tyne and Wear\n                        - listitem [ref=e302]:\n                          - img \"Clock\" [ref=e303]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e305]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e306]\n                  - complementary\n                  - link \"TyneStack Partners Ltd jobs\" [ref=e310] [cursor=pointer]:\n                    - /url: /jobs/tynestack-partners-ltd/p112140\n                    - img \"TyneStack Partners Ltd jobs\" [ref=e311]\n                  - generic [ref=e312]:\n                    - button \"Shortlist job\" [ref=e313]:\n                      - img\n                    - button \"hide job\" [ref=e315]:\n                      - img\n            - article [ref=e318]:\n              - generic [ref=e319]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e320]\n              - generic [ref=e321]:\n                - button \"Senior Developer\" [ref=e322]\n                - generic [ref=e323]:\n                  - generic [ref=e324]:\n                    - generic [ref=e325]:\n                      - generic [ref=e326]:\n                        - text: Featured\n                        - generic [ref=e327]:\n                          - img [ref=e328]\n                          - text: Easy Apply\n                      - heading \"Senior Developer\" [level=2] [ref=e330]:\n                        - link \"Senior Developer\" [ref=e331] [cursor=pointer]:\n                          - /url: /jobs/senior-developer/56994855?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e332]:\n                        - text: 8 June by\n                        - link \"Michael Page Technology\" [ref=e333] [cursor=pointer]:\n                          - /url: /jobs/michael-page-technology-59782/p59782\n                      - list [ref=e334]:\n                        - listitem [ref=e335]:\n                          - img \"Salary\" [ref=e336]\n                          - text: £55,000 - £65,000 per annum\n                        - listitem [ref=e338]:\n                          - img \"Location\" [ref=e339]\n                          - text: Birmingham, West Midlands (County)\n                        - listitem [ref=e341]:\n                          - img \"Clock\" [ref=e342]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e344]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e345]\n                  - complementary\n                  - link \"Michael Page Technology jobs\" [ref=e349] [cursor=pointer]:\n                    - /url: /jobs/michael-page-technology-59782/p59782\n                    - img \"Michael Page Technology jobs\" [ref=e350]\n                  - generic [ref=e351]:\n                    - button \"Shortlist job\" [ref=e352]:\n                      - img\n                    - button \"hide job\" [ref=e354]:\n                      - img\n            - article [ref=e357]:\n              - generic [ref=e358]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e359]\n              - generic [ref=e360]:\n                - button \"Senior Developer\" [ref=e361]\n                - generic [ref=e362]:\n                  - generic [ref=e363]:\n                    - generic [ref=e364]:\n                      - generic [ref=e365]:\n                        - text: Featured\n                        - generic [ref=e366]:\n                          - img [ref=e367]\n                          - text: Easy Apply\n                      - heading \"Senior Developer\" [level=2] [ref=e369]:\n                        - link \"Senior Developer\" [ref=e370] [cursor=pointer]:\n                          - /url: /jobs/senior-developer/57028675?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e371]:\n                        - text: 3 days ago by\n                        - link \"Uniting Ambition\" [ref=e372] [cursor=pointer]:\n                          - /url: /jobs/uniting-ambition-89045/p89045\n                      - list [ref=e373]:\n                        - listitem [ref=e374]:\n                          - img \"Salary\" [ref=e375]\n                          - text: £60,000 - £75,000 per annum\n                        - listitem [ref=e377]:\n                          - img \"Location\" [ref=e378]\n                          - text: Stoke-on-Trent, Staffordshire\n                        - listitem [ref=e380]:\n                          - img \"Clock\" [ref=e381]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e383]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e384]\n                  - complementary\n                  - link \"Uniting Ambition jobs\" [ref=e388] [cursor=pointer]:\n                    - /url: /jobs/uniting-ambition-89045/p89045\n                    - img \"Uniting Ambition jobs\" [ref=e389]\n                  - generic [ref=e390]:\n                    - button \"Shortlist job\" [ref=e391]:\n                      - img\n                    - button \"hide job\" [ref=e393]:\n                      - img\n            - article [ref=e396]:\n              - generic [ref=e397]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e398]\n              - generic [ref=e399]:\n                - button \"Senior Developer\" [ref=e400]\n                - generic [ref=e401]:\n                  - generic [ref=e402]:\n                    - generic [ref=e403]:\n                      - generic [ref=e405]:\n                        - img [ref=e406]\n                        - text: Easy Apply\n                      - heading \"Senior Developer\" [level=2] [ref=e408]:\n                        - link \"Senior Developer\" [ref=e409] [cursor=pointer]:\n                          - /url: /jobs/senior-developer/57000790?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e410]:\n                        - text: 9 June by\n                        - link \"Initialize\" [ref=e411] [cursor=pointer]:\n                          - /url: /jobs/initialize-92223/p92223\n                      - list [ref=e412]:\n                        - listitem [ref=e413]:\n                          - img \"Salary\" [ref=e414]\n                          - text: £80,000 per annum\n                        - listitem [ref=e416]:\n                          - img \"Location\" [ref=e417]\n                          - text: London\n                        - listitem [ref=e419]:\n                          - img \"Clock\" [ref=e420]\n                          - text: Permanent, full-time\n                        - listitem [ref=e422]:\n                          - img \"Home\" [ref=e423]\n                          - text: Work from home\n                    - button \"See job description\" [ref=e425]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e426]\n                  - complementary\n                  - link \"Initialize jobs\" [ref=e430] [cursor=pointer]:\n                    - /url: /jobs/initialize-92223/p92223\n                    - img \"Initialize jobs\" [ref=e431]\n                  - generic [ref=e432]:\n                    - button \"Shortlist job\" [ref=e433]:\n                      - img\n                    - button \"hide job\" [ref=e435]:\n                      - img\n            - article [ref=e438]:\n              - generic [ref=e439]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e440]\n              - generic [ref=e441]:\n                - button \"Senior Developer\" [ref=e442]\n                - generic [ref=e443]:\n                  - generic [ref=e444]:\n                    - generic [ref=e445]:\n                      - generic [ref=e446]:\n                        - text: Featured\n                        - generic [ref=e447]:\n                          - img [ref=e448]\n                          - text: Easy Apply\n                      - heading \"Senior Developer\" [level=2] [ref=e450]:\n                        - link \"Senior Developer\" [ref=e451] [cursor=pointer]:\n                          - /url: /jobs/senior-developer/57023352?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e452]:\n                        - text: 4 days ago by\n                        - link \"Spectrum IT Recruitment\" [ref=e453] [cursor=pointer]:\n                          - /url: /jobs/spectrum-it/p8868\n                      - list [ref=e454]:\n                        - listitem [ref=e455]:\n                          - img \"Salary\" [ref=e456]\n                          - text: £35,000 - £60,000 per annum\n                        - listitem [ref=e458]:\n                          - img \"Location\" [ref=e459]\n                          - text: Chichester, West Sussex\n                        - listitem [ref=e461]:\n                          - img \"Clock\" [ref=e462]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e464]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e465]\n                  - complementary\n                  - link \"Spectrum IT Recruitment jobs\" [ref=e469] [cursor=pointer]:\n                    - /url: /jobs/spectrum-it/p8868\n                    - img \"Spectrum IT Recruitment jobs\" [ref=e470]\n                  - generic [ref=e471]:\n                    - button \"Shortlist job\" [ref=e472]:\n                      - img\n                    - button \"hide job\" [ref=e474]:\n                      - img\n            - article [ref=e477]:\n              - generic [ref=e478]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e479]\n              - generic [ref=e480]:\n                - button \"Software Developer\" [ref=e481]\n                - generic [ref=e482]:\n                  - generic [ref=e483]:\n                    - generic [ref=e484]:\n                      - generic [ref=e486]:\n                        - img [ref=e487]\n                        - text: Easy Apply\n                      - heading \"Software Developer\" [level=2] [ref=e489]:\n                        - link \"Software Developer\" [ref=e490] [cursor=pointer]:\n                          - /url: /jobs/software-developer/56971620?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e491]:\n                        - text: 2 June by\n                        - link \"Oscar Technology\" [ref=e492] [cursor=pointer]:\n                          - /url: /jobs/oscar-associates/p20715\n                      - list [ref=e493]:\n                        - listitem [ref=e494]:\n                          - img \"Salary\" [ref=e495]\n                          - text: £40,000 - £60,000 per annum\n                        - listitem [ref=e497]:\n                          - img \"Location\" [ref=e498]\n                          - text: Bristol, Avon\n                        - listitem [ref=e500]:\n                          - img \"Clock\" [ref=e501]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e503]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e504]\n                  - complementary\n                  - link \"Oscar Technology jobs\" [ref=e508] [cursor=pointer]:\n                    - /url: /jobs/oscar-associates/p20715\n                    - img \"Oscar Technology jobs\" [ref=e509]\n                  - generic [ref=e510]:\n                    - button \"Shortlist job\" [ref=e511]:\n                      - img\n                    - button \"hide job\" [ref=e513]:\n                      - img\n            - article [ref=e516]:\n              - generic [ref=e517]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e518]\n              - generic [ref=e519]:\n                - button \"Senior Developer\" [ref=e520]\n                - generic [ref=e521]:\n                  - generic [ref=e522]:\n                    - generic [ref=e523]:\n                      - heading \"Senior Developer\" [level=2] [ref=e524]:\n                        - link \"Senior Developer\" [ref=e525] [cursor=pointer]:\n                          - /url: /jobs/senior-developer/56936064?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e526]:\n                        - text: 22 May by\n                        - link \"DCS Recruitment\" [ref=e527] [cursor=pointer]:\n                          - /url: /jobs/dcs-recruitment/p13858\n                      - list [ref=e528]:\n                        - listitem [ref=e529]:\n                          - img \"Salary\" [ref=e530]\n                          - text: £50,000 - £60,000 per annum\n                        - listitem [ref=e532]:\n                          - img \"Location\" [ref=e533]\n                          - text: Hereford, Herefordshire\n                        - listitem [ref=e535]:\n                          - img \"Clock\" [ref=e536]\n                          - text: Contract, full-time\n                    - button \"See job description\" [ref=e538]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e539]\n                  - complementary\n                  - link \"DCS Recruitment jobs\" [ref=e543] [cursor=pointer]:\n                    - /url: /jobs/dcs-recruitment/p13858\n                    - img \"DCS Recruitment jobs\" [ref=e544]\n                  - generic [ref=e545]:\n                    - button \"Shortlist job\" [ref=e546]:\n                      - img\n                    - button \"hide job\" [ref=e548]:\n                      - img\n            - article [ref=e551]:\n              - generic [ref=e552]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e553]\n              - generic [ref=e554]:\n                - button \"Senior Developer\" [ref=e555]\n                - generic [ref=e556]:\n                  - generic [ref=e557]:\n                    - generic [ref=e558]:\n                      - generic [ref=e559]:\n                        - text: Featured\n                        - generic [ref=e560]:\n                          - img [ref=e561]\n                          - text: Easy Apply\n                      - heading \"Senior Developer\" [level=2] [ref=e563]:\n                        - link \"Senior Developer\" [ref=e564] [cursor=pointer]:\n                          - /url: /jobs/senior-developer/56994882?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e565]:\n                        - text: 8 June by\n                        - link \"Michael Page Technology\" [ref=e566] [cursor=pointer]:\n                          - /url: /jobs/michael-page-technology-59782/p59782\n                      - list [ref=e567]:\n                        - listitem [ref=e568]:\n                          - img \"Salary\" [ref=e569]\n                          - text: £65,000 - £75,000 per annum\n                        - listitem [ref=e571]:\n                          - img \"Location\" [ref=e572]\n                          - text: City of London, London\n                        - listitem [ref=e574]:\n                          - img \"Clock\" [ref=e575]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e577]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e578]\n                  - complementary\n                  - link \"Michael Page Technology jobs\" [ref=e582] [cursor=pointer]:\n                    - /url: /jobs/michael-page-technology-59782/p59782\n                    - img \"Michael Page Technology jobs\" [ref=e583]\n                  - generic [ref=e584]:\n                    - button \"Shortlist job\" [ref=e585]:\n                      - img\n                    - button \"hide job\" [ref=e587]:\n                      - img\n            - article [ref=e590]:\n              - generic [ref=e591]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e592]\n              - generic [ref=e593]:\n                - button \"Senior Developer\" [ref=e594]\n                - generic [ref=e595]:\n                  - generic [ref=e596]:\n                    - generic [ref=e597]:\n                      - generic [ref=e598]:\n                        - text: Featured\n                        - generic [ref=e599]:\n                          - img [ref=e600]\n                          - text: Easy Apply\n                      - heading \"Senior Developer\" [level=2] [ref=e602]:\n                        - link \"Senior Developer\" [ref=e603] [cursor=pointer]:\n                          - /url: /jobs/senior-developer/57002482?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e604]:\n                        - text: 9 June by\n                        - link \"Addition\" [ref=e605] [cursor=pointer]:\n                          - /url: /jobs/addition-solutions-ltd/p27273\n                      - list [ref=e606]:\n                        - listitem [ref=e607]:\n                          - img \"Salary\" [ref=e608]\n                          - text: £70,000 - £90,000 per annum\n                        - listitem [ref=e610]:\n                          - img \"Location\" [ref=e611]\n                          - text: London\n                        - listitem [ref=e613]:\n                          - img \"Clock\" [ref=e614]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e616]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e617]\n                  - complementary\n                  - link \"Addition jobs\" [ref=e621] [cursor=pointer]:\n                    - /url: /jobs/addition-solutions-ltd/p27273\n                    - img \"Addition jobs\" [ref=e622]\n                  - generic [ref=e623]:\n                    - button \"Shortlist job\" [ref=e624]:\n                      - img\n                    - button \"hide job\" [ref=e626]:\n                      - img\n            - article [ref=e629]:\n              - generic [ref=e630]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e631]\n              - generic [ref=e632]:\n                - button \"Software Developer\" [ref=e633]\n                - generic [ref=e634]:\n                  - generic [ref=e635]:\n                    - generic [ref=e636]:\n                      - generic [ref=e637]:\n                        - text: Featured\n                        - generic [ref=e638]:\n                          - img [ref=e639]\n                          - text: Easy Apply\n                      - heading \"Software Developer\" [level=2] [ref=e641]:\n                        - link \"Software Developer\" [ref=e642] [cursor=pointer]:\n                          - /url: /jobs/software-developer/56979480?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e643]:\n                        - text: 3 days ago by\n                        - link \"Spectrum IT Recruitment\" [ref=e644] [cursor=pointer]:\n                          - /url: /jobs/spectrum-it/p8868\n                      - list [ref=e645]:\n                        - listitem [ref=e646]:\n                          - img \"Salary\" [ref=e647]\n                          - text: £50,000 - £70,000 per annum\n                        - listitem [ref=e649]:\n                          - img \"Location\" [ref=e650]\n                          - text: Southampton, Hampshire\n                        - listitem [ref=e652]:\n                          - img \"Clock\" [ref=e653]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e655]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e656]\n                  - complementary\n                  - link \"Spectrum IT Recruitment jobs\" [ref=e660] [cursor=pointer]:\n                    - /url: /jobs/spectrum-it/p8868\n                    - img \"Spectrum IT Recruitment jobs\" [ref=e661]\n                  - generic [ref=e662]:\n                    - button \"Shortlist job\" [ref=e663]:\n                      - img\n                    - button \"hide job\" [ref=e665]:\n                      - img\n            - generic [ref=e667]:\n              - article [ref=e668]:\n                - generic [ref=e669]:\n                  - text: Job hidden.\n                  - button \"Undo\" [ref=e670]\n                - generic [ref=e671]:\n                  - button \"Software Developer\" [ref=e672]\n                  - generic [ref=e673]:\n                    - generic [ref=e674]:\n                      - generic [ref=e675]:\n                        - generic [ref=e677]:\n                          - img [ref=e678]\n                          - text: Easy Apply\n                        - heading \"Software Developer\" [level=2] [ref=e680]:\n                          - link \"Software Developer\" [ref=e681] [cursor=pointer]:\n                            - /url: /jobs/software-developer/56929293?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                        - generic [ref=e682]:\n                          - text: 21 May by\n                          - link \"VIQU IT Recruitment\" [ref=e683] [cursor=pointer]:\n                            - /url: /jobs/viqu-limited-86416/p86416\n                        - list [ref=e684]:\n                          - listitem [ref=e685]:\n                            - img \"Salary\" [ref=e686]\n                            - text: £300 - £400 per day\n                          - listitem [ref=e688]:\n                            - img \"Location\" [ref=e689]\n                            - text: London\n                          - listitem [ref=e691]:\n                            - img \"Clock\" [ref=e692]\n                            - text: Contract, full-time\n                      - button \"See job description\" [ref=e694]:\n                        - text: See more\n                        - img \"Chevron\" [ref=e695]\n                    - complementary\n                    - link \"VIQU IT Recruitment jobs\" [ref=e699] [cursor=pointer]:\n                      - /url: /jobs/viqu-limited-86416/p86416\n                      - img \"VIQU IT Recruitment jobs\" [ref=e700]\n                    - generic [ref=e701]:\n                      - button \"Shortlist job\" [ref=e702]:\n                        - img\n                      - button \"hide job\" [ref=e704]:\n                        - img\n              - alert [ref=e706]:\n                - button \"Get Job Alerts\" [ref=e707]:\n                  - img [ref=e708]\n                  - text: Get Job Alerts\n                - paragraph [ref=e711]: Get new jobs matching this search straight to your inbox.\n            - article [ref=e713]:\n              - generic [ref=e714]:\n                - text: Job hidden.\n                - button \"Undo\" [ref=e715]\n              - generic [ref=e716]:\n                - button \"Software Developer\" [ref=e717]\n                - generic [ref=e718]:\n                  - generic [ref=e719]:\n                    - generic [ref=e720]:\n                      - generic [ref=e722]:\n                        - img [ref=e723]\n                        - text: Easy Apply\n                      - heading \"Software Developer\" [level=2] [ref=e725]:\n                        - link \"Software Developer\" [ref=e726] [cursor=pointer]:\n                          - /url: /jobs/software-developer/56946758?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs\n                      - generic [ref=e727]:\n                        - text: 3 June by\n                        - link \"Anna Maher Recruitment\" [ref=e728] [cursor=pointer]:\n                          - /url: /jobs/anna-maher-consulting-limited-67453/p67453\n                      - list [ref=e729]:\n                        - listitem [ref=e730]:\n                          - img \"Salary\" [ref=e731]\n                          - text: £35,000 - £38,000 per annum\n                        - listitem [ref=e733]:\n                          - img \"Location\" [ref=e734]\n                          - text: Sheffield, South Yorkshire\n                        - listitem [ref=e736]:\n                          - img \"Clock\" [ref=e737]\n                          - text: Permanent, full-time\n                    - button \"See job description\" [ref=e739]:\n                      - text: See more\n                      - img \"Chevron\" [ref=e740]\n                  - complementary\n                  - link \"Anna Maher Recruitment jobs\" [ref=e744] [cursor=pointer]:\n                    - /url: /jobs/anna-maher-consulting-limited-67453/p67453\n                    - img \"Anna Maher Recruitment jobs\" [ref=e745]\n                  - generic [ref=e746]:\n",
+    "navigation_result": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:65315/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:65315/page.safe.html\n- Page Title: Developer Jobs - Developer Vacancies | Reed.co.uk\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T20-18-19-915Z.yml)"
+  },
+  "visible_text": "Jobs\nCourses\nCareer advice\nRecruiting? Post a job\nRegister CV\nSaved jobs\nWhat\nWhere\nSearch jobs\nBrowse jobs\nSimilar searches:It jobsCustomer jobsSoftware jobsSoftware Developer jobsSoftware Engineer jobsDeveloper Jobs in LondonDeveloper Jobs in LancashireDeveloper Jobs in West Midlands (County)\n3,499 Developer Jobs\nGet job alerts\nSenior Developer\nPromoted\nSenior Developer\n4 days ago by Reed\n£90,000 per annum\nLondon\nPermanent, full-time\nSee more\nSenior Developer\nFeatured\nSenior Developer\n4 days ago by Reed\n£90,000 per annum\nLondon\nPermanent, full-time\nSee more\nJunior Developer\nNewEasy Apply\nJunior Developer\nYesterday by Vensis\n£28,000 per annum\nBrough, North Humberside\nPermanent, full-time\nSee more\nWeb Developer\nWeb Developer\n2 days ago by Iken Business Ltd.\n£30,000 - £40,000 per annum\nBristol, Avon\nPermanent, full-time\nSee more\nSenior Software Developer\nSenior Software Developer\n15 May by TyneStack Partners Ltd\n£55,000 - £65,000 per annum\nNewcastle Upon Tyne, Tyne and Wear\nPermanent, full-time\nSee more\nSenior Developer\nFeaturedEasy Apply\nSenior Developer\n8 June by Michael Page Technology\n£55,000 - £65,000 per annum\nBirmingham, West Midlands (County)\nPermanent, full-time\nSee more\nSenior Developer\nFeaturedEasy Apply\nSenior Developer\n3 days ago by Uniting Ambition\n£60,000 - £75,000 per annum\nStoke-on-Trent, Staffordshire\nPermanent, full-time\nSee more\nSenior Developer\nEasy Apply\nSenior Developer\n9 June by Initialize\n£80,000 per annum\nLondon\nPermanent, full-time\nWork from home\nSee more\nPosted by Initialize\nSenior Developer\nFeaturedEasy Apply\nSenior Developer\n4 days ago by Spectrum IT Recruitment\n£35,000 - £60,000 per annum\nChichester, West Sussex\nPermanent, full-time\nSee more\nSoftware Developer\nEasy Apply\nSoftware Developer\n2 June by Oscar Technology\n£40,000 - £60,000 per annum\nBristol, Avon\nPermanent, full-time\nSee more\nSenior Developer\nSenior Developer\n22 May by DCS Recruitment\n£50,000 - £60,000 per annum\nHereford, Herefordshire\nContract, full-time\nSee more\nSenior Developer\nFeaturedEasy Apply\nSenior Developer\n8 June by Michael Page Technology\n£65,000 - £75,000 per annum\nCity of London, London\nPermanent, full-time\nSee more\nSenior Developer\nFeaturedEasy Apply\nSenior Developer\n9 June by Addition\n£70,000 - £90,000 per annum\nLondon\nPermanent, full-time\nSee more\nSoftware Developer\nFeaturedEasy Apply\nSoftware Developer\n3 days ago by Spectrum IT Recruitment\n£50,000 - £70,000 per annum\nSouthampton, Hampshire\nPermanent, full-time\nSee more\nSoftware Developer\nEasy Apply\nSoftware Developer\n21 May by VIQU IT Recruitment\n£300 - £400 per day\nLondon\nContract, full-time\nSee more\nGet Job Alerts\n\nGet new jobs matching this search straight to your inbox.\n\nSoftware Developer\nEasy Apply\nSoftware Developer\n3 June by Anna Maher Recruitment\n£35,000 - £38,000 per annum\nSheffield, South Yorkshire\nPermanent, full-time\nSee more\nSoftware Developer\nEasy Apply\nSoftware Developer\n10 June by Oscar Technology\n£35,000 - £45,000 per annum\nWorcester, Worcestershire\nPermanent, full-time\nSee more\nSoftware Developer\nEasy Apply\nSoftware Developer\n3 days ago by Oscar Technology\n£30,000 - £35,000 per annum\nHull, North Humberside\nPermanent, full-time\nWork from home\nSee more\nSoftware Developer\nEasy Apply\nSoftware Developer\n2 June by X4 Group\nCompetitive salary\nLondon\nContract, full-time\nWork from home\nSee more\nSoftware Developer\nEasy Apply\nSoftware Developer\n28 May by RedTitan Limited\n£30,000 - £45,000 per annum\nHigh Wycombe, Buckinghamshire\nPermanent, full-time\nSee more\nSoftware Developer\nEasy Apply\nSoftware Developer\n20 May by Robert Walters\n£200 - £300 per day\nBirmingham, West Midlands (County)\nContract, full-time\nSee more\nSoftware Developer\nEasy Apply\nSoftware Developer\n5 days ago by Adecco\n£170 - £175 per day\nLondon\nContract, full-time\nSee more\nSoftware Developer\nFeaturedEasy Apply\nSoftware Developer\n5 days ago by Reed\n£50,000 - £55,000 per annum, inc benefits\nExeter, Devon\nPermanent, full-time\nSee more\nLead Developer\nFeaturedEasy Apply\nLead Developer\n11 June by TXP Technology x People\n£725 per day\nManchester, Lancashire\nContract, full-time\nSee more\nSoftware Developer\nFeatured\nSoftware Developer\n29 May by BOWERFORD ASSOCIATES\n£42,500 - £45,000 per annum, inc benefits\nPlymouth, Devon\nTemporary, full-time\nSee more\nSoftware Developer\nSoftware Developer\n5 days ago by Tenth Revolution Group\n£70,000 per annum\nNewcastle Upon Tyne, Tyne and Wear\nPermanent, full-time\nSee more\n1 - 25 of 3,499 jobs\nPrevious\n1\n2\n3\n4\n5\n...\n140\nNext\nApply on the go - get the app\nFrequently Asked Questions\nHow many Developer jobs are there on Reed.co.uk right now?\n\nThere are 3499 Developer jobs on Reed.co.uk right now.\n\nHow can I be the first to find out when there are new Developer jobs on Reed.co.uk?\n\nCreating job alerts will help you keep up-to-date with the latest Developer jobs opportunities. Sign in or register to set them up today.\n\nWhat similar jobs can I find on Reed.co.uk?\n\nJobseekers searching for developer jobs also search for it jobs, customer jobs, software jobs, software developer jobs, and software engineer jobs.\n\nWhat is the average salary of Developer jobs\n\nUse Reed.co.uk's average salary checker to find out what you could be earning.\n\nBrowse jobs by locations\nDeveloper Jobs in London\nDeveloper Jobs in Lancashire\nDeveloper Jobs in West Midlands (County)\nDeveloper Jobs in Hampshire\nDeveloper Jobs in Avon\nDeveloper Jobs in Tyne And Wear\nDeveloper Jobs in West Yorkshire\nDeveloper Jobs in Essex\nDeveloper Jobs in Cambridgeshire\nDeveloper Jobs in Surrey\n\nFilters\n1\n\nClear all\ndeveloper\nSalary range\nFrom:\n£ Any\nUp to £10,000\n£12,000\n£14,000\n£16,000\n£18,000\n£20,000\n£22,000\n£24,000\n£26,000\n£28,000\n£30,000\n£32,000\n£34,000\n£36,000\n£38,000\n£40,000\n£42,000\n£44,000\n£46,000\n£48,000\n£50,000\n£55,000\n£60,000\n£65,000\n£70,000\n£75,000\n£80,000\n£85,000\n£90,000\n£95,000\n£100,000+\nTo:\n£ Any\nUp to £10,000\n£12,000\n£14,000\n£16,000\n£18,000\n£20,000\n£22,000\n£24,000\n£26,000\n£28,000\n£30,000\n£32,000\n£34,000\n£36,000\n£38,000\n£40,000\n£42,000\n£44,000\n£46,000\n£48,000\n£50,000\n£55,000\n£60,000\n£65,000\n£70,000\n£75,000\n£80,000\n£85,000\n£90,000\n£95,000\n£100,000+\nJob type\nPermanent(3,076)\nTemporary(56)\nContract(367)\nFull-time(3,494)\nPart-time(35)\nWork from home(465)\nPosted by\nAgency(2,658)\nEmployer(841)\nReed(14)\nHide\nJobs without salary displayed\nTraining courses(572)\nSurvey jobs\nDate posted\nAnytime\nToday (13)\nLast three days (382)\nLast week (762)\nLast two weeks (1,269)\nSpecialisms\nIT & Telecoms(2,214)\nLegal(242)\nConstruction & Property(183)\nEngineering(175)\nStrategy & Consultancy(142)\nSales(118)\nBanking(78)\nFinancial Services(55)\nEstate Agency(51)\nMarketing & PR(30)\nRecruitment Consultancy(29)\nMedia, Digital & Creative(24)\nGraduate Training & Internships(18)\nAccountancy (Qualified)(16)\nOther(16)\nGeneral Insurance(13)\nAdmin, Secretarial & PA(11)\nRetail(11)\nEnergy(11)\nAccountancy(8)\nFMCG(8)\nEducation(6)\nTraining(6)\nHuman Resources(5)\nManufacturing(5)\nScientific(5)\nHealth & Medicine(4)\nCustomer Service(3)\nTransport & Logistics(3)\nCharity & Voluntary(2)\nPurchasing\nLeisure & Tourism(1)\nSocial Care(1)\nSecurity & Safety\nMotoring & Automotive\nHospitality & Catering\nApprenticeships\nExperience level\nGraduate\nMore options\nEarly bird(82)\nEasy apply\nVisa sponsorship(4)\nDeveloper courses\nWeb Development with Coding Career Courses: ( HTML, CSS, JavaScript, OOP, C++, Python )\n\nOnline, Self-paced\n\n£15\n\nWeb Design & Web Development Training for Web Developer - CPD Certified\n\nOnline, Self-paced\n\n£15\n\nChild Development Basics to Advanced Training\n\nOnline, Self-paced\n\n£15\n\nView Development courses \nJOBS\nContact us\nJob search\nRecruiter directory\nWork from home\nBrowse jobs\nBrowse locations\nPopular searches\nCareer advice\nTax calculator\nAverage salary checker\nHelp\nContact a REED office\nSitemap\nRECRUITER\nRecruiter site\nPost a job\nCV Search\nRecruitment agencies\nRecruiter Advice\nCOURSES\nHelp\nContact us\nFind a course\nView all subjects\nDiscount courses\nFree courses\nAwarding body directory\nCareer guides\nAdvertise a course\nCourses sitemap\nMORE FROM Reed.co.uk\nAbout us\nCareers at Reed.co.uk\nPress office\nCorporate governance\nModern slavery statement\nREED\nTempzone: timesheets & holiday\nAuthorise timesheets\nReed Group Services\nReed Specialist Recruitment\nReed Learning\nReed in Partnership\nCareers with REED\nJames Reed - Official Site\nPodcast - James Reed: all about business\nESG & sustainability\nLearn how Reed is leading the way in philanthropy\nIntroducing our new podcast\nNew\n\nJames Reed: all about business\n\nListen here\nManage Preferences,Security, Privacy, Terms & Conditions\n\nCOPYRIGHT © Reed.co.uk 2026",
+  "ax_tree_excerpt": "{\n  \"role\": \"WebArea\",\n  \"name\": \"Developer Jobs - Developer Vacancies | Reed.co.uk\",\n  \"children\": [\n    {\n      \"role\": \"none\",\n      \"name\": \"\",\n      \"children\": [\n        {\n          \"role\": \"generic\",\n          \"name\": \"\",\n          \"children\": [\n            {\n              \"role\": \"generic\",\n              \"name\": \"\",\n              \"children\": [\n                {\n                  \"role\": \"generic\",\n                  \"name\": \"\"\n                },\n                {\n                  \"role\": \"none\",\n                  \"name\": \"\",\n                  \"children\": [\n                    {\n                      \"role\": \"navigation\",\n                      \"name\": \"\",\n                      \"children\": [\n                        {\n                          \"role\": \"none\",\n                          \"name\": \"\",\n                          \"children\": [\n                            {\n                              \"role\": \"none\",\n                              \"name\": \"\"\n                            },\n                            {\n                              \"role\": \"none\",\n                              \"name\": \"\",\n                              \"children\": [\n                                {\n                                  \"role\": \"link\",\n                                  \"name\": \"Reed.co.uk\",\n                                  \"children\": [\n                                    {\n                                      \"role\": \"image\",\n                                      \"name\": \"Reed.co.uk\"\n                                    }\n                                  ]\n                                },\n                                {\n                                  \"role\": \"list\",\n                                  \"name\": \"\",\n                                  \"children\": [\n                                    {\n                                      \"role\": \"listitem\",\n                                      \"name\": \"\",\n                                      \"level\": 1,\n                                      \"children\": [\n                                        {\n                                          \"role\": \"link\",\n                                          \"name\": \"Jobs\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"none\",\n                                              \"name\": \"\",\n                                              \"children\": [\n                                                {\n                                                  \"role\": \"text\",\n                                                  \"name\": \"Jobs\",\n                                                  \"children\": [\n                                                    {\n                                                      \"role\": \"InlineTextBox\",\n                                                      \"name\": \"Jobs\"\n                                                    }\n                                                  ]\n                                                }\n                                              ]\n                                            }\n                                          ]\n                                        }\n                                      ]\n                                    },\n                                    {\n                                      \"role\": \"listitem\",\n                                      \"name\": \"\",\n                                      \"level\": 1,\n                                      \"children\": [\n                                        {\n                                          \"role\": \"link\",\n                                          \"name\": \"Courses\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"none\",\n                                              \"name\": \"\",\n                                              \"children\": [\n                                                {\n                                                  \"role\": \"text\",\n                                                  \"name\": \"Courses\",\n                                                  \"children\": [\n                                                    {\n                                                      \"role\": \"InlineTextBox\",\n                                                      \"name\": \"Courses\"\n                                                    }\n                                                  ]\n                                                }\n                                              ]\n                                            }\n                                          ]\n                                        }\n                                      ]\n                                    },\n                                    {\n                                      \"role\": \"listitem\",\n                                      \"name\": \"\",\n                                      \"level\": 1,\n                                      \"children\": [\n                                        {\n                                          \"role\": \"link\",\n                                          \"name\": \"Career advice\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"none\",\n                                              \"name\": \"\",\n                                              \"children\": [\n                                                {\n                                                  \"role\": \"text\",\n                                                  \"name\": \"Career advice\",\n                                                  \"children\": [\n                                                    {\n                                                      \"role\": \"InlineTextBox\",\n                                                      \"name\": \"Career advice\"\n                                                    }\n                                                  ]\n                                                }\n                                              ]\n                                            }\n                                          ]\n                                        }\n                                      ]\n                                    },\n                                    {\n                                      \"role\": \"listitem\",\n                                      \"name\": \"\",\n                                      \"level\": 1,\n                                      \"children\": [\n                                        {\n                                          \"role\": \"link\",\n                                          \"name\": \"Recruiting? Post a job\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"none\",\n                                              \"name\": \"\",\n                                              \"children\": [\n                                                {\n                                                  \"role\": \"text\",\n                                                  \"name\": \"Recruiting? \",\n                                                  \"children\": [\n                                                    {\n                                                      \"role\": \"InlineTextBox\",\n                                                      \"name\": \"Recruiting? \"\n                                                    }\n                                                  ]\n                                                },\n                                                {\n                                                  \"role\": \"strong\",\n                                                  \"name\": \"\",\n                                                  \"children\": [\n                                                    {\n                                                      \"role\": \"text\",\n                                                      \"name\": \"Post a job\",\n                                                      \"children\": [\n                                                        {\n                                                          \"role\": \"InlineTextBox\",\n                                                          \"name\": \"Post a job\"\n                                                        }\n                                                      ]\n                                                    }\n                                                  ]\n                                                }\n                                              ]\n                                            }\n                                          ]\n                                        }\n                                      ]\n                                    }\n                                  ]\n                                },\n                                {\n                                  \"role\": \"none\",\n                                  \"name\": \"\",\n                                  \"children\": [\n                                    {\n                                      \"role\": \"link\",\n                                      \"name\": \"Register CV\",\n                                      \"children\": [\n                                        {\n                                          \"role\": \"text\",\n                                          \"name\": \"Register CV\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"InlineTextBox\",\n                                              \"name\": \"Register CV\"\n                                            }\n                                          ]\n                                        }\n                                      ]\n                                    },\n                                    {\n                                      \"role\": \"list\",\n                                      \"name\": \"\",\n                                      \"children\": [\n                                        {\n                                          \"role\": \"listitem\",\n                                          \"name\": \"\",\n                                          \"level\": 1,\n                                          \"children\": [\n                                            {\n                                              \"role\": \"link\",\n                                              \"name\": \"Saved jobs\",\n                                              \"children\": [\n                                                {\n                                                  \"role\": \"none\",\n                                                  \"name\": \"\",\n                                                  \"children\": [\n                                                    {\n                                                      \"role\": \"image\",\n                                                      \"name\": \"\"\n                                                    }\n                                                  ]\n                                                },\n                                                {\n                                                  \"role\": \"none\",\n                                                  \"name\": \"\",\n                                                  \"children\": [\n                                                    {\n                                                      \"role\": \"text\",\n                                                      \"name\": \"Saved jobs\",\n                                                      \"children\": [\n                                                        {\n                                                          \"role\": \"InlineTextBox\",\n                                                          \"name\": \"Saved jobs\"\n                                                        }\n                                                      ]\n                                                    }\n                                                  ]\n                                                }\n                                              ]\n                                            }\n                                          ]\n                                        },\n                                        {\n                                          \"role\": \"listitem\",\n                                          \"name\": \"\",\n                                          \"level\": 1,\n                                          \"children\": [\n                                            {\n                                              \"role\": \"status\",\n                                              \"name\": \"\",\n                                              \"children\": [\n                                                {\n                                                  \"role\": \"image\",\n                                                  \"name\": \"Loading\",\n                                                  \"description\": \"Fetching content, please wait.\"\n                                                }\n                                              ]\n                                            }\n                                          ]\n                                        }\n                                      ]\n                                    }\n                                  ]\n                                }\n                              ]\n                            }\n                          ]\n                        }\n                      ]\n                    },\n                    {\n                      \"role\": \"search\",\n                      \"name\": \"\",\n                      \"children\": [\n                        {\n                          \"role\": \"none\",\n                          \"name\": \"\",\n                          \"children\": [\n                            {\n                              \"role\": \"none\",\n                              \"name\": \"\",\n                              \"children\": [\n                                {\n                                  \"role\": \"generic\",\n                                  \"name\": \"\",\n                                  \"children\": [\n                                    {\n                                      \"role\": \"LabelText\",\n                                      \"name\": \"\",\n                                      \"children\": [\n                                        {\n                                          \"role\": \"text\",\n                                          \"name\": \"What\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"InlineTextBox\",\n                                              \"name\": \"What\"\n                                            }\n                                          ]\n                                        }\n                                      ]\n                                    },\n                                    {\n                                      \"role\": \"generic\",\n                                      \"name\": \"\",\n                                      \"children\": [\n                                        {\n                                          \"role\": \"textbox\",\n                                          \"name\": \"e.g. \\\"project manager\\\"\",\n                                          \"description\": \"e.g. \\\"project manager\\\"\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"none\",\n                                              \"name\": \"\"\n                                            },\n                                            {\n                                              \"role\": \"generic\",\n                                              \"name\": \"\",\n                                              \"children\": [\n                                                {\n                                                  \"role\": \"text\",\n                                                  \"name\": \"developer\",\n                                                  \"children\": [\n                                                    {\n                                                      \"role\": \"InlineTextBox\",\n                                                      \"name\": \"developer\"\n                                                    }\n                                                  ]\n                                                }\n                                              ]\n                                            }\n                                          ],\n                                          \"value\": \"developer\"\n                                        },\n                                        {\n                                          \"role\": \"button\",\n                                          \"name\": \"clear keywords\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"image\",\n                                              \"name\": \"\"\n                                            }\n                                          ]\n                                        }\n                                      ]\n                                    }\n                                  ]\n                                },\n                                {\n                                  \"role\": \"generic\",\n                                  \"name\": \"\",\n                                  \"children\": [\n                                    {\n                                      \"role\": \"LabelText\",\n                                      \"name\": \"\",\n                                      \"children\": [\n                                        {\n                                          \"role\": \"text\",\n                                          \"name\": \"Where\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"InlineTextBox\",\n                                              \"name\": \"Where\"\n                                            }\n                                          ]\n                                        }\n                                      ]\n                                    },\n                                    {\n                                      \"role\": \"generic\",\n                                      \"name\": \"\",\n                                      \"children\": [\n                                        {\n                                          \"role\": \"textbox\",\n                                          \"name\": \"town or postcode\",\n                                          \"description\": \"town or postcode\",\n                                          \"children\": [\n                                            {\n                                              \"role\": \"none\",\n                                              \"name\": \"\"\n                                            },\n                                            {\n                                              \"role\": \"generic\",\n                                              \"name\": \"\"\n                                            }\n                                          ]\n                                        },\n                                        {\n                                          \"role\": \"button\",\n                                          \"name\": \"Get c\n<!-- TRUNCATED -->",
+  "metadata_excerpt": "{\n  \"url\": \"https://www.reed.co.uk/jobs/developer-jobs\",\n  \"final_url\": \"https://www.reed.co.uk/jobs/developer-jobs\",\n  \"title\": \"IT & Telecoms Jobs - IT & Telecoms Vacancies | Reed.co.uk\",\n  \"http_status\": 200,\n  \"viewport\": \"1440x900\",\n  \"capture_tool\": \"playwright\",\n  \"captured_at\": \"2026-06-20T21:45:27.918468Z\",\n  \"page_html_primary\": true,\n  \"sha256\": {\n    \"page.html\": \"21665f18cc5737cbf3b431374138247b9c52d6116e44de8e218cff5935c2dca7\",\n    \"page.safe.html\": \"16af71cac39d9d446d5efc773310318a1a659f247e52723dcc65b9581582f4b0\",\n    \"screenshot.png\": \"89584aaa26e0bb90c614ab94d4bfb12a90e1d0c413fc07766eb4189fc84c036a\",\n    \"text.txt\": \"c0805a6432347ff04e4b1428d6c83abb9bf368008eb72595371f95cb3c592cd0\",\n    \"ax_tree.json\": \"3f41a396b46e13f65f0d0856de7657013ee90b657b8045c6a8a8cc17c60dc8fe\"\n  }\n}",
+  "html_signals": {
+    "title": "Developer Jobs - Developer Vacancies | Reed.co.uk",
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Session expired"
+      },
+      {
+        "tag": "h1",
+        "text": "3,499 Developer Jobs"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Junior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Web Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Senior Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Software Developer"
+      },
+      {
+        "tag": "h2",
+        "text": "Lead Developer"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "Jobs",
+        "href": "/"
+      },
+      {
+        "text": "Courses",
+        "href": "/courses/?itm_source=js_navigation&itm_medium=jobseeker&itm_campaign=courses_tab&itm_content=standard_version"
+      },
+      {
+        "text": "Career advice",
+        "href": "/career-advice/"
+      },
+      {
+        "text": "Recruiting? Post a job",
+        "href": "/recruiter/"
+      },
+      {
+        "text": "Register CV",
+        "href": "/authentication/register?returnTo=%2Fweb-jobseeker-jobs%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Saved jobs",
+        "href": "/account/jobs/shortlisted-jobs"
+      },
+      {
+        "text": "Sign in",
+        "href": "/authentication/login?returnTo=%2Fweb-jobseeker-jobs%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Jobs",
+        "href": "/"
+      },
+      {
+        "text": "Courses",
+        "href": "/courses/?itm_source=js_navigation&itm_medium=jobseeker&itm_campaign=courses_tab&itm_content=standard_version"
+      },
+      {
+        "text": "Career advice",
+        "href": "/career-advice/"
+      },
+      {
+        "text": "Recruiting? Post a job",
+        "href": "/recruiter/"
+      },
+      {
+        "text": "Browse jobs",
+        "href": "/popularjobs"
+      },
+      {
+        "text": "It jobs",
+        "href": "/jobs/it-jobs"
+      },
+      {
+        "text": "Customer jobs",
+        "href": "/jobs/customer-jobs"
+      },
+      {
+        "text": "Software jobs",
+        "href": "/jobs/software-jobs"
+      },
+      {
+        "text": "Software Developer jobs",
+        "href": "/jobs/software-developer-jobs"
+      },
+      {
+        "text": "Software Engineer jobs",
+        "href": "/jobs/software-engineer-jobs"
+      },
+      {
+        "text": "Developer Jobs in London",
+        "href": "/jobs/developer-jobs-in-london"
+      },
+      {
+        "text": "Developer Jobs in Lancashire",
+        "href": "/jobs/developer-jobs-in-lancashire"
+      },
+      {
+        "text": "Developer Jobs in West Midlands (County)",
+        "href": "/jobs/developer-jobs-in-west-midlands-county"
+      },
+      {
+        "text": "Developer",
+        "href": "/jobs/developer-jobs"
+      },
+      {
+        "text": "Senior Developer",
+        "href": "/jobs/senior-developer/56875053?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Reed",
+        "href": "/jobs/reed-specialist-recruitment/p40693"
+      },
+      {
+        "text": "",
+        "href": "/jobs/reed-specialist-recruitment/p40693"
+      },
+      {
+        "text": "Senior Developer",
+        "href": "/jobs/senior-developer/56875053?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Reed",
+        "href": "/jobs/reed-specialist-recruitment/p40693"
+      },
+      {
+        "text": "",
+        "href": "/jobs/reed-specialist-recruitment/p40693"
+      },
+      {
+        "text": "Junior Developer",
+        "href": "/jobs/junior-developer/57037836?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Vensis",
+        "href": "/jobs/vensis-112698/p112698"
+      },
+      {
+        "text": "",
+        "href": "/jobs/vensis-112698/p112698"
+      },
+      {
+        "text": "Web Developer",
+        "href": "/jobs/web-developer/57033902?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Iken Business Ltd.",
+        "href": "/jobs/iken-business-ltd-79173/p79173"
+      },
+      {
+        "text": "",
+        "href": "/jobs/iken-business-ltd-79173/p79173"
+      },
+      {
+        "text": "Senior Software Developer",
+        "href": "/jobs/senior-software-developer/56904263?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "TyneStack Partners Ltd",
+        "href": "/jobs/tynestack-partners-ltd/p112140"
+      },
+      {
+        "text": "",
+        "href": "/jobs/tynestack-partners-ltd/p112140"
+      },
+      {
+        "text": "Senior Developer",
+        "href": "/jobs/senior-developer/56994855?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Michael Page Technology",
+        "href": "/jobs/michael-page-technology-59782/p59782"
+      },
+      {
+        "text": "",
+        "href": "/jobs/michael-page-technology-59782/p59782"
+      },
+      {
+        "text": "Senior Developer",
+        "href": "/jobs/senior-developer/57028675?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Uniting Ambition",
+        "href": "/jobs/uniting-ambition-89045/p89045"
+      },
+      {
+        "text": "",
+        "href": "/jobs/uniting-ambition-89045/p89045"
+      },
+      {
+        "text": "Senior Developer",
+        "href": "/jobs/senior-developer/57000790?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Initialize",
+        "href": "/jobs/initialize-92223/p92223"
+      },
+      {
+        "text": "",
+        "href": "/jobs/initialize-92223/p92223"
+      },
+      {
+        "text": "Senior Developer",
+        "href": "/jobs/senior-developer/57023352?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Spectrum IT Recruitment",
+        "href": "/jobs/spectrum-it/p8868"
+      },
+      {
+        "text": "",
+        "href": "/jobs/spectrum-it/p8868"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/56971620?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Oscar Technology",
+        "href": "/jobs/oscar-associates/p20715"
+      },
+      {
+        "text": "",
+        "href": "/jobs/oscar-associates/p20715"
+      },
+      {
+        "text": "Senior Developer",
+        "href": "/jobs/senior-developer/56936064?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "DCS Recruitment",
+        "href": "/jobs/dcs-recruitment/p13858"
+      },
+      {
+        "text": "",
+        "href": "/jobs/dcs-recruitment/p13858"
+      },
+      {
+        "text": "Senior Developer",
+        "href": "/jobs/senior-developer/56994882?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Michael Page Technology",
+        "href": "/jobs/michael-page-technology-59782/p59782"
+      },
+      {
+        "text": "",
+        "href": "/jobs/michael-page-technology-59782/p59782"
+      },
+      {
+        "text": "Senior Developer",
+        "href": "/jobs/senior-developer/57002482?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Addition",
+        "href": "/jobs/addition-solutions-ltd/p27273"
+      },
+      {
+        "text": "",
+        "href": "/jobs/addition-solutions-ltd/p27273"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/56979480?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Spectrum IT Recruitment",
+        "href": "/jobs/spectrum-it/p8868"
+      },
+      {
+        "text": "",
+        "href": "/jobs/spectrum-it/p8868"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/56929293?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "VIQU IT Recruitment",
+        "href": "/jobs/viqu-limited-86416/p86416"
+      },
+      {
+        "text": "",
+        "href": "/jobs/viqu-limited-86416/p86416"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/56946758?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Anna Maher Recruitment",
+        "href": "/jobs/anna-maher-consulting-limited-67453/p67453"
+      },
+      {
+        "text": "",
+        "href": "/jobs/anna-maher-consulting-limited-67453/p67453"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/57004184?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Oscar Technology",
+        "href": "/jobs/oscar-associates/p20715"
+      },
+      {
+        "text": "",
+        "href": "/jobs/oscar-associates/p20715"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/57028976?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Oscar Technology",
+        "href": "/jobs/oscar-associates/p20715"
+      },
+      {
+        "text": "",
+        "href": "/jobs/oscar-associates/p20715"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/56973907?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "X4 Group",
+        "href": "/jobs/x4-group-109111/p109111"
+      },
+      {
+        "text": "",
+        "href": "/jobs/x4-group-109111/p109111"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/56951484?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "RedTitan Limited",
+        "href": "/jobs/redtitan-limited/p98592"
+      },
+      {
+        "text": "",
+        "href": "/jobs/redtitan-limited/p98592"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/56925409?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Robert Walters",
+        "href": "/jobs/robert-walters-18673/p18673"
+      },
+      {
+        "text": "",
+        "href": "/jobs/robert-walters-18673/p18673"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/57021697?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Adecco",
+        "href": "/jobs/adecco-uk-limited-45420/p45420"
+      },
+      {
+        "text": "",
+        "href": "/jobs/adecco-uk-limited-45420/p45420"
+      },
+      {
+        "text": "Software Developer",
+        "href": "/jobs/software-developer/56931061?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "Reed",
+        "href": "/jobs/reed/p1342"
+      },
+      {
+        "text": "",
+        "href": "/jobs/reed/p1342"
+      },
+      {
+        "text": "Lead Developer",
+        "href": "/jobs/lead-developer/57011686?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+      },
+      {
+        "text": "TXP Technology x People",
+        "href": "/jobs/concept-it-20220/p20220"
+      },
+      {
+        "text": "",
+        "href": "/jobs/concept-it-20220/p20220"
+      }
+    ],
+    "images": [
+      {
+        "src": "data:image/svg+xml,%3csvg width='116' height='30' viewBox='0 0 116 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0.800781H7.54588C10.9094 0.800781 13.7582 2.68431 13.7582 6.13725C13.7582 8.83196 11.94 10.5843 9.57529 11.1861L13.94 19.1125H9.09118L5.09059 11.4749H4.54529V19.1125H0V0.800781ZM7.15335 8.04597C8.54688 8.04597 9.24452 7.2348 9.24452 6.13597C9.24452 5.03774 8.54688 4.22656 7.15335 4.22656H4.54688V8.04597H7.15335Z' fill='%23081351'/%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M13.3164 12.5979C13.3164 8.80559 16.1164 5.875 19.9264 5.875C23.9705 5.875 26.5117 9.145 26.5117 12.4409C26.5117 12.7815 26.4858 13.1738 26.4599 13.4879H17.2046C17.3605 14.8215 18.4235 15.9726 20.0299 15.9726C20.9899 15.9726 21.897 15.6585 22.2599 14.8474H26.3558C25.6046 17.5421 23.1411 19.2691 20.057 19.2691C16.1423 19.2691 13.3164 16.3391 13.3164 12.5979ZM22.4948 10.978C22.183 9.80033 21.1983 9.01562 19.9277 9.01562C18.7101 9.01562 17.6465 9.74798 17.3359 10.978H22.4948Z' fill='%23081351'/%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M27.207 12.5979C27.207 8.80559 30.007 5.875 33.817 5.875C37.8611 5.875 40.4023 9.145 40.4023 12.4409C40.4023 12.7815 40.3764 13.1738 40.3506 13.4879H31.0947C31.2511 14.8215 32.3141 15.9726 33.9206 15.9726C34.8806 15.9726 35.7876 15.6585 36.15 14.8474H40.2464C39.4947 17.5421 37.0317 19.2691 33.947 19.2691C30.0329 19.2691 27.207 16.3391 27.207 12.5979ZM36.3854 10.978C36.0736 9.80033 35.0883 9.01562 33.8183 9.01562C32.6007 9.01562 31.5372 9.74798 31.2266 10.978H36.3854Z' fill='%23081351'/%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M51.4936 0.418824V6.88824C50.4583 6.22294 49.2295 5.83706 47.9119 5.83706C44.2201 5.83706 41.2266 8.85706 41.2266 12.5829C41.2266 16.3082 44.2201 19.3282 47.9119 19.3282C49.2295 19.3282 50.4583 18.9424 51.4936 18.2771V19.1165H55.2783V0L51.4936 0.418824ZM47.905 15.6275C46.2379 15.6275 44.8867 14.264 44.8867 12.5816C44.8867 10.8981 46.2379 9.53516 47.905 9.53516C49.572 9.53516 50.9244 10.8981 50.9244 12.5816C50.9244 14.264 49.572 15.6275 47.905 15.6275Z' fill='%23081351'/%3e%3cmask id='mask0' mask-type='alpha' maskUnits='userSpaceOnUse' x='49' y='23' width='7' height='7'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M49.6602 23.3438H55.8902V29.6305H49.6602V23.3438Z' fill='white'/%3e%3c/mask%3e%3cg mask='url(%23mask0)'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M55.8902 26.4879C55.8902 28.2232 54.496 29.6308 52.7749 29.6308C51.0549 29.6308 49.6602 28.2232 49.6602 26.4879C49.6602 24.752 51.0549 23.3438 52.7749 23.3438C54.496 23.3438 55.8902 24.752 55.8902 26.4879Z' fill='%23081351'/%3e%3c/g%3e%3cmask id='mask1' mask-type='alpha' maskUnits='userSpaceOnUse' x='40' y='23' width='7' height='7'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M40.1055 23.3438H46.3355V29.6305H40.1055V23.3438Z' fill='white'/%3e%3c/mask%3e%3cg mask='url(%23mask1)'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M46.3355 26.4879C46.3355 28.2232 44.9408 29.6308 43.2208 29.6308C41.5002 29.6308 40.1055 28.2232 40.1055 26.4879C40.1055 24.752 41.5002 23.3438 43.2208 23.3438C44.9408 23.3438 46.3355 24.752 46.3355 26.4879Z' fill='%23081351'/%3e%3c/g%3e%3cmask id='mask2' mask-type='alpha' maskUnits='userSpaceOnUse' x='30' y='23' width='7' height='7'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M30.5508 23.3438H36.7808V29.6305H30.5508V23.3438Z' fill='white'/%3e%3c/mask%3e%3cg mask='url(%23mask2)'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M36.7808 26.4879C36.7808 28.2232 35.3861 29.6308 33.6661 29.6308C31.9461 29.6308 30.5508 28.2232 30.5508 26.4879C30.5508 24.752 31.9461 23.3438 33.6661 23.3438C35.3861 23.3438 36.7808 24.752 36.7808 26.4879Z' fill='%23081351'/%3e%3c/g%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M73.23 14.5636C72.8423 17.6678 70.7347 19.526 67.5853 19.526C63.9041 19.526 61.457 16.6901 61.457 12.4136C61.457 8.23305 63.9759 5.42188 67.7553 5.42188C70.8317 5.42188 72.8911 7.2307 73.23 10.2378H70.88C70.6864 8.45305 69.4506 7.32893 67.7311 7.32893C65.357 7.32893 63.9282 9.25952 63.9282 12.4136C63.9282 15.5901 65.4053 17.5942 67.7311 17.5942C69.4023 17.5942 70.5894 16.4701 70.88 14.5636H73.23Z' fill='%23FF00CD'/%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M86.6506 12.4372C86.6506 16.7148 84.1076 19.5254 80.2306 19.5254C76.4276 19.5254 73.8594 16.666 73.8594 12.4131C73.8594 8.20952 76.4276 5.42188 80.3035 5.42188C84.0835 5.42188 86.6506 8.25835 86.6506 12.4372ZM76.332 12.3387C76.332 15.5899 77.7861 17.594 80.1838 17.594C82.6061 17.594 84.1809 15.5899 84.1809 12.4852C84.1809 9.33224 82.6309 7.32812 80.2079 7.32812C77.8103 7.32812 76.332 9.23401 76.332 12.3387Z' fill='%23FF00CD'/%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M100.482 17.5439C99.8275 18.7174 98.301 19.4503 96.5087 19.4503C94.6675 19.4503 93.2146 18.7174 92.4387 17.4215C91.9305 16.5662 91.7852 15.6374 91.7852 13.4139V5.81152H94.0622V13.8286C94.0622 16.3462 94.9816 17.5192 96.9205 17.5192C98.1805 17.5192 99.2699 16.9327 99.8999 15.9309C100.288 15.2951 100.385 14.5374 100.385 12.1909V5.81152H102.662V19.1327H100.482V17.5439Z' fill='%23FF00CD'/%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M104.406 0.753906H106.683V11.411L112.037 5.81391H115.113L108.936 11.7774L115.38 19.1351H112.376L106.683 12.2421V19.1351H104.406V0.753906Z' fill='%23FF00CD'/%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M60.6538 17.5835C60.6538 18.4523 59.9555 19.1552 59.0967 19.1552C58.2361 19.1552 57.5391 18.4523 57.5391 17.5835C57.5391 16.7152 58.2361 16.0117 59.0967 16.0117C59.9555 16.0117 60.6538 16.7152 60.6538 17.5835Z' fill='%23FF00CD'/%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M90.521 17.5835C90.521 18.4523 89.8233 19.1552 88.9639 19.1552C88.1039 19.1552 87.4062 18.4523 87.4062 17.5835C87.4062 16.7152 88.1039 16.0117 88.9639 16.0117C89.8233 16.0117 90.521 16.7152 90.521 17.5835Z' fill='%23FF00CD'/%3e%3c/svg%3e",
+        "alt": "Reed.co.uk"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_40693.png?w=256&q=75",
+        "alt": "Reed jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_40693.png?w=256&q=75",
+        "alt": "Reed jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_112698.png?w=256&q=75",
+        "alt": "Vensis jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_79173.png?w=256&q=75",
+        "alt": "Iken Business Ltd. jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_112140.png?w=256&q=75",
+        "alt": "TyneStack Partners Ltd jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_59782.png?w=256&q=75",
+        "alt": "Michael Page Technology jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_89045.png?w=256&q=75",
+        "alt": "Uniting Ambition jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/.?w=256&q=75",
+        "alt": "Initialize jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_8868.png?w=256&q=75",
+        "alt": "Spectrum IT Recruitment jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_20715.png?w=256&q=75",
+        "alt": "Oscar Technology jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_13858.png?w=256&q=75",
+        "alt": "DCS Recruitment jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_59782.png?w=256&q=75",
+        "alt": "Michael Page Technology jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_27273.png?w=256&q=75",
+        "alt": "Addition jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_8868.png?w=256&q=75",
+        "alt": "Spectrum IT Recruitment jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_86416.png?w=256&q=75",
+        "alt": "VIQU IT Recruitment jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_67453.png?w=256&q=75",
+        "alt": "Anna Maher Recruitment  jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_20715.png?w=256&q=75",
+        "alt": "Oscar Technology jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_20715.png?w=256&q=75",
+        "alt": "Oscar Technology jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_109111.png?w=256&q=75",
+        "alt": "X4 Group jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_98592.png?w=256&q=75",
+        "alt": "RedTitan Limited jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_18673.png?w=256&q=75",
+        "alt": "Robert Walters jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_45420.png?w=256&q=75",
+        "alt": "Adecco  jobs"
+      },
+      {
+        "src": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_1342.png?w=256&q=75",
+        "alt": "Reed jobs"
+      },
+      {
+        "src": null,
+        "alt": "TXP Technology x People jobs"
+      }
+    ],
+    "embedded_json": [
+      {
+        "type": "application/ld+json",
+        "id": "",
+        "content": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Reed Jobs\",\"url\":\"https://www.reed.co.uk/jobs\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://www.reed.co.uk/jobs?keywords={search_term_string}\",\"query-input\":\"required name=search_term_string\"}}"
+      },
+      {
+        "type": "application/ld+json",
+        "id": "",
+        "content": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Reed Online\",\"alternateName\":\"Reed.co.uk\",\"url\":\"https://www.reed.co.uk/jobs\",\"logo\":\"https://www.reed.co.uk/cdn/jobseeker/images/reed-logo-pink.svg\",\"description\":\"Established in 1995 in the UK, Reed.co.uk is the UK’s first recruitment website created by an agency and has grown to become\\n                one of the country’s most trusted and comprehensive jobs and careers platforms.\",\"telephone\":\"020 7067 4582\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"27-29 Green Dragon Ct, Macklin St\",\"addressLocality\":\"London\",\"postalCode\":\"WC2B 5LX\",\"addressCountry\":\"UK\"},\"email\":\"press.enquiries@reedonline.co.uk\",\"sameAs\":[\"https://www.youtube.com/@reedcouk\",\"https://uk.linkedin.com/company/reed-co-uk\",\"https://www.facebook.com/Reedcouk/\"]}"
+      },
+      {
+        "type": "application/ld+json",
+        "id": "",
+        "content": "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"https://www.reed.co.uk/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https://www.reed.co.uk/jobs\",\"name\":\"Job Search\"}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@id\":\"https://www.reed.co.uk/jobs/developer-jobs\",\"name\":\"Developer\"}}]}"
+      }
+    ]
+  },
+  "tool_trace": [
+    {
+      "step": "local_http_server",
+      "serve_dir": "C:\\Users\\pc-mousannif\\Desktop\\Ismail\\WADE-BENCH\\data\\raw_snapshots\\jobs\\reed_listing",
+      "http_url": "http://127.0.0.1:65315/page.safe.html",
+      "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/jobs/reed_listing/page.safe.html"
+    },
+    {
+      "step": "list_tools",
+      "tool_names": [
+        "browser_close",
+        "browser_resize",
+        "browser_console_messages",
+        "browser_handle_dialog",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_type",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_take_screenshot",
+        "browser_snapshot",
+        "browser_click",
+        "browser_drag",
+        "browser_hover",
+        "browser_select_option",
+        "browser_tabs",
+        "browser_wait_for"
+      ]
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:65315/page.safe.html"
+      },
+      "output_preview": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:65315/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:65315/page.safe.html\n- Page Title: Developer Jobs - Developer Vacancies | Reed.co.uk\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T20-18-19-915Z.yml)"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_snapshot",
+      "args": {},
+      "output_preview": "### Page\n- Page URL: http://127.0.0.1:65315/page.safe.html\n- Page Title: Developer Jobs - Developer Vacancies | Reed.co.uk\n### Snapshot\n```yaml\n- generic [ref=e2]:\n  - dialog [ref=e4]:\n    - document [ref=e5]:\n      - generic [ref=e6]:\n        - banner [ref=e7]:\n          - heading \"Session expired\" [level=2] [ref=e8]\n        - generic [ref=e10]:\n          - paragraph [ref=e11]: Your session has expired.\n          - paragraph [ref=e12]: Please refresh the page to continue.\n          - paragraph [ref=e13]:\n            - button \"Refresh\" [ref=e14]\n  - generic [ref=e15]:\n    - navigation [ref=e16]:\n      - generic [ref=e17]:\n        - button \"Toggle menu\" [ref=e19]\n        - generic [ref=e20]:\n          - link \"Reed.co.uk\" [ref=e21] [cursor=pointer]:\n            - /url: /\n            - img \"Reed.co.uk\" [ref=e22]\n          - list [ref=e23]:\n            - listitem [ref=e24]:\n              - link \"Jobs\" [ref=e25] [cursor=pointer]:\n                - /url: /\n            - listitem [ref=e26]:\n              - link \"Courses\" [ref=e27] [cursor=pointer]:\n                - /url: /courses/?itm_source=js_navigation&itm_medium=jobseeker&itm_campaign=courses_tab&itm_content=standard_version\n            - listitem [ref=e28]:\n              - link \"Career advice\" [ref=e29] [cursor=pointer]:\n                - /url: /career-advice/\n            - listitem [ref=e30]:\n              - link \"Recruiting? Post a job\" [ref=e31] [cursor=pointer]:\n                - /url: /recruiter/\n                - generic [ref=e32]:\n                  - text: Recruiting?\n                  - strong [ref=e33]: Post a job\n          - generic [ref=e34]:\n            - link \"Register CV\" [ref=e35] [cursor=pointer]:\n              - /url: /authentication/register?returnTo=%2Fweb-jobseeker-jobs%2Fjobs%2Fdeveloper-jobs\n            - list [ref=e36]:\n              - listitem [ref=e37]:\n                - link \"Saved jobs\" [ref=e38] [cursor=pointer]:\n                  - /url: /account/jobs/shortlisted-jobs\n                  - "
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_take_screenshot",
+      "args": {},
+      "output_preview": "### Result\n- [Screenshot of viewport](.playwright-mcp\\page-2026-06-30T20-18-19-995Z.png)\n### Ran Playwright code\n```js\n// Screenshot viewport and save it as .playwright-mcp\\page-2026-06-30T20-18-19-995Z.png\nawait page.screenshot({\n  path: '.playwright-mcp\\\\page-2026-06-30T20-18-19-995Z.png',\n  scale: 'css',\n  type: 'png'\n});\n```\ntype='image' data='iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOzdf1wc9YH/8c8ETAiaFPwZT9t0KUmzFKyk7VnT5L5Vz1OhpAU1VvbgWmOsP1KvlQVrimmrNCrs1jtPTVvF3sGxVhPJXShbPU9730tq6rcVUsOxMVD20mqNVoUGJSSBzPfzmZn9Bbv8CiSbzOv54LGZ+cxnZj6z5J83nx+Tquu6AAAAAADgZDdLAAAAAABgAwRgAAAAAIAtEIABAAAAALZAAAYAAAAA2AIBGAAAAABgCwRgAAAAAIAtEIABAAAAALZAAAYAAAAA2AIBGAAAAABgCwRgAAAAAIAtEIABAAAAALZAAAYAAAAA2AIBGAAAAABgCwRgAAAAAIAtEIABAAAAALZAAAYAAAAA2AIBGAAAAABgCwRgAAAAAIAtEIABAAAAALZAAAYAAAAA2AIBGAAAAABgCwRgAAAAAIAtEIABAAAAALZAAAYAAAAA2ML4Abhv+yOuz2Rqpsycy+6ob983KH7lLqwLipnW57/xw+q2597k7xMnnZl+uhaXFq3cLwAAAADAxsYOwH071i3NXLF2R159Z78uHQg+c9v73qXnztUu9s58/BXBn1TXv6429j1WXf+/4iQz409X1KQf7n38KgEAAAAAEOME4O3VBfe1iwXffuaJEudpqiAtw1ny487eraUZ4lhwfLVm9flqY8GamtUfFSeZY/F0qRnnnikAAAAAAFLqGMf8TzxiDM0dHByKqZhR1OT/un+1mHkZBY//QX9cnKRO7qcDAAAAgCQzZg/wkPG5z1tyU3PfUMyRi2+vzhcAAAAAAJwwxgrAmRlp5sa+n1yd+eFl7k2BwXAMzq5oqnTE1H5nxyPlSzNPUcstzV10tXd71LpOQ33+O8xDc5fe4e97x1d4Q2RBpr6fu5caa2zNzXf73+nzrbzRPBasy4lawSnH2x11r9eb3ZdmzbXW5Vrq+qcdUfk86M2LXflpaF/zTUtV5VPOvbpuxwSWmxoMbnJftsi4/CmZS29qDg4axd3enJhFpTRXiz96makctSrYiLs3Bx68zPxO5KO7fhIYDLcy3tPFFrrk99D3K+/VxkJZOfe2h1vXfMdl1sNnLr1xU3AwtvV9271XRzd+SAAAAAAAxNgB+OKqhy8N7+zb4V2VM3fe0ht/0t43OlPt9i47d9naxmBBc69+oLM6rdm9wuFqscJm+/qlhQ+2L3u0V9d7/UWBqxe5/OEr/KZ6aYG3/eLHew/rvT8vCJTKsw6YRxyVnb1PFMRp1m7v0g9f7f1Fb4m81+HeZ4qCvtuXZV7sDVjXdFS0R638NNTuXXHu1Y+1q5Qok3DVstVPDoqx9PlvcGSt8r6YUdMpm+QrCDx2ddYK4+LZFZ1/eunbnw7XvPTSiwua9ANt8g8Bn/32C3840Kn+IhB795bb3IMPv3n4QOeGfDHY7rshZ1ldYIynU4U/jhT2bXcvvdjdbCyUFXj6xaDRuhsdWVc/+GLGPZ3q2a8K1K/KCl9THW9xOVa4m7sHC56Qv4hgTap77ZMCAAAAACDGGQJ9/upnXrwtpp93sL3+hqWZHy58pCMqRg61V1/l3iEj4mdrvEUZIs1ZWu6UWcy3qvpFFUp31D+oslvwnTeFSF"
+    }
+  ]
+}

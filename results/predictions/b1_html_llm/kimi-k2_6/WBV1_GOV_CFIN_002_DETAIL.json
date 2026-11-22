@@ -1,0 +1,189 @@
+{
+  "task_id": "WBV1_GOV_CFIN_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Refurbishment works Harris Academy Beckenham",
+        "tender_url": "https://www.contractsfinder.service.gov.uk/notice/2b06444b-814c-43b5-a102-8379666b1f2c?origin=SearchResults&p=1",
+        "agency": "Harris Federation",
+        "buyer": "Harris Federation",
+        "published_date": "2026-05-27",
+        "closing_date": "2026-06-19",
+        "closing_time": "12pm",
+        "contract_start_date": "2026-07-06",
+        "contract_end_date": "2026-08-28",
+        "contract_value": "380000",
+        "currency": "GBP",
+        "location": "London",
+        "country": "United Kingdom",
+        "industry": "Refurbishment work - 45453100",
+        "procurement_reference": "MT237418",
+        "contract_type": "Works",
+        "procedure_type": "Open procedure (below threshold)",
+        "suitable_for_smes": "Yes",
+        "suitable_for_vcses": "No",
+        "description": "As detailed in tender pack",
+        "contact_name": "Procurement",
+        "address": "Interchange, 81-85 Station Road, Croydon, CR0 2RD, England",
+        "telephone": "+44 2082537777",
+        "email": "Procurement@harrisfederation.org.uk",
+        "website": "http://www.harrisfederation.org.uk",
+        "apply_portal_link": "https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404",
+        "notice_type": "Open opportunity",
+        "status": "active"
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "page.html",
+          "selector": "h1.govuk-heading-l",
+          "text_quote": "Refurbishment works Harris Academy Beckenham"
+        },
+        "tender_url": {
+          "source": "page.html",
+          "selector": "base[href]",
+          "text_quote": "https://www.contractsfinder.service.gov.uk/notice/2b06444b-814c-43b5-a102-8379666b1f2c?origin=SearchResults&p=1"
+        },
+        "agency": {
+          "source": "page.html",
+          "selector": "h2.breadcrumb-description",
+          "text_quote": "Harris Federation"
+        },
+        "buyer": {
+          "source": "page.html",
+          "selector": "h2.breadcrumb-description",
+          "text_quote": "Harris Federation"
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "p:contains('Published date:')",
+          "text_quote": "Published date: 27 May 2026"
+        },
+        "closing_date": {
+          "source": "page.html",
+          "selector": "h4:contains('Closing date') + p",
+          "text_quote": "19 June 2026"
+        },
+        "closing_time": {
+          "source": "page.html",
+          "selector": "h4:contains('Closing time') + p",
+          "text_quote": "12pm"
+        },
+        "contract_start_date": {
+          "source": "page.html",
+          "selector": "h4:contains('Contract start date') + p",
+          "text_quote": "6 July 2026"
+        },
+        "contract_end_date": {
+          "source": "page.html",
+          "selector": "h4:contains('Contract end date') + p",
+          "text_quote": "28 August 2026"
+        },
+        "contract_value": {
+          "source": "page.html",
+          "selector": "h4:contains('Value of contract') + p",
+          "text_quote": "£380,000"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "h4:contains('Location of contract') + p span",
+          "text_quote": "London"
+        },
+        "industry": {
+          "source": "page.html",
+          "selector": "h4:contains('Industry') + ul li p",
+          "text_quote": "Refurbishment work - 45453100"
+        },
+        "procurement_reference": {
+          "source": "page.html",
+          "selector": "h4:contains('Procurement reference') + p",
+          "text_quote": "MT237418"
+        },
+        "contract_type": {
+          "source": "page.html",
+          "selector": "h4:contains('Contract type') + p",
+          "text_quote": "Works"
+        },
+        "procedure_type": {
+          "source": "page.html",
+          "selector": "h4:contains('Procedure type') + p",
+          "text_quote": "Open procedure (below threshold)"
+        },
+        "suitable_for_smes": {
+          "source": "page.html",
+          "selector": "h4:contains('Contract is suitable for SMEs?') + p",
+          "text_quote": "Yes"
+        },
+        "suitable_for_vcses": {
+          "source": "page.html",
+          "selector": "h4:contains('Contract is suitable for VCSEs?') + p",
+          "text_quote": "No"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "h3:contains('Description') + p",
+          "text_quote": "As detailed in tender pack"
+        },
+        "contact_name": {
+          "source": "page.html",
+          "selector": "h4:contains('Contact name') + p",
+          "text_quote": "Procurement"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h4:contains('Address') + p",
+          "text_quote": "Interchange, 81-85 Station Road<br/>Croydon<br/>CR0 2RD<br/>England"
+        },
+        "telephone": {
+          "source": "page.html",
+          "selector": "h4:contains('Telephone') + p",
+          "text_quote": "+44 2082537777"
+        },
+        "email": {
+          "source": "page.html",
+          "selector": "a[href^='mailto:']",
+          "text_quote": "Procurement@harrisfederation.org.uk"
+        },
+        "website": {
+          "source": "page.html",
+          "selector": "a[href='http://www.harrisfederation.org.uk']",
+          "text_quote": "www.harrisfederation.org.uk"
+        },
+        "apply_portal_link": {
+          "source": "page.html",
+          "selector": "a[href*='mytenders.co.uk']",
+          "text_quote": "https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404"
+        },
+        "notice_type": {
+          "source": "page.html",
+          "selector": "p:contains('Open opportunity')",
+          "text_quote": "Open opportunity - This means that the contract is currently active, and the buying department is looking for potential suppliers to fulfil the contract."
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "p:contains('Open opportunity')",
+          "text_quote": "Open opportunity - This means that the contract is currently active"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 29.347,
+    "input_tokens": 7668,
+    "output_tokens": 1191,
+    "total_tokens": 8859,
+    "initial_input_tokens": 7668,
+    "initial_output_tokens": 1191,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

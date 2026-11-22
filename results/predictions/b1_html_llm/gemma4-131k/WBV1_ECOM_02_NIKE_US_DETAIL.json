@@ -1,0 +1,165 @@
+{
+  "task_id": "WBV1_ECOM_02_NIKE_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Nike",
+        "description": "Air Jordan 4 \"Toro\" Men's Shoes.",
+        "image_urls": [
+          "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/AIR+JORDAN+4+RETRO.png",
+          "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/AIR+JORDAN+4+RETRO.png"
+        ],
+        "price_raw": "$198",
+        "product_name": "Air Jordan 4 \"Toro\" Men's Shoes",
+        "product_url": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600",
+        "rating": null,
+        "review_count": null,
+        "availability": "In Stock",
+        "color": "Toro",
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/AIR+JORDAN+4+RETRO.png",
+        "shipping_text": "Free delivery and returns.",
+        "size_or_volume": null,
+        "sku": "FQ8138-600",
+        "available_colors": [
+          {
+            "color_name": "Toro",
+            "hex_code": "#Aey77D4l"
+          }
+        ],
+        "currency": "USD",
+        "old_price_raw": null,
+        "price": 198.0,
+        "style_color": "FQ8138-600"
+      },
+      "provenance": {
+        "brand": {
+          "source": "meta tag",
+          "selector": "meta[content*=\"Air Jordan 4 \\\"Toro\\\" Men's Shoes\"]",
+          "quote": "Air Jordan 4 \"Toro\" Men's Shoes"
+        },
+        "description": {
+          "source": "meta tag",
+          "selector": "meta[name=\"description\"]",
+          "quote": "Find the Air Jordan 4 \"Toro\" Men's Shoes at Nike.com. Free delivery and returns."
+        },
+        "image_urls": {
+          "source": "link tags (preload)",
+          "selector": "link[as=\"image\"]",
+          "quote": "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/AIR+JORDAN+4+RETRO.png"
+        },
+        "price_raw": {
+          "source": "visible text",
+          "selector": ".product-price span",
+          "quote": "$198"
+        },
+        "product_name": {
+          "source": "title tag",
+          "selector": "title",
+          "quote": "Air Jordan 4 \"Toro\" Men's Shoes. Nike.com"
+        },
+        "product_url": {
+          "source": "base href/canonical link",
+          "selector": "<link rel=\"canonical\"",
+          "quote": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l"
+        },
+        "rating": {
+          "source": null,
+          "selector": ".product-rating",
+          "quote": null
+        },
+        "review_count": {
+          "source": null,
+          "selector": ".review-count span",
+          "quote": null
+        },
+        "availability": {
+          "source": "visible text (assumed)",
+          "selector": ".product-status",
+          "quote": "In Stock"
+        },
+        "color": {
+          "source": "meta tag/URL parameter",
+          "selector": "meta[content*=\"Aey77D4l\"]",
+          "quote": "Aey77D4l"
+        },
+        "discount_percentage": {
+          "source": null,
+          "selector": ".sale-badge",
+          "quote": null
+        },
+        "first_review": {
+          "source": null,
+          "selector": "#reviews .review-card:nth-child(1)",
+          "quote": null
+        },
+        "image_url": {
+          "source": "link tag (preload)",
+          "selector": "link[as=\"image\"]",
+          "quote": "https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/AIR+JORDAN+4+RETRO.png"
+        },
+        "shipping_text": {
+          "source": "meta tag",
+          "selector": "meta[name=\"description\"]",
+          "quote": "Free delivery and returns."
+        },
+        "size_or_volume": {
+          "source": null,
+          "selector": ".size-picker",
+          "quote": null
+        },
+        "sku": {
+          "source": "URL path segment",
+          "selector": "base href",
+          "quote": "/FQ8138-600"
+        },
+        "available_colors": {
+          "source": "meta tag/URL parameter",
+          "selector": "meta[content*=\"Aey77D4l\"]",
+          "quote": "Aey77D4l"
+        },
+        "currency": {
+          "source": "visible text (assumed)",
+          "selector": ".price-container span:first-child",
+          "quote": "$"
+        },
+        "old_price_raw": {
+          "source": null,
+          "selector": ".old-price",
+          "quote": null
+        },
+        "price": {
+          "source": "visible text",
+          "selector": ".product-price span:last-child",
+          "quote": "$198"
+        },
+        "style_color": {
+          "source": "URL parameter/meta tag",
+          "selector": "data-next-head=\"branch:deeplink:$deeplink_path\"",
+          "quote": "FQ8138-600"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 28.925,
+    "input_tokens": 19362,
+    "output_tokens": 2057,
+    "total_tokens": 21419,
+    "initial_input_tokens": 19362,
+    "initial_output_tokens": 2057,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.allbirds.com/cdn/shop/files/A12416_26Q1_Dasher-NZ-Anthracite-Dark-Anthr_PDP_LEFT.png?v=1768948005",
+        "old_price_raw": null,
+        "price_raw": "14000",
+        "product_name": "Men's Dasher NZ - Anthracite (Dark Anthracite Sole)",
+        "product_url": "https://www.allbirds.com/products/mens-dasher-nz-anthracite",
+        "rating": null,
+        "review_count": null,
+        "short_description": "A new take on our fan-favorite Dasher, made for busy days and spontaneous plans. Lightweight, breathable comfort keeps you cool as you move, with added heel protection where it counts. Fast when you want. Comfortable always.",
+        "availability": null,
+        "brand": "Allbirds",
+        "category": "Men's Shoes",
+        "color": "Anthracite (Dark Anthracite Sole)",
+        "currency": "$",
+        "seller_name": "Allbirds",
+        "product_subtitle": "Dasher NZ",
+        "size_or_volume": null
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source_snapshot_id": "page.html",
+        "fields_provenance": {
+          "image_url": {
+            "value": "https://www.allbirds.com/cdn/shop/files/A12416_26Q1_Dasher-NZ-Anthracite-Dark-Anthr_PDP_LEFT.png?v=1768948005",
+            "provenance": {
+              "url": "image_urls[0].src",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "src"
+            }
+          },
+          "price_raw": "14000",
+          "product_name": "Men's Dasher NZ - Anthracite (Dark Anthracite Sole)",
+          "provenance": {
+            "url": "fullName",
+            "snapshot_id": "page.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "fullName"
+          },
+          "product_url": {
+            "value": "https://www.allbirds.com/products/mens-dasher-nz-anthracite",
+            "provenance": {
+              "url": "url",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "url"
+            }
+          },
+          "short_description": {
+            "value": "A%20new%20take%20on%20our%20fan-favorite%20Dasher%2C%20made%20for%20busy%20days%20and%20spontaneous%20plans.%20Lightweight%2C%20breathable%20comfort%20keeps%20you%20cool%20as%20you%20move%2C%20with%20added%20heel%20protection%20where%20it%20counts.%20Fast%20when%20you%20want.%20Comfortable%20always.",
+            "provenance": {
+              "url": "description",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "description"
+            }
+          },
+          "color": {
+            "value": "Anthracite (Dark Anthracite Sole)",
+            "provenance": {
+              "url": "colorName",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "colorName"
+            }
+          },
+          "brand": {
+            "value": "Allbirds",
+            "provenance": {
+              "url": "masterName",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "masterName"
+            }
+          },
+          "category": {
+            "value": "Men's Shoes",
+            "provenance": {
+              "url": "masterName",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "masterName"
+            }
+          }
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.allbirds.com/cdn/shop/files/A12464_26Q1_Dasher-NZ-Blizzard-Deep-Navy-Blizzard_PDP_LEFT.png?v=1768948183",
+        "old_price_raw": null,
+        "price_raw": "14000",
+        "product_name": "Men's Dasher NZ - Blizzard/Deep Navy (Blizzard Sole)",
+        "product_url": "https://www.allbirds.com/products/mens-dasher-nz",
+        "rating": null,
+        "review_count": null,
+        "short_description": "A new take on our fan-favorite Dasher, made for busy days and spontaneous plans. Lightweight, breathable comfort keeps you cool as you move, with added heel protection where it counts. Fast when you want. Comfortable always.",
+        "availability": null,
+        "brand": "Allbirds",
+        "category": "Men's Shoes",
+        "color": "Blizzard/Deep Navy (Blizzard Sole)",
+        "currency": "$",
+        "seller_name": "Allbirds",
+        "product_subtitle": "Dasher NZ",
+        "size_or_volume": null
+      },
+      "provenance": {
+        "record_id": "pred_002",
+        "source_snapshot_id": "page.html",
+        "fields_provenance": {
+          "image_url": {
+            "value": "https://www.allbirds.com/cdn/shop/files/A12464_26Q1_Dasher-NZ-Blizzard-Deep-Navy-Blizzard_PDP_LEFT.png?v=1768948183",
+            "provenance": {
+              "url": "images[0].src",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "src"
+            }
+          },
+          "price_raw": "14000",
+          "product_name": "Men's Dasher NZ - Blizzard/Deep Navy (Blizzard Sole)",
+          "provenance": {
+            "url": "fullName",
+            "snapshot_id": "page.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "fullName"
+          },
+          "product_url": {
+            "value": "https://www.allbirds.com/products/mens-dasher-nz",
+            "provenance": {
+              "url": "url",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "url"
+            }
+          },
+          "short_description": {
+            "value": "A%20new%20take%20on%20our%20fan-favorite%20Dasher%2C%20made%20for%20busy%20days%20and%20spontaneous%20plans.%20Lightweight%2C%20breathable%20comfort%20keeps%20you%20cool%20as%20you%20move%2C%20with%20added%20heel%20protection%20where%20it%20counts.%20Fast%20when%20you%20want.%20Comfortable%20always.",
+            "provenance": {
+              "url": "description",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "description"
+            }
+          },
+          "color": {
+            "value": "Blizzard/Deep Navy (Blizzard Sole)",
+            "provenance": {
+              "url": "colorName",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "colorName"
+            }
+          },
+          "brand": {
+            "value": "Allbirds",
+            "provenance": {
+              "url": "masterName",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "masterName"
+            }
+          },
+          "category": {
+            "value": "Men's Shoes",
+            "provenance": {
+              "url": "masterName",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "masterName"
+            }
+          }
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.allbirds.com/cdn/shop/files/A12464_26Q1_Dasher-NZ-Blizzard-Deep-Navy-Blizzard_PDP_BACK.png?v=1768948183",
+        "old_price_raw": null,
+        "price_raw": "14000",
+        "product_name": "Men's Dasher NZ - Blizzard/Deep Navy (Blizzard Sole)",
+        "product_url": "https://www.allbirds.com/products/mens-dasher-nz",
+        "rating": null,
+        "review_count": null,
+        "short_description": "A new take on our fan-favorite Dasher, made for busy days and spontaneous plans. Lightweight, breathable comfort keeps you cool as you move, with added heel protection where it counts. Fast when you want. Comfortable always.",
+        "availability": null,
+        "brand": "Allbirds",
+        "category": "Men's Shoes",
+        "color": "Blizzard/Deep Navy (Blizzard Sole)",
+        "currency": "$",
+        "seller_name": "Allbirds",
+        "product_subtitle": "Dasher NZ",
+        "size_or_volume": null
+      },
+      "provenance": {
+        "record_id": "pred_003",
+        "source_snapshot_id": "page.html",
+        "fields_provenance": {
+          "image_url": {
+            "value": "https://www.allbirds.com/cdn/shop/files/A12464_26Q1_Dasher-NZ-Blizzard-Deep-Navy-Blizzard_PDP_BACK.png?v=1768948183",
+            "provenance": {
+              "url": "images[1].src",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "src"
+            }
+          },
+          "price_raw": "14000",
+          "product_name": "Men's Dasher NZ - Blizzard/Deep Navy (Blizzard Sole)",
+          "provenance": {
+            "url": "fullName",
+            "snapshot_id": "page.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "fullName"
+          },
+          "product_url": {
+            "value": "https://www.allbirds.com/products/mens-dasher-nz",
+            "provenance": {
+              "url": "url",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "url"
+            }
+          },
+          "short_description": {
+            "value": "A%20new%20take%20on%20our%20fan-favorite%20Dasher%2C%20made%20for%20busy%20days%20and%20spontaneous%20plans.%20Lightweight%2C%20breathable%20comfort%20keeps%20you%20cool%20as%20you%20move%2C%20with%20added%20heel%20protection%20where%20it%20counts.%20Fast%20when%20you%20want.%20Comfortable%20always.",
+            "provenance": {
+              "url": "description",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "description"
+            }
+          },
+          "color": {
+            "value": "Blizzard/Deep Navy (Blizzard Sole)",
+            "provenance": {
+              "url": "colorName",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "colorName"
+            }
+          },
+          "brand": {
+            "value": "Allbirds",
+            "provenance": {
+              "url": "masterName",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "masterName"
+            }
+          },
+          "category": {
+            "value": "Men's Shoes",
+            "provenance": {
+              "url": "masterName",
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": null,
+              "text_quote_or_attribute": "masterName"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 45.026,
+    "input_tokens": 16535,
+    "output_tokens": 3572,
+    "total_tokens": 20107,
+    "initial_input_tokens": 16535,
+    "initial_output_tokens": 3572,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

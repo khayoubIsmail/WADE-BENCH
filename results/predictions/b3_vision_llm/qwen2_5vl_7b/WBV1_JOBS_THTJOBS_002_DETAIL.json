@@ -1,0 +1,41 @@
+{
+  "task_id": "WBV1_JOBS_THTJOBS_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Global Search for Excellence - The \"90 Scholars for 90th Anniversary\" Strategic Hiring Scheme",
+        "company_name": "THE HONG KONG POLYTECHNIC UNIVERSITY",
+        "location": "Hong Kong (HK)",
+        "job_url": "https://www.polyu.edu.hk/hr/careers/globalsearch/job-openings-and-application"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 4.845,
+    "input_tokens": 8555,
+    "output_tokens": 139,
+    "total_tokens": 8694,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_THTJOBS_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_THTJOBS_002_DETAIL\\tile_02.png"
+    ],
+    "error": null
+  }
+}

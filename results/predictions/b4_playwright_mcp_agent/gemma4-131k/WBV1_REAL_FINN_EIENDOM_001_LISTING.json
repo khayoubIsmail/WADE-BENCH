@@ -1,0 +1,158 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.finn.no/realestate/homes/ad.html?finnkode=464659921",
+          "provenance": {
+            "source": "links",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Grønland - Oppussingsobjekt med stor balkong, fri utsikt og gode solforhold. Felleskostnad inkl. \"alt\". Heis. Takterrasse. Garasje*"
+          }
+        },
+        "address": {
+          "value": "Smalgangen 24, Oslo",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Smalgangen 24, Oslo"
+          }
+        },
+        "listing_title": {
+          "value": "Grønland - Oppussingsobjekt med stor balkong, fri utsikt og gode solforhold. Felleskostnad inkl. \"alt\". Heis. Takterrasse. Garasje*",
+          "provenance": {
+            "source": "html_signals",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Grønland - Oppussingsobjekt med stor balkong, fri utsikt og gode solforhold. Felleskostnad inkl. \"alt\". Heis. Takterrasse. Garasje*"
+          }
+        },
+        "property_type": {
+          "value": "Leilighet",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Leilighet"
+          }
+        },
+        "price": {
+          "amount": 5850000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "5 850 000 kr"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "2 soverom"
+          }
+        },
+        "bathrooms": {
+          "value": null,
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "floor_area": {
+          "value": 80,
+          "unit": "m2",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "80 m²"
+          }
+        },
+        "total_price": {
+          "amount": 5997340,
+          "currency_code": "NOK",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Totalpris: 5 997 340 kr"
+          }
+        },
+        "tenure": {
+          "value": "Selveier",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Selveier"
+          }
+        },
+        "listing_agent_name": {
+          "value": "PrivatMegleren Arendal",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "PrivatMegleren Arendal"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/25/1/464/659/921_41ace0c4-ae4a-4576-84be-0aedcddcff2d.jpg",
+            "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/25/1/464/659/921_e74ad346-8b6c-4ffb-b050-77a1a949e92a.jpg",
+            "https://images.finncdn.no/dynamic/1280w/logo/cp/8670696/20220413/c53a87ca-0b9c-49d7-8a48-cff0a879cae6",
+            "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/27/9/465/121/119_32ae9a87-fec2-4c75-bb37-7332f0584ee9.jpg"
+          ],
+          "provenance": {
+            "source": "html_signals",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 127.052,
+    "input_tokens": 40073,
+    "output_tokens": 8192,
+    "total_tokens": 48265,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_FINN_EIENDOM_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_FINN_EIENDOM_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

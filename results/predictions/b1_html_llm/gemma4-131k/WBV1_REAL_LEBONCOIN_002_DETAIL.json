@@ -1,0 +1,248 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3201084037",
+          "provenance": {
+            "selector": "base[href]",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "PARC ANDRE MALRAUX, des commerces et du Centre Ville, des écoles",
+          "provenance": {
+            "selector": "meta[content*='ACOR IMMOBILIER']",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Appartement 3 pièces 43 m² EXCLUSIVITE ACOR IMMOBILIER !",
+          "provenance": {
+            "selector": "meta[name='description']",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "selector": "title",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "amount": null,
+          "currency_code": null,
+          "currency_symbol": null,
+          "period": null,
+          "provenance": {
+            "selector": "N/A (Price not explicitly visible in the provided HTML snippet)",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "selector": "meta[content*='appartement 2/3 pièces']",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": null,
+        "bathrooms_partial": null,
+        "floor_area": {
+          "value": 43,
+          "unit": "m²",
+          "provenance": {
+            "selector": "title",
+            "source": "page.html"
+          }
+        },
+        "rooms": {
+          "value": null,
+          "provenance": {
+            "selector": "N/A (Not applicable for Leboncoin in this context)",
+            "source": "page.html"
+          }
+        },
+        "energy_rating": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "price_per_m2": {
+          "amount": null,
+          "currency_code": null,
+          "currency_symbol": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "sale_type": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "tenure": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "monthly_fees": {
+          "amount": null,
+          "currency_code": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "total_price": {
+          "amount": null,
+          "currency_code": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "status": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "published_date": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "open_house_schedule": {
+          "value": [],
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "key_features": {
+          "value": [],
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "description": {
+          "value": "Appartement 3 pièces 43 m² EXCLUSIVITE ACOR IMMOBILIER ! Votre Agence ACOR IMMOBILIER vous propose au pied du Tramway T6 PARC ANDRE MALRAUX, des commerces et du Centre Ville, des écoles, dans une copropriété avec le Charme de l'ancien en Molière, un appartement 2/3 pièces de 43 m2 en double expositi",
+          "provenance": {
+            "selector": "meta[name='description']",
+            "source": "page.html"
+          }
+        },
+        "mls_number": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "additional_facilities": {
+          "value": [],
+          "provenance": {
+            "selector": "N/A (Leboncoin specific)",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-large"
+          ],
+          "provenance": {
+            "selector": "meta[property='og:image']",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": null,
+          "provenance": {
+            "selector": "N/A (Agent details not visible in the provided HTML snippet)",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ACOR IMMOBILIER",
+          "provenance": {
+            "selector": "meta[content*='ACOR IMMOBILIER']",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_logo": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "listing_agent_photo": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "listing_agent_phone": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "listing_office": {
+          "value": "ACOR IMMOBILIER",
+          "provenance": {
+            "selector": "meta[content*='ACOR IMMOBILIER']",
+            "source": "page.html"
+          }
+        },
+        "parking": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 26.9,
+    "input_tokens": 19405,
+    "output_tokens": 1888,
+    "total_tokens": 21293,
+    "initial_input_tokens": 19405,
+    "initial_output_tokens": 1888,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

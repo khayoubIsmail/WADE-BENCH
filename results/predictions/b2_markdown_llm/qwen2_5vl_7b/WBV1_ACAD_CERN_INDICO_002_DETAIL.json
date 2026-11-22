@@ -1,0 +1,33 @@
+{
+  "task_id": "WBV1_ACAD_CERN_INDICO_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "The 2nd Seoul Particle Theory Workshop",
+        "event_start_date": "May 22, 2026",
+        "event_end_date": "May 31, 2026",
+        "location": "KIAS",
+        "event_url": "/event/1639790/"
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 4.014,
+    "input_tokens": 9436,
+    "output_tokens": 127,
+    "total_tokens": 9563,
+    "repaired": false,
+    "error": null
+  }
+}

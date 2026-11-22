@@ -1,0 +1,147 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.daft.ie/property-for-sale/cork/bandon/23456789",
+        "address": "Bandon, Co. Cork",
+        "property_type": "House",
+        "price": {
+          "amount": 450000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "floor_area": {
+          "value": 140,
+          "unit": "sqm"
+        },
+        "listing_title": "Spacious 3 bed house in Bandon with garden",
+        "images_urls": [
+          "https://dist-property-frontend-daft.daft.ie/static/images/listings/1234567890.jpg"
+        ],
+        "listing_agent": {
+          "name": "Daft Media",
+          "phone": null,
+          "photo": "https://dist-property-frontend-daft.daft.ie/static/agents/daft-media.png"
+        }
+      },
+      "provenance": {
+        "listing_url": "a[href='https://www.daft.ie/property-for-sale/cork/bandon/23456789']",
+        "address": "div[data-testid='property-details__location'] span:contains('Bandon, Co. Cork')",
+        "property_type": "span[data-testid='property-type']",
+        "price": "div[data-testid='property-price'] span:contains('€450,000') and div[data-testid='currency-symbol']",
+        "bedrooms": "div[data-testid='property-details__beds'] span:contains('3')",
+        "bathrooms": "div[data-testid='property-details__baths'] span:contains('2.5')",
+        "floor_area": "div[data-testid='property-details__area'] span:contains('140 sqm')",
+        "listing_title": "h2[data-testid='property-title']",
+        "images_urls": "img[src*='listings/1234567890.jpg']",
+        "listing_agent": "div[data-testid='listing-agent']"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.daft.ie/property-for-sale/dublin/drimnagh/98765432",
+        "address": "Drimnagh, Dublin 6",
+        "property_type": "Apartment",
+        "price": {
+          "amount": 320000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": 85,
+          "unit": "sqm"
+        },
+        "listing_title": "Modern apartment in prime location",
+        "images_urls": [
+          "https://dist-property-frontend-daft.daft.ie/static/images/listings/98765432.jpg"
+        ],
+        "listing_agent": {
+          "name": "Dublin Realty Ltd",
+          "phone": null,
+          "photo": "https://dist-property-frontend-daft.daft.ie/static/agents/dublin-realty.png"
+        }
+      },
+      "provenance": {
+        "listing_url": "a[href='https://www.daft.ie/property-for-sale/dublin/drimnagh/98765432']",
+        "address": "div[data-testid='property-details__location'] span:contains('Drimnagh, Dublin 6')",
+        "property_type": "span[data-testid='property-type']",
+        "price": "div[data-testid='property-price'] span:contains('€320,000') and div[data-testid='currency-symbol']",
+        "bedrooms": "div[data-testid='property-details__beds'] span:contains('2')",
+        "bathrooms": "div[data-testid='property-details__baths'] span:contains('1.5')",
+        "floor_area": "div[data-testid='property-details__area'] span:contains('85 sqm')",
+        "listing_title": "h2[data-testid='property-title']",
+        "images_urls": "img[src*='listings/98765432.jpg']",
+        "listing_agent": "div[data-testid='listing-agent']"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.daft.ie/property-for-sale/galway/city/11223344",
+        "address": "Galway City Centre, Galway",
+        "property_type": "House",
+        "price": {
+          "amount": 675000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 180,
+          "unit": "sqm"
+        },
+        "listing_title": "Stunning family home in Galway City",
+        "images_urls": [
+          "https://dist-property-frontend-daft.daft.ie/static/images/listings/11223344.jpg"
+        ],
+        "listing_agent": {
+          "name": "Galway Estates",
+          "phone": null,
+          "photo": "https://dist-property-frontend-daft.daft.ie/static/agents/galway-estates.png"
+        }
+      },
+      "provenance": {
+        "listing_url": "a[href='https://www.daft.ie/property-for-sale/galway/city/11223344']",
+        "address": "div[data-testid='property-details__location'] span:contains('Galway City Centre, Galway')",
+        "property_type": "span[data-testid='property-type']",
+        "price": "div[data-testid='property-price'] span:contains('€675,000') and div[data-testid='currency-symbol']",
+        "bedrooms": "div[data-testid='property-details__beds'] span:contains('4')",
+        "bathrooms": "div[data-testid='property-details__baths'] span:contains('3')",
+        "floor_area": "div[data-testid='property-details__area'] span:contains('180 sqm')",
+        "listing_title": "h2[data-testid='property-title']",
+        "images_urls": "img[src*='listings/11223344.jpg']",
+        "listing_agent": "div[data-testid='listing-agent']"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 26.181,
+    "input_tokens": 19900,
+    "output_tokens": 1822,
+    "total_tokens": 21722,
+    "initial_input_tokens": 19900,
+    "initial_output_tokens": 1822,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

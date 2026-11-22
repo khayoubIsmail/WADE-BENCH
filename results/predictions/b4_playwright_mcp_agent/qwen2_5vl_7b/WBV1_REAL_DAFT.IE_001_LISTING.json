@@ -1,0 +1,70 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237",
+        "price": {
+          "amount": 495000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source_files": [
+          "page.safe.html"
+        ],
+        "text_quote": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K 4 Bed · 2 Bath · 130 m² · Detached Energy Efficient Advantage GOLD",
+        "ax_tree": null,
+        "metadata": {
+          "snapshot_id": "SNAP_REAL_DAFT.IE_001_LISTING",
+          "website_id": "daft.ie",
+          "task_id": "WBV1_REAL_DAFT.IE_001_LISTING"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357",
+        "price": {
+          "amount": 815000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source_files": [
+          "page.safe.html"
+        ],
+        "text_quote": "2 Beechfield Grove, Monaleen, Co Limerick, V947K26 4 Bed · 4 Bath · 180 m² · Detached Viewing Advised Advantage GOLD",
+        "ax_tree": null,
+        "metadata": {
+          "snapshot_id": "SNAP_REAL_DAFT.IE_001_LISTING",
+          "website_id": "daft.ie",
+          "task_id": "WBV1_REAL_DAFT.IE_001_LISTING"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 26.321,
+    "input_tokens": 30643,
+    "output_tokens": 988,
+    "total_tokens": 31631,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_DAFT.IE_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_DAFT.IE_001_LISTING_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

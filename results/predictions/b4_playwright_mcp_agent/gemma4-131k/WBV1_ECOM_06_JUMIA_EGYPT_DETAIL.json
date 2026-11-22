@@ -1,0 +1,227 @@
+{
+  "task_id": "WBV1_ECOM_06_JUMIA_EGYPT_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": {
+          "value": "Honor",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "Brand: Honor | Similar products from Honor"
+          }
+        },
+        "description": {
+          "value": "The X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan brings cutting-edge technology and premium design together in one powerful device. Engineered by Honor, this smartphone delivers exceptional performance for both daily tasks and demanding applications.\n\nExperience seamless multitasking and stunning visuals with its impressive display and responsive performance. The device features 6.61-inch TFT LCD 120Hz, Mediatek Helio G81 Ultra chipset, 50MP main camera, ensuring you stay productive and entertained throughout the day. Whether you're capturing memories, streaming content, or staying connected, this smartphone delivers reliability and speed in a sleek package.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "The X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan brings cutting-edge technology and premium design together in one powerful device..."
+          }
+        },
+        "image_urls": {
+          "value": [
+            "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/79/9031331/1.jpg?8314",
+            "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/79/9031331/2.jpg?8315"
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector_or_xpath": null,
+            "text_quote": "Image sources from page.html"
+          }
+        },
+        "price_raw": {
+          "value": "EGP 8,399.00",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "EGP 8,399.00"
+          }
+        },
+        "product_name": {
+          "value": "Honor X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "Honor X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan"
+          }
+        },
+        "product_url": {
+          "value": "https://www.jumia.com.eg/honor-x6c-6.61-6gb-ram256gb-rom-android-15-4g-ocean-cyan-133130997.html",
+          "provenance": {
+            "source": "metadata.json",
+            "css_selector_or_xpath": null,
+            "text_quote": "final_url: https://www.jumia.com.eg/honor-x6c-6.61-6gb-ram256gb-rom-android-15-4g-ocean-cyan-133130997.html"
+          }
+        },
+        "rating": {
+          "value": "4.3/5",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "4.3 out of 5"
+          }
+        },
+        "review_count": {
+          "value": "42",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "(42 verified ratings)"
+          }
+        },
+        "availability": {
+          "value": "Few units left",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "Few units left"
+          }
+        },
+        "discount_percentage": {
+          "value": "9%",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "9%"
+          }
+        },
+        "sku": {
+          "value": "HO474MP2Z3Y59NAFAMZ",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "SKU: HO474MP2Z3Y59NAFAMZ"
+          }
+        },
+        "color": {
+          "value": "Ocean Cyan",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "Color: Ocean Cyan"
+          }
+        },
+        "first_review_rating": {
+          "value": "5/5",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "5 out of 5"
+          }
+        },
+        "first_review_content": {
+          "value": "حلوووو\nسعر اقل من برا بصراحة",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "حلوووو\nسعر اقل من برا بصراحة"
+          }
+        },
+        "image_url": {
+          "value": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/79/9031331/1.jpg?8314",
+          "provenance": {
+            "source": "page.html",
+            "css_selector_or_xpath": null,
+            "text_quote": "Image URL 1"
+          }
+        },
+        "shipping_info": {
+          "value": "Free delivery to 6th of October",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "Free delivery to 6th of October"
+          }
+        },
+        "size_or_volume": {
+          "value": "164 x 75.6 x 8.4 cm",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "Size (L x W x H cm): 164 x 75.6 x 8.4"
+          }
+        },
+        "seller_name": {
+          "value": "Jumia",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "SELLER INFORMATION\n\nJumia"
+          }
+        },
+        "short_description": {
+          "value": "The X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan brings cutting-edge technology and premium design together in one powerful device.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "The X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan brings cutting-edge technology and premium design together in one powerful device."
+          }
+        },
+        "material": {
+          "value": null,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "Main Material: N/A"
+          }
+        },
+        "old_price_raw": {
+          "value": "EGP 9,200.00",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "EGP 9,200.00"
+          }
+        },
+        "price": {
+          "value": 8399.0,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "EGP 8,399.00"
+          }
+        },
+        "selected_width": {
+          "value": "75.6 cm",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "Size (L x W x H cm): 164 x 75.6 x 8.4"
+          }
+        },
+        "currency": {
+          "value": "EGP",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector_or_xpath": null,
+            "text_quote": "EGP 8,399.00"
+          }
+        }
+      },
+      "provenance": {
+        "source": "metadata.json",
+        "css_selector_or_xpath": null,
+        "text_quote": "Metadata used for overall context and URL."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 43.224,
+    "input_tokens": 35716,
+    "output_tokens": 2430,
+    "total_tokens": 38146,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_06_JUMIA_EGYPT_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_06_JUMIA_EGYPT_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

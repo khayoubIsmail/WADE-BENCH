@@ -1,0 +1,731 @@
+{
+  "task_id": "WBV1_GOV_FAT_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Quotation for the Supply of One (1) Unit of Vertical-Form-Fill-Seal Machine with 4 Years of Preventive Maintenance Service for SAS",
+        "tender_url": null,
+        "authority_id": "RPO000ETQ26000051",
+        "awarding_agency": "Republic Polytechnic",
+        "buyer": "Republic Polytechnic",
+        "buyer_address": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964",
+        "closing_date": "2026-06-09",
+        "contact": {
+          "contact_name": "THO PIN DA",
+          "email": "tho_pin_da@rp.edu.sg",
+          "telephone": "66974064"
+        },
+        "notice_dispatch_date": "2026-05-29",
+        "reference": "RPO000ETQ26000051",
+        "reference_number": "RPO000ETQ26000051",
+        "procurement_nature": "Non Period Contract",
+        "procurement_method": "Open Quotation",
+        "tender_type": "Quotation",
+        "overview": "Quotation for the Supply of One (1) Unit of Vertical-Form-Fill-Seal Machine with 4 Years of Preventive Maintenance Service for SAS",
+        "published_date": "2026-05-29",
+        "status": "PENDING AWARD",
+        "bidding_details": {
+          "items_to_respond": [
+            {
+              "item_no": "1",
+              "description": "Vertical-Form-Fill-Seal machine with unit, tubing, fitting, and accessories",
+              "required_quantity": "1.0000",
+              "unit_of_measurement": "SET",
+              "delivery_date": "2026-10-13",
+              "location": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964",
+              "delivery_terms": "Local Delivery"
+            },
+            {
+              "item_no": "2",
+              "description": "Packaging film rolls for the machine (refer to Table 1 Compliance Table, Specifications 2.1 to 2.6)",
+              "required_quantity": "1.0000",
+              "unit_of_measurement": "LOT",
+              "delivery_date": "2026-10-13",
+              "location": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964",
+              "delivery_terms": "Local Delivery"
+            },
+            {
+              "item_no": "3",
+              "description": "Year 1 - Preventive Maintenance Service",
+              "required_quantity": "1.0000",
+              "unit_of_measurement": "EACH",
+              "delivery_date": "2027-10-13",
+              "location": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964",
+              "delivery_terms": "Local Delivery"
+            },
+            {
+              "item_no": "4",
+              "description": "Year 2 - Preventive Maintenance Service",
+              "required_quantity": "1.0000",
+              "unit_of_measurement": "EACH",
+              "delivery_date": "2028-10-13",
+              "location": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964",
+              "delivery_terms": "Local Delivery"
+            },
+            {
+              "item_no": "5",
+              "description": "Year 3 - Preventive Maintenance Service",
+              "required_quantity": "1.0000",
+              "unit_of_measurement": "EACH",
+              "delivery_date": "2029-10-13",
+              "location": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964",
+              "delivery_terms": "Local Delivery"
+            },
+            {
+              "item_no": "6",
+              "description": "Year 4 - Preventive Maintenance Service",
+              "required_quantity": "1.0000",
+              "unit_of_measurement": "EACH",
+              "delivery_date": "2030-10-13",
+              "location": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964",
+              "delivery_terms": "Local Delivery"
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "text.txt",
+          "bbox": [
+            120,
+            25,
+            138,
+            974
+          ],
+          "text_quote": "Quotation for the Supply of One (1) Unit of Vertical-Form-Fill-Seal Machine with 4 Years of Preventive Maintenance Service for SAS"
+        },
+        "tender_url": {
+          "source": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "authority_id": {
+          "source": "page.safe.html",
+          "bbox": [
+            172,
+            305,
+            188,
+            469
+          ],
+          "text_quote": "RPO000ETQ26000051"
+        },
+        "awarding_agency": {
+          "source": "text.txt",
+          "bbox": [
+            488,
+            370,
+            490,
+            612
+          ],
+          "text_quote": "Republic Polytechnic"
+        },
+        "buyer": {
+          "source": "text.txt",
+          "bbox": [
+            488,
+            370,
+            490,
+            612
+          ],
+          "text_quote": "Republic Polytechnic"
+        },
+        "buyer_address": {
+          "source": "text.txt",
+          "bbox": [
+            521,
+            370,
+            543,
+            612
+          ],
+          "text_quote": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964"
+        },
+        "closing_date": {
+          "source": "text.txt",
+          "bbox": [
+            310,
+            370,
+            330,
+            512
+          ],
+          "text_quote": "09 Jun 2026"
+        },
+        "contact": {
+          "contact_name": {
+            "source": "text.txt",
+            "bbox": [
+              410,
+              370,
+              430,
+              480
+            ],
+            "text_quote": "THO PIN DA"
+          },
+          "email": {
+            "source": "text.txt",
+            "bbox": [
+              419,
+              370,
+              430,
+              520
+            ],
+            "text_quote": "tho_pin_da@rp.edu.sg"
+          },
+          "telephone": {
+            "source": "text.txt",
+            "bbox": [
+              430,
+              370,
+              452,
+              430
+            ],
+            "text_quote": "66974064"
+          }
+        },
+        "notice_dispatch_date": {
+          "source": "text.txt",
+          "bbox": [
+            202,
+            370,
+            212,
+            612
+          ],
+          "text_quote": "29 May 2026"
+        },
+        "reference": {
+          "source": "text.txt",
+          "bbox": [
+            174,
+            370,
+            182,
+            520
+          ],
+          "text_quote": "RPO000ETQ26000051"
+        },
+        "reference_number": {
+          "source": "page.safe.html",
+          "bbox": [
+            172,
+            490,
+            188,
+            612
+          ],
+          "text_quote": "RPO000ETQ26000051"
+        },
+        "procurement_nature": {
+          "source": "text.txt",
+          "bbox": [
+            252,
+            370,
+            262,
+            612
+          ],
+          "text_quote": "Non Period Contract"
+        },
+        "procurement_method": {
+          "source": "text.txt",
+          "bbox": [
+            264,
+            370,
+            282,
+            612
+          ],
+          "text_quote": "Open Quotation"
+        },
+        "tender_type": {
+          "source": "text.txt",
+          "bbox": [
+            232,
+            370,
+            234,
+            612
+          ],
+          "text_quote": "Goods"
+        },
+        "overview": {
+          "source": "text.txt",
+          "bbox": [
+            120,
+            25,
+            138,
+            974
+          ],
+          "text_quote": "Quotation for the Supply of One (1) Unit of Vertical-Form-Fill-Seal Machine with 4 Years of Preventive Maintenance Service for SAS"
+        },
+        "published_date": {
+          "source": "text.txt",
+          "bbox": [
+            202,
+            370,
+            204,
+            612
+          ],
+          "text_quote": "29 May 2026"
+        },
+        "status": {
+          "source": "page.safe.html",
+          "bbox": [
+            135,
+            370,
+            156,
+            612
+          ],
+          "text_quote": "PENDING AWARD"
+        },
+        "bidding_details": {
+          "items_to_respond": [
+            {
+              "item_no": {
+                "source": "text.txt",
+                "bbox": [
+                  575,
+                  370,
+                  583,
+                  412
+                ],
+                "text_quote": "1"
+              },
+              "description": {
+                "source": "text.txt",
+                "bbox": [
+                  589,
+                  370,
+                  593,
+                  974
+                ],
+                "text_quote": "Vertical-Form-Fill-Seal machine with unit, tubing, fitting, and accessories"
+              },
+              "required_quantity": {
+                "source": "text.txt",
+                "bbox": [
+                  609,
+                  370,
+                  613,
+                  520
+                ],
+                "text_quote": "1.0000"
+              },
+              "unit_of_measurement": {
+                "source": "text.txt",
+                "bbox": [
+                  597,
+                  370,
+                  599,
+                  480
+                ],
+                "text_quote": "SET"
+              },
+              "delivery_date": {
+                "source": "text.txt",
+                "bbox": [
+                  651,
+                  370,
+                  653,
+                  512
+                ],
+                "text_quote": "13 Oct 2026"
+              },
+              "location": {
+                "source": "text.txt",
+                "bbox": [
+                  649,
+                  370,
+                  650,
+                  974
+                ],
+                "text_quote": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964"
+              },
+              "delivery_terms": {
+                "source": "text.txt",
+                "bbox": [
+                  652,
+                  370,
+                  653,
+                  520
+                ],
+                "text_quote": "Local Delivery"
+              }
+            },
+            {
+              "item_no": {
+                "source": "text.txt",
+                "bbox": [
+                  676,
+                  370,
+                  682,
+                  412
+                ],
+                "text_quote": "2"
+              },
+              "description": {
+                "source": "text.txt",
+                "bbox": [
+                  686,
+                  370,
+                  690,
+                  974
+                ],
+                "text_quote": "Packaging film rolls for the machine (refer to Table 1 Compliance Table, Specifications 2.1 to 2.6)"
+              },
+              "required_quantity": {
+                "source": "text.txt",
+                "bbox": [
+                  700,
+                  370,
+                  702,
+                  520
+                ],
+                "text_quote": "1.0000"
+              },
+              "unit_of_measurement": {
+                "source": "text.txt",
+                "bbox": [
+                  692,
+                  370,
+                  696,
+                  430
+                ],
+                "text_quote": "LOT"
+              },
+              "delivery_date": {
+                "source": "text.txt",
+                "bbox": [
+                  742,
+                  370,
+                  744,
+                  512
+                ],
+                "text_quote": "13 Oct 2026"
+              },
+              "location": {
+                "source": "text.txt",
+                "bbox": [
+                  742,
+                  370,
+                  743,
+                  974
+                ],
+                "text_quote": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964"
+              },
+              "delivery_terms": {
+                "source": "text.txt",
+                "bbox": [
+                  745,
+                  370,
+                  746,
+                  520
+                ],
+                "text_quote": "Local Delivery"
+              }
+            },
+            {
+              "item_no": {
+                "source": "text.txt",
+                "bbox": [
+                  769,
+                  370,
+                  775,
+                  412
+                ],
+                "text_quote": "3"
+              },
+              "description": {
+                "source": "text.txt",
+                "bbox": [
+                  783,
+                  370,
+                  785,
+                  612
+                ],
+                "text_quote": "Year 1 - Preventive Maintenance Service"
+              },
+              "required_quantity": {
+                "source": "text.txt",
+                "bbox": [
+                  799,
+                  370,
+                  803,
+                  520
+                ],
+                "text_quote": "1.0000"
+              },
+              "unit_of_measurement": {
+                "source": "text.txt",
+                "bbox": [
+                  789,
+                  370,
+                  793,
+                  430
+                ],
+                "text_quote": "EACH"
+              },
+              "delivery_date": {
+                "source": "text.txt",
+                "bbox": [
+                  835,
+                  370,
+                  837,
+                  512
+                ],
+                "text_quote": "13 Oct 2027"
+              },
+              "location": {
+                "source": "text.txt",
+                "bbox": [
+                  834,
+                  370,
+                  836,
+                  974
+                ],
+                "text_quote": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964"
+              },
+              "delivery_terms": {
+                "source": "text.txt",
+                "bbox": [
+                  838,
+                  370,
+                  839,
+                  520
+                ],
+                "text_quote": "Local Delivery"
+              }
+            },
+            {
+              "item_no": {
+                "source": "text.txt",
+                "bbox": [
+                  862,
+                  370,
+                  868,
+                  412
+                ],
+                "text_quote": "4"
+              },
+              "description": {
+                "source": "text.txt",
+                "bbox": [
+                  872,
+                  370,
+                  876,
+                  612
+                ],
+                "text_quote": "Year 2 - Preventive Maintenance Service"
+              },
+              "required_quantity": {
+                "source": "text.txt",
+                "bbox": [
+                  892,
+                  370,
+                  896,
+                  520
+                ],
+                "text_quote": "1.0000"
+              },
+              "unit_of_measurement": {
+                "source": "text.txt",
+                "bbox": [
+                  882,
+                  370,
+                  886,
+                  430
+                ],
+                "text_quote": "EACH"
+              },
+              "delivery_date": {
+                "source": "text.txt",
+                "bbox": [
+                  928,
+                  370,
+                  930,
+                  512
+                ],
+                "text_quote": "13 Oct 2028"
+              },
+              "location": {
+                "source": "text.txt",
+                "bbox": [
+                  926,
+                  370,
+                  927,
+                  974
+                ],
+                "text_quote": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964"
+              },
+              "delivery_terms": {
+                "source": "text.txt",
+                "bbox": [
+                  931,
+                  370,
+                  932,
+                  520
+                ],
+                "text_quote": "Local Delivery"
+              }
+            },
+            {
+              "item_no": {
+                "source": "text.txt",
+                "bbox": [
+                  955,
+                  370,
+                  961,
+                  412
+                ],
+                "text_quote": "5"
+              },
+              "description": {
+                "source": "text.txt",
+                "bbox": [
+                  965,
+                  370,
+                  969,
+                  612
+                ],
+                "text_quote": "Year 3 - Preventive Maintenance Service"
+              },
+              "required_quantity": {
+                "source": "text.txt",
+                "bbox": [
+                  981,
+                  370,
+                  985,
+                  520
+                ],
+                "text_quote": "1.0000"
+              },
+              "unit_of_measurement": {
+                "source": "text.txt",
+                "bbox": [
+                  979,
+                  370,
+                  981,
+                  430
+                ],
+                "text_quote": "EACH"
+              },
+              "delivery_date": {
+                "source": "text.txt",
+                "bbox": [
+                  1023,
+                  370,
+                  1025,
+                  512
+                ],
+                "text_quote": "13 Oct 2029"
+              },
+              "location": {
+                "source": "text.txt",
+                "bbox": [
+                  1022,
+                  370,
+                  1023,
+                  974
+                ],
+                "text_quote": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964"
+              },
+              "delivery_terms": {
+                "source": "text.txt",
+                "bbox": [
+                  1025,
+                  370,
+                  1025,
+                  520
+                ],
+                "text_quote": "Local Delivery"
+              }
+            },
+            {
+              "item_no": {
+                "source": "text.txt",
+                "bbox": [
+                  1048,
+                  370,
+                  1054,
+                  412
+                ],
+                "text_quote": "6"
+              },
+              "description": {
+                "source": "text.txt",
+                "bbox": [
+                  1058,
+                  370,
+                  1062,
+                  612
+                ],
+                "text_quote": "Year 4 - Preventive Maintenance Service"
+              },
+              "required_quantity": {
+                "source": "text.txt",
+                "bbox": [
+                  1072,
+                  370,
+                  1074,
+                  520
+                ],
+                "text_quote": "1.0000"
+              },
+              "unit_of_measurement": {
+                "source": "text.txt",
+                "bbox": [
+                  1064,
+                  370,
+                  1068,
+                  430
+                ],
+                "text_quote": "EACH"
+              },
+              "delivery_date": {
+                "source": "text.txt",
+                "bbox": [
+                  1116,
+                  370,
+                  1117,
+                  512
+                ],
+                "text_quote": "13 Oct 2030"
+              },
+              "location": {
+                "source": "text.txt",
+                "bbox": [
+                  1115,
+                  370,
+                  1116,
+                  974
+                ],
+                "text_quote": "Republic Polytechnic, 9 Woodlands Avenue 9, Singapore 738964"
+              },
+              "delivery_terms": {
+                "source": "text.txt",
+                "bbox": [
+                  1118,
+                  370,
+                  1118,
+                  520
+                ],
+                "text_quote": "Local Delivery"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 65.972,
+    "input_tokens": 19673,
+    "output_tokens": 4419,
+    "total_tokens": 24092,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_FAT_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_FAT_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

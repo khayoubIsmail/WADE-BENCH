@@ -1,0 +1,191 @@
+{
+  "task_id": "WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Get Started: Algo & Bot Trading 101",
+        "event_start_date": "2026-06-04",
+        "event_end_date": "2026-06-04",
+        "event_url": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472",
+        "location": "Online",
+        "event_start_time": "17:30:00-05:00",
+        "event_end_time": "18:30:00-05:00",
+        "description": "Learn the fundamentals of algorithmic trading in one hands-on session — no coding required. We'll walk you through how it works.",
+        "organizer_name": "Matt DeLong",
+        "price": "0.0",
+        "registration_url": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472",
+        "event_type": "EducationEvent",
+        "image_urls": [
+          "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185058271%2F51626203324%2F1%2Foriginal.20260520-172248?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.044&fp-y=0.353&s=ee965e46e47708396a26647f3bc5fc33"
+        ],
+        "cost": "Free",
+        "register_link": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472",
+        "website": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472",
+        "event_type_detail": "Online event",
+        "timing_start": "11:30 PM",
+        "timing_end": "12:30 AM GMT+1",
+        "duration": "1 hour"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.safe.html",
+          "css_selector": "h1",
+          "xpath": "//h1",
+          "bbox": null,
+          "text_quote": "Get Started: Algo & Bot Trading 101"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"startDate\":\"2026-06-04T17:30:00-05:00\""
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"endDate\":\"2026-06-04T18:30:00-05:00\""
+        },
+        "event_url": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"url\":\"https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472\""
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e132]",
+          "xpath": "//a[@href='#location']",
+          "bbox": null,
+          "text_quote": "Online event"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"startDate\":\"2026-06-04T17:30:00-05:00\""
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"endDate\":\"2026-06-04T18:30:00-05:00\""
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e150]",
+          "xpath": "//p",
+          "bbox": null,
+          "text_quote": "Learn the fundamentals of algorithmic trading in one hands-on session — no coding required. We'll walk you through how it works."
+        },
+        "organizer_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e193]",
+          "xpath": "//a[@href='https://www.eventbrite.com/o/8318145261']",
+          "bbox": null,
+          "text_quote": "Matt DeLong"
+        },
+        "price": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"lowPrice\":\"0.0\""
+        },
+        "registration_url": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"url\":\"https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472\""
+        },
+        "event_type": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"@type\":\"EducationEvent\""
+        },
+        "image_urls": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"image\":\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185058271%2F51626203324%2F1%2Foriginal.20260520-172248?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.044&fp-y=0.353&s=ee965e46e47708396a26647f3bc5fc33\""
+        },
+        "cost": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e332]",
+          "xpath": "//div[contains(text(),'Free')]",
+          "bbox": null,
+          "text_quote": "Free"
+        },
+        "register_link": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"url\":\"https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472\""
+        },
+        "website": {
+          "source": "page.html",
+          "css_selector": "script[type=\"application/ld+json\"]",
+          "xpath": "//script[@type='application/ld+json']",
+          "bbox": null,
+          "text_quote": "\"url\":\"https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472\""
+        },
+        "event_type_detail": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e181]",
+          "xpath": "//h4",
+          "bbox": null,
+          "text_quote": "Online event"
+        },
+        "timing_start": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e145]",
+          "xpath": "//time",
+          "bbox": null,
+          "text_quote": "11:30 PM-12:30 AM GMT+1"
+        },
+        "timing_end": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e145]",
+          "xpath": "//time",
+          "bbox": null,
+          "text_quote": "11:30 PM-12:30 AM GMT+1"
+        },
+        "duration": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e164]",
+          "xpath": "//li[contains(text(),'1 hour')]",
+          "bbox": null,
+          "text_quote": "1 hour"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 37.32,
+    "input_tokens": 17101,
+    "output_tokens": 1569,
+    "total_tokens": 18670,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "task_id": "WBV1_JOBS_RELIEFWEB_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": {
+          "value": "Medical Doctor Gaza",
+          "provenance": {
+            "selector": "h1.rw-article__title",
+            "text_quote": "<h1>Medical Doctor Gaza</h1>"
+          }
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215856/medical-doctor-gaza",
+          "provenance": {
+            "selector": "link[rel='canonical']",
+            "text_quote": "<link href=\"https://reliefweb.int/job/4215856/medical-doctor-gaza\" rel=\"canonical\"/>"
+          }
+        },
+        "company_name": {
+          "value": "CADUS e.V.",
+          "provenance": {
+            "selector": ".rw-entity-meta__tag-value--source a",
+            "text_quote": "<a class=\"rw-entity-meta__tag-link\" href=\"https://reliefweb.int/organization/cadus-ev\">CADUS e.V.</a>"
+          }
+        },
+        "location": {
+          "value": "occupied Palestinian territory",
+          "provenance": {
+            "selector": ".rw-entity-country-slug__link",
+            "text_quote": "<a class=\"rw-entity-country-slug__link\" href=\"https://reliefweb.int/country/pse\">occupied Palestinian territory</a>"
+          }
+        },
+        "posted_date": {
+          "value": "2026-06-11",
+          "provenance": {
+            "selector": ".rw-entity-meta__tag-value--posted time",
+            "text_quote": "<time datetime=\"2026-06-11T19:51:05+00:00\">11 Jun 2026</time>"
+          }
+        },
+        "application_deadline": {
+          "value": "2026-06-14",
+          "provenance": {
+            "selector": ".rw-entity-meta__tag-value--closing time",
+            "text_quote": "<time datetime=\"2026-06-14T00:00:00+00:00\">14 Jun 2026</time>"
+          }
+        },
+        "country": {
+          "value": "occupied Palestinian territory",
+          "provenance": {
+            "selector": ".rw-entity-meta__tag-value--country a",
+            "text_quote": "<a class=\"rw-entity-meta__tag-link\" href=\"https://reliefweb.int/country/pse\">occupied Palestinian territory</a>"
+          }
+        },
+        "tags": {
+          "value": [
+            "Health",
+            "Other"
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']",
+            "text_quote": "\"keywords\": [\n        \"Health\",\n        \"Other\"\n    ]"
+          }
+        },
+        "job_description": {
+          "value": "⚠️ Important We are currently running a time-critical emergency crewing process for the rotations around June 23 – August 4 and July 12 – August 18 (medical doctor) as recently announced via social media. If you are interested and available for these rotations, and have already applied via this crewing form within the past 6 weeks, you do not need to submit a new application. To speed up the process, simply email us to announce your availability: crewing-gaza(a)cadus.org Background As a humanitarian organization, CADUS has been working in Gaza since February 2024 to support local capacities in their emergency relief operations. Our current program focuses on complementing existing MedEvac capacities, providing medical training and working alongside national and local partners within Field Hospitals. Key facts for all Positions: 5 weeks in country/4-5 weeks out (except Tech/Log: 6 weeks in/5 weeks out)\nFlexibility is required as rotation timings can change. You can clarify this with HR...",
+          "provenance": {
+            "selector": ".rw-article__content p",
+            "text_quote": "<p>⚠️ Important We are currently running a time-critical emergency crewing process for the rotations around June 23 – August 4 and July 12 – August 18 (medical doctor) as recently announced via social media.</p>\n<p>If you are interested and available for these rotations, and have already applied via this crewing form within the past 6 weeks, you do not need to submit a new application. To speed up the process, simply email us to announce your availability: crewing-gaza(a)cadus.org Background As a humanitarian organization, CADUS has been working in Gaza since February 2024 to support local capacities in their emergency relief operations. Our current program focuses on complementing existing MedEvac capacities, providing medical training and working alongside national and local partners within Field Hospitals. Key facts for all Positions: 5 weeks in country/4-5 weeks out (except Tech/Log: 6 weeks in/5 weeks out)</p>"
+          }
+        },
+        "employment_type": {
+          "value": "Job",
+          "provenance": {
+            "selector": "script[type='application/ld+json']",
+            "text_quote": "\"employmentType\": \"Job\""
+          }
+        },
+        "responsibilities": {
+          "value": [
+            "MedEvac - ground ambulance medical evacuations of civilian patients, both within and out of Gaza; staffing varies by mission and may include physicians, paramedics/ nurses, and local staff; capabilities include critical care transport services (i.e., infusions, mechanical ventilation, etc.); missions often involve providing medical oversight of and care for many patients for 12+ hours preceding the mission (in addition to care provided to patient(s) on the crew's ambulance).",
+            "CasEvac - evacuating sick or injured international aid workers out of Gaza when requested to do so by the WHO.",
+            "Emergency Response Team (ERT) - medical support for UN and other INGO missions; medics assigned to this task will be expected to act independently and with limited resources in the event of an emergency, this could involve treating injuries out of a bag in the seat of an armoured vehicle and/ or managing patients for prolonged period of time until evacuation is possible; skill set includes advanced airway management (i.e., intubation), chest decompression, administration of emergency medications, etc.",
+            "PRCS Field Hospital Emergency Department - clinical support at the Palestine Red Crescent Field Hospital in southern Gaza; the CADUS team (which includes some local staff) attends to patients in the emergency room; resources are limited, therefore clinicians should be comfortable with performing interventions independently (from IV cannulation, chest drain insertion and advanced airway management as examples), interpreting X-rays without a radiologist, etc.; candidates with POCUS knowledge &amp; experience will be prioritized."
+          ],
+          "provenance": {
+            "selector": ".rw-article__content p strong",
+            "text_quote": "<p><strong>MedEvac</strong> - ground ambulance medical evacuations of civilian patients, both within and out of Gaza; staffing varies by mission and may include physicians, paramedics/ nurses, and local staff; capabilities include critical care transport services (i.e., infusions, mechanical ventilation, etc.); missions often involve providing medical oversight of and care for many patients for 12+ hours preceding the mission (in addition to care provided to patient(s) on the crew's ambulance).</p>"
+          }
+        },
+        "what_we_offer": {
+          "value": "Competitive, market-standard compensation; Travel, accommodation, and per diem fully covered; Direct line management in-country, with close support from the Berlin back office; Regular security checks and thorough deployment preparation; Psychological and wellbeing support throughout the mission, including fatigue management; Work in a highly qualified and motivated international team on a meaningful humanitarian mission; Pre-deployment briefing and training, with post-deployment debriefing; Context sensitive operational and living conditions; Opportunities for professional development and on-the-job learning",
+          "provenance": {
+            "selector": ".rw-article__content ol li:nth-child(1) ~ li:nth-child(2)",
+            "text_quote": "<li class=\"rw-entity-meta__tag-value__list__item rw-entity-meta__tag-value__list__item--last\">Competitive, market-standard compensation</li>\n<li class=\"rw-entity-meta__tag-value__list__item rw-entity-meta__tag-value__list__item--last\">Travel, accommodation, and per diem fully covered</li>\n<li class=\"rw-entity-meta__tag-value__list__item rw-entity-meta__tag-value__list__item--last\">Direct line management in-country, with close support from the Berlin back office</li>\n<li class=\"rw-entity-meta__tag-value__list__item rw-entity-meta__tag-value__list__item--last\">Regular security checks and thorough deployment preparation</li>\n<li class=\"rw-entity-meta__tag-value__list__item rw-entity-meta__tag-value__list__item--last\">Psychological and wellbeing support throughout the mission, including fatigue management</li>\n<li class=\"rw-entity-meta__tag-value__list__item rw-entity-meta__tag-value__list__item--last\">Work in a highly qualified and motivated international team on a meaningful humanitarian mission</li>\n<li class=\"rw-entity-meta__tag-value__list__item rw-entity-meta__tag-value__list__item--last\">Pre-deployment briefing and training, with post-deployment debriefing</li>\n<li class=\"rw-entity-meta__tag-value__list__item rw-entity-meta__tag-value__list__item--last\">Context sensitive operational and living conditions</li>\n<li class=\"rw-entity-meta__tag-value__list__item rw-entity-meta__tag-value__list__item--last\">Opportunities for professional development and on-the-job learning</li></ul>"
+          }
+        },
+        "theme": {
+          "value": "Health",
+          "provenance": {
+            "selector": "script[type='application/ld+json']",
+            "text_quote": "\"keywords\": [\n        \"Health\",\n        \"Other\"\n    ]"
+          }
+        },
+        "years_of_experience": {
+          "value": "5-9 years",
+          "provenance": {
+            "selector": ".rw-entity-meta__tag-value--experience a",
+            "text_quote": "<a class=\"rw-entity-meta__tag-link\" href=\"https://reliefweb.int/jobs?list=5-9%20years%20Jobs&amp;advanced-search=%28E260%29\">5-9 years</a>"
+          }
+        },
+        "how_to_apply": {
+          "value": "Please apply through this form: https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&d=905616002382993",
+          "provenance": {
+            "selector": ".rw-how-to-apply a",
+            "text_quote": "<a href=\"https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&amp;d=905616002382993\" rel=\"noreferrer noopener\" target=\"_blank\">https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&amp;d=905616002382993</a>"
+          }
+        },
+        "apply_url": {
+          "value": "https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&d=905616002382993",
+          "provenance": {
+            "selector": ".rw-how-to-apply a",
+            "text_quote": "<a href=\"https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&amp;d=905616002382993\" rel=\"noreferrer noopener\" target=\"_blank\">https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&amp;d=905616002382993</a>"
+          }
+        }
+      },
+      "provenance": {
+        "source_file": "page.html",
+        "extraction_date": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 41.631,
+    "input_tokens": 21610,
+    "output_tokens": 2988,
+    "total_tokens": 24598,
+    "initial_input_tokens": 21610,
+    "initial_output_tokens": 2988,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

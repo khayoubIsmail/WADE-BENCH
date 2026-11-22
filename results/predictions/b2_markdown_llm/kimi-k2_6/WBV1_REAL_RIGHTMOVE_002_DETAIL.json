@@ -1,0 +1,63 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.rightmove.co.uk/properties/146059961#/?channel=RES_LET",
+        "price": {
+          "amount": 1200,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": "month"
+        },
+        "address": "The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "description": "This luxurious one-bedroom apartment is pet friendly and situated on the 13th floor, fitted out to provide the best living experience possible. It has a generously sized open living space with floor to ceiling windows, one double bedroom with built-in wardrobe, a high quality kitchen with lots of storage space and integrated appliances. The apartment is furnished with private parking spaces available for an additional fee (POA). There also is a secure bike storage which includes a fully kitted workshop.",
+        "published_date": "2024-03-22",
+        "key_features": [
+          "24h Concierge Service",
+          "Bike storage",
+          "Central Living",
+          "Double Glazing",
+          "Gym",
+          "Porter Security"
+        ],
+        "images_urls": [],
+        "listing_agent_name": null,
+        "listing_agent_logo": "https://media.rightmove.co.uk/partner-branchprofile/31260212-BRANCH_PROFILE_PROPERTY_DETAILS_HEADER-1774341396899.jpg",
+        "listing_office": "Way of Life - The Lansdowne, The Lansdowne",
+        "listing_agent": {
+          "name": null,
+          "office": "Way of Life - The Lansdowne, The Lansdowne",
+          "logo": "https://media.rightmove.co.uk/partner-branchprofile/31260212-BRANCH_PROFILE_PROPERTY_DETAILS_HEADER-1774341396899.jpg"
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "url": "https://www.rightmove.co.uk/properties/146059961#/?channel=RES_LET",
+        "text_quote": "£1,200 pcm £277 pw The amount per month or week you need to pay the landlord. Read more about property rent in our glossary page. Tenancy info Added on 22/03/2024",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 15.369,
+    "input_tokens": 34373,
+    "output_tokens": 440,
+    "total_tokens": 34813,
+    "repaired": false,
+    "error": null
+  }
+}

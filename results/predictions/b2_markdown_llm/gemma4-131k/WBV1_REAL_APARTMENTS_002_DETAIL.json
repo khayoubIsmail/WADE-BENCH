@@ -1,0 +1,79 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": null,
+        "address": "130 Maywood Dr San Francisco, CA 94127",
+        "listing_title": null,
+        "property_type": "Single Family",
+        "price": {
+          "amount": 2395000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "bathrooms_partial": 1,
+        "floor_area": {
+          "value": 2392,
+          "unit": "Sq. Ft."
+        },
+        "rooms": null,
+        "energy_rating": null,
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": null,
+        "monthly_fees": {
+          "amount": 2,
+          "currency_code": "USD"
+        },
+        "total_price": null,
+        "status": "Pending",
+        "published_date": null,
+        "open_house_schedule": [],
+        "key_features": [],
+        "description": "Magnificent, hidden storybook Traditional Pacific Ocean view home tucked away on prime block in an oasis setting behind an enchanting, gated courtyard garden entrance w/patio. Inviting brick walkway leads to a notable front door & into a gracious foyer w/spacious center hall floor plan & convenient coat closet. Impressive formal living rm w/recessed lighting boasts a gas fireplace w/classic mantel surround, gleaming random-plank hardwood floors & a grand picture window offering sweeping views from the Olympic Club & Harding Park to Lake Merced, the Pacific Ocean & the Farallon Islands. The splendid formal dining rm w/corrugated glass privacy windows & striking chandelier is perfect for entertaining! Beautifully remodeled gourmet kitchen w/fantastic light-filled breakfast area & panoramic ocean views showcases all stainless-steel appliances incl a Bosch five-burner gas range w/griddle & hood, Bosch microwave & an LG refrigerator, luxury marble counters, gorgeous custom wood cabinets, built-in ironing board & large pantry. Lovely powder rm w/sleek herringbone tile floor & chic wallpaper finishes the main floor. Attractive open-banister staircase ascends to the upper-level landing w/4BR/2BA, hallway & linen closet. Remarkable master suite w/marvelous walk-in closet enjoys a terrific remodeled en-suite marble tiled bath w/heated towel rack & a great shower over jetted tub. Three additional bedrooms − two w/phenomenal ocean views, one with big walk-in closet − and a fabulous second remodeled marble tiled full bath w/window, closet, vanity sink, mirror & shower over cast-iron tub end this floor. The lower level w/high ceilings includes a dramatic step-down family/media rm w/built-in speakers & fancy chandeliers, hobby rm/laundry area w/folding table, washer & dryer, & a home gym space w/access to the yard. Wonderful, landscaped backyard w/natural stone wall, expansive flowerbed, lush green lawn, blooming hydrangeas, mature plants & trees!",
+        "mls_number": "426131611",
+        "additional_facilities": [],
+        "images_urls": [
+          "https://s.cbhomes.com/p/i/logo/cbr/web/10.svg"
+        ],
+        "listing_agent": {
+          "name": "Andrew Herrera II",
+          "agency": "Berkshire Hathaway-Franciscan"
+        },
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_agent_phone": null,
+        "listing_office": "Berkshire Hathaway-Franciscan",
+        "parking": [
+          "Garage: Yes",
+          2
+        ]
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "General Price: $2,395,000 HOA FEE: $2/month... MLS ID: 426131611 ... Listed by Berkshire Hathaway-Franciscan-Franciscan, Andrew Herrera II"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 14.667,
+    "input_tokens": 13444,
+    "output_tokens": 997,
+    "total_tokens": 14441,
+    "repaired": false,
+    "error": null
+  }
+}

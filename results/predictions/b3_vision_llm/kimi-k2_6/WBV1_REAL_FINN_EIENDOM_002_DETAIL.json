@@ -1,0 +1,75 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.finn.no/eiendom/til-salgs/ad.html?finnkode=465141868",
+        "address": "Skivebakken 19, 5018 Bergen",
+        "listing_title": "Arealeffektiv og oppgradert 1-roms | Svært sentralt i Bergen | Nær byfjellene | V.vann, TV og internett inkludert",
+        "property_type": "Leilighet",
+        "price": {
+          "amount": 1350000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "bedrooms": null,
+        "bathrooms": null,
+        "floor_area": {
+          "value": 13,
+          "unit": "m2"
+        },
+        "rooms": 1,
+        "energy_rating": "G",
+        "tenure": "Andel",
+        "monthly_fees": {
+          "amount": 6979,
+          "currency_code": "NOK"
+        },
+        "total_price": {
+          "amount": 1722746,
+          "currency_code": "NOK"
+        },
+        "listing_agent_name": "Fredrik Øimoen Andersen",
+        "listing_office": "Himla Eiendomsmegling",
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "open_house_schedule": null,
+        "description": "Velkommen til Skivebakken 19 - En arealeffektiv og oppuset leilighet med en svært sentral beliggenhet i Bergen.",
+        "published_date": null,
+        "status": "Active"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "bbox": null,
+        "text_quote": "Arealeffektiv og oppgradert 1-roms | Svært sentralt i Bergen | Nær byfjellene | V.vann, TV og internett inkludert"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 10.444,
+    "input_tokens": 6261,
+    "output_tokens": 363,
+    "total_tokens": 6624,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_FINN_EIENDOM_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_FINN_EIENDOM_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_FINN_EIENDOM_002_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

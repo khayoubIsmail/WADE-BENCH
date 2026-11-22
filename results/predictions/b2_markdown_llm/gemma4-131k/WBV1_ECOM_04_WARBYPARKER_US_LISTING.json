@@ -1,0 +1,40 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": null,
+        "old_price_raw": null,
+        "price_raw": "$95",
+        "product_name": "Carlton",
+        "product_url": "/eyeglasses/carlton/amalfi-tortoise?w=medium",
+        "rating": "4.5 out of 5 stars",
+        "review_count": 180,
+        "short_description": null
+      },
+      "provenance": {
+        "url": "/eyeglasses/carlton/amalfi-tortoise?w=medium",
+        "snapshot_id": "data/raw_snapshots/ecommerce/warbyparker_us_listing_eyeglasses",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Try on Carlton $95 Select lenses and buy (180) 4.5 out of 5 stars. 180 reviews Try on Carlton $95 Select lenses and buy\n- Link text: Carlton\n  URL: /eyeglasses/carlton/amalfi-tortoise?w=medium"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 5.668,
+    "input_tokens": 11046,
+    "output_tokens": 282,
+    "total_tokens": 11328,
+    "repaired": false,
+    "error": null
+  }
+}

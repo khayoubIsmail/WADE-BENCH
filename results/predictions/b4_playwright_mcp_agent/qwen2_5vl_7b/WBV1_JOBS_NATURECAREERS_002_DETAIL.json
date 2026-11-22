@@ -1,0 +1,39 @@
+{
+  "task_id": "WBV1_JOBS_NATURECAREERS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Full Professorship (W3) for 'Biochemistry' (f/m/d)",
+        "company_name": "Universität Heidelberg",
+        "location": "Heidelberg, Baden-Württemberg (DE)",
+        "salary_range": null,
+        "employment_type": "[\"FULL_TIME\"]",
+        "work_arrangement": "onsite",
+        "posted_date": "2026-05-27T08:45:00.000Z",
+        "application_deadline": "2026-06-22T22:59:00.000Z",
+        "expected_start_date": null,
+        "job_url": "https://www.nature.com/naturecareers/job/12859405/full-professorship-w3-for-biochemistry-f-m-d-/?LinkSource=PremiumListing",
+        "apply_url": "https://www.nature.com/naturecareers/job/12859405/full-professorship-w3-for-biochemistry-f-m-d-/?LinkSource=PremiumListing"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 266.267,
+    "input_tokens": 26719,
+    "output_tokens": 14534,
+    "total_tokens": 41253,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_NATURECAREERS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_NATURECAREERS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

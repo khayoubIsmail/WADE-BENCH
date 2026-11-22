@@ -1,0 +1,1736 @@
+{
+  "task_id": "WBV1_GOV_SELL2WALES_001_LISTING",
+  "website_id": "sell2wales",
+  "schema_id": "tender_notice_v1",
+  "snapshot_id": "sell2wales_listing",
+  "snapshot_path": "raw_snapshots/government/sell2wales_listing",
+  "live_url": "https://www.sell2wales.gov.wales/search/search_mainpage.aspx",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 10
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_001",
+      "fields": {
+        "tender_title": {
+          "value": "General Practice (GP) Managed Print Services",
+          "normalized": "General Practice (GP) Managed Print Services"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620878",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620878"
+        },
+        "description": {
+          "value": "General Practice (GP) Managed Print Services. The current fleet is approximately 7,800 devices, the majority of which require a solution based on USB connectivity. Procurement to cover the following themes:- Print Hardware and Installation, - Print Consumables, - Training and Documentation for Practices, - Management of Print Assets and Print Availability (Break/Fix Services), - Provision of Print Activity Reporting and Analytics, including reporting by media type at enterprise, site, and device level, to support operational management, cost transparency, and sustainability objectives",
+          "normalized": "General Practice (GP) Managed Print Services. The current fleet is approximately 7,800 devices, the majority of which require a solution based on USB connectivity. Procurement to cover the following themes:- Print Hardware and Installation, - Print Consumables, - Training and Documentation for Practices, - Management of Print Assets and Print Availability (Break/Fix Services), - Provision of Print Activity Reporting and Analytics, including reporting by media type at enterprise, site, and device level, to support operational management, cost transparency, and sustainability objectives"
+        },
+        "notice_id": {
+          "value": "MAY620878",
+          "normalized": "MAY620878"
+        },
+        "ocid": {
+          "value": "ocds-h6vhtk-06a6e2",
+          "normalized": "ocds-h6vhtk-06a6e2"
+        },
+        "buyer_name": {
+          "value": "Digital Health & Care Wales",
+          "normalized": "Digital Health & Care Wales"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "S2W/FTS",
+          "normalized": "S2W/FTS"
+        },
+        "closing_date": {
+          "value": "01/07/2026",
+          "normalized": {
+            "date": "2026-07-01",
+            "time": null,
+            "datetime": null,
+            "timezone": null
+          }
+        },
+        "notice_type": {
+          "value": "UK2",
+          "normalized": "UK2"
+        },
+        "location": {
+          "value": "WALES",
+          "normalized": "WALES"
+        },
+        "value": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620878']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620878']",
+          "text_quote": "General Practice (GP) Managed Print Services",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620878']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620878']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY620878",
+          "xpath": "//*[@id='lblDescription_MAY620878']",
+          "text_quote": "General Practice (GP) Managed Print Services. The ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[1]/div[2]/span[2]",
+          "text_quote": "MAY620878",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[1]/div[3]/span[2]",
+          "text_quote": "ocds-h6vhtk-06a6e2",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[1]/div[4]/span[2]",
+          "text_quote": "Digital Health & Care Wales",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[1]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[1]/div[6]/span[2]",
+          "text_quote": "S2W/FTS",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[1]/div[7]/span[2]",
+          "text_quote": "01/07/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/div[7]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(7) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[1]/div[8]/span[2]",
+          "text_quote": "UK2",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY620878",
+          "xpath": "//*[@id='firstLocation_MAY620878']",
+          "text_quote": "WALES",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[1]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_002",
+      "fields": {
+        "tender_title": {
+          "value": "Cyn Safle Peboc, Llangefni | Former Peboc Site, Llangefni",
+          "normalized": "Cyn Safle Peboc, Llangefni | Former Peboc Site, Llangefni"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620876",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620876"
+        },
+        "description": {
+          "value": "Dymchwel holl adeiladau ac adfer hen Safle Cemeg, Peboc.Demolish all buildings and restore the old Peboc Chemical Site.",
+          "normalized": "Dymchwel holl adeiladau ac adfer hen Safle Cemeg, Peboc.Demolish all buildings and restore the old Peboc Chemical Site."
+        },
+        "notice_id": {
+          "value": "MAY620876",
+          "normalized": "MAY620876"
+        },
+        "ocid": {
+          "value": "ocds-h6vhtk-06a6c4",
+          "normalized": "ocds-h6vhtk-06a6c4"
+        },
+        "buyer_name": {
+          "value": "Isle of Anglesey County Council",
+          "normalized": "Isle of Anglesey County Council"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "S2W/FTS",
+          "normalized": "S2W/FTS"
+        },
+        "closing_date": {
+          "value": null,
+          "normalized": null
+        },
+        "notice_type": {
+          "value": "UK1",
+          "normalized": "UK1"
+        },
+        "location": {
+          "value": "WALES",
+          "normalized": "WALES"
+        },
+        "value": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620876']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620876']",
+          "text_quote": "Cyn Safle Peboc, Llangefni | Former Peboc Site, Ll",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620876']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620876']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY620876",
+          "xpath": "//*[@id='lblDescription_MAY620876']",
+          "text_quote": "Dymchwel holl adeiladau ac adfer hen Safle Cemeg, ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[2]/div[2]/span[2]",
+          "text_quote": "MAY620876",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[2]/div[3]/span[2]",
+          "text_quote": "ocds-h6vhtk-06a6c4",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[2]/div[4]/span[2]",
+          "text_quote": "Isle of Anglesey County Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[2]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[2]/div[6]/span[2]",
+          "text_quote": "S2W/FTS",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[2]/div[8]/span[2]",
+          "text_quote": "UK1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY620876",
+          "xpath": "//*[@id='firstLocation_MAY620876']",
+          "text_quote": "WALES",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[2]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_003",
+      "fields": {
+        "tender_title": {
+          "value": "Provision of Social Prescribing and Community Wellness - Re-Tender",
+          "normalized": "Provision of Social Prescribing and Community Wellness - Re-Tender"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620873",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620873"
+        },
+        "description": {
+          "value": "UK4 - Tender Notice.The previous Procurement Process has been terminated and no contract awarded as a result of the previous tender opportunity.The purpose of the Service is to deliver a countywide, community embedded Social Prescribing and Community Wellness model for residents aged 25 and over living in Wrexham County Borough. In line with the National Framework for Social Prescribing, the Service provides a targeted, personalised, and non-clinical wellbeing intervention for individuals with identified holistic wellbeing needs. It goes beyond general first point of contact or signposting activity by offering structured What Matters conversations, co-produced personalised plans, and strength based, therapeutic style support to improve mental, physical, emotional, and social wellbeing. The Service will offer proactive, therapeutic style, non-clinical interventions that go beyond simple information sharing. Practitioners will work collaboratively with individuals to understand what matters to them, co-develop personalised plans, and provide hands on support to help people overcome barriers, strengthen resilience, and achieve meaningful wellbeing outcomes.",
+          "normalized": "UK4 - Tender Notice.The previous Procurement Process has been terminated and no contract awarded as a result of the previous tender opportunity.The purpose of the Service is to deliver a countywide, community embedded Social Prescribing and Community Wellness model for residents aged 25 and over living in Wrexham County Borough. In line with the National Framework for Social Prescribing, the Service provides a targeted, personalised, and non-clinical wellbeing intervention for individuals with identified holistic wellbeing needs. It goes beyond general first point of contact or signposting activity by offering structured What Matters conversations, co-produced personalised plans, and strength based, therapeutic style support to improve mental, physical, emotional, and social wellbeing. The Service will offer proactive, therapeutic style, non-clinical interventions that go beyond simple information sharing. Practitioners will work collaboratively with individuals to understand what matters to them, co-develop personalised plans, and provide hands on support to help people overcome barriers, strengthen resilience, and achieve meaningful wellbeing outcomes."
+        },
+        "notice_id": {
+          "value": "MAY620873",
+          "normalized": "MAY620873"
+        },
+        "ocid": {
+          "value": "ocds-h6vhtk-06a6b4",
+          "normalized": "ocds-h6vhtk-06a6b4"
+        },
+        "buyer_name": {
+          "value": "Wrexham County Borough Council",
+          "normalized": "Wrexham County Borough Council"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "S2W/FTS",
+          "normalized": "S2W/FTS"
+        },
+        "closing_date": {
+          "value": "24/06/2026",
+          "normalized": {
+            "date": "2026-06-24",
+            "time": null,
+            "datetime": null,
+            "timezone": null
+          }
+        },
+        "notice_type": {
+          "value": "UK4",
+          "normalized": "UK4"
+        },
+        "location": {
+          "value": "Flintshire and Wrexham",
+          "normalized": "Flintshire and Wrexham"
+        },
+        "value": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620873']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620873']",
+          "text_quote": "Provision of Social Prescribing and Community Well",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620873']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620873']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY620873",
+          "xpath": "//*[@id='lblDescription_MAY620873']",
+          "text_quote": "UK4 - Tender Notice.The previous Procurement Proce",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[3]/div[2]/span[2]",
+          "text_quote": "MAY620873",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[3]/div[3]/span[2]",
+          "text_quote": "ocds-h6vhtk-06a6b4",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[3]/div[4]/span[2]",
+          "text_quote": "Wrexham County Borough Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[3]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[3]/div[6]/span[2]",
+          "text_quote": "S2W/FTS",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(7) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[3]/div[7]/span[2]",
+          "text_quote": "24/06/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/div[7]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(7) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[3]/div[8]/span[2]",
+          "text_quote": "UK4",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY620873",
+          "xpath": "//*[@id='firstLocation_MAY620873']",
+          "text_quote": "Flintshire and Wrexham",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[3]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_004",
+      "fields": {
+        "tender_title": {
+          "value": "blank not ued",
+          "normalized": "blank not ued"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY618416",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY618416"
+        },
+        "description": {
+          "value": "procurement not used modification to this notice to remove information entered in error",
+          "normalized": "procurement not used modification to this notice to remove information entered in error"
+        },
+        "notice_id": {
+          "value": "MAY618416",
+          "normalized": "MAY618416"
+        },
+        "ocid": {
+          "value": "ocds-h6vhtk-069be5",
+          "normalized": "ocds-h6vhtk-069be5"
+        },
+        "buyer_name": {
+          "value": "Llywodraeth Cymru / Welsh Government",
+          "normalized": "Llywodraeth Cymru / Welsh Government"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "S2W/FTS",
+          "normalized": "S2W/FTS"
+        },
+        "closing_date": {
+          "value": null,
+          "normalized": null
+        },
+        "notice_type": {
+          "value": "UK1",
+          "normalized": "UK1"
+        },
+        "location": {
+          "value": "WALES",
+          "normalized": "WALES"
+        },
+        "value": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY618416']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY618416']",
+          "text_quote": "blank not ued",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY618416']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY618416']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY618416",
+          "xpath": "//*[@id='lblDescription_MAY618416']",
+          "text_quote": "procurement not used modification to this notice t",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[4]/div[2]/span[2]",
+          "text_quote": "MAY618416",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[4]/div[3]/span[2]",
+          "text_quote": "ocds-h6vhtk-069be5",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[4]/div[4]/span[2]",
+          "text_quote": "Llywodraeth Cymru / Welsh Government",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[4]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[4]/div[6]/span[2]",
+          "text_quote": "S2W/FTS",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[4]/div[8]/span[2]",
+          "text_quote": "UK1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY618416",
+          "xpath": "//*[@id='firstLocation_MAY618416']",
+          "text_quote": "WALES",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[4]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(4) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_005",
+      "fields": {
+        "tender_title": {
+          "value": "B1009 \u2013 Framework for the Provision of Invasive Non-Native Species Treatment",
+          "normalized": "B1009 \u2013 Framework for the Provision of Invasive Non-Native Species Treatment"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620870",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620870"
+        },
+        "description": {
+          "value": "Bridgend County Borough covers an area of approximately 28,500 hectares which stretches 20 kilometres along the M4 corridor from West to East, taking in the Llynfi, Garw and Ogmore valleys to the north and bordering the Bristol Channel to the south.Bridgend County Borough Council is completing Pre-Market Engagement for the future Framework for the Provision of Invasive Non-Native Species Treatment and Management to the Council. This will be a corporate contract which will run for up to 4 years to include extensions on an annual basis.The new framework will incorporate invasive non-native plant treatment and management service requirements across several departments within the authority. As part of our pre-market engagement we are asking for interested parties complete a questionnaire. Please email tenders@bridgend.gov.uk for a member of BCBC\u2019s Procurement Team to forward the Questionnaire for completion. The deadline to request the questionnaire is Friday 12th June 2026 and the deadline to submit a questionnaire is Friday 19th of June 2026.",
+          "normalized": "Bridgend County Borough covers an area of approximately 28,500 hectares which stretches 20 kilometres along the M4 corridor from West to East, taking in the Llynfi, Garw and Ogmore valleys to the north and bordering the Bristol Channel to the south.Bridgend County Borough Council is completing Pre-Market Engagement for the future Framework for the Provision of Invasive Non-Native Species Treatment and Management to the Council. This will be a corporate contract which will run for up to 4 years to include extensions on an annual basis.The new framework will incorporate invasive non-native plant treatment and management service requirements across several departments within the authority. As part of our pre-market engagement we are asking for interested parties complete a questionnaire. Please email tenders@bridgend.gov.uk for a member of BCBC\u2019s Procurement Team to forward the Questionnaire for completion. The deadline to request the questionnaire is Friday 12th June 2026 and the deadline to submit a questionnaire is Friday 19th of June 2026."
+        },
+        "notice_id": {
+          "value": "MAY620870",
+          "normalized": "MAY620870"
+        },
+        "ocid": {
+          "value": "ocds-h6vhtk-06a69f",
+          "normalized": "ocds-h6vhtk-06a69f"
+        },
+        "buyer_name": {
+          "value": "Bridgend County Borough Council",
+          "normalized": "Bridgend County Borough Council"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "S2W/FTS",
+          "normalized": "S2W/FTS"
+        },
+        "closing_date": {
+          "value": "19/06/2026",
+          "normalized": {
+            "date": "2026-06-19",
+            "time": null,
+            "datetime": null,
+            "timezone": null
+          }
+        },
+        "notice_type": {
+          "value": "UK2",
+          "normalized": "UK2"
+        },
+        "location": {
+          "value": "Bridgend and Neath Port Talbot",
+          "normalized": "Bridgend and Neath Port Talbot"
+        },
+        "value": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620870']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620870']",
+          "text_quote": "B1009 \u2013 Framework for the Provision of Invasive No",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620870']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620870']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY620870",
+          "xpath": "//*[@id='lblDescription_MAY620870']",
+          "text_quote": "Bridgend County Borough covers an area of approxim",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[5]/div[2]/span[2]",
+          "text_quote": "MAY620870",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[5]/div[3]/span[2]",
+          "text_quote": "ocds-h6vhtk-06a69f",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[5]/div[4]/span[2]",
+          "text_quote": "Bridgend County Borough Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[5]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[5]/div[6]/span[2]",
+          "text_quote": "S2W/FTS",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(7) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[5]/div[7]/span[2]",
+          "text_quote": "19/06/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/div[7]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(7) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[5]/div[8]/span[2]",
+          "text_quote": "UK2",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY620870",
+          "xpath": "//*[@id='firstLocation_MAY620870']",
+          "text_quote": "Bridgend and Neath Port Talbot",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[5]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(5) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_006",
+      "fields": {
+        "tender_title": {
+          "value": "Open Framework for Domiciliary Care Services for Older and Disabled Persons",
+          "normalized": "Open Framework for Domiciliary Care Services for Older and Disabled Persons"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620869",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620869"
+        },
+        "description": {
+          "value": "Neath Port Talbot Council (the \u201cCouncil\u201d) invite tenders from quality domiciliary care providers for the recommissioning of our adult domiciliary care services under a new 'Open' Framework, the aim of which is to deliver care to adults living in their own homes, to support them to achieve improved outcomes.  The Framework will establish a pool of suitably qualified and experienced providers to deliver high-quality, person-centred domiciliary care services to individuals in their own homes and is being procured as a \u2018light touch\u2019 framework and therefore not obliged to follow all the obligations contained within the Procurement Act 2023.The Tender will take the form of an open framework (a scheme of successive frameworks) up to eight years in duration, the first framework being a maximum of three years and the second a maximum of five years allowing periodic admission of new providers during the framework term.The scope of services will include the delivery of care and support in line with assessed needs and Care and Support Plans. Services are expected to promote independence, wellbeing and prevention, supporting individuals to remain within their own homes and communities for as long as possible. Provision will include personal care, support with daily living activities, medication support and enabling approaches to careCall-off arrangements under the Framework are expected to be undertaken through a brokerage-led allocation process, whereby individual care packages are matched to providers based on meeting essential criteria. The Framework will not guarantee any volume of work.The procurement is being developed within the context of the Social Services and Well-being (Wales) Act 2014, the Regulation and Inspection of Social Care (Wales) Act 2016 and the Well-being of Future Generations (Wales) Act 2015, with a clear focus on delivering outcomes that matter to individuals.Social value will form a fundamental component of the procurement and subsequent contract delivery. Providers will be expected to demonstrate how they will contribute to wider social, economic and environmental outcomes in addition to core service delivery, including supporting prevention, strengthening communities and contributing to sustainable and fair local economies.",
+          "normalized": "Neath Port Talbot Council (the \u201cCouncil\u201d) invite tenders from quality domiciliary care providers for the recommissioning of our adult domiciliary care services under a new 'Open' Framework, the aim of which is to deliver care to adults living in their own homes, to support them to achieve improved outcomes.  The Framework will establish a pool of suitably qualified and experienced providers to deliver high-quality, person-centred domiciliary care services to individuals in their own homes and is being procured as a \u2018light touch\u2019 framework and therefore not obliged to follow all the obligations contained within the Procurement Act 2023.The Tender will take the form of an open framework (a scheme of successive frameworks) up to eight years in duration, the first framework being a maximum of three years and the second a maximum of five years allowing periodic admission of new providers during the framework term.The scope of services will include the delivery of care and support in line with assessed needs and Care and Support Plans. Services are expected to promote independence, wellbeing and prevention, supporting individuals to remain within their own homes and communities for as long as possible. Provision will include personal care, support with daily living activities, medication support and enabling approaches to careCall-off arrangements under the Framework are expected to be undertaken through a brokerage-led allocation process, whereby individual care packages are matched to providers based on meeting essential criteria. The Framework will not guarantee any volume of work.The procurement is being developed within the context of the Social Services and Well-being (Wales) Act 2014, the Regulation and Inspection of Social Care (Wales) Act 2016 and the Well-being of Future Generations (Wales) Act 2015, with a clear focus on delivering outcomes that matter to individuals.Social value will form a fundamental component of the procurement and subsequent contract delivery. Providers will be expected to demonstrate how they will contribute to wider social, economic and environmental outcomes in addition to core service delivery, including supporting prevention, strengthening communities and contributing to sustainable and fair local economies."
+        },
+        "notice_id": {
+          "value": "MAY620869",
+          "normalized": "MAY620869"
+        },
+        "ocid": {
+          "value": "ocds-h6vhtk-0582f1",
+          "normalized": "ocds-h6vhtk-0582f1"
+        },
+        "buyer_name": {
+          "value": "Neath Port Talbot County Borough Council",
+          "normalized": "Neath Port Talbot County Borough Council"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "S2W/FTS",
+          "normalized": "S2W/FTS"
+        },
+        "closing_date": {
+          "value": "30/06/2026",
+          "normalized": {
+            "date": "2026-06-30",
+            "time": null,
+            "datetime": null,
+            "timezone": null
+          }
+        },
+        "notice_type": {
+          "value": "UK4",
+          "normalized": "UK4"
+        },
+        "location": {
+          "value": "Bridgend and Neath Port Talbot",
+          "normalized": "Bridgend and Neath Port Talbot"
+        },
+        "value": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620869']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620869']",
+          "text_quote": "Open Framework for Domiciliary Care Services for O",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620869']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620869']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY620869",
+          "xpath": "//*[@id='lblDescription_MAY620869']",
+          "text_quote": "Neath Port Talbot Council (the \u201cCouncil\u201d) invite t",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[6]/div[2]/span[2]",
+          "text_quote": "MAY620869",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[6]/div[3]/span[2]",
+          "text_quote": "ocds-h6vhtk-0582f1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[6]/div[4]/span[2]",
+          "text_quote": "Neath Port Talbot County Borough Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[6]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[6]/div[6]/span[2]",
+          "text_quote": "S2W/FTS",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(7) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[6]/div[7]/span[2]",
+          "text_quote": "30/06/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/div[7]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > div:nth-of-type(7) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[6]/div[8]/span[2]",
+          "text_quote": "UK4",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY620869",
+          "xpath": "//*[@id='firstLocation_MAY620869']",
+          "text_quote": "Bridgend and Neath Port Talbot",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[6]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(6) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_007",
+      "fields": {
+        "tender_title": {
+          "value": "Supply of an Employee Engagement Survey Including Consultancy in the Design and Action Planning",
+          "normalized": "Supply of an Employee Engagement Survey Including Consultancy in the Design and Action Planning"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620866",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620866"
+        },
+        "description": {
+          "value": "Aberystwyth University (the \u2018University\u2019) wishes to purchase the design, implementation, reporting and consultancy in the provision of a staff survey tool for circa 1500 staff. The appointment will be by a process of competitive quotation.  The requirement is set out in the Specification below.",
+          "normalized": "Aberystwyth University (the \u2018University\u2019) wishes to purchase the design, implementation, reporting and consultancy in the provision of a staff survey tool for circa 1500 staff. The appointment will be by a process of competitive quotation.  The requirement is set out in the Specification below."
+        },
+        "notice_id": {
+          "value": "MAY620866",
+          "normalized": "MAY620866"
+        },
+        "ocid": {
+          "value": "ocds-kuma6s-165658",
+          "normalized": "ocds-kuma6s-165658"
+        },
+        "buyer_name": {
+          "value": "Aberystwyth University",
+          "normalized": "Aberystwyth University"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "Site",
+          "normalized": "Site"
+        },
+        "closing_date": {
+          "value": "10/06/2026",
+          "normalized": {
+            "date": "2026-06-10",
+            "time": null,
+            "datetime": null,
+            "timezone": null
+          }
+        },
+        "notice_type": {
+          "value": "Contract notice",
+          "normalized": "Contract notice"
+        },
+        "location": {
+          "value": "South West Wales (Carmarthenshire, Pembrokeshire, Ceredigion)",
+          "normalized": "South West Wales (Carmarthenshire, Pembrokeshire, Ceredigion)"
+        },
+        "value": {
+          "value": "25000",
+          "normalized": "25000"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620866']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620866']",
+          "text_quote": "Supply of an Employee Engagement Survey Including ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620866']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620866']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY620866",
+          "xpath": "//*[@id='lblDescription_MAY620866']",
+          "text_quote": "Aberystwyth University (the \u2018University\u2019) wishes t",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[7]/div[2]/span[2]",
+          "text_quote": "MAY620866",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[7]/div[3]/span[2]",
+          "text_quote": "ocds-kuma6s-165658",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[7]/div[4]/span[2]",
+          "text_quote": "Aberystwyth University",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[7]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[7]/div[6]/span[2]",
+          "text_quote": "Site",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(7) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[7]/div[7]/span[2]",
+          "text_quote": "10/06/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[7]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(7) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[7]/div[8]/span[2]",
+          "text_quote": "Contract notice",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY620866",
+          "xpath": "//*[@id='firstLocation_MAY620866']",
+          "text_quote": "South West Wales (Carmarthenshire, Pembrokeshire, ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(10) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[7]/div[10]/span[2]",
+          "text_quote": "25000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[7]/div[10]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(7) > div:nth-of-type(10) > span:nth-of-type(2)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_008",
+      "fields": {
+        "tender_title": {
+          "value": "Tender for stone pitching work on Allt Mosses, Yr Wyddfa",
+          "normalized": "Tender for stone pitching work on Allt Mosses, Yr Wyddfa"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620861",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620861"
+        },
+        "description": {
+          "value": "A contract to repair severe erosion on the Llanberis path, Yr Wyddfa. The work will involve traditionally pitching the path with locally sourced stone (provided and delivered by ENPA).",
+          "normalized": "A contract to repair severe erosion on the Llanberis path, Yr Wyddfa. The work will involve traditionally pitching the path with locally sourced stone (provided and delivered by ENPA)."
+        },
+        "notice_id": {
+          "value": "MAY620861",
+          "normalized": "MAY620861"
+        },
+        "ocid": {
+          "value": "ocds-kuma6s-165630",
+          "normalized": "ocds-kuma6s-165630"
+        },
+        "buyer_name": {
+          "value": "Awdurdod Parc Cenedlaethol Eryri",
+          "normalized": "Awdurdod Parc Cenedlaethol Eryri"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "Site",
+          "normalized": "Site"
+        },
+        "closing_date": {
+          "value": "22/06/2026",
+          "normalized": {
+            "date": "2026-06-22",
+            "time": null,
+            "datetime": null,
+            "timezone": null
+          }
+        },
+        "notice_type": {
+          "value": "Contract notice",
+          "normalized": "Contract notice"
+        },
+        "location": {
+          "value": "Gwynedd",
+          "normalized": "Gwynedd"
+        },
+        "value": {
+          "value": "12000",
+          "normalized": "12000"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620861']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620861']",
+          "text_quote": "Tender for stone pitching work on Allt Mosses, Yr ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620861']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620861']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY620861",
+          "xpath": "//*[@id='lblDescription_MAY620861']",
+          "text_quote": "A contract to repair severe erosion on the Llanber",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[8]/div[2]/span[2]",
+          "text_quote": "MAY620861",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[8]/div[3]/span[2]",
+          "text_quote": "ocds-kuma6s-165630",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[8]/div[4]/span[2]",
+          "text_quote": "Awdurdod Parc Cenedlaethol Eryri",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[8]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[8]/div[6]/span[2]",
+          "text_quote": "Site",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(7) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[8]/div[7]/span[2]",
+          "text_quote": "22/06/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[7]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(7) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[8]/div[8]/span[2]",
+          "text_quote": "Contract notice",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY620861",
+          "xpath": "//*[@id='firstLocation_MAY620861']",
+          "text_quote": "Gwynedd",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(10) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[8]/div[10]/span[2]",
+          "text_quote": "12000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[8]/div[10]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(8) > div:nth-of-type(10) > span:nth-of-type(2)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_009",
+      "fields": {
+        "tender_title": {
+          "value": "DDP PACE Training for Welsh Children\u2019s Services (Phase 4)",
+          "normalized": "DDP PACE Training for Welsh Children\u2019s Services (Phase 4)"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620487",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620487"
+        },
+        "description": {
+          "value": "This tender seeks a Supplier to deliver DDP PACE training and ongoing therapeutic support to children\u2019s residential care teams across Welsh Local Authorities. Its purpose is to embed a consistent therapeutic approach that improves outcomes for young people, strengthens team capability and culture, and supports staff wellbeing and retention.\nThis will be achieved through in-person training, followed by structured consultation support and evaluation, with an emphasis on sustaining long-term practice improvements. Please refer to the ITT within the documents section for full details.",
+          "normalized": "This tender seeks a Supplier to deliver DDP PACE training and ongoing therapeutic support to children\u2019s residential care teams across Welsh Local Authorities. Its purpose is to embed a consistent therapeutic approach that improves outcomes for young people, strengthens team capability and culture, and supports staff wellbeing and retention.\nThis will be achieved through in-person training, followed by structured consultation support and evaluation, with an emphasis on sustaining long-term practice improvements. Please refer to the ITT within the documents section for full details."
+        },
+        "notice_id": {
+          "value": "MAY620487",
+          "normalized": "MAY620487"
+        },
+        "ocid": {
+          "value": "ocds-kuma6s-165642",
+          "normalized": "ocds-kuma6s-165642"
+        },
+        "buyer_name": {
+          "value": "Social Care Wales",
+          "normalized": "Social Care Wales"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "Site",
+          "normalized": "Site"
+        },
+        "closing_date": {
+          "value": "24/06/2026",
+          "normalized": {
+            "date": "2026-06-24",
+            "time": null,
+            "datetime": null,
+            "timezone": null
+          }
+        },
+        "notice_type": {
+          "value": "Contract notice",
+          "normalized": "Contract notice"
+        },
+        "location": {
+          "value": "WALES...",
+          "normalized": "WALES..."
+        },
+        "value": {
+          "value": "40000",
+          "normalized": "40000"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620487']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620487']",
+          "text_quote": "DDP PACE Training for Welsh Children\u2019s Services (P",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620487']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620487']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY620487",
+          "xpath": "//*[@id='lblDescription_MAY620487']",
+          "text_quote": "This tender seeks a Supplier to deliver DDP PACE t",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[9]/div[2]/span[2]",
+          "text_quote": "MAY620487",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[9]/div[3]/span[2]",
+          "text_quote": "ocds-kuma6s-165642",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[9]/div[4]/span[2]",
+          "text_quote": "Social Care Wales",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[9]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[9]/div[6]/span[2]",
+          "text_quote": "Site",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(7) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[9]/div[7]/span[2]",
+          "text_quote": "24/06/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[7]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(7) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[9]/div[8]/span[2]",
+          "text_quote": "Contract notice",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY620487",
+          "xpath": "//*[@id='firstLocation_MAY620487']",
+          "text_quote": "WALES...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(10) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[9]/div[10]/span[2]",
+          "text_quote": "40000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[9]/div[10]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(9) > div:nth-of-type(10) > span:nth-of-type(2)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_SELL2WALES_001_LISTING_010",
+      "fields": {
+        "tender_title": {
+          "value": "Bilingual Advocacy Support Service for Fitness to Practise & Hearings (Pilot)",
+          "normalized": "Bilingual Advocacy Support Service for Fitness to Practise & Hearings (Pilot)"
+        },
+        "tender_url": {
+          "value": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620486",
+          "normalized": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620486"
+        },
+        "description": {
+          "value": "The supplier shall deliver an independent, bilingual instructed advocacy service to support registered social care workers involved in fitness to practise and hearing processes. Please refer to the RFQ for full specification details.",
+          "normalized": "The supplier shall deliver an independent, bilingual instructed advocacy service to support registered social care workers involved in fitness to practise and hearing processes. Please refer to the RFQ for full specification details."
+        },
+        "notice_id": {
+          "value": "MAY620486",
+          "normalized": "MAY620486"
+        },
+        "ocid": {
+          "value": "ocds-kuma6s-165629",
+          "normalized": "ocds-kuma6s-165629"
+        },
+        "buyer_name": {
+          "value": "Social Care Wales",
+          "normalized": "Social Care Wales"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "published_to": {
+          "value": "Site",
+          "normalized": "Site"
+        },
+        "closing_date": {
+          "value": "16/06/2026",
+          "normalized": {
+            "date": "2026-06-16",
+            "time": null,
+            "datetime": null,
+            "timezone": null
+          }
+        },
+        "notice_type": {
+          "value": "Contract notice",
+          "normalized": "Contract notice"
+        },
+        "location": {
+          "value": "WALES...",
+          "normalized": "WALES..."
+        },
+        "value": {
+          "value": "29999",
+          "normalized": "29999"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620486']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620486']",
+          "text_quote": "Bilingual Advocacy Support Service for Fitness to ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY620486']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY620486']",
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/searc",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > a"
+        },
+        "description": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#lblDescription_MAY620486",
+          "xpath": "//*[@id='lblDescription_MAY620486']",
+          "text_quote": "The supplier shall deliver an independent, bilingu",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[1]/span[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "notice_id": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[10]/div[2]/span[2]",
+          "text_quote": "MAY620486",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[2]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "ocid": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(3) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[10]/div[3]/span[2]",
+          "text_quote": "ocds-kuma6s-165629",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[3]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(3) > span:nth-of-type(2)"
+        },
+        "buyer_name": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(4) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[10]/div[4]/span[2]",
+          "text_quote": "Social Care Wales",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[4]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(4) > span:nth-of-type(2)"
+        },
+        "publication_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(5) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[10]/div[5]/span[2]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[5]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "published_to": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(6) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[10]/div[6]/span[2]",
+          "text_quote": "Site",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[6]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(6) > span:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(7) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[10]/div[7]/span[2]",
+          "text_quote": "16/06/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[7]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(7) > span:nth-of-type(2)"
+        },
+        "notice_type": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(8) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[10]/div[8]/span[2]",
+          "text_quote": "Contract notice",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[8]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(8) > span:nth-of-type(2)"
+        },
+        "location": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "span#firstLocation_MAY620486",
+          "xpath": "//*[@id='firstLocation_MAY620486']",
+          "text_quote": "WALES...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[9]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(9) > span:nth-of-type(2)"
+        },
+        "value": {
+          "snapshot_id": "sell2wales_listing",
+          "css_selector": "div#updateSearchPanel > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(10) > span:nth-of-type(2)",
+          "xpath": "//*[@id='updateSearchPanel']/div[1]/div[10]/div[10]/span[2]",
+          "text_quote": "29999",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[7]/div/div[2]/div[1]/div[3]/div/div[10]/div[10]/span[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(10) > div:nth-of-type(10) > span:nth-of-type(2)"
+        }
+      }
+    }
+  ],
+  "total_records_extracted": 10
+}

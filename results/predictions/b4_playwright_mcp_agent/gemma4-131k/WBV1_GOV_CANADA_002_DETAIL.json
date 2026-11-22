@@ -1,0 +1,144 @@
+{
+  "task_id": "WBV1_GOV_CANADA_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "2026-085: ONE PROJECT IN INVERNESS COUNTY, GRAVELLING",
+        "tender_url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/nsnspw2026-085",
+        "reference_number": "NSPW2026-085",
+        "publication_date": "2026-05-28",
+        "closing_date": "2026-06-12",
+        "notice_type": "Request for Proposal",
+        "contract_duration": "4 month(s)",
+        "procurement_method": "Competitive – Open Bidding",
+        "awarding_agency": "Nova Scotia Public Sector Entities",
+        "overview": "Project 1: Marble Mountain Road, from Crowdis #1 Truss easterly to end of pavement, approximately 3.3 kilometres TOTAL APPROXIMATELY …..3.3 kilometres",
+        "contact": {
+          "contact_name": null,
+          "contact_information": "The contracting officer, whose information is found in the Contact information tab."
+        },
+        "last_modified_date": "2026-05-28",
+        "language": "English",
+        "website": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-085"
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2026-085: ONE PROJECT IN INVERNESS COUNTY, GRAVELLING"
+        },
+        "tender_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/nsnspw2026-085"
+        },
+        "reference_number": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "NSPW2026-085"
+        },
+        "publication_date": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2026/05/28"
+        },
+        "closing_date": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2026/06/12"
+        },
+        "notice_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Request for Proposal"
+        },
+        "contract_duration": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 month(s)"
+        },
+        "procurement_method": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Competitive – Open Bidding"
+        },
+        "awarding_agency": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Nova Scotia Public Sector Entities"
+        },
+        "overview": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Project 1: Marble Mountain Road, from Crowdis #1 Truss easterly to end of pavement, approximately 3.3 kilometres TOTAL APPROXIMATELY …..3.3 kilometres"
+        },
+        "contact": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "The contracting officer, whose information is found in the Contact information tab."
+        },
+        "last_modified_date": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2026-05-28"
+        },
+        "language": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "English"
+        },
+        "website": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-085"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 22.258,
+    "input_tokens": 15852,
+    "output_tokens": 1314,
+    "total_tokens": 17166,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_CANADA_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_CANADA_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

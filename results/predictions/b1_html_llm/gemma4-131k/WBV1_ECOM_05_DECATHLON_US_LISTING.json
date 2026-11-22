@@ -1,0 +1,219 @@
+{
+  "task_id": "WBV1_ECOM_05_DECATHLON_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.decathlon.com/cdn/shop/products/sac-hiking-backpack-35l-blue-navy-2024-06-07-18-19-1280x1280@2x.jpg?v=1719922222",
+        "old_price_raw": "$49.99",
+        "price_raw": "$39.99",
+        "product_name": "Sac hiking backpack 35L blue navy",
+        "product_url": "https://www.decathlon.com/p/sac-hiking-backpack-35l-blue-navy/",
+        "rating": "4.6 out of 5 stars",
+        "review_count": "120 reviews",
+        "short_description": "A hiking backpack with a capacity of 35 liters, designed for day hikes and trekking."
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "product_name": {
+          "value": "Sac hiking backpack 35L blue navy",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title a",
+          "text_quote_or_attribute": "<h2 class=\"product-card__title\"><a href=\"/p/sac-hiking-backpack-35l-blue-navy/\">Sac hiking backpack 35L blue navy</a></h2>"
+        },
+        "image_url": {
+          "value": "https://www.decathlon.com/cdn/shop/products/sac-hiking-backpack-35l-blue-navy-2024-06-07-18-19-1280x1280@2x.jpg?v=1719922222",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__image img",
+          "text_quote_or_attribute": "src=\"https://www.decathlon.com/cdn/shop/products/sac-hiking-backpack-35l-blue-navy-2024-06-07-18-19-1280x1280@2x.jpg?v=1719922222\""
+        },
+        "old_price_raw": {
+          "value": "$49.99",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__price .price--old",
+          "text_quote_or_attribute": "<span class=\"price--old\">$49.99</span>"
+        },
+        "price_raw": {
+          "value": "$39.99",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__price .price--current",
+          "text_quote_or_attribute": "<span class=\"price--current\">$39.99</span>"
+        },
+        "product_url": {
+          "value": "https://www.decathlon.com/p/sac-hiking-backpack-35l-blue-navy/",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title a",
+          "text_quote_or_attribute": "href=\"/p/sac-hiking-backpack-35l-blue-navy/\""
+        },
+        "rating": {
+          "value": "4.6 out of 5 stars",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__rating .stars",
+          "text_quote_or_attribute": "<div class=\"stars\">4.6 out of 5 stars</div>"
+        },
+        "review_count": {
+          "value": "120 reviews",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__rating .reviews",
+          "text_quote_or_attribute": "<span class=\"reviews\">120 reviews</span>"
+        },
+        "short_description": {
+          "value": "A hiking backpack with a capacity of 35 liters, designed for day hikes and trekking.",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__description p",
+          "text_quote_or_attribute": "<p>A hiking backpack with a capacity of 35 liters, designed for day hikes and trekking.</p>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.decathlon.com/cdn/shop/products/sac-hiking-backpack-45l-red-2024-06-07-18-19-1280x1280@2x.jpg?v=1719922222",
+        "old_price_raw": "$79.99",
+        "price_raw": "$59.99",
+        "product_name": "Sac hiking backpack 45L red",
+        "product_url": "https://www.decathlon.com/p/sac-hiking-backpack-45l-red/",
+        "rating": "4.2 out of 5 stars",
+        "review_count": "80 reviews",
+        "short_description": "A large hiking backpack, perfect for multi-day trips and extended treks."
+      },
+      "provenance": {
+        "record_id": "pred_002",
+        "product_name": {
+          "value": "Sac hiking backpack 45L red",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title a",
+          "text_quote_or_attribute": "<h2 class=\"product-card__title\"><a href=\"/p/sac-hiking-backpack-45l-red/\">Sac hiking backpack 45L red</a></h2>"
+        },
+        "image_url": {
+          "value": "https://www.decathlon.com/cdn/shop/products/sac-hiking-backpack-45l-red-2024-06-07-18-19-1280x1280@2x.jpg?v=1719922222",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__image img",
+          "text_quote_or_attribute": "src=\"https://www.decathlon.com/cdn/shop/products/sac-hiking-backpack-45l-red-2024-06-07-18-19-1280x1280@2x.jpg?v=1719922222\""
+        },
+        "old_price_raw": {
+          "value": "$79.99",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__price .price--old",
+          "text_quote_or_attribute": "<span class=\"price--old\">$79.99</span>"
+        },
+        "price_raw": {
+          "value": "$59.99",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__price .price--current",
+          "text_quote_or_attribute": "<span class=\"price--current\">$59.99</span>"
+        },
+        "product_url": {
+          "value": "https://www.decathlon.com/p/sac-hiking-backpack-45l-red/",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title a",
+          "text_quote_or_attribute": "href=\"/p/sac-hiking-backpack-45l-red/\""
+        },
+        "rating": {
+          "value": "4.2 out of 5 stars",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__rating .stars",
+          "text_quote_or_attribute": "<div class=\"stars\">4.2 out of 5 stars</div>"
+        },
+        "review_count": {
+          "value": "80 reviews",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__rating .reviews",
+          "text_quote_or_attribute": "<span class=\"reviews\">80 reviews</span>"
+        },
+        "short_description": {
+          "value": "A large hiking backpack, perfect for multi-day trips and extended treks.",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__description p",
+          "text_quote_or_attribute": "<p>A large hiking backpack, perfect for multi-day trips and extended treks.</p>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.decathlon.com/cdn/shop/products/sac-hiking-backpack-52l-green-2024-06-07-18-19-1280x1280@2x.jpg?v=1719922222",
+        "old_price_raw": "$99.99",
+        "price_raw": "$79.99",
+        "product_name": "Sac hiking backpack 52L green",
+        "product_url": "https://www.decathlon.com/p/sac-hiking-backpack-52l-green/",
+        "rating": "4.8 out of 5 stars",
+        "review_count": "300 reviews",
+        "short_description": "The ultimate hiking companion, offering maximum capacity and comfort for extreme adventures."
+      },
+      "provenance": {
+        "record_id": "pred_003",
+        "product_name": {
+          "value": "Sac hiking backpack 52L green",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title a",
+          "text_quote_or_attribute": "<h2 class=\"product-card__title\"><a href=\"/p/sac-hiking-backpack-52l-green/\">Sac hiking backpack 52L green</a></h2>"
+        },
+        "image_url": {
+          "value": "https://www.decathlon.com/cdn/shop/products/sac-hiking-backpack-52l-green-2024-06-07-18-19-1280x1280@2x.jpg?v=1719922222",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__image img",
+          "text_quote_or_attribute": "src=\"https://www.decathlon.com/cdn/shop/products/sac-hiking-backpack-52l-green-2024-06-07-18-19-1280x1280@2x.jpg?v=1719922222\""
+        },
+        "old_price_raw": {
+          "value": "$99.99",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__price .price--old",
+          "text_quote_or_attribute": "<span class=\"price--old\">$99.99</span>"
+        },
+        "price_raw": {
+          "value": "$79.99",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__price .price--current",
+          "text_quote_or_attribute": "<span class=\"price--current\">$79.99</span>"
+        },
+        "product_url": {
+          "value": "https://www.decathlon.com/p/sac-hiking-backpack-52l-green/",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title a",
+          "text_quote_or_attribute": "href=\"/p/sac-hiking-backpack-52l-green/\""
+        },
+        "rating": {
+          "value": "4.8 out of 5 stars",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__rating .stars",
+          "text_quote_or_attribute": "<div class=\"stars\">4.8 out of 5 stars</div>"
+        },
+        "review_count": {
+          "value": "300 reviews",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__rating .reviews",
+          "text_quote_or_attribute": "<span class=\"reviews\">300 reviews</span>"
+        },
+        "short_description": {
+          "value": "The ultimate hiking companion, offering maximum capacity and comfort for extreme adventures.",
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__description p",
+          "text_quote_or_attribute": "<p>The ultimate hiking companion, offering maximum capacity and comfort for extreme adventures.</p>"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 43.937,
+    "input_tokens": 17316,
+    "output_tokens": 3330,
+    "total_tokens": 20646,
+    "initial_input_tokens": 17316,
+    "initial_output_tokens": 3330,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

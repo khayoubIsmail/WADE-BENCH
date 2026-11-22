@@ -1,0 +1,125 @@
+{
+  "task_id": "WBV1_JOBS_REMOTEOK_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": {
+          "value": "Events Marketing Manager",
+          "provenance": {
+            "source": "html_signals",
+            "selector": "h2",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Events Marketing Manager"
+          }
+        },
+        "job_url": {
+          "value": "http://127.0.0.1:54964/remote-jobs/remote-events-marketing-manager-pivotal-health-1132436",
+          "provenance": {
+            "source": "page.html",
+            "selector": "a[href*='remote-events-marketing-manager']",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Events Marketing Manager"
+          }
+        },
+        "company_name": {
+          "value": "Pivotal Health",
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": "cell:contains('Pivotal Health')",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Pivotal Health"
+          }
+        },
+        "location": {
+          "value": "Los Angeles",
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": "cell:contains('Los Angeles')",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Los Angeles"
+          }
+        },
+        "salary": {
+          "value": {
+            "min_amount": 105000,
+            "max_amount": 120000,
+            "currency": "USD",
+            "period": "YEAR"
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "selector": "baseSalary",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "$105000-$120000 YEAR"
+          }
+        },
+        "job_description": {
+          "value": "Pivotal Health is the leading technology platform that helps healthcare providers get paid fairly in an increasingly complex reimbursement landscape.Today, many providers face persistent underpayment from health insurance companies, despite delivering high-quality care. While processes like IDR (Independent Dispute Resolution) were designed to promote fairness, they’re often administrative-heavy, time-consuming, and difficult to navigate without the right tools.Pivotal Health combines software, data, and service into a seamlessly integrated, AI-driven platform that simplifies these complex reimbursement workflows. We help providers efficiently dispute underpaid claims, reduce administrative burden, and recover the reimbursement they’re entitled to; without adding more work to already stretched teams.Our full-service IDR solution is just the starting point. We’re building solutions that enable providers to operate with clarity, control, and confidence across th",
+          "provenance": {
+            "source": "embedded_json",
+            "selector": "description",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Pivotal Health is the leading technology platform that helps healthcare providers get paid fairly in an increasingly complex reimbursement landscape.Today, many providers face persistent underpayment from health insurance companies, despite delivering high-quality care. While processes like IDR (Independent Dispute Resolution) were designed to promote fairness, they’re often administrative-heavy, time-consuming, and difficult to navigate without the right tools.Pivotal Health combines software, data, and service into a seamlessly integrated, AI-driven platform that simplifies these complex reimbursement workflows. We help providers efficiently dispute underpaid claims, reduce administrative burden, and recover the reimbursement they’re entitled to; without adding more work to already stretched teams.Our full-service IDR solution is just the starting point. We’re building solutions that enable providers to operate with clarity, control, and confidence across th"
+          }
+        },
+        "work_arrangement": {
+          "value": "remote",
+          "provenance": {
+            "source": "embedded_json",
+            "selector": "jobLocationType",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "TELECOMMUTE"
+          }
+        },
+        "tags": {
+          "value": [
+            "Events Marketing Manager"
+          ],
+          "provenance": {
+            "source": "html_signals",
+            "selector": "h2",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Events Marketing Manager"
+          }
+        },
+        "job_id": {
+          "value": "1132436",
+          "provenance": {
+            "source": "page.html",
+            "selector": "a[href*='1132436']",
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "/remote-jobs/remote-events-marketing-manager-pivotal-health-1132436"
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 142.986,
+    "input_tokens": 54263,
+    "output_tokens": 8192,
+    "total_tokens": 62455,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_REMOTEOK_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_REMOTEOK_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

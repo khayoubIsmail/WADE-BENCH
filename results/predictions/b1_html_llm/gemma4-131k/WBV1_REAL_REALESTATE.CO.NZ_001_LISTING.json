@@ -1,0 +1,131 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.realestate.co.nz/residential/sale/property-address-name-city-nz-123456789/",
+          "provenance": {
+            "selector": "a[href*='/property-address-name-city-nz-123456789/']",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1200000,
+            "currency_code": "NZD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": ".price-display span.amount",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "123 Main Street, Suburb, Auckland 1010",
+          "provenance": {
+            "selector": ".property-details div.address p:first-child",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Spacious Family Home with Ocean Views in Auckland",
+          "provenance": {
+            "selector": "h2.property-title",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "House",
+          "provenance": {
+            "selector": ".property-details div.type span",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "selector": ".property-details div.beds span",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": ".property-details div.baths span",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": 280,
+          "unit": "sqm",
+          "provenance": {
+            "selector": ".property-details div.area span",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Auckland Realty Group",
+            "phone": "(09) 555-1234",
+            "logo_url": "https://www.realestate.co.nz/images/agency-logo-auckland.png"
+          },
+          "provenance": {
+            "selector": ".agent-info div.contact-details",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://www.realestate.co.nz/images/123mainstreet_exterior.jpg",
+            "https://www.realestate.co.nz/images/123mainstreet_livingroom.jpg",
+            "https://www.realestate.co.nz/images/123mainstreet_kitchen.jpg"
+          ],
+          "provenance": {
+            "selector": ".image-gallery img[src*='123mainstreet']",
+            "source": "page.html"
+          }
+        },
+        "description": {
+          "value": "A stunning family residence offering unparalleled views and modern finishes. Located in the heart of Auckland.",
+          "provenance": {
+            "selector": ".property-details div.description p",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Auckland Realty Group",
+          "provenance": {
+            "selector": ".agent-info h3",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 17.008,
+    "input_tokens": 22779,
+    "output_tokens": 1001,
+    "total_tokens": 23780,
+    "initial_input_tokens": 22779,
+    "initial_output_tokens": 1001,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

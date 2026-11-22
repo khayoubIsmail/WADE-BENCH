@@ -1,0 +1,1362 @@
+{
+  "task_id": "WBV1_ECOM_02_NIKE_US_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "product_name": "Air Jordan 4 \"Toro\" Men's Shoes",
+        "product_url": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e234.png",
+        "old_price_raw": null,
+        "price_raw": "$220",
+        "discount_percentage": null,
+        "short_description": "Coming Soon",
+        "rating": null,
+        "review_count": null,
+        "availability": "Coming Soon"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e230] > link:nth-child(1)",
+          "text_quote_or_attribute": "Air Jordan 4 \"Toro\""
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e230] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e230] > link:nth-child(2)",
+          "text_quote_or_attribute": "Air Jordan 4 \"Toro\" Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e230] > link:nth-child(3)",
+          "text_quote_or_attribute": "$220"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e235] > generic[ref=e236]",
+          "text_quote_or_attribute": "Coming Soon"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e235] > generic[ref=e236]",
+          "text_quote_or_attribute": "Coming Soon"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "product_name": "Air Jordan 3 \"World's Best\" Men's Shoes",
+        "product_url": "https://www.nike.com/t/air-jordan-3-worlds-best-mens-shoes-1ViayvSi/IF4396-103",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e253.png",
+        "old_price_raw": null,
+        "price_raw": "$215",
+        "discount_percentage": null,
+        "short_description": "Just In",
+        "rating": null,
+        "review_count": null,
+        "availability": "Just In"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e249] > link:nth-child(1)",
+          "text_quote_or_attribute": "Air Jordan 3 \"World's Best\""
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e249] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/air-jordan-3-worlds-best-mens-shoes-1ViayvSi/IF4396-103"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e249] > link:nth-child(2)",
+          "text_quote_or_attribute": "Air Jordan 3 \"World's Best\" Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e249] > link:nth-child(3)",
+          "text_quote_or_attribute": "$215"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e254] > generic[ref=e255]",
+          "text_quote_or_attribute": "Just In"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e254] > generic[ref=e255]",
+          "text_quote_or_attribute": "Just In"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "product_name": "Nike Tennis Classic Men's Shoes",
+        "product_url": "https://www.nike.com/t/tennis-classic-mens-shoes-78rRP46N/IV2436-300",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e272.png",
+        "old_price_raw": null,
+        "price_raw": "$105",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e268] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Tennis Classic"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e268] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/tennis-classic-mens-shoes-78rRP46N/IV2436-300"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e268] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Tennis Classic Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e268] > link:nth-child(3)",
+          "text_quote_or_attribute": "$105"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "product_name": "Nike Tennis Classic PRM Men's Terry Shoes",
+        "product_url": "https://www.nike.com/t/tennis-classic-prm-mens-terry-shoes-nGj0bX59/IR1114-300",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e302.png",
+        "old_price_raw": null,
+        "price_raw": "$125",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e298] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Tennis Classic PRM"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e298] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/tennis-classic-prm-mens-terry-shoes-nGj0bX59/IR1114-300"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e298] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Tennis Classic PRM Men's Terry Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e298] > link:nth-child(3)",
+          "text_quote_or_attribute": "$125"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "product_name": "Nike Air Max 95 OG Men's Shoes",
+        "product_url": "https://www.nike.com/t/air-max-95-og-mens-shoes-2xNsHz6W/IH7855-100",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e332.png",
+        "old_price_raw": null,
+        "price_raw": "$190",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e328] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Air Max 95 OG"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e328] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/air-max-95-og-mens-shoes-2xNsHz6W/IH7855-100"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e328] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Air Max 95 OG Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e328] > link:nth-child(3)",
+          "text_quote_or_attribute": "$190"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "product_name": "Nike G.T. Cut 4 \"Victor Wembanyama\" Basketball Shoes",
+        "product_url": "https://www.nike.com/t/gt-cut-4-victor-wembanyama-basketball-shoes-g6ukBsq1/IU1960-001",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e443.png",
+        "old_price_raw": null,
+        "price_raw": "$210",
+        "discount_percentage": null,
+        "short_description": "Just In",
+        "rating": null,
+        "review_count": null,
+        "availability": "Just In"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e439] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike G.T. Cut 4 \"Victor Wembanyama\""
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e439] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/gt-cut-4-victor-wembanyama-basketball-shoes-g6ukBsq1/IU1960-001"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e439] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike G.T. Cut 4 \"Victor Wembanyama\" Basketball Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e439] > link:nth-child(3)",
+          "text_quote_or_attribute": "$210"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e445]",
+          "text_quote_or_attribute": "Just In"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e445]",
+          "text_quote_or_attribute": "Just In"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "product_name": "Ja 3 x \"Kool-Aid\" Basketball Shoes",
+        "product_url": "https://www.nike.com/t/ja-3-x-kool-aid-basketball-shoes-8jL3s6S4/IW1159-700",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e482.png",
+        "old_price_raw": null,
+        "price_raw": "$135",
+        "discount_percentage": null,
+        "short_description": "Just In",
+        "rating": null,
+        "review_count": null,
+        "availability": "Just In"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e478] > link:nth-child(1)",
+          "text_quote_or_attribute": "Ja 3 x \"Kool-Aid\""
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e478] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/ja-3-x-kool-aid-basketball-shoes-8jL3s6S4/IW1159-700"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e478] > link:nth-child(2)",
+          "text_quote_or_attribute": "Ja 3 x \"Kool-Aid\" Basketball Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e478] > link:nth-child(3)",
+          "text_quote_or_attribute": "$135"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e484]",
+          "text_quote_or_attribute": "Just In"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e484]",
+          "text_quote_or_attribute": "Just In"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "product_name": "Nike Pegasus Premium Men's Road Running Shoes",
+        "product_url": "https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/HQ2592-701",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e537.png",
+        "old_price_raw": null,
+        "price_raw": "$220",
+        "discount_percentage": null,
+        "short_description": "Best Seller",
+        "rating": null,
+        "review_count": null,
+        "availability": "Best Seller"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e533] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Pegasus Premium"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e533] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/HQ2592-701"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e533] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Pegasus Premium Men's Road Running Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e533] > link:nth-child(3)",
+          "text_quote_or_attribute": "$220"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e538] > generic[ref=e539]",
+          "text_quote_or_attribute": "Best Seller"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e538] > generic[ref=e539]",
+          "text_quote_or_attribute": "Best Seller"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "product_name": "Nike Vomero Premium Men's Road Running Shoes",
+        "product_url": "https://www.nike.com/t/vomero-premium-mens-road-running-shoes-l11miwwa/HQ2050-702",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e632.png",
+        "old_price_raw": null,
+        "price_raw": "$230",
+        "discount_percentage": null,
+        "short_description": "Best Seller",
+        "rating": null,
+        "review_count": null,
+        "availability": "Best Seller"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e628] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Vomero Premium"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e628] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/vomero-premium-mens-road-running-shoes-l11miwwa/HQ2050-702"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e628] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Vomero Premium Men's Road Running Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e628] > link:nth-child(3)",
+          "text_quote_or_attribute": "$230"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e633] > generic[ref=e634]",
+          "text_quote_or_attribute": "Best Seller"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e633] > generic[ref=e634]",
+          "text_quote_or_attribute": "Best Seller"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "product_name": "Air Jordan 1 Retro Low OG \"Banned\" Men's Shoes",
+        "product_url": "https://www.nike.com/t/air-jordan-1-retro-low-og-banned-mens-shoes-9ceTZAxR/IW6276-001",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e675.png",
+        "old_price_raw": null,
+        "price_raw": "$145",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e671] > link:nth-child(1)",
+          "text_quote_or_attribute": "Air Jordan 1 Retro Low OG \"Banned\""
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e671] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/air-jordan-1-retro-low-og-banned-mens-shoes-9ceTZAxR/IW6276-001"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e671] > link:nth-child(2)",
+          "text_quote_or_attribute": "Air Jordan 1 Retro Low OG \"Banned\" Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e671] > link:nth-child(3)",
+          "text_quote_or_attribute": "$145"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "product_name": "Air Jordan 1 High OG \"Khaki\" Women's Shoes",
+        "product_url": "https://www.nike.com/t/air-jordan-1-high-og-khaki-womens-shoes-FO6hGtmD/FD2596-201",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e693.png",
+        "old_price_raw": null,
+        "price_raw": "$185",
+        "discount_percentage": null,
+        "short_description": "Just In",
+        "rating": null,
+        "review_count": null,
+        "availability": "Just In"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e689] > link:nth-child(1)",
+          "text_quote_or_attribute": "Air Jordan 1 High OG \"Khaki\""
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e689] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/air-jordan-1-high-og-khaki-womens-shoes-FO6hGtmD/FD2596-201"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e689] > link:nth-child(2)",
+          "text_quote_or_attribute": "Air Jordan 1 High OG \"Khaki\" Women's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e689] > link:nth-child(3)",
+          "text_quote_or_attribute": "$185"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e694] > generic[ref=e695]",
+          "text_quote_or_attribute": "Just In"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic[ref=e694] > generic[ref=e695]",
+          "text_quote_or_attribute": "Just In"
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "product_name": "Nike Dunk Low SE \"LNY\" Men's Shoes",
+        "product_url": "https://www.nike.com/t/dunk-low-se-lny-mens-shoes-wlaYvsTw/IQ1118-220",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e712.png",
+        "old_price_raw": null,
+        "price_raw": "$97.97",
+        "discount_percentage": "24%",
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e708] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Dunk Low SE \"LNY\""
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e708] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/dunk-low-se-lny-mens-shoes-wlaYvsTw/IQ1118-220"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e708] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Dunk Low SE \"LNY\" Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$130"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e708] > link:nth-child(3)",
+          "text_quote_or_attribute": "$97.97"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "24%"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "product_name": "Nike Air Force 1 '07 RealTree Men's Shoes",
+        "product_url": "https://www.nike.com/t/air-force-1-07-realtree-mens-shoes-wlaYvsTw/IQ1118-220",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e712.png",
+        "old_price_raw": null,
+        "price_raw": "$76.97",
+        "discount_percentage": "38%",
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e713] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Air Force 1 '07 RealTree"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e713] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/air-force-1-07-realtree-mens-shoes-wlaYvsTw/IQ1118-220"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e713] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Air Force 1 '07 RealTree Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$125"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e713] > link:nth-child(3)",
+          "text_quote_or_attribute": "$76.97"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "38%"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "product_name": "Nike ACG Zegama Men's Trail Running Shoes",
+        "product_url": "https://www.nike.com/t/acg-zegama-mens-trail-running-shoes-wlaYvsTw/IQ1118-220",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e712.png",
+        "old_price_raw": null,
+        "price_raw": "$180",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike ACG Zegama"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/acg-zegama-mens-trail-running-shoes-wlaYvsTw/IQ1118-220"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike ACG Zegama Men's Trail Running Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(3)",
+          "text_quote_or_attribute": "$180"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "product_name": "Nike ACG Pegasus Trail Men's Trail Running Shoes",
+        "product_url": "https://www.nike.com/t/acg-pegasus-trail-mens-shoes-wlaYvsTw/IQ1118-220",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e712.png",
+        "old_price_raw": null,
+        "price_raw": "$155",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike ACG Pegasus Trail"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/acg-pegasus-trail-mens-shoes-wlaYvsTw/IQ1118-220"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike ACG Pegasus Trail Men's Trail Running Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(3)",
+          "text_quote_or_attribute": "$155"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "product_name": "Nike Phantom 6 Low Elite LV8 Firm-Ground Soccer Cleats",
+        "product_url": "https://www.nike.com/t/phantom-6-low-elite-lv8-mens-shoes-wlaYvsTw/IQ1118-220",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e712.png",
+        "old_price_raw": null,
+        "price_raw": "$270",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Phantom 6 Low Elite LV8"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/phantom-6-low-elite-lv8-mens-shoes-wlaYvsTw/IQ1118-220"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Phantom 6 Low Elite LV8 Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(3)",
+          "text_quote_or_attribute": "$270"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "product_name": "Nike Phantom 6 High Elite LV8 Firm-Ground Soccer Cleats",
+        "product_url": "https://www.nike.com/t/phantom-6-high-elite-lv8-mens-shoes-wlaYvsTw/IQ1118-220",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e712.png",
+        "old_price_raw": null,
+        "price_raw": "$295",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Phantom 6 High Elite LV8"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/phantom-6-high-elite-lv8-mens-shoes-wlaYvsTw/IQ1118-220"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Phantom 6 High Elite LV8 Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(3)",
+          "text_quote_or_attribute": "$295"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "product_name": "Nike Air Max Big Bubble Men's Shoes",
+        "product_url": "https://www.nike.com/t/air-max-big-bubble-mens-shoes-2xNsHz6W/IH7855-100",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e332.png",
+        "old_price_raw": null,
+        "price_raw": "$200",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Air Max Big Bubble"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/air-max-big-bubble-mens-shoes-2xNsHz6W/IH7855-100"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Air Max Big Bubble Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(3)",
+          "text_quote_or_attribute": "$200"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "product_name": "Nike Shox R4 Men's Shoes",
+        "product_url": "https://www.nike.com/t/shox-r4-mens-shoes-wlaYvsTw/IQ1118-220",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e712.png",
+        "old_price_raw": null,
+        "price_raw": "$155",
+        "discount_percentage": null,
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Shox R4"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/shox-r4-mens-shoes-wlaYvsTw/IQ1118-220"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Shox R4 Men's Shoes"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(3)",
+          "text_quote_or_attribute": "$155"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "product_name": "Nike Air Max 90 Premium Men's Shoes with Reflective Accents",
+        "product_url": "https://www.nike.com/t/air-max-90-premium-mens-shoes-wlaYvsTw/IQ1118-220",
+        "image_url": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes/mcp/e712.png",
+        "old_price_raw": null,
+        "price_raw": "$102.97",
+        "discount_percentage": "29%",
+        "short_description": null,
+        "rating": null,
+        "review_count": null,
+        "availability": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "Nike Air Max 90 Premium"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(1)",
+          "text_quote_or_attribute": "https://www.nike.com/t/air-max-90-premium-mens-shoes-wlaYvsTw/IQ1118-220"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(2)",
+          "text_quote_or_attribute": "Nike Air Max 90 Premium Men's Shoes with Reflective Accents"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$145"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "figure[ref=e714] > link:nth-child(3)",
+          "text_quote_or_attribute": "$102.97"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "29%"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 236.899,
+    "input_tokens": 25645,
+    "output_tokens": 16747,
+    "total_tokens": 42392,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_02_NIKE_US_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_02_NIKE_US_LISTING_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "task_id": "WBV1_ACAD_UNESCO_EVENTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Thought Leaders Series with Lê Nguyên Hoang",
+        "event_url": "https://www.unesco.org/en/articles/thought-leaders-series-le-nguyen-hoang",
+        "event_start_date": "2026-05-05",
+        "event_end_date": "2026-05-05",
+        "event_start_time": "18:00:00",
+        "event_end_time": "20:00:00",
+        "location": "Paris, Île-de-France, France",
+        "venue": "UNESCO Headquarters",
+        "rooms": "Room IX",
+        "event_type": "Cat VIII - Symposia",
+        "arrangement_type": "In-Person",
+        "register_url": "https://forms.office.com/e/ynuPusv12d",
+        "website": "https://www.unesco.org/en/articles/thought-leaders-series-le-nguyen-hoang",
+        "image_urls": [
+          "https://www.unesco.org/sites/default/files/styles/best_image/article/2026-03/_Thought%20Leaders%20Series%20Banner%20%20%289%29.png.webp?itok=5QsIK-Ky"
+        ],
+        "speaker": "Lê Nguyên Hoang",
+        "topic": "Governing AI today: Priorities for Inclusive and Resilient Societies",
+        "organizer": "UNESCO",
+        "organized_by": "UNESCO's MOST Programme in partnership with the \"la Caixa\" Foundation",
+        "description": "Join us for the next session of the Thought Leaders Series featuring Lê Nguyên Hoang on 05 May 2026, expert on Artificial Intelligence and CEO of Tournesol and Science4All."
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "h1.title.article-title",
+          "text_quote": "Thought Leaders Series with Lê Nguyên Hoang"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.unesco.org/en/articles/thought-leaders-series-le-nguyen-hoang"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "time.datetime",
+          "text_quote": "2026-05-05T16:00:00Z"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "time.datetime",
+          "text_quote": "2026-05-05T18:00:00Z"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "time.datetime",
+          "text_quote": "5 May 2026 - 6:00 pm"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "time.datetime",
+          "text_quote": "5 May 2026 - 8:00 pm"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": ".field--name-field-location .field__item",
+          "text_quote": "UNESCO Headquarters, Paris, France"
+        },
+        "venue": {
+          "source": "page.html",
+          "selector": ".field--name-field-location .field__item",
+          "text_quote": "UNESCO Headquarters, Paris, France"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": ".field--name-field-rooms .field__item",
+          "text_quote": "Room IX"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": ".field--name-field-ref-event",
+          "text_quote": "Cat VIII - Symposia"
+        },
+        "arrangement_type": {
+          "source": "page.html",
+          "selector": ".field--name-field-meeting-arrangement-type",
+          "text_quote": "In-Person"
+        },
+        "register_url": {
+          "source": "page.html",
+          "selector": "a[href='https://forms.office.com/e/ynuPusv12d']",
+          "text_quote": "https://forms.office.com/e/ynuPusv12d"
+        },
+        "website": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.unesco.org/en/articles/thought-leaders-series-le-nguyen-hoang"
+        },
+        "image_urls": {
+          "source": "page.html",
+          "selector": "meta[property='og:image']",
+          "text_quote": "https://www.unesco.org/sites/default/files/styles/best_image/article/2026-03/_Thought%20Leaders%20Series%20Banner%20%20%289%29.png.webp?itok=5QsIK-Ky"
+        },
+        "speaker": {
+          "source": "page.html",
+          "selector": "h2",
+          "text_quote": "Thought Leader: Lê Nguyên Hoàng"
+        },
+        "topic": {
+          "source": "page.html",
+          "selector": "h2",
+          "text_quote": "Governing AI today: Priorities for Inclusive and Resilient Societies"
+        },
+        "organizer": {
+          "source": "page.html",
+          "selector": "h2",
+          "text_quote": "UNESCO and the \"la Caixa\" Foundation"
+        },
+        "organized_by": {
+          "source": "page.html",
+          "selector": ".rich-text p",
+          "text_quote": "This Thought Leaders Lecture is part of the joint programme of conferences and events organised by UNESCO's MOST Programme in partnership with the \"la Caixa\" Foundation."
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "meta[name='description']",
+          "text_quote": "Join us for the next session of the Thought Leaders Series featuring Lê Nguyên Hoang on 05 May 2026, expert on Artificial Intelligence and CEO of Tournesol and Science4All."
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 32.098,
+    "input_tokens": 23569,
+    "output_tokens": 1029,
+    "total_tokens": 24598,
+    "initial_input_tokens": 23569,
+    "initial_output_tokens": 1029,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/42964030/residential/sale/65b-hamilton-road-herne-bay",
+        "price": {
+          "amount": 3,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "65B Hamilton Road, Herne Bay",
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": "108m2",
+          "unit": "m2"
+        },
+        "listing_title": "65B Hamilton Road, Herne Bay POA 3",
+        "sale_type": null
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 21.465,
+    "input_tokens": 26425,
+    "output_tokens": 433,
+    "total_tokens": 26858,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_REALESTATE.CO.NZ_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_REALESTATE.CO.NZ_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

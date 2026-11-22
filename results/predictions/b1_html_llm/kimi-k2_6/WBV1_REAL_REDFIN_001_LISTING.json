@@ -1,0 +1,829 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Bayside/21404-33rd-Ave-11361/home/20835511",
+        "price": {
+          "amount": 1499000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "214-04 33 Ave, Bayside, NY 11361",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 2762,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "Viking stove",
+          "Manicured corner lot",
+          "En suite bath"
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/254/genIslnoResize.1005254_0.webp",
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/254/genIslnoResize.1005254_1_0.webp",
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/254/genIslnoResize.1005254_28_0.webp"
+        ],
+        "listing_agent_name": null,
+        "listing_office": "Douglas Elliman Real Estate"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/Bayside/21404-33rd-Ave-11361/home/20835511\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$1,499,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "214-04 33 Ave, Bayside, NY 11361"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "4 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "3 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "2,762 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "Viking stove • Manicured corner lot • En suite bath"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/photo/269/islphoto/254/genIslnoResize.1005254_0.webp\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "div.bp-Homecard__Attribution",
+          "text_quote": "Listing by Douglas Elliman Real Estate"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662",
+        "price": {
+          "amount": 375000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "2749 Fish Ave, Bronx, NY 10469",
+        "bedrooms": 3,
+        "bathrooms": 3.5,
+        "floor_area": {
+          "value": 2058,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "2,500 sq ft lot",
+          "Garage",
+          "Built 1950"
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/357/genIslnoResize.1005357_0.webp"
+        ],
+        "listing_agent_name": null,
+        "listing_office": "YourHomeSold Guaranteed Realty"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/Bronx/2749-Fish-Ave-10469/home/44736662\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$375,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "2749 Fish Ave, Bronx, NY 10469"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "3 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "3.5 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "2,058 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "2,500 sq ft lot • Garage • Built 1950"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/photo/269/islphoto/357/genIslnoResize.1005357_0.webp\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "div.bp-Homecard__Attribution",
+          "text_quote": "Listing by YourHomeSold Guaranteed Realty"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/New-York/327-Central-Park-W-10025/unit-2B/home/45121512",
+        "price": {
+          "amount": 3300000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "327 Central Park W Unit 2B, Manhattan, NY 10025",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 1645,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "Built 1929"
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/641/islphoto/849/genIslnoResize.2114748917972438849_0.webp",
+          "https://ssl.cdn-redfin.com/photo/641/islphoto/849/genIslnoResize.2114748917972438849_1_0.webp",
+          "https://ssl.cdn-redfin.com/photo/641/islphoto/849/genIslnoResize.2114748917972438849_18_0.webp"
+        ],
+        "listing_agent_name": null,
+        "listing_office": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/New-York/327-Central-Park-W-10025/unit-2B/home/45121512\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$3,300,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "327 Central Park W Unit 2B, Manhattan, NY 10025"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "3 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "3 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "1,645 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "Built 1929"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/photo/641/islphoto/849/genIslnoResize.2114748917972438849_0.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Brooklyn/42-Monroe-St-11238/home/40732555",
+        "price": {
+          "amount": 2697500,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "42 Monroe St, Brooklyn, NY 11238",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 2300,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "Built 1899"
+        ],
+        "open_house_schedule": [
+          {
+            "date": "2026-05-31",
+            "time_start": "17:00:00",
+            "time_end": "19:00:00"
+          }
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/641/islphoto/849/genIslnoResize.2111124202183295849_0.webp",
+          "https://ssl.cdn-redfin.com/photo/641/islphoto/849/genIslnoResize.2111124202183295849_1_0.webp",
+          "https://ssl.cdn-redfin.com/photo/641/islphoto/849/genIslnoResize.2111124202183295849_20_0.webp"
+        ],
+        "listing_agent_name": null,
+        "listing_office": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/Brooklyn/42-Monroe-St-11238/home/40732555\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$2,697,500"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "42 Monroe St, Brooklyn, NY 11238"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "4 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "2 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "2,300 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "Built 1899"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-31T17:00:00.000Z\",\"endDate\":\"2026-05-31T19:00:00.000Z\",\"name\":\"Open House - 1:00 - 3:00 PM\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/photo/641/islphoto/849/genIslnoResize.2111124202183295849_0.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Ozone-Park/8612-133rd-Ave-11417/home/20729886",
+        "price": {
+          "amount": 679000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "8612 133rd Ave, Ozone Park, NY 11417",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 860,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "Hardwood flooring",
+          "Walk-in 1st level",
+          "Eat-in kitchen"
+        ],
+        "open_house_schedule": [
+          {
+            "date": "2026-05-31",
+            "time_start": "16:00:00",
+            "time_end": "18:00:00"
+          }
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/system_files/media/1230827_JPG/genDesktopMapHomeCardUrl/item_2.webp",
+          "https://ssl.cdn-redfin.com/system_files/media/1230827_JPG/genDesktopMapHomeCardUrl/item_3.webp",
+          "https://ssl.cdn-redfin.com/system_files/media/1230827_JPG/genDesktopMapHomeCardUrl/item_33.webp"
+        ],
+        "listing_agent_name": "Anjely Bisai",
+        "listing_office": "Redfin Real Estate"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/Ozone-Park/8612-133rd-Ave-11417/home/20729886\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$679,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "8612 133rd Ave, Ozone Park, NY 11417"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "2 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "2 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "860 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "Hardwood flooring • Walk-in 1st level • Eat-in kitchen"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-31T16:00:00.000Z\",\"endDate\":\"2026-05-31T18:00:00.000Z\",\"name\":\"Open House - 12:00 - 2:00 PM\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/system_files/media/1230827_JPG/genDesktopMapHomeCardUrl/item_2.webp\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"name\":\"Anjely Bisai\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "div.bp-Homecard__Attribution",
+          "text_quote": "Listing by Redfin Real Estate"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Corona/5507-97th-Pl-11368/home/20918901",
+        "price": {
+          "amount": 1690000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "5507 97th Pl, Corona, NY 11368",
+        "bedrooms": 7,
+        "bathrooms": 5,
+        "floor_area": {
+          "value": 2952,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "1,659 sq ft lot",
+          "Garage",
+          "Built 1966"
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/443/genIslnoResize.1005443_0.webp",
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/443/genIslnoResize.1005443_1_0.webp",
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/443/genIslnoResize.1005443_8_0.webp"
+        ],
+        "listing_agent_name": null,
+        "listing_office": "Canaan Realty International"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/Corona/5507-97th-Pl-11368/home/20918901\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$1,690,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "5507 97th Pl, Corona, NY 11368"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "7 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "5 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "2,952 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "1,659 sq ft lot • Garage • Built 1966"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/photo/269/islphoto/443/genIslnoResize.1005443_0.webp\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "div.bp-Homecard__Attribution",
+          "text_quote": "Listing by Canaan Realty International"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Brooklyn/676-E-93rd-St-11236/home/40775516",
+        "price": {
+          "amount": 759000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "676 E 93rd St, Brooklyn, NY 11236",
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1851,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "Front patio",
+          "Private driveway",
+          "Eat-in kitchen"
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/922/genIslnoResize.998922_1.webp",
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/922/genIslnoResize.998922_1_0.webp",
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/922/genIslnoResize.998922_13_0.webp"
+        ],
+        "listing_agent_name": null,
+        "listing_office": "Excell Choice Realty"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/Brooklyn/676-E-93rd-St-11236/home/40775516\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$759,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "676 E 93rd St, Brooklyn, NY 11236"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "5 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "2 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "1,851 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "Front patio • Private driveway • Eat-in kitchen"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/photo/269/islphoto/922/genIslnoResize.998922_1.webp\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "div.bp-Homecard__Attribution",
+          "text_quote": "Listing by Excell Choice Realty"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Brooklyn/29-Greenpoint-Ave-11222/home/40738993",
+        "price": {
+          "amount": 3850000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "29 Greenpoint Ave, Brooklyn, NY 11222",
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 3620,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "Mixed-use property",
+          "Nyc ferry",
+          "Fully occupied"
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/211/islphoto/821/genIslnoResize.RLS20093821_1.webp",
+          "https://ssl.cdn-redfin.com/photo/211/islphoto/821/genIslnoResize.RLS20093821_1_1.webp",
+          "https://ssl.cdn-redfin.com/photo/211/islphoto/821/genIslnoResize.RLS20093821_17_0.webp"
+        ],
+        "listing_agent_name": null,
+        "listing_office": "Compass • Provided by RLS at REBNY"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/Brooklyn/29-Greenpoint-Ave-11222/home/40738993\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$3,850,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "29 Greenpoint Ave, Brooklyn, NY 11222"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "5 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "3 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "3,620 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "Mixed-use property • Nyc ferry • Fully occupied"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/photo/211/islphoto/821/genIslnoResize.RLS20093821_1.webp\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "div.bp-Homecard__Attribution",
+          "text_quote": "Listing by Compass • Provided by RLS at REBNY"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Brooklyn/128-Newton-St-11222/unit-2A/home/40674159",
+        "price": {
+          "amount": 1450000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "128 Newton St Unit 2A, Brooklyn, NY 11222",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 976,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "En suite bathroom",
+          "Open concept kitchen",
+          "In unit washer dryer"
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/211/islphoto/826/genIslnoResize.RLS20093826_4.webp",
+          "https://ssl.cdn-redfin.com/photo/211/islphoto/826/genIslnoResize.RLS20093826_1_4.webp",
+          "https://ssl.cdn-redfin.com/photo/211/islphoto/826/genIslnoResize.RLS20093826_9_4.webp"
+        ],
+        "listing_agent_name": null,
+        "listing_office": "Casa Blanca Real Estate • Provided by RLS at REBNY"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/Brooklyn/128-Newton-St-11222/unit-2A/home/40674159\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$1,450,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "128 Newton St Unit 2A, Brooklyn, NY 11222"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "2 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "2 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "976 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "En suite bathroom • Open concept kitchen • In unit washer dryer"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/photo/211/islphoto/826/genIslnoResize.RLS20093826_4.webp\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "div.bp-Homecard__Attribution",
+          "text_quote": "Listing by Casa Blanca Real Estate • Provided by RLS at REBNY"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Flushing/7816-147th-St-11367/unit-3C/home/20649835",
+        "price": {
+          "amount": 288000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "78-16 147th St Unit 3C, Flushing, NY 11367",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 850,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "Large living room",
+          "Garage parking",
+          "Garage"
+        ],
+        "open_house_schedule": [
+          {
+            "date": "2026-05-31",
+            "time_start": "19:30:00",
+            "time_end": "21:00:00"
+          }
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/146/genIslnoResize.1005146_0.webp",
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/146/genIslnoResize.1005146_1_0.webp",
+          "https://ssl.cdn-redfin.com/photo/269/islphoto/146/genIslnoResize.1005146_25_0.webp"
+        ],
+        "listing_agent_name": null,
+        "listing_office": "WRL Realty LLC"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address[href]",
+          "text_quote": "href=\"/NY/Flushing/7816-147th-St-11367/unit-3C/home/20649835\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Price--value",
+          "text_quote": "$288,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "a.bp-Homecard__Address",
+          "text_quote": "78-16 147th St Unit 3C, Flushing, NY 11367"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--beds",
+          "text_quote": "2 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--baths",
+          "text_quote": "1 bath"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "span.bp-Homecard__Stats--sqft",
+          "text_quote": "850 sq ft"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.KeyFactsExtension",
+          "text_quote": "Large living room • Garage parking • Garage"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-31T19:30:00.000Z\",\"endDate\":\"2026-05-31T21:00:00.000Z\",\"name\":\"Open House - 3:30 - 5:00 PM\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img.bp-Homecard__Photo--image",
+          "text_quote": "src=\"https://ssl.cdn-redfin.com/photo/269/islphoto/146/genIslnoResize.1005146_0.webp\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "div.bp-Homecard__Attribution",
+          "text_quote": "Listing by WRL Realty LLC"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 227.531,
+    "input_tokens": 238614,
+    "output_tokens": 5824,
+    "total_tokens": 244438,
+    "initial_input_tokens": 238614,
+    "initial_output_tokens": 5824,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

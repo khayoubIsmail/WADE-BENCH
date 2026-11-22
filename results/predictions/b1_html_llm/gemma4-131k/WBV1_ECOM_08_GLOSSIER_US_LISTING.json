@@ -1,0 +1,195 @@
+{
+  "task_id": "WBV1_ECOM_08_GLOSSIER_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.glossier.com/cdn/shop/products/skin-nectar-serum-bottle-20ml-e1634598723456789/image?width=1000&height=1000",
+        "old_price_raw": "<s>$30</s>",
+        "price_raw": "$24.00",
+        "product_name": "Skin Nectar Serum Bottle 20ml",
+        "product_url": "https://www.glossier.com/products/skin-nectar-serum-bottle-20ml",
+        "rating": "5 out of 5 stars",
+        "review_count": 14,
+        "short_description": "A lightweight serum that hydrates and brightens your skin."
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "product_name": {
+          "value": "Skin Nectar Serum Bottle 20ml",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(1) .product-title a"
+        },
+        "image_url": {
+          "value": "https://www.glossier.com/cdn/shop/products/skin-nectar-serum-bottle-20ml-e1634598723456789/image?width=1000&height=1000",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(1) .product-image img"
+        },
+        "old_price_raw": {
+          "value": "<s>$30</s>",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(1) .price-wrapper span.strikethrough"
+        },
+        "price_raw": {
+          "value": "$24.00",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(1) .price-wrapper span.current-price"
+        },
+        "product_url": {
+          "value": "https://www.glossier.com/products/skin-nectar-serum-bottle-20ml",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(1) .product-title a"
+        },
+        "rating": {
+          "value": "5 out of 5 stars",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(1) .review-stars"
+        },
+        "review_count": {
+          "value": "14 reviews",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(1) .review-count"
+        },
+        "short_description": {
+          "value": "A lightweight serum that hydrates and brightens your skin.",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(1) .product-description p"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.glossier.com/cdn/shop/products/skin-nectar-serum-bottle-20ml-e1634598723456789/image?width=1000&height=1000",
+        "old_price_raw": "<s>$30</s>",
+        "price_raw": "$24.00",
+        "product_name": "Skin Nectar Serum Bottle 20ml",
+        "product_url": "https://www.glossier.com/products/skin-nectar-serum-bottle-20ml",
+        "rating": "5 out of 5 stars",
+        "review_count": 14,
+        "short_description": "A lightweight serum that hydrates and brightens your skin."
+      },
+      "provenance": {
+        "record_id": "pred_002",
+        "product_name": {
+          "value": "Skin Nectar Serum Bottle 20ml",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(2) .product-title a"
+        },
+        "image_url": {
+          "value": "https://www.glossier.com/cdn/shop/products/skin-nectar-serum-bottle-20ml-e1634598723456789/image?width=1000&height=1000",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(2) .product-image img"
+        },
+        "old_price_raw": {
+          "value": "<s>$30</s>",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(2) .price-wrapper span.strikethrough"
+        },
+        "price_raw": {
+          "value": "$24.00",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(2) .price-wrapper span.current-price"
+        },
+        "product_url": {
+          "value": "https://www.glossier.com/products/skin-nectar-serum-bottle-20ml",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(2) .product-title a"
+        },
+        "rating": {
+          "value": "5 out of 5 stars",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(2) .review-stars"
+        },
+        "review_count": {
+          "value": "14 reviews",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(2) .review-count"
+        },
+        "short_description": {
+          "value": "A lightweight serum that hydrates and brightens your skin.",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(2) .product-description p"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.glossier.com/cdn/shop/products/skin-nectar-serum-bottle-20ml-e1634598723456789/image?width=1000&height=1000",
+        "old_price_raw": "<s>$30</s>",
+        "price_raw": "$24.00",
+        "product_name": "Skin Nectar Serum Bottle 20ml",
+        "product_url": "https://www.glossier.com/products/skin-nectar-serum-bottle-20ml",
+        "rating": "5 out of 5 stars",
+        "review_count": 14,
+        "short_description": "A lightweight serum that hydrates and brightens your skin."
+      },
+      "provenance": {
+        "record_id": "pred_003",
+        "product_name": {
+          "value": "Skin Nectar Serum Bottle 20ml",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(3) .product-title a"
+        },
+        "image_url": {
+          "value": "https://www.glossier.com/cdn/shop/products/skin-nectar-serum-bottle-20ml-e1634598723456789/image?width=1000&height=1000",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(3) .product-image img"
+        },
+        "old_price_raw": {
+          "value": "<s>$30</s>",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(3) .price-wrapper span.strikethrough"
+        },
+        "price_raw": {
+          "value": "$24.00",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(3) .price-wrapper span.current-price"
+        },
+        "product_url": {
+          "value": "https://www.glossier.com/products/skin-nectar-serum-bottle-20ml",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(3) .product-title a"
+        },
+        "rating": {
+          "value": "5 out of 5 stars",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(3) .review-stars"
+        },
+        "review_count": {
+          "value": "14 reviews",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(3) .review-count"
+        },
+        "short_description": {
+          "value": "A lightweight serum that hydrates and brightens your skin.",
+          "source": "page.html",
+          "selector": ".product-card:nth-child(3) .product-description p"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 32.751,
+    "input_tokens": 18077,
+    "output_tokens": 2377,
+    "total_tokens": 20454,
+    "initial_input_tokens": 18077,
+    "initial_output_tokens": 2377,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

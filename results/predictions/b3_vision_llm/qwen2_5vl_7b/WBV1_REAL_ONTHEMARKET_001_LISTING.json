@@ -1,0 +1,544 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_001_LISTING",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/white-horse-road-east-ham-london-e6-terrace-house-for-sale-450000",
+        "price": {
+          "amount": 450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "White Horse Road, East Ham, London, E6",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Freehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/18-brumwell-avenue-woolwich-apartment-for-sale-395000",
+        "price": {
+          "amount": 395000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "18 Brumwell Avenue, Woolwich",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/stoneleigh-road-clayhall-apartment-for-sale-300000",
+        "price": {
+          "amount": 300000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Stoneleigh Road, Clayhall",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/london-buy-to-let-apartments-for-sale-140000",
+        "price": {
+          "amount": 140000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "London Buy-To-Let Apartments",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/eversleigh-road-east-ham-london-e6-terrace-house-for-sale-550000",
+        "price": {
+          "amount": 550000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Eversleigh Road, East Ham, London, E6",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Freehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/vicarage-close-northolt-apartment-for-sale-140000",
+        "price": {
+          "amount": 140000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Vicarage Close, Northolt",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/pembroke-road-ruislip-apartment-for-sale-275000",
+        "price": {
+          "amount": 275000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Pembroke Road, Ruislip",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/limewood-court-beehive-lane-ilford-flat-for-sale-100000",
+        "price": {
+          "amount": 100000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Limewood Court, Beehive Lane, Ilford, IG4",
+        "property_type": "Flat",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/viceroys-court-prince-albert-road-st-johns-wood-apartment-for-sale-1450000",
+        "price": {
+          "amount": 1450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Viceroys Court, Prince Albert Road, St John's Wood, NW8",
+        "property_type": "Apartment",
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/lee-high-road-london-apartment-for-sale-195000",
+        "price": {
+          "amount": 195000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Lee High Road, London",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/glebe-road-stanmore-apartment-for-sale-220000",
+        "price": {
+          "amount": 220000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Glebe Road, Stanmore",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/surrey-road-dagenham-essex-apartment-for-sale-450000",
+        "price": {
+          "amount": 450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Surrey Road, Dagenham, Essex, RM9",
+        "property_type": "Semi-detached house",
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Freehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/otley-drive-ilford-flat-for-sale-600000",
+        "price": {
+          "amount": 600000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Otley Drive, Ilford, IG2",
+        "property_type": "End of terrace house",
+        "bedrooms": 3,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Freehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/tweedmouth-road-london-flat-for-sale-475000",
+        "price": {
+          "amount": 475000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Tweedmouth Road, London, E13",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Freehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/fairmont-road-rainham-essex-flat-for-sale-290000",
+        "price": {
+          "amount": 290000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Fairmont Road, Rainham, Essex, RM13",
+        "property_type": "Flat",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Leasehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/albermarle-road-beckenham-flat-for-sale-300000",
+        "price": {
+          "amount": 300000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Albermarle Road, Beckenham, BR3",
+        "property_type": "Flat",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Share of freehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/stanley-road-hornchurch-flat-for-sale-600000",
+        "price": {
+          "amount": 600000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Stanley Road, Hornchurch, RM12",
+        "property_type": "End of terrace house",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Freehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/eastbrook-drive-romford-semi-detached-house-for-sale-1350000",
+        "price": {
+          "amount": 1350000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Eastbrook Drive, Romford, RM7",
+        "property_type": "Semi-detached house",
+        "bedrooms": 8,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Freehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/coldharbour-lane-london-flat-for-sale-350000",
+        "price": {
+          "amount": 350000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Coldharbour Lane, London, SE5",
+        "property_type": "Flat",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "floor_area": {
+          "value": "105 years remaining",
+          "unit": null
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Share of freehold | Chain free"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 67.081,
+    "input_tokens": 10185,
+    "output_tokens": 4274,
+    "total_tokens": 14459,
+    "num_tiles": 5,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_001_LISTING\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_001_LISTING\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_001_LISTING\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_001_LISTING\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_001_LISTING\\tile_05.png"
+    ],
+    "error": null
+  }
+}

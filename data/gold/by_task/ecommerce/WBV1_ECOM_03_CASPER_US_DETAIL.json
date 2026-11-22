@@ -1,0 +1,309 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_DETAIL",
+  "website_id": "casper_us",
+  "schema_id": "product_detail_v1",
+  "snapshot_id": "casper_us_detail_sample",
+  "snapshot_path": "raw_snapshots/ecommerce/casper_us_detail_sample",
+  "live_url": "https://casper.com/products/casper-one-foam?variant=41670971261009",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_DETAIL_001",
+      "fields": {
+        "product_name": {
+          "value": "The One",
+          "normalized": "The One"
+        },
+        "description": {
+          "value": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love.",
+          "normalized": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love."
+        },
+        "price_raw": {
+          "value": "$799",
+          "normalized": {
+            "amount": 799.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$999",
+          "normalized": {
+            "amount": 999.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "20%",
+          "normalized": 20
+        },
+        "rating": {
+          "value": "4.4",
+          "normalized": 4.4
+        },
+        "review_count": {
+          "value": "Reviews",
+          "normalized": null
+        },
+        "brand": {
+          "value": "Casper",
+          "normalized": "Casper"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/casper-one-foam?variant=41670971261009",
+          "normalized": "https://casper.com/products/casper-one-foam?variant=41670971261009"
+        },
+        "foam_model": [
+          {
+            "value": "The One",
+            "normalized": "The One"
+          },
+          {
+            "value": "Cloud One",
+            "normalized": "Cloud One"
+          }
+        ],
+        "image_urls": [
+          {
+            "value": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=1805",
+            "normalized": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=1805"
+          },
+          {
+            "value": "https://casper.com/cdn/shop/files/The-One-PDP-Grid2-Feel.jpg?v=1773690918&width=1920",
+            "normalized": "https://casper.com/cdn/shop/files/The-One-PDP-Grid2-Feel.jpg?v=1773690918&width=1920"
+          },
+          {
+            "value": "https://casper.com/cdn/shop/files/The-One-PDP-grid3-RTBs.jpg?v=1773690918&width=1920",
+            "normalized": "https://casper.com/cdn/shop/files/The-One-PDP-grid3-RTBs.jpg?v=1773690918&width=1920"
+          },
+          {
+            "value": "https://casper.com/cdn/shop/files/The-One-PDP-grid4-Layers.jpg?v=1773690918&width=1920",
+            "normalized": "https://casper.com/cdn/shop/files/The-One-PDP-grid4-Layers.jpg?v=1773690918&width=1920"
+          },
+          {
+            "value": "https://casper.com/cdn/shop/files/The-One-PDP-grid5-Lifestyle.jpg?v=1773690918&width=1920",
+            "normalized": "https://casper.com/cdn/shop/files/The-One-PDP-grid5-Lifestyle.jpg?v=1773690918&width=1920"
+          },
+          {
+            "value": "https://casper.com/cdn/shop/files/Mattress-PDP-Badges.jpg?v=1773690991&width=3580",
+            "normalized": "https://casper.com/cdn/shop/files/Mattress-PDP-Badges.jpg?v=1773690991&width=3580"
+          },
+          {
+            "value": "https://casper.com/cdn/shop/files/preview_images/98b530bce71e46988bcfc3869e87be36.thumbnail.0000000000.jpg?v=1757514100&width=1920",
+            "normalized": "https://casper.com/cdn/shop/files/preview_images/98b530bce71e46988bcfc3869e87be36.thumbnail.0000000000.jpg?v=1757514100&width=1920"
+          },
+          {
+            "value": "https://casper.com/cdn/shop/files/preview_images/98b530bce71e46988bcfc3869e87be36.thumbnail.0000000000_small.jpg?v=1757514100",
+            "normalized": "https://casper.com/cdn/shop/files/preview_images/98b530bce71e46988bcfc3869e87be36.thumbnail.0000000000_small.jpg?v=1757514100"
+          }
+        ],
+        "available_sizes": [
+          {
+            "value": "Twin",
+            "normalized": "Twin"
+          },
+          {
+            "value": "Twin XL",
+            "normalized": "Twin XL"
+          },
+          {
+            "value": "Full",
+            "normalized": "Full"
+          },
+          {
+            "value": "Queen",
+            "normalized": "Queen"
+          },
+          {
+            "value": "King",
+            "normalized": "King"
+          },
+          {
+            "value": "California King",
+            "normalized": "California King"
+          },
+          {
+            "value": "Split King",
+            "normalized": "Split King"
+          }
+        ],
+        "first_review": {
+          "author": {
+            "value": "Connie W.",
+            "normalized": "Connie W."
+          },
+          "text": {
+            "value": "loves her mattress",
+            "normalized": "loves her mattress"
+          },
+          "date": {
+            "value": "05/27/26",
+            "normalized": "05/27/26"
+          }
+        },
+        "measurements": {
+          "value": "Measurements & Dimensions",
+          "normalized": "Measurements & Dimensions"
+        },
+        "materials": {
+          "value": "Materials & Certifications",
+          "normalized": "Materials & Certifications"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "span.reversed-link.hover\\:show",
+          "xpath": "//*[@id='mega-menu-mega_menu_EhzC6W']/ul[1]/li[1]/ul[1]/li[1]/a[1]/span[1]",
+          "text_quote": "The One",
+          "attribute": null,
+          "xpath_absolute": "/html/body/header/height-observer/store-header/div[1]/div[1]/div/nav/ul/li[1]/details/div/ul/li[1]/ul/li[1]/a/span",
+          "css_selector_absolute": "html > body > header:nth-of-type(1) > height-observer:nth-of-type(1) > store-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > details:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "description": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "#product-info-7576114036817-template--27892511146350__main > div:nth-of-type(1) > safe-sticky:nth-of-type(1) > div:nth-of-type(13) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='product-info-7576114036817-template--27892511146350__main']/div[1]/safe-sticky[1]/div[13]/div[1]/div[1]/p[1]/span[1]",
+          "text_quote": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three laye",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[2]/div/product-rerender/div/safe-sticky/div[13]/div/div/p/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > product-rerender:nth-of-type(1) > div:nth-of-type(1) > safe-sticky:nth-of-type(1) > div:nth-of-type(13) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "sale-price.text-on-sale.text-sm",
+          "xpath": "//*[@id='product-info-7576114036817-template--27892511146350__main']/div[1]/safe-sticky[1]/div[15]/div[1]/variant-picker[1]/div[1]/fieldset[1]/div[2]/div[1]/label[4]/span[1]/span[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$799",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[2]/div/product-rerender/div/safe-sticky/div[15]/div/variant-picker/div/fieldset/div[2]/div/label[4]/span/span[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > product-rerender:nth-of-type(1) > div:nth-of-type(1) > safe-sticky:nth-of-type(1) > div:nth-of-type(15) > div:nth-of-type(1) > variant-picker:nth-of-type(1) > div:nth-of-type(1) > fieldset:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > label:nth-of-type(4) > span:nth-of-type(1) > span:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "price-list.price-list",
+          "xpath": "//*[@id='product-info-7576114036817-template--27892511146350__main']/div[1]/safe-sticky[1]/div[15]/div[1]/variant-picker[1]/div[1]/fieldset[1]/div[2]/div[1]/label[4]/span[1]/span[2]/price-list[1]",
+          "text_quote": "$999",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[2]/div/product-rerender/div/safe-sticky/div[15]/div/variant-picker/div/fieldset/div[2]/div/label[4]/span/span[2]/price-list",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > product-rerender:nth-of-type(1) > div:nth-of-type(1) > safe-sticky:nth-of-type(1) > div:nth-of-type(15) > div:nth-of-type(1) > variant-picker:nth-of-type(1) > div:nth-of-type(1) > fieldset:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > label:nth-of-type(4) > span:nth-of-type(1) > span:nth-of-type(2) > price-list:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='buy-btns-subtotal']/div[1]/price-list[1]/div[1]/on-sale-badge[1]",
+          "text_quote": "20%",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[2]/div/product-rerender/div/safe-sticky/div[20]/div/form/div/div/div[1]/div/price-list/div/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > product-rerender:nth-of-type(1) > div:nth-of-type(1) > safe-sticky:nth-of-type(1) > div:nth-of-type(20) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > price-list:nth-of-type(1) > div:nth-of-type(1) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "div.yotpo-bottom-line-left-panel.yotpo-bottom-line-score",
+          "xpath": "//*[@id='yotpo-app']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "text_quote": "4.4",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[10]/div/div/div/div/section/div/div/div/div/div[2]/div[1]/div/div[1]/div[1]/div[1]/div[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "span.reversed-link.hover\\:show",
+          "xpath": "//*[@id='mega-menu-mega_menu_ytyCPU']/ul[1]/li[1]/ul[1]/li[2]/a[1]/span[1]",
+          "text_quote": "Reviews",
+          "attribute": null,
+          "xpath_absolute": "/html/body/header/height-observer/store-header/div[1]/div[1]/div/nav/ul/li[7]/details/div/ul/li[1]/ul/li[2]/a/span",
+          "css_selector_absolute": "html > body > header:nth-of-type(1) > height-observer:nth-of-type(1) > store-header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(7) > details:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "foam_model": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "div.upsell-product-section.gap-2.wrap",
+          "xpath": "//*[@id='product-info-7576114036817-template--27892511146350__main']/div[1]/safe-sticky[1]/div[14]/div[1]/upsell-toggle-container[1]/div[1]/fieldset[1]/div[2]",
+          "text_quote": "The One",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[2]/div/product-rerender/div/safe-sticky/div[14]/div/upsell-toggle-container/div/fieldset/div[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > product-rerender:nth-of-type(1) > div:nth-of-type(1) > safe-sticky:nth-of-type(1) > div:nth-of-type(14) > div:nth-of-type(1) > upsell-toggle-container:nth-of-type(1) > div:nth-of-type(1) > fieldset:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "image_urls": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "img[src*='1773690918']",
+          "xpath": "//*[@id='product-info-7576114036817-template--27892511146350__main']/div[1]/product-gallery[1]/div[1]/div[1]/media-carousel[1]/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[2]/div/product-rerender/div/product-gallery/div/div/media-carousel/div[1]/img",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > product-rerender:nth-of-type(1) > div:nth-of-type(1) > product-gallery:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > media-carousel:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "available_sizes": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "div.popover-listbox",
+          "xpath": "//*[@id='popover-variant-picker-template--27892511146350__main-7576114036817-1']/div[1]",
+          "text_quote": "Twin",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[2]/product-rerender/div/div[1]/div[1]/variant-picker/div/fieldset/div[2]/x-popover/div",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(2) > product-rerender:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > variant-picker:nth-of-type(1) > div:nth-of-type(1) > fieldset:nth-of-type(1) > div:nth-of-type(2) > x-popover:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "first_review": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "measurements": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "#shopify-section-template--27892511146350__accordion_content_UwDgnG > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > details:nth-of-type(1) > summary:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='shopify-section-template--27892511146350__accordion_content_UwDgnG']/div[1]/div[1]/div[2]/div[1]/details[1]/summary[1]/div[1]/div[1]",
+          "text_quote": "Measurements & Dimensions",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[7]/div/div/div[2]/div/details[1]/summary/div/div",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > details:nth-of-type(1) > summary:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "materials": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "#shopify-section-template--27892511146350__accordion_content_UwDgnG > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > details:nth-of-type(2) > summary:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='shopify-section-template--27892511146350__accordion_content_UwDgnG']/div[1]/div[1]/div[2]/div[1]/details[2]/summary[1]/div[1]/div[1]",
+          "text_quote": "Materials & Certifications",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[7]/div/div/div[2]/div/details[2]/summary/div/div",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > details:nth-of-type(2) > summary:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "brand": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "#yotpo-reviews-container > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > strong:nth-of-type(1)",
+          "xpath": "//*[@id='yotpo-reviews-container']/div[1]/div[10]/div[2]/div[1]/p[1]/strong[1]",
+          "text_quote": "Casper",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[10]/div/div/div/div/section/div/div/div/div/div[2]/div[4]/div/div[10]/div[2]/div[1]/p/strong",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > strong:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_detail_sample",
+          "css_selector": "a[aria-label='Navigate to previous page']",
+          "xpath": "//a[@aria-label='Navigate to previous page']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[10]/div/div/div/div/section/div/div/div/div/div[2]/div[4]/div/nav/div/a[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

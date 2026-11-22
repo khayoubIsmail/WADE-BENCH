@@ -1,0 +1,84 @@
+{
+  "task_id": "WBV1_ECOM_05_DECATHLON_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Quechua",
+        "description": "This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort.",
+        "image_urls": [
+          {
+            "url": null,
+            "source": "page.safe.html",
+            "selector": "img \"{*unspecified-8775634*}\"",
+            "text_quote": null
+          }
+        ],
+        "price_raw": "$19.99",
+        "product_name": "Quechua NH100 Arpenaz 10 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147",
+        "rating": "4.82 out of 5",
+        "review_count": "18045"
+      },
+      "provenance": {
+        "brand": {
+          "source": "ax_tree.json",
+          "selector": "heading[level=4]",
+          "text_quote": "Quechua"
+        },
+        "description": {
+          "source": "page.safe.html",
+          "selector": "ref=e484",
+          "text_quote": "This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort."
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "selector": "ref=e396, ref=e400, ref=e404, ref=e408, ref=e412, ref=e416, ref=e420",
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "selector": "ref=e381",
+          "text_quote": "$19.99"
+        },
+        "product_name": {
+          "source": "ax_tree.json",
+          "selector": "heading[level=3]",
+          "text_quote": "Quechua NH100 Arpenaz 10 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "metadata.json",
+          "selector": null,
+          "text_quote": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "selector": "ref=e431",
+          "text_quote": "Rating of this product is 4.82 out of 5"
+        },
+        "review_count": {
+          "source": "ax_tree.json",
+          "selector": "text[name=\"18045 reviews\"]",
+          "text_quote": "18045 reviews"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 20.592,
+    "input_tokens": 22682,
+    "output_tokens": 777,
+    "total_tokens": 23459,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_05_DECATHLON_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_05_DECATHLON_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

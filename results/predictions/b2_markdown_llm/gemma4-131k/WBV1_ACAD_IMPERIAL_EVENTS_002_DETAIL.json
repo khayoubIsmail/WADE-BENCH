@@ -1,0 +1,38 @@
+{
+  "task_id": "WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2026-06-07",
+        "event_name": "Great Exhibition Road Festival",
+        "event_start_date": "2026-06-06",
+        "event_url": null,
+        "location": "South Kensington Campus, London, UK",
+        "description": "The Great Exhibition Road Festival is a free annual celebration of science and the arts each summer in South Kensington. Join us on 6-7 June 2026 from 12.00-18.00 each day for a weekend of free science and arts events for all ages.",
+        "cost": "Free",
+        "organizer": "Imperial College London",
+        "website": null
+      },
+      "provenance": {
+        "source_field": "page.markdown.md",
+        "text_quote": "The Great Exhibition Road Festival is a free annual celebration of science and the arts each summer in South Kensington. Join us on 6-7 June 2026 from 12.00-18.00 each day for a weekend of free science and arts events for all ages."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 4.356,
+    "input_tokens": 4070,
+    "output_tokens": 287,
+    "total_tokens": 4357,
+    "repaired": false,
+    "error": null
+  }
+}

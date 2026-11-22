@@ -1,0 +1,58 @@
+{
+  "task_id": "WBV1_GOV_SELL2WALES_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "MAY620878",
+      "fields": {
+        "tender_url": "/search/show/search_view.aspx?ID=MAY620878",
+        "reference_number": "MAY620878",
+        "ocid": "ocds-h6vhtk-06a6e2",
+        "published_by": "Digital Health & Care Wales",
+        "publication_date": "27/05/2026",
+        "published_to": "S2W/FTS",
+        "notice_type": "UK2",
+        "location": {
+          "firstLocation_MAY620878": "WALES"
+        },
+        "value": "-"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "MAY620876",
+      "fields": {
+        "tender_url": "/search/show/search_view.aspx?ID=MAY620876",
+        "reference_number": "MAY620876",
+        "ocid": "ocds-h6vhtk-06a6c4",
+        "published_by": "Isle of Anglesey County Council",
+        "publication_date": "27/05/2026",
+        "published_to": "S2W/FTS",
+        "notice_type": "UK1",
+        "location": {
+          "firstLocation_MAY620876": "WALES"
+        },
+        "value": "-"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 36.695,
+    "input_tokens": 62481,
+    "output_tokens": 693,
+    "total_tokens": 63174,
+    "initial_input_tokens": 62027,
+    "initial_output_tokens": 353,
+    "repair_input_tokens": 454,
+    "repair_output_tokens": 340,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

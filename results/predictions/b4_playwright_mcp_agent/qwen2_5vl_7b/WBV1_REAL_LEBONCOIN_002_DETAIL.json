@@ -1,0 +1,46 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3201084037",
+        "price": {
+          "amount": 269000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon (92320) Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 43,
+          "unit": "m²"
+        },
+        "rooms": 3,
+        "energy_rating": "A",
+        "price_per_m2": null
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 2445.503,
+    "input_tokens": 26861,
+    "output_tokens": 101139,
+    "total_tokens": 128000,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_LEBONCOIN_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_LEBONCOIN_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

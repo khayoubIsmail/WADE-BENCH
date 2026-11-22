@@ -1,0 +1,156 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.daft.ie/for-sale/house-23-carraig-beag-cootehill-road-cavan/6550086",
+          "provenance": {
+            "source": "metadata.json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "https://www.daft.ie/for-sale/house-23-carraig-beag-cootehill-road-cavan/6550086"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 540000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "€540,000"
+          }
+        },
+        "address": {
+          "value": "6 Riversdale Avenue, Palmerstown, Dublin 20, Co. Dublin, D20YN52",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "6 Riversdale Avenue, Palmerstown, Dublin 20, Co. Dublin, D20YN52"
+          }
+        },
+        "listing_title": {
+          "value": "3 Bed · 2 Bath · Terrace",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "3 Bed · 2 Bath · Terrace"
+          }
+        },
+        "property_type": {
+          "value": "Terrace",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Terrace"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "3 Bed"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "2 Bath"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "amount": 144,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "144 m²"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Declan Woods",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Declan Woods"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "049 4380...",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "049 4380..."
+          }
+        },
+        "listing_office": {
+          "value": "Sherry FitzGerald",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Sherry FitzGerald Declan Woods"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 29.736,
+    "input_tokens": 25760,
+    "output_tokens": 1729,
+    "total_tokens": 27489,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_DAFT.IE_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_DAFT.IE_002_DETAIL_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.daft.ie/property-for-sale/ireland/14-riverwood-place-castleknock-dublin-15-d15r9t0",
+        "price": {
+          "amount": 595000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "14 Riverwood Place, Castleknock, Dublin 15, D15R9T0",
+        "property_type": "Semi-D",
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 130,
+          "unit": "m2"
+        },
+        "price_per_m2": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2026-04-24T00:00:00Z"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 8.357,
+    "input_tokens": 18157,
+    "output_tokens": 252,
+    "total_tokens": 18409,
+    "repaired": false,
+    "error": null
+  }
+}

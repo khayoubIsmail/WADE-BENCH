@@ -1,0 +1,144 @@
+{
+  "task_id": "WBV1_GOV_FAT_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": {
+          "value": "Quotation for the Supply of One (1) Unit of Vertical-Form-Fill-Seal Machine with 4 Years of Preventive Maintenance Service for SAS",
+          "provenance": {
+            "selector": ".formOutputText_HIDDEN-LABEL.outputText_TITLE-BLACK",
+            "source": "page.html"
+          },
+          "text_quote": "Quotation for the Supply of One (1) Unit of Vertical-Form-Fill-Seal Machine with 4 Years of Preventive Maintenance Service for SAS"
+        },
+        "tender_url": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          },
+          "text_quote": null
+        },
+        "agency": {
+          "value": "Republic Polytechnic",
+          "provenance": {
+            "selector": ".form2_ROW-LABEL-DIV label[for='contentForm:j_idt252_inputTextarea'] + .col-md-9 div.formOutputText_VALUE-DIV",
+            "source": "page.html"
+          },
+          "text_quote": "Republic Polytechnic"
+        },
+        "awarding_agency": {
+          "value": "Republic Polytechnic",
+          "provenance": {
+            "selector": ".form2_ROW-LABEL-DIV label[for='contentForm:j_idt252_inputTextarea'] + .col-md-9 div.formOutputText_VALUE-DIV",
+            "source": "page.html"
+          },
+          "text_quote": "Republic Polytechnic"
+        },
+        "reference_number": {
+          "value": "RPO000ETQ26000051",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt250_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "RPO000ETQ26000051"
+        },
+        "quotation_no": {
+          "value": "RPO000ETQ26000051",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt250_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "RPO000ETQ26000051"
+        },
+        "published_date": {
+          "value": "2026-05-29",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt253_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "29 May 2026 01:35AM"
+        },
+        "offer_validity_duration": {
+          "value": "60 Days",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt254_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "60 Days"
+        },
+        "procurement_type": {
+          "value": "Goods",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt258_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "Goods"
+        },
+        "quotation_type": {
+          "value": "Expenditure",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt264_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "Expenditure"
+        },
+        "procurement_nature": {
+          "value": "Non Period Contract",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt266_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "Non Period Contract"
+        },
+        "procurement_method": {
+          "value": "Open Quotation",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt269_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "Open Quotation"
+        },
+        "payment_terms": {
+          "value": "30 Days",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt275_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "30 Days"
+        },
+        "remarks": {
+          "value": "Delivery date indicated is estimated, please liaise with Contact Person for delivery details upon award. E-invoice MUST be submitted via www.vendors.gov.sg. Please attention invoice to the Contact Person and indicate Invoicing Instruction number in the e-invoice.",
+          "provenance": {
+            "selector": ".formOutputText_VALUE-DIV[for='contentForm:j_idt257_inputTextarea']",
+            "source": "page.html"
+          },
+          "text_quote": "Delivery date indicated is estimated, please liaise with Contact Person for delivery details upon award. E-invoice MUST be submitted via www.vendors.gov.sg. Please attention invoice to the Contact Person and indicate Invoicing Instruction number in the e-invoice."
+        }
+      },
+      "provenance": {
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 19.913,
+    "input_tokens": 14619,
+    "output_tokens": 1436,
+    "total_tokens": 16055,
+    "initial_input_tokens": 14619,
+    "initial_output_tokens": 1436,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

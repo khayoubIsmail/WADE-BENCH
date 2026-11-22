@@ -1,0 +1,47 @@
+{
+  "task_id": "WBV1_ACAD_CONFERENCEALERTS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)",
+        "event_start_date": "2026-06-29T00:00:00Z",
+        "event_end_date": "2026-07-01T23:59:59Z",
+        "location": {
+          "city": "Palma de Mallorca",
+          "region": null,
+          "country": "Spain"
+        },
+        "event_url": "https://iated.org/edulearn/",
+        "contact_person": "EDULEARN25 Technical Secretariat",
+        "abstract_deadline": "2026-03-12T00:00:00Z",
+        "registration_url": null,
+        "register_link": null
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)\nConference\nonline and in-person\n29th June to 1st July 2026\nPalma de Mallorca, Spain\nWebsite: https://iated.org/edulearn/\nContact person: EDULEARN25 Technical Secretariat"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 11.361,
+    "input_tokens": 10902,
+    "output_tokens": 334,
+    "total_tokens": 11236,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_CONFERENCEALERTS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_CONFERENCEALERTS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "task_id": "WBV1_GOV_CFIN_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": {
+          "value": "Refurbishment works Harris Academy Beckenham",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "h1",
+            "text_quote": "Refurbishment works Harris Academy Beckenham"
+          }
+        },
+        "tender_url": {
+          "value": "https://www.contractsfinder.service.gov.uk/notice/2b06444b-814c-43b5-a102-8379666b1f2c",
+          "provenance": {
+            "source": "metadata.json",
+            "css_selector": null,
+            "text_quote": "https://www.contractsfinder.service.gov.uk/notice/2b06444b-814c-43b5-a102-8379666b1f2c?origin=SearchResults&p=1"
+          }
+        },
+        "agency": {
+          "value": "Harris Federation",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "h2",
+            "text_quote": "Harris Federation"
+          }
+        },
+        "buyer": {
+          "value": "Harris Federation",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "h2",
+            "text_quote": "Harris Federation"
+          }
+        },
+        "address": {
+          "value": "Interchange, 81-85 Station Road, Croydon, CR0 2RD, England",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Address)",
+            "text_quote": "Interchange, 81-85 Station Road\nCroydon\nCR0 2RD\nEngland"
+          }
+        },
+        "contact_name": {
+          "value": "Procurement",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "h4:contains(Contact name) + p",
+            "text_quote": "Procurement"
+          }
+        },
+        "contact_information": {
+          "value": {
+            "email": "Procurement@harrisfederation.org.uk",
+            "phone": "+44 2082537777",
+            "website": "www.harrisfederation.org.uk"
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "div:contains(Contact name) ~ h4, div:contains(Address)",
+            "text_quote": "Procurement@harrisfederation.org.uk\n+44 2082537777\nwww.harrisfederation.org.uk"
+          }
+        },
+        "description": {
+          "value": "As detailed in tender pack",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Description)",
+            "text_quote": "As detailed in tender pack"
+          }
+        },
+        "notice_information": {
+          "value": "Open opportunity - This means that the contract is currently active, and the buying department is looking for potential suppliers to fulfil the contract.",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Open opportunity)",
+            "text_quote": "Open opportunity - This means that the contract is currently active, and the buying department is looking for potential suppliers to fulfil the contract."
+          }
+        },
+        "published_date": {
+          "value": "2026-05-27",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Published date)",
+            "text_quote": "27 May 2026"
+          }
+        },
+        "closing_date": {
+          "value": "2026-06-19",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Closing date)",
+            "text_quote": "19 June 2026"
+          }
+        },
+        "closing_time": {
+          "value": "12:00",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Closing time)",
+            "text_quote": "12pm"
+          }
+        },
+        "contract_start_date": {
+          "value": "2026-07-06",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Contract start date)",
+            "text_quote": "6 July 2026"
+          }
+        },
+        "contract_end_date": {
+          "value": "2026-08-28",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Contract end date)",
+            "text_quote": "28 August 2026"
+          }
+        },
+        "contract_type": {
+          "value": "Works",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Contract type)",
+            "text_quote": "Works"
+          }
+        },
+        "procedure_type": {
+          "value": "Open procedure (below threshold)",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Procedure type)",
+            "text_quote": "Open procedure (below threshold)"
+          }
+        },
+        "suitable_for_smes": {
+          "value": true,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Contract is suitable for SMEs?) + p",
+            "text_quote": "Yes"
+          }
+        },
+        "suitable_for_vcses": {
+          "value": false,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Contract is suitable for VCSEs?) + p",
+            "text_quote": "No"
+          }
+        },
+        "industry": {
+          "value": "Refurbishment work - 45453100",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "listitem:contains(Industry)",
+            "text_quote": "Refurbishment work - 45453100"
+          }
+        },
+        "location": {
+          "value": "London, England",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Location of contract)",
+            "text_quote": "London"
+          }
+        },
+        "contract_value": {
+          "value": 380000,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Value of contract)",
+            "text_quote": "£380,000"
+          }
+        },
+        "reference_number": {
+          "value": "MT237418",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Procurement reference)",
+            "text_quote": "MT237418"
+          }
+        },
+        "links": {
+          "value": [
+            {
+              "url": "https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404",
+              "text": "https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404"
+            }
+          ],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "listitem:contains(Links)"
+          }
+        },
+        "website": {
+          "value": "www.harrisfederation.org.uk",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "p:contains(Website)",
+            "text_quote": "www.harrisfederation.org.uk"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source_files": [
+          "page.safe.html",
+          "metadata.json",
+          "text.txt",
+          "html_signals"
+        ]
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 32.778,
+    "input_tokens": 16263,
+    "output_tokens": 2242,
+    "total_tokens": 18505,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_CFIN_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_CFIN_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

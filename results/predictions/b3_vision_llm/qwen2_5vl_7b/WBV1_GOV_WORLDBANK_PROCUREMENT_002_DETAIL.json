@@ -1,0 +1,46 @@
+{
+  "task_id": "WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Urban Productive Safety Net and Jobs Project",
+        "country": "Ethiopia",
+        "notice_status": "Published",
+        "submission_deadline_date_time": "2024-05-30T02:00:00Z",
+        "published_date": "2024-05-30"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 7.017,
+    "input_tokens": 9912,
+    "output_tokens": 139,
+    "total_tokens": 10051,
+    "num_tiles": 6,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL\\tile_05.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL\\tile_06.png"
+    ],
+    "error": null
+  }
+}

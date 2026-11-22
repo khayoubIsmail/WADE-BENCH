@@ -1,0 +1,149 @@
+{
+  "task_id": "WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Procurement of Personal Safety and protection Materials.",
+        "tender_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00293150",
+        "notice_id": "OP00293150",
+        "project_title": "Urban Productive Safety Net and Jobs Project",
+        "country": "Ethiopia",
+        "reference_number": "ET-OROMIA-ASALA-311183-GO-RFB",
+        "tender_type": "Invitation for Bids",
+        "procurement_method": "Request for Bids",
+        "submission_deadline": "2024-05-30",
+        "contact_name": "Banti Gadisa",
+        "organization": "Oromya Regional State Urban Development and Housing Bureau",
+        "contact_email": "bentigadis@gmail.com",
+        "location": {
+          "city": "Addis Ababa",
+          "country": "Ethiopia"
+        },
+        "bidding_details": [
+          {
+            "lot_number": "1",
+            "description": "Procurement of Protective cloth Coats, Women’s over or coveralls, Hats, Water proof jacket or rain coat and Tents coveralls, Hats, Water proof jacket or rain coat and Tents",
+            "delivery_period": "Within 60 calendar days"
+          },
+          {
+            "lot_number": "2",
+            "description": "Procurement of Safety Shoes for Men and Women",
+            "delivery_period": "Within 60 calendar days"
+          },
+          {
+            "lot_number": "3",
+            "description": "Procurement of Protective Gloves Leather and Plastic, EyeSafety Glass, First Aid Kit and Mask or respirators filters",
+            "delivery_period": "Within 60 calendar days"
+          }
+        ],
+        "bid_security_required": {
+          "total_amount": "84,700.00 Birr",
+          "details": [
+            {
+              "lot": "Lot-1",
+              "amount": "47,500.00 Birr"
+            },
+            {
+              "lot": "Lot 2",
+              "amount": "18,700.00 Birr"
+            },
+            {
+              "lot": "Lot 3",
+              "amount": "18,500.00 Birr"
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "text.txt",
+          "selector": "h2"
+        },
+        "tender_url": {
+          "source": "metadata.json",
+          "selector": "url"
+        },
+        "notice_id": {
+          "source": "visible_text",
+          "selector": "Notice No"
+        },
+        "project_title": {
+          "source": "visible_text",
+          "selector": "NAME OF PROJECT: Urban Productive Safety Net and Jobs Project (UPSNJP) Credit No: IDA - D7320"
+        },
+        "country": {
+          "source": "visible_text",
+          "selector": "COUNTRY: Ethiopia"
+        },
+        "reference_number": {
+          "source": "visible_text",
+          "selector": "Reference No: ET-OROMIA-ASELLA-311183-GO-RFB"
+        },
+        "tender_type": {
+          "source": "visible_text",
+          "selector": "Notice Type: Invitation for Bids"
+        },
+        "procurement_method": {
+          "source": "visible_text",
+          "selector": "Procurement Method: Request for Bids"
+        },
+        "submission_deadline": {
+          "source": "visible_text",
+          "selector": "May 30, 2024 02:00"
+        },
+        "contact_name": {
+          "source": "visible_text",
+          "selector": "Banti Gadisa"
+        },
+        "organization": {
+          "source": "visible_text",
+          "selector": "Oromya Regional State Urban Development and Housing Bureau"
+        },
+        "contact_email": {
+          "source": "visible_text",
+          "selector": "bentigadis@gmail.com"
+        },
+        "location": {
+          "source": "visible_text",
+          "selector": "Addis Ababa, Ethiopia"
+        },
+        "bidding_details": {
+          "lot_1": {
+            "source": "page.safe.html",
+            "selector": "#e224"
+          },
+          "lot_2": {
+            "source": "page.safe.html",
+            "selector": "#e235"
+          },
+          "lot_3": {
+            "source": "page.safe.html",
+            "selector": "#e244"
+          }
+        },
+        "bid_security_required": {
+          "source": "visible_text",
+          "selector": "Lot-1, 47,500 Birr Lot 2- 18,700.00 Birr/ and Lot 3- 18,500.00 Birr"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 25.052,
+    "input_tokens": 27144,
+    "output_tokens": 1170,
+    "total_tokens": 28314,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

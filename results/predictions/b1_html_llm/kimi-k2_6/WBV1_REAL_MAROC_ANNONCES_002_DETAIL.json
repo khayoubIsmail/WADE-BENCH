@@ -1,0 +1,112 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+        "price": {
+          "amount": 1185000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "listing_title": "Vend joli appart Maarif",
+        "address": "Casablanca / Maarif",
+        "property_type": "Appartement",
+        "floor_area": {
+          "value": 72,
+          "unit": "m2"
+        },
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "published_date": "2020-05-28",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/315/6112302.jpg",
+          "https://www.marocannonces.com/user_images/315/2355782.jpg",
+          "https://www.marocannonces.com/user_images/315/1186400.jpg",
+          "https://www.marocannonces.com/user_images/315/2806113.jpg",
+          "https://www.marocannonces.com/user_images/315/7968577.jpg",
+          "https://www.marocannonces.com/user_images/315/7640438.jpg"
+        ],
+        "listing_agent_name": "Riffi"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "strong.price span",
+          "text_quote": "1 185 000 DH"
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "h1",
+          "text_quote": "Vend joli appart Maarif"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.info-holder li a",
+          "text_quote": "Casablanca / Maarif"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.breadcrumbs li:nth-child(3) a",
+          "text_quote": "Appartements"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "ul.extraQuestionName li:nth-child(1) a",
+          "text_quote": "72"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "ul.extraQuestionName li:nth-child(2) a",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "ul.extraQuestionName li:nth-child(3) a",
+          "text_quote": "1"
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.info-holder li:nth-child(2)",
+          "text_quote": "Publiée le: 28 May-20:23"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div.ad-gallery div.ad-thumbs ul.ad-thumb-list li a",
+          "text_quote": "user_images/315/6112302.jpg"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div.infoannonce dl dd",
+          "text_quote": "Riffi"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 61.63,
+    "input_tokens": 140302,
+    "output_tokens": 595,
+    "total_tokens": 140897,
+    "initial_input_tokens": 140302,
+    "initial_output_tokens": 595,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

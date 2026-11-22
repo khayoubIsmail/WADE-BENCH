@@ -1,0 +1,498 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING",
+  "source_files": {
+    "page_html": "data/raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING/page.html",
+    "page_safe_html": "data/raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING/page.safe.html",
+    "text_txt": "data/raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING/text.txt",
+    "ax_tree": "data/raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING/ax_tree.json",
+    "metadata": "data/raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING/metadata.json",
+    "screenshot": "data/raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING/screenshot.png"
+  },
+  "mcp": {
+    "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING/page.safe.html",
+    "available_tools": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "browser_snapshot": "### Page\n- Page URL: http://127.0.0.1:62753/page.safe.html\n- Page Title: Maroc Annonce immobilier,vente,achat appartement,villa maison,terrain construction,fond commerce,bureau,studio,magasin,pharmacie et fermes...\n- Console: 31 errors, 1 warnings\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - generic [ref=e2]:\n    - generic [ref=e3]:\n      - list [ref=e5]:\n        - listitem [ref=e6]:\n          - link \"Mes Favoris\" [ref=e7] [cursor=pointer]:\n            - /url: mes-favoris.html\n        - listitem [ref=e8]:\n          - link \"Connexion\" [ref=e9] [cursor=pointer]:\n            - /url: mon-compte/\n        - listitem [ref=e10]:\n          - link \"Inscription\" [ref=e11] [cursor=pointer]:\n            - /url: register.php\n        - listitem [ref=e12]:\n          - link \"FAQ\" [ref=e13] [cursor=pointer]:\n            - /url: faq.html\n        - listitem [ref=e14]:\n          - link \"Contact\" [ref=e15] [cursor=pointer]:\n            - /url: contact.html\n      - strong [ref=e17]:\n        - link \"Maroc Annonces.com\" [ref=e18] [cursor=pointer]:\n          - /url: /index.php\n      - list [ref=e22]:\n        - listitem [ref=e23]:\n          - link \"Accueil\" [ref=e24] [cursor=pointer]:\n            - /url: /index.php\n        - listitem [ref=e25]:\n          - link \"Emploi\" [ref=e26] [cursor=pointer]:\n            - /url: categorie/309/Emploi/Offres-emploi.html\n        - listitem [ref=e27]:\n          - link \"Auto-moto\" [ref=e28] [cursor=pointer]:\n            - /url: categorie/15/Auto-Moto.html\n        - listitem [ref=e29]:\n          - link \"Immobilier\" [ref=e30] [cursor=pointer]:\n            - /url: javascript:void(0)\n        - listitem [ref=e31]:\n          - link \"Multi services\" [ref=e32] [cursor=pointer]:\n            - /url: categorie/307/Multi-Services.html\n        - listitem [ref=e33]:\n          - link \"Ventes diverses\" [ref=e34] [cursor=pointer]:\n            - /url: categorie/308/Ventes-diverses.html\n        - listitem [ref=e35]:\n          - link \"Multimédia\" [ref=e36] [cursor=pointer]:\n            - /url: categorie/306/Multim%C3%A9dia.html\n        - listitem [ref=e37]:\n          - link \"Boutiques Recruteurs\" [ref=e38] [cursor=pointer]:\n            - /url: /boutiques/offres-emploi\n      - insertion [ref=e40]:\n        - iframe [ref=e42]:\n          \n      - generic [ref=e44]:\n        - textbox \"Mots clés\" [ref=e46]\n        - combobox [ref=e48]:\n          - option \"Toutes les catégories\"\n          - option \"-- Emploi --\"\n          - option \"Offres emploi\"\n          - option \"Demandes d'emploi\"\n          - option \"Demandes de stage\"\n          - option \"Freelance\"\n          - option \"Formations\"\n          - option \"-- Auto - Moto --\"\n          - option \"Voitures occasion\"\n          - option \"4x4 tout terrain\"\n          - option \"Moto - 2 roues\"\n          - option \"Poids lourds\"\n          - option \"Bateau - Jetski\"\n          - option \"Pièces détachées - accessoires\"\n          - option \"Covoiturage\"\n          - option \"-- Vente immobilier --\" [selected]\n          - option \"Appartements\"\n          - option \"Villas - Maisons - Riads\"\n          - option \"Studios\"\n          - option \"Fonds de commerce\"\n          - option \"Terrains constructibles\"\n          - option \"Bureaux - Plateaux\"\n          - option \"Magasins - Dépôt - Hangar - Cave\"\n          - option \"Fermes - Terrains Agricoles\"\n          - option \"Pharmacies\"\n          - option \"-- Location immobilier --\"\n          - option \"Appartements\"\n          - option \"Villas - Maisons - Riads\"\n          - option \"Studios\"\n          - option \"Location vacances\"\n          - option \"Colocation\"\n          - option \"Fonds de commerce\"\n          - option \"Bureaux - Plateaux\"\n          - option \"Magasins - Dépôt - Hangar - Cave\"\n          - option \"Fermes - Terrains Agricoles\"\n          - option \"-- Multi Services --\"\n          - option \"Demande en mariage\"\n          - option \"Cours de soutien\"\n          - option \"Services Divers\"\n          - option \"-- Ventes diverses --\"\n          - option \"Animaux\"\n          - option \"Meubles\"\n          - option \"Électroménager - Électronique\"\n          - option \"Musique\"\n          - option \"Beauté - Bien être\"\n          - option \"Matériel Médical\"\n          - option \"Business - Affaires\"\n          - option \"Articles de sport\"\n          - option \"Jouets - jeux\"\n          - option \"Vêtements\"\n          - option \"Echanges - Troc\"\n          - option \"Matériaux - Equipements\"\n          - option \"Articles bébé\"\n          - option \"Voyages - Vacances\"\n          - option \"Autres Ventes\"\n          - option \"-- Multimédia --\"\n          - option \"Téléphones Portables\"\n          - option \"PC bureaux - PC portables - Tablettes\"\n          - option \"Materiel informatique\"\n          - option \"Jeux video - Consoles\"\n          - option \"Appareils photos, caméscopes...\"\n        - combobox [ref=e50]:\n          - option \"Toutes les villes\" [selected]\n          - option \"Agadir\"\n          - option \"Al hoceima\"\n          - option \"Aoussered\"\n          - option \"Assilah\"\n          - option \"Autre ville\"\n          - option \"Azrou\"\n          - option \"Ben ahmed\"\n          - option \"Benguerir\"\n          - option \"Beni mellal\"\n          - option \"Benslimane\"\n          - option \"Berkane\"\n          - option \"Berrechid\"\n          - option \"Boujdour\"\n          - option \"Bouskoura\"\n          - option \"Bouznika\"\n          - option \"Casablanca\"\n          - option \"Chafchaouen\"\n          - option \"Dakhla\"\n          - option \"Deroua\"\n          - option \"El hajeb\"\n          - option \"El jadida\"\n          - option \"El kelaa des sraghna\"\n          - option \"Errachidia\"\n          - option \"Essaouira\"\n          - option \"Essmara\"\n          - option \"Fès\"\n          - option \"Fkih ben salah\"\n          - option \"Guelmim\"\n          - option \"Guercif\"\n          - option \"Had soualem\"\n          - option \"Ifrane\"\n          - option \"Imouzzer kandar\"\n          - option \"Kénitra\"\n          - option \"Kabila\"\n          - option \"Khemisset\"\n          - option \"Khenifra\"\n          - option \"Khouribga\"\n          - option \"Ksar el kebir\"\n          - option \"Laayoune\"\n          - option \"Larache\"\n          - option \"Marrakech\"\n          - option \"Martil\"\n          - option \"Mediouna\"\n          - option \"Meknès\"\n          - option \"Melilia\"\n          - option \"Midelt\"\n          - option \"Mohammedia\"\n          - option \"Nador\"\n          - option \"Nouaceur\"\n          - option \"Oualidia\"\n          - option \"Ouarzazate\"\n          - option \"Ouazzane\"\n          - option \"Oujda\"\n          - option \"Rabat\"\n          - option \"Safi\"\n          - option \"Saidia\"\n          - option \"Salé\"\n          - option \"Sebta\"\n          - option \"Sefrou\"\n          - option \"Settat\"\n          - option \"Sidi bennour\"\n          - option \"Sidi ifni\"\n          - option \"Sidi kacem\"\n          - option \"Sidi rahal\"\n          - option \"Sidi slimane\"\n          - option \"Souk elarbaa du gharb\"\n          - option \"Tamensourte\"\n          - option \"Tamesna\"\n          - option \"Tanger\"\n          - option \"Tantan\"\n          - option \"Tarfaya\"\n          - option \"Taroudant\"\n          - option \"Taza\"\n          - option \"Temara\"\n          - option \"Tetouan\"\n          - option \"Tifelt\"\n          - option \"Tinghir\"\n          - option \"Tiznit\"\n          - option \"Tout le maroc\"\n          - option \"Youssoufia\"\n          - option \"Zagora\"\n        - generic [ref=e51]:\n          - generic [ref=e52]:\n            - checkbox \"Avec photos\" [ref=e53]\n            - text: Avec photos\n          - generic [ref=e54]:\n            - checkbox \"Trier par prix\" [ref=e55]\n            - text: Trier par prix\n        - button \"Rechercher\" [ref=e57] [cursor=pointer]\n    - generic [ref=e58]:\n      - generic [ref=e60]:\n        - list [ref=e62]\n        - generic [ref=e63]:\n          - generic [ref=e64]:\n            - heading \"Vente immobilier\" [level=1] [ref=e65]\n            - paragraph [ref=e66]:\n              - text: Vous consultez les\n              - strong [ref=e67]: 21 006\n              - text: petites annonces Vente immobilier\n          - list [ref=e69]:\n            - listitem [ref=e70]:\n              - link \"Appartements\" [ref=e71] [cursor=pointer]:\n                - /url: categorie/315/Vente-immobilier/Appartements.html\n              - text: (9198)\n            - listitem [ref=e72]:\n              - link \"Villas - Maisons - Riads\" [ref=e73] [cursor=pointer]:\n                - /url: categorie/319/Vente-immobilier/Villas-Maisons-Riads.html\n              - text: (4477)\n            - listitem [ref=e74]:\n              - link \"Studios\" [ref=e75] [cursor=pointer]:\n                - /url: categorie/318/Vente-immobilier/Studios.html\n              - text: (255)\n            - listitem [ref=e76]:\n              - link \"Fonds de commerce\" [ref=e77] [cursor=pointer]:\n                - /url: categorie/320/Vente-immobilier/Fonds-de-commerce.html\n              - text: (403)\n            - listitem [ref=e78]:\n              - link \"Terrains constructibles\" [ref=e79] [cursor=pointer]:\n                - /url: categorie/332/Vente-immobilier/Terrains-constructibles.html\n              - text: (3624)\n            - listitem [ref=e80]:\n              - link \"Bureaux - Plateaux\" [ref=e81] [cursor=pointer]:\n                - /url: categorie/331/Vente-immobilier/Bureaux-Plateaux.html\n              - text: (615)\n            - listitem [ref=e82]:\n              - link \"Magasins - Dépôt - Hangar - Cave\" [ref=e83] [cursor=pointer]:\n                - /url: categorie/330/Vente-immobilier/Magasins-Dépôt-Hangar-Cave.html\n              - text: (960)\n            - listitem [ref=e84]:\n              - link \"Fermes - Terrains Agricoles\" [ref=e85] [cursor=pointer]:\n                - /url: categorie/334/Vente-immobilier/Fermes-Terrains-Agricoles.html\n              - text: (1178)\n            - listitem [ref=e86]:\n              - link \"Pharmacies\" [ref=e87] [cursor=pointer]:\n                - /url: categorie/335/Vente-immobilier/Pharmacies.html\n              - text: (298)\n          - list [ref=e89]:\n            - listitem [ref=e90]:\n              - link \"Vend joli appart Maarif Vend joli appart maarif Casablanca / Maarif 1 185 000 DH Appartements\":\n                - /url: categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html\n                - img \"Vend joli appart Maarif\" [ref=e92] [cursor=pointer]\n                - generic [ref=e93] [cursor=pointer]:\n                  - heading \"Vend joli appart maarif\" [level=3] [ref=e94]\n                  - generic [ref=e95]: Casablanca / Maarif\n                  - strong [ref=e96]: 1 185 000 DH\n                  - generic [ref=e97]: Appartements\n              - generic [ref=e98]:\n                - emphasis [ref=e99]:\n                  - text: Aujourd'hui\n                  - text: 20:23\n                - generic \"Favoris\" [ref=e100] [cursor=pointer]\n            - listitem [ref=e101]:\n              - link \"Belle appartement à vendre Belle appartement à vendre Tanger / Marjane 1 180 000 DH Appartements\":\n                - /url: categorie/315/Appartements/annonce/10387454/Belle-appartement-à-vendre.html\n                - img \"Belle appartement à vendre\" [ref=e103] [cursor=pointer]\n                - generic [ref=e104] [cursor=pointer]:\n                  - heading \"Belle appartement à vendre\" [level=3] [ref=e105]\n                  - generic [ref=e106]: Tanger / Marjane\n                  - strong [ref=e107]: 1 180 000 DH\n                  - generic [ref=e108]: Appartements\n              - generic [ref=e109]:\n                - emphasis [ref=e110]:\n                  - text: Aujourd'hui\n                  - text: 20:23\n                - generic \"Favoris\" [ref=e111] [cursor=pointer]\n            - listitem [ref=e112]:\n              - link \"Terrain commercial, lotissement andalouss ,Oujda Terrain commercial, lotissement andalouss ,oujda Oujda 360 000 DH Terrains constructibles\":\n                - /url: categorie/332/Terrains-constructibles/annonce/10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html\n                - img \"Terrain commercial, lotissement andalouss ,Oujda\" [ref=e114] [cursor=pointer]\n                - generic [ref=e115] [cursor=pointer]:\n                  - heading \"Terrain commercial, lotissement andalouss ,oujda\" [level=3] [ref=e116]\n                  - generic [ref=e117]: Oujda\n                  - strong [ref=e118]: 360 000 DH\n                  - generic [ref=e119]: Terrains constructibles\n              - generic [ref=e120]:\n                - emphasis [ref=e121]:\n                  - text: Aujourd'hui\n                  - text: 18:19\n                - generic \"Favoris\" [ref=e122] [cursor=pointer]\n            - listitem [ref=e123]:\n              - generic:\n                - generic:\n                  - insertion:\n                    - iframe [ref=e125]:\n                      \n            - listitem [ref=e126]:\n              - link \"Lot magnifique à côté de gala OUJDA Lot magnifique à côté de gala oujda Oujda 210 000 DH Terrains constructibles\":\n                - /url: categorie/332/Terrains-constructibles/annonce/10328164/Lot-magnifique-à-côté-de-gala-OUJDA.html\n                - img \"Lot magnifique à côté de gala OUJDA\" [ref=e128] [cursor=pointer]\n                - generic [ref=e129] [cursor=pointer]:\n                  - heading \"Lot magnifique à côté de gala oujda\" [level=3] [ref=e130]\n                  - generic [ref=e131]: Oujda\n                  - strong [ref=e132]: 210 000 DH\n                  - generic [ref=e133]: Terrains constructibles\n              - generic [ref=e134]:\n                - emphasis [ref=e135]:\n                  - text: Aujourd'hui\n                  - text: 18:19\n                - generic \"Favoris\" [ref=e136] [cursor=pointer]\n            - listitem [ref=e137]:\n              - link \"Porte garage hamza Porte garage hamza Marrakech 5 000 DH Magasins - Dépôt - Hangar - Cave\":\n                - /url: categorie/330/Magasins-Dépôt-Hangar-Cave/annonce/10387375/Porte-garage-hamza.html\n                - img \"Porte garage hamza\" [ref=e139] [cursor=pointer]\n                - generic [ref=e140] [cursor=pointer]:\n                  - heading \"Porte garage hamza\" [level=3] [ref=e141]\n                  - generic [ref=e142]: Marrakech\n                  - strong [ref=e143]: 5 000 DH\n                  - generic [ref=e144]: Magasins - Dépôt - Hangar - Cave\n              - generic [ref=e145]:\n                - emphasis [ref=e146]:\n                  - text: Aujourd'hui\n                  - text: 15:35\n                - generic \"Favoris\" [ref=e147] [cursor=pointer]\n            - listitem [ref=e148]:\n              - link \"Terrain titré pour villa Moulay Bousselham Terrain titré pour villa moulay bousselham Kénitra 900 000 DH Terrains constructibles\":\n                - /url: categorie/332/Terrains-constructibles/annonce/10357677/Terrain-titré-pour-villa-Moulay-Bousselham.html\n                - img \"Terrain titré pour villa Moulay Bousselham\" [ref=e150] [cursor=pointer]\n                - generic [ref=e151] [cursor=pointer]:\n                  - heading \"Terrain titré pour villa moulay bousselham\" [level=3] [ref=e152]\n                  - generic [ref=e153]: Kénitra\n                  - strong [ref=e154]: 900 000 DH\n                  - generic [ref=e155]: Terrains constructibles\n              - generic [ref=e156]:\n                - emphasis [ref=e157]:\n                  - text: Aujourd'hui\n                  - text: 12:00\n                - generic \"Favoris\" [ref=e158] [cursor=pointer]\n            - listitem [ref=e159]:\n              - link \"Terrain titré r3 (futur r+5) Terrain titré r3 (futur r+5) Khemisset Terrains constructibles\":\n                - /url: categorie/332/Terrains-constructibles/annonce/10149173/Terrain-titré-r3-(futur-r5).html\n                - img \"Terrain titré r3 (futur r+5)\" [ref=e161] [cursor=pointer]\n                - generic [ref=e162] [cursor=pointer]:\n                  - heading \"Terrain titré r3 (futur r+5)\" [level=3] [ref=e163]\n                  - generic [ref=e164]: Khemisset\n                  - generic [ref=e165]: Terrains constructibles\n              - generic [ref=e166]:\n                - emphasis [ref=e167]:\n                  - text: Hier\n                  - text: 19:11\n                - generic \"Favoris\" [ref=e168] [cursor=pointer]\n            - listitem [ref=e169]:\n              - link \"Maison à vendre R+3.agadir Maison à vendre r+3.agadir Agadir 1 600 000 DH Villas - Maisons - Riads\":\n                - /url: categorie/319/Villas-Maisons-Riads/annonce/10387171/Maison-à-vendre-R3agadir.html\n                - img \"Maison à vendre R+3.agadir\" [ref=e171] [cursor=pointer]\n                - generic [ref=e172] [cursor=pointer]:\n                  - heading \"Maison à vendre r+3.agadir\" [level=3] [ref=e173]\n                  - generic [ref=e174]: Agadir\n                  - strong [ref=e175]: 1 600 000 DH\n                  - generic [ref=e176]: Villas - Maisons - Riads\n              - generic [ref=e177]:\n                - emphasis [ref=e178]:\n                  - text: Hier\n                  - text: 15:01\n                - generic \"Favoris\" [ref=e179] [cursor=pointer]\n            - listitem [ref=e180]:\n              - link \"Terrain expose orangerie angle 1250m Rabat / Souissi 110 000 000 DH Terrains constructibles\":\n                - /url: categorie/332/Terrains-constructibles/annonce/10387042/Terrain-expose-orangerie-angle-1250m.html\n                - generic [ref=e182] [cursor=pointer]:\n                  - heading \"Terrain expose orangerie angle 1250m\" [level=3] [ref=e183]\n                  - generic [ref=e184]: Rabat / Souissi\n                  - strong [ref=e185]: 110 000 000 DH\n                  - generic [ref=e186]: Terrains constructibles\n              - generic [ref=e187]:\n                - emphasis [ref=e188]:\n                  - text: Hier\n                  - text: 09:40\n                - generic \"Favoris\" [ref=e189] [cursor=pointer]\n            - listitem [ref=e190]:\n              - link \"Bureau exposé Rabat / Hay Ryad 11 500 DH Bureaux - Plateaux\":\n                - /url: categorie/331/Bureaux-Plateaux/annonce/10290598/Bureau-exposé.html\n                - generic [ref=e192] [cursor=pointer]:\n                  - heading \"Bureau exposé\" [level=3] [ref=e193]\n                  - generic [ref=e194]: Rabat / Hay Ryad\n                  - strong [ref=e195]: 11 500 DH\n                  - generic [ref=e196]: Bureaux - Plateaux\n              - generic [ref=e197]:\n                - emphasis [ref=e198]:\n                  - text: Hier\n                  - text: 09:40\n                - generic \"Favoris\" [ref=e199] [cursor=pointer]\n            - listitem [ref=e200]:\n              - link \"Terrain villa riad Rabat / Hay Ryad 47 500 000 DH Terrains constructibles\":\n                - /url: categorie/332/Terrains-constructibles/annonce/10385987/Terrain-villa-riad.html\n                - generic [ref=e202] [cursor=pointer]:\n                  - heading \"Terrain villa riad\" [level=3] [ref=e203]\n                  - generic [ref=e204]: Rabat / Hay Ryad\n                  - strong [ref=e205]: 47 500 000 DH\n                  - generic [ref=e206]: Terrains constructibles\n              - generic [ref=e207]:\n                - emphasis [ref=e208]:\n                  - text: Hier\n                  - text: 09:40\n                - generic \"Favoris\" [ref=e209] [cursor=pointer]\n            - listitem [ref=e210]:\n              - link \"Terrain expose bir kacem Rabat / Bir Kacem 10 800 000 DH Terrains constructibles\":\n                - /url: categorie/332/Terrains-constructibles/annonce/10325969/Terrain-expose-bir-kacem.html\n                - generic [ref=e212] [cursor=pointer]:\n                  - heading \"Terrain expose bir kacem\" [level=3] [ref=e213]\n                  - generic [ref=e214]: Rabat / Bir Kacem\n                  - strong [ref=e215]: 10 800 000 DH\n                  - generic [ref=e216]: Terrains constructibles\n              - generic [ref=e217]:\n                - emphasis [ref=e218]:\n                  - text: Hier\n                  - text: 09:40\n                - generic \"Favoris\" [ref=e219] [cursor=pointer]\n            - listitem [ref=e220]:\n              - link \"Appartement à vendre Bouskoura 560 000 DH Appartements\":\n                - /url: categorie/315/Appartements/annonce/10334323/Appartement-à-vendre.html\n                - generic [ref=e222] [cursor=pointer]:\n                  - heading \"Appartement à vendre\" [level=3] [ref=e223]\n                  - generic [ref=e224]: Bouskoura\n                  - strong [ref=e225]: 560 000 DH\n                  - generic [ref=e226]: Appartements\n              - generic [ref=e227]:\n                - emphasis [ref=e228]:\n                  - text: Hier\n                  - text: 09:40\n                - generic \"Favoris\" [ref=e229] [cursor=pointer]\n            - listitem [ref=e230]:\n              - link \"Appartement a vendre tanger Appartement a vendre tanger Tanger / Centre ville 200 000 DH Appartements\":\n                - /url: categorie/315/Appartements/annonce/10387082/Appartement-a-vendre-tanger.html\n                - img \"Appartement a vendre tanger\" [ref=e232] [cursor=pointer]\n                - generic [ref=e233] [cursor=pointer]:\n                  - heading \"Appartement a vendre tanger\" [level=3] [ref=e234]\n                  - generic [ref=e235]: Tanger / Centre ville\n                  - strong [ref=e236]: 200 000 DH\n                  - generic [ref=e237]: Appartements\n              - generic [ref=e238]:\n                - emphasis [ref=e239]:\n                  - text: 26 Mai 2026\n                  - text: 19:36\n                - generic \"Favoris\" [ref=e240] [cursor=pointer]\n            - listitem [ref=e241]:\n              - link \"Villa à vendre en zone immeuble R3 Villa à vendre en zone immeuble r3 Casablanca / Hermitage 1 DH Villas - Maisons - Riads\":\n                - /url: categorie/319/Villas-Maisons-Riads/annonce/10387068/Villa-à-vendre-en-zone-immeuble-R3.html\n                - img \"Villa à vendre en zone immeuble R3\" [ref=e243] [cursor=pointer]\n                - generic [ref=e244] [cursor=pointer]:\n                  - heading \"Villa à vendre en zone immeuble r3\" [level=3] [ref=e245]\n                  - generic [ref=e246]: Casablanca / Hermitage\n                  - strong [ref=e247]: 1 DH\n                  - generic [ref=e248]: Villas - Maisons - Riads\n              - generic [ref=e249]:\n                - emphasis [ref=e250]:\n                  - text: 26 Mai 2026\n                  - text: 16:31\n                - generic \"Favoris\" [ref=e251] [cursor=pointer]\n            - listitem [ref=e252]:\n              - link \"Bel appartement ryad 185u Rabat 1 850 000 DH Appartements\":\n                - /url: categorie/315/Appartements/annonce/10387040/Bel-appartement-ryad-185u.html\n                - generic [ref=e254] [cursor=pointer]:\n                  - heading \"Bel appartement ryad 185u\" [level=3] [ref=e255]\n                  - generic [ref=e256]: Rabat\n                  - strong [ref=e257]: 1 850 000 DH\n                  - generic [ref=e258]: Appartements\n              - generic [ref=e259]:\n                - emphasis [ref=e260]:\n                  - text: 26 Mai 2026\n                  - text: 15:12\n                - generic \"Favoris\" [ref=e261] [cursor=pointer]\n            - listitem [ref=e262]:\n              - link \"Appartement en vente res bagdad 99/m Appartement en vente res bagdad 99/m Casablanca / Sidi Bernoussi 870 000 DH Appartements\":\n                - /url: categorie/315/Appartements/annonce/10376659/Appartement-en-vente-res-bagdad-99m.html\n                - img \"Appartement en vente res bagdad 99/m\" [ref=e264] [cursor=pointer]\n                - generic [ref=e265] [cursor=pointer]:\n                  - heading \"Appartement en vente res bagdad 99/m\" [level=3] [ref=e266]\n                  - generic [ref=e267]: Casablanca / Sidi Bernoussi\n                  - strong [ref=e268]: 870 000 DH\n                  - generic [ref=e269]: Appartements\n              - generic [ref=e270]:\n                - emphasis [ref=e271]:\n                  - text: 26 Mai 2026\n                  - text: 14:02\n                - generic \"Favoris\" [ref=e272] [cursor=pointer]\n            - listitem [ref=e273]:\n              - link \"Terrain Titré constructible 213m2 Imouzzer Kandar Terrain titré constructible 213m2 imouzzer kandar Imouzzer Kandar 300 000 DH Terrains constructibles\":\n                - /url: categorie/332/Terrains-constructibles/annonce/10387011/Terrain-Titré-constructible-213m2-Imouzzer-Kandar.html\n                - img \"Terrain Titré constructible 213m2 Imouzzer Kandar\" [ref=e275] [cursor=pointer]\n                - generic [ref=e276] [cursor=pointer]:\n                  - heading \"Terrain titré constructible 213m2 imouzzer kandar\" [level=3] [ref=e277]\n                  - generic [ref=e278]: Imouzzer Kandar\n                  - strong [ref=e279]: 300 000 DH\n                  - generic [ref=e280]: Terrains constructibles\n              - generic [ref=e281]:\n                - emphasis [ref=e282]:\n                  - text: 26 Mai 2026\n                  - text: 13:31\n                - generic \"Favoris\" [ref=e283] [cursor=pointer]\n            - listitem [ref=e284]:\n              - link \"Terrains a vendre Casablanca / Belvédère 26 000 DH Terrains constructibles\":\n                - /url: categorie/332/Terrains-constructibles/annonce/10386934/terrains-a-vendre.html\n                - generic [ref=e286] [cursor=pointer]:\n                  - heading \"Terrains a vendre\" [level=3] [ref=e287]\n                  - generic [ref=e288]: Casablanca / Belvédère\n                  - strong [ref=e289]: 26 000 DH\n                  - generic [ref=e290]: Terrains constructibles\n              - generic [ref=e291]:\n                - emphasis [ref=e292]:\n                  - text: 26 Mai 2026\n                  - text: 10:10\n                - generic \"Favoris\" [ref=e293] [cursor=pointer]\n            - listitem [ref=e294]:\n              - link \"Appartement a vendre Appartement a vendre Casablanca / Lissasfa 960 000 DH Appartements\":\n                - /url: categorie/315/Appartements/annonce/10310952/Appartement-a-vendre.html\n                - img \"Appartement a vendre\" [ref=e296] [cursor=pointer]\n                - generic [ref=e297] [cursor=pointer]:\n                  - heading \"Appartement a vendre\" [level=3] [ref=e298]\n                  - generic [ref=e299]: Casablanca / Lissasfa\n                  - strong [ref=e300]: 960 000 DH\n                  - generic [ref=e301]: Appartements\n              - generic [ref=e302]:\n                - emphasis [ref=e303]:\n                  - text: 26 Mai 2026\n                  - text: 09:49\n                - generic \"Favoris\" [ref=e304] [cursor=pointer]\n          - list [ref=e306]:\n            - listitem [ref=e307]:\n              - strong [ref=e308]: \"1\"\n            - listitem [ref=e309]:\n              - link \"2\" [ref=e310] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/2.html\n            - listitem [ref=e311]:\n              - link \"3\" [ref=e312] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/3.html\n            - listitem [ref=e313]:\n              - link \"4\" [ref=e314] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/4.html\n            - listitem [ref=e315]:\n              - link \"5\" [ref=e316] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/5.html\n            - listitem [ref=e317]:\n              - link \"6\" [ref=e318] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/6.html\n            - listitem [ref=e319]:\n              - link \"7\" [ref=e320] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/7.html\n            - listitem [ref=e321]:\n              - link \"8\" [ref=e322] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/8.html\n            - listitem [ref=e323]:\n              - link \"9\" [ref=e324] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/9.html\n            - listitem [ref=e325]:\n              - link \"10\" [ref=e326] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/10.html\n            - listitem [ref=e327]:\n              - link \"Suivant\" [ref=e328] [cursor=pointer]:\n                - /url: categorie/16/Vente-immobilier/2.html\n      - generic [ref=e329]:\n        - link \"Publiez votre annonce\" [ref=e330] [cursor=pointer]:\n          - /url: /index.php?a=1\n          - generic [ref=e331]: Publiez votre annonce\n        - insertion [ref=e334]:\n          - generic [ref=e337]:\n            - heading \"Voici des thèmes associés à l'article qui pourraient vous intéresser\" [level=2] [ref=e339]: Voir plus\n            - link \"immobilier\" [ref=e340] [cursor=pointer]:\n              - generic \"immobilier\" [ref=e341]\n              - img [ref=e343]\n            - link \"Location\" [ref=e345] [cursor=pointer]:\n              - generic \"Location\" [ref=e346]\n              - img [ref=e348]\n            - link \"Pièces détachées auto\" [ref=e350] [cursor=pointer]:\n              - generic \"Pièces détachées auto\" [ref=e351]\n              - img [ref=e353]\n            - link \"Agences immobilières\" [ref=e355] [cursor=pointer]:\n              - generic \"Agences immobilières\" [ref=e356]\n              - img [ref=e358]\n            - link \"Terrains et terres\" [ref=e360] [cursor=pointer]:\n              - generic \"Terrains et terres\" [ref=e361]\n              - img [ref=e363]\n            - link \"Animaux à vendre\" [ref=e365] [cursor=pointer]:\n              - generic \"Animaux à vendre\" [ref=e366]\n              - img [ref=e368]\n            - link \"Voitures occasion Maroc\" [ref=e370] [cursor=pointer]:\n              - generic \"Voitures occasion Maroc\" [ref=e371]\n              - img [ref=e373]\n            - link \"Bureaux Plateaux Magasins\" [ref=e375] [cursor=pointer]:\n              - generic \"Bureaux Plateaux Magasins\" [ref=e376]\n              - img [ref=e378]\n        - generic:\n          - insertion:\n            - iframe [ref=e381]:\n              \n        - iframe [ref=e383]:\n          - generic [ref=f4e3]:\n            - link:\n              - /url: https://www.facebook.com/MarocAnnonces?ref=embed_page\n            - generic [ref=f4e6]:\n              - link [ref=f4e7] [cursor=pointer]:\n                - /url: https://www.facebook.com/202575276465513?ref=embed_page\n              - generic [ref=f4e9]:\n                - img [ref=f4e14]\n                - generic [ref=f4e16]:\n                  - generic [ref=f4e17]:\n                    - img [ref=f4e20]\n                    - generic [ref=f4e24]:\n                      - generic [ref=f4e26]: MarocAnnonces.Com\n                      - generic [ref=f4e27]: 282K followers\n                  - generic [ref=f4e30]: Annoncez avec le Nº 1 de la petite annonce ! MarocAnnonces.Com, 1ᵉʳ site d'annonces au Maroc depuis 2002.\n                  - generic [ref=f4e31]:\n                    - img [ref=f4e32]\n                    - generic [ref=f4e34]: Jobs and occupations\n                    - generic [ref=f4e35]: ·\n                    - generic [ref=f4e36]: £££\n                    - generic [ref=f4e37]: ·\n                    - img [ref=f4e38]\n                    - generic [ref=f4e40]: +212 5222-62326\n                  - link \"Follow\" [ref=f4e43] [cursor=pointer]:\n                    - /url: https://www.facebook.com/202575276465513?ref=embed_page\n                    - generic [ref=f4e44]:\n                      - img [ref=f4e45]\n                      - generic [ref=f4e48]: Follow\n        - generic [ref=e384]:\n          - heading \"Vente immobilier par ville\" [level=2] [ref=e385]\n          - list [ref=e386]:\n            - listitem [ref=e387]:\n              - link \"Casablanca\" [ref=e388] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-casablanca-b16-t563.html\n            - listitem [ref=e389]:\n              - link \"Marrakech\" [ref=e390] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-marrakech-b16-t580.html\n            - listitem [ref=e391]:\n              - link \"Rabat\" [ref=e392] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-rabat-b16-t590.html\n            - listitem [ref=e393]:\n              - link \"Tanger\" [ref=e394] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-tanger-b16-t601.html\n            - listitem [ref=e395]:\n              - link \"Agadir\" [ref=e396] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-agadir-b16-t552.html\n            - listitem [ref=e397]:\n              - link \"Mohammedia\" [ref=e398] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-mohammedia-b16-t585.html\n            - listitem [ref=e399]:\n              - link \"Salé\" [ref=e400] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-sale-b16-t592.html\n            - listitem [ref=e401]:\n              - link \"Fès\" [ref=e402] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-fes-b16-t569.html\n            - listitem [ref=e403]:\n              - link \"Temara\" [ref=e404] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-temara-b16-t605.html\n            - listitem [ref=e405]:\n              - link \"Kénitra\" [ref=e406] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-kenitra-b16-t573.html\n            - listitem [ref=e407]:\n              - link \"Meknès\" [ref=e408] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-meknes-b16-t582.html\n            - listitem [ref=e409]:\n              - link \"Bouskoura\" [ref=e410] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-bouskoura-b16-t562.html\n            - listitem [ref=e411]:\n              - link \"Berrechid\" [ref=e412] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-berrechid-b16-t560.html\n            - listitem [ref=e413]:\n              - link \"Nador\" [ref=e414] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-nador-b16-t586.html\n            - listitem [ref=e415]:\n              - link \"Tetouan\" [ref=e416] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-tetouan-b16-t606.html\n            - listitem [ref=e417]:\n              - link \"Mediouna\" [ref=e418] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-mediouna-b16-t835.html\n            - listitem [ref=e419]:\n              - link \"Nouaceur\" [ref=e420] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-nouaceur-b16-t834.html\n            - listitem [ref=e421]:\n              - link \"Oujda\" [ref=e422] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-oujda-b16-t589.html\n            - listitem [ref=e423]:\n              - link \"Safi\" [ref=e424] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-safi-b16-t591.html\n            - listitem [ref=e425]:\n              - link \"Settat\" [ref=e426] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-settat-b16-t595.html\n            - listitem [ref=e427]:\n              - link \"Bouznika\" [ref=e428] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-bouznika-b16-t792.html\n            - listitem [ref=e429]:\n              - link \"Khouribga\" [ref=e430] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-khouribga-b16-t576.html\n            - listitem [ref=e431]:\n              - link \"Deroua\" [ref=e432] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-deroua-b16-t833.html\n            - listitem [ref=e433]:\n              - link \"Laayoune\" [ref=e434] [cursor=pointer]:\n                - /url: /maroc/vente-immobilier-laayoune-b16-t578.html\n        - generic:\n          - insertion:\n            - iframe [ref=e436]:\n              \n        - insertion [ref=e438]:\n          - generic [ref=e441]:\n            - heading \"Voici des thèmes associés à l'article qui pourraient vous intéresser\" [level=2] [ref=e443]: Voir plus\n            - link \"Matériel informatique Maroc\" [ref=e444] [cursor=pointer]:\n              - generic \"Matériel informatique Maroc\" [ref=e445]\n              - img [ref=e447]\n            - link \"Cours de soutien\" [ref=e449] [cursor=pointer]:\n              - generic \"Cours de soutien\" [ref=e450]\n              - img [ref=e452]\n            - link \"Location de maisons\" [ref=e454] [cursor=pointer]:\n              - generic \"Location de maisons\" [ref=e455]\n              - img [ref=e457]\n  - insertion [ref=e460]:\n    - generic [ref=e463]:\n      - heading \"Voici des thèmes associés à l'article qui pourraient vous intéresser\" [level=2] [ref=e465]: Voir plus\n      - link \"Annonces immobilières Maroc\" [ref=e466] [cursor=pointer]:\n        - generic \"Annonces immobilières Maroc\" [ref=e467]\n        - img [ref=e469]\n      - link \"Meubles Électroménager\" [ref=e471] [cursor=pointer]:\n        - generic \"Meubles Électroménager\" [ref=e472]\n        - img [ref=e474]\n      - link \"Jeux vidéo Consoles\" [ref=e476] [cursor=pointer]:\n        - generic \"Jeux vidéo Consoles\" [ref=e477]\n        - img [ref=e479]\n  - generic [ref=e482]:\n    - generic [ref=e484]:\n      - generic [ref=e487]:\n        - heading \"Vous avez quelques choses a vendre ?\" [level=3] [ref=e488]\n        - generic [ref=e489]:\n          - link \"Voitures Voitures\" [ref=e491] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/index.php?a=cart&action=new&main_type=classified&baseCategory=314\n            - img \"Voitures\" [ref=e492]\n            - heading \"Voitures\" [level=4] [ref=e493]\n          - link \"Ameublement Ameublement\" [ref=e495] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/index.php?a=cart&action=new&main_type=classified&baseCategory=325\n            - img \"Ameublement\" [ref=e496]\n            - heading \"Ameublement\" [level=4] [ref=e497]\n          - link \"Mobile Téléphone\" [ref=e499] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/index.php?a=cart&action=new&main_type=classified&baseCategory=359\n            - img \"Mobile\" [ref=e500]\n            - heading \"Téléphone\" [level=4] [ref=e501]\n          - link \"Enfants Enfants\" [ref=e503] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/index.php?a=cart&action=new&main_type=classified&baseCategory=387\n            - img \"Enfants\" [ref=e504]\n            - heading \"Enfants\" [level=4] [ref=e505]\n          - link \"Vêtements Vêtements\" [ref=e507] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/index.php?a=cart&action=new&main_type=classified&baseCategory=361\n            - img \"Vêtements\" [ref=e508]\n            - heading \"Vêtements\" [level=4] [ref=e509]\n          - link \"Animaux Animaux\" [ref=e511] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/index.php?a=cart&action=new&main_type=classified&baseCategory=362\n            - img \"Animaux\" [ref=e512]\n            - heading \"Animaux\" [level=4] [ref=e513]\n          - link \"Maison Maison\" [ref=e515] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/index.php?a=cart&action=new&main_type=classified&baseCategory=360\n            - img \"Maison\" [ref=e516]\n            - heading \"Maison\" [level=4] [ref=e517]\n          - link \"Voir les autres categories\" [ref=e518] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/index.php?a=1\n        - generic [ref=e519]:\n          - heading \"Vente Rapide sur MarocAnnonces.com\" [level=3] [ref=e520]\n          - link \"Publiez une annonce\" [ref=e521] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/index.php?a=1\n      - generic [ref=e522]:\n        - strong [ref=e523]:\n          - link \"Maroc Annonces.com\" [ref=e524] [cursor=pointer]:\n            - /url: https://www.marocannonces.com/\n        - link \"Application Android marocannonces\" [ref=e525] [cursor=pointer]:\n          - /url: https://play.google.com/store/apps/details?id=com.marocannonces.ads\n          - img \"Application Android marocannonces\" [ref=e526]\n        - link \"- Service publicité\" [ref=e527] [cursor=pointer]:\n          - /url: https://www.marocannonces.com/contact.html\n        - link \"- Foire aux questions\" [ref=e528] [cursor=pointer]:\n          -",
+    "navigation_result": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:62753/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:62753/page.safe.html\n- Page Title: Maroc Annonce immobilier,vente,achat appartement,villa maison,terrain construction,fond commerce,bureau,studio,magasin,pharmacie et fermes...\n- Console: 31 errors, 1 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T10-18-52-845Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T10-18-51-237Z.log#L1-L92"
+  },
+  "visible_text": "Mes Favoris\nConnexion\nInscription\nFAQ\nContact\nMaroc Annonces.com\nACCUEIL\nEMPLOI\nAUTO-MOTO\nIMMOBILIER\nMULTI SERVICES\nVENTES DIVERSES\nMULTIMÉDIA\nBOUTIQUES RECRUTEURS\nToutes les catégories\n-- Emploi --\nOffres emploi\nDemandes d'emploi\nDemandes de stage\nFreelance\nFormations\n-- Auto - Moto --\nVoitures occasion\n4x4 tout terrain\nMoto - 2 roues\nPoids lourds\nBateau - Jetski\nPièces détachées - accessoires\nCovoiturage\n-- Vente immobilier --\nAppartements\nVillas - Maisons - Riads\nStudios\nFonds de commerce\nTerrains constructibles\nBureaux - Plateaux\nMagasins - Dépôt - Hangar - Cave\nFermes - Terrains Agricoles\nPharmacies\n-- Location immobilier --\nAppartements\nVillas - Maisons - Riads\nStudios\nLocation vacances\nColocation\nFonds de commerce\nBureaux - Plateaux\nMagasins - Dépôt - Hangar - Cave\nFermes - Terrains Agricoles\n-- Multi Services --\nDemande en mariage\nCours de soutien\nServices Divers\n-- Ventes diverses --\nAnimaux\nMeubles\nÉlectroménager - Électronique\nMusique\nBeauté - Bien être\nMatériel Médical\nBusiness - Affaires\nArticles de sport\nJouets - jeux\nVêtements\nEchanges - Troc\nMatériaux - Equipements\nArticles bébé\nVoyages - Vacances\nAutres Ventes\n-- Multimédia --\nTéléphones Portables\nPC bureaux - PC portables - Tablettes\nMateriel informatique\nJeux video - Consoles\nAppareils photos, caméscopes...\nToutes les villes\nAgadir\nAl hoceima\nAoussered\nAssilah\nAutre ville\nAzrou\nBen ahmed\nBenguerir\nBeni mellal\nBenslimane\nBerkane\nBerrechid\nBoujdour\nBouskoura\nBouznika\nCasablanca\nChafchaouen\nDakhla\nDeroua\nEl hajeb\nEl jadida\nEl kelaa des sraghna\nErrachidia\nEssaouira\nEssmara\nFès\nFkih ben salah\nGuelmim\nGuercif\nHad soualem\nIfrane\nImouzzer kandar\nKénitra\nKabila\nKhemisset\nKhenifra\nKhouribga\nKsar el kebir\nLaayoune\nLarache\nMarrakech\nMartil\nMediouna\nMeknès\nMelilia\nMidelt\nMohammedia\nNador\nNouaceur\nOualidia\nOuarzazate\nOuazzane\nOujda\nRabat\nSafi\nSaidia\nSalé\nSebta\nSefrou\nSettat\nSidi bennour\nSidi ifni\nSidi kacem\nSidi rahal\nSidi slimane\nSouk elarbaa du gharb\nTamensourte\nTamesna\nTanger\nTantan\nTarfaya\nTaroudant\nTaza\nTemara\nTetouan\nTifelt\nTinghir\nTiznit\nTout le maroc\nYoussoufia\nZagora\n Avec photos  Trier par prix\n\n\nVente immobilier\n\nVous consultez les 21 006 petites annonces Vente immobilier\n\nAppartements (9198)\nVillas - Maisons - Riads (4477)\nStudios (255)\nFonds de commerce (403)\nTerrains constructibles (3624)\nBureaux - Plateaux (615)\nMagasins - Dépôt - Hangar - Cave (960)\nFermes - Terrains Agricoles (1178)\nPharmacies (298)\nVend joli appart maarif\nCasablanca / Maarif\n1 185 000 DH\nAppartements\nAujourd'hui\n20:23\nBelle appartement à vendre\nTanger / Marjane\n1 180 000 DH\nAppartements\nAujourd'hui\n20:23\nTerrain commercial, lotissement andalouss ,oujda\nOujda\n360 000 DH\nTerrains constructibles\nAujourd'hui\n18:19\nLot magnifique à côté de gala oujda\nOujda\n210 000 DH\nTerrains constructibles\nAujourd'hui\n18:19\nPorte garage hamza\nMarrakech\n5 000 DH\nMagasins - Dépôt - Hangar - Cave\nAujourd'hui\n15:35\nTerrain titré pour villa moulay bousselham\nKénitra\n900 000 DH\nTerrains constructibles\nAujourd'hui\n12:00\nTerrain titré r3 (futur r+5)\nKhemisset\nTerrains constructibles\nHier\n19:11\nMaison à vendre r+3.agadir\nAgadir\n1 600 000 DH\nVillas - Maisons - Riads\nHier\n15:01\nTerrain expose orangerie angle 1250m\nRabat / Souissi\n110 000 000 DH\nTerrains constructibles\nHier\n09:40\nBureau exposé\nRabat / Hay Ryad\n11 500 DH\nBureaux - Plateaux\nHier\n09:40\nTerrain villa riad\nRabat / Hay Ryad\n47 500 000 DH\nTerrains constructibles\nHier\n09:40\nTerrain expose bir kacem\nRabat / Bir Kacem\n10 800 000 DH\nTerrains constructibles\nHier\n09:40\nAppartement à vendre\nBouskoura\n560 000 DH\nAppartements\nHier\n09:40\nAppartement a vendre tanger\nTanger / Centre ville\n200 000 DH\nAppartements\n26 Mai 2026\n19:36\nVilla à vendre en zone immeuble r3\nCasablanca / Hermitage\n1 DH\nVillas - Maisons - Riads\n26 Mai 2026\n16:31\nBel appartement ryad 185u\nRabat\n1 850 000 DH\nAppartements\n26 Mai 2026\n15:12\nAppartement en vente res bagdad 99/m\nCasablanca / Sidi Bernoussi\n870 000 DH\nAppartements\n26 Mai 2026\n14:02\nTerrain titré constructible 213m2 imouzzer kandar\nImouzzer Kandar\n300 000 DH\nTerrains constructibles\n26 Mai 2026\n13:31\nTerrains a vendre\nCasablanca / Belvédère\n26 000 DH\nTerrains constructibles\n26 Mai 2026\n10:10\nAppartement a vendre\nCasablanca / Lissasfa\n960 000 DH\nAppartements\n26 Mai 2026\n09:49\n1 2 3 4 5 6 7 8 9 10 Suivant\nPubliez votre annonce\nVoir plus\nimmobilier\nLocation\nPièces détachées auto\nAgences immobilières\nTerrains et terres\nAnimaux à vendre\nVoitures occasion Maroc\nBureaux Plateaux Magasins\nVENTE IMMOBILIER PAR VILLE\nCasablanca\nMarrakech\nRabat\nTanger\nAgadir\nMohammedia\nSalé\nFès\nTemara\nKénitra\nMeknès\nBouskoura\nBerrechid\nNador\nTetouan\nMediouna\nNouaceur\nOujda\nSafi\nSettat\nBouznika\nKhouribga\nDeroua\nLaayoune\nVoir plus\nMatériel informatique Maroc\nCours de soutien\nLocation de maisons\nVoir plus\nAnnonces immobilières Maroc\nMeubles Électroménager\nJeux vidéo Consoles\nVous avez quelques choses a vendre ?\nVoitures\nAmeublement\nTéléphone\nEnfants\nVêtements\nAnimaux\nMaison\n\nVoir les autres categories\nVente Rapide sur MarocAnnonces.com\nPubliez une annonce\nMaroc Annonces.com\n\n- Service publicité\n- Foire aux questions\n- Nos conditions d'utilisation\n- Notre page sur Facebook\n\n© 2000 - 2026 MarocAnnoces.com, Tous droits reserves\n\nVoir plus\nAnnonces classées\nOffres emploi Maroc\nGuides citadins et locaux",
+  "ax_tree_excerpt": "{\n  \"nodes\": [\n    {\n      \"nodeId\": \"2\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"RootWebArea\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 144\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Maroc Annonce immobilier,vente,achat appartement,villa maison,terrain construction,fond commerce,bureau,studio,magasin,pharmacie et fermes...\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Maroc Annonce immobilier,vente,achat appartement,villa maison,terrain construction,fond commerce,bureau,studio,magasin,pharmacie et fermes...\"\n            },\n            \"nativeSource\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"focused\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/PhD/myArticlesAndPapers/my-papers/5-WISE/wade-bench/data/raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING/page.html\"\n          }\n        }\n      ],\n      \"childIds\": [\n        \"24\"\n      ],\n      \"backendDOMNodeId\": 2,\n      \"frameId\": \"E3A28343CE92EC6ACE4293D9A795865B\"\n    },\n    {\n      \"nodeId\": \"24\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"2\",\n      \"childIds\": [\n        \"82\"\n      ],\n      \"backendDOMNodeId\": 24\n    },\n    {\n      \"nodeId\": \"82\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"24\",\n      \"childIds\": [\n        \"83\",\n        \"87\",\n        \"1168\",\n        \"1191\",\n        \"1278\",\n        \"1301\"\n      ],\n      \"backendDOMNodeId\": 82\n    },\n    {\n      \"nodeId\": \"83\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"82\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 83\n    },\n    {\n      \"nodeId\": \"87\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"82\",\n      \"childIds\": [\n        \"88\",\n        \"605\"\n      ],\n      \"backendDOMNodeId\": 87\n    },\n    {\n      \"nodeId\": \"1168\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"82\",\n      \"childIds\": [\n        \"1169\"\n      ],\n      \"backendDOMNodeId\": 1168\n    },\n    {\n      \"nodeId\": \"1169\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"insertion\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 25\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"1168\",\n      \"childIds\": [\n        \"1170\"\n      ],\n      \"backendDOMNodeId\": 1169\n    },\n    {\n      \"nodeId\": \"1191\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"82\",\n      \"childIds\": [\n        \"1192\"\n      ],\n      \"backendDOMNodeId\": 1191\n    },\n    {\n      \"nodeId\": \"1278\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"82\",\n      \"childIds\": [\n        \"1279\"\n      ],\n      \"backendDOMNodeId\": 1278\n    },\n    {\n      \"nodeId\": \"1279\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"insertion\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 25\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"1278\",\n      \"childIds\": [\n        \"1280\"\n      ],\n      \"backendDOMNodeId\": 1279\n    },\n    {\n      \"nodeId\": \"1301\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"insertion\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 25\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"82\",\n      \"childIds\": [\n        \"1302\",\n        \"1304\"\n      ],\n      \"backendDOMNodeId\": 1301\n    },\n    {\n      \"nodeId\": \"88\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"87\",\n      \"childIds\": [\n        \"89\",\n        \"101\",\n        \"108\",\n        \"137\",\n        \"143\"\n      ],\n      \"backendDOMNodeId\": 88\n    },\n    {\n      \"nodeId\": \"605\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"87\",\n      \"childIds\": [\n        \"606\",\n        \"1012\"\n      ],\n      \"backendDOMNodeId\": 605\n    },\n    {\n      \"nodeId\": \"1170\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"1169\",\n      \"childIds\": [\n        \"1171\"\n      ],\n      \"backendDOMNodeId\": 1170\n    },\n    {\n      \"nodeId\": \"1192\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"1191\",\n      \"childIds\": [\n        \"1193\",\n        \"1272\"\n      ],\n      \"backendDOMNodeId\": 1192\n    },\n    {\n      \"nodeId\": \"1280\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"1279\",\n      \"childIds\": [\n        \"1281\"\n      ],\n      \"backendDOMNodeId\": 1280\n    },\n    {\n      \"nodeId\": \"1302\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"1301\",\n      \"childIds\": [\n        \"1303\"\n      ],\n      \"backendDOMNodeId\": 1302\n    },\n    {\n      \"nodeId\": \"1304\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"1301\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 1304\n    },\n    {\n      \"nodeId\": \"89\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"88\",\n      \"childIds\": [\n        \"90\"\n      ],\n      \"backendDOMNodeId\": 89\n    },\n    {\n      \"nodeId\": \"90\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"list\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 111\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"89\",\n      \"childIds\": [\n        \"91\",\n        \"93\",\n        \"95\",\n        \"97\",\n        \"99\"\n      ],\n      \"backendDOMNodeId\": 90\n    },\n    {\n      \"nodeId\": \"101\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"88\",\n      \"childIds\": [\n        \"102\",\n        \"104\"\n      ],\n      \"backendDOMNodeId\": 101\n    },\n    {\n      \"nodeId\": \"102\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"strong\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 160\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"101\",\n      \"childIds\": [\n        \"103\"\n      ],\n      \"backendDOMNodeId\": 102\n    },\n    {\n      \"nodeId\": \"104\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"101\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 104\n    },\n    {\n      \"nodeId\": \"108\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"88\",\n      \"childIds\": [\n        \"109\"\n      ],\n      \"backendDOMNodeId\": 108\n    },\n    {\n      \"nodeId\": \"137\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"88\",\n      \"childIds\": [\n        \"139\"\n      ],\n      \"backendDOMNodeId\": 137\n    },\n    {\n      \"nodeId\": \"143\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"88\",\n      \"childIds\": [\n        \"144\"\n      ],\n      \"backendDOMNodeId\": 143\n    },\n    {\n      \"nodeId\": \"606\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"605\",\n      \"childIds\": [\n        \"607\"\n      ],\n      \"backendDOMNodeId\": 606\n    },\n    {\n      \"nodeId\": \"1012\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"605\",\n      \"childIds\": [\n        \"1013\",\n        \"1017\",\n        \"1019\",\n        \"1070\",\n        \"1074\",\n        \"1076\",\n        \"1080\",\n        \"1131\",\n        \"1135\",\n        \"1160\",\n        \"1164\"\n      ],\n      \"backendDOMNodeId\": 1012\n    },\n    {\n      \"nodeId\": \"1171\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"1170\",\n      \"childIds\": [\n        \"1172\"\n      ],\n      \"backendDOMNodeId\": 1171\n    },\n    {\n      \"nodeId\": \"1172\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"1171\",\n      \"childIds\": [\n        \"1173\",\n        \"1175\",\n     \n<!-- TRUNCATED -->",
+  "metadata_excerpt": "{\n  \"snapshot_id\": \"SNAP_REAL_MAROC_ANNONCES_001_LISTING\",\n  \"website_id\": \"maroc_annonces\",\n  \"task_id\": \"WBV1_REAL_MAROC_ANNONCES_001_LISTING\",\n  \"schema_id\": \"real_estate_listing_v1\",\n  \"page_type\": \"listing\",\n  \"url\": \"https://www.marocannonces.com/categorie/16/Vente-immobilier.html\",\n  \"captured_at\": \"2026-05-28T20:21:32.479Z\",\n  \"capture_tool\": \"playwright-stealth\",\n  \"browser\": \"chromium\",\n  \"initial_url\": \"https://www.marocannonces.com/categorie/16/Vente-immobilier.html\",\n  \"final_url\": \"https://www.marocannonces.com/categorie/16/Vente-immobilier.html\",\n  \"page_title\": \"Maroc Annonce immobilier,vente,achat appartement,villa maison,terrain construction,fond commerce,bureau,studio,magasin,pharmacie et fermes...\",\n  \"capture_status\": \"captured\",\n  \"html_size\": 875434,\n  \"text_size\": 5250\n}",
+  "html_signals": {
+    "title": "Maroc Annonce immobilier,vente,achat appartement,villa maison,terrain construction,fond commerce,bureau,studio,magasin,pharmacie et fermes...",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Vente immobilier"
+      },
+      {
+        "tag": "h3",
+        "text": "Vend joli appart maarif"
+      },
+      {
+        "tag": "h3",
+        "text": "Belle appartement à vendre"
+      },
+      {
+        "tag": "h3",
+        "text": "Terrain commercial, lotissement andalouss ,oujda"
+      },
+      {
+        "tag": "h3",
+        "text": "Lot magnifique à côté de gala oujda"
+      },
+      {
+        "tag": "h3",
+        "text": "Porte garage hamza"
+      },
+      {
+        "tag": "h3",
+        "text": "Terrain titré pour villa moulay bousselham"
+      },
+      {
+        "tag": "h3",
+        "text": "Terrain titré r3 (futur r+5)"
+      },
+      {
+        "tag": "h3",
+        "text": "Maison à vendre r+3.agadir"
+      },
+      {
+        "tag": "h3",
+        "text": "Terrain expose orangerie angle 1250m"
+      },
+      {
+        "tag": "h3",
+        "text": "Bureau exposé"
+      },
+      {
+        "tag": "h3",
+        "text": "Terrain villa riad"
+      },
+      {
+        "tag": "h3",
+        "text": "Terrain expose bir kacem"
+      },
+      {
+        "tag": "h3",
+        "text": "Appartement à vendre"
+      },
+      {
+        "tag": "h3",
+        "text": "Appartement a vendre tanger"
+      },
+      {
+        "tag": "h3",
+        "text": "Villa à vendre en zone immeuble r3"
+      },
+      {
+        "tag": "h3",
+        "text": "Bel appartement ryad 185u"
+      },
+      {
+        "tag": "h3",
+        "text": "Appartement en vente res bagdad 99/m"
+      },
+      {
+        "tag": "h3",
+        "text": "Terrain titré constructible 213m2 imouzzer kandar"
+      },
+      {
+        "tag": "h3",
+        "text": "Terrains a vendre"
+      },
+      {
+        "tag": "h3",
+        "text": "Appartement a vendre"
+      }
+    ],
+    "links": [
+      {
+        "text": "Mes Favoris",
+        "href": "mes-favoris.html"
+      },
+      {
+        "text": "Connexion",
+        "href": "mon-compte/"
+      },
+      {
+        "text": "Inscription",
+        "href": "register.php"
+      },
+      {
+        "text": "FAQ",
+        "href": "faq.html"
+      },
+      {
+        "text": "Contact",
+        "href": "contact.html"
+      },
+      {
+        "text": "Maroc Annonces.com",
+        "href": "/index.php"
+      },
+      {
+        "text": "Accueil",
+        "href": "/index.php"
+      },
+      {
+        "text": "Emploi",
+        "href": "categorie/309/Emploi/Offres-emploi.html"
+      },
+      {
+        "text": "Auto-moto",
+        "href": "categorie/15/Auto-Moto.html"
+      },
+      {
+        "text": "Immobilier",
+        "href": "javascript:void(0)"
+      },
+      {
+        "text": "Multi services",
+        "href": "categorie/307/Multi-Services.html"
+      },
+      {
+        "text": "Ventes diverses",
+        "href": "categorie/308/Ventes-diverses.html"
+      },
+      {
+        "text": "Multimédia",
+        "href": "categorie/306/Multim%C3%A9dia.html"
+      },
+      {
+        "text": "Boutiques Recruteurs",
+        "href": "/boutiques/offres-emploi"
+      },
+      {
+        "text": "Vente Immobilier",
+        "href": "categorie/16/Vente-immobilier.html"
+      },
+      {
+        "text": "Location Immobilier",
+        "href": "categorie/305/Location-immobilier.html"
+      },
+      {
+        "text": "Appartements",
+        "href": "categorie/315/Vente-immobilier/Appartements.html"
+      },
+      {
+        "text": "Villas - Maisons - Riads",
+        "href": "categorie/319/Vente-immobilier/Villas-Maisons-Riads.html"
+      },
+      {
+        "text": "Studios",
+        "href": "categorie/318/Vente-immobilier/Studios.html"
+      },
+      {
+        "text": "Fonds de commerce",
+        "href": "categorie/320/Vente-immobilier/Fonds-de-commerce.html"
+      },
+      {
+        "text": "Terrains constructibles",
+        "href": "categorie/332/Vente-immobilier/Terrains-constructibles.html"
+      },
+      {
+        "text": "Bureaux - Plateaux",
+        "href": "categorie/331/Vente-immobilier/Bureaux-Plateaux.html"
+      },
+      {
+        "text": "Magasins - Dépôt - Hangar - Cave",
+        "href": "categorie/330/Vente-immobilier/Magasins-Dépôt-Hangar-Cave.html"
+      },
+      {
+        "text": "Fermes - Terrains Agricoles",
+        "href": "categorie/334/Vente-immobilier/Fermes-Terrains-Agricoles.html"
+      },
+      {
+        "text": "Pharmacies",
+        "href": "categorie/335/Vente-immobilier/Pharmacies.html"
+      },
+      {
+        "text": "Vend joli appart maarif Casablanca / Maarif 1 185 000 DH Appartements",
+        "href": "categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html"
+      },
+      {
+        "text": "Belle appartement à vendre Tanger / Marjane 1 180 000 DH Appartements",
+        "href": "categorie/315/Appartements/annonce/10387454/Belle-appartement-à-vendre.html"
+      },
+      {
+        "text": "Terrain commercial, lotissement andalouss ,oujda Oujda 360 000 DH Terrains constructibles",
+        "href": "categorie/332/Terrains-constructibles/annonce/10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html"
+      },
+      {
+        "text": "Lot magnifique à côté de gala oujda Oujda 210 000 DH Terrains constructibles",
+        "href": "categorie/332/Terrains-constructibles/annonce/10328164/Lot-magnifique-à-côté-de-gala-OUJDA.html"
+      },
+      {
+        "text": "Porte garage hamza Marrakech 5 000 DH Magasins - Dépôt - Hangar - Cave",
+        "href": "categorie/330/Magasins-Dépôt-Hangar-Cave/annonce/10387375/Porte-garage-hamza.html"
+      },
+      {
+        "text": "Terrain titré pour villa moulay bousselham Kénitra 900 000 DH Terrains constructibles",
+        "href": "categorie/332/Terrains-constructibles/annonce/10357677/Terrain-titré-pour-villa-Moulay-Bousselham.html"
+      },
+      {
+        "text": "Terrain titré r3 (futur r+5) Khemisset Terrains constructibles",
+        "href": "categorie/332/Terrains-constructibles/annonce/10149173/Terrain-titré-r3-(futur-r5).html"
+      },
+      {
+        "text": "Maison à vendre r+3.agadir Agadir 1 600 000 DH Villas - Maisons - Riads",
+        "href": "categorie/319/Villas-Maisons-Riads/annonce/10387171/Maison-à-vendre-R3agadir.html"
+      },
+      {
+        "text": "Terrain expose orangerie angle 1250m Rabat / Souissi 110 000 000 DH Terrains constructibles",
+        "href": "categorie/332/Terrains-constructibles/annonce/10387042/Terrain-expose-orangerie-angle-1250m.html"
+      },
+      {
+        "text": "Bureau exposé Rabat / Hay Ryad 11 500 DH Bureaux - Plateaux",
+        "href": "categorie/331/Bureaux-Plateaux/annonce/10290598/Bureau-exposé.html"
+      },
+      {
+        "text": "Terrain villa riad Rabat / Hay Ryad 47 500 000 DH Terrains constructibles",
+        "href": "categorie/332/Terrains-constructibles/annonce/10385987/Terrain-villa-riad.html"
+      },
+      {
+        "text": "Terrain expose bir kacem Rabat / Bir Kacem 10 800 000 DH Terrains constructibles",
+        "href": "categorie/332/Terrains-constructibles/annonce/10325969/Terrain-expose-bir-kacem.html"
+      },
+      {
+        "text": "Appartement à vendre Bouskoura 560 000 DH Appartements",
+        "href": "categorie/315/Appartements/annonce/10334323/Appartement-à-vendre.html"
+      },
+      {
+        "text": "Appartement a vendre tanger Tanger / Centre ville 200 000 DH Appartements",
+        "href": "categorie/315/Appartements/annonce/10387082/Appartement-a-vendre-tanger.html"
+      },
+      {
+        "text": "Villa à vendre en zone immeuble r3 Casablanca / Hermitage 1 DH Villas - Maisons - Riads",
+        "href": "categorie/319/Villas-Maisons-Riads/annonce/10387068/Villa-à-vendre-en-zone-immeuble-R3.html"
+      },
+      {
+        "text": "Bel appartement ryad 185u Rabat 1 850 000 DH Appartements",
+        "href": "categorie/315/Appartements/annonce/10387040/Bel-appartement-ryad-185u.html"
+      },
+      {
+        "text": "Appartement en vente res bagdad 99/m Casablanca / Sidi Bernoussi 870 000 DH Appartements",
+        "href": "categorie/315/Appartements/annonce/10376659/Appartement-en-vente-res-bagdad-99m.html"
+      },
+      {
+        "text": "Terrain titré constructible 213m2 imouzzer kandar Imouzzer Kandar 300 000 DH Terrains constructibles",
+        "href": "categorie/332/Terrains-constructibles/annonce/10387011/Terrain-Titré-constructible-213m2-Imouzzer-Kandar.html"
+      },
+      {
+        "text": "Terrains a vendre Casablanca / Belvédère 26 000 DH Terrains constructibles",
+        "href": "categorie/332/Terrains-constructibles/annonce/10386934/terrains-a-vendre.html"
+      },
+      {
+        "text": "Appartement a vendre Casablanca / Lissasfa 960 000 DH Appartements",
+        "href": "categorie/315/Appartements/annonce/10310952/Appartement-a-vendre.html"
+      },
+      {
+        "text": "2",
+        "href": "categorie/16/Vente-immobilier/2.html"
+      },
+      {
+        "text": "3",
+        "href": "categorie/16/Vente-immobilier/3.html"
+      },
+      {
+        "text": "4",
+        "href": "categorie/16/Vente-immobilier/4.html"
+      },
+      {
+        "text": "5",
+        "href": "categorie/16/Vente-immobilier/5.html"
+      },
+      {
+        "text": "6",
+        "href": "categorie/16/Vente-immobilier/6.html"
+      },
+      {
+        "text": "7",
+        "href": "categorie/16/Vente-immobilier/7.html"
+      },
+      {
+        "text": "8",
+        "href": "categorie/16/Vente-immobilier/8.html"
+      },
+      {
+        "text": "9",
+        "href": "categorie/16/Vente-immobilier/9.html"
+      },
+      {
+        "text": "10",
+        "href": "categorie/16/Vente-immobilier/10.html"
+      },
+      {
+        "text": "Suivant",
+        "href": "categorie/16/Vente-immobilier/2.html"
+      },
+      {
+        "text": "Publiez votre annonce",
+        "href": "/index.php?a=1"
+      }
+    ],
+    "images": [
+      {
+        "src": "user_images/315/9837565.jpg",
+        "alt": "Vend joli appart Maarif "
+      },
+      {
+        "src": "user_images/315/3565762.jpg",
+        "alt": "Belle appartement à vendre "
+      },
+      {
+        "src": "user_images/332/2803819.jpg",
+        "alt": "Terrain commercial, lotissement andalouss ,Oujda"
+      },
+      {
+        "src": "user_images/5977362.jpg",
+        "alt": "Lot magnifique à côté de gala OUJDA"
+      },
+      {
+        "src": "user_images/330/3679821.jpg",
+        "alt": "Porte garage hamza"
+      },
+      {
+        "src": "user_images/332/6735519.jpg",
+        "alt": "Terrain titré pour villa Moulay Bousselham"
+      },
+      {
+        "src": "user_images/332/9781675.jpg",
+        "alt": "Terrain titré r3 (futur r+5)"
+      },
+      {
+        "src": "user_images/319/4696054.jpg",
+        "alt": "Maison à vendre R+3.agadir"
+      },
+      {
+        "src": "geo_templates/marocannonces/external/images/icon-no-photo.jpg",
+        "alt": ""
+      },
+      {
+        "src": "geo_templates/marocannonces/external/images/icon-no-photo.jpg",
+        "alt": ""
+      },
+      {
+        "src": "geo_templates/marocannonces/external/images/icon-no-photo.jpg",
+        "alt": ""
+      },
+      {
+        "src": "geo_templates/marocannonces/external/images/icon-no-photo.jpg",
+        "alt": ""
+      },
+      {
+        "src": "geo_templates/marocannonces/external/images/icon-no-photo.jpg",
+        "alt": ""
+      },
+      {
+        "src": "user_images/315/5788639.jpg",
+        "alt": "Appartement a vendre tanger"
+      },
+      {
+        "src": "user_images/319/8596597.jpg",
+        "alt": "Villa à vendre en zone immeuble R3"
+      },
+      {
+        "src": "geo_templates/marocannonces/external/images/icon-no-photo.jpg",
+        "alt": ""
+      },
+      {
+        "src": "user_images/315/8847208.jpg",
+        "alt": "Appartement en vente res bagdad 99/m"
+      },
+      {
+        "src": "user_images/332/4684211.jpg",
+        "alt": "Terrain Titré constructible 213m2 Imouzzer Kandar"
+      },
+      {
+        "src": "geo_templates/marocannonces/external/images/icon-no-photo.jpg",
+        "alt": ""
+      },
+      {
+        "src": "user_images/9631819.jpg",
+        "alt": "Appartement a vendre"
+      }
+    ],
+    "embedded_json": []
+  },
+  "tool_trace": [
+    {
+      "step": "local_http_server",
+      "serve_dir": "C:\\Users\\pc-mousannif\\Desktop\\Ismail\\WADE-BENCH\\data\\raw_snapshots\\realestate\\SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+      "http_url": "http://127.0.0.1:62753/page.safe.html",
+      "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING/page.safe.html"
+    },
+    {
+      "step": "list_tools",
+      "tool_names": [
+        "browser_close",
+        "browser_resize",
+        "browser_console_messages",
+        "browser_handle_dialog",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_type",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_take_screenshot",
+        "browser_snapshot",
+        "browser_click",
+        "browser_drag",
+        "browser_hover",
+        "browser_select_option",
+        "browser_tabs",
+        "browser_wait_for"
+      ]
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:62753/page.safe.html"
+      },
+      "output_preview": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:62753/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:62753/page.safe.html\n- Page Title: Maroc Annonce immobilier,vente,achat appartement,villa maison,terrain construction,fond commerce,bureau,studio,magasin,pharmacie et fermes...\n- Console: 31 errors, 1 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T10-18-52-845Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T10-18-51-237Z.log#L1-L92"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_snapshot",
+      "args": {},
+      "output_preview": "### Page\n- Page URL: http://127.0.0.1:62753/page.safe.html\n- Page Title: Maroc Annonce immobilier,vente,achat appartement,villa maison,terrain construction,fond commerce,bureau,studio,magasin,pharmacie et fermes...\n- Console: 31 errors, 1 warnings\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - generic [ref=e2]:\n    - generic [ref=e3]:\n      - list [ref=e5]:\n        - listitem [ref=e6]:\n          - link \"Mes Favoris\" [ref=e7] [cursor=pointer]:\n            - /url: mes-favoris.html\n        - listitem [ref=e8]:\n          - link \"Connexion\" [ref=e9] [cursor=pointer]:\n            - /url: mon-compte/\n        - listitem [ref=e10]:\n          - link \"Inscription\" [ref=e11] [cursor=pointer]:\n            - /url: register.php\n        - listitem [ref=e12]:\n          - link \"FAQ\" [ref=e13] [cursor=pointer]:\n            - /url: faq.html\n        - listitem [ref=e14]:\n          - link \"Contact\" [ref=e15] [cursor=pointer]:\n            - /url: contact.html\n      - strong [ref=e17]:\n        - link \"Maroc Annonces.com\" [ref=e18] [cursor=pointer]:\n          - /url: /index.php\n      - list [ref=e22]:\n        - listitem [ref=e23]:\n          - link \"Accueil\" [ref=e24] [cursor=pointer]:\n            - /url: /index.php\n        - listitem [ref=e25]:\n          - link \"Emploi\" [ref=e26] [cursor=pointer]:\n            - /url: categorie/309/Emploi/Offres-emploi.html\n        - listitem [ref=e27]:\n          - link \"Auto-moto\" [ref=e28] [cursor=pointer]:\n            - /url: categorie/15/Auto-Moto.html\n        - listitem [ref=e29]:\n          - link \"Immobilier\" [ref=e30] [cursor=pointer]:\n            - /url: javascript:void(0)\n        - listitem [ref=e31]:\n          - link \"Multi services\" [ref=e32] [cursor=pointer]:\n            - /url: categorie/307/Multi-Services.html\n        - listitem [ref=e33]:\n          - link \"Ventes diverses\" [ref=e34] [cursor=pointer]:\n            - /url: categorie/308/Ventes-diverses.html\n        - listitem [ref=e35]:\n          - link \"Multimédia\" [ref=e36] [cursor=point"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_take_screenshot",
+      "args": {},
+      "output_preview": "### Result\n- [Screenshot of viewport](.playwright-mcp\\page-2026-06-30T10-18-52-920Z.png)\n### Ran Playwright code\n```js\n// Screenshot viewport and save it as .playwright-mcp\\page-2026-06-30T10-18-52-920Z.png\nawait page.screenshot({\n  path: '.playwright-mcp\\\\page-2026-06-30T10-18-52-920Z.png',\n  scale: 'css',\n  type: 'png'\n});\n```\ntype='image' data='iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOzdB2AUZd7H8WdLeieVBEhCb9JVOggWEKScFXvDV7FgV070rIddPNudqKeeitgoFrDQqwjSOySEkIQU0nuyu+8zM7ubTbKbBAgIzPdzOZydfabubLK//T8zY7bZbAJAbc73hc3BarVaVNWqioqKyMhIg8EgAAAATi35ySQ7O9vHx8esMqmMRqPBQWvGBxWgPqMA0ATyT4j2d0X7V/6xqaqqEgAAAKec/BAiP4rU+XAiADQBARhoKucfGO1L1vLycgEAAHDKyQ8h8qOI/EBC+gWOFQEYaIRrbyLnsPyTI798LS0tFQAAAKeQ/PghP4Ro6bf+RxQBoEFmAcAz+YfEeT6w9ndFfs8qh61Wq9lsLisrq6ys9PPz8/b25k8OAAA4eeQHEvmpQ372sFgsWv9n1/N+nc34QAI0jAAMuOGae+uMd1aAZQP5b3V1dV5envwiVg5ol8jSrpVlddAuoCVcLqxVZxgAAOhT/eDqPKdXo13dSrvMlfzXy8tLu+qVs/9zA1VfkjDgFgEYaITr3w8ZXLU/S1r6deZkbaTMvXJknfTrSgAAALhjqK1OBnbGYG3A+Wyd/s+EXqBRBGCgqZx/kGSy1TpCS/K7WOcfIVn+dQZgrfDrGn0JwAAAwJM6UdZZCtb6OTvTr/bQ2fm5fhdoAA0jAANNohV7nX+cnAHY+awzG3uq/RKAAQCAJ/Vrua51YGfodR1wrfqSgYEmIgAD7hlqX/7KmX6Fen6OaxG4TvqtU/sl/QIAgKaon4FdTwmuk4ddy7/1MzB5GPDEwOdyoAF1rlzlTLOuKdc19HqKvrzRAABAw1xzrNsY7Bp6XTs/1+kFTfoFGkAFGDgGrqVg7VJYznyrPeUcWSf3EoABAEDDnMHVbXfoOrmXzs/A8SEAA03lTL+u3aGdA00p/BKDAQBAfXVCrKdSsFC/fxcuJV8yMHCs6AINNMJtiHUt7boNvdR+AQDAcahfBxb1wnD9BvUnB+AWARhoXP23SQNZl+gLAABOkKeU23Dhl/QLNIoADDSJpwwsPCde3lwAAOD4eKrr1h/wNAkAtwjAQFM1kIE9NQAAADhxjfZzJv0CTUQABo5BA+8Xt0/x/gIAAMfKbZptIOKSfoGmIwADx6MpbxzeXAAA4Pg0JdOSe4HjQAAGjhPvHQAA8Fch/QLHh/sAA8epzh8e8jAAADh5SLxAsyAAA82DP0sAAADAac4oAAAAAADQAQIwAAAAAEAXCMAAAAAAAF0gAAMAAAAAdIEADAAAAADQBQIwAAAAAEAXCMAAAAAAAF0gAAMAAAAAdIEADAAAAADQBQIwAAAAAEAXCMAAAAAAAF0gAAMAAAAAdIEADAAAAADQBQIwAAAAAEAXCMAAAAAAAF0gAAMAAAAAdIEADAAAAADQBQIwAAAAAEAXCMAAAAAAAF0gAAMAAAAAdIEADAAAAADQBQIwAAAAAEAXCMAAAOCvsPiBdnYPLHOMS511mX3cw8vEiUj5wDEjFyc4z0Yse6D2thyrr7/+ukntam/aA4vFaeBEt70BTdgt6tIv+yBVnETakXnZrEYXkvrBZZd9kHJMkxyPRndLzVvJ7dHiOIrcrl6daZ"
+    }
+  ]
+}

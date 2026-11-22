@@ -1,0 +1,85 @@
+{
+  "task_id": "WBV1_ACAD_CONFERENCEALERTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2026-07-01",
+        "event_name": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)",
+        "event_start_date": "2026-06-29",
+        "event_url": "https://iated.org/edulearn/",
+        "location": "Palma de Mallorca, Spain",
+        "description": "EDULEARN is one of the world’s leading international education conferences, bringing together lecturers, researchers, technologists and professionals in the field of education. Each year, it hosts more than 800 experts from around the globe.",
+        "organizer": "IATED Academy",
+        "abstract_deadline": "2026-03-12",
+        "website": "https://iated.org/edulearn/"
+      },
+      "provenance": {
+        "event_end_date": {
+          "value": "29th June to 1st July 2026",
+          "source": "page.html",
+          "selector": "#eventDate"
+        },
+        "event_name": {
+          "value": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)",
+          "source": "page.html",
+          "selector": "#eventNameHeader"
+        },
+        "event_start_date": {
+          "value": "29th June to 1st July 2026",
+          "source": "page.html",
+          "selector": "#eventDate"
+        },
+        "event_url": {
+          "value": "https://iated.org/edulearn/",
+          "source": "page.html",
+          "selector": "a[href*='iated.org/edulearn/']"
+        },
+        "location": {
+          "value": "Palma de Mallorca, Spain",
+          "source": "page.html",
+          "selector": "#eventCountry"
+        },
+        "description": {
+          "value": "EDULEARN is one of the world’s leading international education conferences, bringing together lecturers, researchers, technologists and professionals in the field of education. Each year, it hosts more than 800 experts from around the globe.",
+          "source": "page.html",
+          "selector": "#eventDescription"
+        },
+        "organizer": {
+          "value": "IATED Academy",
+          "source": "page.html",
+          "selector": "#eventOrganiser"
+        },
+        "abstract_deadline": {
+          "value": "12th March 2026",
+          "source": "page.html",
+          "selector": "#eventDeadline"
+        },
+        "website": {
+          "value": "https://iated.org/edulearn/",
+          "source": "page.html",
+          "selector": "#eventWebsite a"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 9.444,
+    "input_tokens": 5253,
+    "output_tokens": 724,
+    "total_tokens": 5977,
+    "initial_input_tokens": 5253,
+    "initial_output_tokens": 724,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

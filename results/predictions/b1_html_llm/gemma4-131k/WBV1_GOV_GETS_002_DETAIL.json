@@ -1,0 +1,134 @@
+{
+  "task_id": "WBV1_GOV_GETS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": {
+          "value": "Commercial Cleaning Services",
+          "provenance": {
+            "selector": "td.label-cell:contains('Tender Name&nbsp;:') + td",
+            "source": "page.html"
+          },
+          "text_quote": "Commercial Cleaning Services"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MSD/ExternalTenderDetails.htm?id=34048938",
+          "provenance": {
+            "selector": "base[href]",
+            "source": "page.html"
+          },
+          "text_quote": "<base href=\"https://www.gets.govt.nz/MSD/ExternalTenderDetails.htm?id=34048938\">"
+        },
+        "authority_id": {
+          "value": "34048938",
+          "provenance": {
+            "selector": "td.label-cell:contains('RFx ID&nbsp;:') + td",
+            "source": "page.html"
+          },
+          "text_quote": "34048938"
+        },
+        "closing_time": {
+          "value": "12:00 PM (Pacific/Auckland UTC+12:00)",
+          "provenance": {
+            "selector": "tr:contains('Close Date') td",
+            "source": "page.html"
+          },
+          "text_quote": "Friday, 29 May 2026 12:00 PM (Pacific/Auckland UTC+12:00)"
+        },
+        "deadline_date": {
+          "value": "2026-05-29",
+          "provenance": {
+            "selector": "tr:contains('Close Date') td",
+            "source": "page.html"
+          },
+          "text_quote": "Friday, 29 May 2026 12:00 PM (Pacific/Auckland UTC+12:00)"
+        },
+        "department": {
+          "value": "Procurement Solutions",
+          "provenance": {
+            "selector": "tr:contains('Department/Business Unit&nbsp;:') td",
+            "source": "page.html"
+          },
+          "text_quote": "Procurement Solutions"
+        },
+        "tender_type": {
+          "value": "Request for Information (Market research) (RFI)",
+          "provenance": {
+            "selector": "tr:contains('Tender Type&nbsp;:') td",
+            "source": "page.html"
+          },
+          "text_quote": "Request for Information (Market research) (RFI)"
+        },
+        "tender_coverage": {
+          "value": "Sole Agency",
+          "provenance": {
+            "selector": "tr:contains('Tender Coverage&nbsp;:') td",
+            "source": "page.html"
+          },
+          "text_quote": "Sole Agency"
+        },
+        "categories": {
+          "value": [
+            "47000000 - Cleaning Equipment and Supplies",
+            "76110000 - Cleaning and janitorial services"
+          ],
+          "provenance": {
+            "selector": "tr:contains('Categories&nbsp;:').find('ul li') *",
+            "source": "page.html"
+          },
+          "text_quote": "<li>47000000 - Cleaning Equipment and Supplies</li>\n<li>76110000 - Cleaning and janitorial services</li>"
+        },
+        "regions": {
+          "value": [
+            "New Zealand"
+          ],
+          "provenance": {
+            "selector": "tr:contains('Regions:') td li",
+            "source": "page.html"
+          },
+          "text_quote": "<li>New Zealand<br></li>"
+        },
+        "required_pre_qualifications": {
+          "value": null,
+          "provenance": {
+            "selector": "tr:contains('Required Pre-qualifications&nbsp;:') td .notice",
+            "source": "page.html"
+          },
+          "text_quote": "<span class=\"notice\">None</span>"
+        },
+        "contact": {
+          "value": "Liam Macdonald (Liam.Macdonald015@msd.govt.nz)",
+          "provenance": {
+            "selector": "tr:contains('Contact&nbsp;:') td",
+            "source": "page.html"
+          },
+          "text_quote": "Liam Macdonald\nLiam.Macdonald015@msd.govt.nz"
+        }
+      },
+      "provenance": {
+        "selector": "body",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 15.365,
+    "input_tokens": 8371,
+    "output_tokens": 1188,
+    "total_tokens": 9559,
+    "initial_input_tokens": 8371,
+    "initial_output_tokens": 1188,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

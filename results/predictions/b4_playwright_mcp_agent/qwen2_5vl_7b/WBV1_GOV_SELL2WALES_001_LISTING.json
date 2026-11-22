@@ -1,0 +1,30 @@
+{
+  "task_id": "WBV1_GOV_SELL2WALES_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "General Practice (GP) Managed Print Services",
+        "tender_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620878"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 77.899,
+    "input_tokens": 21878,
+    "output_tokens": 4212,
+    "total_tokens": 26090,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_SELL2WALES_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_SELL2WALES_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

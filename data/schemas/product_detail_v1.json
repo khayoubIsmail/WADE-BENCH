@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_id": "product_detail_v1",
+  "domain": "E-commerce / Products",
+  "version": "1.0",
+  "description": "Extract detailed product information from product-detail pages reached from listing pages.",
+  "record_type": "product_detail",
+  "required_fields": [
+    "brand",
+    "description",
+    "image_urls",
+    "price_raw",
+    "product_name",
+    "product_url",
+    "rating",
+    "review_count"
+  ],
+  "recommended_fields": [
+    "availability",
+    "color",
+    "discount_percentage",
+    "first_review",
+    "image_url",
+    "shipping_text",
+    "size_or_volume",
+    "sku"
+  ],
+  "optional_fields": [
+    "available_colors",
+    "available_sizes",
+    "available_widths",
+    "capacity_or_size",
+    "care",
+    "color_name",
+    "color_options",
+    "colors_options",
+    "currency",
+    "first_review_content",
+    "first_review_details",
+    "first_review_rating",
+    "first_review_text",
+    "first_review_title",
+    "fit",
+    "foam_model",
+    "key_features",
+    "material",
+    "materials",
+    "measurements",
+    "old_price_raw",
+    "price",
+    "selected_width",
+    "seller_name",
+    "shipping_info",
+    "short_description",
+    "style_color"
+  ],
+  "normalization_rules": {
+    "url_fields": "Convert all product and image URLs to absolute URLs.",
+    "price_fields": "Preserve raw price text and add numeric value when parseable.",
+    "lists": "Return available sizes, image URLs, ingredients, materials, and specs as arrays when possible.",
+    "description": "Preserve extracted text; do not summarize unless only a short summary is visible.",
+    "missing_values": "Use null for unavailable fields.",
+    "duplicates": "Deduplicate by product_url."
+  },
+  "canonical_record_key": [
+    "product_url"
+  ],
+  "fallback_record_key": [
+    "product_name",
+    "price_raw"
+  ],
+  "provenance_required": true,
+  "provenance_minimum": [
+    "url",
+    "snapshot_id",
+    "css_selector_or_xpath",
+    "text_quote_or_attribute"
+  ]
+}

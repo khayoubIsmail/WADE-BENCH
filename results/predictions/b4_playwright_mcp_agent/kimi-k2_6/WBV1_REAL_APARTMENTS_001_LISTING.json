@@ -1,0 +1,585 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/899-40th-ave/pid_71927566/",
+        "address": "899 40th Ave, San Francisco, CA 94121",
+        "price": {
+          "amount": 1198000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "property_type": "Duplex",
+        "status": "Active",
+        "mls_number": "ML82050671",
+        "floor_area": {
+          "value": 1963,
+          "unit": "ft2"
+        },
+        "parking": "2",
+        "images_urls": [],
+        "listing_agent_name": "Karin Cunningham",
+        "listing_office": "Intero Real Estate Services",
+        "listing_agent_logo": "https://s.cbhomes.com/p/i/mls/mls-listings-inc/2.png"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href=\"/ca/san-francisco/899-40th-ave/pid_71927566/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "899 40th Ave San Francisco, CA 94121"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "h2 a[href=\"/ca/san-francisco/899-40th-ave/pid_71927566/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "899 40th Ave San Francisco, CA 94121"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": ".property-price",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,198,000"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "li.property-type",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Duplex"
+        },
+        "status": {
+          "source": "page.safe.html",
+          "css_selector": "li.property-status",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Active"
+        },
+        "mls_number": {
+          "source": "page.safe.html",
+          "css_selector": "li.mls-number",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MLS # ML82050671"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "li.floor-area",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1,963 Sq. Ft."
+        },
+        "parking": {
+          "source": "page.safe.html",
+          "css_selector": "li.parking",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Car Garage"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "img.no-photo",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "no-photo"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": ".listing-agent",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Listed by Intero Real Estate Services, Karin Cunningham"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": ".listing-agent",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Intero Real Estate Services"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"MLSListings Inc-CA logo\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MLSListings Inc-CA logo"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/899-40th-ave/pid_71927560/",
+        "address": "899 40th Ave, San Francisco, CA 94121",
+        "price": {
+          "amount": 1198000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "property_type": "Single Family",
+        "status": "Active",
+        "mls_number": "ML82050662",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1963,
+          "unit": "ft2"
+        },
+        "parking": "2",
+        "images_urls": [],
+        "listing_agent_name": "Karin Cunningham",
+        "listing_office": "Intero Real Estate Services",
+        "listing_agent_logo": "https://s.cbhomes.com/p/i/mls/mls-listings-inc/2.png"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href=\"/ca/san-francisco/899-40th-ave/pid_71927560/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "899 40th Ave San Francisco, CA 94121"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "h2 a[href=\"/ca/san-francisco/899-40th-ave/pid_71927560/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "899 40th Ave San Francisco, CA 94121"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": ".property-price",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,198,000"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "li.property-type",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Single Family"
+        },
+        "status": {
+          "source": "page.safe.html",
+          "css_selector": "li.property-status",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Active"
+        },
+        "mls_number": {
+          "source": "page.safe.html",
+          "css_selector": "li.mls-number",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MLS # ML82050662"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "li.bedrooms",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 Beds"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "li.bathrooms",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Full Baths"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "li.floor-area",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1,963 Sq. Ft."
+        },
+        "parking": {
+          "source": "page.safe.html",
+          "css_selector": "li.parking",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Car Garage"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "img.no-photo",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "no-photo"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": ".listing-agent",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Listed by Intero Real Estate Services, Karin Cunningham"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": ".listing-agent",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Intero Real Estate Services"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"MLSListings Inc-CA logo\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MLSListings Inc-CA logo"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/109-s-lake-merced-hls-3e/pid_71925834/",
+        "address": "109 S Lake Merced Hls 3E, San Francisco, CA 94132",
+        "price": {
+          "amount": 759888,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "property_type": "Condo",
+        "status": "Active",
+        "mls_number": "ML82050054",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1242,
+          "unit": "ft2"
+        },
+        "parking": "1",
+        "open_house_schedule": [
+          {
+            "date": "2026-06-12",
+            "time_start": "17:00",
+            "time_end": "19:00"
+          }
+        ],
+        "images_urls": [],
+        "listing_agent_name": "Kevin Cruz",
+        "listing_office": "Kinetic Real Estate",
+        "listing_agent_logo": "https://s.cbhomes.com/p/i/mls/mls-listings-inc/2.png"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href=\"/ca/san-francisco/109-s-lake-merced-hls-3e/pid_71925834/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "109 S Lake Merced Hls 3E San Francisco, CA 94132"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "h2 a[href=\"/ca/san-francisco/109-s-lake-merced-hls-3e/pid_71925834/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "109 S Lake Merced Hls 3E San Francisco, CA 94132"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": ".property-price",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$759,888"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "li.property-type",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Condo"
+        },
+        "status": {
+          "source": "page.safe.html",
+          "css_selector": "li.property-status",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Active"
+        },
+        "mls_number": {
+          "source": "page.safe.html",
+          "css_selector": "li.mls-number",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MLS # ML82050054"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "li.bedrooms",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Beds"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "li.bathrooms",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Full Baths"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "li.floor-area",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1,242 Sq. Ft."
+        },
+        "parking": {
+          "source": "page.safe.html",
+          "css_selector": "li.parking",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 Car Garage"
+        },
+        "open_house_schedule": {
+          "source": "page.safe.html",
+          "css_selector": ".open-house",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Open House Fri6/125-7"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "img[src=\"https://s.cbhomes.com/p/i/spacer/1-x-1/1.gif\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "109 S Lake Merced Hls 3E, San Francisco, CA 94132 - Photo 1"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": ".listing-agent",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Listed by Kinetic Real Estate, Kevin Cruz"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": ".listing-agent",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Kinetic Real Estate"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"MLSListings Inc-CA logo\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MLSListings Inc-CA logo"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/637-639-clement-st/pid_71924799/",
+        "address": "637-639 Clement St, San Francisco, CA 94118",
+        "price": {
+          "amount": 4200000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "property_type": "Multi-Family",
+        "status": "Active",
+        "mls_number": "426138631",
+        "images_urls": [],
+        "listing_agent_name": "David S Costello",
+        "listing_office": "Compass",
+        "listing_agent_logo": "https://s.cbhomes.com/p/i/mls/mls-listings-inc/2.png"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href=\"/ca/san-francisco/637-639-clement-st/pid_71924799/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "637-639 Clement St San Francisco, CA 94118"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "h2 a[href=\"/ca/san-francisco/637-639-clement-st/pid_71924799/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "637-639 Clement St San Francisco, CA 94118"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": ".property-price",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$4,200,000"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "li.property-type",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Multi-Family"
+        },
+        "status": {
+          "source": "page.safe.html",
+          "css_selector": "li.property-status",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Active"
+        },
+        "mls_number": {
+          "source": "page.safe.html",
+          "css_selector": "li.mls-number",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MLS # 426138631"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "img[src=\"https://s.cbhomes.com/p/i/spacer/1-x-1/1.gif\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "637-639 Clement St, San Francisco, CA 94118 - Photo 1"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": ".listing-agent",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Listed by Compass, David S Costello"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": ".listing-agent",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Compass"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"MLSListings Inc-CA logo\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MLSListings Inc-CA logo"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/2-lenox-way/pid_71924797/",
+        "address": "2 Lenox Way, San Francisco, CA 94127",
+        "price": {
+          "amount": null,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "property_type": null,
+        "status": null,
+        "mls_number": null,
+        "images_urls": [],
+        "listing_agent_name": null,
+        "listing_office": null,
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href=\"/ca/san-francisco/2-lenox-way/pid_71924797/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Lenox Way, San Francisco, CA 94127 - Photo 1"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "img[alt=\"2 Lenox Way, San Francisco, CA 94127 - Photo 1\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Lenox Way, San Francisco, CA 94127 - Photo 1"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "status": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "mls_number": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "img[src=\"https://s.cbhomes.com/p/i/spacer/1-x-1/1.gif\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Lenox Way, San Francisco, CA 94127 - Photo 1"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 42.836,
+    "input_tokens": 35901,
+    "output_tokens": 3272,
+    "total_tokens": 39173,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_APARTMENTS_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_APARTMENTS_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

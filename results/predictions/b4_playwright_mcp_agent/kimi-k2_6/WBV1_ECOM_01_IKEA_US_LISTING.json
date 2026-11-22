@@ -1,0 +1,4415 @@
+{
+  "task_id": "WBV1_ECOM_01_IKEA_US_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "product_name": "GLOSTAD",
+        "product_subtitle": "Sofa, Knisa dark gray",
+        "short_description": "Sofa, Knisa dark gray",
+        "price_raw": "$199.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 3.9,
+        "review_count": 61,
+        "image_url": "https://www.ikea.com/us/en/images/glostad-sofa-knisa-dark-gray__0987389_pe817503_s5.jpg?f=xl",
+        "product_url": "https://www.ikea.com/us/en/p/glostad-sofa-knisa-dark-gray-40595942/",
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "dark gray",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Knisa dark gray",
+        "image_urls": null,
+        "price": 199.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e342]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "GLOSTAD"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e343]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Knisa dark gray"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e343]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Knisa dark gray"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e348]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$199.00"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e352]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3.9 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e354]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "61"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector": "img[alt*='GLOSTAD']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/glostad-sofa-knisa-dark-gray-40595942/"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e333]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/glostad-sofa-knisa-dark-gray-40595942/"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e348]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e104]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e343]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "dark gray"
+        },
+        "color_options": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e343]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Knisa dark gray"
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e348]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "199.00"
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "product_name": "STOCKHOLM 2025",
+        "product_subtitle": "Sofa, Sundhamn beige",
+        "short_description": "Sofa, Sundhamn beige",
+        "price_raw": "$1,799.00",
+        "old_price_raw": "$1,999.00",
+        "discount_percentage": 10,
+        "rating": 4.4,
+        "review_count": 82,
+        "image_url": "https://www.ikea.com/us/en/p/stockholm-2025-sofa-sundhamn-beige-00586096/",
+        "product_url": "https://www.ikea.com/us/en/p/stockholm-2025-sofa-sundhamn-beige-00586096/",
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "beige",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Sundhamn beige",
+        "image_urls": null,
+        "price": 1799.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e375]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "STOCKHOLM 2025"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e376]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Sundhamn beige"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e376]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Sundhamn beige"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e387]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,799.00"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e382]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,999.00"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e392]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "10% off, save $200.00"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e396]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.4 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e398]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "82"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e366]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/stockholm-2025-sofa-sundhamn-beige-00586096/"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e366]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/stockholm-2025-sofa-sundhamn-beige-00586096/"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e387]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e104]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e376]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "beige"
+        },
+        "color_options": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e376]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sundhamn beige"
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e387]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1799.00"
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "product_name": "GLOSTAD",
+        "product_subtitle": "Sofa with chaise, Knisa dark gray",
+        "short_description": "Sofa with chaise, Knisa dark gray",
+        "price_raw": "$249.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 3.5,
+        "review_count": 32,
+        "image_url": "https://www.ikea.com/us/en/p/glostad-sofa-with-chaise-knisa-dark-gray-s69578602/",
+        "product_url": "https://www.ikea.com/us/en/p/glostad-sofa-with-chaise-knisa-dark-gray-s69578602/",
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "dark gray",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Knisa dark gray",
+        "image_urls": null,
+        "price": 249.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e424]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "GLOSTAD"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e425]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa with chaise, Knisa dark gray"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e425]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa with chaise, Knisa dark gray"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e430]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$249.00"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e434]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3.5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e436]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "32"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e415]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/glostad-sofa-with-chaise-knisa-dark-gray-s69578602/"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e415]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/glostad-sofa-with-chaise-knisa-dark-gray-s69578602/"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e430]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e104]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e425]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "dark gray"
+        },
+        "color_options": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e425]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Knisa dark gray"
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e430]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "249.00"
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "product_name": "UPPLAND",
+        "product_subtitle": "Sofa, Blekinge white",
+        "short_description": "Sofa, Blekinge white",
+        "price_raw": "$899.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 3.7,
+        "review_count": 186,
+        "image_url": "https://www.ikea.com/us/en/p/uppland-sofa-blekinge-white-s19384116/",
+        "product_url": "https://www.ikea.com/us/en/p/uppland-sofa-blekinge-white-s19384116/",
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "white",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Blekinge white",
+        "image_urls": null,
+        "price": 899.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e459]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "UPPLAND"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e460]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Blekinge white"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e460]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Blekinge white"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e465]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$899.00"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e469]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3.7 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e471]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "186"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e450]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/uppland-sofa-blekinge-white-s19384116/"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e450]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/uppland-sofa-blekinge-white-s19384116/"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e465]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e104]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e460]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "white"
+        },
+        "color_options": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e460]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Blekinge white"
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e465]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "899.00"
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "product_name": "KLIPPAN",
+        "product_subtitle": "Loveseat, Vissle gray",
+        "short_description": "Loveseat, Vissle gray",
+        "price_raw": "$299.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.0,
+        "review_count": 268,
+        "image_url": "https://www.ikea.com/us/en/p/klippan-loveseat-vissle-gray-s09010617/",
+        "product_url": "https://www.ikea.com/us/en/p/klippan-loveseat-vissle-gray-s09010617/",
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "gray",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Vissle gray",
+        "image_urls": null,
+        "price": 299.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e527]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "KLIPPAN"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e528]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Loveseat, Vissle gray"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e528]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Loveseat, Vissle gray"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e533]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$299.00"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e537]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e539]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "268"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e518]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/klippan-loveseat-vissle-gray-s09010617/"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e518]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/klippan-loveseat-vissle-gray-s09010617/"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e533]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e104]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e528]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "gray"
+        },
+        "color_options": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e528]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Vissle gray"
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e533]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "299.00"
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "product_name": "KIVIK",
+        "product_subtitle": "Sectional, 4-seat with chaise, Tallmyra dark green",
+        "short_description": "Sectional, 4-seat with chaise, Tallmyra dark green",
+        "price_raw": "$1,499.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 3.9,
+        "review_count": 148,
+        "image_url": "https://www.ikea.com/us/en/p/kivik-sectional-4-seat-with-chaise-tallmyra-dark-green-s09499721/",
+        "product_url": "https://www.ikea.com/us/en/p/kivik-sectional-4-seat-with-chaise-tallmyra-dark-green-s09499721/",
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "dark green",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Tallmyra dark green",
+        "image_urls": null,
+        "price": 1499.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e588]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "KIVIK"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e589]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sectional, 4-seat with chaise, Tallmyra dark green"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e589]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sectional, 4-seat with chaise, Tallmyra dark green"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e594]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,499.00"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e598]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3.9 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e600]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "148"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e579]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/kivik-sectional-4-seat-with-chaise-tallmyra-dark-green-s09499721/"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e579]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/kivik-sectional-4-seat-with-chaise-tallmyra-dark-green-s09499721/"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e594]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e104]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e589]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "dark green"
+        },
+        "color_options": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e589]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tallmyra dark green"
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e594]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1499.00"
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "product_name": "FINNALA",
+        "product_subtitle": "Sofa, Gunnared beige",
+        "short_description": "Sofa, Gunnared beige",
+        "price_raw": "$1,019.00",
+        "old_price_raw": "$1,249.00",
+        "discount_percentage": 18,
+        "rating": 3.8,
+        "review_count": 41,
+        "image_url": "https://www.ikea.com/us/en/p/finnala-sofa-gunnared-beige-s19319060/",
+        "product_url": "https://www.ikea.com/us/en/p/finnala-sofa-gunnared-beige-s19319060/",
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "beige",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Gunnared beige",
+        "image_urls": null,
+        "price": 1019.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e653]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "FINNALA"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e654]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Gunnared beige"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e654]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Gunnared beige"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,019.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,249.00"
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "18% off, save $230.00"
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3.8 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "41"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e644]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/finnala-sofa-gunnared-beige-s19319060/"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e644]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ikea.com/us/en/p/finnala-sofa-gunnared-beige-s19319060/"
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e104]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e654]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "beige"
+        },
+        "color_options": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "page.safe.html",
+          "css_selector": "[ref=e654]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gunnared beige"
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1019.00"
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "product_name": "KIVIK",
+        "product_subtitle": "Sofa, Grann/Bomstad black",
+        "short_description": "Sofa, Grann/Bomstad black",
+        "price_raw": "$1,299.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.3,
+        "review_count": 61,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "black",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Grann/Bomstad black",
+        "image_urls": null,
+        "price": 1299.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "KIVIK"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Grann/Bomstad black"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Grann/Bomstad black"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,299.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.3 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "61"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "black"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Grann/Bomstad black"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1299.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "product_name": "HYLTARP",
+        "product_subtitle": "Sofa, Gransel natural",
+        "short_description": "Sofa, Gransel natural",
+        "price_raw": "$1,199.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.2,
+        "review_count": 132,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "natural",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Gransel natural",
+        "image_urls": null,
+        "price": 1199.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "HYLTARP"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Gransel natural"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Gransel natural"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,199.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.2 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "132"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "natural"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gransel natural"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1199.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "product_name": "KIVIK",
+        "product_subtitle": "Sofa, Tibbleby beige/gray",
+        "short_description": "Sofa, Tibbleby beige/gray",
+        "price_raw": "$799.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.1,
+        "review_count": 507,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "beige/gray",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Tibbleby beige/gray",
+        "image_urls": null,
+        "price": 799.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "KIVIK"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Tibbleby beige/gray"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Tibbleby beige/gray"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$799.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.1 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "507"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "beige/gray"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tibbleby beige/gray"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "799.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "product_name": "SALTSJÖBADEN",
+        "product_subtitle": "3-seat sofa, Blekinge white",
+        "short_description": "3-seat sofa, Blekinge white",
+        "price_raw": "$499.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.8,
+        "review_count": 20,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "white",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Blekinge white",
+        "image_urls": null,
+        "price": 499.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "SALTSJÖBADEN"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3-seat sofa, Blekinge white"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3-seat sofa, Blekinge white"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$499.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.8 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "20"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "white"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Blekinge white"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "499.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "product_name": "GLOSTAD",
+        "product_subtitle": "Loveseat, Knisa dark gray",
+        "short_description": "Loveseat, Knisa dark gray",
+        "price_raw": "$169.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.5,
+        "review_count": 609,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "dark gray",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Knisa dark gray",
+        "image_urls": null,
+        "price": 169.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "GLOSTAD"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Loveseat, Knisa dark gray"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Loveseat, Knisa dark gray"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$169.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "609"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "dark gray"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Knisa dark gray"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "169.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "product_name": "MORABO",
+        "product_subtitle": "Sofa, Gunnared dark gray/wood",
+        "short_description": "Sofa, Gunnared dark gray/wood",
+        "price_raw": "$799.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.1,
+        "review_count": 168,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "dark gray",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Gunnared dark gray/wood",
+        "image_urls": null,
+        "price": 799.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MORABO"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Gunnared dark gray/wood"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Gunnared dark gray/wood"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$799.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.1 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "168"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "dark gray"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gunnared dark gray/wood"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "799.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "product_name": "LINANÄS",
+        "product_subtitle": "Sofa, with chaise/Vissle dark gray",
+        "short_description": "Sofa, with chaise/Vissle dark gray",
+        "price_raw": "$499.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 3.0,
+        "review_count": 115,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "dark gray",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Vissle dark gray",
+        "image_urls": null,
+        "price": 499.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "LINANÄS"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, with chaise/Vissle dark gray"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, with chaise/Vissle dark gray"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$499.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "115"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "dark gray"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Vissle dark gray"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "499.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "product_name": "FRIHETEN / KLAGSHAMN",
+        "product_subtitle": "Sleeper sectional,3 seat w/storage, Faringe light gray",
+        "short_description": "Sleeper sectional,3 seat w/storage, Faringe light gray",
+        "price_raw": "$1,099.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.4,
+        "review_count": 271,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "light gray",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Faringe light gray",
+        "image_urls": null,
+        "price": 1099.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "FRIHETEN / KLAGSHAMN"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sleeper sectional,3 seat w/storage, Faringe light gray"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sleeper sectional,3 seat w/storage, Faringe light gray"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,099.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.4 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "271"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "light gray"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Faringe light gray"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1099.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "product_name": "SALTMYRAN",
+        "product_subtitle": "Sofa, Öreryd gray-beige",
+        "short_description": "Sofa, Öreryd gray-beige",
+        "price_raw": "$399.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.6,
+        "review_count": 9,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "gray-beige",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Öreryd gray-beige",
+        "image_urls": null,
+        "price": 399.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "SALTMYRAN"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Öreryd gray-beige"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Öreryd gray-beige"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$399.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.6 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "9"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "gray-beige"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Öreryd gray-beige"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "399.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "product_name": "KLIPPAN",
+        "product_subtitle": "Loveseat, Bomstad black",
+        "short_description": "Loveseat, Bomstad black",
+        "price_raw": "$449.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.2,
+        "review_count": 174,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "black",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Bomstad black",
+        "image_urls": null,
+        "price": 449.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "KLIPPAN"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Loveseat, Bomstad black"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Loveseat, Bomstad black"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$449.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.2 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "174"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "black"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bomstad black"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "449.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "product_name": "STOCKHOLM 2025",
+        "product_subtitle": "3-seat sofa, Alhamn dark-brown",
+        "short_description": "3-seat sofa, Alhamn dark-brown",
+        "price_raw": "$1,699.00",
+        "old_price_raw": "$1,899.00",
+        "discount_percentage": 10,
+        "rating": 3.7,
+        "review_count": 39,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "dark-brown",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Alhamn dark-brown",
+        "image_urls": null,
+        "price": 1699.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "STOCKHOLM 2025"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3-seat sofa, Alhamn dark-brown"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3-seat sofa, Alhamn dark-brown"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,699.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,899.00"
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "10% off, save $200.00"
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3.7 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "39"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "dark-brown"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Alhamn dark-brown"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1699.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "product_name": "FINNALA",
+        "product_subtitle": "Sofa, Grann/Bomstad black",
+        "short_description": "Sofa, Grann/Bomstad black",
+        "price_raw": "$1,299.00",
+        "old_price_raw": "$1,699.00",
+        "discount_percentage": 23,
+        "rating": 4.9,
+        "review_count": 12,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "black",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Grann/Bomstad black",
+        "image_urls": null,
+        "price": 1299.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "FINNALA"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Grann/Bomstad black"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Grann/Bomstad black"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,299.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$1,699.00"
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "23% off, save $400.00"
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.9 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "12"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "black"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Grann/Bomstad black"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1299.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "product_name": "LINANÄS",
+        "product_subtitle": "Sofa, Vissle beige",
+        "short_description": "Sofa, Vissle beige",
+        "price_raw": "$399.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 3.5,
+        "review_count": 95,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "beige",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Vissle beige",
+        "image_urls": null,
+        "price": 399.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "LINANÄS"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Vissle beige"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Vissle beige"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$399.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3.5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "95"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "beige"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Vissle beige"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "399.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "product_name": "SALTSJÖBADEN",
+        "product_subtitle": "Sofa with chaise, Blekinge white",
+        "short_description": "Sofa with chaise, Blekinge white",
+        "price_raw": "$699.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.4,
+        "review_count": 9,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "white",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Blekinge white",
+        "image_urls": null,
+        "price": 699.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "SALTSJÖBADEN"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa with chaise, Blekinge white"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa with chaise, Blekinge white"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$699.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.4 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "9"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "white"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Blekinge white"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "699.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "product_name": "MORABO",
+        "product_subtitle": "Sectional 6-seat crn/chaise, Grann/Bomstad black/wood",
+        "short_description": "Sectional 6-seat crn/chaise, Grann/Bomstad black/wood",
+        "price_raw": "$3,099.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 3.9,
+        "review_count": 7,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "black/wood",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Grann/Bomstad black/wood",
+        "image_urls": null,
+        "price": 3099.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MORABO"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sectional 6-seat crn/chaise, Grann/Bomstad black/wood"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sectional 6-seat crn/chaise, Grann/Bomstad black/wood"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$3,099.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3.9 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "7"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "black/wood"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Grann/Bomstad black/wood"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3099.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "product_name": "LILLESÄTER",
+        "product_subtitle": "Sofa, Axvall off-white",
+        "short_description": "Sofa, Axvall off-white",
+        "price_raw": "$899.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": 4.1,
+        "review_count": 8,
+        "image_url": null,
+        "product_url": null,
+        "currency": "USD",
+        "availability": null,
+        "brand": "IKEA",
+        "category": "Sofas & sectionals",
+        "color": "off-white",
+        "color_options": null,
+        "seller_name": "IKEA",
+        "available_colors": null,
+        "available_widths": null,
+        "color_name": "Axvall off-white",
+        "image_urls": null,
+        "price": 899.0,
+        "size_or_volume": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "LILLESÄTER"
+        },
+        "product_subtitle": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Axvall off-white"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofa, Axvall off-white"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$899.00"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.1 out of 5 stars"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "8"
+        },
+        "image_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "product_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "currency": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "brand": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sofas & armchairs"
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "off-white"
+        },
+        "color_options": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "seller_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "IKEA"
+        },
+        "available_colors": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "available_widths": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "color_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Axvall off-white"
+        },
+        "image_urls": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "899.00"
+        },
+        "size_or_volume": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 444.553,
+    "input_tokens": 25308,
+    "output_tokens": 19750,
+    "total_tokens": 45058,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_01_IKEA_US_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_01_IKEA_US_LISTING_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+*.env
+
+# Large data distributed separately (Hugging Face)
+data/raw_snapshots/
+data/processed_screenshots/
+*.zip
+
+# Local tooling and run output
+.playwright-mcp/
+.vscode/
+logs/
+reports/
+node_modules/

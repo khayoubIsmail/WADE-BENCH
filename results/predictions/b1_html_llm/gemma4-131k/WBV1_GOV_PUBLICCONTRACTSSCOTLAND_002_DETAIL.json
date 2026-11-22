@@ -1,0 +1,90 @@
+{
+  "task_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": {
+          "value": "Integrated case management system configuration and development",
+          "provenance": {
+            "selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblTitle",
+            "text_quote": "Integrated case management system configuration and development"
+          }
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703",
+          "provenance": {
+            "selector": "base[href]",
+            "text_quote": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703"
+          }
+        },
+        "reference_number": {
+          "value": "MAY556703",
+          "provenance": {
+            "selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblTenderID",
+            "text_quote": "MAY556703"
+          }
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000833071",
+          "provenance": {
+            "selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblOCID",
+            "text_quote": "ocds-r6ebe6-0000833071"
+          }
+        },
+        "published_by": {
+          "value": "The City of Edinburgh Council",
+          "provenance": {
+            "selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblAuth a",
+            "text_quote": "<a href=\"/search/Search_AuthProfile.aspx?ID=AA00290\" style=\"text-decoration:underline;\">The City of Edinburgh Council</a>"
+          }
+        },
+        "publication_date": {
+          "value": "2026-05-27",
+          "provenance": {
+            "selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblPubDate",
+            "text_quote": "27/05/2026"
+          }
+        },
+        "deadline_date": null,
+        "deadline_time": null,
+        "notice_type": {
+          "value": null,
+          "provenance": {
+            "selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice",
+            "text_quote": "<!-- HTML truncated due to context limit -->"
+          }
+        },
+        "authority_id": {
+          "value": "AA00290",
+          "provenance": {
+            "selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblAuth a",
+            "text_quote": "/search/Search_AuthProfile.aspx?ID=AA00290"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 15.103,
+    "input_tokens": 24973,
+    "output_tokens": 832,
+    "total_tokens": 25805,
+    "initial_input_tokens": 24973,
+    "initial_output_tokens": 832,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

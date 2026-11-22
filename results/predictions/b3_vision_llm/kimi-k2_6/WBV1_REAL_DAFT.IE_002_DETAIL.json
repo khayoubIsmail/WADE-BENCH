@@ -1,0 +1,62 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "address": "14 Riverwood Place, Castleknock, Dublin 15, D15R9T0",
+        "price": {
+          "amount": 595000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 130,
+          "unit": "m2"
+        },
+        "property_type": "Semi-D",
+        "energy_rating": "C1",
+        "listing_agent_name": "James McKeon",
+        "listing_agent_phone": "01820280...",
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_office": null,
+        "images_urls": null,
+        "listing_url": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "bbox": null,
+        "text_quote": "14 Riverwood Place, Castleknock, Dublin 15, D15R9T0\n€595,000\n3 Bed · 4 Bath · 130 m² · Semi-D\nBER C1\nJames McKeon\n01820280..."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 11.271,
+    "input_tokens": 6808,
+    "output_tokens": 215,
+    "total_tokens": 7023,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_DAFT.IE_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_DAFT.IE_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_DAFT.IE_002_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

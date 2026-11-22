@@ -1,0 +1,117 @@
+{
+  "task_id": "WBV1_ACAD_GRC_MEETINGS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Additive Manufacturing of Soft Materials",
+        "event_start_date": "2026-07-19",
+        "event_end_date": "2026-07-24",
+        "event_url": "https://www.grc.org/additive-manufacturing-of-soft-materials-conference/2026/",
+        "location": "Manchester, New Hampshire, United States",
+        "grc_Label": "Gordon Research Conference",
+        "subtitle": "Bioprinted, Multimaterial, and AI-Enabled Approaches in Soft Material Additive Manufacturing",
+        "GRC Education Requirements": "Undergraduates or those who have not obtained a bachelor's degree in science/engineering (or acceptable equivalent) are not eligible to apply to attend Gordon Research Conferences or Seminars.",
+        "apply_link": "https://my.grc.org/event-application/19426",
+        "abstract_deadline": "2026-06-21",
+        "Venue and Travel Information": "https://www.grc.org/venues/north-america/southern-new-hampshire-university/",
+        "website": "https://www.grc.org/additive-manufacturing-of-soft-materials-conference/2026/",
+        "organizer": "Gordon Research Conferences",
+        "event_type": "Conference"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "h3",
+          "text_quote": "Additive Manufacturing of Soft Materials"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": ".dateTitle",
+          "text_quote": "July 19 - 24, 2026"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": ".dateTitle",
+          "text_quote": "July 19 - 24, 2026"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "base[href]",
+          "text_quote": "https://www.grc.org/additive-manufacturing-of-soft-materials-conference/2026/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "#ctl00_ContentPlaceHolder_ContentPage_ucMeetingDetails_pnlSiteLocationInfo span div",
+          "text_quote": "Manchester, New Hampshire, United States"
+        },
+        "grc_Label": {
+          "source": "page.html",
+          "selector": ".grcLabel",
+          "text_quote": "Gordon Research Conference"
+        },
+        "subtitle": {
+          "source": "page.html",
+          "selector": "h1.meetingTitle",
+          "text_quote": "Bioprinted, Multimaterial, and AI-Enabled Approaches in Soft Material Additive Manufacturing"
+        },
+        "GRC Education Requirements": {
+          "source": "page.html",
+          "selector": "p strong",
+          "text_quote": "GRC Education Requirements: Undergraduates or those who have not obtained a bachelor's degree in science/engineering (or acceptable equivalent) are not eligible to apply to attend Gordon Research Conferences or Seminars."
+        },
+        "apply_link": {
+          "source": "page.html",
+          "selector": "#ctl00_ContentPlaceHolder_ContentPage_ucMeetingDetails_lnkApply",
+          "text_quote": "Apply Now",
+          "attribute": "href"
+        },
+        "abstract_deadline": {
+          "source": "page.html",
+          "selector": ".sectionInfo span p strong",
+          "text_quote": "June 21, 2026"
+        },
+        "Venue and Travel Information": {
+          "source": "page.html",
+          "selector": "a[href*=\"southern-new-hampshire-university\"]",
+          "text_quote": "Venue and Travel Information",
+          "attribute": "href"
+        },
+        "website": {
+          "source": "page.html",
+          "selector": "base[href]",
+          "text_quote": "https://www.grc.org/additive-manufacturing-of-soft-materials-conference/2026/"
+        },
+        "organizer": {
+          "source": "page.html",
+          "selector": ".grcLabel",
+          "text_quote": "Gordon Research Conference"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": ".grcLabel",
+          "text_quote": "Gordon Research Conference"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 31.054,
+    "input_tokens": 68989,
+    "output_tokens": 733,
+    "total_tokens": 69722,
+    "initial_input_tokens": 68989,
+    "initial_output_tokens": 733,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

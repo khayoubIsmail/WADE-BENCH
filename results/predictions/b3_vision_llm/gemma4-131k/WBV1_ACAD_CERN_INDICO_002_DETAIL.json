@@ -1,0 +1,56 @@
+{
+  "task_id": "WBV1_ACAD_CERN_INDICO_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2024-06-30",
+        "event_name": "International Conference on Machine Learning (ICML)",
+        "event_start_date": "2024-06-29",
+        "event_url": null,
+        "location": "Zurich, Switzerland"
+      },
+      "provenance": {
+        "event_end_date": {
+          "source": "screenshot.png",
+          "text_quote": "June 30, 2024"
+        },
+        "event_name": {
+          "source": "screenshot.png",
+          "text_quote": "International Conference on Machine Learning (ICML)"
+        },
+        "event_start_date": {
+          "source": "screenshot.png",
+          "text_quote": "June 29, 2024"
+        },
+        "event_url": null,
+        "location": {
+          "source": "screenshot.png",
+          "text_quote": "Zurich, Switzerland"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 3.95,
+    "input_tokens": 1507,
+    "output_tokens": 294,
+    "total_tokens": 1801,
+    "num_tiles": 1,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_CERN_INDICO_002_DETAIL\\tile_01.png"
+    ],
+    "error": null
+  }
+}

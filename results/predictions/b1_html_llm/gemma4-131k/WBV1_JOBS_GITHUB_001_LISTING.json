@@ -1,0 +1,64 @@
+{
+  "task_id": "WBV1_JOBS_GITHUB_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "job_title": {
+          "value": "Staff Software Engineer, Git Storage",
+          "provenance": {
+            "selector": ".job-title-link",
+            "text_quote": "<span itemprop=\"title\">Staff Software Engineer, Git Storage</span>"
+          },
+          "source": "page.html"
+        },
+        "job_url": {
+          "value": "https://careers-githubinc.icims.com/jobs/5458?lang=en-us",
+          "provenance": {
+            "selector": "a[href*=\"5458\"]",
+            "text_quote": "<a ... href=\"/careers-home/jobs/5458?lang=en-us\" id=\"link-job-8\">...</a>"
+          },
+          "source": "page.html"
+        },
+        "location": {
+          "value": "United Kingdom, Remote",
+          "provenance": {
+            "selector": ".location label-value",
+            "text_quote": "<span class=\"label-value location\"> United Kingdom </span><span ...>Remote</span>"
+          },
+          "source": "page.html"
+        },
+        "categories": {
+          "value": [
+            "Engineering"
+          ],
+          "provenance": {
+            "selector": ".job-result__categories .categories",
+            "text_quote": "<span class=\"categories label-value\"> Engineering </span>"
+          },
+          "source": "page.html"
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 55.66,
+    "input_tokens": 51420,
+    "output_tokens": 2961,
+    "total_tokens": 54381,
+    "initial_input_tokens": 51420,
+    "initial_output_tokens": 2961,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

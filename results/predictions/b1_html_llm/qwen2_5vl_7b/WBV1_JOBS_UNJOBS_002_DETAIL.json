@@ -1,0 +1,38 @@
+{
+  "task_id": "WBV1_JOBS_UNJOBS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Consultant (CTC4)",
+        "company_name": "United Nations University (UNU)",
+        "location": "Tokyo, Japan",
+        "employment_type": null,
+        "job_url": "https://unjobs.org/vacancies/1778623830833"
+      },
+      "provenance": {
+        "source": "page.html",
+        "required": true
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 22.827,
+    "input_tokens": 57864,
+    "output_tokens": 128,
+    "total_tokens": 57992,
+    "initial_input_tokens": 57864,
+    "initial_output_tokens": 128,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

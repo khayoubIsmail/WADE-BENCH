@@ -1,0 +1,76 @@
+{
+  "task_id": "WBV1_GOV_CANADA_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "2026-085: ONE PROJECT IN INVERNESS COUNTY, GRAVELLING",
+        "tender_url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/nsnspw2026-085",
+        "agency": "PSPC",
+        "awarding_agency": "PSPC",
+        "reference": "2026-085",
+        "reference_no": "2026-085",
+        "published_date": "2026-05-28",
+        "notice_dispatch_date": "2026-05-28",
+        "overview": "Project 1: Marble Mountain Road, from Crowdis #1 Truss easterly to end of pavement, approximately 3.3 kilometres TOTAL APPROXIMATELY …..3.3 kilometres Cost of acquiring documents: Not Applicable Terms of payment for acquiring documents: Not Applicable"
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "meta name=\"dcterms.title\"",
+          "text_quote": "2026-085: ONE PROJECT IN INVERNESS COUNTY, GRAVELLING"
+        },
+        "tender_url": {
+          "source": "link rel=\"canonical\"",
+          "text_quote": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/nsnspw2026-085"
+        },
+        "agency": {
+          "source": "meta name=\"dcterms:creator\"",
+          "text_quote": "PSPC"
+        },
+        "awarding_agency": {
+          "source": "meta name=\"dcterms:creator\"",
+          "text_quote": "PSPC"
+        },
+        "reference": {
+          "source": "meta name=\"dcterms.title\"",
+          "text_quote": "2026-085: ONE PROJECT IN INVERNESS COUNTY, GRAVELLING"
+        },
+        "reference_no": {
+          "source": "meta name=\"dcterms.title\"",
+          "text_quote": "2026-085: ONE PROJECT IN INVERNESS COUNTY, GRAVELLING"
+        },
+        "published_date": {
+          "source": "meta name=\"dcterms.issued\"",
+          "text_quote": "2026-05-28"
+        },
+        "notice_dispatch_date": {
+          "source": "meta name=\"dcterms.created\"",
+          "text_quote": "2026-05-28"
+        },
+        "overview": {
+          "source": "meta name=\"description\"",
+          "text_quote": "Project 1: Marble Mountain Road, from Crowdis #1 Truss easterly to end of pavement, approximately 3.3 kilometres TOTAL APPROXIMATELY …..3.3 kilometres Cost of acquiring documents: Not Applicable Terms of payment for acquiring documents: Not Applicable"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 9.839,
+    "input_tokens": 13928,
+    "output_tokens": 609,
+    "total_tokens": 14537,
+    "initial_input_tokens": 13928,
+    "initial_output_tokens": 609,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

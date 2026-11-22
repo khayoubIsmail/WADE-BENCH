@@ -1,0 +1,203 @@
+{
+  "task_id": "WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL",
+  "website_id": "imperial_events",
+  "schema_id": "academic_event_v1",
+  "snapshot_id": "imperial_events_detail_sample",
+  "snapshot_path": "raw_snapshots/academic/imperial_events_detail_sample",
+  "live_url": "https://www.imperial.ac.uk/materials/events/the-bauerman-lecture/",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL_001",
+      "fields": {
+        "event_name": {
+          "value": "Great Exhibition Road Festival",
+          "normalized": "Great Exhibition Road Festival"
+        },
+        "event_start_date": {
+          "value": "6 June 2026",
+          "normalized": "2026-06-06"
+        },
+        "event_end_date": {
+          "value": "7 June 2026",
+          "normalized": "2026-06-07"
+        },
+        "location": {
+          "value": "Exhibition Road, Great Exhibition Road Festival/Marquee - Prince's Gardens",
+          "normalized": "Exhibition Road, Great Exhibition Road Festival/Marquee - Prince's Gardens"
+        },
+        "event_url": {
+          "value": "https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/",
+          "normalized": "https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/"
+        },
+        "description": {
+          "value": "The Great Exhibition Road Festival is a free annual celebration of science and the arts each summer in South Kensington. Join us on 6-7 June 2026 from 12.00-18.00 each day for a weekend of free science and arts events for all ages.",
+          "normalized": "The Great Exhibition Road Festival is a free annual celebration of science and the arts each summer in South Kensington. Join us on 6-7 June 2026 from 12.00-18.00 each day for a weekend of free science and arts events for all ages."
+        },
+        "event_type": {
+          "value": "Festival",
+          "normalized": "festival"
+        },
+        "timing_start": {
+          "value": "12.00 BST",
+          "normalized": "12.00 BST"
+        },
+        "timing_end": {
+          "value": "18.00 BST",
+          "normalized": "18.00 BST"
+        },
+        "image_url": {
+          "value": "https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/250608-gerf-festival-bf-979-57-2_1777546039310_eventfeatured2018_x1.jpg",
+          "normalized": "https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/250608-gerf-festival-bf-979-57-2_1777546039310_eventfeatured2018_x1.jpg"
+        },
+        "cost": {
+          "value": "Free",
+          "normalized": "free"
+        },
+        "contact": {
+          "value": "festival@imperial.ac.uk",
+          "normalized": "festival@imperial.ac.uk"
+        },
+        "registration_url": {
+          "value": "https://www.eventbrite.com/e/great-exhibition-road-festival-2026-tickets-1985057931710?aff=oddtdtcreator&keep_tld=true",
+          "normalized": "https://www.eventbrite.com/e/great-exhibition-road-festival-2026-tickets-1985057931710?aff=oddtdtcreator&keep_tld=true"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "[id='secondary-content'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='secondary-content']/div[1]/div[1]/div[1]/ul[1]/li[2]",
+          "text_quote": "Great Exhibition Road Festival",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/div[2]/aside/div/div[1]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)"
+        },
+        "event_start_date": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "[id='secondary-content'] > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+          "xpath": "//*[@id='secondary-content']/div/div[1]/div[1]/p",
+          "text_quote": "Date: 6-7 June 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/div[2]/aside/div/div[1]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > div:nth-of-type(2) > aside > div > div:nth-of-type(1) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "event_end_date": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "[id='secondary-content'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='secondary-content']/div[1]/div[1]/div[1]/p[1]",
+          "text_quote": "7 June 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/div[2]/aside/div/div[1]/div[1]/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html without using a broad/incorrect selector"
+        },
+        "event_url": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "meta[content='https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/']",
+          "xpath": "//meta[@content='https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/']",
+          "text_quote": null,
+          "attribute": "content",
+          "xpath_absolute": "/html/head/meta[21]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > meta:nth-of-type(21)"
+        },
+        "description": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "[id='primary-content'] > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='primary-content']/div[2]/div[1]",
+          "text_quote": "The Great Exhibition Road Festival is a free annual celebration of science and the arts each summer in South Kensington.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/div[2]/div/div[2]/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)"
+        },
+        "event_type": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "[id='secondary-content'] > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='secondary-content']/div[1]/div[1]/ul[1]/li[2]/span[1]",
+          "text_quote": "Festival",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/div[2]/aside/div/div[1]/ul/li[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "timing_start": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html without using a broad/incorrect selector"
+        },
+        "timing_end": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "[id='secondary-content'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='secondary-content']/div[1]/div[1]/div[1]/ul[1]/li[1]",
+          "text_quote": "18.00 BST",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/div[2]/aside/div/div[1]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "[id='primary-content'] > div:nth-of-type(1) > picture:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='primary-content']/div[1]/picture[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[1]/div/div[2]/div/div[1]/picture/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > picture:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "cost": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "[id='secondary-content'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2) > span:nth-of-type(2)",
+          "xpath": "//*[@id='secondary-content']/div[1]/div[1]/div[2]/ul[1]/li[2]/span[2]",
+          "text_quote": "Free",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/div[2]/aside/div/div[1]/div[2]/ul/li[2]/span[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "contact": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html without using a broad/incorrect selector"
+        },
+        "registration_url": {
+          "snapshot_id": "imperial_events_detail_sample",
+          "css_selector": "[id='secondary-content'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='secondary-content']/div[1]/div[1]/div[3]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/div[2]/aside/div/div[1]/div[3]/a[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

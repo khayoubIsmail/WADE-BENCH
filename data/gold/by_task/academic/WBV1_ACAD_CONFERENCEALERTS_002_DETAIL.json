@@ -1,0 +1,201 @@
+{
+  "task_id": "WBV1_ACAD_CONFERENCEALERTS_002_DETAIL",
+  "website_id": "conferencealerts",
+  "schema_id": "academic_event_v1",
+  "snapshot_id": "conferencealerts_detail_sample",
+  "snapshot_path": "raw_snapshots/academic/conferencealerts_detail_sample",
+  "live_url": "https://conferencealerts.com/show-event?id=274920",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ACAD_CONFERENCEALERTS_002_DETAIL_001",
+      "fields": {
+        "event_url": {
+          "value": "https://conferencealerts.com/show-event?id=274920",
+          "normalized": "https://conferencealerts.com/show-event?id=274920"
+        },
+        "event_name": {
+          "value": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)",
+          "normalized": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)"
+        },
+        "acronym": {
+          "value": "EDULEARN26",
+          "normalized": "EDULEARN26"
+        },
+        "participation_type": {
+          "value": "online and in-person",
+          "normalized": "online and in-person"
+        },
+        "event_start_date": {
+          "value": "29 June 2026",
+          "normalized": "2026-06-29"
+        },
+        "event_end_date": {
+          "value": "1 July 2026",
+          "normalized": "2026-07-01"
+        },
+        "location": {
+          "value": "Palma de Mallorca, Spain",
+          "normalized": "Palma de Mallorca, Spain"
+        },
+        "website": {
+          "value": "https://iated.org/edulearn/",
+          "normalized": "https://iated.org/edulearn/"
+        },
+        "contact_person": {
+          "value": "EDULEARN25 Technical Secretariat",
+          "normalized": "EDULEARN25 Technical Secretariat"
+        },
+        "description": {
+          "value": "EDULEARN is one of the world's leading international education conferences, bringing together lecturers, researchers, technologists and professionals in the field of education. Each year, it hosts more than 800 experts from around the globe.",
+          "normalized": "EDULEARN is one of the world's leading international education conferences, bringing together lecturers, researchers, technologists and professionals in the field of education. Each year, it hosts more than 800 experts from around the globe."
+        },
+        "organizer": {
+          "value": "IATED Academy",
+          "normalized": "IATED Academy"
+        },
+        "abstract_deadline": {
+          "value": "12th March 2026",
+          "normalized": "2026-03-12"
+        },
+        "edition": {
+          "value": "18th",
+          "normalized": 18
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "head:nth-of-type(1) > title:nth-of-type(1)",
+          "xpath": "(/html/head/title)[1]",
+          "text_quote": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)",
+          "attribute": null,
+          "xpath_absolute": "/html/head/title",
+          "css_selector_absolute": "html > head:nth-of-type(1) > title:nth-of-type(1)"
+        },
+        "acronym": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "head:nth-of-type(1) > title:nth-of-type(1)",
+          "xpath": "(/html/head/title)[1]",
+          "text_quote": "EDULEARN26",
+          "attribute": null,
+          "xpath_absolute": "/html/head/title",
+          "css_selector_absolute": "html > head:nth-of-type(1) > title:nth-of-type(1)"
+        },
+        "participation_type": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "[id='eventInfoContainer'] > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > span:nth-of-type(3)",
+          "xpath": "//*[@id='eventInfoContainer']/table[1]/tbody[1]/tr[1]/td[3]/span[3]",
+          "text_quote": "online and in-person",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[8]/table/tbody/tr/td[3]/span[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > span:nth-of-type(3)"
+        },
+        "event_start_date": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "[id='eventDate']",
+          "xpath": "//*[@id='eventDate']",
+          "text_quote": "29th June to 1st July 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[8]/table/tbody/tr/td[3]/span[4]",
+          "css_selector_absolute": "html > body > div:nth-of-type(8) > table > tbody > tr > td:nth-of-type(3) > span:nth-of-type(4)",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "event_end_date": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "[id='eventDate']",
+          "xpath": "//*[@id='eventDate']",
+          "text_quote": "29th June to 1st July 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[8]/table/tbody/tr/td[3]/span[4]",
+          "css_selector_absolute": "html > body > div:nth-of-type(8) > table > tbody > tr > td:nth-of-type(3) > span:nth-of-type(4)",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "location": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "[id='eventCountry']",
+          "xpath": "//*[@id='eventCountry']",
+          "text_quote": "Palma de Mallorca, Spain",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[8]/table/tbody/tr/td[3]/span[5]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > span:nth-of-type(5)"
+        },
+        "website": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "[id='eventInfoContainer'] > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='eventInfoContainer']/table[1]/tbody[1]/tr[1]/td[3]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[8]/table/tbody/tr/td[3]/a[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > a:nth-of-type(1)"
+        },
+        "contact_person": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "[id='eventContactPerson']",
+          "xpath": "//*[@id='eventContactPerson']",
+          "text_quote": "EDULEARN25 Technical Secretariat",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[8]/table/tbody/tr/td[3]/span[7]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > span:nth-of-type(7)"
+        },
+        "description": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html without using a broad/incorrect selector"
+        },
+        "organizer": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "[id='eventOrganiser']",
+          "xpath": "//*[@id='eventOrganiser']",
+          "text_quote": "IATED Academy",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[8]/table/tbody/tr/td[3]/span[9]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > span:nth-of-type(9)"
+        },
+        "abstract_deadline": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "[id='eventDeadline']",
+          "xpath": "//*[@id='eventDeadline']",
+          "text_quote": "12th March 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[8]/table/tbody/tr/td[3]/span[10]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(8) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > span:nth-of-type(10)"
+        },
+        "event_url": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "base[href='https://conferencealerts.com/show-event?id=274920']",
+          "xpath": "//base[@href='https://conferencealerts.com/show-event?id=274920']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/head/base",
+          "css_selector_absolute": "html > head:nth-of-type(1) > base:nth-of-type(1)"
+        },
+        "edition": {
+          "snapshot_id": "conferencealerts_detail_sample",
+          "css_selector": "head:nth-of-type(1) > title:nth-of-type(1)",
+          "xpath": "(/html/head/title)[1]",
+          "text_quote": "18th",
+          "attribute": null,
+          "xpath_absolute": "/html/head/title",
+          "css_selector_absolute": "html > head:nth-of-type(1) > title:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

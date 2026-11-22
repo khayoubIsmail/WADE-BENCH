@@ -1,0 +1,113 @@
+{
+  "task_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Food Truck Wednesdays",
+        "event_start_date": "2026-05-27T14:00:00+01:00",
+        "location": "Building E23, Outside",
+        "event_url": "https://calendar.mit.edu/event/food-truck-wednesdays"
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": "Wednesday, May 27 4:30pm to 7pm GMT+1\nBuilding E23, Outside"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "event_name": "Intro to MIT's AI Tools",
+        "event_start_date": "2026-06-03T18:00:00+01:00",
+        "location": "Building NE49, 405",
+        "event_url": "https://calendar.mit.edu/event/intro-to-mits-ai-tools"
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": "Wednesday, June 3, 2026 5:00pm to 6:00pm GMT+1\nBuilding NE49, 405"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "event_name": "How to CAD Almost Anything! - Summer 2026",
+        "event_start_date": "2026-06-03T20:00:00+01:00",
+        "location": "Building 7A – Rotch Library, GIS & Data Lab",
+        "event_url": "https://calendar.mit.edu/event/how-to-cad-almost-anything-summer-2026"
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": "Wednesday, June 3, 2026 8:00pm to 10:00pm GMT+1\nBuilding 7A – Rotch Library, GIS & Data Lab"
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "event_name": "Finding Balance in Academia 2026: Navigating Uncertainty and Cultivating Joy",
+        "event_start_date": "2026-06-08T17:00:00+01:00",
+        "location": "Koch Institute Conference Room, 76-156",
+        "event_url": "https://calendar.mit.edu/event/finding-balance-in-academia-2026-navigating-uncertainty-and-cultivating-joy"
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": "Monday, June 8, 2026 5:00pm to 8:30pm GMT+1\nKoch Institute Conference Room, 76-156"
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "event_name": "Neurographica Workshop",
+        "event_start_date": "2026-06-09T18:00:00+01:00",
+        "location": "Building 10, 340",
+        "event_url": "https://calendar.mit.edu/event/copy-of-neurographica-workshop-3469"
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": "Tuesday, June 9, 2026 4:30pm to 6:00pm GMT+1\nBuilding 10, 340"
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "event_name": "Rooted: A Yoga and Live Plant Music Experience",
+        "event_start_date": "2026-06-09T23:00:00+01:00",
+        "location": "Kendall/MIT Open Space",
+        "event_url": "https://calendar.mit.edu/event/rooted-a-yoga-and-live-plant-music-experience"
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": "Tuesday, June 9, 2026 11:00pm - Wednesday, June 10, 2026 12:30am GMT+1\nKendall/MIT Open Space"
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "event_name": "Book Discussion",
+        "event_start_date": "2026-05-24T19:30:00+01:00",
+        "location": null,
+        "event_url": "https://calendar.mit.edu/event/book-discussion"
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 33.612,
+    "input_tokens": 31119,
+    "output_tokens": 1188,
+    "total_tokens": 32307,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_MIT_EVENTS_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_MIT_EVENTS_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

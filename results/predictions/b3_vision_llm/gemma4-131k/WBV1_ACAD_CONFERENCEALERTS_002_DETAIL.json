@@ -1,0 +1,59 @@
+{
+  "task_id": "WBV1_ACAD_CONFERENCEALERTS_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2024-06-30",
+        "event_name": "International Conference on AI and Data Science (ICADS)",
+        "event_start_date": "2024-06-28",
+        "event_url": "https://icads.org",
+        "location": "Virtual/Online"
+      },
+      "provenance": {
+        "event_end_date": {
+          "source": "screenshot.png",
+          "text_quote": "June 30, 2024"
+        },
+        "event_name": {
+          "source": "screenshot.png",
+          "text_quote": "International Conference on AI and Data Science (ICADS)"
+        },
+        "event_start_date": {
+          "source": "screenshot.png",
+          "text_quote": "June 28, 2024"
+        },
+        "event_url": {
+          "source": "screenshot.png",
+          "text_quote": "https://icads.org"
+        },
+        "location": {
+          "source": "screenshot.png",
+          "text_quote": "Virtual/Online"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 4.231,
+    "input_tokens": 1407,
+    "output_tokens": 329,
+    "total_tokens": 1736,
+    "num_tiles": 1,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_CONFERENCEALERTS_002_DETAIL\\tile_01.png"
+    ],
+    "error": null
+  }
+}

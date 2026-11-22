@@ -1,0 +1,32 @@
+{
+  "task_id": "WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "DEZAART",
+        "description": "Wooden Pendant Light | Mid Century Modern | Handmade Lamp | Ceiling Lamp | Chandelier Lighting | Industrial Lamp | Wood Lampshade | Lamp Shade"
+      },
+      "provenance": {
+        "url": "/page/1?source=page.md",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 23.229,
+    "input_tokens": 55716,
+    "output_tokens": 130,
+    "total_tokens": 55846,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "task_id": "WBV1_ACAD_STANFORD_EVENTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Burt and Deedee McMurtry Lecture with Curator Hamza Walker",
+        "event_start_date": "2026-05-27T18:00:00Z",
+        "event_end_date": "2026-05-27T19:30:00Z",
+        "location": {
+          "name": "Bing Concert Hall",
+          "address": "327 Lasuen St, Stanford, CA 94305"
+        },
+        "event_url": "https://events.stanford.edu/event/burt-and-deedee-mcmurtry-lecture-with-curator-hamza-walker",
+        "provenance": {
+          "source": "page.html",
+          "text_quote": "Join us for the Anderson Collection’s annual Burt and Deedee McMurtry Lecture, a signature program that brings leading artists, curators, and cultural thinkers to Stanford. This year’s lecture features Hamza Walker, Director of The Brick and a widely respected curator, writer, and educator."
+        }
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": "Join us for the Anderson Collection’s annual Burt and Deedee McMurtry Lecture, a signature program that brings leading artists, curators, and cultural thinkers to Stanford. This year’s lecture features Hamza Walker, Director of The Brick and a widely respected curator, writer, and educator."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 8.273,
+    "input_tokens": 14507,
+    "output_tokens": 351,
+    "total_tokens": 14858,
+    "initial_input_tokens": 14507,
+    "initial_output_tokens": 351,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

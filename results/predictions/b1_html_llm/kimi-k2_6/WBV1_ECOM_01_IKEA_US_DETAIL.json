@@ -1,0 +1,177 @@
+{
+  "task_id": "WBV1_ECOM_01_IKEA_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "IKEA",
+        "description": "Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÄTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!",
+        "image_urls": [
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1480269_pe1000163_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515334_pe1011366_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515336_pe1011368_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1522907_pe1013785_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515337_pe1011367_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1541969_pe1018260_s5.jpg"
+        ],
+        "price_raw": "$1,499.00",
+        "product_name": "LILLESÄTER Sectional, 5-seat, Gunnared bright green-yellow",
+        "product_url": "https://www.ikea.com/us/en/p/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow-s39614282/",
+        "rating": 0,
+        "review_count": 0,
+        "availability": "In stock",
+        "color": "Gunnared bright green-yellow",
+        "currency": "USD",
+        "discount_percentage": null,
+        "first_review": null,
+        "first_review_content": null,
+        "first_review_details": null,
+        "first_review_rating": null,
+        "first_review_text": null,
+        "first_review_title": null,
+        "image_url": "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg",
+        "key_features": [
+          "10 year limited warranty"
+        ],
+        "material": null,
+        "materials": null,
+        "measurements": null,
+        "old_price_raw": null,
+        "price": 1499.0,
+        "seller_name": "IKEA",
+        "shipping_info": null,
+        "shipping_text": null,
+        "short_description": "Sectional, 5-seat, Gunnared bright green-yellow",
+        "size_or_volume": null,
+        "sku": "396.142.82",
+        "available_colors": [
+          "Gunnared bright green-yellow",
+          "Axvall off-white"
+        ],
+        "available_sizes": null,
+        "available_widths": null,
+        "capacity_or_size": null,
+        "care": null,
+        "color_name": "Gunnared bright green-yellow",
+        "color_options": null,
+        "colors_options": null,
+        "fit": null,
+        "foam_model": null,
+        "selected_width": null,
+        "style_color": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "IKEA"
+        },
+        "description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipf-product-summary__description",
+          "text_quote_or_attribute": "Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÄTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!"
+        },
+        "image_urls": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipf-product-gallery__media img",
+          "text_quote_or_attribute": "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipcom-price-module__current-price",
+          "text_quote_or_attribute": "$1,499.00"
+        },
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "h1.pipcom-text",
+          "text_quote_or_attribute": "LILLESÄTER Sectional, 5-seat, Gunnared bright green-yellow"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "link[rel='canonical']",
+          "text_quote_or_attribute": "https://www.ikea.com/us/en/p/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow-s39614282/"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipf-rating__sr-only",
+          "text_quote_or_attribute": "Review: 0 out of 5 stars. Total reviews: 0"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipf-rating__label",
+          "text_quote_or_attribute": "(0)"
+        },
+        "availability": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".lower-funnel-fragments-delivery-section",
+          "text_quote_or_attribute": "Check availability"
+        },
+        "color": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipf-product-style-picker__text",
+          "text_quote_or_attribute": "Gunnared bright green-yellow"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipcom-price__currency",
+          "text_quote_or_attribute": "$"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:image']",
+          "text_quote_or_attribute": "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg"
+        },
+        "key_features": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipf-guarantee__text",
+          "text_quote_or_attribute": "10 year limited warranty"
+        },
+        "price": {
+          "source": "page.html",
+          "css_selector_or_xpath": "[data-product-price]",
+          "text_quote_or_attribute": "1499"
+        },
+        "seller_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "IKEA"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipcom-price-module__description",
+          "text_quote_or_attribute": "Sectional, 5-seat, Gunnared bright green-yellow"
+        },
+        "sku": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipf-product-identifier__value",
+          "text_quote_or_attribute": "396.142.82"
+        },
+        "available_colors": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pipf-product-style-picker__items img",
+          "text_quote_or_attribute": "Gunnared bright green-yellow"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 62.544,
+    "input_tokens": 123525,
+    "output_tokens": 1408,
+    "total_tokens": 124933,
+    "initial_input_tokens": 123525,
+    "initial_output_tokens": 1408,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

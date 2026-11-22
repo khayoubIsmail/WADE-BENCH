@@ -1,0 +1,161 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662",
+          "provenance": {
+            "source": "metadata.json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 375000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "$375,000"
+          }
+        },
+        "address": {
+          "value": "2749 Fish Ave, Bronx, NY 10469",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "2749 Fish Ave, Bronx, NY 10469"
+          }
+        },
+        "listing_title": {
+          "value": "2749 Fish Ave, Bronx, NY 10469 | MLS# 1005357",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "2749 Fish Ave, Bronx, NY 10469 | MLS# 1005357 | Redfin"
+          }
+        },
+        "property_type": {
+          "value": "Single-family",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Single-family\nProperty Type"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "3\nbd"
+          }
+        },
+        "bathrooms": {
+          "value": 3.5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "3.5 ba"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2058,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "2,058\nsq ft"
+          }
+        },
+        "parking": {
+          "value": 1,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "1 garage spaces\nParking"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Tyrone Byrdsong",
+            "phone": "(718) 710-3584"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Listing agent: Tyrone Byrdsong (718-710-3584)"
+          }
+        },
+        "mls_number": {
+          "value": "1005357",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "MLS# 1005357"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "No image URLs found in the snapshot."
+          }
+        }
+      },
+      "provenance": {
+        "source": "mixed"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 26.716,
+    "input_tokens": 28764,
+    "output_tokens": 1250,
+    "total_tokens": 30014,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_REDFIN_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_REDFIN_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

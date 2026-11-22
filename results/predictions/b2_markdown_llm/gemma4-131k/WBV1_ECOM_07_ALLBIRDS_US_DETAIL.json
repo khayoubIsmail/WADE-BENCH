@@ -1,0 +1,89 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Allbirds",
+        "description": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas. Lightweight, breathable, easy to wear on repeat. Comfortable enough for all day. Simple enough to go with everything. Thoughtfully designed Hemp and organic cotton canvas upper is light, breathable, and durable Merino wool-blend lining for softness, socks optional Sugarcane-based SweetFoam® cushioning with responsive energy return Plush Featherbed™ memory foam insole for extra comfort and bounce Best for Everyday Walks Vacation View technical details Weight: 8.1oz (M9), 6.6oz (W7) Stack Height: Heel: 14mm Toe: 8mm Heel/Toe Drop: 6mm Country of Origin: Vietnam",
+        "image_urls": [
+          "https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_Site_Navigation_HalfTile_Men_Desktop-Mobile_3x2_6e3e608c-ee7b-4873-9be1-a206271b0aa0.jpg?v=1769632125&width=400"
+        ],
+        "price_raw": "$75",
+        "product_name": "Men's Canvas Cruiser",
+        "product_url": "/products/mens-cruiser-canvas",
+        "rating": "4.2",
+        "review_count": "29"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "details": [
+          {
+            "field": "brand",
+            "value": "Allbirds",
+            "text_quote": "Allbirds Laces Varsity Airy Breezer Point Runner NZ Terralux Cruiser Mid Explore My Account About Help Featured Dasher NZ Collection Women's New Arrivals Shop Women's Sale Shoes Dasher NZ Collection Terralux™ Collection Varsity Collection New Arrivals Bestsellers Women's Shoes Popular Picks Apparel & Accessories Socks & Apparel Socks Apparel Accessories Sale Final Few My Account About Help All Sale Shop All Men Women",
+            "provenance_type": "text_quote"
+          },
+          {
+            "field": "product_name",
+            "value": "Men's Canvas Cruiser",
+            "text_quote": "# Men’s Canvas Cruiser | Lightweight Everyday Comfort | Allbirds",
+            "provenance_type": "text_quote"
+          },
+          {
+            "field": "description",
+            "value": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas. Lightweight, breathable, easy to wear on repeat. Comfortable enough for all day. Simple enough to go with everything. Thoughtfully designed Hemp and organic cotton canvas upper is light, breathable, and durable Merino wool-blend lining for softness, socks optional Sugarcane-based SweetFoam® cushioning with responsive energy return Plush Featherbed™ memory foam insole for extra comfort and bounce Best for Everyday Walks Vacation View technical details Weight: 8.1oz (M9), 6.6oz (W7) Stack Height: Heel: 14mm Toe: 8mm Heel/Toe Drop: 6mm Country of Origin: Vietnam",
+            "text_quote": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas. Lightweight, breathable, easy to wear on repeat. Comfortable enough for all day. Simple enough to go with everything. Thoughtfully designed Hemp and organic cotton canvas upper is light, breathable, and durable Merino wool-blend lining for softness, socks optional Sugarcane-based SweetFoam® cushioning with responsive energy return Plush Featherbed™ memory foam insole for extra comfort and bounce Best for Everyday Walks Vacation View technical details Weight: 8.1oz (M9), 6.6oz (W7) Stack Height: Heel: 14mm Toe: 8mm Heel/Toe Drop: 6mm Country of Origin: Vietnam",
+            "provenance_type": "text_quote"
+          },
+          {
+            "field": "image_urls",
+            "value": [
+              "https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_Site_Navigation_HalfTile_Men_Desktop-Mobile_3x2_6e3e608c-ee7b-4873-9be1-a206271b0aa0.jpg?v=1769632125&width=400"
+            ],
+            "text_quote": "Image: URL: https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_Site_Navigation_HalfTile_Men_Desktop-Mobile_3x2_6e3e608c-ee7b-4873-9be1-a206271b0aa0.jpg?v=1769632125&width=400",
+            "provenance_type": "text_quote"
+          },
+          {
+            "field": "price_raw",
+            "value": "$75",
+            "text_quote": "Men's Canvas Cruiser Also available in: Women's Sizes $75 + Free shipping (29)",
+            "provenance_type": "text_quote"
+          },
+          {
+            "field": "product_url",
+            "value": "/products/mens-cruiser-canvas",
+            "text_quote": "Men's Canvas Cruiser Also available in: Women's Sizes $75 + Free shipping (29)",
+            "provenance_type": "text_quote"
+          },
+          {
+            "field": "rating",
+            "value": "4.2",
+            "text_quote": "Reviews (29)",
+            "provenance_type": "text_quote"
+          },
+          {
+            "field": "review_count",
+            "value": "29",
+            "text_quote": "Reviews (29)"
+          }
+        ]
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 19.793,
+    "input_tokens": 12822,
+    "output_tokens": 1465,
+    "total_tokens": 14287,
+    "repaired": false,
+    "error": null
+  }
+}

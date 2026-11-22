@@ -1,0 +1,52 @@
+{
+  "task_id": "WBV1_ECOM_05_DECATHLON_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "id": "record_1",
+      "fields": {
+        "product_name": "Quechua NH100 Arpenaz 10 L Hiking Backpack - Black / 10 L",
+        "price": "$9.99",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg?v=1712591796",
+        "availability": "In Stock"
+      },
+      "provenance": {
+        "source": "ecommerce listing from Decathlon website",
+        "schema_id": "product_1"
+      },
+      "record_id": "pred_001"
+    },
+    {
+      "id": "record_2",
+      "fields": {
+        "product_name": "Quechua NH100 Arpenaz 10 L Hiking Backpack - Black / 10 L",
+        "price": "$9.99",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg?v=1712591796",
+        "availability": "In Stock"
+      },
+      "provenance": {
+        "source": "ecommerce listing from Decathlon website",
+        "schema_id": "product_1"
+      },
+      "record_id": "pred_002"
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 37.425,
+    "input_tokens": 70388,
+    "output_tokens": 469,
+    "total_tokens": 70857,
+    "initial_input_tokens": 70126,
+    "initial_output_tokens": 161,
+    "repair_input_tokens": 262,
+    "repair_output_tokens": 308,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

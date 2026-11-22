@@ -1,0 +1,140 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/130-maywood-dr/pid_71582925/",
+        "price": {
+          "amount": 2395000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "130 Maywood Drive, San Francisco, CA 94127",
+        "listing_title": "130 Maywood Dr, San Francisco, CA 94127 - MLS 426131611 - Coldwell Banker",
+        "property_type": "Single Family",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "bathrooms_partial": 1,
+        "floor_area": {
+          "value": 2392,
+          "unit": "ft2"
+        },
+        "mls_number": "426131611",
+        "status": "Pending",
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426131611/7C6Bf4CE39354F9/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/7929df464c0D401/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/8A2eC724e1C840a/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/3A2166093DE9479/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/070328Bb5c1D483/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/fb91799CeCE7460/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/D373B7174C0244F/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/9106EC5A06794f1/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/9719e04DF234428/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/72bdc1136F3d4D5/full.webp"
+        ],
+        "listing_agent_name": "Andrew Herrera II",
+        "listing_office": "Berkshire Hathaway-Franciscan",
+        "parking": 2
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.coldwellbankerhomes.com/ca/san-francisco/130-maywood-dr/pid_71582925/"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span[itemprop='price']",
+          "text_quote": "2395000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h1.notranslate",
+          "text_quote": "130 Maywood Dr San Francisco, CA 94127"
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "title",
+          "text_quote": "130 Maywood Dr, San Francisco, CA 94127 - MLS 426131611 - Coldwell Banker"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.details li",
+          "text_quote": "Single Family"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "ul.details li",
+          "text_quote": "4 Beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "ul.details li",
+          "text_quote": "2 Full Baths, 1 Partial Bath"
+        },
+        "bathrooms_partial": {
+          "source": "page.html",
+          "selector": "ul.details li",
+          "text_quote": "1 Partial Bath"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "ul.details li",
+          "text_quote": "2,392 Sq. Ft."
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "meta[property='og:title']",
+          "text_quote": "MLS 426131611"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "span.status span.property-status-indicator-text",
+          "text_quote": "Sale Pending"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "script[type='application/ld+json']",
+          "text_quote": "https://m.cbhomes.com/p/1111/426131611/7C6Bf4CE39354F9/full.webp"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p.agent-name",
+          "text_quote": "Andrew Herrera II"
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p.agent-office",
+          "text_quote": "Berkshire Hathaway-Franciscan"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "ul.details li",
+          "text_quote": "2 Car Garage"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 62.432,
+    "input_tokens": 122235,
+    "output_tokens": 906,
+    "total_tokens": 123141,
+    "initial_input_tokens": 122235,
+    "initial_output_tokens": 906,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

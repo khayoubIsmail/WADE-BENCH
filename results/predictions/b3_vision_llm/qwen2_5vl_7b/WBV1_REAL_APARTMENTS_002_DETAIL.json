@@ -1,0 +1,56 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/for-sale/san-francisco/274-mangels-ave",
+        "price": {
+          "amount": 995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "274 Mangels Ave, San Francisco, CA 94127",
+        "property_type": "Single Family",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 1010,
+          "unit": "Sq. Ft."
+        },
+        "status": "Coming Soon",
+        "published_date": "2026-05-15"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 7.048,
+    "input_tokens": 8360,
+    "output_tokens": 233,
+    "total_tokens": 8593,
+    "num_tiles": 4,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_002_DETAIL\\tile_04.png"
+    ],
+    "error": null
+  }
+}

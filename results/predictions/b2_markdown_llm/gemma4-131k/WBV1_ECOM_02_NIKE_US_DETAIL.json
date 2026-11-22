@@ -1,0 +1,40 @@
+{
+  "task_id": "WBV1_ECOM_02_NIKE_US_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Nike",
+        "description": "¡Olé! We're bringing the \"Toro\" colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey. Staying true to form, Nike Air cushioning in the heel and forefoot softens your step. Original design elements—like floating eyestays and mesh-like panels—make it feel as fresh as it did in '89.",
+        "image_urls": [
+          "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fde2cc9-99ff-469a-81b3-e74ffe5be20f/AIR+JORDAN+4+RETRO.png"
+        ],
+        "price_raw": "$220",
+        "product_name": "Air Jordan 4 \"Toro\" Men's Shoes",
+        "product_url": null,
+        "rating": null,
+        "review_count": null,
+        "sku": "FQ8138-600"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "image 1 of 9 Air Jordan 4 \"Toro\" Men's Shoes $220 Select Fit Baby/Toddler Little Kids Big Kids Adults Coming Soon Available 5/30 at 3:00 PM GMT+1 Download the Nike App and get notified. Create or sign in to your free Nike Member account for a chance to buy this product the moment it's released. Learn more ¡Olé! We're bringing the \"Toro\" colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey. Staying true to form, Nike Air cushioning in the heel and forefoot softens your step. Original design elements—like floating eyestays and mesh-like panels—make it feel as fresh as it did in '89. Shown: Fire Red/Black/Cement Grey/White Style: FQ8138-600 View Product Details Air Jordan 4 \"Toro\" $220 ¡Olé! We're bringing the \"Toro\" colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey. Staying true to form, Nike Air cushioning in the heel and forefoot softens your step. Original design elements—like floating eyestays and mesh-like panels—make it feel as fresh as it did in '89."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 10.895,
+    "input_tokens": 12661,
+    "output_tokens": 712,
+    "total_tokens": 13373,
+    "repaired": false,
+    "error": null
+  }
+}

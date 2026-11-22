@@ -1,0 +1,68 @@
+{
+  "task_id": "WBV1_JOBS_UNJOBS_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Consultant (CTC4)",
+        "company_name": "United Nations University",
+        "location": "Tokyo, Japan",
+        "job_url": "https://www.unjobs.org/jobs/consultant-ctc4-tokyo-japan",
+        "tags": [
+          "environmental sustainability",
+          "global programmes",
+          "international education",
+          "sustainable development goals",
+          "universities and colleges"
+        ],
+        "skills": [
+          "Program Management",
+          "Event Organization",
+          "Bilingual Communication",
+          "Stakeholder Engagement",
+          "AI Tools"
+        ],
+        "qualifications": [
+          "Bachelor's or master's degree in education, public administration, information technology, sustainable development, business administration or a related field to the sustainability science",
+          "At least six (6) years of relevant, progressively responsible experience with a bachelor's degree or three (3) years with a master's degree is required",
+          "Experience in managing complex programs and projects, resource mobilization, and partnerships (including international partnerships)",
+          "Demonstrated abilities to organize webinars and online/offline events"
+        ],
+        "application_deadline": "2026-06-02T23:59:00Z",
+        "how_to_apply": "Apply via the apply link; fill out the UNU P11 Form (please avoid using similar forms provided by other United Nations organisations); provide a motivation statement (in the P11 form); and answer a few questions that are tailored to the position.",
+        "provenance": {
+          "source": "screenshot.png",
+          "tile_index": 0
+        }
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 9.994,
+    "input_tokens": 10033,
+    "output_tokens": 414,
+    "total_tokens": 10447,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_UNJOBS_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_UNJOBS_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_UNJOBS_002_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

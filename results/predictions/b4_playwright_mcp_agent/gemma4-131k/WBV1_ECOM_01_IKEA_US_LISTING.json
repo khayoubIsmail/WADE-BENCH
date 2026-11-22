@@ -1,0 +1,1836 @@
+{
+  "task_id": "WBV1_ECOM_01_IKEA_US_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "product_name": "GLOSTAD, Sofa, Knisa dark gray",
+        "image_url": "https://www.ikea.com/us/en/p/glostad-sofa-knisa-dark-gray-40595942/",
+        "old_price_raw": null,
+        "price_raw": "$199.00",
+        "product_url": "https://www.ikea.com/us/en/p/glostad-sofa-knisa-dark-gray-40595942/",
+        "rating": "3.9 out of 5 stars",
+        "review_count": 61,
+        "short_description": "Sofa, Knisa dark gray",
+        "available_widths": null,
+        "brand": "GLOSTAD",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "GLOSTAD, Sofa, Knisa dark gray"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Modern living room with grey GLOSTAD sofa..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$199"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/glostad-sofa-knisa-dark-gray-40595942/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 3.9 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(61)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Knisa dark gray"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "GLOSTAD"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "product_name": "STOCKHOLM 2025, Sofa, Sundhamn beige",
+        "image_url": "https://www.ikea.com/us/en/p/stockholm-2025-sofa-sundhamn-beige-00586096/",
+        "old_price_raw": "$1,799.00",
+        "price_raw": "$1,999.00",
+        "product_url": "https://www.ikea.com/us/en/p/stockholm-2025-sofa-sundhamn-beige-00586096/",
+        "rating": "4.4 out of 5 stars",
+        "review_count": 82,
+        "short_description": "Sofa, Sundhamn beige",
+        "available_widths": null,
+        "brand": "STOCKHOLM 2025",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "STOCKHOLM 2025, Sofa, Sundhamn beige"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "STOCKHOLM 2025 Sofa, Sundhamn beige"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,799.00"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,999.00"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/stockholm-2025-sofa-sundhamn-beige-00586096/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.4 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(82)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Sundhamn beige"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "STOCKHOLM 2025"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "product_name": "GLOSTAD, Sofa with chaise, Knisa dark gray",
+        "image_url": "https://www.ikea.com/us/en/p/glostad-sofa-with-chaise-knisa-dark-gray-s69578602/",
+        "old_price_raw": null,
+        "price_raw": "$249.00",
+        "product_url": "https://www.ikea.com/us/en/p/glostad-sofa-with-chaise-knisa-dark-gray-s69578602/",
+        "rating": "3.5 out of 5 stars",
+        "review_count": 32,
+        "short_description": "Sofa with chaise, Knisa dark gray",
+        "available_widths": null,
+        "brand": "GLOSTAD",
+        "category": "Sofa with chaise lounge",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "GLOSTAD, Sofa with chaise, Knisa dark gray"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Modern living room with grey GLOSTAD sofa..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$249"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/glostad-sofa-with-chaise-knisa-dark-gray-s69578602/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 3.5 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(32)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa with chaise, Knisa dark gray"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "GLOSTAD"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa with chaise lounge"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "product_name": "UPPLAND, Sofa, Blekinge white",
+        "image_url": "https://www.ikea.com/us/en/p/uppland-sofa-blekinge-white-s19384116/",
+        "old_price_raw": null,
+        "price_raw": "$899.00",
+        "product_url": "https://www.ikea.com/us/en/p/uppland-sofa-blekinge-white-s19384116/",
+        "rating": "3.7 out of 5 stars",
+        "review_count": 186,
+        "short_description": "Sofa, Blekinge white",
+        "available_widths": null,
+        "brand": "UPPLAND",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "UPPLAND, Sofa, Blekinge white"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "UPPLAND sofa with floral pillows..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$899"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/uppland-sofa-blekinge-white-s19384116/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 3.7 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(186)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Blekinge white"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "UPPLAND"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "product_name": "KLIPPAN, Loveseat, Vissle gray",
+        "image_url": "https://www.ikea.com/us/en/p/klippan-loveseat-vissle-gray-s09010617/",
+        "old_price_raw": null,
+        "price_raw": "$299.00",
+        "product_url": "https://www.ikea.com/us/en/p/klippan-loveseat-vissle-gray-s09010617/",
+        "rating": "4 out of 5 stars",
+        "review_count": 268,
+        "short_description": "Loveseat, Vissle gray",
+        "available_widths": null,
+        "brand": "KLIPPAN",
+        "category": "Loveseats",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "KLIPPAN, Loveseat, Vissle gray"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Modern living room with a dark grey KLIPPAN sofa..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$299"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/klippan-loveseat-vissle-gray-s09010617/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(268)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Loveseat, Vissle gray"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "KLIPPAN"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Loveseats"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "product_name": "KIVIK, Sectional, 4-seat with chaise, Tallmyra dark green",
+        "image_url": "https://www.ikea.com/us/en/p/kivik-sectional-4-seat-with-chaise-tallmyra-dark-green-s09499721/",
+        "old_price_raw": null,
+        "price_raw": "$1,499.00",
+        "product_url": "https://www.ikea.com/us/en/p/kivik-sectional-4-seat-with-chaise-tallmyra-dark-green-s09499721/",
+        "rating": "3.9 out of 5 stars",
+        "review_count": 148,
+        "short_description": "Sectional, 4-seat with chaise, Tallmyra dark green",
+        "available_widths": null,
+        "brand": "KIVIK",
+        "category": "Sectionals",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "KIVIK, Sectional, 4-seat with chaise, Tallmyra dark green"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Dark green KIVIK sofa in modern living room..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,499"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/kivik-sectional-4-seat-with-chaise-tallmyra-dark-green-s09499721/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 3.9 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(148)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sectional, 4-seat with chaise, Tallmyra dark green"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "KIVIK"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sectionals"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "product_name": "FINNALA, Sofa, Gunnared beige",
+        "image_url": "https://www.ikea.com/us/en/p/finnala-sofa-gunnared-beige-s19319060/",
+        "old_price_raw": "$1249.00",
+        "price_raw": "$1,019.00",
+        "product_url": "https://www.ikea.com/us/en/p/finnala-sofa-gunnared-beige-s19319060/",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Sofa, Gunnared beige",
+        "available_widths": null,
+        "brand": "FINNALA",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "FINNALA, Sofa, Gunnared beige"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Modern living room with FINNALA beige sectional..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1249.00"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,019.00"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/finnala-sofa-gunnared-beige-s19319060/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Gunnared beige"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "FINNALA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "product_name": "KIVIK, Sofa, Grann/Bomstad black",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$1,299.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/kivik-sofa-grann-bomstad-black-s12990000/"
+        },
+        "rating": "4.3 out of 5 stars",
+        "review_count": 61,
+        "short_description": "Sofa, Grann/Bomstad black",
+        "available_widths": null,
+        "brand": "KIVIK",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "KIVIK, Sofa, Grann/Bomstad black"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,299"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/kivik-sofa-grann-bomstad-black-s12990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.3 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(61)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Grann/Bomstad black"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "KIVIK"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "product_name": "HYLTARP, Sofa, Gransel natural",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$1,199.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/hyltarp-sofa-gransel-natural-s11990000/"
+        },
+        "rating": "4.2 out of 5 stars",
+        "review_count": 132,
+        "short_description": "Sofa, Gransel natural",
+        "available_widths": null,
+        "brand": "HYLTARP",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "HYLTARP, Sofa, Gransel natural"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,199"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/hyltarp-sofa-gransel-natural-s11990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.2 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(132)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Gransel natural"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "HYLTARP"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "product_name": "KIVIK, Sofa, Tibbleby beige/gray",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$799.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/kivik-sofa-tibbleby-beige-gray-s7990000/"
+        },
+        "rating": "4.1 out of 5 stars",
+        "review_count": 507,
+        "short_description": "Sofa, Tibbleby beige/gray",
+        "available_widths": null,
+        "brand": "KIVIK",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "KIVIK, Sofa, Tibbleby beige/gray"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$799"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/kivik-sofa-tibbleby-beige-gray-s7990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.1 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(507)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Tibbleby beige/gray"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "KIVIK"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "product_name": "SALTSJÖBADEN, 3-seat sofa, Blekinge white",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$499.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/saltsjoebaden-3-seat-sofa-blekinge-white-s4990000/"
+        },
+        "rating": "4.8 out of 5 stars",
+        "review_count": 20,
+        "short_description": "3-seat sofa, Blekinge white",
+        "available_widths": null,
+        "brand": "SALTSJÖBADEN",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "SALTSJÖBADEN, 3-seat sofa, Blekinge white"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$499"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/saltsjoebaden-3-seat-sofa-blekinge-white-s4990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.8 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(20)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "3-seat sofa, Blekinge white"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "SALTSJÖBADEN"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "product_name": "GLOSTAD, Loveseat, Knisa dark gray",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$169.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/glostad-loveseat-knisa-dark-gray-s1690000/"
+        },
+        "rating": "4.5 out of 5 stars",
+        "review_count": 609,
+        "short_description": "Loveseat, Knisa dark gray",
+        "available_widths": null,
+        "brand": "GLOSTAD",
+        "category": "Loveseats",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "GLOSTAD, Loveseat, Knisa dark gray"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$169"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/glostad-loveseat-knisa-dark-gray-s1690000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.5 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(609)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Loveseat, Knisa dark gray"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "GLOSTAD"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Loveseats"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "product_name": "MORABO, Sofa, Gunnared dark gray/wood",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$799.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/morabo-sofa-gunnared-dark-gray-wood-s7990000/"
+        },
+        "rating": "4.1 out of 5 stars",
+        "review_count": 168,
+        "short_description": "Sofa, Gunnared dark gray/wood",
+        "available_widths": null,
+        "brand": "MORABO",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "MORABO, Sofa, Gunnared dark gray/wood"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$799"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/morabo-sofa-gunnared-dark-gray-wood-s7990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.1 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(168)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Gunnared dark gray/wood"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "MORABO"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "product_name": "LINANÄS, Sofa, with chaise/Vissle dark gray",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$499.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/linanas-sofa-with-chaise-vissle-dark-gray-s4990000/"
+        },
+        "rating": "3 out of 5 stars",
+        "review_count": 115,
+        "short_description": "Sofa, with chaise/Vissle dark gray",
+        "available_widths": null,
+        "brand": "LINANÄS",
+        "category": "Sofas with chaise lounge",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "LINANÄS, Sofa, with chaise/Vissle dark gray"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$499"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/linanas-sofa-with-chaise-vissle-dark-gray-s4990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 3 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(115)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, with chaise/Vissle dark gray"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "LINANÄS"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofas with chaise lounge"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "product_name": "FRIHETEN / KLAGSHAMN, Sleeper sectional,3 seat w/storage, Faringe light gray",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$1,099.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/friheten-klagshamn-sleeper-sectional-3-seat-w-storage-faringe-light-gray-s10990000/"
+        },
+        "rating": "4.4 out of 5 stars",
+        "review_count": 271,
+        "short_description": "Sleeper sectional,3 seat w/storage, Faringe light gray",
+        "available_widths": null,
+        "brand": "FRIHETEN / KLAGSHAMN",
+        "category": "Sectionals",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "FRIHETEN / KLAGSHAMN, Sleeper sectional,3 seat w/storage, Faringe light gray"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,099"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/friheten-klagshamn-sleeper-sectional-3-seat-w-storage-faringe-light-gray-s10990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.4 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(271)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sleeper sectional,3 seat w/storage, Faringe light gray"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "FRIHETEN / KLAGSHAMN"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sectionals"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "product_name": "SALTMYRAN, Sofa, Öreryd gray-beige",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$399.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/salmyran-sofa-oreryd-gray-beige-s3990000/"
+        },
+        "rating": "4.6 out of 5 stars",
+        "review_count": 9,
+        "short_description": "Sofa, Öreryd gray-beige",
+        "available_widths": null,
+        "brand": "SALTMYRAN",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "SALTMYRAN, Sofa, Öreryd gray-beige"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$399"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/salmyran-sofa-oreryd-gray-beige-s3990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.6 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(9)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Öreryd gray-beige"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "SALTMYRAN"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "product_name": "KLIPPAN, Loveseat, Bomstad black",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$449.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/klippan-loveseat-bomstad-black-s4490000/"
+        },
+        "rating": "4.2 out of 5 stars",
+        "review_count": 174,
+        "short_description": "Loveseat, Bomstad black",
+        "available_widths": null,
+        "brand": "KLIPPAN",
+        "category": "Loveseats",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "KLIPPAN, Loveseat, Bomstad black"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$449"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/klippan-loveseat-bomstad-black-s4490000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.2 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(174)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Loveseat, Bomstad black"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "KLIPPAN"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Loveseats"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "product_name": "STOCKHOLM 2025, 3-seat sofa, Alhamn dark-brown",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": "$1,899.00",
+        "price_raw": "$1,699.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/stockholm-2025-3-seat-sofa-alhamn-dark-brown-s16990000/"
+        },
+        "rating": "3.7 out of 5 stars",
+        "review_count": 39,
+        "short_description": "3-seat sofa, Alhamn dark-brown",
+        "available_widths": null,
+        "brand": "STOCKHOLM 2025",
+        "category": "Three-seat sofas",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "STOCKHOLM 2025, 3-seat sofa, Alhamn dark-brown"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,899.00"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,699.00"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/stockholm-2025-3-seat-sofa-alhamn-dark-brown-s16990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 3.7 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(39)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "3-seat sofa, Alhamn dark-brown"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "STOCKHOLM 2025"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Three-seat sofas"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "product_name": "FINNALA, Sofa, Grann/Bomstad black",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": "$1699.00",
+        "price_raw": "$1,299.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/finnala-sofa-grann-bomstad-black-s12990000/"
+        },
+        "rating": "4.9 out of 5 stars",
+        "review_count": 12,
+        "short_description": "Sofa, Grann/Bomstad black",
+        "available_widths": null,
+        "brand": "FINNALA",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "FINNALA, Sofa, Grann/Bomstad black"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1699.00"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$1,299.00"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/finnala-sofa-grann-bomstad-black-s12990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.9 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(12)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Grann/Bomstad black"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "FINNALA"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "product_name": "LINANÄS, Sofa, Vissle beige",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$399.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/linanas-sofa-vissle-beige-s3990000/"
+        },
+        "rating": "3.5 out of 5 stars",
+        "review_count": 95,
+        "short_description": "Sofa, Vissle beige",
+        "available_widths": null,
+        "brand": "LINANÄS",
+        "category": "Sofa",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "LINANÄS, Sofa, Vissle beige"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$399"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/linanas-sofa-vissle-beige-s3990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 3.5 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(95)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa, Vissle beige"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "LINANÄS"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "product_name": "SALTSJÖBADEN, Sofa with chaise, Blekinge white",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$699.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/saltsjoebaden-sofa-with-chaise-blekinge-white-s6990000/"
+        },
+        "rating": "4.4 out of 5 stars",
+        "review_count": 9,
+        "short_description": "Sofa with chaise, Blekinge white",
+        "available_widths": null,
+        "brand": "SALTSJÖBADEN",
+        "category": "Sofas with chaise lounge",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "SALTSJÖBADEN, Sofa with chaise, Blekinge white"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$699"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/saltsjoebaden-sofa-with-chaise-blekinge-white-s6990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 4.4 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(9)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofa with chaise, Blekinge white"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "SALTSJÖBADEN"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sofas with chaise lounge"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "product_name": "MORABO, Sectional 6-seat crn/chaise, Grann/Bomstad black/wood",
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": null,
+        "price_raw": "$3,099.00",
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/morabo-sectional-6-seat-crn-chaise-grann-bomstad-black-wood-s30990000/"
+        },
+        "rating": "3.9 out of 5 stars",
+        "review_count": 7,
+        "short_description": "Sectional 6-seat crn/chaise, Grann/Bomstad black/wood",
+        "available_widths": null,
+        "brand": "MORABO",
+        "category": "Sectionals",
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "MORABO, Sectional 6-seat crn/chaise, Grann/Bomstad black/wood"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$3,099"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.ikea.com/us/en/p/morabo-sectional-6-seat-crn-chaise-grann-bomstad-black-wood-s30990000/"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "Review: 3.9 out of 5 stars."
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "(7)"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sectional 6-seat crn/chaise, Grann/Bomstad black/wood"
+        },
+        "available_widths": null,
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "MORABO"
+        },
+        "category": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote": "Sectionals"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote": "$"
+        },
+        "seller_name": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 252.777,
+    "input_tokens": 29685,
+    "output_tokens": 17799,
+    "total_tokens": 47484,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_01_IKEA_US_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_01_IKEA_US_LISTING_tool_trace.json",
+    "error": null
+  }
+}

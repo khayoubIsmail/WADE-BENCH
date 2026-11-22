@@ -1,0 +1,33 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "/immo/estimation?entryPoint=ad_search&category=9",
+        "address": "Châtillon (92320)",
+        "price_amount": 410000,
+        "currency_code": "€",
+        "price_period": null
+      },
+      "provenance": {
+        "page_snapshot_path": "data/raw_snapshots/realestate/SNAP_REAL_ESTATE_001_LISTING"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 21.183,
+    "input_tokens": 53600,
+    "output_tokens": 156,
+    "total_tokens": 53756,
+    "repaired": false,
+    "error": null
+  }
+}

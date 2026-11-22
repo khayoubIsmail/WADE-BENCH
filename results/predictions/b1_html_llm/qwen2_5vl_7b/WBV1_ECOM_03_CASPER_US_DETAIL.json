@@ -1,0 +1,40 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "1",
+      "fields": {
+        "field_value": "<script>function processRecord(record) { let recordData = JSON.parse(record); if (recordData && recordData.product_name && recordData.brand && recordData.price && recordData.image_url) { return { product_name: recordData.product_name, brand: recordData.brand, price: recordData.price, image_url: recordData.image_url }; } else { return null; }</script><div class=\"product-card\" data-product_id=\"757611403681\" data-brand=\"Casper Sleep\" data-price=\"$999.00\" data-image_url=\"/cdn/shop/products/casper-one-foam.jpg?variant=41670971261009&alt=The One - Affordable Foam Mattress\"><img alt=\"The One - Affordable Foam Mattress\" class=\"product-card__image\" src=\"/cdn/shop/products/casper-one-foam.jpg?variant=41670971261009&alt=The One - Affordable Foam Mattress\"/></div>",
+        "timestamp": "2023-10-05T18:00:00Z"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "2",
+      "fields": {
+        "field_value": "<script>function processRecord(record) { let recordData = JSON.parse(record); if (recordData && recordData.product_name && recordData.brand && recordData.price && recordData.image_url) { return { product_name: recordData.product_name, brand: recordData.brand, price: recordData.price, image_url: recordData.image_url }; } else { return null; }</script><div class=\"product-card\" data-product_id=\"757611403681\" data-brand=\"Casper Sleep\" data-price=\"$999.00\" data-image_url=\"/cdn/shop/products/casper-one-foam.jpg?variant=41670971261009&alt=The One - Affordable Foam Mattress\"><img alt=\"The One - Affordable Foam Mattress\" class=\"product-card__image\" src=\"/cdn/shop/products/casper-one-foam.jpg?variant=41670971261009&alt=The One - Affordable Foam Mattress\"/></div>",
+        "timestamp": "2023-10-05T18:00:00Z"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 56.481,
+    "input_tokens": 71594,
+    "output_tokens": 1180,
+    "total_tokens": 72774,
+    "initial_input_tokens": 70890,
+    "initial_output_tokens": 603,
+    "repair_input_tokens": 704,
+    "repair_output_tokens": 577,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

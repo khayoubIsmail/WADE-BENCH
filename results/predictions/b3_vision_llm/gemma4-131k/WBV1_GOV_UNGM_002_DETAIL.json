@@ -1,0 +1,48 @@
+{
+  "task_id": "WBV1_GOV_UNGM_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Tender Notice for the Supply of IT Equipment and Services",
+        "tender_url": "https://www.example.com/tender-notice-it-equipment"
+      },
+      "provenance": [
+        {
+          "field": "tender_title",
+          "source": "screenshot.png",
+          "text_quote": "Tender Notice for the Supply of IT Equipment and Services",
+          "bbox": null
+        },
+        {
+          "field": "tender_url",
+          "source": "screenshot.png",
+          "text_quote": "https://www.example.com/tender-notice-it-equipment",
+          "bbox": null
+        }
+      ]
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 3.019,
+    "input_tokens": 1906,
+    "output_tokens": 204,
+    "total_tokens": 2110,
+    "num_tiles": 1,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_UNGM_002_DETAIL\\tile_01.png"
+    ],
+    "error": null
+  }
+}

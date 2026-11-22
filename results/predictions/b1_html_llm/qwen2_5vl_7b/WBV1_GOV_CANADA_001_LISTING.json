@@ -1,0 +1,35 @@
+{
+  "task_id": "WBV1_GOV_CANADA_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Tender opportunities | CanadaBuys",
+        "address": null,
+        "agency": null,
+        "alternate_physical_fax_number": null,
+        "alternate_physical_phone_number": null
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 1878.117,
+    "input_tokens": 59766,
+    "output_tokens": 71603,
+    "total_tokens": 131369,
+    "initial_input_tokens": 56480,
+    "initial_output_tokens": 71520,
+    "repair_input_tokens": 3286,
+    "repair_output_tokens": 83,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "/property-to-rent/B16-8FZ.html?radius=0.5&minPrice=1000&maxPrice=1400&minBedrooms=1",
+        "price": {
+          "amount": 1200,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": "pcm"
+        },
+        "address": "The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": "1 +14",
+          "unit": null
+        },
+        "key_features": [
+          "24h Concierge Service",
+          "Bike storage",
+          "Central Living",
+          "Double Glazing",
+          "Gym",
+          "Porter Security",
+          "Security"
+        ],
+        "description": "This luxurious one-bedroom apartment is pet friendly and situated on the 13th floor, fitted out to provide the best living experience possible. It has a generously sized open living space with floor to ceiling windows, one double bedroom with built-in wardrobe, a high quality kitchen with lots of storage space and integrated appliances. The apartment is furnished with private parking spaces available for an additional fee (POA). There also is a secure bike storage which includes a fully kitted workshop."
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 16.405,
+    "input_tokens": 35865,
+    "output_tokens": 367,
+    "total_tokens": 36232,
+    "repaired": false,
+    "error": null
+  }
+}

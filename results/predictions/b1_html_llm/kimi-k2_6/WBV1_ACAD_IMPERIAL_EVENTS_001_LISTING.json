@@ -1,0 +1,629 @@
+{
+  "task_id": "WBV1_ACAD_IMPERIAL_EVENTS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Great Exhibition Road Festival",
+        "event_start_date": "2026-06-06",
+        "event_end_date": "2026-06-07",
+        "event_url": "https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/",
+        "location": "South Kensington, London, UK",
+        "event_start_time": "12:00",
+        "event_end_time": "18:00",
+        "event_type": "Festival"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.featured-events h3.title",
+          "text_quote": "Great Exhibition Road Festival"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.featured-events time[datetime]",
+          "text_quote": "2026-06-06T12:00:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.featured-events time[datetime]",
+          "text_quote": "2026-06-07T18:00:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.featured-events a[href]",
+          "text_quote": "/events/209153/great-exhibition-road-festival-2026/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.featured-events p.venue",
+          "text_quote": "South Kensington"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.featured-events time[datetime]",
+          "text_quote": "12.00"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.featured-events time[datetime]",
+          "text_quote": "18.00"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.featured-events li.feature.topic span",
+          "text_quote": "Festival"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "event_name": "Green Science Festival",
+        "event_start_date": "2026-05-28",
+        "event_end_date": "2026-05-28",
+        "event_url": "https://www.imperial.ac.uk/events/208718/green-science-festival/",
+        "location": "The Queen's Tower, South Kensington Campus, London, UK",
+        "event_start_time": "09:00",
+        "event_end_time": "17:00",
+        "event_type": "General"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results span.title",
+          "text_quote": "Green Science Festival"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T09:00:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T17:00:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/208718/green-science-festival/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results div.venue",
+          "text_quote": "The Queen's Tower, South Kensington Campus"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "9.00"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "17.00"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "General"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "event_name": "Imperial Collider: Health – Innovations for partners, people & populations",
+        "event_start_date": "2026-06-04",
+        "event_end_date": "2026-06-04",
+        "event_url": "https://www.imperial.ac.uk/events/208569/imperial-collider-health-innovations-for-partners-people-populations/",
+        "location": "The Royal Geography Society, 1 Kensington Gore, London, UK",
+        "event_start_time": "09:30",
+        "event_end_time": "17:00",
+        "event_type": "Conference"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results h3.title",
+          "text_quote": "Imperial Collider: Health – Innovations for partners, people &amp; populations"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-06-04T09:30:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-06-04T17:00:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/208569/imperial-collider-health-innovations-for-partners-people-populations/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results p.venue",
+          "text_quote": "The Royal Geography Society, 1 Kensington Gore, London"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "9.30"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "17.00"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "Conference"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "event_name": "How universities can lead the way towards a sustainable future",
+        "event_start_date": "2026-06-30",
+        "event_end_date": "2026-06-30",
+        "event_url": "https://www.imperial.ac.uk/events/209857/how-universities-can-lead-the-way-towards-a-sustainable-future/",
+        "location": "Sir Alexander Fleming Building, South Kensington Campus, London, UK",
+        "event_start_time": "14:15",
+        "event_end_time": "16:00",
+        "event_type": "General"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results h3.title",
+          "text_quote": "How universities can lead the way towards a sustainable future"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-06-30T14:15:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-06-30T16:00:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/209857/how-universities-can-lead-the-way-towards-a-sustainable-future/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results p.venue",
+          "text_quote": "Sir Alexander Fleming Building, South Kensington Campus"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "14.15"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "16.00"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "General"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "event_name": "Blyth Gallery Retrospective",
+        "event_start_date": "2025-09-23",
+        "event_end_date": "2026-07-31",
+        "event_url": "https://www.imperial.ac.uk/events/195660/blyth-gallery-retrospective/",
+        "location": "Sherfield Building, South Kensington Campus, London, UK",
+        "event_start_time": "09:00",
+        "event_end_time": "17:00",
+        "event_type": "Exhibition"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results span.title",
+          "text_quote": "Blyth Gallery Retrospective"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2025-09-23T09:00:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-07-31T17:00:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/195660/blyth-gallery-retrospective/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results div.venue",
+          "text_quote": "Sherfield Building, South Kensington Campus"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "9.00"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "17.00"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "Exhibition"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "event_name": "Machine Intelligence for Health Conference (MI4H)",
+        "event_start_date": "2026-05-27",
+        "event_end_date": "2026-05-28",
+        "event_url": "https://www.imperial.ac.uk/events/207949/machine-intelligence-for-health-conference-mi4h/",
+        "location": "The Slate Warwick Conferences, University of Warwick, Coventry, UK",
+        "event_start_time": "08:30",
+        "event_end_time": "15:30",
+        "event_type": "Conference"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results span.title",
+          "text_quote": "Machine Intelligence for Health Conference (MI4H)"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-27T08:30:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T15:30:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/207949/machine-intelligence-for-health-conference-mi4h/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results div.venue",
+          "text_quote": "The Slate Warwick Conferences, University of Warwick , Coventry"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "8.30"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "15.30"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "Conference"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "event_name": "This might get uncomfortable – navigating personal conversations about air quality, health and personal values",
+        "event_start_date": "2026-05-28",
+        "event_end_date": "2026-05-28",
+        "event_url": "https://www.imperial.ac.uk/events/209728/this-might-get-uncomfortable-navigating-personal-conversations-about-air-quality-health-and-personal-values/",
+        "location": "Tower Hamlets Town Hall, 160 Whitechapel Road, Grocer's Wing, London, UK",
+        "event_start_time": "10:00",
+        "event_end_time": "12:00",
+        "event_type": "Debate"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results span.title",
+          "text_quote": "This might get uncomfortable – navigating personal conversations about air quality, health and personal values"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T10:00:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T12:00:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/209728/this-might-get-uncomfortable-navigating-personal-conversations-about-air-quality-health-and-personal-values/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results div.venue",
+          "text_quote": "Tower Hamlets Town Hall, 160 Whitechapel Road, Grocer's Wing, London"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "10.00"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "12.00"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "Debate"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "event_name": "CumbriaMed Research Webinar – \"How Bioengineering Can Improve Care\"",
+        "event_start_date": "2026-05-28",
+        "event_end_date": "2026-05-28",
+        "event_url": "https://www.imperial.ac.uk/events/209698/cumbriamed-research-webinar-how-bioengineering-can-improve-care/",
+        "location": "Online only",
+        "event_start_time": "12:30",
+        "event_end_time": "13:30",
+        "event_type": "Seminar"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results span.title",
+          "text_quote": "CumbriaMed Research Webinar – \"How Bioengineering Can Improve Care\""
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T12:30:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T13:30:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/209698/cumbriamed-research-webinar-how-bioengineering-can-improve-care/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results div.venue",
+          "text_quote": "Online only"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "12.30"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "13.30"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "Seminar"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "event_name": "Lunchtime Concert – Rautio Piano Trio",
+        "event_start_date": "2026-05-28",
+        "event_end_date": "2026-05-28",
+        "event_url": "https://www.imperial.ac.uk/events/206218/lunchtime-concert-rautio-piano-trio-2/",
+        "location": "Holy Trinity Church, Off campus, London, UK",
+        "event_start_time": "13:00",
+        "event_end_time": "13:45",
+        "event_type": "Social"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results span.title",
+          "text_quote": "Lunchtime Concert – Rautio Piano Trio"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T13:00:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T13:45:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/206218/lunchtime-concert-rautio-piano-trio-2/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results div.venue",
+          "text_quote": "Holy Trinity Church, Off campus"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "13.00"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "13.45"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "Social"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "event_name": "Present with impact sessions",
+        "event_start_date": "2026-05-28",
+        "event_end_date": "2026-05-28",
+        "event_url": "https://www.imperial.ac.uk/events/207986/present-with-impact-sessions-3-3/",
+        "location": "Online only",
+        "event_start_time": "17:00",
+        "event_end_time": "18:00",
+        "event_type": "Practice session"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results span.title",
+          "text_quote": "Present with impact sessions"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T17:00:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T18:00:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/207986/present-with-impact-sessions-3-3/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results div.venue",
+          "text_quote": "Online only"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "17.00"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "18.00"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "Practice session"
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "event_name": "Emerging Tech Forum",
+        "event_start_date": "2026-05-28",
+        "event_end_date": "2026-05-28",
+        "event_url": "https://www.imperial.ac.uk/events/209369/emerging-tech-forum/",
+        "location": "Sir Alexander Fleming Building, South Kensington Campus, London, UK",
+        "event_start_time": "17:30",
+        "event_end_time": "20:30",
+        "event_type": "Seminar"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "div.search-results span.title",
+          "text_quote": "Emerging Tech Forum"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T17:30:00+01:00"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "2026-05-28T20:30:00+01:00"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "div.search-results a[href]",
+          "text_quote": "/events/209369/emerging-tech-forum/"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "div.search-results div.venue",
+          "text_quote": "Sir Alexander Fleming Building, South Kensington Campus"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "17.30"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.search-results time[datetime]",
+          "text_quote": "20.30"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "div.search-results li.feature.topic span",
+          "text_quote": "Seminar"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 367.545,
+    "input_tokens": 38402,
+    "output_tokens": 12353,
+    "total_tokens": 50755,
+    "initial_input_tokens": 34326,
+    "initial_output_tokens": 8425,
+    "repair_input_tokens": 4076,
+    "repair_output_tokens": 3928,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

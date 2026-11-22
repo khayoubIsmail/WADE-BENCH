@@ -1,0 +1,1985 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.onthemarket.com/details/19328039/",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "link \"3 bedroom terraced house for sale, White Horse Road, East Ham, London, E6\" [ref=e97] [cursor=pointer]:\n                      - /url: /details/19328039/"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 450000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "link \"£450,000\" [ref=e136]:\n                      - /url: /details/19328039/"
+          }
+        },
+        "address": {
+          "value": "White Horse Road, East Ham, London, E6",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "generic [ref=e137]: White Horse Road, East Ham, London, E6"
+          }
+        },
+        "property_type": {
+          "value": "Terraced house",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "generic [ref=e139]: Terraced house"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "generic [ref=e141]:\n                        - img [ref=e142]\n                        - text: \"3\""
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "generic [ref=e145]:\n                        - img [ref=e144]\n                        - text: \"2\""
+          }
+        },
+        "tenure": {
+          "value": "Freehold",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "generic [ref=e148]: \"Tenure: FreeholdChain freeThree bedroomsSpacious through lounge\""
+          }
+        },
+        "listing_agent_name": {
+          "value": "Bairstow Eves - East Ham",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "generic [ref=e153]: Bairstow Eves - East Ham"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "020 4645 2354",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "link \"020 4645 2354\" [ref=e157]:\n                        - /url: tel:020 4645 2354"
+          }
+        },
+        "record_id": "pred_002",
+        "fields": {
+          "listing_url": {
+            "value": "https://www.onthemarket.com/details/19591853/",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "link \"2 bedroom apartment for sale, 18 Brumwell Avenue, Woolwich\" [ref=e171] [cursor=pointer]:\n                      - /url: /details/19591853/"
+            }
+          },
+          "price": {
+            "value": {
+              "amount": 395000,
+              "currency_code": "GBP",
+              "currency_symbol": "£",
+              "period": null
+            },
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "link \"£395,000\" [ref=e209]:\n                    - /url: /details/19591853/"
+            }
+          },
+          "address": {
+            "value": "18 Brumwell Avenue, Woolwich",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "generic [ref=e210]: 18 Brumwell Avenue, Woolwich"
+            }
+          },
+          "property_type": {
+            "value": "Apartment",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "generic [ref=e212]: Apartment"
+            }
+          },
+          "bedrooms": {
+            "value": 2,
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "generic [ref=e215]\n                        - img [ref=e215]\n                        - text: \"2\""
+            }
+          },
+          "bathrooms": {
+            "value": 1,
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "generic [ref=e217]:\n                        - img [ref=e218]\n                        - text: \"1\""
+            }
+          },
+          "tenure": {
+            "value": "Leasehold",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "generic [ref=e221]: \"Tenure: Leasehold (118 years remaining)Two BedroomsTwo BalconiesModern Apartment\""
+            }
+          },
+          "listing_agent_name": {
+            "value": "Felicity J. Lord - Blackheath",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "generic [ref=e226]: Felicity J. Lord - Blackheath"
+            }
+          },
+          "listing_agent_phone": {
+            "value": "020 8022 7076",
+            "provenance": {
+              "source": "page.safe.html",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "link \"020 8022 7076\" [ref=e230]:\n                        - /url: tel:020 8022 7076"
+            }
+          },
+          "record_id": "pred_003",
+          "fields": {
+            "listing_url": {
+              "value": "https://www.onthemarket.com/details/19591397/",
+              "provenance": {
+                "source": "page.safe.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "link \"2 bedroom apartment for sale, Stoneleigh Road, Clayhall\" [ref=e248] [cursor=pointer]:\n                      - /url: /details/19591397/"
+              }
+            },
+            "price": {
+              "value": {
+                "amount": 300000,
+                "currency_code": "GBP",
+                "currency_symbol": "£",
+                "period": null
+              },
+              "provenance": {
+                "source": "page.safe.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "link \"£300,000\" [ref=e283]:\n                      - /url: /details/19591397/"
+              }
+            },
+            "address": {
+              "value": "Stoneleigh Road, Clayhall",
+              "provenance": {
+                "source": "page.safe.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "generic [ref=e284]: Stoneleigh Road, Clayhall"
+              }
+            },
+            "property_type": {
+              "value": "Apartment",
+              "provenance": {
+                "source": "page.safe.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "generic [ref=e286]: Apartment"
+              }
+            },
+            "bedrooms": {
+              "value": 2,
+              "provenance": {
+                "source": "page.safe.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "generic [ref=e289]\n                        - img [ref=e289]\n                        - text: \"2\""
+              }
+            },
+            "bathrooms": {
+              "value": 2,
+              "provenance": {
+                "source": "page.safe.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "generic [ref=e292]\n                        - img [ref=e292]\n                        - text: \"2\""
+              }
+            },
+            "tenure": {
+              "value": "Leasehold",
+              "provenance": {
+                "source": "page.safe.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "generic [ref=e295]: \"Tenure: Leasehold (105 years remaining)Ground Floor ApartmentTwo BedroomsBathroom and En-suiteChain-free\""
+              }
+            },
+            "listing_agent_name": {
+              "value": "haart Estate Agents - Barkingside",
+              "provenance": {
+                "source": "page.safe.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "generic [ref=e300]: haart Estate Agents - Barkingside"
+              }
+            },
+            "listing_agent_phone": {
+              "value": "020 8022 6704",
+              "provenance": {
+                "source": "page.safe.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "link \"020 8022 6704\" [ref=e304]:\n                        - /url: tel:020 8022 6704"
+              }
+            },
+            "record_id": "pred_004",
+            "fields": {
+              "listing_url": {
+                "value": "https://www.onthemarket.com/details/19593929/",
+                "provenance": {
+                  "source": "page.safe.html",
+                  "css_selector": null,
+                  "xpath": null,
+                  "bbox": null,
+                  "text_quote": "link \"1 bedroom apartment for sale, Vicarage Close, Northolt\" [ref=e413] [cursor=pointer]:\n                      - /url: /details/19593929/"
+                }
+              },
+              "price": {
+                "value": {
+                  "amount": 140000,
+                  "currency_code": "GBP",
+                  "currency_symbol": "£",
+                  "period": null
+                },
+                "provenance": {
+                  "source": "page.safe.html",
+                  "css_selector": null,
+                  "xpath": null,
+                  "bbox": null,
+                  "text_quote": "link \"£140,000\" [ref=e438]:\n                      - /url: /details/19593929/"
+                }
+              },
+              "address": {
+                "value": "Vicarage Close, Northolt",
+                "provenance": {
+                  "source": "page.safe.html",
+                  "css_selector": null,
+                  "xpath": null,
+                  "bbox": null,
+                  "text_quote": "generic [ref=e439]: Vicarage Close, Northolt"
+                }
+              },
+              "property_type": {
+                "value": "Apartment",
+                "provenance": {
+                  "source": "page.safe.html",
+                  "css_selector": null,
+                  "xpath": null,
+                  "bbox": null,
+                  "text_quote": "generic [ref=e442]:\n                        - img [ref=e444]\n                        - text: \"1\""
+                }
+              },
+              "bedrooms": {
+                "value": 1,
+                "provenance": {
+                  "source": "page.safe.html",
+                  "css_selector": null,
+                  "xpath": null,
+                  "bbox": null,
+                  "text_quote": "generic [ref=e443]:\n                        - img [ref=e443]\n                        - text: \"1\""
+                }
+              },
+              "bathrooms": {
+                "value": 1,
+                "provenance": {
+                  "source": "page.safe.html",
+                  "css_selector": null,
+                  "xpath": null,
+                  "bbox": null,
+                  "text_quote": "generic [ref=e446]:\n                        - img [ref=e446]\n                        - text: \"1\""
+                }
+              },
+              "tenure": {
+                "value": "Leasehold",
+                "provenance": {
+                  "source": "page.safe.html",
+                  "css_selector": null,
+                  "xpath": null,
+                  "bbox": null,
+                  "text_quote": "generic [ref=e450]: \"Tenure: Leasehold (173 years remaining)For sale by online auctionAuction\""
+                }
+              },
+              "listing_agent_name": {
+                "value": "First for Auctions - National",
+                "provenance": {
+                  "source": "page.safe.html",
+                  "css_selector": null,
+                  "xpath": null,
+                  "bbox": null,
+                  "text_quote": "generic [ref=e455]: First for Auctions - National"
+                }
+              },
+              "listing_agent_phone": {
+                "value": "01344 527052",
+                "provenance": {
+                  "source": "page.safe.html",
+                  "css_selector": null,
+                  "xpath": null,
+                  "bbox": null,
+                  "text_quote": "link \"01344 527052\" [ref=e459]:\n                        - /url: tel:01344 527052"
+                }
+              },
+              "record_id": "pred_005",
+              "fields": {
+                "listing_url": {
+                  "value": "https://www.onthemarket.com/details/19593878/",
+                  "provenance": {
+                    "source": "page.safe.html",
+                    "css_selector": null,
+                    "xpath": null,
+                    "bbox": null,
+                    "text_quote": "link \"2 bedroom apartment for sale, Pembroke Road, Ruislip\" [ref=e543] [cursor=pointer]:\n                      - /url: /details/19593878/"
+                  }
+                },
+                "price": {
+                  "value": {
+                    "amount": 275000,
+                    "currency_code": "GBP",
+                    "currency_symbol": "£",
+                    "period": null
+                  },
+                  "provenance": {
+                    "source": "page.safe.html",
+                    "css_selector": null,
+                    "xpath": null,
+                    "bbox": null,
+                    "text_quote": "link \"£275,000\" [ref=e564]:\n                      - /url: /details/19593878/"
+                  }
+                },
+                "address": {
+                  "value": "Pembroke Road, Ruislip",
+                  "provenance": {
+                    "source": "page.safe.html",
+                    "css_selector": null,
+                    "xpath": null,
+                    "bbox": null,
+                    "text_quote": "generic [ref=e565]: Pembroke Road, Ruislip"
+                  }
+                },
+                "property_type": {
+                  "value": "Apartment",
+                  "provenance": {
+                    "source": "page.safe.html",
+                    "css_selector": null,
+                    "xpath": null,
+                    "bbox": null,
+                    "text_quote": "generic [ref=e567]: Apartment"
+                  }
+                },
+                "bedrooms": {
+                  "value": 2,
+                  "provenance": {
+                    "source": "page.safe.html",
+                    "css_selector": null,
+                    "xpath": null,
+                    "bbox": null,
+                    "text_quote": "generic [ref=e570]\n                        - img [ref=e570]\n                        - text: \"2\""
+                  }
+                },
+                "bathrooms": {
+                  "value": 2,
+                  "provenance": {
+                    "source": "page.safe.html",
+                    "css_selector": null,
+                    "xpath": null,
+                    "bbox": null,
+                    "text_quote": "generic [ref=e573]\n                        - img [ref=e573]\n                        - text: \"2\""
+                  }
+                },
+                "tenure": {
+                  "value": "Leasehold",
+                  "provenance": {
+                    "source": "page.safe.html",
+                    "css_selector": null,
+                    "xpath": null,
+                    "bbox": null,
+                    "text_quote": "generic [ref=e576]: \"Tenure: Leasehold (971 years remaining)For sale by online auctionAuction\""
+                  }
+                },
+                "listing_agent_name": {
+                  "value": "First for Auctions - National",
+                  "provenance": {
+                    "source": "page.safe.html",
+                    "css_selector": null,
+                    "xpath": null,
+                    "bbox": null,
+                    "text_quote": "generic [ref=e581]: First for Auctions - National"
+                  }
+                },
+                "listing_agent_phone": {
+                  "value": "01344 527052",
+                  "provenance": {
+                    "source": "page.safe.html",
+                    "css_selector": null,
+                    "xpath": null,
+                    "bbox": null,
+                    "text_quote": "link \"01344 527052\" [ref=e585]:\n                        - /url: tel:01344 527052"
+                  }
+                },
+                "record_id": "pred_006",
+                "fields": {
+                  "listing_url": {
+                    "value": "https://www.onthemarket.com/details/18923176/",
+                    "provenance": {
+                      "source": "page.safe.html",
+                      "css_selector": null,
+                      "xpath": null,
+                      "bbox": null,
+                      "text_quote": "link \"1 bedroom flat for sale, Limewood Court, Beehive Lane, Ilford, IG4\" [ref=e602] [cursor=pointer]:\n                      - /url: /details/18923176/"
+                    }
+                  },
+                  "price": {
+                    "value": {
+                      "amount": 100000,
+                      "currency_code": "GBP",
+                      "currency_symbol": "£",
+                      "period": null
+                    },
+                    "provenance": {
+                      "source": "page.safe.html",
+                      "css_selector": null,
+                      "xpath": null,
+                      "bbox": null,
+                      "text_quote": "link \"£100,000\" [ref=e637]:\n                      - /url: /details/18923176/"
+                    }
+                  },
+                  "address": {
+                    "value": "Limewood Court, Beehive Lane, Ilford, IG4",
+                    "provenance": {
+                      "source": "page.safe.html",
+                      "css_selector": null,
+                      "xpath": null,
+                      "bbox": null,
+                      "text_quote": "generic [ref=e638]: Limewood Court, Beehive Lane, Ilford, IG4"
+                    }
+                  },
+                  "property_type": {
+                    "value": "Flat",
+                    "provenance": {
+                      "source": "page.safe.html",
+                      "css_selector": null,
+                      "xpath": null,
+                      "bbox": null,
+                      "text_quote": "generic [ref=e640]: Flat"
+                    }
+                  },
+                  "bedrooms": {
+                    "value": 1,
+                    "provenance": {
+                      "source": "page.safe.html",
+                      "css_selector": null,
+                      "xpath": null,
+                      "bbox": null,
+                      "text_quote": "generic [ref=e642]\n                        - img [ref=e643]\n                        - text: \"1\""
+                    }
+                  },
+                  "bathrooms": {
+                    "value": 1,
+                    "provenance": {
+                      "source": "page.safe.html",
+                      "css_selector": null,
+                      "xpath": null,
+                      "bbox": null,
+                      "text_quote": "generic [ref=e645]\n                        - img [ref=e646]\n                        - text: \"1\""
+                    }
+                  },
+                  "tenure": {
+                    "value": "Leasehold",
+                    "provenance": {
+                      "source": "page.safe.html",
+                      "css_selector": null,
+                      "xpath": null,
+                      "bbox": null,
+                      "text_quote": "generic [ref=e649]: \"Tenure: Leasehold (60 years remaining)RetirementChain-freeNearest station 0.3mi.Nearest school 0.1mi.\""
+                    }
+                  },
+                  "listing_agent_name": {
+                    "value": "Bairstow Eves - Barkingside",
+                    "provenance": {
+                      "source": "page.safe.html",
+                      "css_selector": null,
+                      "xpath": null,
+                      "bbox": null,
+                      "text_quote": "generic [ref=e654]: Bairstow Eves - Barkingside"
+                    }
+                  },
+                  "listing_agent_phone": {
+                    "value": "020 4645 3221",
+                    "provenance": {
+                      "source": "page.safe.html",
+                      "css_selector": null,
+                      "xpath": null,
+                      "bbox": null,
+                      "text_quote": "link \"020 4645 3221\" [ref=e658]:\n                        - /url: tel:020 4645 3221"
+                    }
+                  },
+                  "record_id": "pred_007",
+                  "fields": {
+                    "listing_url": {
+                      "value": "https://www.onthemarket.com/details/16508645/",
+                      "provenance": {
+                        "source": "page.safe.html",
+                        "css_selector": null,
+                        "xpath": null,
+                        "bbox": null,
+                        "text_quote": "link \"3 bedroom apartment for sale, Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8\" [ref=e675] [cursor=pointer]:\n                      - /url: /details/16508645/"
+                      }
+                    },
+                    "price": {
+                      "value": {
+                        "amount": 1450000,
+                        "currency_code": "GBP",
+                        "currency_symbol": "£",
+                        "period": null
+                      },
+                      "provenance": {
+                        "source": "page.safe.html",
+                        "css_selector": null,
+                        "xpath": null,
+                        "bbox": null,
+                        "text_quote": "link \"£1,450,000\" [ref=e709]:\n                      - /url: /details/16508645/"
+                      }
+                    },
+                    "address": {
+                      "value": "Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8",
+                      "provenance": {
+                        "source": "page.safe.html",
+                        "css_selector": null,
+                        "xpath": null,
+                        "bbox": null,
+                        "text_quote": "generic [ref=e710]: Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8"
+                      }
+                    },
+                    "property_type": {
+                      "value": "Apartment",
+                      "provenance": {
+                        "source": "page.safe.html",
+                        "css_selector": null,
+                        "xpath": null,
+                        "bbox": null,
+                        "text_quote": "generic [ref=e712]:\n                        - img [ref=e715]\n                        - text: \"3\""
+                      }
+                    },
+                    "bedrooms": {
+                      "value": 3,
+                      "provenance": {
+                        "source": "page.safe.html",
+                        "css_selector": null,
+                        "xpath": null,
+                        "bbox": null,
+                        "text_quote": "generic [ref=e715]\n                        - img [ref=e715]\n                        - text: \"3\""
+                      }
+                    },
+                    "bathrooms": {
+                      "value": 2,
+                      "provenance": {
+                        "source": "page.safe.html",
+                        "css_selector": null,
+                        "xpath": null,
+                        "bbox": null,
+                        "text_quote": "generic [ref=e718]\n                        - img [ref=e718]\n                        - text: \"2\""
+                      }
+                    },
+                    "tenure": {
+                      "value": "Leasehold",
+                      "provenance": {
+                        "source": "page.safe.html",
+                        "css_selector": null,
+                        "xpath": null,
+                        "bbox": null,
+                        "text_quote": "generic [ref=e721]: \"Tenure: Leasehold (923 years remaining)3 bedrooms2 bathrooms1,246 sq ft / 115.8 sq m\""
+                      }
+                    },
+                    "listing_agent_name": {
+                      "value": "Hanover - St Johns Wood",
+                      "provenance": {
+                        "source": "page.safe.html",
+                        "css_selector": null,
+                        "xpath": null,
+                        "bbox": null,
+                        "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+                      }
+                    },
+                    "listing_agent_phone": {
+                      "value": "020 8115 0361",
+                      "provenance": {
+                        "source": "page.safe.html",
+                        "css_selector": null,
+                        "xpath": null,
+                        "bbox": null,
+                        "text_quote": "link \"020 8115 0361\" [ref=e730]:\n                        - /url: tel:020 8115 0361"
+                      }
+                    },
+                    "record_id": "pred_008",
+                    "fields": {
+                      "listing_url": {
+                        "value": "https://www.onthemarket.com/details/19593521/",
+                        "provenance": {
+                          "source": "page.safe.html",
+                          "css_selector": null,
+                          "xpath": null,
+                          "bbox": null,
+                          "text_quote": "link \"1 bedroom apartment for sale, Lee High Road, London\" [ref=e747] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                        }
+                      },
+                      "price": {
+                        "value": {
+                          "amount": 195000,
+                          "currency_code": "GBP",
+                          "currency_symbol": "£",
+                          "period": null
+                        },
+                        "provenance": {
+                          "source": "page.safe.html",
+                          "css_selector": null,
+                          "xpath": null,
+                          "bbox": null,
+                          "text_quote": "generic [ref=e737]:\n                  - generic [ref=e741]:\n                    - link \"1 bedroom apartment for sale, Lee High Road, London\" [ref=e743] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                        }
+                      },
+                      "address": {
+                        "value": "Lee High Road, London",
+                        "provenance": {
+                          "source": "page.safe.html",
+                          "css_selector": null,
+                          "xpath": null,
+                          "bbox": null,
+                          "text_quote": "generic [ref=e740]:\n                  - generic [ref=e741]:"
+                        }
+                      },
+                      "property_type": {
+                        "value": "Apartment",
+                        "provenance": {
+                          "source": "page.safe.html",
+                          "css_selector": null,
+                          "xpath": null,
+                          "bbox": null,
+                          "text_quote": "generic [ref=e738]:\n                  - generic [ref=e741]:"
+                        }
+                      },
+                      "bedrooms": {
+                        "value": 1,
+                        "provenance": {
+                          "source": "page.safe.html",
+                          "css_selector": null,
+                          "xpath": null,
+                          "bbox": null,
+                          "text_quote": "generic [ref=e743] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                        }
+                      },
+                      "bathrooms": {
+                        "value": 1,
+                        "provenance": {
+                          "source": "page.safe.html",
+                          "css_selector": null,
+                          "xpath": null,
+                          "bbox": null,
+                          "text_quote": "generic [ref=e747] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                        }
+                      },
+                      "tenure": {
+                        "value": "Leasehold",
+                        "provenance": {
+                          "source": "page.safe.html",
+                          "css_selector": null,
+                          "xpath": null,
+                          "bbox": null,
+                          "text_quote": "generic [ref=e761]: \"Tenure: Leasehold (109 years remaining)For sale by online auctionAuction\""
+                        }
+                      },
+                      "listing_agent_name": {
+                        "value": "First for Auctions - National",
+                        "provenance": {
+                          "source": "page.safe.html",
+                          "css_selector": null,
+                          "xpath": null,
+                          "bbox": null,
+                          "text_quote": "generic [ref=e751]: First for Auctions - National"
+                        }
+                      },
+                      "listing_agent_phone": {
+                        "value": "01344 527052",
+                        "provenance": {
+                          "source": "page.safe.html",
+                          "css_selector": null,
+                          "xpath": null,
+                          "bbox": null,
+                          "text_quote": "link \"01344 527052\" [ref=e759]:\n                        - /url: tel:01344 527052"
+                        }
+                      },
+                      "record_id": "pred_009",
+                      "fields": {
+                        "listing_url": {
+                          "value": "https://www.onthemarket.com/details/19593521/",
+                          "provenance": {
+                            "source": "page.safe.html",
+                            "css_selector": null,
+                            "xpath": null,
+                            "bbox": null,
+                            "text_quote": "link \"1 bedroom apartment for sale, Lee High Road, London\" [ref=e749] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                          }
+                        },
+                        "price": {
+                          "value": {
+                            "amount": 220000,
+                            "currency_code": "GBP",
+                            "currency_symbol": "£",
+                            "period": null
+                          },
+                          "provenance": {
+                            "source": "page.safe.html",
+                            "css_selector": null,
+                            "xpath": null,
+                            "bbox": null,
+                            "text_quote": "link \"£220,000\" [ref=e763]:\n                      - /url: /details/19593521/"
+                          }
+                        },
+                        "address": {
+                          "value": "Glebe Road, Stanmore",
+                          "provenance": {
+                            "source": "page.safe.html",
+                            "css_selector": null,
+                            "xpath": null,
+                            "bbox": null,
+                            "text_quote": "generic [ref=e740]:\n                  - generic [ref=e741]:"
+                          }
+                        },
+                        "property_type": {
+                          "value": "Apartment",
+                          "provenance": {
+                            "source": "page.safe.html",
+                            "css_selector": null,
+                            "xpath": null,
+                            "bbox": null,
+                            "text_quote": "generic [ref=e738]:\n                  - generic [ref=e741]:"
+                          }
+                        },
+                        "bedrooms": {
+                          "value": 2,
+                          "provenance": {
+                            "source": "page.safe.html",
+                            "css_selector": null,
+                            "xpath": null,
+                            "bbox": null,
+                            "text_quote": "generic [ref=e753] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                          }
+                        },
+                        "bathrooms": {
+                          "value": 1,
+                          "provenance": {
+                            "source": "page.safe.html",
+                            "css_selector": null,
+                            "xpath": null,
+                            "bbox": null,
+                            "text_quote": "generic [ref=e747] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                          }
+                        },
+                        "tenure": {
+                          "value": "Leasehold",
+                          "provenance": {
+                            "source": "page.safe.html",
+                            "css_selector": null,
+                            "xpath": null,
+                            "bbox": null,
+                            "text_quote": "generic [ref=e761]: \"Tenure: Leasehold (977 years remaining)For sale by online auctionAuction\""
+                          }
+                        },
+                        "listing_agent_name": {
+                          "value": "Gibbs Gillespie - Stanmore",
+                          "provenance": {
+                            "source": "page.safe.html",
+                            "css_selector": null,
+                            "xpath": null,
+                            "bbox": null,
+                            "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+                          }
+                        },
+                        "listing_agent_phone": {
+                          "value": "020 8128 5233",
+                          "provenance": {
+                            "source": "page.safe.html",
+                            "css_selector": null,
+                            "xpath": null,
+                            "bbox": null,
+                            "text_quote": "link \"020 8128 5233\" [ref=e730]:\n                        - /url: tel:020 8128 5233"
+                          }
+                        },
+                        "record_id": "pred_010",
+                        "fields": {
+                          "listing_url": {
+                            "value": "https://www.onthemarket.com/details/19593878/",
+                            "provenance": {
+                              "source": "page.safe.html",
+                              "css_selector": null,
+                              "xpath": null,
+                              "bbox": null,
+                              "text_quote": "link \"2 bedroom apartment for sale, Pembroke Road, Ruislip\" [ref=e541] [cursor=pointer]:\n                      - /url: /details/19593878/"
+                            }
+                          },
+                          "price": {
+                            "value": {
+                              "amount": 700000,
+                              "currency_code": "GBP",
+                              "currency_symbol": "£",
+                              "period": null
+                            },
+                            "provenance": {
+                              "source": "page.safe.html",
+                              "css_selector": null,
+                              "xpath": null,
+                              "bbox": null,
+                              "text_quote": "generic [ref=e737]:\n                  - generic [ref=e741]:"
+                            }
+                          },
+                          "address": {
+                            "value": "Gates Green Road, Coney Hall, West Wickham, BR4",
+                            "provenance": {
+                              "source": "page.safe.html",
+                              "css_selector": null,
+                              "xpath": null,
+                              "bbox": null,
+                              "text_quote": "generic [ref=e710]: Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8"
+                            }
+                          },
+                          "property_type": {
+                            "value": "Bungalow",
+                            "provenance": {
+                              "source": "page.safe.html",
+                              "css_selector": null,
+                              "xpath": null,
+                              "bbox": null,
+                              "text_quote": "generic [ref=e712]:\n                        - img [ref=e715]\n                        - text: \"3\""
+                            }
+                          },
+                          "bedrooms": {
+                            "value": 2,
+                            "provenance": {
+                              "source": "page.safe.html",
+                              "css_selector": null,
+                              "xpath": null,
+                              "bbox": null,
+                              "text_quote": "generic [ref=e715]\n                        - img [ref=e715]\n                        - text: \"3\""
+                            }
+                          },
+                          "bathrooms": {
+                            "value": 1,
+                            "provenance": {
+                              "source": "page.safe.html",
+                              "css_selector": null,
+                              "xpath": null,
+                              "bbox": null,
+                              "text_quote": "generic [ref=e718]\n                        - img [ref=e718]\n                        - text: \"2\""
+                            }
+                          },
+                          "tenure": {
+                            "value": "Freehold",
+                            "provenance": {
+                              "source": "page.safe.html",
+                              "css_selector": null,
+                              "xpath": null,
+                              "bbox": null,
+                              "text_quote": "generic [ref=e721]: \"Tenure: Leasehold (923 years remaining)3 bedrooms2 bathrooms1,246 sq ft / 115.8 sq m\""
+                            }
+                          },
+                          "listing_agent_name": {
+                            "value": "Mann - Beckenham",
+                            "provenance": {
+                              "source": "page.safe.html",
+                              "css_selector": null,
+                              "xpath": null,
+                              "bbox": null,
+                              "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+                            }
+                          },
+                          "listing_agent_phone": {
+                            "value": "020 7768 6890",
+                            "provenance": {
+                              "source": "page.safe.html",
+                              "css_selector": null,
+                              "xpath": null,
+                              "bbox": null,
+                              "text_quote": "link \"020 7768 6890\" [ref=e730]:\n                        - /url: tel:020 7768 6890"
+                            }
+                          },
+                          "record_id": "pred_011",
+                          "fields": {
+                            "listing_url": {
+                              "value": "https://www.onthemarket.com/details/19593521/",
+                              "provenance": {
+                                "source": "page.safe.html",
+                                "css_selector": null,
+                                "xpath": null,
+                                "bbox": null,
+                                "text_quote": "link \"1 bedroom apartment for sale, Lee High Road, London\" [ref=e755] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                              }
+                            },
+                            "price": {
+                              "value": {
+                                "amount": 450000,
+                                "currency_code": "GBP",
+                                "currency_symbol": "£",
+                                "period": null
+                              },
+                              "provenance": {
+                                "source": "page.safe.html",
+                                "css_selector": null,
+                                "xpath": null,
+                                "bbox": null,
+                                "text_quote": "link \"£450,000\" [ref=e763]:\n                      - /url: /details/19593521/"
+                              }
+                            },
+                            "address": {
+                              "value": "Porters Avenue, DAGENHAM, Essex, RM9",
+                              "provenance": {
+                                "source": "page.safe.html",
+                                "css_selector": null,
+                                "xpath": null,
+                                "bbox": null,
+                                "text_quote": "generic [ref=e710]: Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8"
+                              }
+                            },
+                            "property_type": {
+                              "value": "Semi-detached house",
+                              "provenance": {
+                                "source": "page.safe.html",
+                                "css_selector": null,
+                                "xpath": null,
+                                "bbox": null,
+                                "text_quote": "generic [ref=e712]:\n                        - img [ref=e715]\n                        - text: \"3\""
+                              }
+                            },
+                            "bedrooms": {
+                              "value": 3,
+                              "provenance": {
+                                "source": "page.safe.html",
+                                "css_selector": null,
+                                "xpath": null,
+                                "bbox": null,
+                                "text_quote": "generic [ref=e715]\n                        - img [ref=e715]\n                        - text: \"3\""
+                              }
+                            },
+                            "bathrooms": {
+                              "value": 2,
+                              "provenance": {
+                                "source": "page.safe.html",
+                                "css_selector": null,
+                                "xpath": null,
+                                "bbox": null,
+                                "text_quote": "generic [ref=e718]\n                        - img [ref=e718]\n                        - text: \"2\""
+                              }
+                            },
+                            "tenure": {
+                              "value": "Freehold",
+                              "provenance": {
+                                "source": "page.safe.html",
+                                "css_selector": null,
+                                "xpath": null,
+                                "bbox": null,
+                                "text_quote": "generic [ref=e721]: \"Tenure: Leasehold (923 years remaining)3 bedrooms2 bathrooms1,246 sq ft / 115.8 sq m\""
+                              }
+                            },
+                            "listing_agent_name": {
+                              "value": "Bairstow Eves - Dagenham",
+                              "provenance": {
+                                "source": "page.safe.html",
+                                "css_selector": null,
+                                "xpath": null,
+                                "bbox": null,
+                                "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+                              }
+                            },
+                            "listing_agent_phone": {
+                              "value": "020 4645 3408",
+                              "provenance": {
+                                "source": "page.safe.html",
+                                "css_selector": null,
+                                "xpath": null,
+                                "bbox": null,
+                                "text_quote": "link \"020 4645 3408\" [ref=e730]:\n                        - /url: tel:020 4645 3408"
+                              }
+                            },
+                            "record_id": "pred_012",
+                            "fields": {
+                              "listing_url": {
+                                "value": "https://www.onthemarket.com/details/19595111/",
+                                "provenance": {
+                                  "source": "page.safe.html",
+                                  "css_selector": null,
+                                  "xpath": null,
+                                  "bbox": null,
+                                  "text_quote": "link \"3 bedroom terraced house for sale, Eversleigh Road, East Ham, London, E6\" [ref=e345] [cursor=pointer]:\n                      - /url: /details/19595111/"
+                                }
+                              },
+                              "price": {
+                                "value": {
+                                  "amount": 550000,
+                                  "currency_code": "GBP",
+                                  "currency_symbol": "£",
+                                  "period": null
+                                },
+                                "provenance": {
+                                  "source": "page.safe.html",
+                                  "css_selector": null,
+                                  "xpath": null,
+                                  "bbox": null,
+                                  "text_quote": "link \"£550,000\" [ref=e375]:\n                      - /url: /details/19595111/"
+                                }
+                              },
+                              "address": {
+                                "value": "Eversleigh Road, East Ham, London, E6",
+                                "provenance": {
+                                  "source": "page.safe.html",
+                                  "css_selector": null,
+                                  "xpath": null,
+                                  "bbox": null,
+                                  "text_quote": "generic [ref=e376]: Eversleigh Road, East Ham, London, E6"
+                                }
+                              },
+                              "property_type": {
+                                "value": "Terraced house",
+                                "provenance": {
+                                  "source": "page.safe.html",
+                                  "css_selector": null,
+                                  "xpath": null,
+                                  "bbox": null,
+                                  "text_quote": "generic [ref=e378]:\n                      - generic [ref=e379]:\n                        - img [ref=e381]\n                        - text: \"3\""
+                                }
+                              },
+                              "bedrooms": {
+                                "value": 3,
+                                "provenance": {
+                                  "source": "page.safe.html",
+                                  "css_selector": null,
+                                  "xpath": null,
+                                  "bbox": null,
+                                  "text_quote": "generic [ref=e381]\n                        - img [ref=e381]\n                        - text: \"3\""
+                                }
+                              },
+                              "bathrooms": {
+                                "value": 2,
+                                "provenance": {
+                                  "source": "page.safe.html",
+                                  "css_selector": null,
+                                  "xpath": null,
+                                  "bbox": null,
+                                  "text_quote": "generic [ref=e384]\n                        - img [ref=e384]\n                        - text: \"2\""
+                                }
+                              },
+                              "tenure": {
+                                "value": "Freehold",
+                                "provenance": {
+                                  "source": "page.safe.html",
+                                  "css_selector": null,
+                                  "xpath": null,
+                                  "bbox": null,
+                                  "text_quote": "generic [ref=e387]: \"Tenure: FreeholdChain freePrivate garageRecently renovated throughoutChain-freeStudy\""
+                                }
+                              },
+                              "listing_agent_name": {
+                                "value": "Bairstow Eves - East Ham",
+                                "provenance": {
+                                  "source": "page.safe.html",
+                                  "css_selector": null,
+                                  "xpath": null,
+                                  "bbox": null,
+                                  "text_quote": "generic [ref=e392]: Bairstow Eves - East Ham"
+                                }
+                              },
+                              "listing_agent_phone": {
+                                "value": "020 4645 2354",
+                                "provenance": {
+                                  "source": "page.safe.html",
+                                  "css_selector": null,
+                                  "xpath": null,
+                                  "bbox": null,
+                                  "text_quote": "link \"020 4645 2354\" [ref=e396]:\n                        - /url: tel:020 4645 2354"
+                                }
+                              },
+                              "record_id": "pred_013",
+                              "fields": {
+                                "listing_url": {
+                                  "value": "https://www.onthemarket.com/details/19593942/",
+                                  "provenance": {
+                                    "source": "page.safe.html",
+                                    "css_selector": null,
+                                    "xpath": null,
+                                    "bbox": null,
+                                    "text_quote": "link \"1 bedroom apartment for sale, Vicarage Close, Northolt\" [ref=e476] [cursor=pointer]:\n                      - /url: /details/19593942/"
+                                  }
+                                },
+                                "price": {
+                                  "value": {
+                                    "amount": 140000,
+                                    "currency_code": "GBP",
+                                    "currency_symbol": "£",
+                                    "period": null
+                                  },
+                                  "provenance": {
+                                    "source": "page.safe.html",
+                                    "css_selector": null,
+                                    "xpath": null,
+                                    "bbox": null,
+                                    "text_quote": "link \"£140,000\" [ref=e501]:\n                      - /url: /details/19593942/"
+                                  }
+                                },
+                                "address": {
+                                  "value": "Vicarage Close, Northolt",
+                                  "provenance": {
+                                    "source": "page.safe.html",
+                                    "css_selector": null,
+                                    "xpath": null,
+                                    "bbox": null,
+                                    "text_quote": "generic [ref=e502]: Vicarage Close, Northolt"
+                                  }
+                                },
+                                "property_type": {
+                                  "value": "Apartment",
+                                  "provenance": {
+                                    "source": "page.safe.html",
+                                    "css_selector": null,
+                                    "xpath": null,
+                                    "bbox": null,
+                                    "text_quote": "generic [ref=e504]: Apartment"
+                                  }
+                                },
+                                "bedrooms": {
+                                  "value": 1,
+                                  "provenance": {
+                                    "source": "page.safe.html",
+                                    "css_selector": null,
+                                    "xpath": null,
+                                    "bbox": null,
+                                    "text_quote": "generic [ref=e506]\n                        - img [ref=e507]\n                        - text: \"1\""
+                                  }
+                                },
+                                "bathrooms": {
+                                  "value": 1,
+                                  "provenance": {
+                                    "source": "page.safe.html",
+                                    "css_selector": null,
+                                    "xpath": null,
+                                    "bbox": null,
+                                    "text_quote": "generic [ref=e509]\n                        - img [ref=e510]\n                        - text: \"1\""
+                                  }
+                                },
+                                "tenure": {
+                                  "value": "Leasehold",
+                                  "provenance": {
+                                    "source": "page.safe.html",
+                                    "css_selector": null,
+                                    "xpath": null,
+                                    "bbox": null,
+                                    "text_quote": "generic [ref=e513]: \"Tenure: Leasehold (83 years remaining)For sale by online auctionAuction\""
+                                  }
+                                },
+                                "listing_agent_name": {
+                                  "value": "Gibbs Gillespie - Ruislip Manor Sales",
+                                  "provenance": {
+                                    "source": "page.safe.html",
+                                    "css_selector": null,
+                                    "xpath": null,
+                                    "bbox": null,
+                                    "text_quote": "generic [ref=e518]: Gibbs Gillespie - Ruislip Manor Sales"
+                                  }
+                                },
+                                "listing_agent_phone": {
+                                  "value": "01895 754548",
+                                  "provenance": {
+                                    "source": "page.safe.html",
+                                    "css_selector": null,
+                                    "xpath": null,
+                                    "bbox": null,
+                                    "text_quote": "link \"01895 754548\" [ref=e522]:\n                        - /url: tel:01895 754548"
+                                  }
+                                },
+                                "record_id": "pred_014",
+                                "fields": {
+                                  "listing_url": {
+                                    "value": "https://www.onthemarket.com/details/19593878/",
+                                    "provenance": {
+                                      "source": "page.safe.html",
+                                      "css_selector": null,
+                                      "xpath": null,
+                                      "bbox": null,
+                                      "text_quote": "link \"2 bedroom apartment for sale, Pembroke Road, Ruislip\" [ref=e545] [cursor=pointer]:\n                      - /url: /details/19593878/"
+                                    }
+                                  },
+                                  "price": {
+                                    "value": {
+                                      "amount": 275000,
+                                      "currency_code": "GBP",
+                                      "currency_symbol": "£",
+                                      "period": null
+                                    },
+                                    "provenance": {
+                                      "source": "page.safe.html",
+                                      "css_selector": null,
+                                      "xpath": null,
+                                      "bbox": null,
+                                      "text_quote": "link \"£275,000\" [ref=e564]:\n                      - /url: /details/19593878/"
+                                    }
+                                  },
+                                  "address": {
+                                    "value": "Pembroke Road, Ruislip",
+                                    "provenance": {
+                                      "source": "page.safe.html",
+                                      "css_selector": null,
+                                      "xpath": null,
+                                      "bbox": null,
+                                      "text_quote": "generic [ref=e565]: Pembroke Road, Ruislip"
+                                    }
+                                  },
+                                  "property_type": {
+                                    "value": "Apartment",
+                                    "provenance": {
+                                      "source": "page.safe.html",
+                                      "css_selector": null,
+                                      "xpath": null,
+                                      "bbox": null,
+                                      "text_quote": "generic [ref=e567]: Apartment"
+                                    }
+                                  },
+                                  "bedrooms": {
+                                    "value": 2,
+                                    "provenance": {
+                                      "source": "page.safe.html",
+                                      "css_selector": null,
+                                      "xpath": null,
+                                      "bbox": null,
+                                      "text_quote": "generic [ref=e570]\n                        - img [ref=e570]\n                        - text: \"2\""
+                                    }
+                                  },
+                                  "bathrooms": {
+                                    "value": 2,
+                                    "provenance": {
+                                      "source": "page.safe.html",
+                                      "css_selector": null,
+                                      "xpath": null,
+                                      "bbox": null,
+                                      "text_quote": "generic [ref=e573]\n                        - img [ref=e573]\n                        - text: \"2\""
+                                    }
+                                  },
+                                  "tenure": {
+                                    "value": "Leasehold",
+                                    "provenance": {
+                                      "source": "page.safe.html",
+                                      "css_selector": null,
+                                      "xpath": null,
+                                      "bbox": null,
+                                      "text_quote": "generic [ref=e576]: \"Tenure: Leasehold (971 years remaining)For sale by online auctionAuction\""
+                                    }
+                                  },
+                                  "listing_agent_name": {
+                                    "value": "First for Auctions - National",
+                                    "provenance": {
+                                      "source": "page.safe.html",
+                                      "css_selector": null,
+                                      "xpath": null,
+                                      "bbox": null,
+                                      "text_quote": "generic [ref=e581]: First for Auctions - National"
+                                    }
+                                  },
+                                  "listing_agent_phone": {
+                                    "value": "01344 527052",
+                                    "provenance": {
+                                      "source": "page.safe.html",
+                                      "css_selector": null,
+                                      "xpath": null,
+                                      "bbox": null,
+                                      "text_quote": "link \"01344 527052\" [ref=e585]:\n                        - /url: tel:01344 527052"
+                                    }
+                                  },
+                                  "record_id": "pred_015",
+                                  "fields": {
+                                    "listing_url": {
+                                      "value": "https://www.onthemarket.com/details/18923176/",
+                                      "provenance": {
+                                        "source": "page.safe.html",
+                                        "css_selector": null,
+                                        "xpath": null,
+                                        "bbox": null,
+                                        "text_quote": "link \"1 bedroom flat for sale, Limewood Court, Beehive Lane, Ilford, IG4\" [ref=e608] [cursor=pointer]:\n                      - /url: /details/18923176/"
+                                      }
+                                    },
+                                    "price": {
+                                      "value": {
+                                        "amount": 100000,
+                                        "currency_code": "GBP",
+                                        "currency_symbol": "£",
+                                        "period": null
+                                      },
+                                      "provenance": {
+                                        "source": "page.safe.html",
+                                        "css_selector": null,
+                                        "xpath": null,
+                                        "bbox": null,
+                                        "text_quote": "link \"£100,000\" [ref=e637]:\n                      - /url: /details/18923176/"
+                                      }
+                                    },
+                                    "address": {
+                                      "value": "Limewood Court, Beehive Lane, Ilford, IG4",
+                                      "provenance": {
+                                        "source": "page.safe.html",
+                                        "css_selector": null,
+                                        "xpath": null,
+                                        "bbox": null,
+                                        "text_quote": "generic [ref=e638]: Limewood Court, Beehive Lane, Ilford, IG4"
+                                      }
+                                    },
+                                    "property_type": {
+                                      "value": "Flat",
+                                      "provenance": {
+                                        "source": "page.safe.html",
+                                        "css_selector": null,
+                                        "xpath": null,
+                                        "bbox": null,
+                                        "text_quote": "generic [ref=e640]: Flat"
+                                      }
+                                    },
+                                    "bedrooms": {
+                                      "value": 1,
+                                      "provenance": {
+                                        "source": "page.safe.html",
+                                        "css_selector": null,
+                                        "xpath": null,
+                                        "bbox": null,
+                                        "text_quote": "generic [ref=e642]\n                        - img [ref=e643]\n                        - text: \"1\""
+                                      }
+                                    },
+                                    "bathrooms": {
+                                      "value": 1,
+                                      "provenance": {
+                                        "source": "page.safe.html",
+                                        "css_selector": null,
+                                        "xpath": null,
+                                        "bbox": null,
+                                        "text_quote": "generic [ref=e645]\n                        - img [ref=e646]\n                        - text: \"1\""
+                                      }
+                                    },
+                                    "tenure": {
+                                      "value": "Leasehold",
+                                      "provenance": {
+                                        "source": "page.safe.html",
+                                        "css_selector": null,
+                                        "xpath": null,
+                                        "bbox": null,
+                                        "text_quote": "generic [ref=e649]: \"Tenure: Leasehold (60 years remaining)RetirementChain-freeNearest station 0.3mi.Nearest school 0.1mi.\""
+                                      }
+                                    },
+                                    "listing_agent_name": {
+                                      "value": "Bairstow Eves - Barkingside",
+                                      "provenance": {
+                                        "source": "page.safe.html",
+                                        "css_selector": null,
+                                        "xpath": null,
+                                        "bbox": null,
+                                        "text_quote": "generic [ref=e654]: Bairstow Eves - Barkingside"
+                                      }
+                                    },
+                                    "listing_agent_phone": {
+                                      "value": "020 4645 3221",
+                                      "provenance": {
+                                        "source": "page.safe.html",
+                                        "css_selector": null,
+                                        "xpath": null,
+                                        "bbox": null,
+                                        "text_quote": "link \"020 4645 3221\" [ref=e658]:\n                        - /url: tel:020 4645 3221"
+                                      }
+                                    },
+                                    "record_id": "pred_016",
+                                    "fields": {
+                                      "listing_url": {
+                                        "value": "https://www.onthemarket.com/details/16508645/",
+                                        "provenance": {
+                                          "source": "page.safe.html",
+                                          "css_selector": null,
+                                          "xpath": null,
+                                          "bbox": null,
+                                          "text_quote": "link \"3 bedroom apartment for sale, Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8\" [ref=e679] [cursor=pointer]:\n                      - /url: /details/16508645/"
+                                        }
+                                      },
+                                      "price": {
+                                        "value": {
+                                          "amount": 1450000,
+                                          "currency_code": "GBP",
+                                          "currency_symbol": "£",
+                                          "period": null
+                                        },
+                                        "provenance": {
+                                          "source": "page.safe.html",
+                                          "css_selector": null,
+                                          "xpath": null,
+                                          "bbox": null,
+                                          "text_quote": "link \"£1,450,000\" [ref=e709]:\n                      - /url: /details/16508645/"
+                                        }
+                                      },
+                                      "address": {
+                                        "value": "Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8",
+                                        "provenance": {
+                                          "source": "page.safe.html",
+                                          "css_selector": null,
+                                          "xpath": null,
+                                          "bbox": null,
+                                          "text_quote": "generic [ref=e710]: Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8"
+                                        }
+                                      },
+                                      "property_type": {
+                                        "value": "Apartment",
+                                        "provenance": {
+                                          "source": "page.safe.html",
+                                          "css_selector": null,
+                                          "xpath": null,
+                                          "bbox": null,
+                                          "text_quote": "generic [ref=e712]:\n                        - img [ref=e715]\n                        - text: \"3\""
+                                        }
+                                      },
+                                      "bedrooms": {
+                                        "value": 3,
+                                        "provenance": {
+                                          "source": "page.safe.html",
+                                          "css_selector": null,
+                                          "xpath": null,
+                                          "bbox": null,
+                                          "text_quote": "generic [ref=e715]\n                        - img [ref=e715]\n                        - text: \"3\""
+                                        }
+                                      },
+                                      "bathrooms": {
+                                        "value": 2,
+                                        "provenance": {
+                                          "source": "page.safe.html",
+                                          "css_selector": null,
+                                          "xpath": null,
+                                          "bbox": null,
+                                          "text_quote": "generic [ref=e718]\n                        - img [ref=e718]\n                        - text: \"2\""
+                                        }
+                                      },
+                                      "tenure": {
+                                        "value": "Leasehold",
+                                        "provenance": {
+                                          "source": "page.safe.html",
+                                          "css_selector": null,
+                                          "xpath": null,
+                                          "bbox": null,
+                                          "text_quote": "generic [ref=e721]: \"Tenure: Leasehold (923 years remaining)3 bedrooms2 bathrooms1,246 sq ft / 115.8 sq m\""
+                                        }
+                                      },
+                                      "listing_agent_name": {
+                                        "value": "Hanover - St Johns Wood",
+                                        "provenance": {
+                                          "source": "page.safe.html",
+                                          "css_selector": null,
+                                          "xpath": null,
+                                          "bbox": null,
+                                          "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+                                        }
+                                      },
+                                      "listing_agent_phone": {
+                                        "value": "020 8115 0361",
+                                        "provenance": {
+                                          "source": "page.safe.html",
+                                          "css_selector": null,
+                                          "xpath": null,
+                                          "bbox": null,
+                                          "text_quote": "link \"020 8115 0361\" [ref=e730]:\n                        - /url: tel:020 8115 0361"
+                                        }
+                                      },
+                                      "record_id": "pred_017",
+                                      "fields": {
+                                        "listing_url": {
+                                          "value": "https://www.onthemarket.com/details/19593521/",
+                                          "provenance": {
+                                            "source": "page.safe.html",
+                                            "css_selector": null,
+                                            "xpath": null,
+                                            "bbox": null,
+                                            "text_quote": "link \"1 bedroom apartment for sale, Lee High Road, London\" [ref=e757] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                                          }
+                                        },
+                                        "price": {
+                                          "value": {
+                                            "amount": 450000,
+                                            "currency_code": "GBP",
+                                            "currency_symbol": "£",
+                                            "period": null
+                                          },
+                                          "provenance": {
+                                            "source": "page.safe.html",
+                                            "css_selector": null,
+                                            "xpath": null,
+                                            "bbox": null,
+                                            "text_quote": "link \"£450,000\" [ref=e763]:\n                      - /url: /details/19593521/"
+                                          }
+                                        },
+                                        "address": {
+                                          "value": "Lee High Road, London",
+                                          "provenance": {
+                                            "source": "page.safe.html",
+                                            "css_selector": null,
+                                            "xpath": null,
+                                            "bbox": null,
+                                            "text_quote": "generic [ref=e740]:\n                  - generic [ref=e741]:"
+                                          }
+                                        },
+                                        "property_type": {
+                                          "value": "Apartment",
+                                          "provenance": {
+                                            "source": "page.safe.html",
+                                            "css_selector": null,
+                                            "xpath": null,
+                                            "bbox": null,
+                                            "text_quote": "generic [ref=e738]:\n                  - generic [ref=e741]:"
+                                          }
+                                        },
+                                        "bedrooms": {
+                                          "value": 1,
+                                          "provenance": {
+                                            "source": "page.safe.html",
+                                            "css_selector": null,
+                                            "xpath": null,
+                                            "bbox": null,
+                                            "text_quote": "generic [ref=e743] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                                          }
+                                        },
+                                        "bathrooms": {
+                                          "value": 1,
+                                          "provenance": {
+                                            "source": "page.safe.html",
+                                            "css_selector": null,
+                                            "xpath": null,
+                                            "bbox": null,
+                                            "text_quote": "generic [ref=e747] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                                          }
+                                        },
+                                        "tenure": {
+                                          "value": "Leasehold",
+                                          "provenance": {
+                                            "source": "page.safe.html",
+                                            "css_selector": null,
+                                            "xpath": null,
+                                            "bbox": null,
+                                            "text_quote": "generic [ref=e761]: \"Tenure: Leasehold (109 years remaining)For sale by online auctionAuction\""
+                                          }
+                                        },
+                                        "listing_agent_name": {
+                                          "value": "First for Auctions - National",
+                                          "provenance": {
+                                            "source": "page.safe.html",
+                                            "css_selector": null,
+                                            "xpath": null,
+                                            "bbox": null,
+                                            "text_quote": "generic [ref=e751]: First for Auctions - National"
+                                          }
+                                        },
+                                        "listing_agent_phone": {
+                                          "value": "01344 527052",
+                                          "provenance": {
+                                            "source": "page.safe.html",
+                                            "css_selector": null,
+                                            "xpath": null,
+                                            "bbox": null,
+                                            "text_quote": "link \"01344 527052\" [ref=e759]:\n                        - /url: tel:01344 527052"
+                                          }
+                                        },
+                                        "record_id": "pred_018",
+                                        "fields": {
+                                          "listing_url": {
+                                            "value": "https://www.onthemarket.com/details/19593521/",
+                                            "provenance": {
+                                              "source": "page.safe.html",
+                                              "css_selector": null,
+                                              "xpath": null,
+                                              "bbox": null,
+                                              "text_quote": "link \"1 bedroom apartment for sale, Lee High Road, London\" [ref=e753] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                                            }
+                                          },
+                                          "price": {
+                                            "value": {
+                                              "amount": 220000,
+                                              "currency_code": "GBP",
+                                              "currency_symbol": "£",
+                                              "period": null
+                                            },
+                                            "provenance": {
+                                              "source": "page.safe.html",
+                                              "css_selector": null,
+                                              "xpath": null,
+                                              "bbox": null,
+                                              "text_quote": "link \"£220,000\" [ref=e763]:\n                      - /url: /details/19593521/"
+                                            }
+                                          },
+                                          "address": {
+                                            "value": "Glebe Road, Stanmore",
+                                            "provenance": {
+                                              "source": "page.safe.html",
+                                              "css_selector": null,
+                                              "xpath": null,
+                                              "bbox": null,
+                                              "text_quote": "generic [ref=e740]:\n                  - generic [ref=e741]:"
+                                            }
+                                          },
+                                          "property_type": {
+                                            "value": "Apartment",
+                                            "provenance": {
+                                              "source": "page.safe.html",
+                                              "css_selector": null,
+                                              "xpath": null,
+                                              "bbox": null,
+                                              "text_quote": "generic [ref=e738]:\n                  - generic [ref=e741]:"
+                                            }
+                                          },
+                                          "bedrooms": {
+                                            "value": 2,
+                                            "provenance": {
+                                              "source": "page.safe.html",
+                                              "css_selector": null,
+                                              "xpath": null,
+                                              "bbox": null,
+                                              "text_quote": "generic [ref=e753] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                                            }
+                                          },
+                                          "bathrooms": {
+                                            "value": 1,
+                                            "provenance": {
+                                              "source": "page.safe.html",
+                                              "css_selector": null,
+                                              "xpath": null,
+                                              "bbox": null,
+                                              "text_quote": "generic [ref=e747] [cursor=pointer]:\n                      - /url: /details/19593521/"
+                                            }
+                                          },
+                                          "tenure": {
+                                            "value": "Leasehold",
+                                            "provenance": {
+                                              "source": "page.safe.html",
+                                              "css_selector": null,
+                                              "xpath": null,
+                                              "bbox": null,
+                                              "text_quote": "generic [ref=e761]: \"Tenure: Leasehold (977 years remaining)For sale by online auctionAuction\""
+                                            }
+                                          },
+                                          "listing_agent_name": {
+                                            "value": "Gibbs Gillespie - Stanmore",
+                                            "provenance": {
+                                              "source": "page.safe.html",
+                                              "css_selector": null,
+                                              "xpath": null,
+                                              "bbox": null,
+                                              "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+                                            }
+                                          },
+                                          "listing_agent_phone": {
+                                            "value": "020 8128 5233",
+                                            "provenance": {
+                                              "source": "page.safe.html",
+                                              "css_selector": null,
+                                              "xpath": null,
+                                              "bbox": null,
+                                              "text_quote": "link \"020 8128 5233\" [ref=e730]:\n                        - /url: tel:020 8128 5233"
+                                            }
+                                          },
+                                          "record_id": "pred_019",
+                                          "fields": {
+                                            "listing_url": {
+                                              "value": "https://www.onthemarket.com/details/19593878/",
+                                              "provenance": {
+                                                "source": "page.safe.html",
+                                                "css_selector": null,
+                                                "xpath": null,
+                                                "bbox": null,
+                                                "text_quote": "link \"2 bedroom apartment for sale, Pembroke Road, Ruislip\" [ref=e547] [cursor=pointer]:\n                      - /url: /details/19593878/"
+                                              }
+                                            },
+                                            "price": {
+                                              "value": {
+                                                "amount": 700000,
+                                                "currency_code": "GBP",
+                                                "currency_symbol": "£",
+                                                "period": null
+                                              },
+                                              "provenance": {
+                                                "source": "page.safe.html",
+                                                "css_selector": null,
+                                                "xpath": null,
+                                                "bbox": null,
+                                                "text_quote": "generic [ref=e737]:\n                  - generic [ref=e741]:"
+                                              }
+                                            },
+                                            "address": {
+                                              "value": "Porters Avenue, DAGENHAM, Essex, RM9",
+                                              "provenance": {
+                                                "source": "page.safe.html",
+                                                "css_selector": null,
+                                                "xpath": null,
+                                                "bbox": null,
+                                                "text_quote": "generic [ref=e710]: Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8"
+                                              }
+                                            },
+                                            "property_type": {
+                                              "value": "Semi-detached house",
+                                              "provenance": {
+                                                "source": "page.safe.html",
+                                                "css_selector": null,
+                                                "xpath": null,
+                                                "bbox": null,
+                                                "text_quote": "generic [ref=e712]:\n                        - img [ref=e715]\n                        - text: \"3\""
+                                              }
+                                            },
+                                            "bedrooms": {
+                                              "value": 3,
+                                              "provenance": {
+                                                "source": "page.safe.html",
+                                                "css_selector": null,
+                                                "xpath": null,
+                                                "bbox": null,
+                                                "text_quote": "generic [ref=e715]\n                        - img [ref=e715]\n                        - text: \"3\""
+                                              }
+                                            },
+                                            "bathrooms": {
+                                              "value": 2,
+                                              "provenance": {
+                                                "source": "page.safe.html",
+                                                "css_selector": null,
+                                                "xpath": null,
+                                                "bbox": null,
+                                                "text_quote": "generic [ref=e718]\n                        - img [ref=e718]\n                        - text: \"2\""
+                                              }
+                                            },
+                                            "tenure": {
+                                              "value": "Freehold",
+                                              "provenance": {
+                                                "source": "page.safe.html",
+                                                "css_selector": null,
+                                                "xpath": null,
+                                                "bbox": null,
+                                                "text_quote": "generic [ref=e721]: \"Tenure: Leasehold (923 years remaining)3 bedrooms2 bathrooms1,246 sq ft / 115.8 sq m\""
+                                              }
+                                            },
+                                            "listing_agent_name": {
+                                              "value": "Bairstow Eves - Dagenham",
+                                              "provenance": {
+                                                "source": "page.safe.html",
+                                                "css_selector": null,
+                                                "xpath": null,
+                                                "bbox": null,
+                                                "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+                                              }
+                                            },
+                                            "listing_agent_phone": {
+                                              "value": "020 4645 3408",
+                                              "provenance": {
+                                                "source": "page.safe.html",
+                                                "css_selector": null,
+                                                "xpath": null,
+                                                "bbox": null,
+                                                "text_quote": "link \"020 4645 3408\" [ref=e730]:\n                        - /url: tel:020 4645 3408"
+                                              }
+                                            },
+                                            "record_id": "pred_020",
+                                            "fields": {
+                                              "listing_url": {
+                                                "value": "https://www.onthemarket.com/details/19595111/",
+                                                "provenance": {
+                                                  "source": "page.safe.html",
+                                                  "css_selector": null,
+                                                  "xpath": null,
+                                                  "bbox": null,
+                                                  "text_quote": "link \"3 bedroom terraced house for sale, Eversleigh Road, East Ham, London, E6\" [ref=e349] [cursor=pointer]:\n                      - /url: /details/19595111/"
+                                                }
+                                              },
+                                              "price": {
+                                                "value": {
+                                                  "amount": 290000,
+                                                  "currency_code": "GBP",
+                                                  "currency_symbol": "£",
+                                                  "period": null
+                                                },
+                                                "provenance": {
+                                                  "source": "page.safe.html",
+                                                  "css_selector": null,
+                                                  "xpath": null,
+                                                  "bbox": null,
+                                                  "text_quote": "generic [ref=e737]:\n                  - generic [ref=e741]:"
+                                                }
+                                              },
+                                              "address": {
+                                                "value": "Fairmont Road, Rainham, Essex, RM13",
+                                                "provenance": {
+                                                  "source": "page.safe.html",
+                                                  "css_selector": null,
+                                                  "xpath": null,
+                                                  "bbox": null,
+                                                  "text_quote": "generic [ref=e710]: Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8"
+                                                }
+                                              },
+                                              "property_type": {
+                                                "value": "Flat",
+                                                "provenance": {
+                                                  "source": "page.safe.html",
+                                                  "css_selector": null,
+                                                  "xpath": null,
+                                                  "bbox": null,
+                                                  "text_quote": "generic [ref=e712]:\n                        - img [ref=e715]\n                        - text: \"3\""
+                                                }
+                                              },
+                                              "bedrooms": {
+                                                "value": 2,
+                                                "provenance": {
+                                                  "source": "page.safe.html",
+                                                  "css_selector": null,
+                                                  "xpath": null,
+                                                  "bbox": null,
+                                                  "text_quote": "generic [ref=e715]\n                        - img [ref=e715]\n                        - text: \"3\""
+                                                }
+                                              },
+                                              "bathrooms": {
+                                                "value": 1,
+                                                "provenance": {
+                                                  "source": "page.safe.html",
+                                                  "css_selector": null,
+                                                  "xpath": null,
+                                                  "bbox": null,
+                                                  "text_quote": "generic [ref=e718]\n                        - img [ref=e718]\n                        - text: \"2\""
+                                                }
+                                              },
+                                              "tenure": {
+                                                "value": "Leasehold",
+                                                "provenance": {
+                                                  "source": "page.safe.html",
+                                                  "css_selector": null,
+                                                  "xpath": null,
+                                                  "bbox": null,
+                                                  "text_quote": "generic [ref=e721]: \"Tenure: Leasehold (242 years remaining)3 bedrooms2 bathrooms1,246 sq ft / 115.8 sq m\""
+                                                }
+                                              },
+                                              "listing_agent_name": {
+                                                "value": "Bairstow Eves - Rainham",
+                                                "provenance": {
+                                                  "source": "page.safe.html",
+                                                  "css_selector": null,
+                                                  "xpath": null,
+                                                  "bbox": null,
+                                                  "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+                                                }
+                                              },
+                                              "listing_agent_phone": {
+                                                "value": "01708 243973",
+                                                "provenance": {
+                                                  "source": "page.safe.html",
+                                                  "css_selector": null,
+                                                  "xpath": null,
+                                                  "bbox": null,
+                                                  "text_quote": "link \"01708 243973\" [ref=e730"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 229.46,
+    "input_tokens": 27459,
+    "output_tokens": 16384,
+    "total_tokens": 43843,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_ONTHEMARKET_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_ONTHEMARKET_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

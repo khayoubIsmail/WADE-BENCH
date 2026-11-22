@@ -1,0 +1,105 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury/m1fv7m7sc",
+        "address": "12B Mary Street, Papanui, Christchurch City, Canterbury",
+        "listing_title": "12B Mary Street, Papanui",
+        "property_type": "SingleFamilyResidence",
+        "price": {
+          "amount": 786000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 130,
+          "unit": "m2"
+        },
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.800x457.jpg?options=compress"
+        ],
+        "sale_type": "Auction",
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_office": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury/m1fv7m7sc"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h1[data-test='property-title']",
+          "text_quote": "12B Mary Street, Papanui"
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "h1[data-test='property-title']",
+          "text_quote": "12B Mary Street, Papanui"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "script[type='application/ld+json']",
+          "text_quote": "SingleFamilyResidence"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h3[data-test='pricing-method__price']",
+          "text_quote": "$786K"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='features-icons'] span",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='features-icons'] span",
+          "text_quote": "1"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div[data-test='features-icons'] span",
+          "text_quote": "130m²"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[data-test='image']",
+          "text_quote": "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.800x457.jpg?options=compress"
+        },
+        "sale_type": {
+          "source": "page.html",
+          "selector": "div[data-test='sale-history-row']",
+          "text_quote": "Auction"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 102.16,
+    "input_tokens": 214725,
+    "output_tokens": 545,
+    "total_tokens": 215270,
+    "initial_input_tokens": 214725,
+    "initial_output_tokens": 545,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

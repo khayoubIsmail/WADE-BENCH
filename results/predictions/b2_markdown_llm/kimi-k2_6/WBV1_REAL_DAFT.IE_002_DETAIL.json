@@ -1,0 +1,56 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/14-riverwood-place-castleknock-dublin-15/16550113",
+        "price": {
+          "amount": 595000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "14 Riverwood Place, Castleknock, Dublin 15, D15R9T0",
+        "property_type": "Semi-D",
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 130,
+          "unit": "m2"
+        },
+        "energy_rating": "173.37 kWh/m2/yr",
+        "listing_agent_name": "James McKeon",
+        "listing_agent_phone": "018202800",
+        "listing_office": "DNG",
+        "published_date": "2026-04-24",
+        "images_urls": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "record_index": 0,
+        "extraction_method": "direct_parse",
+        "confidence": 1.0,
+        "text_quote": "14 Riverwood Place, Castleknock, Dublin 15, D15R9T0 €595,000 3 Bed 4 Bath 130 m² Semi-D",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 7.615,
+    "input_tokens": 16271,
+    "output_tokens": 249,
+    "total_tokens": 16520,
+    "repaired": false,
+    "error": null
+  }
+}

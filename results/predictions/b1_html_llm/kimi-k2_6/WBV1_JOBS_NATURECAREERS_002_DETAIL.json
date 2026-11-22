@@ -1,0 +1,129 @@
+{
+  "task_id": "WBV1_JOBS_NATURECAREERS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Full Professorship (W3) for \"Biochemistry\" (f/m/d)",
+        "job_url": "https://www.nature.com/naturecareers/job/12859405/full-professorship-w3-for-biochemistry-f-m-d-/",
+        "company_name": "Universität Heidelberg",
+        "location": "Heidelberg, Baden-Württemberg (DE)",
+        "job_description": "The Heidelberg University Biochemistry Center (BZH) is seeking to fill a Full Professorship (W3) for \"Biochemistry\" (f/m/d) as soon as possible. The BZH is an interdisciplinary institution with a broad research profile that includes, but is not limited to, membrane biology and RNA biology. The BZH participates in several research networks (TRR 186 - Molecular switches, TRR 319 - RNA modification and processing, SFB 1638 - Cellular membrane remodelling) and is an integral part of the renowned scientific environment at Heidelberg University. We are looking for an outstanding scientist to represent the field of biochemistry in research and teaching. Application requirements include a university degree, a qualified doctorate, pedagogical eligibility, a Habilitation, a successfully evaluated junior professorship or equivalent qualifications. Applications consisting of a cover letter, a curriculum vitae including a list of publications, a teaching statement and an outline of current and future research are to be sent as a single PDF to direktor@bzh.uni-heidelberg.de by June 21, 2026.",
+        "salary": null,
+        "employment_hours": "Full time",
+        "duration": "Permanent",
+        "qualification": "Professional certification",
+        "sector": "Academia",
+        "discipline": [
+          "Biomedicine",
+          "Chemistry"
+        ],
+        "job_type": [
+          "Bioinformatician",
+          "Professor",
+          "Researcher"
+        ],
+        "application_deadline": "2026-06-22",
+        "posted_date": "2026-05-27",
+        "apply_url": "mailto:direktor@bzh.uni-heidelberg.de",
+        "company_logo_url": "https://www.nature.com/naturecareers/_/jobseekers-frontend/image/2bf3756b-7e04-440b-878b-8f612cfa5cfc"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.html",
+          "selector": "h1.mds-font-s6",
+          "text_quote": "Full Professorship (W3) for \"Biochemistry\" (f/m/d)"
+        },
+        "job_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.nature.com/naturecareers/job/12859405/full-professorship-w3-for-biochemistry-f-m-d-/"
+        },
+        "company_name": {
+          "source": "page.html",
+          "selector": "dd.mds-list__value",
+          "text_quote": "Universität Heidelberg"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "dd.mds-list__value",
+          "text_quote": "Heidelberg, Baden-Württemberg (DE)"
+        },
+        "job_description": {
+          "source": "page.html",
+          "selector": "div.mds-prose",
+          "text_quote": "The Heidelberg University Biochemistry Center (BZH) is seeking to fill a"
+        },
+        "employment_hours": {
+          "source": "page.html",
+          "selector": "dd.mds-list__value a[href='/naturecareers/jobs/full-time']",
+          "text_quote": "Full time"
+        },
+        "duration": {
+          "source": "page.html",
+          "selector": "dd.mds-list__value a[href='/naturecareers/jobs/permanent']",
+          "text_quote": "Permanent"
+        },
+        "qualification": {
+          "source": "page.html",
+          "selector": "dd.mds-list__value a[href='/naturecareers/jobs/professional-certification']",
+          "text_quote": "Professional certification"
+        },
+        "sector": {
+          "source": "page.html",
+          "selector": "dd.mds-list__value a[href='/naturecareers/jobs/academia']",
+          "text_quote": "Academia"
+        },
+        "discipline": {
+          "source": "page.html",
+          "selector": "dd.mds-list__value a[href='/naturecareers/jobs/biomedicine']",
+          "text_quote": "Biomedicine, Chemistry"
+        },
+        "job_type": {
+          "source": "page.html",
+          "selector": "dd.mds-list__value a[href='/naturecareers/jobs/bioinformatician']",
+          "text_quote": "Bioinformatician, Professor, Researcher"
+        },
+        "application_deadline": {
+          "source": "page.html",
+          "selector": "dd.mds-list__value",
+          "text_quote": "22 Jun 2026"
+        },
+        "posted_date": {
+          "source": "page.html",
+          "selector": "meta[property='og:article:published_time']",
+          "text_quote": "2026-05-27T08:45:00.000Z"
+        },
+        "apply_url": {
+          "source": "page.html",
+          "selector": "a[href^='mailto:direktor@bzh.uni-heidelberg.de']",
+          "text_quote": "direktor@bzh.uni-heidelberg.de"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "selector": "img.logo",
+          "text_quote": "/naturecareers/_/imagexr/format_webp,animated_true/naturecareers/_/jobseekers-frontend/image/2bf3756b-7e04-440b-878b-8f612cfa5cfc"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 33.744,
+    "input_tokens": 53280,
+    "output_tokens": 1047,
+    "total_tokens": 54327,
+    "initial_input_tokens": 53280,
+    "initial_output_tokens": 1047,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

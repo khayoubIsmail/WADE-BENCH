@@ -1,0 +1,82 @@
+{
+  "task_id": "WBV1_GOV_SAM_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "N0016426SCA005 AOI - Modular Kinetic Lethal Drones (MKLD)",
+        "tender_url": "https://sam.gov/workspace/contract/opp/32d5ecae18cb435bb3ae9be73125a359/view",
+        "authority_id": "N0016426SCA005",
+        "awarding_agency": "DEPT OF DEFENSE",
+        "buyer": "USSOCOM through NSWC Crane",
+        "contact": {
+          "contact_name": "Kaden Pfender",
+          "email": "mailto:Kaden.m.pfender.civ@us.navy.mil",
+          "telephone": "(812) 381-7204"
+        },
+        "buyer_address": {
+          "address": "WARFARE CENTER 300 HIGHWAY 361, CRANE , IN 47522-5001, USA",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "WARFARE CENTER 300 HIGHWAY 361\nCRANE , IN 47522-5001\nUSA"
+          }
+        },
+        "notice_information": {
+          "description": "The United States Special Operations Command (USSOCOM) through NSWC Crane is seeking to develop and assess emergent prototype loitering munitions, with a focus on Vertical Take-off and Landing (VTOL) Aerial Loitering Munitions (ALM) that are safely recoverable, reusable, and feature a Modular Lethal Payload (MLP). More specifically, the goal is to identify solutions that are low-cost, first-person-view (FPV) unmanned aerial systems (UAS) that can deliver precision kinetic effects.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "The United States Special Operations Command (USSOCOM) through NSWC Crane is seeking to develop and assess emergent prototype loitering munitions, with a focus on Vertical Take-off and Landing (VTOL) Aerial Loitering Munitions (ALM) that are safely recoverable, reusable, and feature a Modular Lethal Payload (MLP). More specifically, the goal is to identify solutions that are low-cost, first-person-view (FPV) unmanned aerial systems (UAS) that can deliver precision kinetic effects."
+          }
+        },
+        "classification": "AC33 - NATIONAL DEFENSE R&D SERVICES; DEFENSE-RELATED ACTIVITIES; EXPERIMENTAL DEVELOPMENT",
+        "contract_type": "Area of Interest (AOI)",
+        "overview": "The goal of the Modular Kinetic Lethal Drone (MKLD) is to enable the rapid fielding of a low-cost, scalable, small-unit strike capability. The solution must be an NDAA-compliant platform capable of being paired with a compatible ground control station (GCS). In conjunction with FPV, the solution must be Android Team Awareness Kit (ATAK/AI) compliant.",
+        "last_modified_date": "May 28, 2026",
+        "published_date": "May 18, 2026",
+        "closing_time": "05:00 pm EDT",
+        "deadline_date": "Jun 01, 2026",
+        "contact_information": {
+          "primary_contact": "Kaden Pfender (kaden.m.pfender.civ@us.navy.mil)",
+          "secondary_contact": "Scotland McKinzie (scotland.r.mckinzie.civ@us.navy.mil)"
+        },
+        "provenance": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Primary Point of Contact\nKaden Pfender\n <0xC2><0xA0> Kaden.m.pfender.civ@us.navy.mil\nSecondary Point of Contact\nScotland McKinzie\n <0xC2><0xA0> scotland.r.mckinzie.civ@us.navy.mil"
+        }
+      },
+      "provenance": {
+        "source": "metadata.json",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Metadata extracted from the snapshot."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 20.181,
+    "input_tokens": 19573,
+    "output_tokens": 1103,
+    "total_tokens": 20676,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_SAM_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_SAM_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,1809 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/899-40th-ave/pid_71927566/",
+        "price": {
+          "amount": 1198000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "899 40th Ave, San Francisco, CA 94121",
+        "property_type": "Duplex",
+        "status": "Active",
+        "mls_number": "ML82050671",
+        "floor_area": {
+          "value": 1963,
+          "unit": "ft2"
+        },
+        "parking": 2,
+        "images_urls": [
+          "https://s.cbhomes.com/p/i/photo/listing/not-available/1.svg"
+        ],
+        "listing_agent": {
+          "name": "Karin Cunningham",
+          "office": "Intero Real Estate Services"
+        },
+        "listing_office": "Intero Real Estate Services",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "13:00",
+            "time_end": "16:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 a[href*='pid_71927566']",
+          "text_quote": "href=\"/ca/san-francisco/899-40th-ave/pid_71927566/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$1,198,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">899&nbsp;40th Ave&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94121</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 div.description-summary ul li:first-child",
+          "text_quote": "<li>Duplex</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # ML82050671</li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">1,963</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">2</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://s.cbhomes.com/p/i/photo/listing/not-available/1.svg\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Intero Real Estate Services,</span> <span class=\"attr-idx notranslate\">Karin Cunningham</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-0 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">1-4</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/899-40th-ave/pid_71927560/",
+        "price": {
+          "amount": 1198000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "899 40th Ave, San Francisco, CA 94121",
+        "property_type": "Single Family",
+        "status": "Active",
+        "mls_number": "ML82050662",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1963,
+          "unit": "ft2"
+        },
+        "parking": 2,
+        "images_urls": [
+          "https://s.cbhomes.com/p/i/photo/listing/not-available/1.svg"
+        ],
+        "listing_agent": {
+          "name": "Karin Cunningham",
+          "office": "Intero Real Estate Services"
+        },
+        "listing_office": "Intero Real Estate Services",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "13:00",
+            "time_end": "16:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 a[href*='pid_71927560']",
+          "text_quote": "href=\"/ca/san-francisco/899-40th-ave/pid_71927560/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$1,198,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">899&nbsp;40th Ave&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94121</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 div.description-summary ul li:first-child",
+          "text_quote": "<li>Single Family</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # ML82050662</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">4</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">2</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">1,963</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">2</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://s.cbhomes.com/p/i/photo/listing/not-available/1.svg\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Intero Real Estate Services,</span> <span class=\"attr-idx notranslate\">Karin Cunningham</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-1 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">1-4</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/109-s-lake-merced-hls-3e/pid_71925834/",
+        "price": {
+          "amount": 759888,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "109 S Lake Merced Hls 3E, San Francisco, CA 94132",
+        "property_type": "Condo",
+        "status": "Active",
+        "mls_number": "ML82050054",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1242,
+          "unit": "ft2"
+        },
+        "parking": 1,
+        "images_urls": [
+          "https://m1.cbhomes.com/p/740/ML82050054/daEE1BBd5B3d4bC/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Kevin Cruz",
+          "office": "Kinetic Real Estate"
+        },
+        "listing_office": "Kinetic Real Estate",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-12",
+            "time_start": "17:00",
+            "time_end": "19:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 a[href*='pid_71925834']",
+          "text_quote": "href=\"/ca/san-francisco/109-s-lake-merced-hls-3e/pid_71925834/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$759,888</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">109&nbsp;S Lake Merced Hls 3E&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94132</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 div.description-summary ul li:first-child",
+          "text_quote": "<li>Condo</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # ML82050054</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">2</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">2</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">1,242</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">1</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m1.cbhomes.com/p/740/ML82050054/daEE1BBd5B3d4bC/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Kinetic Real Estate,</span> <span class=\"attr-idx notranslate\">Kevin Cruz</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-2 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Fri</span><span class=\"date\">6/12</span><span class=\"time\">5-7</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/637-639-clement-st/pid_71924799/",
+        "price": {
+          "amount": 4200000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "637-639 Clement St, San Francisco, CA 94118",
+        "property_type": "Multi-Family",
+        "status": "Active",
+        "mls_number": "426138631",
+        "bathrooms": 1,
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426138631/fa271aB20a1c4D9/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "David S Costello",
+          "office": "Compass"
+        },
+        "listing_office": "Compass"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-3 a[href*='pid_71924799']",
+          "text_quote": "href=\"/ca/san-francisco/637-639-clement-st/pid_71924799/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-3 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$4,200,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-3 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">637-639&nbsp;Clement St&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94118</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-3 div.description-summary ul li:first-child",
+          "text_quote": "<li>Multi-Family</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-3 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-3 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426138631</li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-3 li.total-bath",
+          "text_quote": "<li class=\"total-bath\"><div class=\"val\">1</div><div class=\"lbl\">Total Bath</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-3 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m.cbhomes.com/p/1111/426138631/fa271aB20a1c4D9/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-3 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">David S Costello</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/2-lenox-way/pid_71924797/",
+        "price": {
+          "amount": 2195000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "2 Lenox Way, San Francisco, CA 94127",
+        "property_type": "Single Family",
+        "status": "Active",
+        "mls_number": "426138582",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 2357,
+          "unit": "ft2"
+        },
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426138582/378181b86c10433/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Gillian Toboni",
+          "office": "Compass"
+        },
+        "listing_office": "Compass",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "13:00",
+            "time_end": "15:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 a[href*='pid_71924797']",
+          "text_quote": "href=\"/ca/san-francisco/2-lenox-way/pid_71924797/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$2,195,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">2&nbsp;Lenox Way&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94127</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 div.description-summary ul li:first-child",
+          "text_quote": "<li>Single Family</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426138582</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">4</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">2</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">2,357</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m.cbhomes.com/p/1111/426138582/378181b86c10433/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Gillian Toboni</span> and <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Mary D Toboni</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-4 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">1-3</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/775-34th-ave/pid_71924798/",
+        "price": {
+          "amount": 1700000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "775 34th Ave, San Francisco, CA 94121",
+        "property_type": "Single Family",
+        "status": "Active",
+        "mls_number": "426138587",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 2084,
+          "unit": "ft2"
+        },
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426138587/Dc46a1fA40d44D5/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Sam Ha",
+          "office": "Kinry & Associates"
+        },
+        "listing_office": "Kinry & Associates"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 a[href*='pid_71924798']",
+          "text_quote": "href=\"/ca/san-francisco/775-34th-ave/pid_71924798/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$1,700,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">775&nbsp;34th Ave&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94121</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 div.description-summary ul li:first-child",
+          "text_quote": "<li>Single Family</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426138587</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">2</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">2</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">2,084</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m.cbhomes.com/p/1111/426138587/Dc46a1fA40d44D5/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-5 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Kinry & Associates,</span> <span class=\"attr-idx notranslate\">Sam Ha</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/425-1st-st-4304/pid_71923063/",
+        "price": {
+          "amount": 815000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "425 1st St #4304, San Francisco, CA 94105",
+        "property_type": "Condo",
+        "status": "Active",
+        "mls_number": "426128443",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 605,
+          "unit": "ft2"
+        },
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426128443/D634CD50B6774A0/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Dunja Green",
+          "office": "Compass"
+        },
+        "listing_office": "Compass",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "14:00",
+            "time_end": "16:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 a[href*='pid_71923063']",
+          "text_quote": "href=\"/ca/san-francisco/425-1st-st-4304/pid_71923063/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$815,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">425&nbsp;1st St&nbsp;</span><span class=\"unit-number\">#4304&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94105</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 div.description-summary ul li:first-child",
+          "text_quote": "<li>Condo</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426128443</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 li.bed",
+          "text_quote": "<li class=\"bed\"><div class=\"val\">1</div><div class=\"lbl\">Bed</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 li.total-bath",
+          "text_quote": "<li class=\"total-bath\"><div class=\"val\">1</div><div class=\"lbl\">Total Bath</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">605</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m.cbhomes.com/p/1111/426128443/D634CD50B6774A0/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Dunja Green</span> and <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Milan Jezdimirovic</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-6 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">2-4</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/785-golden-gate-ave-401/pid_71920976/",
+        "price": {
+          "amount": 899000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "785 Golden Gate Ave #401, San Francisco, CA 94102",
+        "property_type": "Condo",
+        "status": "Active",
+        "mls_number": "426138212",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 975,
+          "unit": "ft2"
+        },
+        "parking": 1,
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426138212/bA02ee95bEA24b7/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Jeremy Davidson",
+          "office": "Compass"
+        },
+        "listing_office": "Compass",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "14:00",
+            "time_end": "16:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 a[href*='pid_71920976']",
+          "text_quote": "href=\"/ca/san-francisco/785-golden-gate-ave-401/pid_71920976/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$899,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">785&nbsp;Golden Gate Ave&nbsp;</span><span class=\"unit-number\">#401&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94102</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 div.description-summary ul li:first-child",
+          "text_quote": "<li>Condo</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426138212</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">2</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">2</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">975</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">1</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m.cbhomes.com/p/1111/426138212/bA02ee95bEA24b7/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Jeremy Davidson</span> and <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Mike Yohay</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-7 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">2-4</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/230-noriega-st/pid_71920205/",
+        "price": {
+          "amount": 1500000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "230 Noriega St, San Francisco, CA 94122",
+        "property_type": "Single Family",
+        "status": "Active",
+        "mls_number": "426138551",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 1350,
+          "unit": "ft2"
+        },
+        "parking": 2,
+        "images_urls": [
+          "https://m1.cbhomes.com/p/1111/426138551/0c24d12Ad5da452/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Uncle Ben Coleman",
+          "office": "Hartford Properties"
+        },
+        "listing_office": "Hartford Properties",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-14",
+            "time_start": "14:00",
+            "time_end": "16:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 a[href*='pid_71920205']",
+          "text_quote": "href=\"/ca/san-francisco/230-noriega-st/pid_71920205/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$1,500,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">230&nbsp;Noriega St&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94122</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 div.description-summary ul li:first-child",
+          "text_quote": "<li>Single Family</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426138551</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">4</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">3</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">1,350</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">2</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m1.cbhomes.com/p/1111/426138551/0c24d12Ad5da452/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Hartford Properties,</span> <span class=\"attr-idx notranslate\">Uncle Ben Coleman</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-8 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sun</span><span class=\"date\">6/14</span><span class=\"time\">2-4</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/401-harrison-st-10e/pid_71920204/",
+        "price": {
+          "amount": 888000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "401 Harrison St #10E, San Francisco, CA 94105",
+        "property_type": "Condo",
+        "status": "Active",
+        "mls_number": "426121583",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 707,
+          "unit": "ft2"
+        },
+        "images_urls": [
+          "https://m1.cbhomes.com/p/1111/426121583/daeEE9aaBB4d4ef/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Matthew W Finley",
+          "office": "Compass"
+        },
+        "listing_office": "Compass",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "14:00",
+            "time_end": "16:30"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 a[href*='pid_71920204']",
+          "text_quote": "href=\"/ca/san-francisco/401-harrison-st-10e/pid_71920204/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$888,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">401&nbsp;Harrison St&nbsp;</span><span class=\"unit-number\">#10E&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94105</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 div.description-summary ul li:first-child",
+          "text_quote": "<li>Condo</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426121583</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 li.bed",
+          "text_quote": "<li class=\"bed\"><div class=\"val\">1</div><div class=\"lbl\">Bed</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 li.total-bath",
+          "text_quote": "<li class=\"total-bath\"><div class=\"val\">1</div><div class=\"lbl\">Total Bath</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">707</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m1.cbhomes.com/p/1111/426121583/daeEE9aaBB4d4ef/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Matthew W Finley</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-9 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">2-4:30</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/542-22nd-ave/pid_71919172/",
+        "price": {
+          "amount": 1695000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "542 22nd Ave, San Francisco, CA 94121",
+        "property_type": "Single Family",
+        "status": "Active",
+        "mls_number": "426138537",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 1743,
+          "unit": "ft2"
+        },
+        "images_urls": [
+          "https://m1.cbhomes.com/p/1111/426138537/f0C854a148804D2/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Dylan Hunter",
+          "office": "Compass"
+        },
+        "listing_office": "Compass",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-12",
+            "time_start": "17:00",
+            "time_end": "18:30"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 a[href*='pid_71919172']",
+          "text_quote": "href=\"/ca/san-francisco/542-22nd-ave/pid_71919172/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$1,695,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">542&nbsp;22nd Ave&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94121</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 div.description-summary ul li:first-child",
+          "text_quote": "<li>Single Family</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426138537</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">3</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">3</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">1,743</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m1.cbhomes.com/p/1111/426138537/f0C854a148804D2/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Dylan Hunter</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-10 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Fri</span><span class=\"date\">6/12</span><span class=\"time\">5-6:30</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/401-harrison-st-18g/pid_71919177/",
+        "price": {
+          "amount": 1040000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "401 Harrison St #18G, San Francisco, CA 94105",
+        "property_type": "Condo",
+        "status": "Active",
+        "mls_number": "426131666",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 758,
+          "unit": "ft2"
+        },
+        "images_urls": [
+          "https://m1.cbhomes.com/p/1111/426131666/6d614AAa23b34a8/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Nicholas Ramos",
+          "office": "Christie's Int'l Real Estate"
+        },
+        "listing_office": "Christie's Int'l Real Estate"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 a[href*='pid_71919177']",
+          "text_quote": "href=\"/ca/san-francisco/401-harrison-st-18g/pid_71919177/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$1,040,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">401&nbsp;Harrison St&nbsp;</span><span class=\"unit-number\">#18G&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94105</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 div.description-summary ul li:first-child",
+          "text_quote": "<li>Condo</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426131666</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 li.bed",
+          "text_quote": "<li class=\"bed\"><div class=\"val\">1</div><div class=\"lbl\">Bed</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 li.total-bath",
+          "text_quote": "<li class=\"total-bath\"><div class=\"val\">1</div><div class=\"lbl\">Total Bath</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">758</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m1.cbhomes.com/p/1111/426131666/6d614AAa23b34a8/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-11 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Christie's Int'l Real Estate,</span> <span class=\"attr-idx notranslate\">Nicholas Ramos</span> and <span class=\"office-name notranslate\">Christie's Int'l Real Estate,</span> <span class=\"attr-idx notranslate\">Lynn Bell</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/2240-lyon-st/pid_71918926/",
+        "price": {
+          "amount": 7000000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "2240 Lyon St, San Francisco, CA 94115",
+        "property_type": "Single Family",
+        "status": "Active",
+        "mls_number": "426138177",
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "floor_area": {
+          "value": 4123,
+          "unit": "ft2"
+        },
+        "parking": 2,
+        "images_urls": [
+          "https://m1.cbhomes.com/p/1111/426138177/15500A051BB2428/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Ted Bartlett",
+          "office": "Compass"
+        },
+        "listing_office": "Compass",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-12",
+            "time_start": "16:00",
+            "time_end": "18:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 a[href*='pid_71918926']",
+          "text_quote": "href=\"/ca/san-francisco/2240-lyon-st/pid_71918926/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$7,000,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">2240&nbsp;Lyon St&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94115</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 div.description-summary ul li:first-child",
+          "text_quote": "<li>Single Family</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426138177</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">5</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">5</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">4,123</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">2</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m1.cbhomes.com/p/1111/426138177/15500A051BB2428/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Ted Bartlett</span> and <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Tina Bartlett Hinckley</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-12 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Fri</span><span class=\"date\">6/12</span><span class=\"time\">4-6</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/1310-fillmore-st-ph2e/pid_71916842/",
+        "price": {
+          "amount": 898000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "1310 Fillmore St #PH2E, San Francisco, CA 94115",
+        "property_type": "Condo",
+        "status": "Active",
+        "mls_number": "426120014",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 749,
+          "unit": "ft2"
+        },
+        "parking": 1,
+        "images_urls": [
+          "https://m1.cbhomes.com/p/1111/426120014/E75bC9e9aaf0435/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Mark Venegas",
+          "office": "Pinnacle Realty Advisors"
+        },
+        "listing_office": "Pinnacle Realty Advisors",
+        "listing_agent_phone": "(415) 606-5043",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "14:00",
+            "time_end": "16:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 a[href*='pid_71916842']",
+          "text_quote": "href=\"/ca/san-francisco/1310-fillmore-st-ph2e/pid_71916842/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$898,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">1310&nbsp;Fillmore St&nbsp;</span><span class=\"unit-number\">#PH2E&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94115</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 div.description-summary ul li:first-child",
+          "text_quote": "<li>Condo</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426120014</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 li.bed",
+          "text_quote": "<li class=\"bed\"><div class=\"val\">1</div><div class=\"lbl\">Bed</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 li.total-bath",
+          "text_quote": "<li class=\"total-bath\"><div class=\"val\">1</div><div class=\"lbl\">Total Bath</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">749</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">1</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m1.cbhomes.com/p/1111/426120014/E75bC9e9aaf0435/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Pinnacle Realty Advisors,</span> <span class=\"attr-idx notranslate\">Mark Venegas</span>"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 a.phone-link",
+          "text_quote": "href=\"tel:+1-415-606-5043\">(415) 606-5043</a>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-13 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">2-4</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/477-dellbrook-ave/pid_71915072/",
+        "price": {
+          "amount": 1295000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "477 Dellbrook Ave, San Francisco, CA 94131",
+        "property_type": "Single Family",
+        "status": "Active",
+        "mls_number": "426137794",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 1540,
+          "unit": "ft2"
+        },
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426137794/1d626D5b073542f/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Michael F Dunne",
+          "office": "Vanguard Properties"
+        },
+        "listing_office": "Vanguard Properties",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-11",
+            "time_start": "16:00",
+            "time_end": "18:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 a[href*='pid_71915072']",
+          "text_quote": "href=\"/ca/san-francisco/477-dellbrook-ave/pid_71915072/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$1,295,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">477&nbsp;Dellbrook Ave&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94131</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 div.description-summary ul li:first-child",
+          "text_quote": "<li>Single Family</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426137794</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">3</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 li.total-bath",
+          "text_quote": "<li class=\"total-bath\"><div class=\"val\">1</div><div class=\"lbl\">Total Bath</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">1,540</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m.cbhomes.com/p/1111/426137794/1d626D5b073542f/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Vanguard Properties,</span> <span class=\"attr-idx notranslate\">Michael F Dunne</span> and <span class=\"office-name notranslate\">Vanguard Properties,</span> <span class=\"attr-idx notranslate\">Michael Shaw</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-14 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Thu</span><span class=\"date\">6/11</span><span class=\"time\">4-6</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/3225-3227-market-st/pid_71909970/",
+        "price": {
+          "amount": 1795000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "3225-3227 Market St, San Francisco, CA 94114",
+        "property_type": "Duplex",
+        "status": "Active",
+        "mls_number": "426137681",
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 2523,
+          "unit": "ft2"
+        },
+        "parking": 2,
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426137681/B4a40da473a94B6/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Brendon Kearney",
+          "office": "Compass"
+        },
+        "listing_office": "Compass",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "14:00",
+            "time_end": "16:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 a[href*='pid_71909970']",
+          "text_quote": "href=\"/ca/san-francisco/3225-3227-market-st/pid_71909970/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$1,795,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">3225-3227&nbsp;Market St&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94114</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 div.description-summary ul li:first-child",
+          "text_quote": "<li>Duplex</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426137681</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">4</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">4</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">2,523</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">2</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m.cbhomes.com/p/1111/426137681/B4a40da473a94B6/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Brendon Kearney</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-15 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">2-4</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/787-myra-way/pid_71909966/",
+        "price": {
+          "amount": 1188000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "787 Myra Way, San Francisco, CA 94127",
+        "property_type": "Single Family",
+        "status": "Active",
+        "mls_number": "426134513",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1120,
+          "unit": "ft2"
+        },
+        "parking": 1,
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426134513/d796531A6c2A44F/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Morgan R Cook",
+          "office": "Compass"
+        },
+        "listing_office": "Compass",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "13:00",
+            "time_end": "16:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 a[href*='pid_71909966']",
+          "text_quote": "href=\"/ca/san-francisco/787-myra-way/pid_71909966/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$1,188,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">787&nbsp;Myra Way&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94127</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 div.description-summary ul li:first-child",
+          "text_quote": "<li>Single Family</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426134513</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">3</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">2</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">1,120</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">1</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m.cbhomes.com/p/1111/426134513/d796531A6c2A44F/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Morgan R Cook</span> and <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Julie Li</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-16 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">1-4</span>"
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/170-king-st-711/pid_71909971/",
+        "price": {
+          "amount": 880000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "170 King St #711, San Francisco, CA 94010",
+        "property_type": "Condo",
+        "status": "Active",
+        "mls_number": "426138337",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 900,
+          "unit": "ft2"
+        },
+        "parking": 1,
+        "images_urls": [
+          "https://m1.cbhomes.com/p/1111/426138337/d4e1ebEf246a4dF/s23cc.webp"
+        ],
+        "listing_agent": {
+          "name": "Cheryl A Bower",
+          "office": "Compass"
+        },
+        "listing_office": "Compass",
+        "open_house_schedule": [
+          {
+            "date": "2020-06-13",
+            "time_start": "12:00",
+            "time_end": "14:00"
+          }
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 a[href*='pid_71909971']",
+          "text_quote": "href=\"/ca/san-francisco/170-king-st-711/pid_71909971/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 div.price-normal",
+          "text_quote": "<div class=\"price-normal\">$880,000</div>"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 h2.address-price-heading",
+          "text_quote": "<span class=\"street-address\">170&nbsp;King St&nbsp;</span><span class=\"unit-number\">#711&nbsp;</span><span class=\"city-st-zip city-zip-space\">San Francisco, CA 94010</span>"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 div.description-summary ul li:first-child",
+          "text_quote": "<li>Condo</li>"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 div.description-summary ul li:nth-child(2)",
+          "text_quote": "<li>Active</li>"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 div.description-summary ul li:nth-child(3)",
+          "text_quote": "<li>MLS # 426138337</li>"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 li.beds",
+          "text_quote": "<li class=\"beds\"><div class=\"val\">2</div><div class=\"lbl\">Beds</div></li>"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 li.total-baths",
+          "text_quote": "<li class=\"total-baths\"><div class=\"val\">2</div><div class=\"lbl\">Total Baths</div></li>"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 li.sq.-ft.",
+          "text_quote": "<li class=\"sq.-ft.\"><div class=\"val\">900</div><div class=\"lbl\">Sq. Ft.</div></li>"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 li.car-garage",
+          "text_quote": "<li class=\"car-garage\"><div class=\"val\">1</div><div class=\"lbl\">Car Garage</div></li>"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 img.psr-lazy",
+          "text_quote": "data-src-psr=\"https://m1.cbhomes.com/p/1111/426138337/d4e1ebEf246a4dF/s23cc.webp\""
+        },
+        "listing_agent": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 div.mls-info-attribution",
+          "text_quote": "Listed by <span class=\"office-name notranslate\">Compass,</span> <span class=\"attr-idx notranslate\">Cheryl A Bower</span>"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "div#snapshot-17 div.open-house div.date-time",
+          "text_quote": "<span class=\"day\">Sat</span><span class=\"date\">6/13</span><span class=\"time\">12-2</span>"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 644.56,
+    "input_tokens": 218839,
+    "output_tokens": 19798,
+    "total_tokens": 238637,
+    "initial_input_tokens": 218839,
+    "initial_output_tokens": 19798,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

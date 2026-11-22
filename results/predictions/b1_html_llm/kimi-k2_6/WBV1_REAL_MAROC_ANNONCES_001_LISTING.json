@@ -1,0 +1,1139 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+        "price": {
+          "amount": 1185000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Casablanca / Maarif",
+        "listing_title": "Vend joli appart maarif",
+        "property_type": "Appartements",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/315/9837565.jpg"
+        ],
+        "published_date": "2026-05-27"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(1) a[href]",
+          "text_quote": "href=\"categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(1) strong.price",
+          "text_quote": "1 185 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(1) span.location",
+          "text_quote": "Casablanca / Maarif "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(1) h3",
+          "text_quote": "Vend joli appart maarif "
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(1) span.views",
+          "text_quote": "Appartements"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(1) img[src]",
+          "text_quote": "src=\"user_images/315/9837565.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(1) em.date span.cnt-today",
+          "text_quote": "Aujourd'hui"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387454/Belle-appartement-à-vendre.html",
+        "price": {
+          "amount": 1180000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Tanger / Marjane",
+        "listing_title": "Belle appartement à vendre",
+        "property_type": "Appartements",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/315/3565762.jpg"
+        ],
+        "published_date": "2026-05-27"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(2) a[href]",
+          "text_quote": "href=\"categorie/315/Appartements/annonce/10387454/Belle-appartement-à-vendre.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(2) strong.price",
+          "text_quote": "1 180 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(2) span.location",
+          "text_quote": "Tanger / Marjane "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(2) h3",
+          "text_quote": "Belle appartement à vendre "
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(2) span.views",
+          "text_quote": "Appartements"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(2) img[src]",
+          "text_quote": "src=\"user_images/315/3565762.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(2) em.date span.cnt-today",
+          "text_quote": "Aujourd'hui"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html",
+        "price": {
+          "amount": 360000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Oujda",
+        "listing_title": "Terrain commercial, lotissement andalouss ,oujda",
+        "property_type": "Terrains constructibles",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/332/2803819.jpg"
+        ],
+        "published_date": "2026-05-27"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(3) a[href]",
+          "text_quote": "href=\"categorie/332/Terrains-constructibles/annonce/10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(3) strong.price",
+          "text_quote": "360 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(3) span.location",
+          "text_quote": "Oujda "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(3) h3",
+          "text_quote": "Terrain commercial, lotissement andalouss ,oujda"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(3) span.views",
+          "text_quote": "Terrains constructibles"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(3) img[src]",
+          "text_quote": "src=\"user_images/332/2803819.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(3) em.date span.cnt-today",
+          "text_quote": "Aujourd'hui"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10328164/Lot-magnifique-à-côté-de-gala-OUJDA.html",
+        "price": {
+          "amount": 210000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Oujda",
+        "listing_title": "Lot magnifique à côté de gala oujda",
+        "property_type": "Terrains constructibles",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/5977362.jpg"
+        ],
+        "published_date": "2026-05-27"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(5) a[href]",
+          "text_quote": "href=\"categorie/332/Terrains-constructibles/annonce/10328164/Lot-magnifique-à-côté-de-gala-OUJDA.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(5) strong.price",
+          "text_quote": "210 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(5) span.location",
+          "text_quote": "Oujda "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(5) h3",
+          "text_quote": "Lot magnifique à côté de gala oujda"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(5) span.views",
+          "text_quote": "Terrains constructibles"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(5) img[src]",
+          "text_quote": "src=\"user_images/5977362.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(5) em.date span.cnt-today",
+          "text_quote": "Aujourd'hui"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/330/Magasins-Dépôt-Hangar-Cave/annonce/10387375/Porte-garage-hamza.html",
+        "price": {
+          "amount": 5000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Marrakech",
+        "listing_title": "Porte garage hamza",
+        "property_type": "Magasins - Dépôt - Hangar - Cave",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/330/3679821.jpg"
+        ],
+        "published_date": "2026-05-27"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(6) a[href]",
+          "text_quote": "href=\"categorie/330/Magasins-Dépôt-Hangar-Cave/annonce/10387375/Porte-garage-hamza.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(6) strong.price",
+          "text_quote": "5 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(6) span.location",
+          "text_quote": "Marrakech "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(6) h3",
+          "text_quote": "Porte garage hamza"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(6) span.views",
+          "text_quote": "Magasins - Dépôt - Hangar - Cave"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(6) img[src]",
+          "text_quote": "src=\"user_images/330/3679821.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(6) em.date span.cnt-today",
+          "text_quote": "Aujourd'hui"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10357677/Terrain-titré-pour-villa-Moulay-Bousselham.html",
+        "price": {
+          "amount": 900000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Kénitra",
+        "listing_title": "Terrain titré pour villa moulay bousselham",
+        "property_type": "Terrains constructibles",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/332/6735519.jpg"
+        ],
+        "published_date": "2026-05-27"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(7) a[href]",
+          "text_quote": "href=\"categorie/332/Terrains-constructibles/annonce/10357677/Terrain-titré-pour-villa-Moulay-Bousselham.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(7) strong.price",
+          "text_quote": "900 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(7) span.location",
+          "text_quote": "Kénitra "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(7) h3",
+          "text_quote": "Terrain titré pour villa moulay bousselham"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(7) span.views",
+          "text_quote": "Terrains constructibles"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(7) img[src]",
+          "text_quote": "src=\"user_images/332/6735519.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(7) em.date span.cnt-today",
+          "text_quote": "Aujourd'hui"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10149173/Terrain-titré-r3-(futur-r5).html",
+        "price": null,
+        "address": "Khemisset",
+        "listing_title": "Terrain titré r3 (futur r+5)",
+        "property_type": "Terrains constructibles",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/332/9781675.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(8) a[href]",
+          "text_quote": "href=\"categorie/332/Terrains-constructibles/annonce/10149173/Terrain-titré-r3-(futur-r5).html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(8) strong.price",
+          "text_quote": null
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(8) span.location",
+          "text_quote": "Khemisset "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(8) h3",
+          "text_quote": "Terrain titré r3 (futur r+5)"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(8) span.views",
+          "text_quote": "Terrains constructibles"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(8) img[src]",
+          "text_quote": "src=\"user_images/332/9781675.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(8) em.date",
+          "text_quote": "Hier"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/319/Villas-Maisons-Riads/annonce/10387171/Maison-à-vendre-R3agadir.html",
+        "price": {
+          "amount": 1600000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Agadir",
+        "listing_title": "Maison à vendre r+3.agadir",
+        "property_type": "Villas - Maisons - Riads",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/319/4696054.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(9) a[href]",
+          "text_quote": "href=\"categorie/319/Villas-Maisons-Riads/annonce/10387171/Maison-à-vendre-R3agadir.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(9) strong.price",
+          "text_quote": "1 600 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(9) span.location",
+          "text_quote": "Agadir "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(9) h3",
+          "text_quote": "Maison à vendre r+3.agadir"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(9) span.views",
+          "text_quote": "Villas - Maisons - Riads"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(9) img[src]",
+          "text_quote": "src=\"user_images/319/4696054.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(9) em.date",
+          "text_quote": "Hier"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10387042/Terrain-expose-orangerie-angle-1250m.html",
+        "price": {
+          "amount": 110000000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Rabat / Souissi",
+        "listing_title": "Terrain expose orangerie angle 1250m",
+        "property_type": "Terrains constructibles",
+        "images_urls": [
+          "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(10) a[href]",
+          "text_quote": "href=\"categorie/332/Terrains-constructibles/annonce/10387042/Terrain-expose-orangerie-angle-1250m.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(10) strong.price",
+          "text_quote": "110 000 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(10) span.location",
+          "text_quote": "Rabat / Souissi "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(10) h3",
+          "text_quote": "Terrain expose orangerie angle 1250m"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(10) span.views",
+          "text_quote": "Terrains constructibles"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(10) img[src]",
+          "text_quote": "src=\"geo_templates/marocannonces/external/images/icon-no-photo.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(10) em.date",
+          "text_quote": "Hier"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/331/Bureaux-Plateaux/annonce/10290598/Bureau-exposé.html",
+        "price": {
+          "amount": 11500,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Rabat / Hay Ryad",
+        "listing_title": "Bureau exposé",
+        "property_type": "Bureaux - Plateaux",
+        "images_urls": [
+          "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(11) a[href]",
+          "text_quote": "href=\"categorie/331/Bureaux-Plateaux/annonce/10290598/Bureau-exposé.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(11) strong.price",
+          "text_quote": "11 500 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(11) span.location",
+          "text_quote": "Rabat / Hay Ryad "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(11) h3",
+          "text_quote": "Bureau exposé"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(11) span.views",
+          "text_quote": "Bureaux - Plateaux"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(11) img[src]",
+          "text_quote": "src=\"geo_templates/marocannonces/external/images/icon-no-photo.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(11) em.date",
+          "text_quote": "Hier"
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10385987/Terrain-villa-riad.html",
+        "price": {
+          "amount": 47500000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Rabat / Hay Ryad",
+        "listing_title": "Terrain villa riad",
+        "property_type": "Terrains constructibles",
+        "images_urls": [
+          "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(12) a[href]",
+          "text_quote": "href=\"categorie/332/Terrains-constructibles/annonce/10385987/Terrain-villa-riad.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(12) strong.price",
+          "text_quote": "47 500 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(12) span.location",
+          "text_quote": "Rabat / Hay Ryad "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(12) h3",
+          "text_quote": "Terrain villa riad"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(12) span.views",
+          "text_quote": "Terrains constructibles"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(12) img[src]",
+          "text_quote": "src=\"geo_templates/marocannonces/external/images/icon-no-photo.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(12) em.date",
+          "text_quote": "Hier"
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10325969/Terrain-expose-bir-kacem.html",
+        "price": {
+          "amount": 10800000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Rabat / Bir Kacem",
+        "listing_title": "Terrain expose bir kacem",
+        "property_type": "Terrains constructibles",
+        "images_urls": [
+          "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(13) a[href]",
+          "text_quote": "href=\"categorie/332/Terrains-constructibles/annonce/10325969/Terrain-expose-bir-kacem.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(13) strong.price",
+          "text_quote": "10 800 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(13) span.location",
+          "text_quote": "Rabat / Bir Kacem "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(13) h3",
+          "text_quote": "Terrain expose bir kacem"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(13) span.views",
+          "text_quote": "Terrains constructibles"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(13) img[src]",
+          "text_quote": "src=\"geo_templates/marocannonces/external/images/icon-no-photo.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(13) em.date",
+          "text_quote": "Hier"
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10334323/Appartement-à-vendre.html",
+        "price": {
+          "amount": 560000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Bouskoura",
+        "listing_title": "Appartement à vendre",
+        "property_type": "Appartements",
+        "images_urls": [
+          "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(14) a[href]",
+          "text_quote": "href=\"categorie/315/Appartements/annonce/10334323/Appartement-à-vendre.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(14) strong.price",
+          "text_quote": "560 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(14) span.location",
+          "text_quote": "Bouskoura "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(14) h3",
+          "text_quote": "Appartement à vendre"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(14) span.views",
+          "text_quote": "Appartements"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(14) img[src]",
+          "text_quote": "src=\"geo_templates/marocannonces/external/images/icon-no-photo.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(14) em.date",
+          "text_quote": "Hier"
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387082/Appartement-a-vendre-tanger.html",
+        "price": {
+          "amount": 200000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Tanger / Centre ville",
+        "listing_title": "Appartement a vendre tanger",
+        "property_type": "Appartements",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/315/5788639.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(15) a[href]",
+          "text_quote": "href=\"categorie/315/Appartements/annonce/10387082/Appartement-a-vendre-tanger.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(15) strong.price",
+          "text_quote": "200 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(15) span.location",
+          "text_quote": "Tanger / Centre ville "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(15) h3",
+          "text_quote": "Appartement a vendre tanger"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(15) span.views",
+          "text_quote": "Appartements"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(15) img[src]",
+          "text_quote": "src=\"user_images/315/5788639.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(15) em.date",
+          "text_quote": "26 Mai 2026"
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/319/Villas-Maisons-Riads/annonce/10387068/Villa-à-vendre-en-zone-immeuble-R3.html",
+        "price": {
+          "amount": 1,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Casablanca / Hermitage",
+        "listing_title": "Villa à vendre en zone immeuble r3",
+        "property_type": "Villas - Maisons - Riads",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/319/8596597.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(16) a[href]",
+          "text_quote": "href=\"categorie/319/Villas-Maisons-Riads/annonce/10387068/Villa-à-vendre-en-zone-immeuble-R3.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(16) strong.price",
+          "text_quote": "1 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(16) span.location",
+          "text_quote": "Casablanca / Hermitage "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(16) h3",
+          "text_quote": "Villa à vendre en zone immeuble r3"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(16) span.views",
+          "text_quote": "Villas - Maisons - Riads"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(16) img[src]",
+          "text_quote": "src=\"user_images/319/8596597.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(16) em.date",
+          "text_quote": "26 Mai 2026"
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387040/Bel-appartement-ryad-185u.html",
+        "price": {
+          "amount": 1850000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Rabat",
+        "listing_title": "Bel appartement ryad 185u",
+        "property_type": "Appartements",
+        "images_urls": [
+          "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(17) a[href]",
+          "text_quote": "href=\"categorie/315/Appartements/annonce/10387040/Bel-appartement-ryad-185u.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(17) strong.price",
+          "text_quote": "1 850 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(17) span.location",
+          "text_quote": "Rabat "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(17) h3",
+          "text_quote": "Bel appartement ryad 185u"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(17) span.views",
+          "text_quote": "Appartements"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(17) img[src]",
+          "text_quote": "src=\"geo_templates/marocannonces/external/images/icon-no-photo.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(17) em.date",
+          "text_quote": "26 Mai 2026"
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10376659/Appartement-en-vente-res-bagdad-99m.html",
+        "price": {
+          "amount": 870000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Casablanca / Sidi Bernoussi",
+        "listing_title": "Appartement en vente res bagdad 99/m",
+        "property_type": "Appartements",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/315/8847208.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(18) a[href]",
+          "text_quote": "href=\"categorie/315/Appartements/annonce/10376659/Appartement-en-vente-res-bagdad-99m.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(18) strong.price",
+          "text_quote": "870 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(18) span.location",
+          "text_quote": "Casablanca / Sidi Bernoussi "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(18) h3",
+          "text_quote": "Appartement en vente res bagdad 99/m"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(18) span.views",
+          "text_quote": "Appartements"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(18) img[src]",
+          "text_quote": "src=\"user_images/315/8847208.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(18) em.date",
+          "text_quote": "26 Mai 2026"
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10387011/Terrain-Titré-constructible-213m2-Imouzzer-Kandar.html",
+        "price": {
+          "amount": 300000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Imouzzer Kandar",
+        "listing_title": "Terrain titré constructible 213m2 imouzzer kandar",
+        "property_type": "Terrains constructibles",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/332/4684211.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(19) a[href]",
+          "text_quote": "href=\"categorie/332/Terrains-constructibles/annonce/10387011/Terrain-Titré-constructible-213m2-Imouzzer-Kandar.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(19) strong.price",
+          "text_quote": "300 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(19) span.location",
+          "text_quote": "Imouzzer Kandar "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(19) h3",
+          "text_quote": "Terrain titré constructible 213m2 imouzzer kandar"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(19) span.views",
+          "text_quote": "Terrains constructibles"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(19) img[src]",
+          "text_quote": "src=\"user_images/332/4684211.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(19) em.date",
+          "text_quote": "26 Mai 2026"
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10386934/terrains-a-vendre.html",
+        "price": {
+          "amount": 26000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Casablanca / Belvédère",
+        "listing_title": "Terrains a vendre",
+        "property_type": "Terrains constructibles",
+        "images_urls": [
+          "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(20) a[href]",
+          "text_quote": "href=\"categorie/332/Terrains-constructibles/annonce/10386934/terrains-a-vendre.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(20) strong.price",
+          "text_quote": "26 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(20) span.location",
+          "text_quote": "Casablanca / Belvédère "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(20) h3",
+          "text_quote": "Terrains a vendre"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(20) span.views",
+          "text_quote": "Terrains constructibles"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(20) img[src]",
+          "text_quote": "src=\"geo_templates/marocannonces/external/images/icon-no-photo.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(20) em.date",
+          "text_quote": "26 Mai 2026"
+        }
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10310952/Appartement-a-vendre.html",
+        "price": {
+          "amount": 960000,
+          "currency_code": "MAD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Casablanca / Lissasfa",
+        "listing_title": "Appartement a vendre",
+        "property_type": "Appartements",
+        "images_urls": [
+          "https://www.marocannonces.com/user_images/9631819.jpg"
+        ],
+        "published_date": "2026-05-26"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(21) a[href]",
+          "text_quote": "href=\"categorie/315/Appartements/annonce/10310952/Appartement-a-vendre.html\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(21) strong.price",
+          "text_quote": "960 000 DH"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(21) span.location",
+          "text_quote": "Casablanca / Lissasfa "
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(21) h3",
+          "text_quote": "Appartement a vendre"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(21) span.views",
+          "text_quote": "Appartements"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(21) img[src]",
+          "text_quote": "src=\"user_images/9631819.jpg\""
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": "ul.cars-list li:nth-child(21) em.date",
+          "text_quote": "26 Mai 2026"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 220.638,
+    "input_tokens": 135093,
+    "output_tokens": 7983,
+    "total_tokens": 143076,
+    "initial_input_tokens": 135093,
+    "initial_output_tokens": 7983,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

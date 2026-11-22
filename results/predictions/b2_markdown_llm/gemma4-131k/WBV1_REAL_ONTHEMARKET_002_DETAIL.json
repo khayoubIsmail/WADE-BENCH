@@ -1,0 +1,67 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "N/A (Implied from context)",
+        "address": "Kingsfield Avenue, Harrow, HA2 6AQ",
+        "property_type": "Semi-detached house",
+        "price": {
+          "amount": 879000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1646,
+          "unit": "sq ft"
+        },
+        "energy_rating": "E",
+        "tenure": "Freeehold",
+        "listing_title": "4 bedroom semi-detached house for sale",
+        "key_features": [
+          "Porch and Entrance Hallway",
+          "Four Bedrooms",
+          "Reception Room",
+          "Dining Room",
+          "Study",
+          "Kitchen",
+          "Two Bathrooms and Ground floor W.C.",
+          "Landscaped rear garden",
+          "Garage accessed by own driveway",
+          "Off Street Parking"
+        ],
+        "description": "A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow’s shops and Metropolitan Line station. Offering spacious and versatile accommodation across three floors, the property features a porch and entrance hallway leading to a bright reception room and through dining room with patio doors to the garden. To the rear, there is a fitted kitchen leading to a versatile room suitable for a variety of uses, such as a study, with access to the garage and garden. Completing this floor is a guest w.c. To the first floor are three generously sized bedrooms and a family bathroom. To the second floor is a principal bedroom with fitted wardrobes, under eaves storage and an ensuite shower room. Externally there is a private southerly aspect laid to lawn rear garden with a patio while to the front has access to a garage via its own driveway and off street parking. North Harrow offers a variety of shops, restaurants, coffee houses and popular supermarkets. Transport facilities include local bus links and the Metropolitan Line at North Harrow tube station, providing a fast and frequent service into the heart of Central London and beyond. The area is well served for primary and secondary schooling, children’s parks/playgrounds and recreational facilities.",
+        "additional_facilities": [
+          "Garage accessed by own driveway",
+          "Off Street Parking"
+        ],
+        "listing_office": "Robsons - Pinner",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg"
+        ]
+      },
+      "provenance": {
+        "source_markdown": "Markdown provided in the prompt."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 10.917,
+    "input_tokens": 13254,
+    "output_tokens": 707,
+    "total_tokens": 13961,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "task_id": "WBV1_GOV_TED_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "1",
+      "fields": {
+        "tender_title": "Search results",
+        "place_of_performance": "Not specified",
+        "procurement_method": "Refine search",
+        "procedure_type": null,
+        "status": null
+      },
+      "provenance": "https://ted.europa.eu/en/search/result"
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 29.863,
+    "input_tokens": 68322,
+    "output_tokens": 117,
+    "total_tokens": 68439,
+    "initial_input_tokens": 68322,
+    "initial_output_tokens": 117,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

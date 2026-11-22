@@ -1,0 +1,52 @@
+{
+  "task_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "All events",
+        "event_start_date": null,
+        "event_end_date": null,
+        "event_url": "https://www.unesco.org/en/events/all",
+        "location": null,
+        "description": {
+          "value": "All events",
+          "provenance": {
+            "field": "meta name=\"description\"",
+            "source": "page.html"
+          }
+        },
+        "website": {
+          "value": "https://www.unesco.org/",
+          "provenance": {
+            "field": "<base href=\"https://www.unesco.org/\">",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 5.908,
+    "input_tokens": 15621,
+    "output_tokens": 252,
+    "total_tokens": 15873,
+    "initial_input_tokens": 15621,
+    "initial_output_tokens": 252,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

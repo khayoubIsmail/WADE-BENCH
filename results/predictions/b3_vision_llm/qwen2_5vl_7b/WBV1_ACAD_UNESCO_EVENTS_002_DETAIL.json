@@ -1,0 +1,44 @@
+{
+  "task_id": "WBV1_ACAD_UNESCO_EVENTS_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Thought Leaders Series with Lê Nguyên Hoang",
+        "event_start_date": "2026-05-05T18:00:00Z",
+        "event_end_date": "2026-05-05T20:00:00Z",
+        "location": "UNESCO Headquarters, Paris, France",
+        "event_url": "https://unesco.org/en/events/thought-leaders-series-with-le-nguyen-hoang"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 5.661,
+    "input_tokens": 6495,
+    "output_tokens": 169,
+    "total_tokens": 6664,
+    "num_tiles": 4,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_UNESCO_EVENTS_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_UNESCO_EVENTS_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_UNESCO_EVENTS_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_UNESCO_EVENTS_002_DETAIL\\tile_04.png"
+    ],
+    "error": null
+  }
+}

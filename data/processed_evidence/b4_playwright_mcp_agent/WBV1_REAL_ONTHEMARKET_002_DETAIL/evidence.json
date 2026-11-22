@@ -1,0 +1,422 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL",
+  "source_files": {
+    "page_html": "data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/page.html",
+    "page_safe_html": "data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/page.safe.html",
+    "text_txt": "data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/text.txt",
+    "ax_tree": "data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/ax_tree.json",
+    "metadata": "data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/metadata.json",
+    "screenshot": "data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/screenshot.png"
+  },
+  "mcp": {
+    "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/page.safe.html",
+    "available_tools": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "browser_snapshot": "### Page\n- Page URL: http://127.0.0.1:62317/page.safe.html\n- Page Title: Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000\n- Console: 2 errors, 3 warnings\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - region \"Cookie preferences\"\n  - generic [ref=e3]:\n    - link \"Skip to main content\" [ref=e4] [cursor=pointer]:\n      - /url: \"#maincontent\"\n    - banner [ref=e5]:\n      - link \"Find an agent\" [ref=e6] [cursor=pointer]:\n        - /url: /agents/\n      - link \"OnTheMarket\" [ref=e7] [cursor=pointer]:\n        - /url: /\n        - img [ref=e8]\n      - generic [ref=e22]:\n        - link \"Sign in or register\" [ref=e24] [cursor=pointer]:\n          - /url: /details/19547756/?modal=sign-in\n          - button \"Sign in/Register\" [ref=e25]\n        - navigation \"Main nav\" [ref=e26]:\n          - button \"Open menu\" [ref=e27] [cursor=pointer]:\n            - img [ref=e28]\n    - generic [ref=e30]:\n      - generic [ref=e31]:\n        - navigation \"Back link\" [ref=e32]:\n          - navigation \"breadcrumbs\" [ref=e34]:\n            - list [ref=e35]:\n              - listitem [ref=e36]:\n                - img \"back\" [ref=e37]\n              - listitem [ref=e39]:\n                - link \"See more properties like this\" [ref=e40] [cursor=pointer]:\n                  - /url: /for-sale/property/ha2/?max-price=1100000&min-bedrooms=4&min-price=700000&more-like-this=true&radius=1.0\n          - button [ref=e41] [cursor=pointer]:\n            - img [ref=e43]\n          - button \"Save\" [ref=e45] [cursor=pointer]:\n            - img [ref=e47]\n        - generic [ref=e49]:\n          - link [ref=e50] [cursor=pointer]:\n            - /url: /details/19547756/#/photos/1\n            - img [ref=e51]\n          - link [ref=e52] [cursor=pointer]:\n            - /url: /details/19547756/#/photos/2\n            - img [ref=e53]\n          - link [ref=e54] [cursor=pointer]:\n            - /url: /details/19547756/#/photos/3\n            - img [ref=e55]\n          - link [ref=e56] [cursor=pointer]:\n            - /url: /details/19547756/#/photos/4\n            - img [ref=e57]\n          - link [ref=e58] [cursor=pointer]:\n            - /url: /details/19547756/#/photos/5\n            - img [ref=e59]\n      - generic [ref=e60]:\n        - generic [ref=e62]:\n          - generic [ref=e63]: Added < 7 days\n          - generic [ref=e64]:\n            - generic [ref=e65]:\n              - generic [ref=e66]: Call agent\n              - button \"020 4516 6055\" [ref=e67] [cursor=pointer]\n              - link \"Request viewing/info\" [ref=e68] [cursor=pointer]:\n                - /url: /agents/contact/19547756/?form-name=details-contact\n            - generic [ref=e69]:\n              - img \"Robsons - Pinner\" [ref=e70]\n              - generic [ref=e72]: Robsons - Pinner\n        - generic [ref=e75]:\n          - generic [ref=e76]:\n            - img [ref=e77]\n            - generic [ref=e79]: \"Total views: 847\"\n          - generic [ref=e80]:\n            - link \"Photos ( 16 )\" [ref=e81] [cursor=pointer]:\n              - /url: /details/19547756/#/photos/1\n              - generic [ref=e82]:\n                - img [ref=e84]\n                - text: Photos (\n                - generic [ref=e85]: \"16\"\n                - text: )\n            - link \"Show floorplans Floorplan\" [ref=e86] [cursor=pointer]:\n              - /url: /details/19547756/#/floorplans/1\n              - generic [ref=e87]:\n                - img \"Show floorplans\" [ref=e88]\n                - text: Floorplan\n            - link \"Show map Map\" [ref=e89] [cursor=pointer]:\n              - /url: /details/19547756/#/map\n              - generic [ref=e90]:\n                - img \"Show map\" [ref=e91]\n                - text: Map\n            - link \"Show area stats Area stats\" [ref=e92] [cursor=pointer]:\n              - /url: /details/19547756/#area-stats-section\n              - generic [ref=e93]:\n                - img \"Show area stats\" [ref=e94]\n                - text: Area stats\n          - link \"£879,000\" [ref=e96] [cursor=pointer]:\n            - /url: /details/19547756/\n          - heading \"4 bedroom semi-detached house for sale\" [level=1] [ref=e97]\n          - generic [ref=e98]: Kingsfield Avenue, Harrow, HA2 6AQ\n          - generic [ref=e100]: Study\n          - generic [ref=e101]:\n            - generic [ref=e102]:\n              - img [ref=e103]\n              - generic [ref=e105]: Semi-detached house\n            - generic [ref=e106]:\n              - img [ref=e107]\n              - generic [ref=e109]: 4 beds\n            - generic [ref=e110]:\n              - img [ref=e111]\n              - generic [ref=e113]: 2 baths\n            - generic [ref=e114]:\n              - img [ref=e115]\n              - generic [ref=e118]:\n                - text: \"1646\"\n                - button \"sq ft\" [ref=e119] [cursor=pointer]\n            - generic [ref=e120]:\n              - img [ref=e121]\n              - generic [ref=e123]: \"EPC rating: E\"\n          - generic [ref=e124]:\n            - heading \"Key information\" [level=2] [ref=e125]\n            - generic [ref=e126]:\n              - generic [ref=e127]:\n                - generic [ref=e128]:\n                  - img [ref=e129]\n                  - text: \"Tenure:\"\n                - link \"Ask agent\" [ref=e131] [cursor=pointer]:\n                  - /url: /agents/contact/19547756/?form-name=details-contact\n              - generic [ref=e132]:\n                - generic [ref=e133]:\n                  - img [ref=e134]\n                  - text: \"Council tax:\"\n                - text: Band F\n              - generic [ref=e136]:\n                - generic [ref=e137]:\n                  - img [ref=e138]\n                  - text: \"Mobile signal:\"\n                - generic [ref=e140]:\n                  - generic [ref=e141]:\n                    - text: EE\n                    - img \"Three bars, likely to have good coverage and receive a data rate to support basic web services\" [ref=e142]\n                  - generic [ref=e144]:\n                    - text: O2\n                    - img \"Three bars, likely to have good coverage and receive a data rate to support basic web services\" [ref=e145]\n                  - generic [ref=e147]:\n                    - text: Three\n                    - img \"Full bars, likely to have good coverage indoors and to receive an enhanced data rate to support multimedia services\" [ref=e148]\n                  - generic [ref=e150]:\n                    - text: Vodafone\n                    - img \"Full bars, likely to have good coverage indoors and to receive an enhanced data rate to support multimedia services\" [ref=e151]\n            - button \"Discover more information\" [ref=e153] [cursor=pointer]\n          - generic [ref=e154]:\n            - generic [ref=e155]:\n              - heading \"Features and description\" [level=2] [ref=e156]\n              - list [ref=e158]:\n                - listitem [ref=e159]: Porch and Entrance Hallway\n                - listitem [ref=e160]: Four Bedrooms\n                - listitem [ref=e161]: Reception Room\n                - listitem [ref=e162]: Dining Room\n                - listitem [ref=e163]: Study\n                - listitem [ref=e164]: Kitchen\n                - listitem [ref=e165]: Two Bathrooms and Ground floor W.C.\n                - listitem [ref=e166]: Landscaped rear garden\n                - listitem [ref=e167]: Garage accessed by own driveway\n                - listitem [ref=e168]: Off Street Parking\n            - generic [ref=e169]:\n              - generic [ref=e171]:\n                - paragraph [ref=e172]: A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow’s shops and Metropolitan Line station.\n                - paragraph [ref=e173]: Offering spacious and versatile accommodation across three floors, the property features a porch and entrance hallway leading to a bright reception room and through dining room with patio doors to the garden. To the rear, there is a fitted kitchen leading to a versatile room suitable for a variety of uses, such as a study, with access to the garage and garden. Completing this floor is a guest w.c. To the first floor are three generously sized bedrooms and a family bathroom. To the second floor is a principal bedroom with fitted wardrobes, under eaves storage and an ensuite shower room.\n                - paragraph [ref=e174]: Externally there is a private southerly aspect laid to lawn rear garden with a patio while to the front has access to a garage via its own driveway and off street parking.\n                - paragraph [ref=e175]: North Harrow offers a variety of shops, restaurants, coffee houses and popular supermarkets. Transport facilities include local bus links and the Metropolitan Line at North Harrow tube station, providing a fast and frequent service into the heart of Central London and beyond. The area is well served for primary and secondary schooling, children’s parks/playgrounds and recreational facilities.\n                - paragraph [ref=e176]:\n                  - text: \"Tenure: Freeehold\"\n                  - text: \"Local Authority: London Borough of Harrow\"\n                  - text: \"Council Tax Band: F\"\n                  - text: \"Energy Efficiency Rating: E\"\n                - paragraph\n              - button \"See full description\" [ref=e177] [cursor=pointer]\n              - heading \"Property information from this agent\" [level=2] [ref=e178]\n              - list [ref=e179]:\n                - listitem [ref=e180]:\n                  - link \"Brochure PDF\" [ref=e181] [cursor=pointer]:\n                    - /url: https://loopcrm.b-cdn.net/brochures/16d1b27a-b77c-4f05-b874-08de30eb5176/1449372/Kingsfield-Avenue-53-_v2_.pdf\n                    - img [ref=e182]\n                    - generic [ref=e184]: Brochure PDF\n              - link \"Visit agent website\" [ref=e186] [cursor=pointer]:\n                - /url: /agents/website-redirect/?redirect-token=RaekA79LeLfJql6Nqm41Hpzkv3R2vnqZhQzugqNWJJ3wBvyDYxWkO0oVisfr%2Bmgq\n                - text: Visit agent website\n                - img [ref=e187]\n          - generic [ref=e190]:\n            - heading \"Location\" [level=2] [ref=e191]\n            - generic [ref=e192]: Kingsfield Avenue, Harrow, HA2 6AQ\n            - generic [ref=e193]:\n              - link \"Map Map marker\" [ref=e194] [cursor=pointer]:\n                - /url: /details/19547756/#/map\n                - generic [ref=e197]:\n                  - generic:\n                    - region \"Map\" [ref=e198]\n                    - button \"Map marker\" [ref=e199]\n              - link \"Open map\" [ref=e201] [cursor=pointer]:\n                - /url: /details/19547756/#/map\n                - button \"Open map\" [ref=e202]:\n                  - img [ref=e203]\n                  - text: Open map\n            - generic [ref=e206]:\n              - tablist [ref=e207]:\n                - tab \"Nearest stations\" [selected] [ref=e208] [cursor=pointer]\n                - tab \"Nearest schools\" [ref=e209] [cursor=pointer]\n              - tabpanel \"Nearest stations\" [ref=e211]:\n                - generic [ref=e212]:\n                  - generic [ref=e213]:\n                    - img [ref=e216]\n                    - generic [ref=e218]:\n                      - generic [ref=e219]: North Harrow Underground\n                      - generic [ref=e220]: (0.4mi.)\n                      - generic [ref=e222]: Metropolitan\n                  - generic [ref=e223]:\n                    - img [ref=e226]\n                    - generic [ref=e228]:\n                      - generic [ref=e229]: West Harrow Underground\n                      - generic [ref=e230]: (0.6mi.)\n                      - generic [ref=e232]: Metropolitan\n                  - generic [ref=e233]:\n                    - img [ref=e236]\n                    - generic [ref=e238]:\n                      - generic [ref=e239]: Harrow & Wealdstone Underground\n                      - generic [ref=e240]: (0.9mi.)\n            - generic [ref=e241]:\n              - heading \"Very Important Places (VIP)\" [level=2] [ref=e242]\n              - generic [ref=e243]: Calculate the distance from this property to places that are important to you.\n              - button \"Create VIP\" [ref=e244] [cursor=pointer]\n          - generic [ref=e245]:\n            - heading \"Area statistics\" [level=2] [ref=e246]\n            - generic [ref=e247]:\n              - img [ref=e248]\n              - generic [ref=e250]:\n                - generic [ref=e251]: Crime score\n                - generic [ref=e252]: Low crime\n              - generic [ref=e255]: 2/10\n            - generic [ref=e256]:\n              - img [ref=e257]\n              - generic [ref=e259]:\n                - generic [ref=e260]: Home prices (average)\n                - generic [ref=e261]: 4 bedroom semi-detached houses\n              - generic [ref=e263]: £731,685\n          - generic [ref=e265]:\n            - heading \"Mortgage calculator\" [level=2] [ref=e266]\n            - generic [ref=e268]:\n              - generic [ref=e269]:\n                - generic [ref=e270]:\n                  - generic [ref=e271]: Property value\n                  - generic [ref=e272]:\n                    - textbox \"Property value\" [ref=e273]:\n                      - /placeholder: \" \"\n                      - text: 879,000\n                    - generic [ref=e275]: £\n                - generic [ref=e276]:\n                  - generic [ref=e277]:\n                    - text: Deposit\n                    - generic [ref=e279]:\n                      - text: 10%\n                      - img [ref=e280]\n                  - generic [ref=e284]:\n                    - textbox \"Deposit 10%\" [ref=e285]:\n                      - /placeholder: \" \"\n                      - text: 87,900\n                    - generic [ref=e287]: £\n                - generic [ref=e288]:\n                  - generic [ref=e289]: Interest rate\n                  - textbox \"Interest rate\" [ref=e291]:\n                    - /placeholder: \" \"\n                    - text: 4.4%\n                - generic [ref=e292]:\n                  - generic [ref=e293]: Repayment period\n                  - combobox \"Repayment period\" [ref=e294]:\n                    - option \"Please select\" [selected]\n                    - option \"1 years\"\n                    - option \"2 years\"\n                    - option \"3 years\"\n                    - option \"4 years\"\n                    - option \"5 years\"\n                    - option \"6 years\"\n                    - option \"7 years\"\n                    - option \"8 years\"\n                    - option \"9 years\"\n                    - option \"10 years\"\n                    - option \"11 years\"\n                    - option \"12 years\"\n                    - option \"13 years\"\n                    - option \"14 years\"\n                    - option \"15 years\"\n                    - option \"16 years\"\n                    - option \"17 years\"\n                    - option \"18 years\"\n                    - option \"19 years\"\n                    - option \"20 years\"\n                    - option \"21 years\"\n                    - option \"22 years\"\n                    - option \"23 years\"\n                    - option \"24 years\"\n                    - option \"25 years\"\n                    - option \"26 years\"\n                    - option \"27 years\"\n                    - option \"28 years\"\n                    - option \"29 years\"\n                    - option \"30 years\"\n                    - option \"31 years\"\n                    - option \"32 years\"\n                    - option \"33 years\"\n                    - option \"34 years\"\n                    - option \"35 years\"\n                    - option \"36 years\"\n                    - option \"37 years\"\n                    - option \"38 years\"\n                    - option \"39 years\"\n                    - option \"40 years\"\n              - generic [ref=e296]:\n                - generic [ref=e297]: \"Monthly Repayments:\"\n                - generic [ref=e299]:\n                  - generic [ref=e301]:\n                    - generic [ref=e302]: \"0\"\n                    - generic [ref=e303]: \"1\"\n                    - generic [ref=e304]: \"2\"\n                    - generic [ref=e305]: \"3\"\n                    - generic [ref=e306]: \"4\"\n                    - generic [ref=e307]: \"5\"\n                    - generic [ref=e308]: \"6\"\n                    - generic [ref=e309]: \"7\"\n                    - generic [ref=e310]: \"8\"\n                    - generic [ref=e311]: \"9\"\n                  - generic [ref=e313]:\n                    - generic [ref=e314]: \"0\"\n                    - generic [ref=e315]: \"1\"\n                    - generic [ref=e316]: \"2\"\n                    - generic [ref=e317]: \"3\"\n                    - generic [ref=e318]: \"4\"\n                    - generic [ref=e319]: \"5\"\n                    - generic [ref=e320]: \"6\"\n                    - generic [ref=e321]: \"7\"\n                    - generic [ref=e322]: \"8\"\n                    - generic [ref=e323]: \"9\"\n                  - generic [ref=e325]:\n                    - generic [ref=e326]: \"0\"\n                    - generic [ref=e327]: \"1\"\n                    - generic [ref=e328]: \"2\"\n                    - generic [ref=e329]: \"3\"\n                    - generic [ref=e330]: \"4\"\n                    - generic [ref=e331]: \"5\"\n                    - generic [ref=e332]: \"6\"\n                    - generic [ref=e333]: \"7\"\n                    - generic [ref=e334]: \"8\"\n                    - generic [ref=e335]: \"9\"\n                  - generic [ref=e336]: \",\"\n                  - generic [ref=e338]:\n                    - generic [ref=e339]: \"0\"\n                    - generic [ref=e340]: \"1\"\n                    - generic [ref=e341]: \"2\"\n                    - generic [ref=e342]: \"3\"\n                    - generic [ref=e343]: \"4\"\n                    - generic [ref=e344]: \"5\"\n                    - generic [ref=e345]: \"6\"\n                    - generic [ref=e346]: \"7\"\n                    - generic [ref=e347]: \"8\"\n                    - generic [ref=e348]: \"9\"\n                  - generic [ref=e349]: £\n              - generic [ref=e350]: These results are for a repayment mortgage and are intended as a guide only. Make sure you obtain accurate figures from your broker/lender before committing to any mortgage. Your home may be repossessed if you do not keep up repayments on a mortgage.\n            - heading \"Stamp duty calculator\" [level=2] [ref=e351]\n            - generic [ref=e354]:\n              - generic [ref=e355]:\n                - generic [ref=e356]: I am\n                - combobox \"I am\" [ref=e357]:\n                  - option \"Please select\" [selected]\n                  - option \"A first time buyer\"\n                  - option \"Moving home\"\n                  - option \"Buying an additional property\"\n              - generic [ref=e358]:\n                - generic [ref=e359]: Price\n                - generic [ref=e360]:\n                  - textbox \"Price\" [ref=e361]:\n                    - /placeholder: \" \"\n                    - text: 879,000\n                  - generic [ref=e363]: £\n              - button \"Calculate\" [ref=e366] [cursor=pointer]\n          - generic [ref=e367]:\n            - heading \"About this agent\" [level=2] [ref=e368]\n            - generic [ref=e369]:\n              - img \"Robsons - Pinner\" [ref=e370]\n              - generic [ref=e371]:\n                - generic [ref=e372]: Robsons - Pinner\n                - generic [ref=e373]: 1 High Street Pinner, Middlesex HA5 5PJ\n            - link \"Full profile\" [ref=e374] [cursor=pointer]:\n              - /url: /agents/branch/robsons-pinner/\n            - link \"Property listings\" [ref=e375] [cursor=pointer]:\n              - /url: /agents/branch/robsons-pinner/properties/?search-type=for-sale&under-offer=true\n            - generic [ref=e378]:\n              - generic [ref=e379]: Robsons are an established independent estate agent with ten branches and a proven track record\n              - generic [ref=e380]: of being market leaders selling and letting properties along the popular commuter stretch\n              - generic [ref=e381]: surrounding London’s Metropolitan Underground from North Middlesex, through Hertfordshire and\n              - generic [ref=e383]:\n                - text: across Buckinghamshire. We pride ourselves in providing a flexible and personal service\n                - generic [ref=e384]:\n                  - text: ...\n                  - generic [ref=e385] [cursor=pointer]: Show more\n          - generic [ref=e387]:\n            - generic [ref=e388]:\n              - heading \"Similar properties\" [level=2] [ref=e390]\n              - generic [ref=e391]:\n                - button \"I'm interested\" [ref=e393] [cursor=pointer]\n                - generic [ref=e394]:\n                  - button \"previous slide / item\" [disabled] [ref=e395]:\n                    - img [ref=e396]\n                  - button \"next slide / item\" [ref=e398] [cursor=pointer]:\n                    - img [ref=e399]\n              - generic [ref=e401]: Discover similar properties nearby in a single step.\n            - generic [ref=e404]:\n              - link \"Moat Drive, Harrow, HA1 4RY\" [ref=e405] [cursor=pointer]:\n                - /url: /details/19471443/\n                - generic [ref=e406]:\n                  - img \"Moat Drive, Harrow, HA1 4RY\"\n              - generic [ref=e407]:\n                - img \"Robsons - Pinner\" [ref=e408]\n                - link \"£825,000 Semi-detached house 4 Moat Drive, Harrow, HA1 4RY\" [ref=e409] [cursor=pointer]:\n                  - /url: /details/19471443/\n                  - generic [ref=e410]:\n                    - generic [ref=e411]: £825,000\n                    - generic [ref=e412]:\n                      - generic [ref=e413]: Semi-detached house\n                      - generic [ref=e416]:\n                        - img [ref=e417]\n                        - text: \"4\"\n                    - generic [ref=e419]: Moat Drive, Harrow, HA1 4RY\n          - generic [ref=e420]:\n            - heading \"See more properties like this\" [level=2] [ref=e421]\n            - list [ref=e422]:\n              - listitem [ref=e423]:\n                - link \"Property & houses for sale in HA1\" [ref=e424] [cursor=pointer]:\n                  - /url: /for-sale/property/ha1/\n              - listitem [ref=e425]:\n                - link \"Property & houses for sale in HA2\" [ref=e426] [cursor=pointer]:\n                  - /url: /for-sale/property/ha2/\n              - listitem [ref=e427]:\n                - link \"4 bedroom houses for sale in Harrow\" [ref=e428] [cursor=pointer]:\n                  - /url: /for-sale/4-bed-houses/harrow-north-west-london/\n              - listitem [ref=e429]:\n                - link \"Semi-detached houses for sale in Harrow\" [ref=e430] [cursor=pointer]:\n                  - /url: /for-sale/semi-detached/harrow-north-west-london/\n          - generic [ref=e432]:\n            - text: \"*Disclaimer and call rate information...\"\n            - button \"Show\" [ref=e433] [cursor=pointer]\n          - navigation \"breadcrumbs\" [ref=e434]:\n            - list [ref=e435]:\n              - listitem [ref=e436]:\n                - link \"UK\" [ref=e437] [cursor=pointer]:\n                  - /url: /for-sale/property/uk/\n              - listitem [ref=e438]:\n                - img [ref=e440]\n                - link \"Greater London\" [ref=e442] [cursor=pointer]:\n                  - /url: /for-sale/property/greater-london/\n              - listitem [ref=e443]:\n                - img [ref=e445]\n                - link \"North West London\" [ref=e447] [cursor=pointer]:\n                  - /url: /for-sale/property/north-west-london/\n              - listitem [ref=e448]:\n                - img [ref=e450]\n                - link \"Kingsfield Avenue\" [ref=e452] [cursor=pointer]:\n                  - /url: /for-sale/property/kingsfield-avenue-harrow-on-the-hill-ha2/\n    - generic [ref=e455]:\n      - generic [ref=e456]:\n        - img [ref=e457]\n        - list [ref=e471]:\n          - listitem [ref=e472]:\n            - link \"Facebook\" [ref=e473] [cursor=pointer]:\n              - /url: https://www.facebook.com/Onthemarketcom-1500133890261960/\n              - img [ref=e474]\n          - listitem [ref=e476]:\n            - link \"Twitter\" [ref=e477] [cursor=pointer]:\n              - /url: https://twitter.com/OnTheMarketCom\n              - img [ref=e478]\n          - listitem [ref=e480]:\n            - link \"Instagram\" [ref=e481] [cursor=pointer]:\n              - /url: https://www.instagram.com/onthemarketcom/\n              - img [ref=e482]\n          - listitem [ref=e486]:\n            - link \"Youtube\" [ref=e487] [cursor=pointer]:\n              - /url: https://www.youtube.com/channel/UCbtDzHL7kTDYp3kIFu1c23Q\n              - img [ref=e488]\n          - listitem [ref=e490]:\n            - link \"TikTok\" [ref=e491] [cursor=pointer]:\n              - /url: https://www.tiktok.com/@onthemarket.com\n              - img [ref=e492]\n      - generic [ref=e494]:\n        - generic [ref=e495]:\n          - generic [ref=e496]: OnTheMarket.com\n          - generic [ref=e497]: The simple way to search for property to buy or rent.\n          - generic [ref=e498]:\n            - list [ref=e499]:\n              - listitem [ref=e500]:\n                - link \"UK property for sale\" [ref=e501] [cursor=pointer]:\n                  - /url: /for-sale/\n              - listitem [ref=e502]:\n                - link \"UK property to rent\" [ref=e503] [cursor=pointer]:\n                  - /url: /to-rent/\n              - listitem [ref=e504]:\n                - link \"Find UK agents\" [ref=e505] [cursor=pointer]:\n                  - /url: /agents/\n              - listitem [ref=e506]:\n                - link \"UK house prices\" [ref=e507] [cursor=pointer]:\n                  - /url: /sold-prices/\n              - listitem [ref=e508]:\n                - link \"Valuations\" [ref=e509] [cursor=pointer]:\n                  - /url: /property-valuation/\n              - listitem [ref=e510]:\n                - link \"New homes\" [ref=e511] [cursor=pointer]:\n                  - /url: /new-homes/\n              - listitem [ref=e512]:\n                - link \"Retirement properties\" [ref=e513] [cursor=pointer]:\n                  - /url: /retirement/\n              - listitem [ref=e514]:\n                - link \"Farms, estates & land\" [ref=e515] [cursor=pointer]:\n                  - /url: /farms-land/\n              - listitem [ref=e516]:\n                - link \"Student accommodation\" [ref=e517] [cursor=pointer]:\n                  - /url: /student/\n              - listitem [ref=e518]:\n                - link \"Overseas\" [ref=e519] [cursor=pointer]:\n                  - /url: /overseas/\n            - list [ref=e520]:\n              - listitem [ref=e521]:\n                - link \"Commercial\" [ref=e522] [cursor=pointer]:\n                  - /url: /to-rent/commercial/\n              - listitem [ref=e523]:\n                - link \"Blog\" [ref=e524] [cursor=pointer]:\n                  - /url: /content/\n              - listitem [ref=e525]:\n                - link \"Guides\" [ref=e526] [cursor=pointer]:\n                  - /url: /content/\n              - listitem [ref=e527]:\n                - link \"Mobile apps\" [ref=e528] [cursor=pointer]:\n                  - /url: /mobile/\n              - listitem [ref=e529]:\n                - link \"Contact us\" [ref=e530] [cursor=pointer]:\n                  - /url: /contact/\n              - listitem [ref=e531]:\n                - link \"About us\" [ref=e532] [cursor=pointer]:\n                  - /url: /about/\n              - listitem [ref=e533]:\n                - link \"About Only With Us\" [ref=e534] [cursor=pointer]:\n                  - /url: /only-with-us/\n              - listitem [ref=e535]:\n                - link \"Exercise your rights\" [ref=e536] [cursor=pointer]:\n                  - /url: https://privacy.costar.com/DSAR-submission/\n              - listitem [ref=e537]:\n                - link \"Careers\" [ref=e538] [cursor=pointer]:\n                  - /url: https://careers.costargroup.com/careers?query=OnTheMarket&country=United%20Kingdom\n        - generic [ref=e539]:\n          - generic [ref=e540]: OnTheMarket Expert\n          - generic [ref=e541]: Property professional website.\n          - list [ref=e543]:\n            - listitem [ref=e544]:\n              - link \"Testimonials\" [ref=e545] [cursor=pointer]:\n                - /url: https://expert.onthemarket.com/agent-testimonials/\n            - listitem [ref=e546]:\n              - link \"Member area sign-in\" [ref=e547] [cursor=pointer]:\n                - /url: https://expert.onthemarket.com/\n            - listitem [ref=e548]:\n              - link \"Become a member\" [ref=e549] [cursor=pointer]:\n                - /url: https://expert.onthemarket.com/contact-us/\n      - generic [ref=e550]:\n        - generic [ref=e551]:\n          - link \"Terms of use\" [ref=e552] [cursor=pointer]:\n            - /url: /terms/\n          - text: \"|\"\n          - link \"Privacy notice\" [ref=e553] [cursor=pointer]:\n            - /url: https://www.costar.com/about/privacy-notice\n          - text: \"|\"\n          - link \"Cookie policy\" [ref=e554] [cursor=pointer]:\n            - /url: https://www.costar.com/about/cookie-policy\n          - text: \"| Cookie settings\"\n        - generic [ref=e555]: © 2026 CoStar Group\n  - alert [ref=e556]\n```",
+    "navigation_result": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:62317/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:62317/page.safe.html\n- Page Title: Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000\n- Console: 2 errors, 3 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-07-01T01-36-56-513Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-07-01T01-36-55-656Z.log#L1-L17"
+  },
+  "visible_text": "Skip to main content\nFind an agent\nSign in/Register\nSee more properties like this\nAdded < 7 days\nCall agent\n020 4516 6055\nRequest viewing/info\nRobsons - Pinner\nTotal views:  847\nPhotos (\n16\n)\nFloorplan\nMap\nArea stats\n£879,000\n4 bedroom semi-detached house for sale\nKingsfield Avenue, Harrow, HA2 6AQ\nStudy\nSemi-detached house\n4 beds\n2 baths\n1646sq ft\nEPC rating: E\nKey information\nTenure: \nAsk agent\nCouncil tax: \nBand F\nMobile signal: \nEEO2ThreeVodafone\nDiscover more information\nFeatures and description\nPorch and Entrance Hallway\nFour Bedrooms\nReception Room\nDining Room\nStudy\nKitchen\nTwo Bathrooms and Ground floor W.C.\nLandscaped rear garden\nGarage accessed by own driveway\nOff Street Parking\n\nA well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow’s shops and Metropolitan Line station.\n\nOffering spacious and versatile accommodation across three floors, the property features a porch and entrance hallway leading to a bright reception room and through dining room with patio doors to the garden. To the rear, there is a fitted kitchen leading to a versatile room suitable for a variety of uses, such as a study, with access to the garage and garden. Completing this floor is a guest w.c. To the first floor are three generously sized bedrooms and a family bathroom. To the second floor is a principal bedroom with fitted wardrobes, under eaves storage and an ensuite shower room.\n\nExternally there is a private southerly aspect laid to lawn rear garden with a patio while to the front has access to a garage via its own driveway and off street parking.\n\nNorth Harrow offers a variety of shops, restaurants, coffee houses and popular supermarkets. Transport facilities include local bus links and the Metropolitan Line at North Harrow tube station, providing a fast and frequent service into the heart of Central London and beyond. The area is well served for primary and secondary schooling, children’s parks/playgrounds and recreational facilities.\n\nTenure: Freeehold\nLocal Authority: London Borough of Harrow\nCouncil Tax Band: F\nEnergy Efficiency Rating: E\n\nSee full description\nProperty information from this agent\nBrochure PDF\nVisit agent website\nLocation\nKingsfield Avenue, Harrow, HA2 6AQ\nOpen map\nNearest stations\nNearest schools\nNorth Harrow Underground\n(0.4mi.)\nMetropolitan\nWest Harrow Underground\n(0.6mi.)\nMetropolitan\nHarrow & Wealdstone Underground\n(0.9mi.)\nVery Important Places (VIP)\nCalculate the distance from this property to places that are important to you.\nCreate VIP\nArea statistics\nCrime score\nLow crime\n2/10\nHome prices (average)\n4 bedroom semi-detached houses\n£731,685\nMortgage calculator\nProperty value\n£\nDeposit\n10%\n£\nInterest rate\nRepayment period\nPlease select\n1 years\n2 years\n3 years\n4 years\n5 years\n6 years\n7 years\n8 years\n9 years\n10 years\n11 years\n12 years\n13 years\n14 years\n15 years\n16 years\n17 years\n18 years\n19 years\n20 years\n21 years\n22 years\n23 years\n24 years\n25 years\n26 years\n27 years\n28 years\n29 years\n30 years\n31 years\n32 years\n33 years\n34 years\n35 years\n36 years\n37 years\n38 years\n39 years\n40 years\nMonthly Repayments:\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n,\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n£\nThese results are for a repayment mortgage and are intended as a guide only. Make sure you obtain accurate figures from your broker/lender before committing to any mortgage. Your home may be repossessed if you do not keep up repayments on a mortgage.\nStamp duty calculator\nI am\nPlease select\nA first time buyer\nMoving home\nBuying an additional property\nPrice\n£\n \nCalculate\nAbout this agent\nRobsons - Pinner\n1 High Street Pinner, Middlesex HA5 5PJ\nFull profileProperty listings\nRobsons are an established independent estate agent with ten branches and a proven track record\nof being market leaders selling and letting properties along the popular commuter stretch\nsurrounding London’s Metropolitan Underground from North Middlesex, through Hertfordshire and\nacross Buckinghamshire.  We pride ourselves in providing a flexible and personal service ...\nShow more\nSimilar properties\nI'm interested\nDiscover similar properties nearby in a single step.\n£825,000\nSemi-detached house\n4\nMoat Drive, Harrow, HA1 4RY\nSee more properties like this\nProperty & houses for sale in HA1\nProperty & houses for sale in HA2\n4 bedroom houses for sale in Harrow\nSemi-detached houses for sale in Harrow\n*Disclaimer and call rate information...Show\nUK\nGreater London\nNorth West London\nKingsfield Avenue\nOnTheMarket.com\nThe simple way to search for property to buy or rent.\nUK property for sale\nUK property to rent\nFind UK agents\nUK house prices\nValuations\nNew homes\nRetirement properties\nFarms, estates & land\nStudent accommodation\nOverseas\nCommercial\nBlog\nGuides\nMobile apps\nContact us\nAbout us\nAbout Only With Us\nExercise your rights\nCareers\nOnTheMarket Expert\nProperty professional website.\nTestimonials\nMember area sign-in\nBecome a member\nTerms of use | Privacy notice | Cookie policy | Cookie settings\n© 2026 CoStar Group",
+  "ax_tree_excerpt": "{\n  \"nodes\": [\n    {\n      \"nodeId\": \"3\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"RootWebArea\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 144\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000\"\n            },\n            \"nativeSource\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"focused\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"busy\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": 1\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/PhD/myArticlesAndPapers/my-papers/5-WISE/wade-bench/data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/page.html\"\n          }\n        }\n      ],\n      \"childIds\": [\n        \"7\"\n      ],\n      \"backendDOMNodeId\": 3,\n      \"frameId\": \"8558BC921A3F032E11A51BA420CFBFD4\"\n    },\n    {\n      \"nodeId\": \"7\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"3\",\n      \"childIds\": [\n        \"105\"\n      ],\n      \"backendDOMNodeId\": 7\n    },\n    {\n      \"nodeId\": \"105\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"7\",\n      \"childIds\": [\n        \"106\",\n        \"118\",\n        \"1455\",\n        \"1462\"\n      ],\n      \"backendDOMNodeId\": 105\n    },\n    {\n      \"nodeId\": \"106\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"region\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 143\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Cookie preferences\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Cookie preferences\"\n            },\n            \"attribute\": \"aria-label\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"Cookie preferences\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"live\",\n          \"value\": {\n            \"type\": \"token\",\n            \"value\": \"polite\"\n          }\n        },\n        {\n          \"name\": \"atomic\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": false\n          }\n        },\n        {\n          \"name\": \"relevant\",\n          \"value\": {\n            \"type\": \"tokenList\",\n            \"value\": \"additions text\"\n          }\n        }\n      ],\n      \"parentId\": \"105\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 106\n    },\n    {\n      \"nodeId\": \"118\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"105\",\n      \"childIds\": [\n        \"119\",\n        \"120\",\n        \"121\",\n        \"162\",\n        \"1345\"\n      ],\n      \"backendDOMNodeId\": 118\n    },\n    {\n      \"nodeId\": \"1455\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"alert\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 2\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"live\",\n          \"value\": {\n            \"type\": \"token\",\n            \"value\": \"assertive\"\n          }\n        },\n        {\n          \"name\": \"atomic\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"relevant\",\n          \"value\": {\n            \"type\": \"tokenList\",\n            \"value\": \"additions text\"\n          }\n        }\n      ],\n      \"parentId\": \"105\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 1455\n    },\n    {\n      \"nodeId\": \"1462\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"image\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 99\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"alt\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file://p.tgtag.io/event?property_group_id=tg-g-004442-001&event_name=pageview&no_script=1\"\n          }\n        }\n      ],\n      \"parentId\": \"105\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 1462\n    },\n    {\n      \"nodeId\": \"119\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"118\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 119\n    },\n    {\n      \"nodeId\": \"120\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"link\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 110\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Skip to main content\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Skip to main content\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/PhD/myArticlesAndPapers/my-papers/5-WISE/wade-bench/data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/page.html#maincontent\"\n          }\n        }\n      ],\n      \"parentId\": \"118\",\n      \"childIds\": [\n        \"1482\"\n      ],\n      \"backendDOMNodeId\": 120\n    },\n    {\n      \"nodeId\": \"121\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"banner\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 94\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"118\",\n      \"childIds\": [\n        \"122\",\n        \"123\",\n        \"138\"\n      ],\n      \"backendDOMNodeId\": 121\n    },\n    {\n      \"nodeId\": \"162\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"118\",\n      \"childIds\": [\n        \"163\",\n        \"327\"\n      ],\n      \"backendDOMNodeId\": 162\n    },\n    {\n      \"nodeId\": \"1345\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"118\",\n      \"childIds\": [\n        \"1346\"\n      ],\n      \"backendDOMNodeId\": 1345\n    },\n    {\n      \"nodeId\": \"1346\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"1345\",\n      \"childIds\": [\n        \"1347\"\n      ],\n      \"backendDOMNodeId\": 1346\n    },\n    {\n      \"nodeId\": \"1482\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"StaticText\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 158\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Skip to main content\",\n        \"sources\": [\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Skip to main content\"\n            }\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"120\",\n      \"childIds\": [\n        \"-1000000002\"\n      ],\n      \"backendDOMNodeId\": 1482\n    },\n    {\n      \"nodeId\": \"122\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"link\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 110\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Find an agent\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Find an agent\"\n            },\n            \"attribute\": \"aria-label\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"Find an agent\"\n            }\n          },\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Find an agent\"\n            },\n            \"superseded\": true\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/agents/\"\n          }\n        }\n      ],\n      \"parentId\": \"121\",\n      \"childIds\": [\n        \"1483\"\n      ],\n      \"backendDOMNodeId\": 122\n    },\n    {\n      \"nodeId\": \"123\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"link\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 110\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"OnTheMarket\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"OnTheMarket\"\n            },\n            \"attribute\": \"aria-label\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"OnTheMarket\"\n            }\n          },\n          {\n            \"type\": \"contents\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/\"\n          }\n        }\n      ],\n      \"parentId\": \"121\",\n      \"childIds\": [\n        \"124\"\n      ],\n      \"backendDOMNodeId\": 123\n    },\n    {\n      \"nodeId\": \"138\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"121\",\n      \"childIds\": [\n        \"139\",\n        \"142\"\n      ],\n      \"backendDOMNodeId\": 138\n    },\n    {\n      \"nodeId\": \"139\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"138\",\n      \"childIds\": [\n        \"140\"\n      ],\n      \"backendDOMNodeId\": 139\n    },\n    {\n      \"nodeId\": \"142\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"navigation\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 130\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Main nav\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Main nav\"\n            },\n            \"attribute\": \"aria-label\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"Main nav\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"138\",\n      \"childIds\": [\n        \"143\",\n        \"148\"\n      ],\n      \"backendDOMNodeId\": 142\n    },\n    {\n      \"nodeId\": \"163\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"162\",\n      \"childIds\": [\n        \"164\",\n        \"169\",\n        \"184\",\n        \"201\",\n        \"301\"\n      ],\n      \"backendDOMNodeId\": 163\n    },\n    {\n      \"nodeId\": \"164\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"163\",\n      \"childIds\": [\n        \"165\"\n      ],\n      \"backendDOMNodeId\": 164\n    },\n    {\n      \"nodeId\": \"169\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"navigation\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 130\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Back link\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Back link\"\n            },\n            \"attribute\": \"aria-label\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"Back link\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"163\",\n      \"childIds\": [\n        \"171\",\n        \"176\",\n        \"180\"\n      ],\n      \"backendDOMNodeId\": 169\n    },\n<!-- TRUNCATED -->",
+  "metadata_excerpt": "{\n  \"snapshot_id\": \"SNAP_REAL_ONTHEMARKET_002_DETAIL\",\n  \"website_id\": \"onthemarket\",\n  \"task_id\": \"WBV1_REAL_ONTHEMARKET_002_DETAIL\",\n  \"schema_id\": \"real_estate_listing_v1\",\n  \"page_type\": \"detail\",\n  \"url\": \"https://www.onthemarket.com/details/19547756/\",\n  \"captured_at\": \"2026-05-28T22:22:50.811Z\",\n  \"capture_tool\": \"playwright-stealth\",\n  \"browser\": \"chromium\",\n  \"initial_url\": \"https://www.onthemarket.com/details/19547756/\",\n  \"final_url\": \"https://www.onthemarket.com/details/19547756/\",\n  \"page_title\": \"Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000\",\n  \"capture_status\": \"captured\",\n  \"html_size\": 300378,\n  \"text_size\": 5081\n}",
+  "html_signals": {
+    "title": "Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "4 bedroom semi-detached house for sale"
+      },
+      {
+        "tag": "h2",
+        "text": "Key information"
+      },
+      {
+        "tag": "h2",
+        "text": "Features and description"
+      },
+      {
+        "tag": "h2",
+        "text": "Property information from this agent"
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to main content",
+        "href": "#maincontent"
+      },
+      {
+        "text": "Find an agent",
+        "href": "/agents/"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "Sign in/Register",
+        "href": "/details/19547756/?modal=sign-in"
+      },
+      {
+        "text": "Sign in/Register",
+        "href": "/details/19547756/?modal=sign-in"
+      },
+      {
+        "text": "Instant online valuation",
+        "href": "/instant-valuation/"
+      },
+      {
+        "text": "Value my home",
+        "href": "/property-valuation/"
+      },
+      {
+        "text": "For sale",
+        "href": "/for-sale/"
+      },
+      {
+        "text": "To rent",
+        "href": "/to-rent/"
+      },
+      {
+        "text": "New homes",
+        "href": "/new-homes/"
+      },
+      {
+        "text": "Find developments",
+        "href": "/new-homes/developers/"
+      },
+      {
+        "text": "Find agents",
+        "href": "/agents/"
+      },
+      {
+        "text": "Sold prices",
+        "href": "/uk-house-prices/"
+      },
+      {
+        "text": "Commercial property",
+        "href": "/for-sale/commercial/"
+      },
+      {
+        "text": "Blog",
+        "href": "/content/"
+      },
+      {
+        "text": "",
+        "href": "/for-sale/property/ha2/?max-price=1100000&min-bedrooms=4&min-price=700000&more-like-this=true&radius=1.0"
+      },
+      {
+        "text": "See more properties like this",
+        "href": "/for-sale/property/ha2/?max-price=1100000&min-bedrooms=4&min-price=700000&more-like-this=true&radius=1.0"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/1"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/2"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/3"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/4"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/5"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/6"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/7"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/8"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/9"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/10"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/11"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/12"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/13"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/14"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/15"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/16"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/1"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/2"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/3"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/4"
+      },
+      {
+        "text": "",
+        "href": "/details/19547756/#/photos/5"
+      },
+      {
+        "text": "Request viewing/info",
+        "href": "/agents/contact/19547756/?form-name=details-contact"
+      },
+      {
+        "text": "020 4516 6055",
+        "href": "tel:020 4516 6055"
+      },
+      {
+        "text": "Photos ( 16 )",
+        "href": "/details/19547756/#/photos/1"
+      },
+      {
+        "text": "Floorplan",
+        "href": "/details/19547756/#/floorplans/1"
+      },
+      {
+        "text": "Map",
+        "href": "/details/19547756/#/map"
+      },
+      {
+        "text": "Area stats",
+        "href": "/details/19547756/#area-stats-section"
+      },
+      {
+        "text": "£879,000",
+        "href": "/details/19547756/"
+      },
+      {
+        "text": "Ask agent",
+        "href": "/agents/contact/19547756/?form-name=details-contact"
+      },
+      {
+        "text": "Brochure PDF",
+        "href": "https://loopcrm.b-cdn.net/brochures/16d1b27a-b77c-4f05-b874-08de30eb5176/1449372/Kingsfield-Avenue-53-_v2_.pdf"
+      },
+      {
+        "text": "Visit agent website",
+        "href": "/agents/website-redirect/?redirect-token=RaekA79LeLfJql6Nqm41Hpzkv3R2vnqZhQzugqNWJJ3wBvyDYxWkO0oVisfr%2Bmgq"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-1-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-2-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-3-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-4-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-5-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-6-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-7-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-8-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-9-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-10-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-11-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-12-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-13-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-14-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/epc-0-1024x1024.png",
+        "alt": "EPC"
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-1-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-2-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-3-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-4-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://media.onthemarket.com/agents/companies/6752/180613094609042/logo-190x100.jpg",
+        "alt": "Robsons - Pinner"
+      },
+      {
+        "src": "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg",
+        "alt": null
+      },
+      {
+        "src": "https://www.onthemarket.com/assets/images/floorplanbg.png",
+        "alt": "Show floorplans"
+      },
+      {
+        "src": "https://www.onthemarket.com/assets/images/icons/map/map-pill.png",
+        "alt": "Show map"
+      },
+      {
+        "src": "https://www.onthemarket.com/assets/images/area-stats-bg.png",
+        "alt": "Show area stats"
+      }
+    ],
+    "embedded_json": []
+  },
+  "tool_trace": [
+    {
+      "step": "local_http_server",
+      "serve_dir": "C:\\Users\\pc-mousannif\\Desktop\\Ismail\\WADE-BENCH\\data\\raw_snapshots\\realestate\\SNAP_REAL_ONTHEMARKET_002_DETAIL",
+      "http_url": "http://127.0.0.1:62317/page.safe.html",
+      "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL/page.safe.html"
+    },
+    {
+      "step": "list_tools",
+      "tool_names": [
+        "browser_close",
+        "browser_resize",
+        "browser_console_messages",
+        "browser_handle_dialog",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_type",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_take_screenshot",
+        "browser_snapshot",
+        "browser_click",
+        "browser_drag",
+        "browser_hover",
+        "browser_select_option",
+        "browser_tabs",
+        "browser_wait_for"
+      ]
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:62317/page.safe.html"
+      },
+      "output_preview": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:62317/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:62317/page.safe.html\n- Page Title: Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000\n- Console: 2 errors, 3 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-07-01T01-36-56-513Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-07-01T01-36-55-656Z.log#L1-L17"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_snapshot",
+      "args": {},
+      "output_preview": "### Page\n- Page URL: http://127.0.0.1:62317/page.safe.html\n- Page Title: Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000\n- Console: 2 errors, 3 warnings\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - region \"Cookie preferences\"\n  - generic [ref=e3]:\n    - link \"Skip to main content\" [ref=e4] [cursor=pointer]:\n      - /url: \"#maincontent\"\n    - banner [ref=e5]:\n      - link \"Find an agent\" [ref=e6] [cursor=pointer]:\n        - /url: /agents/\n      - link \"OnTheMarket\" [ref=e7] [cursor=pointer]:\n        - /url: /\n        - img [ref=e8]\n      - generic [ref=e22]:\n        - link \"Sign in or register\" [ref=e24] [cursor=pointer]:\n          - /url: /details/19547756/?modal=sign-in\n          - button \"Sign in/Register\" [ref=e25]\n        - navigation \"Main nav\" [ref=e26]:\n          - button \"Open menu\" [ref=e27] [cursor=pointer]:\n            - img [ref=e28]\n    - generic [ref=e30]:\n      - generic [ref=e31]:\n        - navigation \"Back link\" [ref=e32]:\n          - navigation \"breadcrumbs\" [ref=e34]:\n            - list [ref=e35]:\n              - listitem [ref=e36]:\n                - img \"back\" [ref=e37]\n              - listitem [ref=e39]:\n                - link \"See more properties like this\" [ref=e40] [cursor=pointer]:\n                  - /url: /for-sale/property/ha2/?max-price=1100000&min-bedrooms=4&min-price=700000&more-like-this=true&radius=1.0\n          - button [ref=e41] [cursor=pointer]:\n            - img [ref=e43]\n          - button \"Save\" [ref=e45] [cursor=pointer]:\n            - img [ref=e47]\n        - generic [ref=e49]:\n          - link [ref=e50] [cursor=pointer]:\n            - /url: /details/19547756/#/photos/1\n            - img [ref=e51]\n          - link [ref=e52] [cursor=pointer]:\n            - /url: /details/19547756/#/photos/2\n            - img [ref=e53]\n          - link [ref=e54] [cursor=pointer]:\n            - /url: /details/19547756/#/photos/3\n            - img [ref=e55]\n          - link [ref=e56] [cursor=pointer]:\n    "
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_take_screenshot",
+      "args": {},
+      "output_preview": "### Result\n- [Screenshot of viewport](.playwright-mcp\\page-2026-07-01T01-36-56-664Z.png)\n### Ran Playwright code\n```js\n// Screenshot viewport and save it as .playwright-mcp\\page-2026-07-01T01-36-56-664Z.png\nawait page.screenshot({\n  path: '.playwright-mcp\\\\page-2026-07-01T01-36-56-664Z.png',\n  scale: 'css',\n  type: 'png'\n});\n```\ntype='image' data='iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOz9CYBmVXnnj59zl3df6q2tq3oFmmaRTUBBaUVAQUUJxhCN8TcmMzgjSTSJyS8m/yT/kcwkM5PVyWgykoT8o9G4BBdUUEFlbYQWusEG2Xvvrr3q3be7nP9zlru8S1W9VV3VXVDPh6b7fe9777nn3nvuOef7PM85x7jtttsIgiAIgiAIgiAIgrza0QiCIAiCIAiCIAiCrANQACMIgiAIgiAIgiDrAhTACIIgCIIgCIIgyLoABTCCIAiCIAiCIAiyLkABjCAIgiAIgiAIgqwLUAAjCIIgCIIgCIIg6wIUwAiCIAiCIAiCIMi6AAUwgiAIgiAIgiAIsi4wCIIgCIIgCIIgyFKYnSs8+8L+A4eOHhufmJnNVyo123EIcoowdD2ZjA/0920a2XD6ts3nnnVGfy5LkG7Q2267jSAIgiAIgiAIgvTArsf2Pvr4ky+8fIgga5iztm97w+teu/PyiwnSCgpgBEEQBEEQBEEW58FHHv/ejx4Gfy98Ngz9gnN37Nh+2pZNI0MD/elUwjAwtvSUYdt2qVydmpk9cmz8xZcP7nv2RdvmDnnwCb/jmjddecXrCOKBAhhBEARBEARBkIU4cnTsq3d+T3p9T9u66co3vu7ySy9AxbtmAT382BP7Hvzx4wcPHyPCG/y+G9+xZfMoQVAAIwiCIAiCIAiyALse2/v5r9wJHwYHcj/3jqsvv/RCgrxCeOyJn37re/dNz8zB5w+9/0aMiAb0G264gSAIgiDIKwFWrfI/lYpbKpF6nTUazHEouCAoJQiCIMgqcPcPHvzqN78HH978xks/9uFf3opexFcUmzdueMsVryuVK4ePjj31zPO6ru04YxtZ32DcAoIgCLLWsQ8ctF9+2RkfZ02r6w7a0KCxebN5/nnUNAmCIAiyQoD6vfPuH8GH973nHW+98g0EeQViGMb/84s3jG4YAkOGfJrXv+1Kso5BDzCCIAiydnFn5+o/us96+hm3UCSOO99u4BYGeWy/8CKNRPSBfnQIIwiCnDi7Htsrfb8fev+Nb9n5eoK8kjlj2+b+viw4gZ9/8QB8WM+efPQAIwiCIGsUa9/TjZ887n+lyaQ+NKgNDNBEXEsmmWWxWp3VavahQ6CTYQdWrzd2PWLvPxC75ioajRIEQRBkuRw5OibH/YLvFweOvjqA51hvNMCoAU9266aRdTsnFnqAEQRBkLVI46GHm/uelp+1vr7Y1W+JvuFy4/TT9ZEN+sCAlk7DRn1wUB8dMc85xzj9NOI47sws7MzKZfvAAWPzFhpDDYwgCLJM/ulf75iZK7z5jZe+5/q3EuTVAviBC8XS4aNj45PTV1y2Tu0aKIARBEGQNUf9vvvtl/fLz9HLXx97y5WgeBfYn8ZixtatxqaNzuQkqzdI0+Ia+LRt6AdGEARZBg8+8vj9u34yOJD72Id/WdM0gryKeM3Z23fv2Xfk2Hg2ndq2ZSNZf2CBRhAEQdYWzSefsg8chA80kUjc8G7zvPN6PFAbHk689+eNrVuICIeuf/9eZllkhRibKb1wZPrlYzPkVUelbsGlwZ9KvUkQBEEI+d6PHoa/f+4dV+NKv68+4JnCkyXeU16HYJlGEA"
+    }
+  ]
+}

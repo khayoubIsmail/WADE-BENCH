@@ -1,0 +1,690 @@
+{
+  "task_id": "WBV1_GOV_GETS_001_LISTING",
+  "source_files": {
+    "page_html": "data/raw_snapshots/government/gets_001_listing/page.html",
+    "page_safe_html": "data/raw_snapshots/government/gets_001_listing/page.safe.html",
+    "text_txt": "data/raw_snapshots/government/gets_001_listing/text.txt",
+    "ax_tree": "data/raw_snapshots/government/gets_001_listing/ax_tree.json",
+    "metadata": "data/raw_snapshots/government/gets_001_listing/metadata.json",
+    "screenshot": "data/raw_snapshots/government/gets_001_listing/screenshot.png"
+  },
+  "mcp": {
+    "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/government/gets_001_listing/page.safe.html",
+    "available_tools": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "browser_snapshot": "### Page\n- Page URL: http://127.0.0.1:51033/page.safe.html\n- Page Title: GETS - Government Electronic Tender Service | Current tenders\n### Snapshot\n```yaml\n- generic [ref=e2]:\n  - generic [ref=e3]:\n    - link \"GETS.GOVT.NZ\":\n      - /url: /ExternalIndex.htm\n      - img \"GETS.GOVT.NZ\" [ref=e4] [cursor=pointer]\n    - generic:\n      - generic [ref=e6]:\n        - link \"Create account\" [ref=e7] [cursor=pointer]:\n          - /url: /RegisterUser.htm\n        - link \"Purchaser log in\" [ref=e8] [cursor=pointer]:\n          - /url: /main.html\n        - link \"RealMe Supplier log in\" [ref=e9] [cursor=pointer]:\n          - /url: TendererLogin.auth?referURL=ExternalIndex.htm\n          - generic [ref=e10]:\n            - img \"RealMe\" [ref=e11]\n            - text: Supplier log in\n      - generic [ref=e12]:\n        - generic [ref=e15]: Search Tenders\n        - generic [ref=e21]:\n          - generic [ref=e22]: Search\n          - textbox [ref=e24]\n          - button \"Submit\" [ref=e26] [cursor=pointer]\n        - link \"Advanced Search\" [ref=e29] [cursor=pointer]:\n          - /url: /ExternalAdvancedSearching.htm\n  - generic [ref=e31]: You are not logged in.\n  - generic [ref=e33]:\n    - generic [ref=e34]:\n      - generic [ref=e38]:\n        - heading \"Online Services\" [level=2] [ref=e39]\n        - link \"Create account\" [ref=e41] [cursor=pointer]:\n          - /url: /RegisterUser.htm\n        - link \"Future opportunities\" [ref=e43] [cursor=pointer]:\n          - /url: /FutureProcurementOpportunitiesIndex.htm\n        - link \"Current tenders\" [ref=e45] [cursor=pointer]:\n          - /url: /ExternalIndex.htm\n        - link \"Late tenders\" [ref=e47] [cursor=pointer]:\n          - /url: /ExternalLateTenderList.htm\n        - link \"Closed tenders\" [ref=e49] [cursor=pointer]:\n          - /url: /ExternalClosedTenderList.htm\n        - link \"Completed tenders\" [ref=e51] [cursor=pointer]:\n          - /url: /ExternalAwardedTenderList.htm\n        - link \"Reports\" [ref=e53] [cursor=pointer]:\n          - /url: /ExternalReportList.htm\n      - generic [ref=e54]:\n        - heading \"Policies & Information\" [level=2] [ref=e55]\n        - link \"Terms and conditions\" [ref=e57] [cursor=pointer]:\n          - /url: /GetsTermsAndConditions.htm\n        - link \"Privacy statement\" [ref=e59] [cursor=pointer]:\n          - /url: /GetsTermsAndConditions.htm#privacy\n        - link \"Supplier help\" [ref=e61] [cursor=pointer]:\n          - /url: /SupplierUserTenderHelp.htm\n        - link \"Contact us\" [ref=e63] [cursor=pointer]:\n          - /url: /ContactUs.htm\n      - generic [ref=e64]:\n        - img \"Rss/Atom Feed\" [ref=e65]\n        - link \"Current tenders\" [ref=e66] [cursor=pointer]:\n          - /url: /ExternalRSSFeed.htm\n    - generic [ref=e67]:\n      - heading \"Welcome to the New Zealand Government Electronic Tenders Service (GETS)\" [level=1] [ref=e68]\n      - paragraph [ref=e69]:\n        - text: GETS is a free service designed to promote open, fair competition for New Zealand Government contract opportunities.\n        - link \"More...\" [ref=e71] [cursor=pointer]:\n          - /url: \"#\"\n      - heading \"Current tenders\" [level=1] [ref=e72]\n      - table [ref=e73]:\n        - rowgroup [ref=e74]:\n          - 'row \"RFx ID Reference # Title Tender Type Close Date Sort tenders by earliest to latest date Organisation\" [ref=e75]':\n            - cell \"RFx ID\" [ref=e76]\n            - 'cell \"Reference #\" [ref=e77]':\n              - 'link \"Reference #\" [ref=e78] [cursor=pointer]':\n                - /url: ExternalIndex.htm?orderBy=ref\n            - cell \"Title\" [ref=e79]:\n              - link \"Title\" [ref=e80] [cursor=pointer]:\n                - /url: ExternalIndex.htm?orderBy=title\n            - cell \"Tender Type\" [ref=e81]:\n              - link \"Tender Type\" [ref=e82] [cursor=pointer]:\n                - /url: ExternalIndex.htm?orderBy=type\n            - cell \"Close Date Sort tenders by earliest to latest date\" [ref=e83]:\n              - link \"Close Date Sort tenders by earliest to latest date\" [ref=e84] [cursor=pointer]:\n                - /url: ExternalIndex.htm?orderBy=date\n                - text: Close Date\n                - img \"Sort tenders by earliest to latest date\" [ref=e85]\n            - cell \"Organisation\" [ref=e86]:\n              - link \"Organisation\" [ref=e87] [cursor=pointer]:\n                - /url: ExternalIndex.htm?orderBy=client\n          - row [ref=e88]:\n            - cell [ref=e89]\n          - row \"33864496 33864496 Uncrewed Systems and Counter Uncrewed Systems (UxS/C-UxS) RFI 2:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00) New Zealand Defence Force\" [ref=e90]:\n            - cell \"33864496\" [ref=e91]:\n              - link \"33864496\" [ref=e92] [cursor=pointer]:\n                - /url: NZDF/ExternalTenderDetails.htm?id=33864496\n            - cell \"33864496\" [ref=e93]:\n              - link \"33864496\" [ref=e94] [cursor=pointer]:\n                - /url: NZDF/ExternalTenderDetails.htm?id=33864496\n            - cell \"Uncrewed Systems and Counter Uncrewed Systems (UxS/C-UxS)\" [ref=e95]:\n              - link \"Uncrewed Systems and Counter Uncrewed Systems (UxS/C-UxS)\" [ref=e96] [cursor=pointer]:\n                - /url: NZDF/ExternalTenderDetails.htm?id=33864496\n            - cell \"RFI\" [ref=e97]:\n              - link \"RFI\" [ref=e98] [cursor=pointer]:\n                - /url: NZDF/ExternalTenderDetails.htm?id=33864496\n            - cell \"2:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e99]\n            - cell \"New Zealand Defence Force\" [ref=e100]\n          - row \"33935206 12011 Moana Pool Heat Recovery System RFP 4:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00) Dunedin City Council\" [ref=e101]:\n            - cell \"33935206\" [ref=e102]:\n              - link \"33935206\" [ref=e103] [cursor=pointer]:\n                - /url: DCC/ExternalTenderDetails.htm?id=33935206\n            - cell \"12011\" [ref=e104]:\n              - link \"12011\" [ref=e105] [cursor=pointer]:\n                - /url: DCC/ExternalTenderDetails.htm?id=33935206\n            - cell \"Moana Pool Heat Recovery System\" [ref=e106]:\n              - link \"Moana Pool Heat Recovery System\" [ref=e107] [cursor=pointer]:\n                - /url: DCC/ExternalTenderDetails.htm?id=33935206\n            - cell \"RFP\" [ref=e108]:\n              - link \"RFP\" [ref=e109] [cursor=pointer]:\n                - /url: DCC/ExternalTenderDetails.htm?id=33935206\n            - cell \"4:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e110]\n            - cell \"Dunedin City Council\" [ref=e111]\n          - row \"33997733 26-010 26 010 RLC Traffic Signs & Street Furniture 2026 RFT 5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00) Rotorua District Council\" [ref=e112]:\n            - cell \"33997733\" [ref=e113]:\n              - link \"33997733\" [ref=e114] [cursor=pointer]:\n                - /url: ROTDC/ExternalTenderDetails.htm?id=33997733\n            - cell \"26-010\" [ref=e115]:\n              - link \"26-010\" [ref=e116] [cursor=pointer]:\n                - /url: ROTDC/ExternalTenderDetails.htm?id=33997733\n            - cell \"26 010 RLC Traffic Signs & Street Furniture 2026\" [ref=e117]:\n              - link \"26 010 RLC Traffic Signs & Street Furniture 2026\" [ref=e118] [cursor=pointer]:\n                - /url: ROTDC/ExternalTenderDetails.htm?id=33997733\n            - cell \"RFT\" [ref=e119]:\n              - link \"RFT\" [ref=e120] [cursor=pointer]:\n                - /url: ROTDC/ExternalTenderDetails.htm?id=33997733\n            - cell \"5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e121]\n            - cell \"Rotorua District Council\" [ref=e122]\n          - row \"34095400 C-25-169 3 Waters Operations & Maintenance Contract 2027 - Notice of Postponement NOI 5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00) Queenstown-Lakes District Council\" [ref=e123]:\n            - cell \"34095400\" [ref=e124]:\n              - link \"34095400\" [ref=e125] [cursor=pointer]:\n                - /url: QLDC/ExternalTenderDetails.htm?id=34095400\n            - cell \"C-25-169\" [ref=e126]:\n              - link \"C-25-169\" [ref=e127] [cursor=pointer]:\n                - /url: QLDC/ExternalTenderDetails.htm?id=34095400\n            - cell \"3 Waters Operations & Maintenance Contract 2027 - Notice of Postponement\" [ref=e128]:\n              - link \"3 Waters Operations & Maintenance Contract 2027 - Notice of Postponement\" [ref=e129] [cursor=pointer]:\n                - /url: QLDC/ExternalTenderDetails.htm?id=34095400\n            - cell \"NOI\" [ref=e130]:\n              - link \"NOI\" [ref=e131] [cursor=pointer]:\n                - /url: QLDC/ExternalTenderDetails.htm?id=34095400\n            - cell \"5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e132]\n            - cell \"Queenstown-Lakes District Council\" [ref=e133]\n          - row \"34095100 HCCANMAY2026PSP Advance Notice of Procurement-HCC Professional Services Panel NOI 5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00) Hutt City Council\" [ref=e134]:\n            - cell \"34095100\" [ref=e135]:\n              - link \"34095100\" [ref=e136] [cursor=pointer]:\n                - /url: HCC/ExternalTenderDetails.htm?id=34095100\n            - cell \"HCCANMAY2026PSP\" [ref=e137]:\n              - link \"HCCANMAY2026PSP\" [ref=e138] [cursor=pointer]:\n                - /url: HCC/ExternalTenderDetails.htm?id=34095100\n            - cell \"Advance Notice of Procurement-HCC Professional Services Panel\" [ref=e139]:\n              - link \"Advance Notice of Procurement-HCC Professional Services Panel\" [ref=e140] [cursor=pointer]:\n                - /url: HCC/ExternalTenderDetails.htm?id=34095100\n            - cell \"NOI\" [ref=e141]:\n              - link \"NOI\" [ref=e142] [cursor=pointer]:\n                - /url: HCC/ExternalTenderDetails.htm?id=34095100\n            - cell \"5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e143]\n            - cell \"Hutt City Council\" [ref=e144]\n          - row \"34095270 HCCANMAY2026SMO Advance Notice of Procurement-HCC Saturday Market Operator NOI 5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00) Hutt City Council\" [ref=e145]:\n            - cell \"34095270\" [ref=e146]:\n              - link \"34095270\" [ref=e147] [cursor=pointer]:\n                - /url: HCC/ExternalTenderDetails.htm?id=34095270\n            - cell \"HCCANMAY2026SMO\" [ref=e148]:\n              - link \"HCCANMAY2026SMO\" [ref=e149] [cursor=pointer]:\n                - /url: HCC/ExternalTenderDetails.htm?id=34095270\n            - cell \"Advance Notice of Procurement-HCC Saturday Market Operator\" [ref=e150]:\n              - link \"Advance Notice of Procurement-HCC Saturday Market Operator\" [ref=e151] [cursor=pointer]:\n                - /url: HCC/ExternalTenderDetails.htm?id=34095270\n            - cell \"NOI\" [ref=e152]:\n              - link \"NOI\" [ref=e153] [cursor=pointer]:\n                - /url: HCC/ExternalTenderDetails.htm?id=34095270\n            - cell \"5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e154]\n            - cell \"Hutt City Council\" [ref=e155]\n          - row \"33929641 ACT-0102882 Kiribati Health Sector Support Programme NOI 5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Foreign Affairs and Trade\" [ref=e156]:\n            - cell \"33929641\" [ref=e157]:\n              - link \"33929641\" [ref=e158] [cursor=pointer]:\n                - /url: MFAT/ExternalTenderDetails.htm?id=33929641\n            - cell \"ACT-0102882\" [ref=e159]:\n              - link \"ACT-0102882\" [ref=e160] [cursor=pointer]:\n                - /url: MFAT/ExternalTenderDetails.htm?id=33929641\n            - cell \"Kiribati Health Sector Support Programme\" [ref=e161]:\n              - link \"Kiribati Health Sector Support Programme\" [ref=e162] [cursor=pointer]:\n                - /url: MFAT/ExternalTenderDetails.htm?id=33929641\n            - cell \"NOI\" [ref=e163]:\n              - link \"NOI\" [ref=e164] [cursor=pointer]:\n                - /url: MFAT/ExternalTenderDetails.htm?id=33929641\n            - cell \"5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e165]\n            - cell \"Ministry of Foreign Affairs and Trade\" [ref=e166]\n          - row \"34050764 26-46 Taruheru Cycle Walkway - Professional Services Phase 1 ROI 5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00) Gisborne District Council\" [ref=e167]:\n            - cell \"34050764\" [ref=e168]:\n              - link \"34050764\" [ref=e169] [cursor=pointer]:\n                - /url: GDC/ExternalTenderDetails.htm?id=34050764\n            - cell \"26-46\" [ref=e170]:\n              - link \"26-46\" [ref=e171] [cursor=pointer]:\n                - /url: GDC/ExternalTenderDetails.htm?id=34050764\n            - cell \"Taruheru Cycle Walkway - Professional Services Phase 1\" [ref=e172]:\n              - link \"Taruheru Cycle Walkway - Professional Services Phase 1\" [ref=e173] [cursor=pointer]:\n                - /url: GDC/ExternalTenderDetails.htm?id=34050764\n            - cell \"ROI\" [ref=e174]:\n              - link \"ROI\" [ref=e175] [cursor=pointer]:\n                - /url: GDC/ExternalTenderDetails.htm?id=34050764\n            - cell \"5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e176]\n            - cell \"Gisborne District Council\" [ref=e177]\n          - row \"33995726 [None] Tauhara College - Boundary Fencing project RFT 5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Education - School Infrastructure\" [ref=e178]:\n            - cell \"33995726\" [ref=e179]:\n              - link \"33995726\" [ref=e180] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=33995726\n            - cell \"[None]\" [ref=e181]:\n              - link \"[None]\" [ref=e182] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=33995726\n            - cell \"Tauhara College - Boundary Fencing project\" [ref=e183]:\n              - link \"Tauhara College - Boundary Fencing project\" [ref=e184] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=33995726\n            - cell \"RFT\" [ref=e185]:\n              - link \"RFT\" [ref=e186] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=33995726\n            - cell \"5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e187]\n            - cell \"Ministry of Education - School Infrastructure\" [ref=e188]\n          - row \"34048938 [None] Commercial Cleaning Services RFI 12:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Social Development\" [ref=e189]:\n            - cell \"34048938\" [ref=e190]:\n              - link \"34048938\" [ref=e191] [cursor=pointer]:\n                - /url: MSD/ExternalTenderDetails.htm?id=34048938\n            - cell \"[None]\" [ref=e192]:\n              - link \"[None]\" [ref=e193] [cursor=pointer]:\n                - /url: MSD/ExternalTenderDetails.htm?id=34048938\n            - cell \"Commercial Cleaning Services\" [ref=e194]:\n              - link \"Commercial Cleaning Services\" [ref=e195] [cursor=pointer]:\n                - /url: MSD/ExternalTenderDetails.htm?id=34048938\n            - cell \"RFI\" [ref=e196]:\n              - link \"RFI\" [ref=e197] [cursor=pointer]:\n                - /url: MSD/ExternalTenderDetails.htm?id=34048938\n            - cell \"12:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e198]\n            - cell \"Ministry of Social Development\" [ref=e199]\n          - 'row \"33959843 7-25-142 Hokianga Ferry Ramp Repairs: Rawene and the Narrows RFT 3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Far North District Council\" [ref=e200]':\n            - cell \"33959843\" [ref=e201]:\n              - link \"33959843\" [ref=e202] [cursor=pointer]:\n                - /url: fndc/ExternalTenderDetails.htm?id=33959843\n            - cell \"7-25-142\" [ref=e203]:\n              - link \"7-25-142\" [ref=e204] [cursor=pointer]:\n                - /url: fndc/ExternalTenderDetails.htm?id=33959843\n            - 'cell \"Hokianga Ferry Ramp Repairs: Rawene and the Narrows\" [ref=e205]':\n              - 'link \"Hokianga Ferry Ramp Repairs: Rawene and the Narrows\" [ref=e206] [cursor=pointer]':\n                - /url: fndc/ExternalTenderDetails.htm?id=33959843\n            - cell \"RFT\" [ref=e207]:\n              - link \"RFT\" [ref=e208] [cursor=pointer]:\n                - /url: fndc/ExternalTenderDetails.htm?id=33959843\n            - cell \"3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e209]\n            - cell \"Far North District Council\" [ref=e210]\n          - row \"33809999 [None] Market Operation Service Providers (MOSP) Services – 2027 Procurement NOI 3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Electricity Authority\" [ref=e211]:\n            - cell \"33809999\" [ref=e212]:\n              - link \"33809999\" [ref=e213] [cursor=pointer]:\n                - /url: EA/ExternalTenderDetails.htm?id=33809999\n            - cell \"[None]\" [ref=e214]:\n              - link \"[None]\" [ref=e215] [cursor=pointer]:\n                - /url: EA/ExternalTenderDetails.htm?id=33809999\n            - cell \"Market Operation Service Providers (MOSP) Services – 2027 Procurement\" [ref=e216]:\n              - link \"Market Operation Service Providers (MOSP) Services – 2027 Procurement\" [ref=e217] [cursor=pointer]:\n                - /url: EA/ExternalTenderDetails.htm?id=33809999\n            - cell \"NOI\" [ref=e218]:\n              - link \"NOI\" [ref=e219] [cursor=pointer]:\n                - /url: EA/ExternalTenderDetails.htm?id=33809999\n            - cell \"3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e220]\n            - cell \"Electricity Authority\" [ref=e221]\n          - row \"34062593 TN/26/29 Taupo Police Base Mechanical Upgrade RFT 3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) New Zealand Police\" [ref=e222]:\n            - cell \"34062593\" [ref=e223]:\n              - link \"34062593\" [ref=e224] [cursor=pointer]:\n                - /url: NZP/ExternalTenderDetails.htm?id=34062593\n            - cell \"TN/26/29\" [ref=e225]:\n              - link \"TN/26/29\" [ref=e226] [cursor=pointer]:\n                - /url: NZP/ExternalTenderDetails.htm?id=34062593\n            - cell \"Taupo Police Base Mechanical Upgrade\" [ref=e227]:\n              - link \"Taupo Police Base Mechanical Upgrade\" [ref=e228] [cursor=pointer]:\n                - /url: NZP/ExternalTenderDetails.htm?id=34062593\n            - cell \"RFT\" [ref=e229]:\n              - link \"RFT\" [ref=e230] [cursor=pointer]:\n                - /url: NZP/ExternalTenderDetails.htm?id=34062593\n            - cell \"3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e231]\n            - cell \"New Zealand Police\" [ref=e232]\n          - row \"33995353 ODC C4/442 ODC Cont 276 Corporate Office, Chambers &Facilities Cleaning & Hygiene Services 2026 RFT 4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Opotiki District Council\" [ref=e233]:\n            - cell \"33995353\" [ref=e234]:\n              - link \"33995353\" [ref=e235] [cursor=pointer]:\n                - /url: ODC/ExternalTenderDetails.htm?id=33995353\n            - cell \"ODC C4/442\" [ref=e236]:\n              - link \"ODC C4/442\" [ref=e237] [cursor=pointer]:\n                - /url: ODC/ExternalTenderDetails.htm?id=33995353\n            - cell \"ODC Cont 276 Corporate Office, Chambers &Facilities Cleaning & Hygiene Services 2026\" [ref=e238]:\n              - link \"ODC Cont 276 Corporate Office, Chambers &Facilities Cleaning & Hygiene Services 2026\" [ref=e239] [cursor=pointer]:\n                - /url: ODC/ExternalTenderDetails.htm?id=33995353\n            - cell \"RFT\" [ref=e240]:\n              - link \"RFT\" [ref=e241] [cursor=pointer]:\n                - /url: ODC/ExternalTenderDetails.htm?id=33995353\n            - cell \"4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e242]\n            - cell \"Opotiki District Council\" [ref=e243]\n          - row \"33776591 26-338-CPT Rosedale Upgrade Programme Solids Stream Upgrade (THP) ROI 4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) WaterCare Services Ltd\" [ref=e244]:\n            - cell \"33776591\" [ref=e245]:\n              - link \"33776591\" [ref=e246] [cursor=pointer]:\n                - /url: WSL/ExternalTenderDetails.htm?id=33776591\n            - cell \"26-338-CPT\" [ref=e247]:\n              - link \"26-338-CPT\" [ref=e248] [cursor=pointer]:\n                - /url: WSL/ExternalTenderDetails.htm?id=33776591\n            - cell \"Rosedale Upgrade Programme Solids Stream Upgrade (THP)\" [ref=e249]:\n              - link \"Rosedale Upgrade Programme Solids Stream Upgrade (THP)\" [ref=e250] [cursor=pointer]:\n                - /url: WSL/ExternalTenderDetails.htm?id=33776591\n            - cell \"ROI\" [ref=e251]:\n              - link \"ROI\" [ref=e252] [cursor=pointer]:\n                - /url: WSL/ExternalTenderDetails.htm?id=33776591\n            - cell \"4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e253]\n            - cell \"WaterCare Services Ltd\" [ref=e254]\n          - row \"34042583 RPCH RPCH Rivers Biosecurity Coast and Harbours Panel ROI 4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Environment Canterbury\" [ref=e255]:\n            - cell \"34042583\" [ref=e256]:\n              - link \"34042583\" [ref=e257] [cursor=pointer]:\n                - /url: CRC/ExternalTenderDetails.htm?id=34042583\n            - cell \"RPCH\" [ref=e258]:\n              - link \"RPCH\" [ref=e259] [cursor=pointer]:\n                - /url: CRC/ExternalTenderDetails.htm?id=34042583\n            - cell \"RPCH Rivers Biosecurity Coast and Harbours Panel\" [ref=e260]:\n              - link \"RPCH Rivers Biosecurity Coast and Harbours Panel\" [ref=e261] [cursor=pointer]:\n                - /url: CRC/ExternalTenderDetails.htm?id=34042583\n            - cell \"ROI\" [ref=e262]:\n              - link \"ROI\" [ref=e263] [cursor=pointer]:\n                - /url: CRC/ExternalTenderDetails.htm?id=34042583\n            - cell \"4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e264]\n            - cell \"Environment Canterbury\" [ref=e265]\n          - 'row \"33991836 [None] Tuku Rauemi: regional partnerships ROI 4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Creative New Zealand\" [ref=e266]':\n            - cell \"33991836\" [ref=e267]:\n              - link \"33991836\" [ref=e268] [cursor=pointer]:\n                - /url: CRNZ/ExternalTenderDetails.htm?id=33991836\n            - cell \"[None]\" [ref=e269]:\n              - link \"[None]\" [ref=e270] [cursor=pointer]:\n                - /url: CRNZ/ExternalTenderDetails.htm?id=33991836\n            - 'cell \"Tuku Rauemi: regional partnerships\" [ref=e271]':\n              - 'link \"Tuku Rauemi: regional partnerships\" [ref=e272] [cursor=pointer]':\n                - /url: CRNZ/ExternalTenderDetails.htm?id=33991836\n            - cell \"ROI\" [ref=e273]:\n              - link \"ROI\" [ref=e274] [cursor=pointer]:\n                - /url: CRNZ/ExternalTenderDetails.htm?id=33991836\n            - cell \"4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e275]\n            - cell \"Creative New Zealand\" [ref=e276]\n          - 'row \"33952849 230204 (3115) Te Wharekura o Te Rau Aroha – #230204 C: DQLS upgrade RFQ 5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Education - School Infrastructure\" [ref=e277]':\n            - cell \"33952849\" [ref=e278]:\n              - link \"33952849\" [ref=e279] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=33952849\n            - cell \"230204\" [ref=e280]:\n              - link \"230204\" [ref=e281] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=33952849\n            - 'cell \"(3115) Te Wharekura o Te Rau Aroha – #230204 C: DQLS upgrade\" [ref=e282]':\n              - 'link \"(3115) Te Wharekura o Te Rau Aroha – #230204 C: DQLS upgrade\" [ref=e283] [cursor=pointer]':\n                - /url: MEDUR/ExternalTenderDetails.htm?id=33952849\n            - cell \"RFQ\" [ref=e284]:\n              - link \"RFQ\" [ref=e285] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=33952849\n            - cell \"5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e286]\n            - cell \"Ministry of Education - School Infrastructure\" [ref=e287]\n          - row \"33849790 WPG-0105447 Community Policing Support Timor-Leste NOI 5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Foreign Affairs and Trade\" [ref=e288]:\n            - cell \"33849790\" [ref=e289]:\n              - link \"33849790\" [ref=e290] [cursor=pointer]:\n                - /url: MFAT/ExternalTenderDetails.htm?id=33849790\n            - cell \"WPG-0105447\" [ref=e291]:\n              - link \"WPG-0105447\" [ref=e292] [cursor=pointer]:\n                - /url: MFAT/ExternalTenderDetails.htm?id=33849790\n            - cell \"Community Policing Support Timor-Leste\" [ref=e293]:\n              - link \"Community Policing Support Timor-Leste\" [ref=e294] [cursor=pointer]:\n                - /url: MFAT/ExternalTenderDetails.htm?id=33849790\n            - cell \"NOI\" [ref=e295]:\n              - link \"NOI\" [ref=e296] [cursor=pointer]:\n                - /url: MFAT/ExternalTenderDetails.htm?id=33849790\n            - cell \"5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e297]\n            - cell \"Ministry of Foreign Affairs and Trade\" [ref=e298]\n          - row \"34011584 Rawhitiroa School Main Building Contractor for Alterations & refurbishment for AMS Spaces and LSC Space at Rawhitiroa School, Taranaki RFT 5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Education - School Infrastructure\" [ref=e299]:\n            - cell \"34011584\" [ref=e300]:\n              - link \"34011584\" [ref=e301] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34011584\n            - cell \"Rawhitiroa School\" [ref=e302]:\n              - link \"Rawhitiroa School\" [ref=e303] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34011584\n            - cell \"Main Building Contractor for Alterations & refurbishment for AMS Spaces and LSC Space at Rawhitiroa School, Taranaki\" [ref=e304]:\n              - link \"Main Building Contractor for Alterations & refurbishment for AMS Spaces and LSC Space at Rawhitiroa School, Taranaki\" [ref=e305] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34011584\n            - cell \"RFT\" [ref=e306]:\n              - link \"RFT\" [ref=e307] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34011584\n            - cell \"5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e308]\n            - cell \"Ministry of Education - School Infrastructure\" [ref=e309]\n          - row \"34011114 [None] Main Contractor for Block 1 Roofing Replacement at Glendene School RFT 5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Education - School Infrastructure\" [ref=e310]:\n            - cell \"34011114\" [ref=e311]:\n              - link \"34011114\" [ref=e312] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34011114\n            - cell \"[None]\" [ref=e313]:\n              - link \"[None]\" [ref=e314] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34011114\n            - cell \"Main Contractor for Block 1 Roofing Replacement at Glendene School\" [ref=e315]:\n              - link \"Main Contractor for Block 1 Roofing Replacement at Glendene School\" [ref=e316] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34011114\n            - cell \"RFT\" [ref=e317]:\n              - link \"RFT\" [ref=e318] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34011114\n            - cell \"5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e319]\n            - cell \"Ministry of Education - School Infrastructure\" [ref=e320]\n          - row \"34012517 [None] Main Contractor for Design, Supply and Install of Shade Structure at Pasadena Intermediate School RFT 5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Education - School Infrastructure\" [ref=e321]:\n            - cell \"34012517\" [ref=e322]:\n              - link \"34012517\" [ref=e323] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34012517\n            - cell \"[None]\" [ref=e324]:\n              - link \"[None]\" [ref=e325] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34012517\n            - cell \"Main Contractor for Design, Supply and Install of Shade Structure at Pasadena Intermediate School\" [ref=e326]:\n              - link \"Main Contractor for Design, Supply and Install of Shade Structure at Pasadena Intermediate School\" [ref=e327] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34012517\n            - cell \"RFT\" [ref=e328]:\n              - link \"RFT\" [ref=e329] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34012517\n            - cell \"5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e330]\n            - cell \"Ministry of Education - School Infrastructure\" [ref=e331]\n          - row \"33895043 Pro_4573 Mission Command Training Facility at Linton Military Camp NOI 5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) New Zealand Defence Force\" [ref=e332]:\n            - cell \"33895043\" [ref=e333]:\n              - link \"33895043\" [ref=e334] [cursor=pointer]:\n                - /url: NZDF/ExternalTenderDetails.htm?id=33895043\n            - cell \"Pro_4573\" [ref=e335]:\n              - link \"Pro_4573\" [ref=e336] [cursor=pointer]:\n                - /url: NZDF/ExternalTenderDetails.htm?id=33895043\n            - cell \"Mission Command Training Facility at Linton Military Camp\" [ref=e337]:\n              - link \"Mission Command Training Facility at Linton Military Camp\" [ref=e338] [cursor=pointer]:\n                - /url: NZDF/ExternalTenderDetails.htm?id=33895043\n            - cell \"NOI\" [ref=e339]:\n              - link \"NOI\" [ref=e340] [cursor=pointer]:\n                - /url: NZDF/ExternalTenderDetails.htm?id=33895043\n            - cell \"5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e341]\n            - cell \"New Zealand Defence Force\" [ref=e342]\n          - row \"34108525 WS99581778 PLD for Support Staff working with Neurodiverse Students RFI 5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Education\" [ref=e343]:\n            - cell \"34108525\" [ref=e344]:\n              - link \"34108525\" [ref=e345] [cursor=pointer]:\n                - /url: MEDU/ExternalTenderDetails.htm?id=34108525\n            - cell \"WS99581778\" [ref=e346]:\n              - link \"WS99581778\" [ref=e347] [cursor=pointer]:\n                - /url: MEDU/ExternalTenderDetails.htm?id=34108525\n            - cell \"PLD for Support Staff working with Neurodiverse Students\" [ref=e348]:\n              - link \"PLD for Support Staff working with Neurodiverse Students\" [ref=e349] [cursor=pointer]:\n                - /url: MEDU/ExternalTenderDetails.htm?id=34108525\n            - cell \"RFI\" [ref=e350]:\n              - link \"RFI\" [ref=e351] [cursor=pointer]:\n                - /url: MEDU/ExternalTenderDetails.htm?id=34108525\n            - cell \"5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e352]\n            - cell \"Ministry of Education\" [ref=e353]\n          - row \"34039527 [None] Registration of Interest (ROI) for an HVAC Contractor to replace and renew HVAC at Westlake Girls High School ROI 5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00) Ministry of Education - School Infrastructure\" [ref=e354]:\n            - cell \"34039527\" [ref=e355]:\n              - link \"34039527\" [ref=e356] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34039527\n            - cell \"[None]\" [ref=e357]:\n              - link \"[None]\" [ref=e358] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34039527\n            - cell \"Registration of Interest (ROI) for an HVAC Contractor to replace and renew HVAC at Westlake Girls High School\" [ref=e359]:\n              - link \"Registration of Interest (ROI) for an HVAC Contractor to replace and renew HVAC at Westlake Girls High School\" [ref=e360] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34039527\n            - cell \"ROI\" [ref=e361]:\n              - link \"ROI\" [ref=e362] [cursor=pointer]:\n                - /url: MEDUR/ExternalTenderDetails.htm?id=34039527\n            - cell \"5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\" [ref=e363]\n            - cell \"Ministry of Education - School Infrastructure\" [ref=e364]\n          - row \"1 - 25 of 269\" [ref=e365]:\n            - cell \"1 - 25 of 269\" [ref=e366]:\n              - generic [ref=e367]:\n                - img [ref=e368]\n                - img [ref=e369]\n                - text: 1 - 25 of 269\n                - link [ref=e370] [cursor=pointer]:\n                  - /url: ExternalIndex.htm?page=2&orderBy=date\n                  - img [ref=e371]\n                - link [ref=e372] [cursor=pointer]:\n                  - /url: ExternalIndex.htm?page=11&orderBy=date\n                  - img [ref=e373]\n  - generic [ref=e374]:\n    - generic [ref=e375]:\n      - link \"Ministry of Business, Innovation and Employment\" [ref=e376] [cursor=pointer]:\n        - /url: http://www.mbie.govt.nz\n        - img \"Ministry of Business, Innovation and Employment\" [ref=e377]\n      - link \"New Zealand Government Te Kāwanatanga\" [ref=e378] [cursor=pointer]:\n        - /url: https://www.govt.nz\n        - img \"New Zealand Government Te Kāwanatanga\" [ref=e379]\n    - generic [ref=e380]:\n      - link \"Accessibility\" [ref=e382] [cursor=pointer]:\n        - /url: https://www.mbie.govt.nz/accessibility/\n      - link \"Terms and conditions\" [ref=e384] [cursor=pointer]:\n        - /url: /GetsTermsAndConditions.htm\n      - link \"New Zealand legislation\" [ref=e386] [cursor=pointer]:\n        - /url: http://www.legislation.govt.nz\n      - paragraph [ref=e388]: Crown copyright © 2024\n```",
+    "navigation_result": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:51033/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:51033/page.safe.html\n- Page Title: GETS - Government Electronic Tender Service | Current tenders\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T20-14-19-317Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T20-14-16-003Z.log#L1"
+  },
+  "visible_text": "Create account Purchaser log in  Supplier log in\nSearch Tenders\nSearch\nAdvanced Search\nYou are not logged in.\nONLINE SERVICES\nCreate account\nFuture opportunities\nCurrent tenders\nLate tenders\nClosed tenders\nCompleted tenders\nReports\nPOLICIES & INFORMATION\nTerms and conditions\nPrivacy statement\nSupplier help\nContact us\n   Current tenders\nWelcome to the New Zealand Government Electronic Tenders Service (GETS)\n\nGETS is a free service designed to promote open, fair competition for New Zealand Government contract opportunities. More...\n\nCurrent tenders\nRFx ID\tReference #\tTitle\tTender Type\tClose Date   \tOrganisation\n\n33864496\t33864496\tUncrewed Systems and Counter Uncrewed Systems (UxS/C-UxS)\tRFI\t2:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\tNew Zealand Defence Force\n33935206\t12011\tMoana Pool Heat Recovery System\tRFP\t4:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\tDunedin City Council\n33997733\t26-010\t26 010 RLC Traffic Signs & Street Furniture 2026\tRFT\t5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\tRotorua District Council\n34095400\tC-25-169\t3 Waters Operations & Maintenance Contract 2027 - Notice of Postponement\tNOI\t5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\tQueenstown-Lakes District Council\n34095100\tHCCANMAY2026PSP\tAdvance Notice of Procurement-HCC Professional Services Panel\tNOI\t5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\tHutt City Council\n34095270\tHCCANMAY2026SMO\tAdvance Notice of Procurement-HCC Saturday Market Operator\tNOI\t5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\tHutt City Council\n33929641\tACT-0102882\tKiribati Health Sector Support Programme\tNOI\t5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Foreign Affairs and Trade\n34050764\t26-46\tTaruheru Cycle Walkway - Professional Services Phase 1\tROI\t5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\tGisborne District Council\n33995726\t[None]\tTauhara College - Boundary Fencing project\tRFT\t5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Education - School Infrastructure\n34048938\t[None]\tCommercial Cleaning Services\tRFI\t12:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Social Development\n33959843\t7-25-142\tHokianga Ferry Ramp Repairs: Rawene and the Narrows\tRFT\t3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tFar North District Council\n33809999\t[None]\tMarket Operation Service Providers (MOSP) Services – 2027 Procurement\tNOI\t3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tElectricity Authority\n34062593\tTN/26/29\tTaupo Police Base Mechanical Upgrade\tRFT\t3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tNew Zealand Police\n33995353\tODC C4/442\tODC Cont 276 Corporate Office, Chambers &Facilities Cleaning & Hygiene Services 2026\tRFT\t4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tOpotiki District Council\n33776591\t26-338-CPT\tRosedale Upgrade Programme Solids Stream Upgrade (THP)\tROI\t4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tWaterCare Services Ltd\n34042583\tRPCH\tRPCH Rivers Biosecurity Coast and Harbours Panel\tROI\t4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tEnvironment Canterbury\n33991836\t[None]\tTuku Rauemi: regional partnerships\tROI\t4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tCreative New Zealand\n33952849\t230204\t(3115) Te Wharekura o Te Rau Aroha – #230204 C: DQLS upgrade\tRFQ\t5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Education - School Infrastructure\n33849790\tWPG-0105447\tCommunity Policing Support Timor-Leste\tNOI\t5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Foreign Affairs and Trade\n34011584\tRawhitiroa School\tMain Building Contractor for Alterations & refurbishment for AMS Spaces and LSC Space at Rawhitiroa School, Taranaki\tRFT\t5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Education - School Infrastructure\n34011114\t[None]\tMain Contractor for Block 1 Roofing Replacement at Glendene School\tRFT\t5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Education - School Infrastructure\n34012517\t[None]\tMain Contractor for Design, Supply and Install of Shade Structure at Pasadena Intermediate School\tRFT\t5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Education - School Infrastructure\n33895043\tPro_4573\tMission Command Training Facility at Linton Military Camp\tNOI\t5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tNew Zealand Defence Force\n34108525\tWS99581778\tPLD for Support Staff working with Neurodiverse Students\tRFI\t5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Education\n34039527\t[None]\tRegistration of Interest (ROI) for an HVAC Contractor to replace and renew HVAC at Westlake Girls High School\tROI\t5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)\tMinistry of Education - School Infrastructure\n  1 - 25 of 269  \n \nAccessibility\nTerms and conditions\nNew Zealand legislation\n\nCrown copyright © 2024",
+  "ax_tree_excerpt": "{\n  \"nodes\": [\n    {\n      \"nodeId\": \"2\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"RootWebArea\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 144\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"GETS - Government Electronic Tender Service | Current tenders\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"GETS - Government Electronic Tender Service | Current tenders\"\n            },\n            \"nativeSource\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"focused\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"busy\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": 1\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/PhD/myArticlesAndPapers/my-papers/5-WISE/wade-bench/data/raw_snapshots/government/gets_001_listing/page.html\"\n          }\n        }\n      ],\n      \"childIds\": [\n        \"13\"\n      ],\n      \"backendDOMNodeId\": 2,\n      \"frameId\": \"88354E552B2DC7D027F25679975DC744\"\n    },\n    {\n      \"nodeId\": \"13\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"2\",\n      \"childIds\": [\n        \"48\"\n      ],\n      \"backendDOMNodeId\": 13\n    },\n    {\n      \"nodeId\": \"48\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"13\",\n      \"childIds\": [\n        \"49\"\n      ],\n      \"backendDOMNodeId\": 48\n    },\n    {\n      \"nodeId\": \"49\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"48\",\n      \"childIds\": [\n        \"50\",\n        \"87\",\n        \"91\",\n        \"488\"\n      ],\n      \"backendDOMNodeId\": 49\n    },\n    {\n      \"nodeId\": \"50\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"49\",\n      \"childIds\": [\n        \"51\",\n        \"55\",\n        \"56\"\n      ],\n      \"backendDOMNodeId\": 50\n    },\n    {\n      \"nodeId\": \"87\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"49\",\n      \"childIds\": [\n        \"88\",\n        \"89\",\n        \"90\"\n      ],\n      \"backendDOMNodeId\": 87\n    },\n    {\n      \"nodeId\": \"91\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"49\",\n      \"childIds\": [\n        \"92\",\n        \"487\"\n      ],\n      \"backendDOMNodeId\": 91\n    },\n    {\n      \"nodeId\": \"92\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"91\",\n      \"childIds\": [\n        \"93\",\n        \"130\"\n      ],\n      \"backendDOMNodeId\": 92\n    },\n    {\n      \"nodeId\": \"487\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"91\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 487\n    },\n    {\n      \"nodeId\": \"488\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"49\",\n      \"childIds\": [\n        \"489\",\n        \"498\"\n      ],\n      \"backendDOMNodeId\": 488\n    },\n    {\n      \"nodeId\": \"51\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"link\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 110\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"GETS.GOVT.NZ\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"GETS.GOVT.NZ\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/ExternalIndex.htm\"\n          }\n        }\n      ],\n      \"parentId\": \"50\",\n      \"childIds\": [\n        \"52\"\n      ],\n      \"backendDOMNodeId\": 51\n    },\n    {\n      \"nodeId\": \"55\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"50\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 55\n    },\n    {\n      \"nodeId\": \"56\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"50\",\n      \"childIds\": [\n        \"57\",\n        \"66\"\n      ],\n      \"backendDOMNodeId\": 56\n    },\n    {\n      \"nodeId\": \"88\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"87\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 88\n    },\n    {\n      \"nodeId\": \"89\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"87\",\n      \"childIds\": [\n        \"514\"\n      ],\n      \"backendDOMNodeId\": 89\n    },\n    {\n      \"nodeId\": \"90\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"87\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 90\n    },\n    {\n      \"nodeId\": \"93\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"92\",\n      \"childIds\": [\n        \"94\"\n      ],\n      \"backendDOMNodeId\": 93\n    },\n    {\n      \"nodeId\": \"94\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"93\",\n      \"childIds\": [\n        \"95\",\n        \"96\",\n        \"114\",\n        \"124\"\n      ],\n      \"backendDOMNodeId\": 94\n    },\n    {\n      \"nodeId\": \"95\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"94\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 95\n    },\n    {\n      \"nodeId\": \"96\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"94\",\n      \"childIds\": [\n        \"97\"\n      ],\n      \"backendDOMNodeId\": 96\n    },\n    {\n      \"nodeId\": \"97\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"96\",\n      \"childIds\": [\n        \"98\"\n      ],\n      \"backendDOMNodeId\": 97\n    },\n    {\n      \"nodeId\": \"98\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"97\",\n      \"childIds\": [\n        \"99\",\n        \"100\",\n        \"102\",\n        \"104\",\n        \"106\",\n        \"108\",\n        \"110\",\n        \"112\"\n      ],\n      \"backendDOMNodeId\": 98\n    },\n    {\n      \"nodeId\": \"114\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"94\",\n      \"childIds\": [\n        \"115\",\n        \"116\",\n        \"118\",\n        \"120\",\n        \"122\"\n      ],\n      \"backendDOMNodeId\": 114\n    },\n    {\n      \"nodeId\": \"124\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"94\",\n      \"childIds\": [\n        \"528\",\n        \"125\",\n        \"529\",\n        \"128\"\n      ],\n      \"backendDOMNodeId\": 124\n    },\n    {\n      \"nodeId\": \"130\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"92\",\n      \"childIds\": [\n        \"131\"\n      ],\n      \"backendDOMNodeId\": 130\n    },\n    {\n      \"nodeId\": \"489\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"488\",\n      \"childIds\": [\n        \"490\",\n        \"494\"\n      ],\n      \"backendDOMNodeId\": 489\n    },\n    {\n      \"nodeId\": \"498\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"488\",\n      \"childIds\": [\n        \"499\",\n        \"501\",\n        \"503\",\n        \"505\",\n        \"507\"\n      ],\n      \"backendDOMNodeId\": 498\n    },\n    {\n      \"nodeId\": \"499\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"498\",\n      \"childIds\": [\n        \"500\"\n      ],\n      \"backendDOMNodeId\": 499\n    },\n    {\n      \"nodeId\": \"501\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"498\",\n      \"childIds\": [\n        \"502\"\n      ],\n      \"backendDOMNodeId\": 501\n    },\n    {\n      \"nodeId\": \"503\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"ar\n<!-- TRUNCATED -->",
+  "metadata_excerpt": "{\n  \"snapshot_id\": \"gets_001_listing\",\n  \"task_id\": \"WBV1_GOV_GETS_001_LISTING\",\n  \"url\": \"https://www.gets.govt.nz/\",\n  \"page_type\": \"listing\",\n  \"status\": \"pending\",\n  \"website_id\": \"gets_001\",\n  \"captured_at\": \"2026-05-28T02:00:00.000Z\",\n  \"capture_tool\": \"playwright-stealth\",\n  \"browser\": \"chromium\",\n  \"initial_url\": \"https://www.gets.govt.nz/\",\n  \"final_url\": \"https://www.gets.govt.nz/\",\n  \"capture_status\": \"captured\",\n  \"html_size\": 48124,\n  \"text_size\": 0,\n  \"schema_id\": \"tender_notice_v1\"\n}\n",
+  "html_signals": {
+    "title": "GETS - Government Electronic Tender Service | Current tenders",
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Online Services"
+      },
+      {
+        "tag": "h2",
+        "text": "Policies & Information"
+      },
+      {
+        "tag": "h1",
+        "text": "Welcome to the New Zealand Government Electronic Tenders Service (GETS)"
+      },
+      {
+        "tag": "h1",
+        "text": "Current tenders"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "/ExternalIndex.htm"
+      },
+      {
+        "text": "Create account",
+        "href": "/RegisterUser.htm"
+      },
+      {
+        "text": "Purchaser log in",
+        "href": "/main.html"
+      },
+      {
+        "text": "Supplier log in",
+        "href": "TendererLogin.auth?referURL=ExternalIndex.htm"
+      },
+      {
+        "text": "Advanced Search",
+        "href": "/ExternalAdvancedSearching.htm"
+      },
+      {
+        "text": "Create account",
+        "href": "/RegisterUser.htm"
+      },
+      {
+        "text": "Future opportunities",
+        "href": "/FutureProcurementOpportunitiesIndex.htm"
+      },
+      {
+        "text": "Current tenders",
+        "href": "/ExternalIndex.htm"
+      },
+      {
+        "text": "Late tenders",
+        "href": "/ExternalLateTenderList.htm"
+      },
+      {
+        "text": "Closed tenders",
+        "href": "/ExternalClosedTenderList.htm"
+      },
+      {
+        "text": "Completed tenders",
+        "href": "/ExternalAwardedTenderList.htm"
+      },
+      {
+        "text": "Reports",
+        "href": "/ExternalReportList.htm"
+      },
+      {
+        "text": "Terms and conditions",
+        "href": "/GetsTermsAndConditions.htm"
+      },
+      {
+        "text": "Privacy statement",
+        "href": "/GetsTermsAndConditions.htm#privacy"
+      },
+      {
+        "text": "Supplier help",
+        "href": "/SupplierUserTenderHelp.htm"
+      },
+      {
+        "text": "Contact us",
+        "href": "/ContactUs.htm"
+      },
+      {
+        "text": "Current tenders",
+        "href": "/ExternalRSSFeed.htm"
+      },
+      {
+        "text": "More...",
+        "href": "#"
+      },
+      {
+        "text": "here",
+        "href": "https://www.procurement.govt.nz"
+      },
+      {
+        "text": "Reference #",
+        "href": "ExternalIndex.htm?orderBy=ref"
+      },
+      {
+        "text": "Title",
+        "href": "ExternalIndex.htm?orderBy=title"
+      },
+      {
+        "text": "Tender Type",
+        "href": "ExternalIndex.htm?orderBy=type"
+      },
+      {
+        "text": "Close Date",
+        "href": "ExternalIndex.htm?orderBy=date"
+      },
+      {
+        "text": "Organisation",
+        "href": "ExternalIndex.htm?orderBy=client"
+      },
+      {
+        "text": "33864496",
+        "href": "NZDF/ExternalTenderDetails.htm?id=33864496"
+      },
+      {
+        "text": "33864496",
+        "href": "NZDF/ExternalTenderDetails.htm?id=33864496"
+      },
+      {
+        "text": "Uncrewed Systems and Counter Uncrewed Systems (UxS/C-UxS)",
+        "href": "NZDF/ExternalTenderDetails.htm?id=33864496"
+      },
+      {
+        "text": "RFI",
+        "href": "NZDF/ExternalTenderDetails.htm?id=33864496"
+      },
+      {
+        "text": "33935206",
+        "href": "DCC/ExternalTenderDetails.htm?id=33935206"
+      },
+      {
+        "text": "12011",
+        "href": "DCC/ExternalTenderDetails.htm?id=33935206"
+      },
+      {
+        "text": "Moana Pool Heat Recovery System",
+        "href": "DCC/ExternalTenderDetails.htm?id=33935206"
+      },
+      {
+        "text": "RFP",
+        "href": "DCC/ExternalTenderDetails.htm?id=33935206"
+      },
+      {
+        "text": "33997733",
+        "href": "ROTDC/ExternalTenderDetails.htm?id=33997733"
+      },
+      {
+        "text": "26-010",
+        "href": "ROTDC/ExternalTenderDetails.htm?id=33997733"
+      },
+      {
+        "text": "26 010 RLC Traffic Signs & Street Furniture 2026",
+        "href": "ROTDC/ExternalTenderDetails.htm?id=33997733"
+      },
+      {
+        "text": "RFT",
+        "href": "ROTDC/ExternalTenderDetails.htm?id=33997733"
+      },
+      {
+        "text": "34095400",
+        "href": "QLDC/ExternalTenderDetails.htm?id=34095400"
+      },
+      {
+        "text": "C-25-169",
+        "href": "QLDC/ExternalTenderDetails.htm?id=34095400"
+      },
+      {
+        "text": "3 Waters Operations & Maintenance Contract 2027 -  Notice of Postponement",
+        "href": "QLDC/ExternalTenderDetails.htm?id=34095400"
+      },
+      {
+        "text": "NOI",
+        "href": "QLDC/ExternalTenderDetails.htm?id=34095400"
+      },
+      {
+        "text": "34095100",
+        "href": "HCC/ExternalTenderDetails.htm?id=34095100"
+      },
+      {
+        "text": "HCCANMAY2026PSP",
+        "href": "HCC/ExternalTenderDetails.htm?id=34095100"
+      },
+      {
+        "text": "Advance Notice of Procurement-HCC Professional Services Panel",
+        "href": "HCC/ExternalTenderDetails.htm?id=34095100"
+      },
+      {
+        "text": "NOI",
+        "href": "HCC/ExternalTenderDetails.htm?id=34095100"
+      },
+      {
+        "text": "34095270",
+        "href": "HCC/ExternalTenderDetails.htm?id=34095270"
+      },
+      {
+        "text": "HCCANMAY2026SMO",
+        "href": "HCC/ExternalTenderDetails.htm?id=34095270"
+      },
+      {
+        "text": "Advance Notice of Procurement-HCC Saturday Market Operator",
+        "href": "HCC/ExternalTenderDetails.htm?id=34095270"
+      },
+      {
+        "text": "NOI",
+        "href": "HCC/ExternalTenderDetails.htm?id=34095270"
+      },
+      {
+        "text": "33929641",
+        "href": "MFAT/ExternalTenderDetails.htm?id=33929641"
+      },
+      {
+        "text": "ACT-0102882",
+        "href": "MFAT/ExternalTenderDetails.htm?id=33929641"
+      },
+      {
+        "text": "Kiribati Health Sector Support Programme",
+        "href": "MFAT/ExternalTenderDetails.htm?id=33929641"
+      },
+      {
+        "text": "NOI",
+        "href": "MFAT/ExternalTenderDetails.htm?id=33929641"
+      },
+      {
+        "text": "34050764",
+        "href": "GDC/ExternalTenderDetails.htm?id=34050764"
+      },
+      {
+        "text": "26-46",
+        "href": "GDC/ExternalTenderDetails.htm?id=34050764"
+      },
+      {
+        "text": "Taruheru Cycle Walkway - Professional Services Phase 1",
+        "href": "GDC/ExternalTenderDetails.htm?id=34050764"
+      },
+      {
+        "text": "ROI",
+        "href": "GDC/ExternalTenderDetails.htm?id=34050764"
+      },
+      {
+        "text": "33995726",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=33995726"
+      },
+      {
+        "text": "[None]",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=33995726"
+      },
+      {
+        "text": "Tauhara College - Boundary Fencing project",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=33995726"
+      },
+      {
+        "text": "RFT",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=33995726"
+      },
+      {
+        "text": "34048938",
+        "href": "MSD/ExternalTenderDetails.htm?id=34048938"
+      },
+      {
+        "text": "[None]",
+        "href": "MSD/ExternalTenderDetails.htm?id=34048938"
+      },
+      {
+        "text": "Commercial Cleaning Services",
+        "href": "MSD/ExternalTenderDetails.htm?id=34048938"
+      },
+      {
+        "text": "RFI",
+        "href": "MSD/ExternalTenderDetails.htm?id=34048938"
+      },
+      {
+        "text": "33959843",
+        "href": "fndc/ExternalTenderDetails.htm?id=33959843"
+      },
+      {
+        "text": "7-25-142",
+        "href": "fndc/ExternalTenderDetails.htm?id=33959843"
+      },
+      {
+        "text": "Hokianga Ferry Ramp Repairs: Rawene and the Narrows",
+        "href": "fndc/ExternalTenderDetails.htm?id=33959843"
+      },
+      {
+        "text": "RFT",
+        "href": "fndc/ExternalTenderDetails.htm?id=33959843"
+      },
+      {
+        "text": "33809999",
+        "href": "EA/ExternalTenderDetails.htm?id=33809999"
+      },
+      {
+        "text": "[None]",
+        "href": "EA/ExternalTenderDetails.htm?id=33809999"
+      },
+      {
+        "text": "Market Operation Service Providers (MOSP) Services – 2027 Procurement",
+        "href": "EA/ExternalTenderDetails.htm?id=33809999"
+      },
+      {
+        "text": "NOI",
+        "href": "EA/ExternalTenderDetails.htm?id=33809999"
+      },
+      {
+        "text": "34062593",
+        "href": "NZP/ExternalTenderDetails.htm?id=34062593"
+      },
+      {
+        "text": "TN/26/29",
+        "href": "NZP/ExternalTenderDetails.htm?id=34062593"
+      },
+      {
+        "text": "Taupo Police Base Mechanical Upgrade",
+        "href": "NZP/ExternalTenderDetails.htm?id=34062593"
+      },
+      {
+        "text": "RFT",
+        "href": "NZP/ExternalTenderDetails.htm?id=34062593"
+      },
+      {
+        "text": "33995353",
+        "href": "ODC/ExternalTenderDetails.htm?id=33995353"
+      },
+      {
+        "text": "ODC C4/442",
+        "href": "ODC/ExternalTenderDetails.htm?id=33995353"
+      },
+      {
+        "text": "ODC Cont 276  Corporate Office, Chambers &Facilities Cleaning & Hygiene Services 2026",
+        "href": "ODC/ExternalTenderDetails.htm?id=33995353"
+      },
+      {
+        "text": "RFT",
+        "href": "ODC/ExternalTenderDetails.htm?id=33995353"
+      },
+      {
+        "text": "33776591",
+        "href": "WSL/ExternalTenderDetails.htm?id=33776591"
+      },
+      {
+        "text": "26-338-CPT",
+        "href": "WSL/ExternalTenderDetails.htm?id=33776591"
+      },
+      {
+        "text": "Rosedale Upgrade Programme Solids Stream Upgrade (THP)",
+        "href": "WSL/ExternalTenderDetails.htm?id=33776591"
+      },
+      {
+        "text": "ROI",
+        "href": "WSL/ExternalTenderDetails.htm?id=33776591"
+      },
+      {
+        "text": "34042583",
+        "href": "CRC/ExternalTenderDetails.htm?id=34042583"
+      },
+      {
+        "text": "RPCH",
+        "href": "CRC/ExternalTenderDetails.htm?id=34042583"
+      },
+      {
+        "text": "RPCH Rivers Biosecurity Coast and Harbours Panel",
+        "href": "CRC/ExternalTenderDetails.htm?id=34042583"
+      },
+      {
+        "text": "ROI",
+        "href": "CRC/ExternalTenderDetails.htm?id=34042583"
+      },
+      {
+        "text": "33991836",
+        "href": "CRNZ/ExternalTenderDetails.htm?id=33991836"
+      },
+      {
+        "text": "[None]",
+        "href": "CRNZ/ExternalTenderDetails.htm?id=33991836"
+      },
+      {
+        "text": "Tuku Rauemi: regional partnerships",
+        "href": "CRNZ/ExternalTenderDetails.htm?id=33991836"
+      },
+      {
+        "text": "ROI",
+        "href": "CRNZ/ExternalTenderDetails.htm?id=33991836"
+      },
+      {
+        "text": "33952849",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=33952849"
+      },
+      {
+        "text": "230204",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=33952849"
+      },
+      {
+        "text": "(3115) Te Wharekura o Te Rau Aroha – #230204 C: DQLS upgrade",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=33952849"
+      },
+      {
+        "text": "RFQ",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=33952849"
+      },
+      {
+        "text": "33849790",
+        "href": "MFAT/ExternalTenderDetails.htm?id=33849790"
+      },
+      {
+        "text": "WPG-0105447",
+        "href": "MFAT/ExternalTenderDetails.htm?id=33849790"
+      },
+      {
+        "text": "Community Policing Support Timor-Leste",
+        "href": "MFAT/ExternalTenderDetails.htm?id=33849790"
+      },
+      {
+        "text": "NOI",
+        "href": "MFAT/ExternalTenderDetails.htm?id=33849790"
+      },
+      {
+        "text": "34011584",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34011584"
+      },
+      {
+        "text": "Rawhitiroa School",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34011584"
+      },
+      {
+        "text": "Main Building Contractor for Alterations & refurbishment for AMS Spaces and LSC Space at Rawhitiroa School, Taranaki",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34011584"
+      },
+      {
+        "text": "RFT",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34011584"
+      },
+      {
+        "text": "34011114",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34011114"
+      },
+      {
+        "text": "[None]",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34011114"
+      },
+      {
+        "text": "Main Contractor for Block 1 Roofing Replacement at Glendene School",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34011114"
+      },
+      {
+        "text": "RFT",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34011114"
+      },
+      {
+        "text": "34012517",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34012517"
+      },
+      {
+        "text": "[None]",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34012517"
+      },
+      {
+        "text": "Main Contractor for Design, Supply and Install of Shade Structure at Pasadena Intermediate School",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34012517"
+      },
+      {
+        "text": "RFT",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34012517"
+      },
+      {
+        "text": "33895043",
+        "href": "NZDF/ExternalTenderDetails.htm?id=33895043"
+      },
+      {
+        "text": "Pro_4573",
+        "href": "NZDF/ExternalTenderDetails.htm?id=33895043"
+      },
+      {
+        "text": "Mission Command Training Facility at Linton Military Camp",
+        "href": "NZDF/ExternalTenderDetails.htm?id=33895043"
+      },
+      {
+        "text": "NOI",
+        "href": "NZDF/ExternalTenderDetails.htm?id=33895043"
+      },
+      {
+        "text": "34108525",
+        "href": "MEDU/ExternalTenderDetails.htm?id=34108525"
+      },
+      {
+        "text": "WS99581778",
+        "href": "MEDU/ExternalTenderDetails.htm?id=34108525"
+      },
+      {
+        "text": "PLD for Support Staff working with Neurodiverse Students",
+        "href": "MEDU/ExternalTenderDetails.htm?id=34108525"
+      },
+      {
+        "text": "RFI",
+        "href": "MEDU/ExternalTenderDetails.htm?id=34108525"
+      },
+      {
+        "text": "34039527",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34039527"
+      },
+      {
+        "text": "[None]",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34039527"
+      },
+      {
+        "text": "Registration of Interest (ROI) for an HVAC Contractor to replace and renew HVAC at Westlake Girls High School",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34039527"
+      },
+      {
+        "text": "ROI",
+        "href": "MEDUR/ExternalTenderDetails.htm?id=34039527"
+      },
+      {
+        "text": "",
+        "href": "ExternalIndex.htm?page=2&orderBy=date"
+      },
+      {
+        "text": "",
+        "href": "ExternalIndex.htm?page=11&orderBy=date"
+      },
+      {
+        "text": "",
+        "href": "http://www.mbie.govt.nz"
+      },
+      {
+        "text": "",
+        "href": "https://www.govt.nz"
+      },
+      {
+        "text": "Accessibility",
+        "href": "https://www.mbie.govt.nz/accessibility/"
+      },
+      {
+        "text": "Terms and conditions",
+        "href": "/GetsTermsAndConditions.htm"
+      },
+      {
+        "text": "New Zealand legislation",
+        "href": "http://www.legislation.govt.nz"
+      }
+    ],
+    "images": [
+      {
+        "src": "/ext/default/img/getsLogo.jpg",
+        "alt": "GETS.GOVT.NZ"
+      },
+      {
+        "src": "/ext/default/realme/images/logo.png",
+        "alt": "RealMe"
+      },
+      {
+        "src": "/ext/default/img/feed-icon.png",
+        "alt": "Rss/Atom Feed"
+      },
+      {
+        "src": "/ext/default/img/gets/arrow_move_up.gif",
+        "alt": "Sort tenders by earliest to latest date"
+      },
+      {
+        "src": "/ext/default/img/gets/ff_prev.png",
+        "alt": null
+      },
+      {
+        "src": "/ext/default/img/gets/prev.png",
+        "alt": null
+      },
+      {
+        "src": "/ext/default/img/gets/next_active.png",
+        "alt": null
+      },
+      {
+        "src": "/ext/default/img/gets/ff_next_active.png",
+        "alt": null
+      },
+      {
+        "src": "/ext/default/img/gets/mbiefooterlogo.png",
+        "alt": "Ministry of Business, Innovation and Employment"
+      },
+      {
+        "src": "/ext/default/img/gets/NZG_Wordmark_White.svg",
+        "alt": "New Zealand Government Te Kāwanatanga"
+      }
+    ],
+    "embedded_json": []
+  },
+  "tool_trace": [
+    {
+      "step": "local_http_server",
+      "serve_dir": "C:\\Users\\pc-mousannif\\Desktop\\Ismail\\WADE-BENCH\\data\\raw_snapshots\\government\\gets_001_listing",
+      "http_url": "http://127.0.0.1:51033/page.safe.html",
+      "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/government/gets_001_listing/page.safe.html"
+    },
+    {
+      "step": "list_tools",
+      "tool_names": [
+        "browser_close",
+        "browser_resize",
+        "browser_console_messages",
+        "browser_handle_dialog",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_type",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_take_screenshot",
+        "browser_snapshot",
+        "browser_click",
+        "browser_drag",
+        "browser_hover",
+        "browser_select_option",
+        "browser_tabs",
+        "browser_wait_for"
+      ]
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:51033/page.safe.html"
+      },
+      "output_preview": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:51033/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:51033/page.safe.html\n- Page Title: GETS - Government Electronic Tender Service | Current tenders\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T20-14-19-317Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T20-14-16-003Z.log#L1"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_snapshot",
+      "args": {},
+      "output_preview": "### Page\n- Page URL: http://127.0.0.1:51033/page.safe.html\n- Page Title: GETS - Government Electronic Tender Service | Current tenders\n### Snapshot\n```yaml\n- generic [ref=e2]:\n  - generic [ref=e3]:\n    - link \"GETS.GOVT.NZ\":\n      - /url: /ExternalIndex.htm\n      - img \"GETS.GOVT.NZ\" [ref=e4] [cursor=pointer]\n    - generic:\n      - generic [ref=e6]:\n        - link \"Create account\" [ref=e7] [cursor=pointer]:\n          - /url: /RegisterUser.htm\n        - link \"Purchaser log in\" [ref=e8] [cursor=pointer]:\n          - /url: /main.html\n        - link \"RealMe Supplier log in\" [ref=e9] [cursor=pointer]:\n          - /url: TendererLogin.auth?referURL=ExternalIndex.htm\n          - generic [ref=e10]:\n            - img \"RealMe\" [ref=e11]\n            - text: Supplier log in\n      - generic [ref=e12]:\n        - generic [ref=e15]: Search Tenders\n        - generic [ref=e21]:\n          - generic [ref=e22]: Search\n          - textbox [ref=e24]\n          - button \"Submit\" [ref=e26] [cursor=pointer]\n        - link \"Advanced Search\" [ref=e29] [cursor=pointer]:\n          - /url: /ExternalAdvancedSearching.htm\n  - generic [ref=e31]: You are not logged in.\n  - generic [ref=e33]:\n    - generic [ref=e34]:\n      - generic [ref=e38]:\n        - heading \"Online Services\" [level=2] [ref=e39]\n        - link \"Create account\" [ref=e41] [cursor=pointer]:\n          - /url: /RegisterUser.htm\n        - link \"Future opportunities\" [ref=e43] [cursor=pointer]:\n          - /url: /FutureProcurementOpportunitiesIndex.htm\n        - link \"Current tenders\" [ref=e45] [cursor=pointer]:\n          - /url: /ExternalIndex.htm\n        - link \"Late tenders\" [ref=e47] [cursor=pointer]:\n          - /url: /ExternalLateTenderList.htm\n        - link \"Closed tenders\" [ref=e49] [cursor=pointer]:\n          - /url: /ExternalClosedTenderList.htm\n        - link \"Completed tenders\" [ref=e51] [cursor=pointer]:\n          - /url: /ExternalAwardedTenderList.htm\n        - link \"Reports\" [ref=e53] [cursor=pointer]:\n          - /url: /Ext"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_take_screenshot",
+      "args": {},
+      "output_preview": "### Result\n- [Screenshot of viewport](.playwright-mcp\\page-2026-06-30T20-14-19-377Z.png)\n### Ran Playwright code\n```js\n// Screenshot viewport and save it as .playwright-mcp\\page-2026-06-30T20-14-19-377Z.png\nawait page.screenshot({\n  path: '.playwright-mcp\\\\page-2026-06-30T20-14-19-377Z.png',\n  scale: 'css',\n  type: 'png'\n});\n```\ntype='image' data='iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOydB6AcRf3HZ7Zdee+l9/JI74EHSaihB0hCQJCACghSFEEFgYAIgkgT/zRBBBUjioAKCEgNvddUSO+N9P7a3baZ/2927927d3d7t9deXvl9PMO92dnZ2dm9u/3O9zczyuBxJ5DiQMX/Kc2ez8nDOE+bP2sJfg7hJ39KupR5r6QUTtNvhTfcObUMRfkpn5Es9fR9XsUph3uWk2e6791lcfSmd0tSI/s5BKM53JzxIyYl5kEh+xZC0k1YxMwuEs9h34x5WNo8uVbJK79nOTnm59zOMX9u6bQ05WdvRlac8yUF33Jpd48nSgmfo6Y5vepPvI5McoFSiSAIgiAI0rZQSJsmP1WWqyynng9nearfNp/uf3doT+qQmJ6rOk0pIP8qtUky3MBFLD+nktP2RCC5ktof17qO1Zz1RxAEQRCkndCWBXCBqizv/LnSntVvTvvmYfz6v3YZcvrRhy1NMHvVJ6ucyFVy+Be3mXN6bUUJVCCogREEQRAEQRJpmwLYp5jxkyHX/Lmmt1v1m2v7uG/iMinv8v1sLcWOLQQ/zmohhm2cXIVu2nLioe/x/F5yCNMzkKHNi37cnCrmk9b+oUMQBEEQpEXR1gRwcw7XzFVm42McyUtIu8/TicOAc41Rzy9nScm1GiUSFVllcN4V8Cl0M5cav/pJGph4eMWYnoH9dVwEQRAEQZAWRZsSwIW5jjkIEpGfZtzqLzFDCdx3yc2Tvh/rk+r6psqhzFDqt/n9GKQ5kdN1L2I5Puuf4XyTdE5STp8NRbNFj2ctJ1EDp033yt8+02m+Dm2x0omPOuRRPQRBEARBkGLRxifBSiRX9ZVrOcViP6rc5k/3n9lPiv/ys+ZsaXdFrtAcxwCn+r2JsjPN0Gve5M/SjQEmKIpypCU0F2pgBEEQpBSEqHWYsnuMUj1IruslRcPElij+ZLQOGKf1RN7KgmvsskVWhy+sLhG+33QobTPLING8xnwmpEt+dmw0rHw4wH6MSq/yGfFVzwJUaG7lcM9y8k/3k9mdBDoxnXvcOZnLYTR9Bj9OclYbk7Q8AZwBP+oibbMk7ihxz/xZy2+agXlvyrpv/qsE0Rzz+6xn3ulSscvP3JKN7cC99iqoPlm3elXYKyKAeu7rVTHidWSSC7gMEoIgSAvhALn+NG3zJHU7Kt62Aejht80eLxt91tth0uzkIYBzk6zcd07qEXJJfJTgU35k3F1Km86pV/6C0ksndH3n9FgHuBjKNqcMDdlkP/kb2y2boCX+NC33MZ9W2h0LhOdYTLG+7fP21nKSzalI3G/ObBlYscRn+k05F17Q+r2FC+O0JSSrx4TPRfImnqmcdOksc36fpSV+23t1afk5hJ+PkR/B7AUKYARBkJbARaF1Z2qbCNIWecHo+3hkAGleWmgIdCn8tKKYlkVJb/klF4tc5bFP9Vt4UTllK3UrNSe5hkbnWrj/scdFD5HNNb0lUPi5pM2ZlOhnkHBxW7U1XgsEQRCkBQLG71WhlUPkWoK0UaBrY6y878HI0Oa0glti93bbVr+lo22rX/9FUYcMOX2K3jikAGiJIc1Fru3mJyfJF1rwrR53HZuzDdNS+Lm0TPzXvy"
+    }
+  ]
+}

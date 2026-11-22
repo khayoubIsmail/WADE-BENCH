@@ -1,0 +1,120 @@
+{
+  "task_id": "WBV1_ACAD_UNESCO_EVENTS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": {
+          "value": "Thought Leaders Series with Lê Nguyên Hoang",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Thought Leaders Series with Lê Nguyên Hoang"
+          }
+        },
+        "event_start_date": {
+          "value": "2026-05-05",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "5 May 2026"
+          }
+        },
+        "event_end_date": {
+          "value": "2026-05-05",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "5 May 2026"
+          }
+        },
+        "event_url": {
+          "value": null,
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "location": {
+          "value": "Paris, France",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "UNESCO Headquarters, Paris, France"
+          }
+        },
+        "description": {
+          "value": "The Thought Leaders series aims to provide a platform for the brightest minds in the social sciences and humanities to share their reflections on major societal issues and propose innovative ideas for addressing them. Through these discussions, we seek to inspire and empower policymakers, academics, and citizens to question and redefine societal paradigms, approaching global challenges from fresh perspectives.",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "The Thought Leaders series aims to provide a platform for the brightest minds in the social sciences and humanities to share their reflections on major societal issues and propose innovative ideas for addressing them. Through these discussions, we seek to inspire and empower policymakers, academics, and citizens to question and redefine societal paradigms, approaching global challenges from fresh perspectives."
+          }
+        },
+        "chairpersons": {
+          "value": "Lê Nguyên Hoang",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Thought Leader: Lê Nguyên Hoàng"
+          }
+        },
+        "organizer": {
+          "value": "UNESCO",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "UNESCO"
+          }
+        },
+        "website": {
+          "value": "https://www.unesco.org/en/",
+          "provenance": {
+            "source": "metadata.json",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "UNESCO"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 18.011,
+    "input_tokens": 18694,
+    "output_tokens": 886,
+    "total_tokens": 19580,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_UNESCO_EVENTS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_UNESCO_EVENTS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "task_id": "WBV1_ECOM_05_DECATHLON_US_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Quechua",
+        "description": "This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort.",
+        "image_urls": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg",
+          "https://example.com/image4.jpg",
+          "https://example.com/image5.jpg"
+        ],
+        "price_raw": "$19.99",
+        "product_name": "Quechua NH100 Arpenaz 10 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/us/en/product/quechua-nh100-arpenaz-10-l-hiking-backpack.html",
+        "rating": "4.8 out of 5.0",
+        "review_count": "16043 reviews"
+      },
+      "provenance": {
+        "url": "https://www.decathlon.com/us/en/product/quechua-nh100-arpenaz-10-l-hiking-backpack.html",
+        "snapshot_id": "data/raw_snapshots/ecommerce/decathlon_us_detail_sample",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 10.363,
+    "input_tokens": 3521,
+    "output_tokens": 346,
+    "total_tokens": 3867,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_05_DECATHLON_US_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_05_DECATHLON_US_DETAIL\\tile_02.png"
+    ],
+    "error": null
+  }
+}

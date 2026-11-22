@@ -1,0 +1,75 @@
+{
+  "task_id": "WBV1_GOV_TED_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": {
+          "value": "Spain – Guard services – Servicios de Seguridad y Vigilancia en las dependencias de la Delegación del Gobierno en Andalucía y de la Subdelegación del Gobierno en Sevilla.",
+          "provenance": {
+            "selector": "meta[name=\"description\"]",
+            "text_quote": "Spain – Guard services – Servicios de Seguridad y Vigilancia en las dependencias de la Delegación del Gobierno en Andalucía y de la Subdelegación del Gobierno en Sevilla. 111/2026 2026-06-11+02:00"
+          }
+        },
+        "tender_url": {
+          "value": "https://ted.europa.eu/en/notice/-/detail/402651-2026",
+          "provenance": {
+            "selector": "link[rel=\"canonical\"]",
+            "text_quote": "https://ted.europa.eu/en/notice/-/detail/402651-2026"
+          }
+        },
+        "tender_reference": {
+          "value": "402651-2026",
+          "provenance": {
+            "selector": "title",
+            "text_quote": "402651-2026 - Competition - TED"
+          }
+        },
+        "notice_information": {
+          "value": "Competition",
+          "provenance": {
+            "selector": "meta[property=\"og:description\"]",
+            "text_quote": "Spain – Guard services – Servicios de Seguridad y Vigilancia en las dependencias de la Delegación del Gobierno en Andalucía y de la Subdelegación del Gobierno en Sevilla. 111/2026 2026-06-11+02:00"
+          }
+        },
+        "published_date": {
+          "value": "2026-06-11",
+          "provenance": {
+            "selector": "meta[name=\"description\"]",
+            "text_quote": "Spain – Guard services – Servicios de Seguridad y Vigilancia en las dependencias de la Delegación del Gobierno en Andalucía y de la Subdelegación del Gobierno en Sevilla. 111/2026 2026-06-11+02:00"
+          }
+        },
+        "tender_type": {
+          "value": "Competition",
+          "provenance": {
+            "selector": "meta[property=\"og:description\"]",
+            "text_quote": "Spain – Guard services – Servicios de Seguridad y Vigilancia en las dependencias de la Delegación del Gobierno en Andalucía y de la Subdelegación del Gobierno en Sevilla. 111/2026 2026-06-11+02:00"
+          }
+        }
+      },
+      "provenance": {
+        "selector": "page.html",
+        "text_quote": "Full page content"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 10.493,
+    "input_tokens": 16916,
+    "output_tokens": 600,
+    "total_tokens": 17516,
+    "initial_input_tokens": 16916,
+    "initial_output_tokens": 600,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

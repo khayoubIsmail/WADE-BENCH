@@ -1,0 +1,58 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "address": "12B Mary Street, Papanui",
+        "price": {
+          "amount": 786000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 130,
+          "unit": "m2"
+        },
+        "property_type": "House",
+        "sale_type": "private_treaty",
+        "listing_title": "12B Mary Street, Papanui"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "bbox": null,
+        "text_quote": "12B Mary Street, Papanui",
+        "css_selector": null,
+        "xpath": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 10.936,
+    "input_tokens": 6582,
+    "output_tokens": 136,
+    "total_tokens": 6718,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

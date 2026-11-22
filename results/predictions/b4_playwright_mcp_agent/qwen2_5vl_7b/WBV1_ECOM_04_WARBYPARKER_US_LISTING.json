@@ -1,0 +1,60 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.warbyparker.com/eyeglasses/carlton/amalfi-tortoise?w=medium",
+        "old_price_raw": "$95",
+        "price_raw": "$95",
+        "product_name": "Carlton Amalfi Tortoise",
+        "product_url": "https://www.warbyparker.com/eyeglasses/carlton/amalfi-tortoise?w=medium",
+        "rating": null,
+        "review_count": 0,
+        "short_description": "Made in Italy"
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector_or_xpath": "link[ref=e228]",
+        "text_quote_or_attribute": "Carlton Amalfi Tortoise, front view"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.warbyparker.com/eyeglasses/hayden/seaweed-crystal-matte?w=medium",
+        "old_price_raw": "$95",
+        "price_raw": "$95",
+        "product_name": "Hayden Seaweed Crystal Matte",
+        "product_url": "https://www.warbyparker.com/eyeglasses/hayden/seaweed-crystal-matte?w=medium",
+        "rating": null,
+        "review_count": 0,
+        "short_description": "Made in Italy"
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector_or_xpath": "link[ref=e284]",
+        "text_quote_or_attribute": "Hayden Seaweed Crystal Matte, front view"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 22.274,
+    "input_tokens": 20803,
+    "output_tokens": 847,
+    "total_tokens": 21650,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_04_WARBYPARKER_US_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_04_WARBYPARKER_US_LISTING_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

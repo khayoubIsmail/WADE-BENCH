@@ -1,0 +1,35 @@
+{
+  "task_id": "WBV1_ACAD_STANFORD_EVENTS_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Burt and Deedee McMurtry Lecture with Curator Hamza Walker",
+        "event_start_date": "2026-05-27T18:00:00Z",
+        "event_end_date": "2026-05-27T19:30:00Z",
+        "location": "Bing Concert Hall, 327 Lasuen St, Stanford, CA 94305",
+        "event_url": "https://events.stanford.edu/event/burt-and-deedee-mcmurtry-lecture-with-curator-hamza-walker"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": null,
+        "url": "data/raw_snapshots/academic/stanford_events_detail_sample"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 4.164,
+    "input_tokens": 5956,
+    "output_tokens": 216,
+    "total_tokens": 6172,
+    "repaired": false,
+    "error": null
+  }
+}

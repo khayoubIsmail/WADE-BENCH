@@ -1,0 +1,161 @@
+{
+  "task_id": "WBV1_GOV_SELL2WALES_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "General Practice (GP) Managed Print Services",
+        "tender_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620878",
+        "authority_id": "AA81853",
+        "awarding_agency": "Digital Health & Care Wales",
+        "publication_date": "2026-05-27",
+        "deadline_date": "2026-07-01",
+        "notice_type": "UK2",
+        "overview": "General Practice (GP) Managed Print Services. The current fleet is approximately 7,800 devices, the majority of which require a solution based on USB connectivity. Procurement to cover the following themes: - Print Hardware and Installation,\n- Print Consumables,\n- Training and Documentation for Practices,\n- Management of Print Assets and Print Availability (Break/Fix Services),\n- Provision of Print Activity Reporting and Analytics, including reporting by media type at enterprise, site, and device level, to support operational management, cost transparency, and sustainability objectives",
+        "buyer": "Digital Health & Care Wales",
+        "contact_name": null,
+        "description": "General Practice (GP) Managed Print Services.",
+        "reference": "MAY620878",
+        "rocid": "ocds-h6vhtk-06a6e2",
+        "last_modified_date": "2026-05-27",
+        "tender_coverage": null,
+        "procurement_reference": "MAY620878",
+        "rocid_provenance": {
+          "source": "page.safe.html",
+          "text_quote": "OCID: ocds-h6vhtk-06a6e2"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "General Practice (GP) Managed Print Services"
+        },
+        "tender_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=MAY620878"
+        },
+        "authority_id": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "AA81853"
+        },
+        "awarding_agency": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Digital Health & Care Wales"
+        },
+        "publication_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "27 May 2026"
+        },
+        "deadline_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "01 July 2026"
+        },
+        "notice_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "UK2"
+        },
+        "overview": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "General Practice (GP) Managed Print Services.\nThe current fleet is approximately 7,800 devices, the majority of which require a solution based on USB connectivity. Procurement to cover the following themes: - Print Hardware and Installation,\n- Print Consumables,\n- Training and Documentation for Practices,\n- Management of Print Assets and Print Availability (Break/Fix Services),\n- Provision of Print Activity Reporting and Analytics, including reporting by media type at enterprise, site, and device level, to support operational management, cost transparency, and sustainability objectives"
+        },
+        "buyer": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Digital Health & Care Wales"
+        },
+        "contact_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "General Practice (GP) Managed Print Services."
+        },
+        "reference": {
+          "source": "visible_text",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MAY620878"
+        },
+        "rocid": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "ocds-h6vhtk-06a6e2"
+        },
+        "last_modified_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "27 May 2026"
+        },
+        "tender_coverage": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        },
+        "procurement_reference": {
+          "source": "visible_text",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MAY620878"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 26.237,
+    "input_tokens": 16724,
+    "output_tokens": 1580,
+    "total_tokens": 18304,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_SELL2WALES_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_SELL2WALES_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

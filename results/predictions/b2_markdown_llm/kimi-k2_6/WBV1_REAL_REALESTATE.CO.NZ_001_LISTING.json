@@ -1,0 +1,872 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/42964030/residential/sale/65b-hamilton-road-herne-bay",
+        "address": "65B Hamilton Road, Herne Bay",
+        "listing_title": "65B Hamilton Road, Herne Bay",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "POA",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "65B Hamilton Road, Herne Bay POA 3 2 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43015388/residential/sale/333-beacon-point-road-wanaka",
+        "address": "333 Beacon Point Road, Wanaka",
+        "listing_title": "333 Beacon Point Road, Wanaka",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Negotiation",
+        "bedrooms": null,
+        "bathrooms": null,
+        "property_type": "Section"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "333 Beacon Point Road, Wanaka Negotiation Section",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43047788/residential/sale/28-milan-drive-glen-eden",
+        "address": "28 Milan Drive, Glen Eden",
+        "listing_title": "28 Milan Drive, Glen Eden",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Auction",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "28 Milan Drive, Glen Eden Auction 3 1 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43055540/residential/sale/114a-pioneer-road-moturoa",
+        "address": "114A Pioneer Road, Moturoa",
+        "listing_title": "114A Pioneer Road, Moturoa",
+        "price": {
+          "amount": 539000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Offers Over",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "114A Pioneer Road, Moturoa Offers Over $539,000 3 1 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43032799/residential/sale/1111-20-park-avenue-ellerslie",
+        "address": "1111/20 Park Avenue, Ellerslie",
+        "listing_title": "1111/20 Park Avenue, Ellerslie",
+        "price": {
+          "amount": 725000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": null,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "property_type": "Apartment"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "1111/20 Park Avenue, Ellerslie $725,000 1 1 Apartment",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43046265/residential/sale/28a-cambridge-street-milson",
+        "address": "28A Cambridge Street, Milson",
+        "listing_title": "28A Cambridge Street, Milson",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Negotiation",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "28A Cambridge Street, Milson Negotiation 3 1 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43038630/residential/sale/29-pakuranga-road-pakuranga",
+        "address": "29 Pakuranga Road, Pakuranga",
+        "listing_title": "29 Pakuranga Road, Pakuranga",
+        "price": {
+          "amount": 925000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Asking Price",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "29 Pakuranga Road, Pakuranga Asking Price $925,000 3 1 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/42944152/residential/sale/729-orapiu-road-waiheke-island",
+        "address": "729 Orapiu Road, Waiheke Island",
+        "listing_title": "729 Orapiu Road, Waiheke Island",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Negotiation",
+        "bedrooms": 7,
+        "bathrooms": 7,
+        "property_type": "Lifestyle Property"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "729 Orapiu Road, Waiheke Island Negotiation 7 7 Lifestyle Property",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43046415/residential/sale/lot-1-35-royton-avenue-mangere-east",
+        "address": "Lot 1/35 Royton Avenue, Mangere East",
+        "listing_title": "Lot 1/35 Royton Avenue, Mangere East",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Negotiation",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "property_type": "Townhouse"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Lot 1/35 Royton Avenue, Mangere East Negotiation 4 3 Townhouse",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/42996416/residential/sale/3-lealands-lane-aokautere",
+        "address": "3 Lealands Lane, Aokautere",
+        "listing_title": "3 Lealands Lane, Aokautere",
+        "price": {
+          "amount": 1199000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Offers Over",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "3 Lealands Lane, Aokautere Offers Over $1,199,000 4 3 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43041750/residential/sale/5-hailes-road-kamo",
+        "address": "5 Hailes Road, Kamo",
+        "listing_title": "5 Hailes Road, Kamo",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Auction",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "5 Hailes Road, Kamo Auction 3 1 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43049905/residential/sale/6-36-opito-way-east-tamaki",
+        "address": "6/36 Opito Way, East Tamaki",
+        "listing_title": "6/36 Opito Way, East Tamaki",
+        "price": {
+          "amount": 599000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Asking Price",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "property_type": "Apartment"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "6/36 Opito Way, East Tamaki Asking Price $599,000 2 1 Apartment",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43053511/residential/sale/102-harbour-road-ohope",
+        "address": "102 Harbour Road, Ohope",
+        "listing_title": "102 Harbour Road, Ohope",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Tender",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "102 Harbour Road, Ohope Tender 3 2 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43032311/residential/sale/63-65-67-anzac-street-takapuna",
+        "address": "63&65&67 Anzac Street, Takapuna",
+        "listing_title": "63&65&67 Anzac Street, Takapuna",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Negotiation",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "63&65&67 Anzac Street, Takapuna Negotiation 1 1 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43011838/residential/sale/lot-1-queensberry-terrace-queensberry",
+        "address": "Lot 1, Queensberry Terrace, Queensberry",
+        "listing_title": "Lot 1, Queensberry Terrace, Queensberry",
+        "price": {
+          "amount": 995000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "property_type": "Section"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Lot 1, Queensberry Terrace, Queensberry $995,000 Section",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43048127/residential/sale/281-south-road-hawera",
+        "address": "281 South Road, Hawera",
+        "listing_title": "281 South Road, Hawera",
+        "price": {
+          "amount": 385000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Enquiries Over",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "281 South Road, Hawera Enquiries Over $385,000 2 1 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/42527042/residential/sale/126-patiki-place-whangamata",
+        "address": "126 Patiki Place, Whangamata",
+        "listing_title": "126 Patiki Place, Whangamata",
+        "price": {
+          "amount": 1590000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": null,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "126 Patiki Place, Whangamata $1,590,000 3 3 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43051361/residential/sale/430-brookfields-road-meeanee",
+        "address": "430 Brookfields Road, Meeanee",
+        "listing_title": "430 Brookfields Road, Meeanee",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Tender",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "430 Brookfields Road, Meeanee Tender 3 2 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058090/residential/sale/9-woodham-place-rototuna-north",
+        "address": "9 Woodham Place, Rototuna North",
+        "listing_title": "Ticket to Rototuna",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Auction",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 515,
+          "unit": "m2"
+        },
+        "property_type": "House",
+        "listing_agent_name": "Brent Allan, Kim Morrison"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "9 Woodham Place, Rototuna North Ticket to Rototuna Auction 4 2 515m 2 House Brent Allan, Kim Morrison",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43057752/residential/sale/137-the-parade-paekakariki",
+        "address": "137 The Parade, Paekakariki",
+        "listing_title": "Panoramic Paradise On The Parade",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Deadline Sale",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 637,
+          "unit": "m2"
+        },
+        "property_type": "House",
+        "listing_agent_name": "Wayne Guo, Ash Negi"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "137 The Parade, Paekakariki Panoramic Paradise On The Parade Deadline Sale 4 2 637m 2 House Wayne Guo, Ash Negi",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058136/residential/sale/5-46-seabrook-avenue-new-lynn",
+        "address": "5/46 Seabrook Avenue, New Lynn",
+        "listing_title": "Spacious End-Unit Potential",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Negotiation",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "property_type": "Townhouse",
+        "listing_agent_name": "Anne Duncan, Pernilla Da Costa"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "5/46 Seabrook Avenue, New Lynn Spacious End-Unit Potential Negotiation 3 2 Townhouse Anne Duncan, Pernilla Da Costa",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058134/residential/sale/1-98-owairaka-avenue-mount-albert",
+        "address": "1/98 Owairaka Avenue, Mount Albert",
+        "listing_title": "Charming, Affordable & Convenient",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Negotiation",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "property_type": "House",
+        "listing_agent_name": "Steve Knights, Pete Scott"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "1/98 Owairaka Avenue, Mount Albert Charming, Affordable & Convenient Negotiation 2 1 House Steve Knights, Pete Scott",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058132/residential/sale/600-park-road-north-parkvale",
+        "address": "600 Park Road North, Parkvale",
+        "listing_title": "Timeless Character, Modern Comfort",
+        "price": {
+          "amount": 1299000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": null,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1051,
+          "unit": "m2"
+        },
+        "property_type": "House",
+        "listing_agent_name": "Lin Ma"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "600 Park Road North, Parkvale Timeless Character, Modern Comfort $1,299,000 4 2 1051m 2 House Lin Ma",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058144/residential/sale/115-skyhawk-road-wigram",
+        "address": "115 Skyhawk Road, Wigram",
+        "listing_title": "Perfect Position, Real Motivation",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Auction",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 545,
+          "unit": "m2"
+        },
+        "property_type": "House",
+        "listing_agent_name": "Elaine Lu, Team Smart"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "115 Skyhawk Road, Wigram Perfect Position, Real Motivation Auction 4 2 545m 2 House Elaine Lu, Team Smart",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058133/residential/sale/4a-vintage-drive-henderson",
+        "address": "4A Vintage Drive, Henderson",
+        "listing_title": "A Rare Lifestyle Home in Henderson",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Auction",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "floor_area": {
+          "value": 474,
+          "unit": "m2"
+        },
+        "property_type": "Apartment",
+        "listing_agent_name": "Megan Vanderwiel, Eden Ross"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "4A Vintage Drive, Henderson A Rare Lifestyle Home in Henderson Auction 6 5 474m 2 Apartment Megan Vanderwiel, Eden Ross",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_026",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058142/residential/sale/25-mckenzie-place-matamata",
+        "address": "25 McKenzie Place, Matamata",
+        "listing_title": "Stylish, Sunny & Seriously Tempting",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Negotiation",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 742,
+          "unit": "m2"
+        },
+        "property_type": "House",
+        "listing_agent_name": "Kathleen Perrett, Owen Mills"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "25 McKenzie Place, Matamata Stylish, Sunny & Seriously Tempting Negotiation 4 2 742m 2 House Kathleen Perrett, Owen Mills",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_027",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058149/rural/sale/0n-upper-stuart-road-eltham",
+        "address": "0n Upper Stuart Road, Eltham",
+        "listing_title": "ELTHAM RURAL SECTION WITH SHED",
+        "price": {
+          "amount": 250000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Offers Over",
+        "bedrooms": null,
+        "bathrooms": null,
+        "floor_area": {
+          "value": 4004,
+          "unit": "m2"
+        },
+        "property_type": "Lifestyle Section",
+        "listing_agent_name": "Kurt Lindsay, Kris Gibson"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "0n Upper Stuart Road, Eltham ELTHAM RURAL SECTION WITH SHED Offers Over $250,000 Including GST (if any) 4004m 2 Lifestyle Section Kurt Lindsay, Kris Gibson",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_028",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058143/rural/sale/22-fairbourne-drive-fairhall",
+        "address": "22 Fairbourne Drive, Fairhall",
+        "listing_title": "Elevated lifestyle with room to grow",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Deadline Sale",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 8.19,
+          "unit": "ha"
+        },
+        "property_type": "Lifestyle Property",
+        "listing_agent_name": "Dave Kilbride"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "22 Fairbourne Drive, Fairhall Elevated lifestyle with room to grow Deadline Sale 4 2 8.19ha Lifestyle Property Dave Kilbride",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_029",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058127/rural/sale/310-mystery-creek-road-ohaupo",
+        "address": "310 Mystery Creek Road, Ohaupo",
+        "listing_title": "Family lifestyle, flat land and fabulous location",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Auction",
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 4.05,
+          "unit": "ha"
+        },
+        "property_type": "Lifestyle Property",
+        "listing_agent_name": "Richard Thode"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "310 Mystery Creek Road, Ohaupo Family lifestyle, flat land and fabulous location Auction 5 2 4.05ha Lifestyle Property Richard Thode",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_030",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058105/residential/sale/2-464-remuera-road-remuera",
+        "address": "2/464 Remuera Road, Remuera",
+        "listing_title": "Executive Living in Prestigious Remuera",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Deadline Sale",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "property_type": "Apartment",
+        "listing_agent_name": "Bob Voss, Becky Zhu"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "2/464 Remuera Road, Remuera Executive Living in Prestigious Remuera Deadline Sale 3 3 Apartment Bob Voss, Becky Zhu",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_031",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058114/residential/sale/1b-beechwood-road-rothesay-bay",
+        "address": "1B Beechwood Road, Rothesay Bay",
+        "listing_title": "Elevated Sea Views & Top Schools",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Auction",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "1B Beechwood Road, Rothesay Bay Elevated Sea Views & Top Schools Auction 4 2 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    },
+    {
+      "record_id": "pred_032",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43058138/residential/sale/42-accolage-boulevard-kumeu",
+        "address": "42 Accolage Boulevard, Kumeu",
+        "listing_title": "Act fast!! Motivated Vendors!!",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "sale_type": "Deadline Sale",
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 300,
+          "unit": "m2"
+        },
+        "property_type": "House"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "42 Accolage Boulevard, Kumeu Act fast!! Motivated Vendors!! Deadline Sale 4 4 300m 2 House",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 135.715,
+    "input_tokens": 16554,
+    "output_tokens": 5300,
+    "total_tokens": 21854,
+    "repaired": false,
+    "error": null
+  }
+}

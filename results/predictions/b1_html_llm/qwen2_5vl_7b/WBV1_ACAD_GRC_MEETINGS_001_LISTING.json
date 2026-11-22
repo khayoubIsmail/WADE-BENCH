@@ -1,0 +1,40 @@
+{
+  "task_id": "WBV1_ACAD_GRC_MEETINGS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "eventDate": "2026-07-19",
+        "location": "Manchester, New Hampshire"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "eventDate": "2026-07-18",
+        "location": "Ventura, California"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 34.275,
+    "input_tokens": 75387,
+    "output_tokens": 76,
+    "total_tokens": 75463,
+    "initial_input_tokens": 75387,
+    "initial_output_tokens": 76,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

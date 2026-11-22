@@ -1,0 +1,45 @@
+{
+  "task_id": "WBV1_ECOM_08_GLOSSIER_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Glossier",
+        "description": "A super gentle cleansing experience. A pH-balanced gel-cream cleanser that’s suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished–never stripped.",
+        "image_urls": [
+          "https://www.glossier.com/en-ma/products/milky-jelly-cleanser?variant=4378198209355"
+        ],
+        "price_raw": "259 dh",
+        "product_name": "Milky Jelly Cleanser",
+        "product_url": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser?variant=4378198209355",
+        "rating": 4.2,
+        "review_count": 4634
+      },
+      "provenance": {
+        "source_files": [
+          "page.html"
+        ],
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Milky Jelly Cleanser\n\nConditioning face wash\n\n4.200043 star rating\n\n(4634)\n\n177 mL\n60 mL\n\n177 mL\n\nAdd to bag 259 dh \n\nA super gentle cleansing experience.\n\nA pH-balanced gel-cream cleanser that’s suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished–never stripped.",
+        "mtime": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 18.651,
+    "input_tokens": 22297,
+    "output_tokens": 389,
+    "total_tokens": 22686,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_08_GLOSSIER_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_08_GLOSSIER_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

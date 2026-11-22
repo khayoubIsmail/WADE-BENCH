@@ -1,0 +1,2469 @@
+{
+  "task_id": "WBV1_GOV_GETS_001_LISTING",
+  "website_id": "gets_001",
+  "schema_id": "tender_notice_v1",
+  "snapshot_id": "gets_001_listing",
+  "snapshot_path": "raw_snapshots/government/gets_001_listing",
+  "live_url": "https://www.gets.govt.nz/ExternalIndex.htm",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 25
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_001",
+      "fields": {
+        "rfx_id": {
+          "value": "33864496",
+          "normalized": "33864496"
+        },
+        "reference": {
+          "value": "33864496",
+          "normalized": "33864496"
+        },
+        "tender_title": {
+          "value": "Uncrewed Systems and Counter Uncrewed Systems (UxS/C-UxS)",
+          "normalized": "Uncrewed Systems and Counter Uncrewed Systems (UxS/C-UxS)"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/NZDF/ExternalTenderDetails.htm?id=33864496",
+          "normalized": "https://www.gets.govt.nz/NZDF/ExternalTenderDetails.htm?id=33864496"
+        },
+        "tender_type": {
+          "value": "RFI",
+          "normalized": "RFI"
+        },
+        "close_date": {
+          "value": "2:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-28T14:00:00"
+        },
+        "organisation": {
+          "value": "New Zealand Defence Force",
+          "normalized": "New Zealand Defence Force"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33864496 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33864496']/td[1]",
+          "text_quote": "33864496",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[3]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33864496 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33864496']/td[2]",
+          "text_quote": "33864496",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[3]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33864496 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33864496']/td[3]",
+          "text_quote": "Uncrewed Systems and Counter Uncrewed Systems (UxS/C-UxS)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[3]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33864496 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33864496']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/NZDF/ExternalTenderDetails.htm?id=33864496",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[3]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33864496 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33864496']/td[4]",
+          "text_quote": "RFI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[3]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33864496 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33864496']/td[5]",
+          "text_quote": "2:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[3]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33864496 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33864496']/td[6]",
+          "text_quote": "New Zealand Defence Force",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[3]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(3) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_002",
+      "fields": {
+        "rfx_id": {
+          "value": "33935206",
+          "normalized": "33935206"
+        },
+        "reference": {
+          "value": "12011",
+          "normalized": "12011"
+        },
+        "tender_title": {
+          "value": "Moana Pool Heat Recovery System",
+          "normalized": "Moana Pool Heat Recovery System"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/DCC/ExternalTenderDetails.htm?id=33935206",
+          "normalized": "https://www.gets.govt.nz/DCC/ExternalTenderDetails.htm?id=33935206"
+        },
+        "tender_type": {
+          "value": "RFP",
+          "normalized": "RFP"
+        },
+        "close_date": {
+          "value": "4:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-28T16:00:00"
+        },
+        "organisation": {
+          "value": "Dunedin City Council",
+          "normalized": "Dunedin City Council"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33935206 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33935206']/td[1]",
+          "text_quote": "33935206",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[4]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33935206 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33935206']/td[2]",
+          "text_quote": "12011",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[4]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33935206 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33935206']/td[3]",
+          "text_quote": "Moana Pool Heat Recovery System",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[4]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33935206 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33935206']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/DCC/ExternalTenderDetails.htm?id=33935206",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[4]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33935206 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33935206']/td[4]",
+          "text_quote": "RFP",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[4]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33935206 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33935206']/td[5]",
+          "text_quote": "4:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[4]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33935206 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33935206']/td[6]",
+          "text_quote": "Dunedin City Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[4]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_003",
+      "fields": {
+        "rfx_id": {
+          "value": "33997733",
+          "normalized": "33997733"
+        },
+        "reference": {
+          "value": "26-010",
+          "normalized": "26-010"
+        },
+        "tender_title": {
+          "value": "26 010 RLC Traffic Signs & Street Furniture 2026",
+          "normalized": "26 010 RLC Traffic Signs & Street Furniture 2026"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/ROTDC/ExternalTenderDetails.htm?id=33997733",
+          "normalized": "https://www.gets.govt.nz/ROTDC/ExternalTenderDetails.htm?id=33997733"
+        },
+        "tender_type": {
+          "value": "RFT",
+          "normalized": "RFT"
+        },
+        "close_date": {
+          "value": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-28T17:00:00"
+        },
+        "organisation": {
+          "value": "Rotorua District Council",
+          "normalized": "Rotorua District Council"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33997733 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33997733']/td[1]",
+          "text_quote": "33997733",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[5]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33997733 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33997733']/td[2]",
+          "text_quote": "26-010",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[5]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33997733 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33997733']/td[3]",
+          "text_quote": "26 010 RLC Traffic Signs & Street Furniture 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[5]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33997733 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33997733']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/ROTDC/ExternalTenderDetails.htm?id=33997733",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[5]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33997733 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33997733']/td[4]",
+          "text_quote": "RFT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[5]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33997733 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33997733']/td[5]",
+          "text_quote": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[5]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33997733 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33997733']/td[6]",
+          "text_quote": "Rotorua District Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[5]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(5) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_004",
+      "fields": {
+        "rfx_id": {
+          "value": "34095400",
+          "normalized": "34095400"
+        },
+        "reference": {
+          "value": "C-25-169",
+          "normalized": "C-25-169"
+        },
+        "tender_title": {
+          "value": "3 Waters Operations & Maintenance Contract 2027 -  Notice of Postponement",
+          "normalized": "3 Waters Operations & Maintenance Contract 2027 -  Notice of Postponement"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/QLDC/ExternalTenderDetails.htm?id=34095400",
+          "normalized": "https://www.gets.govt.nz/QLDC/ExternalTenderDetails.htm?id=34095400"
+        },
+        "tender_type": {
+          "value": "NOI",
+          "normalized": "NOI"
+        },
+        "close_date": {
+          "value": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-28T17:00:00"
+        },
+        "organisation": {
+          "value": "Queenstown-Lakes District Council",
+          "normalized": "Queenstown-Lakes District Council"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095400 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34095400']/td[1]",
+          "text_quote": "34095400",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[6]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(6) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095400 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34095400']/td[2]",
+          "text_quote": "C-25-169",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[6]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(6) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095400 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34095400']/td[3]",
+          "text_quote": "3 Waters Operations & Maintenance Contract 2027 -  Notice of Postponement",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[6]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(6) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095400 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34095400']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/QLDC/ExternalTenderDetails.htm?id=34095400",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[6]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(6) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095400 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34095400']/td[4]",
+          "text_quote": "NOI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[6]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(6) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095400 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34095400']/td[5]",
+          "text_quote": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[6]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(6) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095400 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34095400']/td[6]",
+          "text_quote": "Queenstown-Lakes District Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[6]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(6) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_005",
+      "fields": {
+        "rfx_id": {
+          "value": "34095100",
+          "normalized": "34095100"
+        },
+        "reference": {
+          "value": "HCCANMAY2026PSP",
+          "normalized": "HCCANMAY2026PSP"
+        },
+        "tender_title": {
+          "value": "Advance Notice of Procurement-HCC Professional Services Panel",
+          "normalized": "Advance Notice of Procurement-HCC Professional Services Panel"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/HCC/ExternalTenderDetails.htm?id=34095100",
+          "normalized": "https://www.gets.govt.nz/HCC/ExternalTenderDetails.htm?id=34095100"
+        },
+        "tender_type": {
+          "value": "NOI",
+          "normalized": "NOI"
+        },
+        "close_date": {
+          "value": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-28T17:00:00"
+        },
+        "organisation": {
+          "value": "Hutt City Council",
+          "normalized": "Hutt City Council"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095100 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34095100']/td[1]",
+          "text_quote": "34095100",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[7]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(7) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095100 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34095100']/td[2]",
+          "text_quote": "HCCANMAY2026PSP",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[7]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095100 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34095100']/td[3]",
+          "text_quote": "Advance Notice of Procurement-HCC Professional Services Panel",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[7]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(7) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095100 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34095100']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/HCC/ExternalTenderDetails.htm?id=34095100",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[7]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(7) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095100 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34095100']/td[4]",
+          "text_quote": "NOI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[7]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(7) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095100 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34095100']/td[5]",
+          "text_quote": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[7]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(7) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095100 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34095100']/td[6]",
+          "text_quote": "Hutt City Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[7]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(7) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_006",
+      "fields": {
+        "rfx_id": {
+          "value": "34095270",
+          "normalized": "34095270"
+        },
+        "reference": {
+          "value": "HCCANMAY2026SMO",
+          "normalized": "HCCANMAY2026SMO"
+        },
+        "tender_title": {
+          "value": "Advance Notice of Procurement-HCC Saturday Market Operator",
+          "normalized": "Advance Notice of Procurement-HCC Saturday Market Operator"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/HCC/ExternalTenderDetails.htm?id=34095270",
+          "normalized": "https://www.gets.govt.nz/HCC/ExternalTenderDetails.htm?id=34095270"
+        },
+        "tender_type": {
+          "value": "NOI",
+          "normalized": "NOI"
+        },
+        "close_date": {
+          "value": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-28T17:00:00"
+        },
+        "organisation": {
+          "value": "Hutt City Council",
+          "normalized": "Hutt City Council"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095270 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34095270']/td[1]",
+          "text_quote": "34095270",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[8]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(8) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095270 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34095270']/td[2]",
+          "text_quote": "HCCANMAY2026SMO",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[8]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095270 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34095270']/td[3]",
+          "text_quote": "Advance Notice of Procurement-HCC Saturday Market Operator",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[8]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(8) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095270 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34095270']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/HCC/ExternalTenderDetails.htm?id=34095270",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[8]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(8) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095270 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34095270']/td[4]",
+          "text_quote": "NOI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[8]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(8) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095270 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34095270']/td[5]",
+          "text_quote": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[8]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(8) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34095270 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34095270']/td[6]",
+          "text_quote": "Hutt City Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[8]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(8) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_007",
+      "fields": {
+        "rfx_id": {
+          "value": "33929641",
+          "normalized": "33929641"
+        },
+        "reference": {
+          "value": "ACT-0102882",
+          "normalized": "ACT-0102882"
+        },
+        "tender_title": {
+          "value": "Kiribati Health Sector Support Programme",
+          "normalized": "Kiribati Health Sector Support Programme"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MFAT/ExternalTenderDetails.htm?id=33929641",
+          "normalized": "https://www.gets.govt.nz/MFAT/ExternalTenderDetails.htm?id=33929641"
+        },
+        "tender_type": {
+          "value": "NOI",
+          "normalized": "NOI"
+        },
+        "close_date": {
+          "value": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-28T17:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Foreign Affairs and Trade",
+          "normalized": "Ministry of Foreign Affairs and Trade"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33929641 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33929641']/td[1]",
+          "text_quote": "33929641",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[9]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(9) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33929641 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33929641']/td[2]",
+          "text_quote": "ACT-0102882",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[9]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33929641 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33929641']/td[3]",
+          "text_quote": "Kiribati Health Sector Support Programme",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[9]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(9) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33929641 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33929641']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MFAT/ExternalTenderDetails.htm?id=33929641",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[9]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(9) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33929641 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33929641']/td[4]",
+          "text_quote": "NOI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[9]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(9) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33929641 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33929641']/td[5]",
+          "text_quote": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[9]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(9) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33929641 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33929641']/td[6]",
+          "text_quote": "Ministry of Foreign Affairs and Trade",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[9]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(9) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_008",
+      "fields": {
+        "rfx_id": {
+          "value": "34050764",
+          "normalized": "34050764"
+        },
+        "reference": {
+          "value": "26-46",
+          "normalized": "26-46"
+        },
+        "tender_title": {
+          "value": "Taruheru Cycle Walkway - Professional Services Phase 1",
+          "normalized": "Taruheru Cycle Walkway - Professional Services Phase 1"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/GDC/ExternalTenderDetails.htm?id=34050764",
+          "normalized": "https://www.gets.govt.nz/GDC/ExternalTenderDetails.htm?id=34050764"
+        },
+        "tender_type": {
+          "value": "ROI",
+          "normalized": "ROI"
+        },
+        "close_date": {
+          "value": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-28T17:00:00"
+        },
+        "organisation": {
+          "value": "Gisborne District Council",
+          "normalized": "Gisborne District Council"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34050764 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34050764']/td[1]",
+          "text_quote": "34050764",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[10]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(10) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34050764 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34050764']/td[2]",
+          "text_quote": "26-46",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[10]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(10) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34050764 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34050764']/td[3]",
+          "text_quote": "Taruheru Cycle Walkway - Professional Services Phase 1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[10]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(10) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34050764 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34050764']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/GDC/ExternalTenderDetails.htm?id=34050764",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[10]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(10) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34050764 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34050764']/td[4]",
+          "text_quote": "ROI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[10]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(10) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34050764 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34050764']/td[5]",
+          "text_quote": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[10]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(10) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34050764 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34050764']/td[6]",
+          "text_quote": "Gisborne District Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[10]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(10) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_009",
+      "fields": {
+        "rfx_id": {
+          "value": "33995726",
+          "normalized": "33995726"
+        },
+        "reference": {
+          "value": "[None]",
+          "normalized": "[None]"
+        },
+        "tender_title": {
+          "value": "Tauhara College - Boundary Fencing project",
+          "normalized": "Tauhara College - Boundary Fencing project"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=33995726",
+          "normalized": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=33995726"
+        },
+        "tender_type": {
+          "value": "RFT",
+          "normalized": "RFT"
+        },
+        "close_date": {
+          "value": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-28T17:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Education - School Infrastructure",
+          "normalized": "Ministry of Education - School Infrastructure"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995726 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33995726']/td[1]",
+          "text_quote": "33995726",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[11]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(11) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995726 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33995726']/td[2]",
+          "text_quote": "[None]",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[11]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(11) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995726 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33995726']/td[3]",
+          "text_quote": "Tauhara College - Boundary Fencing project",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[11]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(11) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995726 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33995726']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=33995726",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[11]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(11) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995726 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33995726']/td[4]",
+          "text_quote": "RFT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[11]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(11) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995726 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33995726']/td[5]",
+          "text_quote": "5:00 PM 28 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[11]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(11) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995726 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33995726']/td[6]",
+          "text_quote": "Ministry of Education - School Infrastructure",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[11]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(11) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_010",
+      "fields": {
+        "rfx_id": {
+          "value": "34048938",
+          "normalized": "34048938"
+        },
+        "reference": {
+          "value": "[None]",
+          "normalized": "[None]"
+        },
+        "tender_title": {
+          "value": "Commercial Cleaning Services",
+          "normalized": "Commercial Cleaning Services"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MSD/ExternalTenderDetails.htm?id=34048938",
+          "normalized": "https://www.gets.govt.nz/MSD/ExternalTenderDetails.htm?id=34048938"
+        },
+        "tender_type": {
+          "value": "RFI",
+          "normalized": "RFI"
+        },
+        "close_date": {
+          "value": "12:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T12:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Social Development",
+          "normalized": "Ministry of Social Development"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34048938 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34048938']/td[1]",
+          "text_quote": "34048938",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[12]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(12) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34048938 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34048938']/td[2]",
+          "text_quote": "[None]",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[12]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(12) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34048938 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34048938']/td[3]",
+          "text_quote": "Commercial Cleaning Services",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[12]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(12) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34048938 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34048938']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MSD/ExternalTenderDetails.htm?id=34048938",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[12]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(12) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34048938 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34048938']/td[4]",
+          "text_quote": "RFI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[12]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(12) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34048938 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34048938']/td[5]",
+          "text_quote": "12:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[12]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(12) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34048938 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34048938']/td[6]",
+          "text_quote": "Ministry of Social Development",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[12]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(12) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_011",
+      "fields": {
+        "rfx_id": {
+          "value": "33959843",
+          "normalized": "33959843"
+        },
+        "reference": {
+          "value": "7-25-142",
+          "normalized": "7-25-142"
+        },
+        "tender_title": {
+          "value": "Hokianga Ferry Ramp Repairs: Rawene and the Narrows",
+          "normalized": "Hokianga Ferry Ramp Repairs: Rawene and the Narrows"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/fndc/ExternalTenderDetails.htm?id=33959843",
+          "normalized": "https://www.gets.govt.nz/fndc/ExternalTenderDetails.htm?id=33959843"
+        },
+        "tender_type": {
+          "value": "RFT",
+          "normalized": "RFT"
+        },
+        "close_date": {
+          "value": "3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T15:00:00"
+        },
+        "organisation": {
+          "value": "Far North District Council",
+          "normalized": "Far North District Council"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33959843 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33959843']/td[1]",
+          "text_quote": "33959843",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[13]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(13) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33959843 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33959843']/td[2]",
+          "text_quote": "7-25-142",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[13]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(13) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33959843 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33959843']/td[3]",
+          "text_quote": "Hokianga Ferry Ramp Repairs: Rawene and the Narrows",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[13]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(13) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33959843 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33959843']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/fndc/ExternalTenderDetails.htm?id=33959843",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[13]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(13) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33959843 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33959843']/td[4]",
+          "text_quote": "RFT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[13]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(13) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33959843 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33959843']/td[5]",
+          "text_quote": "3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[13]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(13) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33959843 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33959843']/td[6]",
+          "text_quote": "Far North District Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[13]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(13) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_012",
+      "fields": {
+        "rfx_id": {
+          "value": "33809999",
+          "normalized": "33809999"
+        },
+        "reference": {
+          "value": "[None]",
+          "normalized": "[None]"
+        },
+        "tender_title": {
+          "value": "Market Operation Service Providers (MOSP) Services \u2013 2027 Procurement",
+          "normalized": "Market Operation Service Providers (MOSP) Services \u2013 2027 Procurement"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/EA/ExternalTenderDetails.htm?id=33809999",
+          "normalized": "https://www.gets.govt.nz/EA/ExternalTenderDetails.htm?id=33809999"
+        },
+        "tender_type": {
+          "value": "NOI",
+          "normalized": "NOI"
+        },
+        "close_date": {
+          "value": "3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T15:00:00"
+        },
+        "organisation": {
+          "value": "Electricity Authority",
+          "normalized": "Electricity Authority"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33809999 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33809999']/td[1]",
+          "text_quote": "33809999",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[14]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(14) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33809999 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33809999']/td[2]",
+          "text_quote": "[None]",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[14]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(14) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33809999 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33809999']/td[3]",
+          "text_quote": "Market Operation Service Providers (MOSP) Services \u2013 2027 Procurement",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[14]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(14) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33809999 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33809999']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/EA/ExternalTenderDetails.htm?id=33809999",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[14]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(14) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33809999 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33809999']/td[4]",
+          "text_quote": "NOI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[14]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(14) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33809999 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33809999']/td[5]",
+          "text_quote": "3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[14]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(14) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33809999 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33809999']/td[6]",
+          "text_quote": "Electricity Authority",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[14]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(14) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_013",
+      "fields": {
+        "rfx_id": {
+          "value": "34062593",
+          "normalized": "34062593"
+        },
+        "reference": {
+          "value": "TN/26/29",
+          "normalized": "TN/26/29"
+        },
+        "tender_title": {
+          "value": "Taupo Police Base Mechanical Upgrade",
+          "normalized": "Taupo Police Base Mechanical Upgrade"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/NZP/ExternalTenderDetails.htm?id=34062593",
+          "normalized": "https://www.gets.govt.nz/NZP/ExternalTenderDetails.htm?id=34062593"
+        },
+        "tender_type": {
+          "value": "RFT",
+          "normalized": "RFT"
+        },
+        "close_date": {
+          "value": "3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T15:00:00"
+        },
+        "organisation": {
+          "value": "New Zealand Police",
+          "normalized": "New Zealand Police"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34062593 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34062593']/td[1]",
+          "text_quote": "34062593",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[15]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(15) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34062593 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34062593']/td[2]",
+          "text_quote": "TN/26/29",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[15]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(15) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34062593 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34062593']/td[3]",
+          "text_quote": "Taupo Police Base Mechanical Upgrade",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[15]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(15) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34062593 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34062593']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/NZP/ExternalTenderDetails.htm?id=34062593",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[15]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(15) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34062593 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34062593']/td[4]",
+          "text_quote": "RFT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[15]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(15) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34062593 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34062593']/td[5]",
+          "text_quote": "3:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[15]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(15) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34062593 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34062593']/td[6]",
+          "text_quote": "New Zealand Police",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[15]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(15) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_014",
+      "fields": {
+        "rfx_id": {
+          "value": "33995353",
+          "normalized": "33995353"
+        },
+        "reference": {
+          "value": "ODC C4/442",
+          "normalized": "ODC C4/442"
+        },
+        "tender_title": {
+          "value": "ODC Cont 276  Corporate Office, Chambers &Facilities Cleaning & Hygiene Services 2026",
+          "normalized": "ODC Cont 276  Corporate Office, Chambers &Facilities Cleaning & Hygiene Services 2026"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/ODC/ExternalTenderDetails.htm?id=33995353",
+          "normalized": "https://www.gets.govt.nz/ODC/ExternalTenderDetails.htm?id=33995353"
+        },
+        "tender_type": {
+          "value": "RFT",
+          "normalized": "RFT"
+        },
+        "close_date": {
+          "value": "4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T16:00:00"
+        },
+        "organisation": {
+          "value": "Opotiki District Council",
+          "normalized": "Opotiki District Council"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995353 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33995353']/td[1]",
+          "text_quote": "33995353",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[16]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(16) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995353 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33995353']/td[2]",
+          "text_quote": "ODC C4/442",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[16]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(16) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995353 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33995353']/td[3]",
+          "text_quote": "ODC Cont 276  Corporate Office, Chambers &Facilities Cleaning & Hygiene Services 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[16]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(16) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995353 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33995353']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/ODC/ExternalTenderDetails.htm?id=33995353",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[16]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(16) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995353 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33995353']/td[4]",
+          "text_quote": "RFT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[16]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(16) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995353 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33995353']/td[5]",
+          "text_quote": "4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[16]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(16) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33995353 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33995353']/td[6]",
+          "text_quote": "Opotiki District Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[16]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(16) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_015",
+      "fields": {
+        "rfx_id": {
+          "value": "33776591",
+          "normalized": "33776591"
+        },
+        "reference": {
+          "value": "26-338-CPT",
+          "normalized": "26-338-CPT"
+        },
+        "tender_title": {
+          "value": "Rosedale Upgrade Programme Solids Stream Upgrade (THP)",
+          "normalized": "Rosedale Upgrade Programme Solids Stream Upgrade (THP)"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/WSL/ExternalTenderDetails.htm?id=33776591",
+          "normalized": "https://www.gets.govt.nz/WSL/ExternalTenderDetails.htm?id=33776591"
+        },
+        "tender_type": {
+          "value": "ROI",
+          "normalized": "ROI"
+        },
+        "close_date": {
+          "value": "4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T16:00:00"
+        },
+        "organisation": {
+          "value": "WaterCare Services Ltd",
+          "normalized": "WaterCare Services Ltd"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33776591 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33776591']/td[1]",
+          "text_quote": "33776591",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[17]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(17) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33776591 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33776591']/td[2]",
+          "text_quote": "26-338-CPT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[17]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(17) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33776591 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33776591']/td[3]",
+          "text_quote": "Rosedale Upgrade Programme Solids Stream Upgrade (THP)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[17]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(17) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33776591 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33776591']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/WSL/ExternalTenderDetails.htm?id=33776591",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[17]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(17) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33776591 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33776591']/td[4]",
+          "text_quote": "ROI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[17]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(17) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33776591 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33776591']/td[5]",
+          "text_quote": "4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[17]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(17) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33776591 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33776591']/td[6]",
+          "text_quote": "WaterCare Services Ltd",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[17]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(17) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_016",
+      "fields": {
+        "rfx_id": {
+          "value": "34042583",
+          "normalized": "34042583"
+        },
+        "reference": {
+          "value": "RPCH",
+          "normalized": "RPCH"
+        },
+        "tender_title": {
+          "value": "RPCH Rivers Biosecurity Coast and Harbours Panel",
+          "normalized": "RPCH Rivers Biosecurity Coast and Harbours Panel"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/CRC/ExternalTenderDetails.htm?id=34042583",
+          "normalized": "https://www.gets.govt.nz/CRC/ExternalTenderDetails.htm?id=34042583"
+        },
+        "tender_type": {
+          "value": "ROI",
+          "normalized": "ROI"
+        },
+        "close_date": {
+          "value": "4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T16:00:00"
+        },
+        "organisation": {
+          "value": "Environment Canterbury",
+          "normalized": "Environment Canterbury"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34042583 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34042583']/td[1]",
+          "text_quote": "34042583",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[18]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(18) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34042583 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34042583']/td[2]",
+          "text_quote": "RPCH",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[18]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(18) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34042583 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34042583']/td[3]",
+          "text_quote": "RPCH Rivers Biosecurity Coast and Harbours Panel",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[18]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(18) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34042583 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34042583']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/CRC/ExternalTenderDetails.htm?id=34042583",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[18]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(18) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34042583 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34042583']/td[4]",
+          "text_quote": "ROI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[18]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(18) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34042583 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34042583']/td[5]",
+          "text_quote": "4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[18]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(18) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34042583 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34042583']/td[6]",
+          "text_quote": "Environment Canterbury",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[18]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(18) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_017",
+      "fields": {
+        "rfx_id": {
+          "value": "33991836",
+          "normalized": "33991836"
+        },
+        "reference": {
+          "value": "[None]",
+          "normalized": "[None]"
+        },
+        "tender_title": {
+          "value": "Tuku Rauemi: regional partnerships",
+          "normalized": "Tuku Rauemi: regional partnerships"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/CRNZ/ExternalTenderDetails.htm?id=33991836",
+          "normalized": "https://www.gets.govt.nz/CRNZ/ExternalTenderDetails.htm?id=33991836"
+        },
+        "tender_type": {
+          "value": "ROI",
+          "normalized": "ROI"
+        },
+        "close_date": {
+          "value": "4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T16:00:00"
+        },
+        "organisation": {
+          "value": "Creative New Zealand",
+          "normalized": "Creative New Zealand"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33991836 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33991836']/td[1]",
+          "text_quote": "33991836",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[19]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(19) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33991836 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33991836']/td[2]",
+          "text_quote": "[None]",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[19]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(19) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33991836 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33991836']/td[3]",
+          "text_quote": "Tuku Rauemi: regional partnerships",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[19]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(19) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33991836 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33991836']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/CRNZ/ExternalTenderDetails.htm?id=33991836",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[19]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(19) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33991836 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33991836']/td[4]",
+          "text_quote": "ROI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[19]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(19) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33991836 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33991836']/td[5]",
+          "text_quote": "4:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[19]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(19) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33991836 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33991836']/td[6]",
+          "text_quote": "Creative New Zealand",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[19]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(19) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_018",
+      "fields": {
+        "rfx_id": {
+          "value": "33952849",
+          "normalized": "33952849"
+        },
+        "reference": {
+          "value": "230204",
+          "normalized": "230204"
+        },
+        "tender_title": {
+          "value": "(3115) Te Wharekura o Te Rau Aroha \u2013 #230204 C: DQLS upgrade",
+          "normalized": "(3115) Te Wharekura o Te Rau Aroha \u2013 #230204 C: DQLS upgrade"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=33952849",
+          "normalized": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=33952849"
+        },
+        "tender_type": {
+          "value": "RFQ",
+          "normalized": "RFQ"
+        },
+        "close_date": {
+          "value": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T17:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Education - School Infrastructure",
+          "normalized": "Ministry of Education - School Infrastructure"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33952849 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33952849']/td[1]",
+          "text_quote": "33952849",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[20]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(20) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33952849 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33952849']/td[2]",
+          "text_quote": "230204",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[20]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(20) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33952849 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33952849']/td[3]",
+          "text_quote": "(3115) Te Wharekura o Te Rau Aroha \u2013 #230204 C: DQLS upgrade",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[20]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(20) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33952849 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33952849']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=33952849",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[20]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(20) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33952849 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33952849']/td[4]",
+          "text_quote": "RFQ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[20]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(20) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33952849 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33952849']/td[5]",
+          "text_quote": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[20]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(20) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33952849 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33952849']/td[6]",
+          "text_quote": "Ministry of Education - School Infrastructure",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[20]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(20) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_019",
+      "fields": {
+        "rfx_id": {
+          "value": "33849790",
+          "normalized": "33849790"
+        },
+        "reference": {
+          "value": "WPG-0105447",
+          "normalized": "WPG-0105447"
+        },
+        "tender_title": {
+          "value": "Community Policing Support Timor-Leste",
+          "normalized": "Community Policing Support Timor-Leste"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MFAT/ExternalTenderDetails.htm?id=33849790",
+          "normalized": "https://www.gets.govt.nz/MFAT/ExternalTenderDetails.htm?id=33849790"
+        },
+        "tender_type": {
+          "value": "NOI",
+          "normalized": "NOI"
+        },
+        "close_date": {
+          "value": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T17:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Foreign Affairs and Trade",
+          "normalized": "Ministry of Foreign Affairs and Trade"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33849790 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33849790']/td[1]",
+          "text_quote": "33849790",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[21]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(21) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33849790 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33849790']/td[2]",
+          "text_quote": "WPG-0105447",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[21]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(21) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33849790 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33849790']/td[3]",
+          "text_quote": "Community Policing Support Timor-Leste",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[21]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(21) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33849790 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33849790']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MFAT/ExternalTenderDetails.htm?id=33849790",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[21]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(21) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33849790 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33849790']/td[4]",
+          "text_quote": "NOI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[21]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(21) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33849790 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33849790']/td[5]",
+          "text_quote": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[21]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(21) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33849790 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33849790']/td[6]",
+          "text_quote": "Ministry of Foreign Affairs and Trade",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[21]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(21) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_020",
+      "fields": {
+        "rfx_id": {
+          "value": "34011584",
+          "normalized": "34011584"
+        },
+        "reference": {
+          "value": "Rawhitiroa School",
+          "normalized": "Rawhitiroa School"
+        },
+        "tender_title": {
+          "value": "Main Building Contractor for Alterations & refurbishment for AMS Spaces and LSC Space at Rawhitiroa School, Taranaki",
+          "normalized": "Main Building Contractor for Alterations & refurbishment for AMS Spaces and LSC Space at Rawhitiroa School, Taranaki"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34011584",
+          "normalized": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34011584"
+        },
+        "tender_type": {
+          "value": "RFT",
+          "normalized": "RFT"
+        },
+        "close_date": {
+          "value": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T17:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Education - School Infrastructure",
+          "normalized": "Ministry of Education - School Infrastructure"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011584 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34011584']/td[1]",
+          "text_quote": "34011584",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[22]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(22) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011584 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34011584']/td[2]",
+          "text_quote": "Rawhitiroa School",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[22]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(22) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011584 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34011584']/td[3]",
+          "text_quote": "Main Building Contractor for Alterations & refurbishment for AMS Spaces and LSC Space at Rawhitiroa School, Taranaki",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[22]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(22) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011584 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34011584']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34011584",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[22]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(22) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011584 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34011584']/td[4]",
+          "text_quote": "RFT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[22]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(22) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011584 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34011584']/td[5]",
+          "text_quote": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[22]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(22) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011584 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34011584']/td[6]",
+          "text_quote": "Ministry of Education - School Infrastructure",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[22]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(22) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_021",
+      "fields": {
+        "rfx_id": {
+          "value": "34011114",
+          "normalized": "34011114"
+        },
+        "reference": {
+          "value": "[None]",
+          "normalized": "[None]"
+        },
+        "tender_title": {
+          "value": "Main Contractor for Block 1 Roofing Replacement at Glendene School",
+          "normalized": "Main Contractor for Block 1 Roofing Replacement at Glendene School"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34011114",
+          "normalized": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34011114"
+        },
+        "tender_type": {
+          "value": "RFT",
+          "normalized": "RFT"
+        },
+        "close_date": {
+          "value": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T17:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Education - School Infrastructure",
+          "normalized": "Ministry of Education - School Infrastructure"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011114 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34011114']/td[1]",
+          "text_quote": "34011114",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[23]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(23) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011114 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34011114']/td[2]",
+          "text_quote": "[None]",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[23]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(23) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011114 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34011114']/td[3]",
+          "text_quote": "Main Contractor for Block 1 Roofing Replacement at Glendene School",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[23]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(23) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011114 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34011114']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34011114",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[23]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(23) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011114 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34011114']/td[4]",
+          "text_quote": "RFT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[23]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(23) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011114 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34011114']/td[5]",
+          "text_quote": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[23]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(23) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34011114 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34011114']/td[6]",
+          "text_quote": "Ministry of Education - School Infrastructure",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[23]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(23) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_022",
+      "fields": {
+        "rfx_id": {
+          "value": "34012517",
+          "normalized": "34012517"
+        },
+        "reference": {
+          "value": "[None]",
+          "normalized": "[None]"
+        },
+        "tender_title": {
+          "value": "Main Contractor for Design, Supply and Install of Shade Structure at Pasadena Intermediate School",
+          "normalized": "Main Contractor for Design, Supply and Install of Shade Structure at Pasadena Intermediate School"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34012517",
+          "normalized": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34012517"
+        },
+        "tender_type": {
+          "value": "RFT",
+          "normalized": "RFT"
+        },
+        "close_date": {
+          "value": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T17:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Education - School Infrastructure",
+          "normalized": "Ministry of Education - School Infrastructure"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34012517 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34012517']/td[1]",
+          "text_quote": "34012517",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[24]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(24) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34012517 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34012517']/td[2]",
+          "text_quote": "[None]",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[24]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(24) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34012517 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34012517']/td[3]",
+          "text_quote": "Main Contractor for Design, Supply and Install of Shade Structure at Pasadena Intermediate School",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[24]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(24) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34012517 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34012517']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34012517",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[24]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(24) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34012517 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34012517']/td[4]",
+          "text_quote": "RFT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[24]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(24) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34012517 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34012517']/td[5]",
+          "text_quote": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[24]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(24) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34012517 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34012517']/td[6]",
+          "text_quote": "Ministry of Education - School Infrastructure",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[24]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(24) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_023",
+      "fields": {
+        "rfx_id": {
+          "value": "33895043",
+          "normalized": "33895043"
+        },
+        "reference": {
+          "value": "Pro_4573",
+          "normalized": "Pro_4573"
+        },
+        "tender_title": {
+          "value": "Mission Command Training Facility at Linton Military Camp",
+          "normalized": "Mission Command Training Facility at Linton Military Camp"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/NZDF/ExternalTenderDetails.htm?id=33895043",
+          "normalized": "https://www.gets.govt.nz/NZDF/ExternalTenderDetails.htm?id=33895043"
+        },
+        "tender_type": {
+          "value": "NOI",
+          "normalized": "NOI"
+        },
+        "close_date": {
+          "value": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T17:00:00"
+        },
+        "organisation": {
+          "value": "New Zealand Defence Force",
+          "normalized": "New Zealand Defence Force"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33895043 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33895043']/td[1]",
+          "text_quote": "33895043",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[25]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(25) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33895043 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-33895043']/td[2]",
+          "text_quote": "Pro_4573",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[25]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(25) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33895043 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-33895043']/td[3]",
+          "text_quote": "Mission Command Training Facility at Linton Military Camp",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[25]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(25) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33895043 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-33895043']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/NZDF/ExternalTenderDetails.htm?id=33895043",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[25]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(25) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33895043 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-33895043']/td[4]",
+          "text_quote": "NOI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[25]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(25) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33895043 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-33895043']/td[5]",
+          "text_quote": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[25]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(25) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-33895043 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-33895043']/td[6]",
+          "text_quote": "New Zealand Defence Force",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[25]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(25) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_024",
+      "fields": {
+        "rfx_id": {
+          "value": "34108525",
+          "normalized": "34108525"
+        },
+        "reference": {
+          "value": "WS99581778",
+          "normalized": "WS99581778"
+        },
+        "tender_title": {
+          "value": "PLD for Support Staff working with Neurodiverse Students",
+          "normalized": "PLD for Support Staff working with Neurodiverse Students"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MEDU/ExternalTenderDetails.htm?id=34108525",
+          "normalized": "https://www.gets.govt.nz/MEDU/ExternalTenderDetails.htm?id=34108525"
+        },
+        "tender_type": {
+          "value": "RFI",
+          "normalized": "RFI"
+        },
+        "close_date": {
+          "value": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T17:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Education",
+          "normalized": "Ministry of Education"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34108525 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34108525']/td[1]",
+          "text_quote": "34108525",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[26]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(26) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34108525 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34108525']/td[2]",
+          "text_quote": "WS99581778",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[26]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(26) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34108525 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34108525']/td[3]",
+          "text_quote": "PLD for Support Staff working with Neurodiverse Students",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[26]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(26) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34108525 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34108525']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MEDU/ExternalTenderDetails.htm?id=34108525",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[26]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(26) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34108525 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34108525']/td[4]",
+          "text_quote": "RFI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[26]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(26) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34108525 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34108525']/td[5]",
+          "text_quote": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[26]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(26) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34108525 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34108525']/td[6]",
+          "text_quote": "Ministry of Education",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[26]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(26) > td:nth-of-type(6)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_GETS_001_LISTING_025",
+      "fields": {
+        "rfx_id": {
+          "value": "34039527",
+          "normalized": "34039527"
+        },
+        "reference": {
+          "value": "[None]",
+          "normalized": "[None]"
+        },
+        "tender_title": {
+          "value": "Registration of Interest (ROI) for an HVAC Contractor to replace and renew HVAC at Westlake Girls High School",
+          "normalized": "Registration of Interest (ROI) for an HVAC Contractor to replace and renew HVAC at Westlake Girls High School"
+        },
+        "tender_url": {
+          "value": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34039527",
+          "normalized": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34039527"
+        },
+        "tender_type": {
+          "value": "ROI",
+          "normalized": "ROI"
+        },
+        "close_date": {
+          "value": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "normalized": "2026-05-29T17:00:00"
+        },
+        "organisation": {
+          "value": "Ministry of Education - School Infrastructure",
+          "normalized": "Ministry of Education - School Infrastructure"
+        }
+      },
+      "provenance": {
+        "rfx_id": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34039527 > td:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34039527']/td[1]",
+          "text_quote": "34039527",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[27]/td[1]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(27) > td:nth-of-type(1)"
+        },
+        "reference": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34039527 > td:nth-of-type(2)",
+          "xpath": "//*[@id='tender-34039527']/td[2]",
+          "text_quote": "[None]",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[27]/td[2]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(27) > td:nth-of-type(2)"
+        },
+        "tender_title": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34039527 > td:nth-of-type(3)",
+          "xpath": "//*[@id='tender-34039527']/td[3]",
+          "text_quote": "Registration of Interest (ROI) for an HVAC Contractor to replace and renew HVAC at Westlake Girls High School",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[27]/td[3]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(27) > td:nth-of-type(3)"
+        },
+        "tender_url": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34039527 > td:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tender-34039527']/td[3]/a[1]",
+          "text_quote": "https://www.gets.govt.nz/MEDUR/ExternalTenderDetails.htm?id=34039527",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[27]/td[3]/a",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(27) > td:nth-of-type(3) > a"
+        },
+        "tender_type": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34039527 > td:nth-of-type(4)",
+          "xpath": "//*[@id='tender-34039527']/td[4]",
+          "text_quote": "ROI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[27]/td[4]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(27) > td:nth-of-type(4)"
+        },
+        "close_date": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34039527 > td:nth-of-type(5)",
+          "xpath": "//*[@id='tender-34039527']/td[5]",
+          "text_quote": "5:00 PM 29 May 2026 (Pacific/Auckland UTC+12:00)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[27]/td[5]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(27) > td:nth-of-type(5)"
+        },
+        "organisation": {
+          "snapshot_id": "gets_001_listing",
+          "css_selector": "tr#tender-34039527 > td:nth-of-type(6)",
+          "xpath": "//*[@id='tender-34039527']/td[6]",
+          "text_quote": "Ministry of Education - School Infrastructure",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/div[3]/div[1]/div[2]/div/table/tbody/tr[27]/td[6]",
+          "css_selector_absolute": "html > body > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(27) > td:nth-of-type(6)"
+        }
+      }
+    }
+  ]
+}

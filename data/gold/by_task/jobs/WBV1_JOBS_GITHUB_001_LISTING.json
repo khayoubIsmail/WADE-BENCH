@@ -1,0 +1,1029 @@
+{
+  "task_id": "WBV1_JOBS_GITHUB_001_LISTING",
+  "website_id": "github_careers",
+  "schema_id": "job_listing_v1",
+  "snapshot_id": "github_careers_listing",
+  "snapshot_path": "raw_snapshots/jobs/github_careers_listing",
+  "live_url": "https://www.github.careers/careers-home/jobs",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 10
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_001",
+      "fields": {
+        "job_title": {
+          "value": "Principal Software Engineer, Enterprise AI Platform",
+          "normalized": "Principal Software Engineer, Enterprise AI Platform"
+        },
+        "job_id": {
+          "value": "5481",
+          "normalized": "5481"
+        },
+        "location": {
+          "value": "United States",
+          "normalized": "United States"
+        },
+        "categories": {
+          "value": [
+            "Engineering"
+          ],
+          "normalized": [
+            "Engineering"
+          ]
+        },
+        "apply_url": {
+          "value": "https://careers-githubinc.icims.com/jobs/5481/login",
+          "normalized": "https://careers-githubinc.icims.com/jobs/5481/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-0 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-0']/span[1]",
+          "text_quote": "Principal Software Engineer, Enterprise AI Platform",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[1]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(1) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-0 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-0']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "5481",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[1]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(1) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-0 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-0']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "United States",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[1]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(1) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-0 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-0']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[1]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(1) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-0",
+          "xpath": "//*[@id='link-apply-0']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[1]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-0'][href='https://careers-githubinc.icims.com/jobs/5481/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-0 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-0']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[1]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(1) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_002",
+      "fields": {
+        "job_title": {
+          "value": "Principal Software Engineer, Identity",
+          "normalized": "Principal Software Engineer, Identity"
+        },
+        "job_id": {
+          "value": "5480",
+          "normalized": "5480"
+        },
+        "location": {
+          "value": "United States",
+          "normalized": "United States"
+        },
+        "categories": {
+          "value": [
+            "Engineering"
+          ],
+          "normalized": [
+            "Engineering"
+          ]
+        },
+        "apply_url": {
+          "value": "https://careers-githubinc.icims.com/jobs/5480/login",
+          "normalized": "https://careers-githubinc.icims.com/jobs/5480/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-1 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-1']/span[1]",
+          "text_quote": "Principal Software Engineer, Identity",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[2]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(2) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-1 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-1']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "5480",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[2]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(2) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-1 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-1']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "United States",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[2]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(2) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-1 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-1']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[2]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(2) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-1",
+          "xpath": "//*[@id='link-apply-1']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[2]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-1'][href='https://careers-githubinc.icims.com/jobs/5480/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-1 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-1']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[2]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(2) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_003",
+      "fields": {
+        "job_title": {
+          "value": "Software Engineer III",
+          "normalized": "Software Engineer III"
+        },
+        "job_id": {
+          "value": "5441",
+          "normalized": "5441"
+        },
+        "location": {
+          "value": "United States",
+          "normalized": "United States"
+        },
+        "categories": {
+          "value": [
+            "Engineering"
+          ],
+          "normalized": [
+            "Engineering"
+          ]
+        },
+        "apply_url": {
+          "value": "https://careers-githubinc.icims.com/jobs/5441/login",
+          "normalized": "https://careers-githubinc.icims.com/jobs/5441/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-2 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-2']/span[1]",
+          "text_quote": "Software Engineer III",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[3]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(3) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-2 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-2']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "5441",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[3]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(3) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-2 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-2']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "United States",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[3]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(3) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-2 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-2']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[3]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(3) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-2",
+          "xpath": "//*[@id='link-apply-2']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[3]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-2'][href='https://careers-githubinc.icims.com/jobs/5441/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-2 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-2']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[3]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(3) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_004",
+      "fields": {
+        "job_title": {
+          "value": "Corporate Partner Development Manager",
+          "normalized": "Corporate Partner Development Manager"
+        },
+        "job_id": {
+          "value": "4916",
+          "normalized": "4916"
+        },
+        "location": {
+          "value": "Japan",
+          "normalized": "Japan"
+        },
+        "categories": {
+          "value": [
+            "Revenue"
+          ],
+          "normalized": [
+            "Revenue"
+          ]
+        },
+        "apply_url": {
+          "value": "https://globalcareers-githubinc.icims.com/jobs/4916/login",
+          "normalized": "https://globalcareers-githubinc.icims.com/jobs/4916/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-3 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-3']/span[1]",
+          "text_quote": "Corporate Partner Development Manager",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[4]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(4) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-3 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-3']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "4916",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[4]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(4) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-3 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-3']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "Japan",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[4]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(4) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-3 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-3']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Revenue",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[4]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(4) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-3",
+          "xpath": "//*[@id='link-apply-3']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[4]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-3'][href='https://globalcareers-githubinc.icims.com/jobs/4916/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-3 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-3']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[4]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(4) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_005",
+      "fields": {
+        "job_title": {
+          "value": "Staff Software Engineer Cloud Foundations",
+          "normalized": "Staff Software Engineer Cloud Foundations"
+        },
+        "job_id": {
+          "value": "5418",
+          "normalized": "5418"
+        },
+        "location": {
+          "value": "United States",
+          "normalized": "United States"
+        },
+        "categories": {
+          "value": [
+            "Engineering"
+          ],
+          "normalized": [
+            "Engineering"
+          ]
+        },
+        "apply_url": {
+          "value": "https://careers-githubinc.icims.com/jobs/5418/login",
+          "normalized": "https://careers-githubinc.icims.com/jobs/5418/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-4 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-4']/span[1]",
+          "text_quote": "Staff Software Engineer Cloud Foundations",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[5]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(5) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-4 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-4']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "5418",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[5]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(5) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-4 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-4']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "United States",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[5]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(5) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-4 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-4']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[5]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(5) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-4",
+          "xpath": "//*[@id='link-apply-4']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[5]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-4'][href='https://careers-githubinc.icims.com/jobs/5418/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-4 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-4']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[5]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(5) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_006",
+      "fields": {
+        "job_title": {
+          "value": "Senior Software Engineer, Monolith Platform",
+          "normalized": "Senior Software Engineer, Monolith Platform"
+        },
+        "job_id": {
+          "value": "5457",
+          "normalized": "5457"
+        },
+        "location": {
+          "value": "United States",
+          "normalized": "United States"
+        },
+        "categories": {
+          "value": [
+            "Engineering"
+          ],
+          "normalized": [
+            "Engineering"
+          ]
+        },
+        "apply_url": {
+          "value": "https://careers-githubinc.icims.com/jobs/5457/login",
+          "normalized": "https://careers-githubinc.icims.com/jobs/5457/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-5 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-5']/span[1]",
+          "text_quote": "Senior Software Engineer, Monolith Platform",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[6]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(6) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-5 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-5']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "5457",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[6]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(6) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-5 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-5']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "United States",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[6]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(6) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-5 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-5']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[6]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(6) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-5",
+          "xpath": "//*[@id='link-apply-5']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[6]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-5'][href='https://careers-githubinc.icims.com/jobs/5457/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-5 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-5']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[6]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(6) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_007",
+      "fields": {
+        "job_title": {
+          "value": "Principal Engineering Manager",
+          "normalized": "Principal Engineering Manager"
+        },
+        "job_id": {
+          "value": "5138",
+          "normalized": "5138"
+        },
+        "location": {
+          "value": "United States",
+          "normalized": "United States"
+        },
+        "categories": {
+          "value": [
+            "Engineering"
+          ],
+          "normalized": [
+            "Engineering"
+          ]
+        },
+        "apply_url": {
+          "value": "https://careers-githubinc.icims.com/jobs/5138/login",
+          "normalized": "https://careers-githubinc.icims.com/jobs/5138/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-6 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-6']/span[1]",
+          "text_quote": "Principal Engineering Manager",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[7]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(7) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-6 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-6']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "5138",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[7]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(7) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-6 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-6']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "United States",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[7]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(7) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-6 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-6']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[7]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(7) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-6",
+          "xpath": "//*[@id='link-apply-6']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[7]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-6'][href='https://careers-githubinc.icims.com/jobs/5138/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-6 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-6']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[7]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(7) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_008",
+      "fields": {
+        "job_title": {
+          "value": "Sr. Mgr, Customer Success Architecture",
+          "normalized": "Sr. Mgr, Customer Success Architecture"
+        },
+        "job_id": {
+          "value": "5459",
+          "normalized": "5459"
+        },
+        "location": {
+          "value": "United States",
+          "normalized": "United States"
+        },
+        "categories": {
+          "value": [
+            "Customer Success"
+          ],
+          "normalized": [
+            "Customer Success"
+          ]
+        },
+        "apply_url": {
+          "value": "https://careers-githubinc.icims.com/jobs/5459/login",
+          "normalized": "https://careers-githubinc.icims.com/jobs/5459/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-7 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-7']/span[1]",
+          "text_quote": "Sr. Mgr, Customer Success Architecture",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[8]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(8) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-7 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-7']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "5459",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[8]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(8) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-7 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-7']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "United States",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[8]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(8) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-7 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-7']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Customer Success",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[8]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(8) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-7",
+          "xpath": "//*[@id='link-apply-7']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[8]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-7'][href='https://careers-githubinc.icims.com/jobs/5459/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-7 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-7']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[8]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(8) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_009",
+      "fields": {
+        "job_title": {
+          "value": "Staff Software Engineer, Git Storage",
+          "normalized": "Staff Software Engineer, Git Storage"
+        },
+        "job_id": {
+          "value": "5458",
+          "normalized": "5458"
+        },
+        "location": {
+          "value": "United Kingdom",
+          "normalized": "United Kingdom"
+        },
+        "categories": {
+          "value": [
+            "Engineering"
+          ],
+          "normalized": [
+            "Engineering"
+          ]
+        },
+        "apply_url": {
+          "value": "https://globalcareers-githubinc.icims.com/jobs/5458/login",
+          "normalized": "https://globalcareers-githubinc.icims.com/jobs/5458/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-8 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-8']/span[1]",
+          "text_quote": "Staff Software Engineer, Git Storage",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[9]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(9) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-8 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-8']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "5458",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[9]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(9) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-8 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-8']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "United Kingdom",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[9]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(9) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-8 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-8']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[9]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(9) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-8",
+          "xpath": "//*[@id='link-apply-8']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[9]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-8'][href='https://globalcareers-githubinc.icims.com/jobs/5458/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-8 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-8']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[9]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(9) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_GITHUB_001_LISTING_010",
+      "fields": {
+        "job_title": {
+          "value": "APAC Corporate Communications Manager",
+          "normalized": "APAC Corporate Communications Manager"
+        },
+        "job_id": {
+          "value": "5419",
+          "normalized": "5419"
+        },
+        "location": {
+          "value": "Australia",
+          "normalized": "Australia"
+        },
+        "categories": {
+          "value": [
+            "Communications"
+          ],
+          "normalized": [
+            "Communications"
+          ]
+        },
+        "apply_url": {
+          "value": "https://globalcareers-githubinc.icims.com/jobs/5419/login",
+          "normalized": "https://globalcareers-githubinc.icims.com/jobs/5419/login"
+        },
+        "work_arrangement": {
+          "value": "Remote",
+          "normalized": "remote"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-job-9 > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-job-9']/span[1]",
+          "text_quote": "APAC Corporate Communications Manager",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[10]/mat-expansion-panel-header/span[1]/mat-panel-title/p[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(10) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(1) > a > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_id": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-9 > span:nth-of-type(1) > mat-panel-title:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='mat-expansion-panel-header-9']/span[1]/mat-panel-title[1]/p[2]/span[1]",
+          "text_quote": "5419",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[10]/mat-expansion-panel-header/span[1]/mat-panel-title/p[2]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(10) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-title > p:nth-of-type(2) > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-9 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-9']/span[1]/mat-panel-description[1]/div[1]/span[1]/div[1]/p[1]/span[2]",
+          "text_quote": "Australia",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[10]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(10) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "categories": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "mat-expansion-panel-header#mat-expansion-panel-header-9 > span:nth-of-type(1) > mat-panel-description:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > span:nth-of-type(2)",
+          "xpath": "//*[@id='mat-expansion-panel-header-9']/span[1]/mat-panel-description[1]/div[1]/span[2]/div[1]/p[1]/span[2]",
+          "text_quote": "Communications",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[10]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[2]/div/p/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(10) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(2) > div > p > span:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_container_match"
+        },
+        "apply_url": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "a#link-apply-9",
+          "xpath": "//*[@id='link-apply-9']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[10]/mat-expansion-panel-header/span[1]/div/a",
+          "css_selector_absolute": "a[id='link-apply-9'][href='https://globalcareers-githubinc.icims.com/jobs/5419/login']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "work_arrangement": {
+          "snapshot_id": "github_careers_listing",
+          "css_selector": "span#link-location-9 > span:nth-of-type(1) > span:nth-of-type(1)",
+          "xpath": "//*[@id='link-location-9']/span[1]/span[1]",
+          "text_quote": "Remote",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/search-app/search-base-search-holder/search-results/div/div/div[2]/search-job-cards/mat-accordion/mat-expansion-panel[10]/mat-expansion-panel-header/span[1]/mat-panel-description/div/span[1]/div/p/span[3]/span/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > search-app > search-base-search-holder > search-results > div > div > div:nth-of-type(2) > search-job-cards > mat-accordion > mat-expansion-panel:nth-of-type(10) > mat-expansion-panel-header > span:nth-of-type(1) > mat-panel-description > div > span:nth-of-type(1) > div > p > span:nth-of-type(3) > span > span",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    }
+  ]
+}

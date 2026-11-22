@@ -1,0 +1,31 @@
+{
+  "task_id": "WBV1_GOV_UNGM_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "title": null,
+        "description": null,
+        "reference_number": "UNDP-FJI-00747,2",
+        "pays_territoire_beneficiaire": "Îles Salomon"
+      },
+      "provenance_key": "Abonnez-vous à UNGM Pro pour pouvoir enregistrer des opportunités d’achat.",
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 24.325,
+    "input_tokens": 60179,
+    "output_tokens": 125,
+    "total_tokens": 60304,
+    "repaired": false,
+    "error": null
+  }
+}

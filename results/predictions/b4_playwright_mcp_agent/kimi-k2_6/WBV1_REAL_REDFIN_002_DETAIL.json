@@ -1,0 +1,170 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662",
+        "address": "2749 Fish Ave, Bronx, NY 10469",
+        "price": {
+          "amount": 375000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "property_type": "Single-family",
+        "bedrooms": 3,
+        "bathrooms": 3.5,
+        "floor_area": {
+          "value": 2058,
+          "unit": "sq ft"
+        },
+        "status": "Pending",
+        "mls_number": "1005357",
+        "key_features": [
+          "Brick building with a garage and a covered porch.",
+          "Driveway parking for two vehicles.",
+          "One-car garage provides additional parking or storage.",
+          "Exterior brick façade complements the property's curb appeal."
+        ],
+        "listing_agent_name": "Tyrone Byrdsong",
+        "listing_office": "YourHomeSold Guaranteed Realty",
+        "open_house_schedule": [],
+        "description": "PENDING SHORT SALE APPROVAL - 3rd PARTY APPROVAL. NO ACCESS, NO INTERIOR SHOWINGS",
+        "published_date": "2026-05-27",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2749 Fish Ave, Bronx, NY 10469"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$375,000"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Single-family"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 bd"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3.5 ba"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2,058 sq ft"
+        },
+        "status": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "PENDING SHORT SALE APPROVAL"
+        },
+        "mls_number": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "#1005357"
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Brick building with a garage and a covered porch."
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Listing by Tyrone Byrdsong"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "YourHomeSold Guaranteed Realty"
+        },
+        "open_house_schedule": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "No upcoming open houses."
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "PENDING SHORT SALE APPROVAL - 3rd PARTY APPROVAL. NO ACCESS, NO INTERIOR SHOWINGS"
+        },
+        "published_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "May 27, 2026 at 04:29pm"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"2749 Fish Ave, Bronx, NY 10469\""
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 17.0,
+    "input_tokens": 23570,
+    "output_tokens": 802,
+    "total_tokens": 24372,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_REDFIN_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_REDFIN_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

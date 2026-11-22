@@ -1,0 +1,79 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3194923778",
+        "price": {
+          "amount": 269000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon (92320) Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "rooms": 3,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 43,
+          "unit": "m2"
+        },
+        "energy_rating": null,
+        "price_per_m2": {
+          "amount": 6256,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "listing_title": "Appartement 3 pièces 43 m²",
+        "description": "EXCLUSIVITE ACOR IMMOBILIER ! Votre Agence ACOR IMMOBILIER vous propose au pied du Tramway T6 PARC ANDRE MALRAUX, des commerces et du Centre Ville, des écoles, dans une copropriété avec le Charme de l'ancien en Molière, un appartement 2/3 pièces de 43 m2 en double exposition comprenant: une entrée, un séjour exposé plein Sud, une cuisine aménagée et équipée, une chambre , une bureau (ou petite chambre d'enfant), une salle d'eau, un wc séparé. Cet appartement en parf…",
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-thumb"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_office": "ACOR IMMOBILIER",
+        "additional_facilities": [
+          "Cuisine équipée",
+          "Cave",
+          "Interphone"
+        ],
+        "monthly_fees": null,
+        "total_price": null,
+        "status": null,
+        "published_date": null,
+        "open_house_schedule": null,
+        "key_features": null,
+        "mls_number": null,
+        "parking": null,
+        "tenure": null,
+        "sale_type": null,
+        "bathrooms_partial": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Appartement 3 pièces 43 m² 269 000 €",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 17.621,
+    "input_tokens": 25591,
+    "output_tokens": 524,
+    "total_tokens": 26115,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "task_id": "WBV1_ACAD_CERN_INDICO_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "The 2nd Seoul Particle Theory Workshop",
+        "event_start_date": "2026-05-22",
+        "event_end_date": "2026-05-31",
+        "event_url": null,
+        "location": "KIAS, Asia/Seoul",
+        "chairpersons": [
+          "Gilad Perez",
+          "Seung J. Lee",
+          "Taewook Youn"
+        ],
+        "organizer": "Taehun Kim (KIAS)",
+        "optional_excursions": "2026 Seoul Jazz Festival",
+        "website": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Conference information Date/Time Starts May 22, 2026, 9:00 AM Ends May 31, 2026, 3:00 PM All times are in Asia/Seoul Asia/Seoul Location KIAS 1503 Chairpersons Gilad Perez Seung J. Lee Taewook Youn"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 4.966,
+    "input_tokens": 9563,
+    "output_tokens": 275,
+    "total_tokens": 9838,
+    "repaired": false,
+    "error": null
+  }
+}

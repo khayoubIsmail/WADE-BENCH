@@ -1,0 +1,139 @@
+{
+  "task_id": "WBV1_ECOM_10_ASOS_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Vila",
+        "description": "Dresses by Vila\n- Scoop neck\n- Fixed straps\n- Sleeveless style\n- Regular fit",
+        "image_urls": [
+          "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink",
+          "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-2",
+          "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-3",
+          "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-4"
+        ],
+        "price_raw": "$73.00",
+        "product_name": "Vila chiffon trapeze mini dress in light pink",
+        "product_url": "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626",
+        "rating": null,
+        "review_count": null,
+        "availability": "In stock",
+        "color": "Sea Pink",
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink",
+        "shipping_text": "Free delivery on qualifying orders.",
+        "size_or_volume": "EU 34, EU 36, EU 38, EU 40, EU 42, EU 44",
+        "sku": "156130501",
+        "available_colors": [
+          "Sea Pink"
+        ],
+        "available_sizes": [
+          "EU 34",
+          "EU 36",
+          "EU 38",
+          "EU 40",
+          "EU 42",
+          "EU 44"
+        ],
+        "currency": "USD",
+        "material": "100% Polyester",
+        "old_price_raw": null,
+        "price": 73.0,
+        "short_description": "Chiffon: soft, drapey, sheer fabric with a dry handle. Main: 100% Polyester.",
+        "style_color": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "window.asos.pdp.config.product.brandName",
+          "text_quote_or_attribute": "\"brandName\":\"Vila\""
+        },
+        "description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "window.asos.pdp.config.productDescription.productDescription",
+          "text_quote_or_attribute": "\"productDescription\":\"<a href=\\\"https://www.asos.com/women/dresses/cat/?cid=8799\\\"><strong>Dresses</strong></a> by <a href=\\\"https://www.asos.com/women/a-to-z-of-brands/vila/cat/?cid=6425\\\"><strong>Vila</strong></a><br><ul><li>Scoop neck</li><li>Fixed straps</li><li>Sleeveless style</li><li>Regular fit</li></ul>\""
+        },
+        "image_urls": {
+          "source": "page.html",
+          "css_selector_or_xpath": "window.asos.pdp.config.product.images",
+          "text_quote_or_attribute": "\"images\":[{\"isPrimary\":true,\"colour\":\"Sea Pink\",\"colourWayId\":210606627,\"imageType\":\"Standard1\",\"url\":\"https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "span[data-testid='current-price']",
+          "text_quote_or_attribute": "\"current\":{\"value\":73,\"text\":\"$73.00\""
+        },
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "window.asos.pdp.config.product.name",
+          "text_quote_or_attribute": "\"name\":\"Vila chiffon trapeze mini dress in light pink\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "link[rel='canonical']",
+          "text_quote_or_attribute": "href=\"https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626\""
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "page.html",
+          "css_selector_or_xpath": "html[data-pdp-in-stock]",
+          "text_quote_or_attribute": "data-pdp-in-stock=\"true\""
+        },
+        "color": {
+          "source": "page.html",
+          "css_selector_or_xpath": "span[data-testid='productColour'] .aKxaq",
+          "text_quote_or_attribute": "\"colour\":\"Sea Pink\""
+        },
+        "sku": {
+          "source": "page.html",
+          "css_selector_or_xpath": "window.asos.pdp.config.product.productCode",
+          "text_quote_or_attribute": "\"productCode\":\"156130501\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "window.asos.pdp.config.stockPriceResponse",
+          "text_quote_or_attribute": "\"currency\":\"USD\""
+        },
+        "material": {
+          "source": "page.html",
+          "css_selector_or_xpath": "window.asos.pdp.config.productDescription.aboutMe",
+          "text_quote_or_attribute": "\"aboutMe\":\"Chiffon: soft, drapey, sheer fabric with a dry handle<br><br>Main: 100% Polyester.\""
+        },
+        "price": {
+          "source": "page.html",
+          "css_selector_or_xpath": "window.asos.pdp.config.stockPriceResponse",
+          "text_quote_or_attribute": "\"current\":{\"value\":73,\"text\":\"$73.00\""
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 125.534,
+    "input_tokens": 206898,
+    "output_tokens": 1416,
+    "total_tokens": 208314,
+    "initial_input_tokens": 206898,
+    "initial_output_tokens": 1416,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "task_id": "WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Great Exhibition Road Festival",
+        "event_start_date": "2026-06-06",
+        "event_end_date": "2026-06-07",
+        "event_start_time": "12:00 - 18.00 BST",
+        "event_end_time": "12:00 - 18.00 BST",
+        "location": "Exhibition Road, Great Exhibition Road Festival/Marquee - Prince's Gardens, South Kensington Campus, London, UK",
+        "event_type": "Event | Festival",
+        "cost": "Free",
+        "registration_fee": "Free",
+        "register_url": null,
+        "event_url": null,
+        "website": null,
+        "contact": "Festival Team",
+        "email": null,
+        "audience": "Open to all",
+        "description": "The Great Exhibition Road Festival is a free annual celebration of science and the arts each summer in South Kensington. Join us on 6-7 June 2026 from 12.00-18.00 each day for a weekend of free science and arts events for all ages.",
+        "tags": "great exhibition road festival, public and community involvement, engagement and participation, public engagement",
+        "organized_by": "Imperial College London, the Natural History Museum, Science Museum, the Royal Parks, V&A and many more",
+        "topic": "science and the arts",
+        "additional_option": "Registration in advance"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "bbox": null,
+        "text_quote": "Great Exhibition Road Festival",
+        "css_selector": null,
+        "xpath": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 11.156,
+    "input_tokens": 2745,
+    "output_tokens": 300,
+    "total_tokens": 3045,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL\\tile_02.png"
+    ],
+    "error": null
+  }
+}

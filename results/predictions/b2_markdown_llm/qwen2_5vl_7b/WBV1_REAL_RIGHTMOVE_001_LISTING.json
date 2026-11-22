@@ -1,0 +1,50 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "/properties/89583912#/?channel=RES_BUY",
+        "price": {
+          "amount": 200000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        }
+      },
+      "provenance": {
+        "page": "markdown.md"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "/properties/142655393#/?channel=COM_BUY",
+        "price": {
+          "amount": 14000000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        }
+      },
+      "provenance": {
+        "page": "markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 23.311,
+    "input_tokens": 45400,
+    "output_tokens": 473,
+    "total_tokens": 45873,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

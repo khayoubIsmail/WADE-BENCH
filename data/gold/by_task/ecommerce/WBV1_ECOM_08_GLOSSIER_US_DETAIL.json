@@ -1,0 +1,290 @@
+{
+  "task_id": "WBV1_ECOM_08_GLOSSIER_US_DETAIL",
+  "website_id": "glossier_us",
+  "schema_id": "product_detail_v1",
+  "snapshot_id": "glossier_us_detail_sample",
+  "snapshot_path": "raw_snapshots/ecommerce/glossier_us_detail_sample",
+  "live_url": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser?variant=44415832752373",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ECOM_08_GLOSSIER_US_DETAIL_001",
+      "fields": {
+        "product_name": {
+          "value": "Milky Jelly Cleanser",
+          "normalized": "Milky Jelly Cleanser"
+        },
+        "price_raw": {
+          "value": [
+            "259 dh",
+            "152 dh"
+          ],
+          "normalized": {
+            "min_amount": 152.0,
+            "max_amount": 259.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "dh"
+            }
+          }
+        },
+        "description": {
+          "value": "A pH-balanced gel-cream cleanser that's suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished\u2013never stripped.",
+          "normalized": "A pH-balanced gel-cream cleanser that's suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished\u2013never stripped."
+        },
+        "brand": {
+          "value": "Glossier",
+          "normalized": "Glossier"
+        },
+        "color": {
+          "value": null,
+          "normalized": null
+        },
+        "rating": {
+          "value": "4.200043 star rating",
+          "normalized": 4.200043
+        },
+        "review_count": {
+          "value": "4611",
+          "normalized": 4611
+        },
+        "product_url": {
+          "value": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser?variant=44415832752373",
+          "normalized": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser?variant=44415832752373"
+        },
+        "image_urls": {
+          "value": [
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-177-02.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-04_fb65ca2d-b3e4-4006-9323-cc0f90e75548.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-05_65e218da-92f8-4b23-bcc9-8c0e78f9583f.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-06_2f368e87-fc73-4714-bc65-635e0f8fa4fb.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-08_1362a25c-5283-4e48-bc2c-d1bb8187b621.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-177-02.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-06_2f368e87-fc73-4714-bc65-635e0f8fa4fb.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-08_1362a25c-5283-4e48-bc2c-d1bb8187b621.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}"
+          ],
+          "normalized": [
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-177-02.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-04_fb65ca2d-b3e4-4006-9323-cc0f90e75548.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-05_65e218da-92f8-4b23-bcc9-8c0e78f9583f.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-06_2f368e87-fc73-4714-bc65-635e0f8fa4fb.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-08_1362a25c-5283-4e48-bc2c-d1bb8187b621.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-177-02.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-06_2f368e87-fc73-4714-bc65-635e0f8fa4fb.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-mjc-carousel-08_1362a25c-5283-4e48-bc2c-d1bb8187b621.png?auto=compress,format&cs=srgb&w={width}",
+            "https://glossier-prod.imgix.net/files/glossier-skincare-mjc177ml-carousel-1.png?auto=compress,format&cs=srgb&w={width}"
+          ]
+        },
+        "availability": {
+          "value": null,
+          "normalized": null
+        },
+        "sku": {
+          "value": null,
+          "normalized": null
+        },
+        "image_url": {
+          "value": "https://glossier-prod.imgix.net/files/glossier-mjc-module-03.png?auto=compress,format&cs=srgb&w={width}",
+          "normalized": "https://glossier-prod.imgix.net/files/glossier-mjc-module-03.png?auto=compress,format&cs=srgb&w={width}"
+        },
+        "size_or_volume": {
+          "value": [
+            "177 mL",
+            "60 mL"
+          ],
+          "normalized": [
+            "177 mL",
+            "60 mL"
+          ]
+        },
+        "shipping_text": {
+          "value": null,
+          "normalized": null
+        },
+        "first_review": {
+          "value": {
+            "title": "Great for acne",
+            "content": "I have super oily skin! And I use to this as the bar and this product is awesome! It helps with my pore as well.  Bottom line Yes - I would recommend this to a friend",
+            "by": "Jazz (Austin, TX)",
+            "date": "05.17.26"
+          },
+          "normalized": {
+            "title": "Great for acne",
+            "content": "I have super oily skin! And I use to this as the bar and this product is awesome! It helps with my pore as well.  Bottom line Yes - I would recommend this to a friend",
+            "by": "Jazz (Austin, TX)",
+            "date": "05.17.26"
+          }
+        }
+      },
+      "provenance": {
+        "price_raw": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": "span.pv-price__original.js-price-original-product-add-on",
+          "xpath": "//*[@id='btnBackInStock-product-add-on']/span[1]/span[2]/span[1]",
+          "text_quote": "259 dh",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/section/section/div/div[1]/section[2]/ul/li/div/form/div/a[1]/span/span[2]/span[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "size_or_volume": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": "ul.config__options.config__options--size.list-reset",
+          "xpath": "//*[@id='addToBagForm']/div[1]/div[1]/ul[1]",
+          "text_quote": "177 mL",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[1]/section/section/div/div[1]/form/div[1]/div/ul",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1)"
+        },
+        "product_name": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": "a[title='/en-ma/products/milky-jelly-cleanser']",
+          "xpath": "//*[@id='footer']/div[1]/div[1]/nav[1]/div[2]/div[1]/ul[1]/li[55]/a[1]",
+          "text_quote": "Milky Jelly Cleanser",
+          "attribute": null,
+          "xpath_absolute": "/html/body/footer/div[1]/div/nav/div[2]/div/ul/li[55]/a",
+          "css_selector_absolute": "html > body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(55) > a:nth-of-type(1)"
+        },
+        "brand": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": "span.screenreader",
+          "xpath": "//*[@id='header']/div[1]/div[1]/div[1]/a[1]/div[1]/i[1]/span[1]",
+          "text_quote": "Glossier",
+          "attribute": null,
+          "xpath_absolute": "/html/body/header/div/div[1]/div/a/div[1]/i/span",
+          "css_selector_absolute": "html > body > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > i:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "description": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "rating": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": "span.screenreader",
+          "xpath": "//*[@id='pvReviews']/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/span[1]",
+          "text_quote": "4.200043 star rating",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[9]/section/div/div/div[1]/div[4]/div[1]/div/div[2]/div/div/div/div[2]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(9) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "review_count": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "image_url": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": "img[src*='{width}']",
+          "xpath": "//img[contains(@src,'glossier-mjc-module-03.png')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/div[5]/section/div/div/div/div[2]/div/div[1]/img",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(5) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "image_urls": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": "img[src*='{width}']",
+          "xpath": "//img[contains(@src,'glossier-skincare-mjc177ml-carousel-1.png')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/div[1]/section/section/div/div[2]/div[1]/div[1]/div[1]/img",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "first_review": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": "div.pv-reviews-item__wrapper.hide-desktop",
+          "xpath": "//*[@id='pvReviews']/div[1]/ul[1]/li[1]/div[2]",
+          "text_quote": "Great for acne",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/div[9]/section/div/div/ul/li[1]/div[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > div:nth-of-type(9) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "color": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "product_url": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": "a[href*='milky-jelly-cleanser']",
+          "xpath": "//*[@id='footer']/div[1]/div[1]/nav[1]/div[2]/div[1]/ul[1]/li[55]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/footer/div[1]/div/nav/div[2]/div/ul/li[55]/a",
+          "css_selector_absolute": "html > body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(55) > a:nth-of-type(1)"
+        },
+        "availability": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "sku": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "shipping_text": {
+          "snapshot_id": "glossier_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        }
+      }
+    }
+  ]
+}

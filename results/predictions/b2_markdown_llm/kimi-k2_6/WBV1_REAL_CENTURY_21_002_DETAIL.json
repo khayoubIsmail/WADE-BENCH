@@ -1,0 +1,55 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/detail/ca/foster-city/516-saint-vincent-ln/lid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx",
+        "price": {
+          "amount": 2798000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "516 Saint Vincent Lane, Foster City, CA 94404",
+        "property_type": "Single family",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 2300,
+          "unit": "sq. ft."
+        },
+        "status": "Active",
+        "mls_number": "ML82043908",
+        "listing_agent": {
+          "name": "kateryna davydova",
+          "office": "compass"
+        },
+        "images_urls": [],
+        "parking": 3
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "516 Saint Vincent Lane , Foster City, CA 94404 $2,798,000 4 Beds 3 Baths 2,300 sq. ft. Single family Active Listed by : kateryna davydova Office : compass MLS# : ML82043908",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 8.425,
+    "input_tokens": 19133,
+    "output_tokens": 257,
+    "total_tokens": 19390,
+    "repaired": false,
+    "error": null
+  }
+}

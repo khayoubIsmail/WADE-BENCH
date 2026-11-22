@@ -1,0 +1,44 @@
+{
+  "task_id": "WBV1_ACAD_UNESCO_EVENTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Thought Leaders Series with Lê Nguyên Hoang",
+        "event_start_date": "2026-05-05T16:00:00Z",
+        "event_end_date": "2026-05-05T18:00:00Z",
+        "location": "UNESCO Headquarters, Paris, France",
+        "event_url": "https://www.unesco.org/en/articles/thought-leaders-series-monsieur-le-nguyen"
+      },
+      "provenance": {
+        "source": "page.html",
+        "field_provenance": {
+          "event_name": "Extracted from HTML text.",
+          "event_start_date": "Extracted from HTML text.",
+          "event_end_date": "Extracted from HTML text.",
+          "location": "Extracted from HTML text.",
+          "event_url": "Extracted from HTML text."
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 11.402,
+    "input_tokens": 25321,
+    "output_tokens": 231,
+    "total_tokens": 25552,
+    "initial_input_tokens": 25321,
+    "initial_output_tokens": 231,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

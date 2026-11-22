@@ -1,0 +1,57 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+        "price": {
+          "amount": 1185,
+          "currency_code": "DH",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Casablanca / Maarif",
+        "listing_title": "Vend joli appart Maarif | Casablanca | Appartements | MarocAnnonces.com",
+        "property_type": "Appartements",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 72,
+          "unit": "m2"
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": null,
+        "monthly_fees": null,
+        "total_price": null,
+        "status": "Publiée le: 28 May-20:23",
+        "published_date": "2026-05-28T20:21:53.018Z"
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Vend joli appart Maarif | Casablanca | Appartements | MarocAnnonces.com"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 14.973,
+    "input_tokens": 22431,
+    "output_tokens": 368,
+    "total_tokens": 22799,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_MAROC_ANNONCES_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_MAROC_ANNONCES_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

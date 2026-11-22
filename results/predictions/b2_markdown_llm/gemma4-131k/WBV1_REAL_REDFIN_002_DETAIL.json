@@ -1,0 +1,81 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": null,
+        "address": "2749 Fish Ave, Bronx, NY 10469",
+        "listing_title": null,
+        "property_type": "Single-family",
+        "price": {
+          "amount": 375000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "bedrooms": 6,
+        "bathrooms": 3.5,
+        "bathrooms_partial": null,
+        "floor_area": {
+          "value": 2058,
+          "unit": "sq ft"
+        },
+        "rooms": null,
+        "energy_rating": null,
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": null,
+        "monthly_fees": null,
+        "total_price": null,
+        "status": "PENDING SHORT SALE APPROVAL - 3rd PARTY APPROVAL. NO ACCESS, NO INTERIOR SHOWINGS",
+        "published_date": null,
+        "open_house_schedule": [],
+        "key_features": [
+          "Brick building with a garage and a covered porch.",
+          "Driveway parking for two vehicles.",
+          "One-car garage provides additional parking or storage.",
+          "Exterior brick façade complements the property’s curb appeal."
+        ],
+        "description": null,
+        "mls_number": "1005357",
+        "additional_facilities": [],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/269/bigphoto/357/1005357_0.jpg"
+        ],
+        "listing_agent": {
+          "name": "Tyrone Byrdsong",
+          "phone": "(718) 710-3584"
+        },
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_agent_phone": null,
+        "listing_office": "YourHomeSold Guaranteed Realty",
+        "parking": [
+          "Garage (1 garage space)",
+          "2 total parking spaces"
+        ]
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Listing by Tyrone Byrdsong • YourHomeSold Guaranteed Realty Listing by Annette Rentas • YourHomeSold Guaranteed Realty Listing updated: May 27, 2026 at 04:29pm Redfin checked: a minute ago • Source: OneKey® MLS as Distributed by MLS Grid # 1005357"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 12.158,
+    "input_tokens": 18996,
+    "output_tokens": 688,
+    "total_tokens": 19684,
+    "repaired": false,
+    "error": null
+  }
+}

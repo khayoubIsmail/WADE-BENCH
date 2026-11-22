@@ -1,0 +1,35 @@
+{
+  "task_id": "WBV1_ACAD_MIT_EVENTS_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Food Truck Wednesdays",
+        "event_start_date": "2026-06-03T15:30:00Z",
+        "event_end_date": "2026-06-03T18:00:00Z",
+        "location": "Building E23, Outside View map 25 CARLETON ST, Cambridge, MA 02142",
+        "event_url": "https://calendar.mit.edu/event/food-truck-wednesdays"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": null,
+        "url": "data/raw_snapshots/academic/mit_events_detail_sample"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 4.514,
+    "input_tokens": 6482,
+    "output_tokens": 194,
+    "total_tokens": 6676,
+    "repaired": false,
+    "error": null
+  }
+}

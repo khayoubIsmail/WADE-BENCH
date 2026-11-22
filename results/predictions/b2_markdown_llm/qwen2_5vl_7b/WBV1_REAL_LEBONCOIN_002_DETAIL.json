@@ -1,0 +1,35 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ventes-immobilieres/appartement-3-pieces-43-m2-chatillon-92320-vieux-bourg-malraux/5867222",
+        "price": {
+          "amount": 269000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 10.45,
+    "input_tokens": 27229,
+    "output_tokens": 154,
+    "total_tokens": 27383,
+    "repaired": false,
+    "error": null
+  }
+}

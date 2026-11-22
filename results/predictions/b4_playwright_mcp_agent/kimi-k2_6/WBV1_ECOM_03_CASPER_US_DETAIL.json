@@ -1,0 +1,246 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Casper",
+        "description": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love.",
+        "image_urls": [
+          "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=1920"
+        ],
+        "price_raw": "$799",
+        "product_name": "The One",
+        "product_url": "https://casper.com/products/casper-one-foam?variant=41670971261009",
+        "rating": "4.4",
+        "review_count": "17798",
+        "availability": "In-stock, ships in 2-3 business days | Free shipping & returns",
+        "color": null,
+        "discount_percentage": "20%",
+        "first_review": null,
+        "image_url": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=1920",
+        "shipping_text": "In-stock, ships in 2-3 business days | Free shipping & returns",
+        "size_or_volume": "Queen",
+        "sku": "CASPRONEMATQUEEN",
+        "available_colors": null,
+        "available_sizes": [
+          "Twin",
+          "Twin XL",
+          "Full",
+          "Queen",
+          "King",
+          "California King",
+          "Split King"
+        ],
+        "available_widths": null,
+        "capacity_or_size": null,
+        "care": null,
+        "color_name": null,
+        "color_options": null,
+        "colors_options": null,
+        "currency": "USD",
+        "first_review_content": null,
+        "first_review_details": null,
+        "first_review_rating": null,
+        "first_review_text": null,
+        "first_review_title": null,
+        "fit": null,
+        "foam_model": "The One",
+        "key_features": [
+          "Cozy Cover",
+          "Breathable Foams"
+        ],
+        "material": null,
+        "materials": null,
+        "measurements": null,
+        "old_price_raw": "$999",
+        "price": 799.0,
+        "selected_width": null,
+        "seller_name": "Casper",
+        "shipping_info": "In-stock, ships in 2-3 business days | Free shipping & returns",
+        "short_description": "As comfortable as it is affordable.",
+        "style_color": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Casper"
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love."
+        },
+        "image_urls": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=1920"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sale price $799"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "The One"
+        },
+        "product_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://casper.com/products/casper-one-foam?variant=41670971261009"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4.4 out 5 stars rating in total 17798 reviews"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "17798"
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "In-stock, ships in 2-3 business days | Free shipping & returns"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "SAVE 20%"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=1920"
+        },
+        "shipping_text": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "In-stock, ships in 2-3 business days | Free shipping & returns"
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Queen selected"
+        },
+        "sku": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "CASPRONEMATQUEEN"
+        },
+        "available_sizes": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Twin, Twin XL, Full, Queen, King, California King, Split King"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "USD"
+        },
+        "foam_model": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "The One: Three layers of comforting foam with a responsive feel."
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Cozy Cover, Breathable Foams"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Regular price $999"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$799"
+        },
+        "seller_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Casper"
+        },
+        "shipping_info": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "In-stock, ships in 2-3 business days | Free shipping & returns"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "As comfortable as it is affordable."
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 41.814,
+    "input_tokens": 23566,
+    "output_tokens": 2588,
+    "total_tokens": 26154,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_03_CASPER_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_03_CASPER_US_DETAIL_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

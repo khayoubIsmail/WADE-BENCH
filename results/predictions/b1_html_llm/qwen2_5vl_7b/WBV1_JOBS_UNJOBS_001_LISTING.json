@@ -1,0 +1,54 @@
+{
+  "task_id": "WBV1_JOBS_UNJOBS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Call for External Collaborator (Translation/Revision)- Translation from English into Spanish of a report on Decent Work and the Safety of Journalists through Labour Governance and Sectoral Policies Department, Public and Private Services Unit, Multiple destinations",
+        "company_name": null,
+        "location": "Multiple destinations",
+        "salary": {
+          "min_amount": null,
+          "max_amount": null,
+          "currency": null,
+          "period": null
+        },
+        "employment_type": null,
+        "posted_date": "2026-05-28T10:26:28Z",
+        "application_deadline": null,
+        "tags": [],
+        "categories": [],
+        "work_arrangement": "onsite",
+        "job_experience_level": null,
+        "qualifications": [],
+        "job_description": "ILO - International Labour Organization<br>Updated: <time class=\"upd timeago\" datetime=\"2026-05-28T10:26:28Z\" title=\"2026-05-28T10:26:28Z\">about 4 hours ago</time>",
+        "apply_url": null,
+        "company_logo_url": null,
+        "job_id": null
+      },
+      "provenance": {
+        "source": "page.html",
+        "timestamp": "2023-10-01T15:00:00Z"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 17.631,
+    "input_tokens": 24683,
+    "output_tokens": 713,
+    "total_tokens": 25396,
+    "initial_input_tokens": 24221,
+    "initial_output_tokens": 361,
+    "repair_input_tokens": 462,
+    "repair_output_tokens": 352,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

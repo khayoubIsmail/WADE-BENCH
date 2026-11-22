@@ -1,0 +1,36 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.rightmove.co.uk/properties/89583912#/?channel=RES_BUY",
+        "price": {
+          "amount": 524950,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Merchants Wharf, Manchester"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 134.467,
+    "input_tokens": 32925,
+    "output_tokens": 6811,
+    "total_tokens": 39736,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_RIGHTMOVE_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_RIGHTMOVE_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

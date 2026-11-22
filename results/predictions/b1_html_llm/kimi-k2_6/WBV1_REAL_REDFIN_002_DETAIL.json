@@ -1,0 +1,150 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662",
+        "price": {
+          "amount": 375000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "2749 Fish Ave, Bronx, NY 10469",
+        "property_type": "Single-family",
+        "bedrooms": 3,
+        "bathrooms": 3.5,
+        "floor_area": {
+          "value": 2058,
+          "unit": "ft2"
+        },
+        "lot_size": {
+          "value": 2500,
+          "unit": "sq ft"
+        },
+        "year_built": 1950,
+        "mls_number": "1005357",
+        "status": "Active",
+        "listing_agent": {
+          "name": "Tyrone Byrdsong",
+          "broker": "YourHomeSold Guaranteed Realty"
+        },
+        "listing_agent_name": "Tyrone Byrdsong",
+        "listing_office": "YourHomeSold Guaranteed Realty",
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/269/bigphoto/357/1005357_0.jpg"
+        ],
+        "key_features": [
+          "Brick building with a garage and a covered porch",
+          "Driveway parking for two vehicles",
+          "One-car garage provides additional parking or storage",
+          "Exterior brick façade complements the property's curb appeal"
+        ],
+        "description": "PENDING SHORT SALE APPROVAL - 3rd PARTY APPROVAL. NO ACCESS, NO INTERIOR SHOWINGS",
+        "parking": "1 garage spaces",
+        "price_per_sqft": {
+          "amount": 182,
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "meta[name='twitter:text:price']",
+          "text_quote": "$375,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "meta[name='twitter:text:street_address']",
+          "text_quote": "2749 Fish Ave, Bronx, NY 10469"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": ".keyDetails-value .valueText",
+          "text_quote": "Single-family"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "meta[name='twitter:text:beds']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "meta[name='twitter:text:baths']",
+          "text_quote": "3.5"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "meta[name='twitter:text:sqft']",
+          "text_quote": "2,058"
+        },
+        "mls_number": {
+          "source": "page.html",
+          "selector": ".ListingSource--mlsId",
+          "text_quote": "#1005357"
+        },
+        "status": {
+          "source": "page.html",
+          "selector": "#xdp-meta",
+          "text_quote": "active"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": ".agent-basic-details--heading span",
+          "text_quote": "Tyrone Byrdsong"
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": ".agent-basic-details--broker span",
+          "text_quote": "YourHomeSold Guaranteed Realty"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "link[as='image']",
+          "text_quote": "https://ssl.cdn-redfin.com/photo/269/bigphoto/357/1005357_0.jpg"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "#marketing-remarks-scroll p",
+          "text_quote": "PENDING SHORT SALE APPROVAL - 3rd PARTY APPROVAL. NO ACCESS, NO INTERIOR SHOWINGS"
+        },
+        "parking": {
+          "source": "page.html",
+          "selector": ".keyDetails-value .valueText",
+          "text_quote": "1 garage spaces"
+        },
+        "year_built": {
+          "source": "page.html",
+          "selector": ".keyDetails-value .valueText",
+          "text_quote": "1950"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 111.78,
+    "input_tokens": 219201,
+    "output_tokens": 762,
+    "total_tokens": 219963,
+    "initial_input_tokens": 219201,
+    "initial_output_tokens": 762,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

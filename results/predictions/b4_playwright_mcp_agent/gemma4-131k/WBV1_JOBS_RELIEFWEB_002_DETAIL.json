@@ -1,0 +1,139 @@
+{
+  "task_id": "WBV1_JOBS_RELIEFWEB_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": {
+          "value": "Medical Doctor Gaza",
+          "provenance": {
+            "source": "page.html",
+            "css_selector": "h1",
+            "text_quote": "Medical Doctor Gaza"
+          }
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215856/medical-doctor-gaza",
+          "provenance": {
+            "source": "page.html",
+            "css_selector": "link[href*='/job/4215856/medical-doctor-gaza']",
+            "text_quote": "Medical Doctor Gaza"
+          }
+        },
+        "company_name": {
+          "value": "CADUS e.V.",
+          "provenance": {
+            "source": "page.html",
+            "css_selector": "a[href*='/organization/cadus-ev']",
+            "text_quote": "CADUS e.V."
+          }
+        },
+        "location": {
+          "value": "occupied Palestinian territory",
+          "provenance": {
+            "source": "page.html",
+            "css_selector": "a[href*='/country/pse']",
+            "text_quote": "occupied Palestinian territory"
+          }
+        },
+        "employment_type": {
+          "value": "Job",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": "schema.org\\:jobPosting",
+            "text_quote": "\"employmentType\": \"Job\""
+          }
+        },
+        "application_deadline": {
+          "value": "2026-06-14",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "time[datetime*='14 Jun 2026']",
+            "text_quote": "14 Jun 2026"
+          }
+        },
+        "job_description": {
+          "value": "⚠️ Important We are currently running a time-critical emergency crewing process for the rotations around June 23 – August 4 and July 12 – August 18 (medical doctor) as recently announced via social media. If you are interested and available for these rotations, and have already applied via this crewing form within the past 6 weeks, you do not need to submit a new application. To speed up the process, simply email us to announce your availability: crewing-gaza(a)cadus.org Background As a humanitarian organization, CADUS has been working in Gaza since February 2024 to support local capacities in their emergency relief operations. Our current program focuses on complementing existing MedEvac capacities, providing medical training and working alongside national and local partners within Field Hospitals. Key facts for all Positions: 5 weeks in country/4-5 weeks out (except Tech/Log: 6 weeks in/5 weeks out)\nFlexibility is required as rotation timings can change. You can clarify this with HR...",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": "schema.org\\:JobPosting #description",
+            "text_quote": "\"description\": \"⚠️ Important We are currently running a time-critical emergency crewing process for the rotations around June 23 – August 4 and July 12 – August 18 (medical doctor) as recently announced via social media. If you are interested and available for these rotations, and have already applied via this crewing form within the past 6 weeks, you do not need to submit a new application. To speed up the process, simply email us to announce your availability: crewing-gaza(a)cadus.org Background As a humanitarian organization, CADUS has been working in Gaza since February 2024 to support local capacities in their emergency relief operations. Our current program focuses on complementing existing MedEvac capacities, providing medical training and working alongside national and local partners within Field Hospitals. Key facts for all Positions: 5 weeks in country\\/4-5 weeks out (except Tech\\/Log: 6 weeks in\\/5 weeks out)\\nFlexibility is required as rotation timings can change. You can clarify this with HR...\""
+          }
+        },
+        "responsibilities": {
+          "value": [
+            "Apporter un soutien psychologique aux patients, conformément aux principes, normes et procédures MSF de manière à améliorer leur santé mentale :",
+            "Effectuer l’évaluation des besoins en santé mentale, établir un diagnostic et un plan de traitement, informer la famille des conséquences possibles de la maladie et du traitement médicamenteux à suivre et adresser les patients à d’autres professionnels quand c’est nécessaire, ceci de manière à dispenser le traitement le plus à même d’améliorer leur état de santé.",
+            "Mettre en œuvre le protocole de prise en charge des victimes de violences sexuelles (VVS), identifier les victimes de VVS et les adresser à l’équipe médicale en vue de leur dispenser le traitement nécessaire.",
+            "Dispenser un soutien psychologique et des séances de psychothérapie (individuelle, familiale, en groupe), conformément aux protocoles MSF et de manière à améliorer l’état de santé mentale des patients.",
+            "Aider et former les membres du personnel et si nécessaire d’autres acteurs afin d’élargir le champ des activités en santé mentale. Travailler en étroite collaboration avec les traducteurs afin de déterminer le vocabulaire et l’attitude à adopter pendant les sessions.",
+            "Collecter des statistiques et contrôler les données relatives aux activités en santé mentale",
+            "Informer son supérieur et l’équipe médicale de toute question ou problème susceptibles de survenir en lien avec le traitement, de manière à offrir la meilleure solution d’un point de vue médical.",
+            "Garantir la confidentialité de toute information relative au patient."
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "text_quote": "Apporter un soutien psychologique aux patients, conformément aux principes, normes et procédures MSF de manière à améliorer leur santé mentale :"
+          }
+        },
+        "what_we_offer": {
+          "value": [
+            "Competitive, market-standard compensation",
+            "Travel, accommodation, and per diem fully covered",
+            "Direct line management in-country, with close support from the Berlin back office",
+            "Regular security checks and thorough deployment preparation",
+            "Psychological and wellbeing support throughout the mission, including fatigue management",
+            "Work in a highly qualified and motivated international team on a meaningful humanitarian mission",
+            "Pre-deployment briefing and training, with post-deployment debriefing",
+            "Context sensitive operational and living conditions",
+            "Opportunities for professional development and on-the-job learning"
+          ],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "ul[ref=e124] li",
+            "text_quote": "Competitive, market-standard compensation"
+          }
+        },
+        "theme": {
+          "value": "Health",
+          "provenance": {
+            "source": "page.html",
+            "css_selector": "a[href*='/jobs?list=Health%20Jobs']",
+            "text_quote": "Health"
+          }
+        },
+        "years_of_experience": {
+          "value": "3-4 years",
+          "provenance": {
+            "source": "visible_text",
+            "css_selector": null,
+            "text_quote": "Years of experience\n3-4 years"
+          }
+        }
+      },
+      "provenance": {
+        "source": "mixed",
+        "css_selector": null,
+        "text_quote": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 30.325,
+    "input_tokens": 28034,
+    "output_tokens": 1698,
+    "total_tokens": 29732,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_RELIEFWEB_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_RELIEFWEB_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

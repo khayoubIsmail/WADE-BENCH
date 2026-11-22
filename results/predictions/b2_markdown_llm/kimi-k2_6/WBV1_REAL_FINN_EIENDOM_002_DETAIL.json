@@ -1,0 +1,75 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.finn.no/realestate/homes/ad.html?finnkode=465141868",
+        "price": {
+          "amount": 1350000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "address": "Skivebakken 19, 5018 Bergen",
+        "listing_title": "Arealeffektiv og oppgradert 1-roms | Svært sentralt i Bergen | Nær byfjellene | V.vann, TV og internett inkludert",
+        "property_type": "Leilighet",
+        "bedrooms": 0,
+        "bathrooms": null,
+        "floor_area": {
+          "value": 13,
+          "unit": "m2"
+        },
+        "rooms": 1,
+        "energy_rating": null,
+        "tenure": "Andel",
+        "monthly_fees": {
+          "amount": 6979,
+          "currency_code": "NOK"
+        },
+        "total_price": {
+          "amount": 1722746,
+          "currency_code": "NOK"
+        },
+        "status": null,
+        "published_date": null,
+        "open_house_schedule": null,
+        "key_features": null,
+        "description": null,
+        "mls_number": null,
+        "additional_facilities": null,
+        "images_urls": [],
+        "listing_agent": null,
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_agent_phone": null,
+        "listing_office": null,
+        "parking": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "record_index": 0,
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Skivebakken 19, 5018 Bergen Prisantydning 1 350 000 kr Totalpris 1 722 746 kr"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 12.041,
+    "input_tokens": 12970,
+    "output_tokens": 345,
+    "total_tokens": 13315,
+    "repaired": false,
+    "error": null
+  }
+}

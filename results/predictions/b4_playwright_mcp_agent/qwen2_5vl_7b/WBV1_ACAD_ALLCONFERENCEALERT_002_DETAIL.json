@@ -1,0 +1,41 @@
+{
+  "task_id": "WBV1_ACAD_ALLCONFERENCEALERT_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "International Conference on Gas, Oil and Petroleum Engineering (ICGOP)",
+        "event_start_date": "2026-12-05T00:00:00Z",
+        "event_end_date": "2026-12-05T00:00:00Z",
+        "location": "Bhawanipatna, Odisha, India",
+        "event_url": "https://asar.org.in/Conference/89803/ICGOP/",
+        "registration_fee": "$235 - $400 USD",
+        "email": "papers.asar@gmail.com"
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "International Conference on Gas, Oil and Petroleum Engineering (ICGOP), on 5th Dec 2026 at Bhawanipatna, Odisha, India. The ICGOP conference offers a track of quality R&amp;D s from key experts and provides an opportunity in bringing in the new techniques and horizons that will contribute to Advanced research on Science, Engineering and Technology in the next few years."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 13.222,
+    "input_tokens": 19087,
+    "output_tokens": 302,
+    "total_tokens": 19389,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_ALLCONFERENCEALERT_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_ALLCONFERENCEALERT_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

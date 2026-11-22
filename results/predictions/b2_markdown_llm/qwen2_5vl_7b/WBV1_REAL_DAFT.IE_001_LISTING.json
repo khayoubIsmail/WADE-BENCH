@@ -1,0 +1,520 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237",
+        "price": {
+          "amount": 495000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K",
+        "property_type": "Detached",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 145,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357",
+        "price": {
+          "amount": 345000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "52 Clonuske Drive, Balbriggan, Co. Dublin, K32RF82",
+        "property_type": "Terrace",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 105,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203",
+        "price": {
+          "amount": 285000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "9b Knockroe, Castlerea, Castlerea, Co. Roscommon, F45C934",
+        "property_type": "Detached",
+        "bedrooms": 6,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 181,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109",
+        "price": {
+          "amount": 780000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Apartment 22, Cova Da Iria, Salthill, Co. Galway, H91A9XR",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 86,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806",
+        "price": {
+          "amount": 595000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Foirnis, Burtonport, Co. Donegal, F94H0C1",
+        "property_type": "Detached",
+        "bedrooms": 8,
+        "bathrooms": 5,
+        "floor_area": {
+          "value": 451,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469",
+        "price": {
+          "amount": 350000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "127 Gleann Dara, Bishop O Donnell Road, Rahoon, Galway, H91V6YX",
+        "property_type": "Semi-D",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 90,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432",
+        "price": {
+          "amount": 350000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "150 Gort Na Coiribe, Headford Road, Galway, H91RD90",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 74,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/17-old-glenview-castlepollard-co-westmeath/6594874",
+        "price": {
+          "amount": 265000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "17 Old Glenview, Castlepollard, Castlepollard, Co. Westmeath, N91VF10",
+        "property_type": "Semi-D",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 79,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825",
+        "price": {
+          "amount": 445000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "74 The Court, Petitswood Manor, Mullingar, Co. Westmeath, N91T1H7",
+        "property_type": "Semi-D",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 104,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495",
+        "price": {
+          "amount": 795000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Birchwood, Three Rocks Lane, Barntown, Wexford, Co. Wexford, Y35A3V9",
+        "property_type": "Detached",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 343,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749",
+        "price": {
+          "amount": 675000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "11 Saint Alphonsus' Avenue, Dublin 9, Drumcondra, Dublin 9, D09H920",
+        "property_type": "Terrace",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 111,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728",
+        "price": {
+          "amount": 149950,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Finea, Finea, Co. Westmeath, N91T9XH",
+        "property_type": "Detached",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": null,
+          "unit": null
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-co-westmeath/6594697",
+        "price": {
+          "amount": 320000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "278 Greenpark Meadows, Mullingar, Mullingar, Co. Westmeath, N91Y1F8",
+        "property_type": "Semi-D",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 104,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685",
+        "price": {
+          "amount": 285000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Vilanstown, Gaybrook, Gainestown, Co. Westmeath, N91K6V6",
+        "property_type": "Detached",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 87,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474",
+        "price": {
+          "amount": 370000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "14 Lacora Glen, Delvin, Delvin, Co. Westmeath, N91C6V3",
+        "property_type": "Detached",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": null,
+          "unit": null
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733",
+        "price": {
+          "amount": 515000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "56 Church Green, Ballinglanna, Glanmire, Co. Cork, T45X579",
+        "property_type": "Semi-D",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 135,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771",
+        "price": {
+          "amount": 310000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Nead An Dreoilín, Rathgranagher, Hollymount, Co. Mayo, F12R129",
+        "property_type": "Bungalow",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 170,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/martinstown-delvin-killucan-co-westmeath/6594428",
+        "price": {
+          "amount": 399950,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Martinstown, Delvin, Killucan, Co. Westmeath, N91XH42",
+        "property_type": "Detached",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": null,
+          "unit": null
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/6-elmbrook-avenue-lucan-co-dublin/6542804",
+        "price": {
+          "amount": 515000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "6 Elmbrook Avenue, Lucan, Co Dublin, K78RT99",
+        "property_type": "Semi-D",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 100,
+          "unit": "m²"
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/1-henry-street-mews-saint-alphonsus-street-limerick-city-centre-co-limerick/6594381",
+        "price": {
+          "amount": 295000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "1 Henry Street Mews, Saint Alphonsus Street, Limerick City Centre, Co. Limerick, V94VYC2",
+        "property_type": "End of Terrace",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": null,
+          "unit": null
+        },
+        "energy_rating": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-01T12:00:00Z"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 82.446,
+    "input_tokens": 20945,
+    "output_tokens": 4766,
+    "total_tokens": 25711,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "task_id": "WBV1_JOBS_GOOGLE_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Director, Business Intelligence",
+        "company_name": "Google",
+        "location": "Sunnyvale, CA, USA",
+        "job_description": "Core’s mission is to make Google better for everyone, and at scale. The Core team builds foundational technology and experiences that power the Google family of products. We are owners and advocates for the cross-Google user experience, underlying design elements, safety and privacy technology, developer platforms, product components, and infrastructure at Google.\nThe Core StratOps organization's mission is to power Core’s velocity through strategic clarity, operational aptitude, and delivering at scale. The organization provides strategic clarity by converting high-level objectives into actionable roadmaps and prioritizing resources. To deliver at scale, the team acts as the bridge between infrastructure, security, and developer tools, identifying and solving systemic bottlenecks for the entire Core product area.\nAs Director, you will lead efforts that directly shape the engine of Core through the deep insights that drive our operational aptitude. Our mission is to empower and influence decision-makers by providing actionable insights and contextualized data and tools, ultimately improving development and product velocity across all of Core. You will be responsible for defining and executing a multi-year outlook and strategy for business intelligence, and building the necessary infrastructure to deliver impactful metrics to engineering leaders.",
+        "salary": {
+          "min_amount": 262000,
+          "max_amount": 365000,
+          "currency": {
+            "name": "US Dollar",
+            "code": "USD",
+            "symbol": "$"
+          },
+          "period": "YEAR"
+        },
+        "salary_range": "$262,000–$365,000 per year",
+        "employment_type": null,
+        "work_arrangement": null,
+        "minimum_qualifications": [
+          "20 years of professional experience or 18 years with an advanced degree",
+          "10 years of experience leading teams product management teams, working cross-functionally, and guiding data influenced planning, prioritization, and strategy development",
+          "Experience in assessing and analyzing developer sentiment and subjective feedback regarding productivity and the overall developer experience",
+          "Experience defining and translating engineering productivity metrics into insights and actions",
+          "Experience working with multiple business stakeholders at various levels, aligning strategy with the business vision"
+        ],
+        "preferred_qualifications": [
+          "International experience working and influencing across geographic and functional boundaries. Experience navigating a dynamic, global, high transaction rate, and matrixed environments of large scale",
+          "Ability to initiative with a sense of urgency in driving execution"
+        ],
+        "responsibilities": [
+          "Be the architect of an Intelligence pillar within Core StratOps. Provide technical outlook and strategy, leading the design and execution of multi-year technical roadmaps for complex project.",
+          "Develop the infrastructure for StratOps metrics and insights that materially enable Core leaders to develop high-velocity and high accuracy decision making.",
+          "Be responsible for joining and analyzing key data sets on engineering speed and developer experience to identify and lead initiatives that lead to measurable improvements in developer effectiveness and experience",
+          "Partner closely with cross-functional teams, including Product Management, Data Analytics, User Experience, and Technical Program Management, to understand needs, develop key metrics, and execute roadmaps."
+        ],
+        "about_the_job": "Core’s mission is to make Google better for everyone, and at scale. The Core team builds foundational technology and experiences that power the Google family of products. We are owners and advocates for the cross-Google user experience, underlying design elements, safety and privacy technology, developer platforms, product components, and infrastructure at Google.\nThe Core StratOps organization's mission is to power Core’s velocity through strategic clarity, operational aptitude, and delivering at scale. The organization provides strategic clarity by converting high-level objectives into actionable roadmaps and prioritizing resources. To deliver at scale, the team acts as the bridge between infrastructure, security, and developer tools, identifying and solving systemic bottlenecks for the entire Core product area.\nAs Director, you will lead efforts that directly shape the engine of Core through the deep insights that drive our operational aptitude. Our mission is to empower and influence decision-makers by providing actionable insights and contextualized data and tools, ultimately improving development and product velocity across all of Core. You will be responsible for defining and executing a multi-year outlook and strategy for business intelligence, and building the necessary infrastructure to deliver impactful metrics to engineering leaders.",
+        "department": "Core StratOps",
+        "job_level": "Director+",
+        "job_url": "https://www.google.com/about/careers/applications/jobs/results/137691136725525190-director-business-intelligence",
+        "apply_url": "./apply?jobId=CiUAL2FckZsXZ5mNacO1YrM_B4oO8Um61gX1mIsZv9xp8FwM0ZJFEjsACxwdTA2EiE32kg-KE6EzGKg2baqZbj1cC_PQwPoJelGi4rY_vsvaiiDsji7vpK8toJ8GwWNvkHeUcQ%3D%3D_V2&loc=US&title=Director"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "h1[aria-label=\"Director, Business Intelligence — Google Careers\"]",
+          "text_quote": "Director, Business Intelligence"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "div[role='banner'] .google-logo",
+          "text_quote": "Google"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "span[aria-label=\"Sunnyvale, CA, USA\"]",
+          "text_quote": "Sunnyvale, CA, USA"
+        },
+        "job_description": {
+          "source": "text.txt",
+          "css_selector": "div#job-details p:nth-child(1)",
+          "text_quote": "Core’s mission is to make Google better for everyone, and at scale..."
+        },
+        "salary": {
+          "source": "text.txt",
+          "css_selector": "p:contains(\"$262,000-$365,000\")",
+          "text_quote": "The US base salary range for this full-time position is $262,000-$365,000 + bonus + equity + benefits."
+        },
+        "salary_range": {
+          "source": "text.txt",
+          "css_selector": "p:contains(\"$262,000-$365,000\")",
+          "text_quote": "$262,000–$365,000 per year"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": ".job-details__section:nth-child(1) .text-content",
+          "text_quote": "full-time position"
+        },
+        "work_arrangement": {
+          "source": "page.safe.html",
+          "css_selector": "span[aria-label=\"Remote eligible\"]",
+          "text_quote": "Remote eligible"
+        },
+        "minimum_qualifications": {
+          "source": "text.txt",
+          "css_selector": "#min-qualifications li",
+          "text_quote": "20 years of professional experience or 18 years with an advanced degree"
+        },
+        "preferred_qualifications": {
+          "source": "text.txt",
+          "css_selector": "#pref-qualifications li",
+          "text_quote": "International experience working and influencing across geographic and functional boundaries."
+        },
+        "responsibilities": {
+          "source": "text.txt",
+          "css_selector": "h3:contains('Responsibilities') + ul li",
+          "text_quote": "Be the architect of an Intelligence pillar within Core StratOps..."
+        },
+        "about_the_job": {
+          "source": "text.txt",
+          "css_selector": "h3:contains('About the job') + p",
+          "text_quote": "Core’s mission is to make Google better for everyone, and at scale..."
+        },
+        "department": {
+          "source": "page.safe.html",
+          "css_selector": "h2:contains('Responsibilities') + p",
+          "text_quote": "Core StratOps"
+        },
+        "job_level": {
+          "source": "page.safe.html",
+          "css_selector": "span[aria-label=\"Director+\"]",
+          "text_quote": "Director+"
+        },
+        "job_url": {
+          "source": "metadata.json",
+          "css_selector": "$.url",
+          "text_quote": "https://www.google.com/about/careers/applications/jobs/results/137691136725525190-director-business-intelligence"
+        },
+        "apply_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href*='jobId=CiUAL2FckZsXZmNacO1YrM_B4oO8Um61gX1mIsZv9xp8FwM0ZJFEjsACxwdTA2EiE32kg-KE6EzGKg2baqZbj1cC_PQwPoJelGi4rY_vsvaiiDsji7vpK8toJ8GwWNvkHeUcQ%3D%3D_V2&loc=US&title=Director']",
+          "text_quote": "./apply?jobId=CiUAL2FckZsXZmNacO1YrM_B4oO8Um61gX1mIsZv9xp8FwM0ZJFEjsACxwdTA2EiE32kg-KE6EzGKg2baqZbj1cC_PQwPoJelGi4rY_vsvaiiDsji7vpK8toJ8GwWNvkHeUcQ%3D%3D_V2&loc=US&title=Director"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 38.283,
+    "input_tokens": 23566,
+    "output_tokens": 2434,
+    "total_tokens": 26000,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_GOOGLE_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_GOOGLE_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

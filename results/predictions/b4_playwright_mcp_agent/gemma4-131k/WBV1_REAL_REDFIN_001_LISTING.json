@@ -1,0 +1,2883 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Bayside/21404-33rd-Ave-11361/home/20835511",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Bayside/21404-33rd-Ave-11361/home/20835511']",
+            "xpath": "//a[contains(@href, '21404-33rd-Ave-11361')]",
+            "bbox": null,
+            "text_quote": "214-04 33 Ave, Bayside, NY 11361"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1499000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='price']",
+            "xpath": "//div[contains(text(), '$1,499,000')]",
+            "bbox": null,
+            "text_quote": "$1,499,000"
+          }
+        },
+        "address": {
+          "value": "214-04 33 Ave, Bayside, NY 11361",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Bayside, NY 11361')]",
+            "bbox": null,
+            "text_quote": "214-04 33 Ave, Bayside, NY 11361"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 214-04 33 Ave, Bayside, NY 11361, 4 beds, 3 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '214-04 33 Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 214-04 33 Ave, Bayside, NY 11361, 4 beds, 3 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '4 beds')]",
+            "bbox": null,
+            "text_quote": "4 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '3 baths')]",
+            "bbox": null,
+            "text_quote": "3 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2762,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,762 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,762 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [
+            {
+              "url": "https://sb.scorecardresearch.com/p?c1=2&c2=15053602&cs_fpid=eWRmmU8WTiujZukblFEikw&cv=4.4.0&cj=1",
+              "provenance": {
+                "source": "ax_tree.json",
+                "css_selector": "[alt*='scorecardresearch']",
+                "xpath": "//img[@title='scorecardresearch']",
+                "bbox": null,
+                "text_quote": null
+              }
+            }
+          ],
+          "provenance": {
+            "source": "ax_tree.json",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Douglas Elliman Real Estate",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Douglas Elliman Real Estate')]",
+            "bbox": null,
+            "text_quote": "Listing by Douglas Elliman Real Estate"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(1)",
+        "xpath": "//div[contains(@class, 'listing-card')][1]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Bronx/2749-Fish-Ave-10469/home/44736662']",
+            "xpath": "//a[contains(@href, '2749-Fish-Ave-10469')]",
+            "bbox": null,
+            "text_quote": "2749 Fish Ave, Bronx, NY 10469"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 375000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$375,000')]",
+            "bbox": null,
+            "text_quote": "$375,000"
+          }
+        },
+        "address": {
+          "value": "2749 Fish Ave, Bronx, NY 10469",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Bronx, NY 10469')]",
+            "bbox": null,
+            "text_quote": "2749 Fish Ave, Bronx, NY 10469"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 2749 Fish Ave, Bronx, NY 10469, 3 beds, 3.5 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '2749 Fish Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 2749 Fish Ave, Bronx, NY 10469, 3 beds, 3.5 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '3 beds')]",
+            "bbox": null,
+            "text_quote": "3 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 3.5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '3.5 baths')]",
+            "bbox": null,
+            "text_quote": "3.5 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2058,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,058 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,058 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "YourHomeSold Guaranteed Realty",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'YourHomeSold Guaranteed Realty')]",
+            "bbox": null,
+            "text_quote": "Listing by YourHomeSold Guaranteed Realty"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(2)",
+        "xpath": "//div[contains(@class, 'listing-card')][2]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/New-York/327-Central-Park-W-10025/unit-2B/home/45121512",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/New-York/327-Central-Park-W-10025/unit-2B/home/45121512']",
+            "xpath": "//a[contains(@href, '327-Central-Park-W-10025')]",
+            "bbox": null,
+            "text_quote": "327 Central Park W Unit 2B, Manhattan, NY 10025"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 3300000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$3,300,000')]",
+            "bbox": null,
+            "text_quote": "$3,300,000"
+          }
+        },
+        "address": {
+          "value": "327 Central Park W Unit 2B, Manhattan, NY 10025",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Manhattan, NY 10025')]",
+            "bbox": null,
+            "text_quote": "327 Central Park W Unit 2B, Manhattan, NY 10025"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 327 Central Park W Unit 2B, Manhattan, NY 10025, 3 beds, 3 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '327 Central Park W')]",
+            "bbox": null,
+            "text_quote": "Property at 327 Central Park W Unit 2B, Manhattan, NY 10025, 3 beds, 3 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '3 beds')]",
+            "bbox": null,
+            "text_quote": "3 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '3 baths')]",
+            "bbox": null,
+            "text_quote": "3 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 1645,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '1,645 sq ft')]",
+            "bbox": null,
+            "text_quote": "1,645 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Douglas Elliman Real Estate",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Douglas Elliman Real Estate')]",
+            "bbox": null,
+            "text_quote": "Listing by Douglas Elliman Real Estate"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(3)",
+        "xpath": "//div[contains(@class, 'listing-card')][3]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Brooklyn/42-Monroe-St-11238/home/40732555",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Brooklyn/42-Monroe-St-11238/home/40732555']",
+            "xpath": "//a[contains(@href, '42-Monroe-St-11238')]",
+            "bbox": null,
+            "text_quote": "42 Monroe St, Brooklyn, NY 11238"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2697500,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$2,697,500')]",
+            "bbox": null,
+            "text_quote": "$2,697,500"
+          }
+        },
+        "address": {
+          "value": "42 Monroe St, Brooklyn, NY 11238",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Brooklyn, NY 11238')]",
+            "bbox": null,
+            "text_quote": "42 Monroe St, Brooklyn, NY 11238"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 42 Monroe St, Brooklyn, NY 11238, 4 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '42 Monroe St')]",
+            "bbox": null,
+            "text_quote": "Property at 42 Monroe St, Brooklyn, NY 11238, 4 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '4 beds')]",
+            "bbox": null,
+            "text_quote": "4 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2300,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,300 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,300 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "YourHomeSold Guaranteed Realty",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'YourHomeSold Guaranteed Realty')]",
+            "bbox": null,
+            "text_quote": "Listing by YourHomeSold Guaranteed Realty"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(4)",
+        "xpath": "//div[contains(@class, 'listing-card')][4]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Ozone-Park/8612-133rd-Ave-11417/home/20729886",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Ozone-Park/8612-133rd-Ave-11417/home/20729886']",
+            "xpath": "//a[contains(@href, '8612-133rd-Ave-11417')]",
+            "bbox": null,
+            "text_quote": "8612 133rd Ave, Ozone Park, NY 11417"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 679000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$679,000')]",
+            "bbox": null,
+            "text_quote": "$679,000"
+          }
+        },
+        "address": {
+          "value": "8612 133rd Ave, Ozone Park, NY 11417",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Ozone Park, NY 11417')]",
+            "bbox": null,
+            "text_quote": "8612 133rd Ave, Ozone Park, NY 11417"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 8612 133rd Ave, Ozone Park, NY 11417, 2 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '8612 133rd Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 8612 133rd Ave, Ozone Park, NY 11417, 2 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '2 beds')]",
+            "bbox": null,
+            "text_quote": "2 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 860,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '860 sq ft')]",
+            "bbox": null,
+            "text_quote": "860 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Redfin Real Estate",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Redfin Real Estate')]",
+            "bbox": null,
+            "text_quote": "Listing by Redfin Real Estate"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(5)",
+        "xpath": "//div[contains(@class, 'listing-card')][5]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Corona/5507-97th-Pl-11368/home/20918901",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Corona/5507-97th-Pl-11368/home/20918901']",
+            "xpath": "//a[contains(@href, '5507-97th-Pl-11368')]",
+            "bbox": null,
+            "text_quote": "5507 97th Pl, Corona, NY 11368"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1690000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$1,690,000')]",
+            "bbox": null,
+            "text_quote": "$1,690,000"
+          }
+        },
+        "address": {
+          "value": "5507 97th Pl, Corona, NY 11368",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Corona, NY 11368')]",
+            "bbox": null,
+            "text_quote": "5507 97th Pl, Corona, NY 11368"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 5507 97th Pl, Corona, NY 11368, 7 beds, 5 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '5507 97th Pl')]",
+            "bbox": null,
+            "text_quote": "Property at 5507 97th Pl, Corona, NY 11368, 7 beds, 5 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 7,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '7 beds')]",
+            "bbox": null,
+            "text_quote": "7 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '5 baths')]",
+            "bbox": null,
+            "text_quote": "5 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2952,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,952 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,952 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Canaan Realty International",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Canaan Realty International')]",
+            "bbox": null,
+            "text_quote": "Listing by Canaan Realty International"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(6)",
+        "xpath": "//div[contains(@class, 'listing-card')][6]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Brooklyn/676-E-93rd-St-11236/home/40775516",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Brooklyn/676-E-93rd-St-11236/home/40775516']",
+            "xpath": "//a[contains(@href, '676-E-93rd-St-11236')]",
+            "bbox": null,
+            "text_quote": "676 E 93rd St, Brooklyn, NY 11236"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 759000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$759,000')]",
+            "bbox": null,
+            "text_quote": "$759,000"
+          }
+        },
+        "address": {
+          "value": "676 E 93rd St, Brooklyn, NY 11236",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Brooklyn, NY 11236')]",
+            "bbox": null,
+            "text_quote": "676 E 93rd St, Brooklyn, NY 11236"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 676 E 93rd St, Brooklyn, NY 11236, 5 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '676 E 93rd St')]",
+            "bbox": null,
+            "text_quote": "Property at 676 E 93rd St, Brooklyn, NY 11236, 5 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '5 beds')]",
+            "bbox": null,
+            "text_quote": "5 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 1851,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '1,851 sq ft')]",
+            "bbox": null,
+            "text_quote": "1,851 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Excell Choice Realty",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Excell Choice Realty')]",
+            "bbox": null,
+            "text_quote": "Listing by Excell Choice Realty"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(7)",
+        "xpath": "//div[contains(@class, 'listing-card')][7]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Brooklyn/29-Greenpoint-Ave-11222/home/40738993",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Brooklyn/29-Greenpoint-Ave-11222/home/40738993']",
+            "xpath": "//a[contains(@href, '29-Greenpoint-Ave-11222')]",
+            "bbox": null,
+            "text_quote": "29 Greenpoint Ave, Brooklyn, NY 11222"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 3850000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$3,850,000')]",
+            "bbox": null,
+            "text_quote": "$3,850,000"
+          }
+        },
+        "address": {
+          "value": "29 Greenpoint Ave, Brooklyn, NY 11222",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Brooklyn, NY 11222')]",
+            "bbox": null,
+            "text_quote": "29 Greenpoint Ave, Brooklyn, NY 11222"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 29 Greenpoint Ave, Brooklyn, NY 11222, 5 beds, 3 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '29 Greenpoint Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 29 Greenpoint Ave, Brooklyn, NY 11222, 5 beds, 3 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '5 beds')]",
+            "bbox": null,
+            "text_quote": "5 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '3 baths')]",
+            "bbox": null,
+            "text_quote": "3 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 3620,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '3,620 sq ft')]",
+            "bbox": null,
+            "text_quote": "3,620 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Compass",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Compass')]",
+            "bbox": null,
+            "text_quote": "Listing by Compass • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(8)",
+        "xpath": "//div[contains(@class, 'listing-card')][8]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Brooklyn/128-Newton-St-11222/unit-2A/home/40674159",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Brooklyn/128-Newton-St-11222/unit-2A/home/40674159']",
+            "xpath": "//a[contains(@href, '128-Newton-St-11222')]",
+            "bbox": null,
+            "text_quote": "128 Newton St Unit 2A, Brooklyn, NY 11222"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1450000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$1,450,000')]",
+            "bbox": null,
+            "text_quote": "$1,450,000"
+          }
+        },
+        "address": {
+          "value": "128 Newton St Unit 2A, Brooklyn, NY 11222",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Brooklyn, NY 11222')]",
+            "bbox": null,
+            "text_quote": "128 Newton St Unit 2A, Brooklyn, NY 11222"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 128 Newton St Unit 2A, Brooklyn, NY 11222, 2 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '128 Newton St')]",
+            "bbox": null,
+            "text_quote": "Property at 128 Newton St Unit 2A, Brooklyn, NY 11222, 2 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '2 beds')]",
+            "bbox": null,
+            "text_quote": "2 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 976,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '976 sq ft')]",
+            "bbox": null,
+            "text_quote": "976 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Casa Blanca Real Estate",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Casa Blanca Real Estate')]",
+            "bbox": null,
+            "text_quote": "Listing by Casa Blanca Real Estate • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(9)",
+        "xpath": "//div[contains(@class, 'listing-card')][9]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Flushing/7816-147th-St-11367/unit-3C/home/20649835",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Flushing/7816-147th-St-11367/unit-3C/home/20649835']",
+            "xpath": "//a[contains(@href, '7816-147th-St-11367')]",
+            "bbox": null,
+            "text_quote": "78-16 147th St Unit 3C, Flushing, NY 11367"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 288000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$288,000')]",
+            "bbox": null,
+            "text_quote": "$288,000"
+          }
+        },
+        "address": {
+          "value": "78-16 147th St Unit 3C, Flushing, NY 11367",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Flushing, NY 11367')]",
+            "bbox": null,
+            "text_quote": "78-16 147th St Unit 3C, Flushing, NY 11367"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 78-16 147th St Unit 3C, Flushing, NY 11367, 2 beds, 1 bath",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '78-16 147th St')]",
+            "bbox": null,
+            "text_quote": "Property at 78-16 147th St Unit 3C, Flushing, NY 11367, 2 beds, 1 bath"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '2 beds')]",
+            "bbox": null,
+            "text_quote": "2 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 1,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '1 bath')]",
+            "bbox": null,
+            "text_quote": "1 bath"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 850,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '850 sq ft')]",
+            "bbox": null,
+            "text_quote": "850 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "WRL Realty LLC",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'WRL Realty LLC')]",
+            "bbox": null,
+            "text_quote": "Listing by WRL Realty LLC"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(10)",
+        "xpath": "//div[contains(@class, 'listing-card')][10]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Flushing/4728-Bowne-St-11355/home/20853760",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Flushing/4728-Bowne-St-11355/home/20853760']",
+            "xpath": "//a[contains(@href, '4728-Bowne-St-11355')]",
+            "bbox": null,
+            "text_quote": "4728 Bowne St, Flushing, NY 11355"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2380000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$2,380,000')]",
+            "bbox": null,
+            "text_quote": "$2,380,000"
+          }
+        },
+        "address": {
+          "value": "4728 Bowne St, Flushing, NY 11355",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Flushing, NY 11355')]",
+            "bbox": null,
+            "text_quote": "4728 Bowne St, Flushing, NY 11355"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 4728 Bowne St, Flushing, NY 11355, 6 beds, 7 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '4728 Bowne St')]",
+            "bbox": null,
+            "text_quote": "Property at 4728 Bowne St, Flushing, NY 11355, 6 beds, 7 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 6,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '6 beds')]",
+            "bbox": null,
+            "text_quote": "6 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 7,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '7 baths')]",
+            "bbox": null,
+            "text_quote": "7 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2116,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,116 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,116 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Royalux Realty LLC",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Royalux Realty LLC')]",
+            "bbox": null,
+            "text_quote": "Listing by Royalux Realty LLC"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(11)",
+        "xpath": "//div[contains(@class, 'listing-card')][11]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Flushing/14426-71st-Rd-11367/unit-B/home/20632963",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Flushing/14426-71st-Rd-11367/unit-B/home/20632963']",
+            "xpath": "//a[contains(@href, '14426-71st-Rd-11367')]",
+            "bbox": null,
+            "text_quote": "144-26 71st Rd Unit B, Flushing, NY 11367"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 375000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$375,000')]",
+            "bbox": null,
+            "text_quote": "$375,000"
+          }
+        },
+        "address": {
+          "value": "144-26 71st Rd Unit B, Flushing, NY 11367",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Flushing, NY 11367')]",
+            "bbox": null,
+            "text_quote": "144-26 71st Rd Unit B, Flushing, NY 11367"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 144-26 71st Rd Unit B, Flushing, NY 11367, 2 beds, 1 bath",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '144-26 71st Rd')]",
+            "bbox": null,
+            "text_quote": "Property at 144-26 71st Rd Unit B, Flushing, NY 11367, 2 beds, 1 bath"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '2 beds')]",
+            "bbox": null,
+            "text_quote": "2 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 1,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '1 bath')]",
+            "bbox": null,
+            "text_quote": "1 bath"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 755,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '755 sq ft')]",
+            "bbox": null,
+            "text_quote": "755 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "P R O Links Realty Inc",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'P R O Links Realty Inc')]",
+            "bbox": null,
+            "text_quote": "Listing by P R O Links Realty Inc"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(12)",
+        "xpath": "//div[contains(@class, 'listing-card')][12]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Bronx/1015-Brinsmade-Ave-10465/home/20897320",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Bronx/1015-Brinsmade-Ave-10465/home/20897320']",
+            "xpath": "//a[contains(@href, '1015-Brinsmade-Ave-10465')]",
+            "bbox": null,
+            "text_quote": "1015 Brinsmade Ave, Bronx, NY 10465"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 769000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$769,000')]",
+            "bbox": null,
+            "text_quote": "$769,000"
+          }
+        },
+        "address": {
+          "value": "1015 Brinsmade Ave, Bronx, NY 10465",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Bronx, NY 10465')]",
+            "bbox": null,
+            "text_quote": "1015 Brinsmade Ave, Bronx, NY 10465"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 1015 Brinsmade Ave, Bronx, NY 10465, 3 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '1015 Brinsmade Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 1015 Brinsmade Ave, Bronx, NY 10465, 3 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '3 beds')]",
+            "bbox": null,
+            "text_quote": "3 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": null,
+            "unit": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '— sq ft')]",
+            "bbox": null,
+            "text_quote": "— sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Bizzarro Agency LLC",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Bizzarro Agency LLC')]",
+            "bbox": null,
+            "text_quote": "Listing by Bizzarro Agency LLC • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(13)",
+        "xpath": "//div[contains(@class, 'listing-card')][13]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Pelham-Bay/2812-Harrington-Ave-10461/home/20953760",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Pelham-Bay/2812-Harrington-Ave-10461/home/20953760']",
+            "xpath": "//a[contains(@href, '2812-Harrington-Ave-10461')]",
+            "bbox": null,
+            "text_quote": "2812 Harrington Ave, Bronx, NY 10461"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 999999,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$999,999')]",
+            "bbox": null,
+            "text_quote": "$999,999"
+          }
+        },
+        "address": {
+          "value": "2812 Harrington Ave, Bronx, NY 10461",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Bronx, NY 10461')]",
+            "bbox": null,
+            "text_quote": "2812 Harrington Ave, Bronx, NY 10461"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 2812 Harrington Ave, Bronx, NY 10461, 6 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '2812 Harrington Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 2812 Harrington Ave, Bronx, NY 10461, 6 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 6,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '6 beds')]",
+            "bbox": null,
+            "text_quote": "6 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2112,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,112 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,112 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "YourHomeSold Guaranteed Realty",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'YourHomeSold Guaranteed Realty')]",
+            "bbox": null,
+            "text_quote": "Listing by YourHomeSold Guaranteed Realty"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(14)",
+        "xpath": "//div[contains(@class, 'listing-card')][14]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/New-York/261-W-28th-St-Unit-6B-10001/home/45121512",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/New-York/261-W-28th-St-Unit-6B-10001/home/45121512']",
+            "xpath": "//a[contains(@href, '261-W-28th-St-Unit-6B-10001')]",
+            "bbox": null,
+            "text_quote": "261 W 28th St Unit 6B, New York, NY 10001"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1995000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$1,995,000')]",
+            "bbox": null,
+            "text_quote": "$1,995,000"
+          }
+        },
+        "address": {
+          "value": "261 W 28th St Unit 6B, New York, NY 10001",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'New York, NY 10001')]",
+            "bbox": null,
+            "text_quote": "261 W 28th St Unit 6B, New York, NY 10001"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 261 W 28th St Unit 6B, New York, NY 10001, 2 beds, 2.5 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '261 W 28th St')]",
+            "bbox": null,
+            "text_quote": "Property at 261 W 28th St Unit 6B, New York, NY 10001, 2 beds, 2.5 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '2 beds')]",
+            "bbox": null,
+            "text_quote": "2 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2.5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2.5 baths')]",
+            "bbox": null,
+            "text_quote": "2.5 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 1265,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '1,265 sq ft')]",
+            "bbox": null,
+            "text_quote": "1,265 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Industrie Residential",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Industrie Residential')]",
+            "bbox": null,
+            "text_quote": "Listing by Industrie Residential • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(15)",
+        "xpath": "//div[contains(@class, 'listing-card')][15]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/New-York/1050-5th-Ave-Unit-18A-10028/home/45121512",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/New-York/1050-5th-Ave-Unit-18A-10028/home/45121512']",
+            "xpath": "//a[contains(@href, '1050-5th-Ave-Unit-18A-10028')]",
+            "bbox": null,
+            "text_quote": "1050 5th Ave Unit 18A, New York, NY 10028"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 4995000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$4,995,000')]",
+            "bbox": null,
+            "text_quote": "$4,995,000"
+          }
+        },
+        "address": {
+          "value": "1050 5th Ave Unit 18A, New York, NY 10028",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'New York, NY 10028')]",
+            "bbox": null,
+            "text_quote": "1050 5th Ave Unit 18A, New York, NY 10028"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 1050 5th Ave Unit 18A, New York, NY 10028, 4 beds, 5.5 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '1050 5th Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 1050 5th Ave Unit 18A, New York, NY 10028, 4 beds, 5.5 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '4 beds')]",
+            "bbox": null,
+            "text_quote": "4 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 5.5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '5.5 baths')]",
+            "bbox": null,
+            "text_quote": "5.5 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2800,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,800 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,800 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Corcoran Group",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Corcoran Group')]",
+            "bbox": null,
+            "text_quote": "Listing by Corcoran Group • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(16)",
+        "xpath": "//div[contains(@class, 'listing-card')][16]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/91/Franklin-St-Unit-RETAIL-10013/home/20632963",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/91/Franklin-St-Unit-RETAIL-10013/home/20632963']",
+            "xpath": "//a[contains(@href, 'Franklin-St-Unit-RETAIL-10013')]",
+            "bbox": null,
+            "text_quote": "91 Franklin St Unit RETAIL, New York, NY 10013"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 4400000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$4,400,000')]",
+            "bbox": null,
+            "text_quote": "$4,400,000"
+          }
+        },
+        "address": {
+          "value": "91 Franklin St Unit RETAIL, New York, NY 10013",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'New York, NY 10013')]",
+            "bbox": null,
+            "text_quote": "91 Franklin St Unit RETAIL, New York, NY 10013"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 91 Franklin St Unit RETAIL, New York, NY 10013, 0 beds, 1.5 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '91 Franklin St')]",
+            "bbox": null,
+            "text_quote": "Property at 91 Franklin St Unit RETAIL, New York, NY 10013, 0 beds, 1.5 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 0,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '0 beds')]",
+            "bbox": null,
+            "text_quote": "0 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 1.5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '1.5 baths')]",
+            "bbox": null,
+            "text_quote": "1.5 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2200,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,200 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,200 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Compass",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Compass')]",
+            "bbox": null,
+            "text_quote": "Listing by Compass • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(17)",
+        "xpath": "//div[contains(@class, 'listing-card')][17]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Bronx/2810-Harrington-Ave-10461/home/20953760",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Bronx/2810-Harrington-Ave-10461/home/20953760']",
+            "xpath": "//a[contains(@href, '2810-Harrington-Ave-10461')]",
+            "bbox": null,
+            "text_quote": "2810 Harrington Ave, Bronx, NY 10461"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 999999,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$999,999')]",
+            "bbox": null,
+            "text_quote": "$999,999"
+          }
+        },
+        "address": {
+          "value": "2810 Harrington Ave, Bronx, NY 10461",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Bronx, NY 10461')]",
+            "bbox": null,
+            "text_quote": "2810 Harrington Ave, Bronx, NY 10461"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 2810 Harrington Ave, Bronx, NY 10461, 6 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '2810 Harrington Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 2810 Harrington Ave, Bronx, NY 10461, 6 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 6,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '6 beds')]",
+            "bbox": null,
+            "text_quote": "6 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2112,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,112 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,112 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "YourHomeSold Guaranteed Realty",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'YourHomeSold Guaranteed Realty')]",
+            "bbox": null,
+            "text_quote": "Listing by YourHomeSold Guaranteed Realty"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(18)",
+        "xpath": "//div[contains(@class, 'listing-card')][18]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/B-line/261-W-28th-St-Unit-6B-10001/home/45121512",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/B-line/261-W-28th-St-Unit-6B-10001/home/45121512']",
+            "xpath": "//a[contains(@href, '261-W-28th-St-Unit-6B-10001')]",
+            "bbox": null,
+            "text_quote": "261 W 28th St Unit 6B, New York, NY 10001"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1995000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$1,995,000')]",
+            "bbox": null,
+            "text_quote": "$1,995,000"
+          }
+        },
+        "address": {
+          "value": "261 W 28th St Unit 6B, New York, NY 10001",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'New York, NY 10001')]",
+            "bbox": null,
+            "text_quote": "261 W 28th St Unit 6B, New York, NY 10001"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 261 W 28th St Unit 6B, New York, NY 10001, 2 beds, 2.5 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '261 W 28th St')]",
+            "bbox": null,
+            "text_quote": "Property at 261 W 28th St Unit 6B, New York, NY 10001, 2 beds, 2.5 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '2 beds')]",
+            "bbox": null,
+            "text_quote": "2 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2.5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2.5 baths')]",
+            "bbox": null,
+            "text_quote": "2.5 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 1265,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '1,265 sq ft')]",
+            "bbox": null,
+            "text_quote": "1,265 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Industrie Residential",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Industrie Residential')]",
+            "bbox": null,
+            "text_quote": "Listing by Industrie Residential • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(19)",
+        "xpath": "//div[contains(@class, 'listing-card')][19]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/1050-5th-Ave-Unit-18A-10028/home/45121512",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/New-York/1050-5th-Ave-Unit-18A-10028/home/45121512']",
+            "xpath": "//a[contains(@href, '1050-5th-Ave-Unit-18A-10028')]",
+            "bbox": null,
+            "text_quote": "1050 5th Ave Unit 18A, New York, NY 10028"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 4995000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$4,995,000')]",
+            "bbox": null,
+            "text_quote": "$4,995,000"
+          }
+        },
+        "address": {
+          "value": "1050 5th Ave Unit 18A, New York, NY 10028",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'New York, NY 10028')]",
+            "bbox": null,
+            "text_quote": "1050 5th Ave Unit 18A, New York, NY 10028"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 1050 5th Ave Unit 18A, New York, NY 10028, 4 beds, 5.5 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '1050 5th Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 1050 5th Ave Unit 18A, New York, NY 10028, 4 beds, 5.5 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '4 beds')]",
+            "bbox": null,
+            "text_quote": "4 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 5.5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '5.5 baths')]",
+            "bbox": null,
+            "text_quote": "5.5 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2800,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,800 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,800 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Corcoran Group",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Corcoran Group')]",
+            "bbox": null,
+            "text_quote": "Listing by Corcoran Group • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(20)",
+        "xpath": "//div[contains(@class, 'listing-card')][20]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/91/Franklin-St-Unit-RETAIL-10013/home/20632963",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/91/Franklin-St-Unit-RETAIL-10013/home/20632963']",
+            "xpath": "//a[contains(@href, 'Franklin-St-Unit-RETAIL-10013')]",
+            "bbox": null,
+            "text_quote": "91 Franklin St Unit RETAIL, New York, NY 10013"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 4400000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$4,400,000')]",
+            "bbox": null,
+            "text_quote": "$4,400,000"
+          }
+        },
+        "address": {
+          "value": "91 Franklin St Unit RETAIL, New York, NY 10013",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'New York, NY 10013')]",
+            "bbox": null,
+            "text_quote": "91 Franklin St Unit RETAIL, New York, NY 10013"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 91 Franklin St Unit RETAIL, New York, NY 10013, 0 beds, 1.5 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '91 Franklin St')]",
+            "bbox": null,
+            "text_quote": "Property at 91 Franklin St Unit RETAIL, New York, NY 10013, 0 beds, 1.5 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 0,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '0 beds')]",
+            "bbox": null,
+            "text_quote": "0 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 1.5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '1.5 baths')]",
+            "bbox": null,
+            "text_quote": "1.5 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2200,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,200 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,200 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Compass",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Compass')]",
+            "bbox": null,
+            "text_quote": "Listing by Compass • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(18)",
+        "xpath": "//div[contains(@class, 'listing-card')][18]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Throggs-Neck/1015-Brinsmade-Ave-Bronx-NY-10465/home/20897320",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/Throggs-Neck/1015-Brinsmade-Ave-Bronx-NY-10465/home/20897320']",
+            "xpath": "//a[contains(@href, '1015-Brinsmade-Ave-Bronx-NY-10465')]",
+            "bbox": null,
+            "text_quote": "1015 Brinsmade Ave, Bronx, NY 10465"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 769000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$769,000')]",
+            "bbox": null,
+            "text_quote": "$769,000"
+          }
+        },
+        "address": {
+          "value": "1015 Brinsmade Ave, Bronx, NY 10465",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Bronx, NY 10465')]",
+            "bbox": null,
+            "text_quote": "1015 Brinsmade Ave, Bronx, NY 10465"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 1015 Brinsmade Ave, Bronx, NY 10465, 3 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '1015 Brinsmade Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 1015 Brinsmade Ave, Bronx, NY 10465, 3 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '3 beds')]",
+            "bbox": null,
+            "text_quote": "3 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": null,
+            "unit": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '— sq ft')]",
+            "bbox": null,
+            "text_quote": "— sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Bizzarro Agency LLC",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Bizzarro Agency LLC')]",
+            "bbox": null,
+            "text_quote": "Listing by Bizzarro Agency LLC • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(14)",
+        "xpath": "//div[contains(@class, 'listing-card')][14]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/B-line/2810-Harrington-Ave-10461/home/20953760",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/B-line/2810-Harrington-Ave-10461/home/20953760']",
+            "xpath": "//a[contains(@href, '2810-Harrington-Ave-10461')]",
+            "bbox": null,
+            "text_quote": "2810 Harrington Ave, Bronx, NY 10461"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 999999,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$999,999')]",
+            "bbox": null,
+            "text_quote": "$999,999"
+          }
+        },
+        "address": {
+          "value": "2810 Harrington Ave, Bronx, NY 10461",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Bronx, NY 10461')]",
+            "bbox": null,
+            "text_quote": "2810 Harrington Ave, Bronx, NY 10461"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 2810 Harrington Ave, Bronx, NY 10461, 6 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '2810 Harrington Ave')]",
+            "bbox": null,
+            "text_quote": "Property at 2810 Harrington Ave, Bronx, NY 10461, 6 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 6,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '6 beds')]",
+            "bbox": null,
+            "text_quote": "6 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2112,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '2,112 sq ft')]",
+            "bbox": null,
+            "text_quote": "2,112 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "YourHomeSold Guaranteed Realty",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'YourHomeSold Guaranteed Realty')]",
+            "bbox": null,
+            "text_quote": "Listing by YourHomeSold Guaranteed Realty"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(19)",
+        "xpath": "//div[contains(@class, 'listing-card')][19]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/B-line/261-W-28th-St-Unit-6B-10001/home/45121512",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/B-line/261-W-28th-St-Unit-6B-10001/home/45121512']",
+            "xpath": "//a[contains(@href, '261-W-28th-St-Unit-6B-10001')]",
+            "bbox": null,
+            "text_quote": "261 W 28th St Unit 6B, New York, NY 10001"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1995000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$1,995,000')]",
+            "bbox": null,
+            "text_quote": "$1,995,000"
+          }
+        },
+        "address": {
+          "value": "261 W 28th St Unit 6B, New York, NY 10001",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'New York, NY 10001')]",
+            "bbox": null,
+            "text_quote": "261 W 28th St Unit 6B, New York, NY 10001"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 261 W 28th St Unit 6B, New York, NY 10001, 2 beds, 2.5 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '261 W 28th St')]",
+            "bbox": null,
+            "text_quote": "Property at 261 W 28th St Unit 6B, New York, NY 10001, 2 beds, 2.5 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '2 beds')]",
+            "bbox": null,
+            "text_quote": "2 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2.5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2.5 baths')]",
+            "bbox": null,
+            "text_quote": "2.5 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 1265,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '1,265 sq ft')]",
+            "bbox": null,
+            "text_quote": "1,265 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Industrie Residential",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'Industrie Residential')]",
+            "bbox": null,
+            "text_quote": "Listing by Industrie Residential • Provided by RLS at REBNY"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(20)",
+        "xpath": "//div[contains(@class, 'listing-card')][20]",
+        "bbox": null,
+        "text_quote": null
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/B-line/133-Beach-116th-St-Unit-5K-11694/home/2018xxxx",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='/NY/B-line/133-Beach-116th-St-Unit-5K-11694/home/2018xxxx']",
+            "xpath": "//a[contains(@href, '133-Beach-116th-St-Unit-5K-11694')]",
+            "bbox": null,
+            "text_quote": "133 Beach 116th St Unit 5K, Rockaway Park, NY 11694"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 740000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-card",
+            "xpath": "//div[contains(text(), '$740,000')]",
+            "bbox": null,
+            "text_quote": "$740,000"
+          }
+        },
+        "address": {
+          "value": "133 Beach 116th St Unit 5K, Rockaway Park, NY 11694",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-card .address",
+            "xpath": "//div[contains(text(), 'Rockaway Park, NY 11694')]",
+            "bbox": null,
+            "text_quote": "133 Beach 116th St Unit 5K, Rockaway Park, NY 11694"
+          }
+        },
+        "listing_title": {
+          "value": "Property at 133 Beach 116th St Unit 5K, Rockaway Park, NY 11694, 2 beds, 2 baths",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[data-testid='listing-title']",
+            "xpath": "//button[contains(text(), '133 Beach 116th St')]",
+            "bbox": null,
+            "text_quote": "Property at 133 Beach 116th St Unit 5K, Rockaway Park, NY 11694, 2 beds, 2 baths"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".beds-count",
+            "xpath": "//div[contains(text(), '2 beds')]",
+            "bbox": null,
+            "text_quote": "2 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".baths-count",
+            "xpath": "//div[contains(text(), '2 baths')]",
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 1205,
+            "unit": "sq ft"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".sqft-count",
+            "xpath": "//div[contains(text(), '1,205 sq ft')]",
+            "bbox": null,
+            "text_quote": "1,205 sq ft"
+          }
+        },
+        "images_urls": {
+          "value": [],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[alt*='scorecardresearch']",
+            "xpath": "//img[@title='scorecardresearch']",
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "L Keating Realty Inc",
+            "phone": null,
+            "photo": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agent-info",
+            "xpath": "//div[contains(text(), 'L Keating Realty Inc')]",
+            "bbox": null,
+            "text_quote": "Listing by L Keating Realty Inc"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(21)",
+        "xpath": "//div[contains(@class, 'listing-card')][21]",
+        "bbox": null,
+        "text_quote": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 445.396,
+    "input_tokens": 28825,
+    "output_tokens": 30753,
+    "total_tokens": 59578,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_REDFIN_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_REDFIN_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

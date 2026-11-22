@@ -1,0 +1,37 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury/05762vyzc",
+        "price": {
+          "amount": 786,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "12B Mary Street, Papanui"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2026-05-25T00:00:00Z"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 6.311,
+    "input_tokens": 16551,
+    "output_tokens": 174,
+    "total_tokens": 16725,
+    "repaired": false,
+    "error": null
+  }
+}

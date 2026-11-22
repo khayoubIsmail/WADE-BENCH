@@ -1,0 +1,424 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_002_DETAIL",
+  "website_id": "century_21",
+  "schema_id": "real_estate_listing_v1",
+  "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+  "snapshot_path": "raw_snapshots/realestate/SNAP_REAL_CENTURY_21_002_DETAIL",
+  "live_url": "https://www.century21.com/homes/detail/ca/foster-city/516-saint-vincent-ln/lid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_REAL_CENTURY_21_002_DETAIL_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/detail/ca/foster-city/516-saint-vincent-ln/lid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx",
+          "normalized": "https://www.century21.com/homes/detail/ca/foster-city/516-saint-vincent-ln/lid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx"
+        },
+        "images_urls": {
+          "value": [
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P00.jpg"
+          ],
+          "normalized": [
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P00.jpg"
+          ]
+        },
+        "property_type": {
+          "value": "Single family",
+          "normalized": "single family"
+        },
+        "status": {
+          "value": "Active",
+          "normalized": "active"
+        },
+        "bathrooms": {
+          "value": "3",
+          "normalized": 3
+        },
+        "flooring": {
+          "value": "Laminate, Tile",
+          "normalized": [
+            "Laminate",
+            "Tile"
+          ]
+        },
+        "heating": {
+          "value": "Forced Air, Natural Gas",
+          "normalized": [
+            "Forced Air",
+            "Natural Gas"
+          ]
+        },
+        "roof": {
+          "value": "Composition Shingles",
+          "normalized": "Composition Shingles"
+        },
+        "water": {
+          "value": "Public",
+          "normalized": "Public"
+        },
+        "appliances": {
+          "value": "Dishwasher, Gas Range, Oven",
+          "normalized": [
+            "Dishwasher",
+            "Gas Range",
+            "Oven"
+          ]
+        },
+        "amenities": {
+          "value": "Clubhouse, Playground",
+          "normalized": [
+            "Clubhouse",
+            "Playground"
+          ]
+        },
+        "garage": {
+          "value": "Yes",
+          "normalized": true
+        },
+        "floor_area": {
+          "value": "2,300 sq. ft.",
+          "normalized": 2300.0,
+          "unit": "sqft"
+        },
+        "published_date": {
+          "value": "May 28, 2026 at 07:18 PM",
+          "normalized": "2026-05-28T19:18:00"
+        },
+        "address": {
+          "value": "516 Saint Vincent Lane, Foster City, CA 94404 | The Joy of Home, CENTURY 21",
+          "normalized": "516 Saint Vincent Lane, Foster City, CA 94404 | The Joy of Home, CENTURY 21"
+        },
+        "price": {
+          "value": "$2,798,000",
+          "normalized": {
+            "amount": 2798000.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "year_built": {
+          "value": "1987",
+          "normalized": 1987
+        },
+        "listing_id": {
+          "value": "ML82043908",
+          "normalized": "ML82043908"
+        },
+        "building_area": {
+          "value": "2,300 sq. ft.",
+          "normalized": 2300.0,
+          "unit": "sqft"
+        },
+        "land_area": {
+          "value": "0.14 Acres",
+          "normalized": 0.14,
+          "unit": "acre"
+        },
+        "bedrooms": {
+          "value": "4",
+          "normalized": 4
+        },
+        "parking": {
+          "value": "Attached",
+          "normalized": "attached"
+        },
+        "kitchen_description": {
+          "value": "Built-in Oven, Dishwasher, Gas Range, Gas Range/Cooktop, Oven",
+          "normalized": [
+            "Built-in Oven",
+            "Dishwasher",
+            "Gas Range",
+            "Gas Range/Cooktop",
+            "Oven"
+          ]
+        },
+        "foundation_description": {
+          "value": "Slab",
+          "normalized": "Slab"
+        },
+        "monthly_fees": {
+          "value": "$197",
+          "normalized": {
+            "amount": 197.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "price_per_area": {
+          "value": "$1,216.52",
+          "normalized": {
+            "amount": 1216.52,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          },
+          "unit": "sqft"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "a[href*='lid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx']",
+          "xpath": "//link[contains(@href,'516-saint-vincent-ln')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/head/link[39]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > link:nth-of-type(39)"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'_P/ML82043908_P00.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[3]/div/div[3]/main/div[1]/div/div/div/div[2]/section[1]/div/button[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "ul.property-facets > li:nth-of-type(4)",
+          "text_quote": "Single family",
+          "xpath": "//script[contains(normalize-space(.), 'Single family')]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/head[1]/script[20]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > script:nth-of-type(20)"
+        },
+        "status": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "li.any-listing-status-indicator",
+          "text_quote": "Active",
+          "xpath": "//body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/section[2]/ul[1]/li[5]/span[2]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/section[2]/ul[1]/li[5]/span[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(5) > span:nth-of-type(2)"
+        },
+        "bathrooms": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "ul.property-facets > li:nth-of-type(2)",
+          "text_quote": "3",
+          "xpath": "//head[1]/style[1]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/head[1]/style[1]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > style:nth-of-type(1)"
+        },
+        "flooring": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .data-blocks .property-detail-rooms .property-name-value .data > ul > li:nth-child(4)",
+          "text_quote": "Laminate, Tile",
+          "xpath": "//script[contains(normalize-space(.), 'Laminate, Tile')]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/head[1]/script[20]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > script:nth-of-type(20)"
+        },
+        "heating": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "roof": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "div.data > ul > li",
+          "xpath": "//span[contains(normalize-space(.), 'Composition Shingles')]",
+          "text_quote": "Composition Shingles",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/div/div[3]/main/div[1]/div/div/div/div[2]/div[3]/section[4]/div/div/ul/li[1]/span[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > span:nth-of-type(3)"
+        },
+        "water": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "appliances": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "amenities": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .data-blocks .property-detail-features-and-amenities .property-name-value .data > ul > li:nth-child(2)",
+          "text_quote": "Clubhouse, Playground",
+          "xpath": "//script[contains(normalize-space(.), 'Clubhouse, Playground')]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/head[1]/script[20]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > script:nth-of-type(20)"
+        },
+        "garage": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .data-blocks .property-detail-parking .property-name-value .data > ul > li:nth-child(2)",
+          "text_quote": "Yes",
+          "xpath": "//head[1]/script[20]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/head[1]/script[20]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > script:nth-of-type(20)"
+        },
+        "floor_area": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "ul.property-facets > li:nth-of-type(3)",
+          "text_quote": "2,300 sq. ft.",
+          "xpath": "//body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/section[2]/div[1]/div[1]/ul[1]/li[6]/span[3]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/section[2]/div[1]/div[1]/ul[1]/li[6]/span[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(6) > span:nth-of-type(3)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .data-blocks .property-detail-about .property-name-value .data > ul > li:nth-child(4)",
+          "text_quote": "May 28, 2026 at 07:18 PM",
+          "xpath": "//span[contains(normalize-space(.), 'May 28, 2026 at 07:18 PM')]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/section[1]/div[1]/div[1]/ul[1]/li[4]/span[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > span:nth-of-type(3)"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "h1.title",
+          "xpath": "//title[contains(normalize-space(.), '516 Saint Vincent Lane, Foster City, CA 94404 | Th')]",
+          "text_quote": "516 Saint Vincent Lane, Foster City, CA 94404 | The Joy of Home, CENTURY 21",
+          "attribute": null,
+          "xpath_absolute": "/html/head/title",
+          "css_selector_absolute": "html > head:nth-of-type(1) > title:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "div.data > ul > li",
+          "xpath": "//body/div[3]/div/div[3]/main/div[1]/div/div/div/div[2]/div[2]/div[1]/div[1]/div/section[1]/div[2]",
+          "text_quote": "$2,798,000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/div/div[3]/main/div[1]/div/div/div/div[2]/div[2]/div[1]/div[1]/div/section[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "year_built": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "listing_id": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .data-blocks .property-detail-about .property-name-value .data > ul > li:nth-child(2)",
+          "text_quote": "ML82043908",
+          "xpath": "//script[contains(normalize-space(.), 'ML82043908')]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/head[1]/script[20]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > script:nth-of-type(20)"
+        },
+        "building_area": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "ul.property-facets > li:nth-of-type(3)",
+          "text_quote": "2,300 sq. ft.",
+          "xpath": "//body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/section[2]/div[1]/div[1]/ul[1]/li[6]/span[3]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/section[2]/div[1]/div[1]/ul[1]/li[6]/span[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(6) > span:nth-of-type(3)"
+        },
+        "land_area": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .data-blocks .property-detail-structure .property-name-value .data > ul > li:nth-child(4)",
+          "text_quote": "0.14 Acres",
+          "xpath": "//span[contains(normalize-space(.), '0.14 Acres')]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/section[4]/div[1]/div[1]/ul[1]/li[4]/span[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > span:nth-of-type(3)"
+        },
+        "bedrooms": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "parking": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "kitchen_description": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .data-blocks .property-detail-rooms .property-name-value .data > ul > li:nth-child(5)",
+          "text_quote": "Built-in Oven, Dishwasher, Gas Range, Gas Range/Co",
+          "xpath": "//script[contains(normalize-space(.), 'Built-in Oven, Dishwasher, Gas Range, Gas Range/Co')]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/head[1]/script[20]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > script:nth-of-type(20)"
+        },
+        "foundation_description": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .data-blocks .property-detail-structure .property-name-value .data > ul > li:nth-child(5)",
+          "text_quote": "Slab",
+          "xpath": "//script[contains(normalize-space(.), 'Slab')]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/head[1]/script[20]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > script:nth-of-type(20)"
+        },
+        "monthly_fees": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .top-stuff .not-contact-form .property-detail-price-summary .property-name-value .data > ul > li:nth-child(3)",
+          "text_quote": "$197",
+          "xpath": "//span[contains(normalize-space(.), '$197')]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/section[2]/div[1]/div[1]/ul[1]/li[3]/span[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > span:nth-of-type(3)"
+        },
+        "price_per_area": {
+          "snapshot_id": "SNAP_REAL_CENTURY_21_002_DETAIL",
+          "css_selector": "main#any-content .any-property-layout .any-constrain .any-vertical .any-property-detail div .top-stuff .not-contact-form .property-detail-price-summary .property-name-value .data > ul > li:nth-child(2)",
+          "text_quote": "$1,216.52",
+          "xpath": "//body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/section[2]/div[1]/div[1]/ul[1]/li[2]/span[3]",
+          "attribute": null,
+          "xpath_absolute": "//html[1]/body[1]/div[3]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/section[2]/div[1]/div[1]/ul[1]/li[2]/span[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > span:nth-of-type(3)"
+        }
+      }
+    }
+  ]
+}

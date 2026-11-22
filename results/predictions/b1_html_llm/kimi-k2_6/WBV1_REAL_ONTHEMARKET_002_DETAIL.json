@@ -1,0 +1,157 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19547756/",
+        "address": "Kingsfield Avenue, Harrow, HA2 6AQ",
+        "listing_title": "4 bedroom semi-detached house for sale",
+        "property_type": "Semi-detached house",
+        "price": {
+          "amount": 879000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1646,
+          "unit": "ft2"
+        },
+        "energy_rating": "E",
+        "key_features": [
+          "Porch and Entrance Hallway",
+          "Four Bedrooms",
+          "Reception Room",
+          "Dining Room",
+          "Study",
+          "Kitchen",
+          "Two Bathrooms and Ground floor W.C.",
+          "Landscaped rear garden",
+          "Garage accessed by own driveway",
+          "Off Street Parking"
+        ],
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-1-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-2-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-3-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-4-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-5-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-6-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-7-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-8-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-9-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-10-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-11-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-12-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-13-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-14-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/epc-0-1024x1024.png"
+        ],
+        "listing_agent_name": "Robsons - Pinner",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/6752/180613094609042/logo-190x100.jpg",
+        "listing_agent_phone": "020 4516 6055",
+        "listing_office": "Robsons - Pinner"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.onthemarket.com/details/19547756/"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h1 + div.text-slate",
+          "text_quote": "Kingsfield Avenue, Harrow, HA2 6AQ"
+        },
+        "listing_title": {
+          "source": "page.html",
+          "selector": "h1[data-test='property-title']",
+          "text_quote": "4 bedroom semi-detached house for sale"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div._4kGe5T",
+          "text_quote": "Semi-detached house"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[data-test='property-price']",
+          "text_quote": "£879,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div.text-xs svg[data-icon='bed-front'] + div",
+          "text_quote": "4 beds"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div.text-xs svg[data-icon='bath'] + div",
+          "text_quote": "2 baths"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "div.text-xs svg[data-icon='angle-90'] + div span",
+          "text_quote": "1646 sq ft"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "div.text-xs svg[data-icon='lightbulb'] + div",
+          "text_quote": "EPC rating: E"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "ul.list-disc li",
+          "text_quote": "Porch and Entrance Hallway"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div.swiper-slide img",
+          "text_quote": "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div.text-sm.font-bold",
+          "text_quote": "Robsons - Pinner"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt='Robsons - Pinner']",
+          "text_quote": "https://media.onthemarket.com/agents/companies/6752/180613094609042/logo-190x100.jpg"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[href^='tel:']",
+          "text_quote": "020 4516 6055"
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "div.text-sm.font-bold",
+          "text_quote": "Robsons - Pinner"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 41.871,
+    "input_tokens": 140907,
+    "output_tokens": 1191,
+    "total_tokens": 142098,
+    "initial_input_tokens": 140907,
+    "initial_output_tokens": 1191,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

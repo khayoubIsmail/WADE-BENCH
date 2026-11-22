@@ -1,0 +1,58 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/130-maywood-dr/pid_71582925/",
+        "price": {
+          "amount": 2395000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "130 Maywood Dr, San Francisco, CA 94127",
+        "listing_title": "130 Maywood Dr, San Francisco, CA 94127 - MLS 426131611 - Coldwell Banker",
+        "property_type": "Single Family",
+        "bedrooms": 4,
+        "bathrooms": 2.5,
+        "bathrooms_partial": 1,
+        "floor_area": {
+          "value": 2392,
+          "unit": "sqft"
+        },
+        "status": "Pending",
+        "mls_number": "426131611",
+        "listing_agent_name": "Andrew Herrera II",
+        "listing_office": "Berkshire Hathaway-Franciscan",
+        "images_urls": [],
+        "description": "Magnificent, hidden storybook Traditional Pacific Ocean view home tucked away on prime block in an oasis setting behind an enchanting, gated courtyard garden entrance w/patio."
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "record_index": 0,
+        "extraction_method": "direct_parse",
+        "text_quote": "130 Maywood Dr San Francisco, CA 94127",
+        "confidence": 1.0,
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 15.387,
+    "input_tokens": 29100,
+    "output_tokens": 279,
+    "total_tokens": 29379,
+    "repaired": false,
+    "error": null
+  }
+}

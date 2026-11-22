@@ -1,0 +1,51 @@
+{
+  "task_id": "WBV1_ACAD_STANFORD_EVENTS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "event-1",
+      "fields": {
+        "event_name": "Burt and Deedee McMurtry Lecture with Curator Hamza Walker",
+        "event_start_date": "2026-05-27T18:00:00-07:00",
+        "event_end_date": "2026-05-27T19:30:00-07:00",
+        "location_name": "Bing Concert Hall",
+        "location_address": "327 Lasuen St, Stanford, CA 94305"
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": "Join us for the Burt and Deedee McMurtry Lecture with Curator Hamza Walker."
+      }
+    },
+    {
+      "record_id": "event-2",
+      "fields": {
+        "event_name": "Undergraduate Prize Reading with Curator Leila Abdul-Rau",
+        "event_start_date": "2026-05-28T16:30:00-07:00",
+        "event_end_date": "2026-05-28T17:30:00-07:00",
+        "location_name": "The Knoll, CCRMA Stage"
+      },
+      "provenance": {
+        "source": "page.html",
+        "text_quote": "Leila Abdul-Rau draws you into a cinematic sound world that explores the darkest corners of the psyche."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 36.648,
+    "input_tokens": 61229,
+    "output_tokens": 731,
+    "total_tokens": 61960,
+    "initial_input_tokens": 60760,
+    "initial_output_tokens": 368,
+    "repair_input_tokens": 469,
+    "repair_output_tokens": 363,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

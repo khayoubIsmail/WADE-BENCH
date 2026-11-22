@@ -1,0 +1,36 @@
+{
+  "task_id": "WBV1_JOBS_NATURECAREERS_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Full Professorship (W3) for \"Biochemistry\" (f/m/d)",
+        "company_name": "Universität Heidelberg",
+        "job_url": "https://www.nature.com/naturecareers/job/12859405/full-professorship-w3-for-biochemistry-f-m-d-"
+      },
+      "provenance": {
+        "page.md": "https://github.com/your-repo/data/raw_snapshots/jobs/naturecareers_detail/page.md",
+        "canonical_record_key": [
+          "job_title",
+          "company_name",
+          "job_url"
+        ]
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 7.089,
+    "input_tokens": 17542,
+    "output_tokens": 163,
+    "total_tokens": 17705,
+    "repaired": false,
+    "error": null
+  }
+}

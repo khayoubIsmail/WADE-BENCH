@@ -1,0 +1,145 @@
+{
+  "task_id": "WBV1_ACAD_ALLCONFERENCEALERT_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "International Conference on Gas, Oil and Petroleum Engineering (ICGOP)",
+        "event_url": "https://www.allconferencealert.com/event/2553709",
+        "event_start_date": "2026-12-05",
+        "event_end_date": "2026-12-05",
+        "location": "Bhawanipatna, Odisha, India",
+        "acronym": "ICGOP",
+        "abstract_deadline": "2026-11-15",
+        "organizer": "Asar",
+        "organizer_name": "Asian Society for Academic Research",
+        "email": "papers.asar@gmail.com",
+        "website": "https://asar.org.in",
+        "register_link": "https://asar.org.in/Conference/89803/ICGOP/",
+        "registration_fee": "235 - 400 USD",
+        "event_type": "International Conference",
+        "description": "International Conference on Gas, Oil and Petroleum Engineering (ICGOP), on 5th Dec 2026 at Bhawanipatna, Odisha, India. The ICGOP conference offers a track of quality R&D s from key experts and provides an opportunity in bringing in the new techniques and horizons that will contribute to Advanced research on Science, Engineering and Technology in the next few years. All submitted papers will be under peer review and accepted papers will be published in the conference proceeding. Both academia and industries are invited to present their papers dealing with state-of-art research and future developments. This event will be organized by Asar at the city of Bhawanipatna, Odisha, India.",
+        "rating": "4.8",
+        "rating_count": "2932",
+        "keynote_speakers": "Dr. SARVAN KUMAR, HARIKUMAR NAGARAJAN, Dr Zairi Ismael Rizman",
+        "organizing_committee": "Dr. VIJAYSHRI, Balvant Tandel, Dr. A. Jayabal"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "h1",
+          "text_quote": "International Conference on Gas, Oil and Petroleum Engineering (ICGOP)"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.allconferencealert.com/event/2553709"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "span.font-semibold:contains('December 5, 2026')",
+          "text_quote": "December 5, 2026"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "span:contains('Conference end') + span",
+          "text_quote": "2026-12-05"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "span.font-semibold:contains('Bhawanipatna, Odisha, India')",
+          "text_quote": "Bhawanipatna, Odisha, India"
+        },
+        "acronym": {
+          "source": "page.html",
+          "selector": "h1",
+          "text_quote": "(ICGOP)"
+        },
+        "abstract_deadline": {
+          "source": "page.html",
+          "selector": "span:contains('Abstract deadline') + span",
+          "text_quote": "2026-11-15"
+        },
+        "organizer": {
+          "source": "page.html",
+          "selector": "span:contains('Organizer') + span",
+          "text_quote": "Asar"
+        },
+        "organizer_name": {
+          "source": "page.html",
+          "selector": "h3.text-xl.font-bold",
+          "text_quote": "Asian Society for Academic Research"
+        },
+        "email": {
+          "source": "page.html",
+          "selector": "a[href^='mailto:papers.asar@gmail.com']",
+          "text_quote": "papers.asar@gmail.com"
+        },
+        "website": {
+          "source": "page.html",
+          "selector": "a[href='https://asar.org.in']",
+          "text_quote": "asar.org.in"
+        },
+        "register_link": {
+          "source": "page.html",
+          "selector": "a[href*='asar.org.in/Conference/89803/ICGOP/']",
+          "text_quote": "https://asar.org.in/Conference/89803/ICGOP/"
+        },
+        "registration_fee": {
+          "source": "page.html",
+          "selector": "span:contains('Registration Fee') + span",
+          "text_quote": "235 - 400 USD"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "meta[property='og:type']",
+          "text_quote": "International Conference on Gas, Oil and Petroleum Engineering (ICGOP)"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "div.prose p",
+          "text_quote": "International Conference on Gas, Oil and Petroleum Engineering (ICGOP), on 5th Dec 2026 at Bhawanipatna, Odisha, India."
+        },
+        "rating": {
+          "source": "page.html",
+          "selector": "span.text-5xl.font-extrabold.text-amber-500",
+          "text_quote": "4.8"
+        },
+        "rating_count": {
+          "source": "page.html",
+          "selector": "p:contains('Based on')",
+          "text_quote": "Based on 2932 reviews"
+        },
+        "keynote_speakers": {
+          "source": "page.html",
+          "selector": "#speakers-program-panel h4.font-bold",
+          "text_quote": "Dr. SARVAN KUMAR, HARIKUMAR NAGARAJAN, Dr Zairi Ismael Rizman"
+        },
+        "organizing_committee": {
+          "source": "page.html",
+          "selector": "#committee-program-panel h4.font-bold",
+          "text_quote": "Dr. VIJAYSHRI, Balvant Tandel, Dr. A. Jayabal"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 24.518,
+    "input_tokens": 34414,
+    "output_tokens": 1055,
+    "total_tokens": 35469,
+    "initial_input_tokens": 34414,
+    "initial_output_tokens": 1055,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

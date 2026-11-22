@@ -1,0 +1,355 @@
+# Jobs Domain Provenance Audit
+
+Automated static check against `page.html` files from `jobs_pages.zip`. Checks: CSS and XPath uniqueness, selector validity, exact vs parent-node targeting, attribute/value matching, duplicated selectors within records, and listing broadcast bugs across records.
+
+## Audit scope correction
+
+- The stray file `WBV1_JOBS_GITHUB_CAREERS_001_DETAIL.json` was excluded from interpretation because it has no internal `task_id`/`snapshot_id` and is not your active GitHub detail file.
+- `WBV1_JOBS_GITHUB_002_DETAIL.json` was audited correctly using `snapshot_id=github_careers_detail`.
+
+## Summary by task
+| task_id / file | fields checked | OK | WARN | FAIL | css invalid | css non-unique/0 | xpath non-unique/0 | duplicate CSS | broadcast CSS | parent-text warnings | attr fails | generic selectors |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| WBV1_JOBS_EUROBRUSSELS_001_LISTING | 171 | 4 | 1 | 166 | 0 | 137 | 0 | 38 | 150 | 17 | 0 | 0 |
+| WBV1_JOBS_EUROBRUSSELS_002_DETAIL | 15 | 2 | 3 | 10 | 0 | 10 | 0 | 7 | 0 | 1 | 0 | 0 |
+| WBV1_JOBS_GITHUB_001_LISTING | 60 | 0 | 0 | 60 | 0 | 60 | 0 | 0 | 60 | 0 | 0 | 0 |
+| WBV1_JOBS_GITHUB_002_DETAIL | 19 | 6 | 8 | 5 | 0 | 8 | 0 | 12 | 0 | 11 | 0 | 8 |
+| WBV1_JOBS_GOOGLE_001_LISTING | 140 | 72 | 22 | 46 | 0 | 0 | 0 | 0 | 0 | 22 | 20 | 0 |
+| WBV1_JOBS_GOOGLE_002_DETAIL | 10 | 3 | 3 | 4 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
+| WBV1_JOBS_NATURECAREERS_001_LISTING | 140 | 124 | 0 | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| WBV1_JOBS_NATURECAREERS_002_DETAIL | 13 | 11 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| WBV1_JOBS_POSTJOBFREE_001_LISTING | 70 | 32 | 20 | 18 | 0 | 0 | 0 | 20 | 0 | 0 | 0 | 0 |
+| WBV1_JOBS_POSTJOBFREE_002_DETAIL | 25 | 6 | 12 | 7 | 0 | 1 | 1 | 11 | 0 | 6 | 0 | 1 |
+| WBV1_JOBS_REED_001_LISTING | 200 | 120 | 55 | 25 | 0 | 7 | 0 | 50 | 0 | 0 | 0 | 0 |
+| WBV1_JOBS_REED_002_DETAIL | 14 | 2 | 4 | 8 | 0 | 10 | 0 | 5 | 0 | 2 | 0 | 1 |
+| WBV1_JOBS_RELIEFWEB_001_LISTING | 119 | 79 | 40 | 0 | 0 | 0 | 0 | 40 | 0 | 0 | 0 | 0 |
+| WBV1_JOBS_RELIEFWEB_002_DETAIL | 11 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+| WBV1_JOBS_REMOTEOK_001_LISTING | 1200 | 970 | 0 | 230 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| WBV1_JOBS_REMOTEOK_002_DETAIL | 15 | 7 | 6 | 2 | 0 | 0 | 0 | 2 | 0 | 4 | 0 | 0 |
+| WBV1_JOBS_THTJOBS_001_LISTING | 147 | 93 | 42 | 12 | 0 | 0 | 0 | 42 | 0 | 0 | 0 | 0 |
+| WBV1_JOBS_THTJOBS_002_DETAIL | 12 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| WBV1_JOBS_UNJOBS_001_LISTING | 100 | 25 | 75 | 0 | 0 | 0 | 0 | 50 | 0 | 25 | 0 | 0 |
+| WBV1_JOBS_UNJOBS_002_DETAIL | 23 | 11 | 3 | 9 | 0 | 0 | 0 | 2 | 0 | 3 | 0 | 1 |
+
+## Main issue counts
+- `css_missing`: 320
+- `xpath_missing`: 320
+- `css_selector_reused_in_record`: 279
+- `xpath_reused_in_record`: 273
+- `css_matches=N`: 233
+- `broadcast_css_same_field_used_by_N_records`: 210
+- `xpath_points_to_parent_not_exact_text`: 96
+- `xpath_text_quote_not_found`: 75
+- `css_points_to_parent_not_exact_text`: 68
+- `css_text_quote_not_found`: 44
+- `xpath_text_value_not_found`: 37
+- `css_text_value_not_found`: 28
+- `css_attr_not_matching_value_or_missing`: 20
+- `xpath_attr_not_matching_value_or_missing`: 20
+- `broadcast_xpath_same_field_used_by_N_records`: 14
+- `generic_css_selector`: 10
+- `generic_xpath_selector`: 9
+- `xpath_matches=N`: 1
+
+## High-priority failures/warnings sample
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_001` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_001` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_001` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_001` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_001` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_001` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_001` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_001` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_001` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_002` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_002` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_002` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_002` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_002` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_002` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_002` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_002` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_002` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_003` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_003` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_003` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_003` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_003` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_003` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_003` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_003` `salary`: css_matches=5; broadcast_css_same_field_used_by_5_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_003` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_004` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_004` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_004` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_004` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_004` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_004` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_004` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_004` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_005` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_005` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_005` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_005` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_005` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_005` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_005` `salary`: css_matches=5; broadcast_css_same_field_used_by_5_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_005` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_006` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_006` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_006` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_006` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_006` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_006` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_006` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_006` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_006` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_007` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_007` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_007` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_007` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_007` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_007` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_007` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_007` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_007` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_008` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_008` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_008` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_008` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_008` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_008` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_008` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_008` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_008` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_009` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_009` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_009` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_009` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_009` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_009` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_009` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_009` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_009` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_010` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_010` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_010` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_010` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_010` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_010` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_010` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_010` `salary`: css_matches=5; broadcast_css_same_field_used_by_5_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_010` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_011` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_011` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_011` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_011` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_011` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_011` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_011` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_011` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_011` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_012` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_012` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_012` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_012` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_012` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_012` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_012` `application_deadline`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_012` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_012` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_013` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_013` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_013` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_013` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_013` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_013` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_013` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_013` `salary`: css_matches=5; broadcast_css_same_field_used_by_5_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_013` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_014` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_014` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_014` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_014` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_014` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_014` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_014` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_014` `salary`: css_matches=5; broadcast_css_same_field_used_by_5_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_014` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_015` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_015` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_015` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_015` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_015` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_015` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_015` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_015` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_015` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_016` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_016` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_016` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_016` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_016` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_016` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_016` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_016` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_017` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_017` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_017` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_017` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_017` `location`: broadcast_css_same_field_used_by_14_records; broadcast_xpath_same_field_used_by_14_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_017` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_017` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_017` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_017` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_018` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_018` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_018` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_018` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **WARN** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_018` `location`: css_matches=19
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_018` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_018` `application_deadline`: css_matches=19; xpath_points_to_parent_not_exact_text; broadcast_css_same_field_used_by_17_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_018` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_018` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_019` `job_title`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_019` `job_url`: css_matches=19; css_selector_reused_in_record; xpath_reused_in_record; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_019` `company_name`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_019` `company_logo_url`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_019` `job_description`: css_matches=19; broadcast_css_same_field_used_by_19_records
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_019` `application_deadline`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_019` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_001_LISTING` `WBV1_JOBS_EUROBRUSSELS_001_LISTING_019` `tags`: css_matches=70; xpath_text_quote_not_found; broadcast_css_same_field_used_by_19_records
+- **WARN** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `job_url`: css_matches=12
+- **WARN** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `company_name`: css_matches=4
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `job_description`: css_matches=2; xpath_text_quote_not_found; xpath_text_value_not_found
+- **WARN** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `application_deadline`: css_matches=12; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `salary`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `tags`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `about_company`: css_matches=12; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `role_overview`: css_matches=12; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `responsibilities`: css_matches=3; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `requirements`: css_matches=3; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `benefits`: css_matches=3; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `application_procedure`: css_matches=12; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_JOBS_EUROBRUSSELS_002_DETAIL` `WBV1_JOBS_EUROBRUSSELS_002_DETAIL_001` `apply_url`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_001` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_001` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_001` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_001` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_001` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_001` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_002` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_002` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_002` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_002` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_002` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_002` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_003` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_003` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_003` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_003` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_003` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_003` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_004` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_004` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_004` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_004` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_004` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_004` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_005` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_005` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_005` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_005` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_005` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_005` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_006` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_006` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_006` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_006` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_006` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_006` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_007` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_007` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_007` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_007` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_007` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_007` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_008` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_008` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_008` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_008` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_008` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_008` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_009` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_009` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_009` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_009` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_009` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_009` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_010` `job_title`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_010` `job_id`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_010` `location`: css_matches=20; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_010` `employment_type`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_010` `categories`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **FAIL** `WBV1_JOBS_GITHUB_001_LISTING` `WBV1_JOBS_GITHUB_001_LISTING_010` `apply_url`: css_matches=10; broadcast_css_same_field_used_by_10_records
+- **WARN** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `location`: css_matches=68; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record; generic_css_selector; generic_xpath_selector
+- **WARN** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `category`: css_matches=68; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record; generic_css_selector; generic_xpath_selector
+- **WARN** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `job_type`: css_matches=68; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record; generic_css_selector; generic_xpath_selector
+- **WARN** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `job_level`: css_matches=68; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record; generic_css_selector; generic_xpath_selector
+- **WARN** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `work_arrangement`: css_matches=68; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record; generic_css_selector; generic_xpath_selector
+- **WARN** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `job_id`: css_matches=68; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record; generic_css_selector; generic_xpath_selector
+- **WARN** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `employment_type`: css_matches=68; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record; generic_css_selector; generic_xpath_selector
+- **WARN** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `apply_url`: css_matches=68; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record; generic_css_selector; generic_xpath_selector
+- **FAIL** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `about_github`: css_text_quote_not_found; css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `overview`: css_text_quote_not_found; css_text_value_not_found; xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `compensation_range`: css_text_quote_not_found; css_text_value_not_found; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `who_we_are`: css_text_quote_not_found; css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_JOBS_GITHUB_002_DETAIL` `WBV1_JOBS_GITHUB_002_DETAIL_001` `eeo_statement`: css_text_quote_not_found; css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_001` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_001` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_001` `employment_type`: css_missing; xpath_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_001` `job_experience_level`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_002` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_002` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_002` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_002` `qualifications`: css_text_quote_not_found; xpath_text_quote_not_found
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_003` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_003` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_003` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_004` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_004` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_004` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_004` `qualifications`: css_text_quote_not_found; xpath_text_quote_not_found
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_005` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_005` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_005` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_006` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_006` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_006` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_007` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_007` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_007` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_008` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_008` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_008` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_009` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_009` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_009` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_010` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_010` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_010` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_010` `qualifications`: css_text_quote_not_found; xpath_text_quote_not_found
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_011` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_011` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_011` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_012` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_012` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_012` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_013` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_013` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_013` `employment_type`: css_missing; xpath_missing
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_013` `qualifications`: css_text_quote_not_found; xpath_text_quote_not_found
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_014` `job_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_014` `company_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_JOBS_GOOGLE_001_LISTING` `WBV1_JOBS_GOOGLE_001_LISTING_014` `employment_type`: css_missing; xpath_missing
+- ... see CSV for all rows

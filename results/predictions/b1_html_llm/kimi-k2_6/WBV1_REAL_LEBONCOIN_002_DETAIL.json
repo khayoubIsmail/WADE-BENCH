@@ -1,0 +1,141 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3201084037",
+        "price": {
+          "amount": 269000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon (92320), Quartier Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "floor_area": {
+          "value": 43,
+          "unit": "m2"
+        },
+        "rooms": 3,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "energy_rating": "E",
+        "price_per_m2": {
+          "amount": 6256,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-large",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/02/66/1c0266d6e8f7a01caf49fc78d3f635ef4b258059.jpg?rule=ad-large",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/0b/42/580b42b80c2c771bd2f8fab8fa4d88b813ac0487.jpg?rule=ad-large"
+        ],
+        "listing_agent_name": "ACOR IMMOBILIER",
+        "listing_office": "ACOR IMMOBILIER",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/4c/a5/d6/4ca5d683-a7e8-4231-896d-db3a53744798?rule=bo-thumb",
+        "additional_facilities": [
+          "Cuisine équipée",
+          "Cave",
+          "Interphone"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.leboncoin.fr/ad/ventes_immobilieres/3201084037"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "[data-qa-id='adview_price'] p",
+          "text_quote": "269 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "[data-qa-id='adview_location_map'] + div p",
+          "text_quote": "Châtillon (92320)"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "[data-qa-id='criteria_item_real_estate_type'] a",
+          "text_quote": "Appartement"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "[data-qa-id='criteria_item_square'] p[title='43 m²']",
+          "text_quote": "43 m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "[data-qa-id='criteria_item_rooms'] a",
+          "text_quote": "3"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "[data-qa-id='criteria_item_bedrooms'] p[title='2 ch.']",
+          "text_quote": "2 ch."
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "[data-qa-id='criteria_item_nb_shower_room'] p[title='1']",
+          "text_quote": "1"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "[data-qa-id='criteria_item_energy_rate'] .h-sz-24",
+          "text_quote": "E"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": ".text-caption.text-on-background\\/dim-1 p",
+          "text_quote": "6 256 € / m²"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "section[aria-label='Aller à la galerie de photos'] img",
+          "text_quote": "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-large"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "a[href='/boutique/7132764/acor_immobilier.htm']",
+          "text_quote": "ACOR IMMOBILIER"
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[href='/boutique/7132764/acor_immobilier.htm']",
+          "text_quote": "ACOR IMMOBILIER"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[src*='4ca5d683-a7e8-4231-896d-db3a53744798']",
+          "text_quote": "https://img.leboncoin.fr/api/v1/lbcpb1/images/4c/a5/d6/4ca5d683-a7e8-4231-896d-db3a53744798?rule=bo-thumb"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "[data-qa-id='criteria_item_specificities'] p[title='Cuisine équipée, Cave, Interphone']",
+          "text_quote": "Cuisine équipée, Cave, Interphone"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 113.842,
+    "input_tokens": 206473,
+    "output_tokens": 1051,
+    "total_tokens": 207524,
+    "initial_input_tokens": 206473,
+    "initial_output_tokens": 1051,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

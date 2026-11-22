@@ -1,0 +1,54 @@
+{
+  "task_id": "WBV1_ACAD_CERN_INDICO_001_LISTING",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Energy concentrating phenomena: From sonoluminescence to crystal fusion",
+        "event_start_date": "2006-03-21T15:30:00Z",
+        "location": "Main Auditorium (CERN)",
+        "event_url": "https://cern.ch/indico/event/5001-001/"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "event_name": "Quantum Foam and Melting Crystal",
+        "event_start_date": "2005-06-14T14:30:00Z",
+        "location": "TH Auditorium (CERN)",
+        "event_url": "https://cern.ch/indico/event/5001-001/"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 5.236,
+    "input_tokens": 3542,
+    "output_tokens": 269,
+    "total_tokens": 3811,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_CERN_INDICO_001_LISTING\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_CERN_INDICO_001_LISTING\\tile_02.png"
+    ],
+    "error": null
+  }
+}

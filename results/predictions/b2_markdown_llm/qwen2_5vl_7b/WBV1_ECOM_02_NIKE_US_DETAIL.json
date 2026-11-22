@@ -1,0 +1,41 @@
+{
+  "task_id": "WBV1_ECOM_02_NIKE_US_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Nike",
+        "description": "Air Jordan 4 \"Toro\" Men's Shoes. Nike.com",
+        "image_urls": [
+          "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fde2cc9-99ff-469a-81b3-e74ffe5be20f/AIR+JORDAN+4+RETRO.png"
+        ],
+        "price_raw": "$220",
+        "product_name": "Air Jordan 4 \"Toro\" Men's Shoes",
+        "product_url": "https://www.nike.com/men/product/air-jordan-4-retro-toro-315879-600",
+        "rating": null,
+        "review_count": null
+      },
+      "provenance": {
+        "url": "https://www.nike.com/men/product/air-jordan-4-retro-toro-315879-600",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_detail_sample",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Air Jordan 4 \"Toro\" Men's Shoes $220 Select Fit Baby/Toddler Little Kids Big Kids Adults Coming Soon Available 5/30 at 3:00 PM GMT+1 Download the Nike App and get notified. Create or sign in to your free Nike Member account for a chance to buy this product the moment it's released."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 11.065,
+    "input_tokens": 17212,
+    "output_tokens": 422,
+    "total_tokens": 17634,
+    "repaired": false,
+    "error": null
+  }
+}

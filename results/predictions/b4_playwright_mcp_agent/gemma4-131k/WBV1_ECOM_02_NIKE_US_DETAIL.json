@@ -1,0 +1,139 @@
+{
+  "task_id": "WBV1_ECOM_02_NIKE_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Nike",
+        "description": "¡Olé! We're bringing the \"Toro\" colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey. Staying true to form, Nike Air cushioning in the heel and forefoot softens your step. Original design elements—like floating eyestays and mesh-like panels—make it feel as fresh as it did in '89.",
+        "image_urls": [
+          null
+        ],
+        "price_raw": "$220",
+        "product_name": "Air Jordan 4 \"Toro\" Men's Shoes",
+        "product_url": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600",
+        "rating": null,
+        "review_count": null,
+        "availability": "Coming Soon",
+        "color": "Fire Red/Black/Cement Grey/White",
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": "Air Jordan 4 \"Toro Bravo\" Men's Shoes - Fire Red/Black/Cement Grey/White",
+        "shipping_text": null,
+        "size_or_volume": null,
+        "sku": "FQ8138-600",
+        "short_description": "¡Olé! We're bringing the \"Toro\" colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey.",
+        "style_color": "Fire Red/Black/Cement Grey/White"
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Nike"
+        },
+        "description": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "¡Olé! We're bringing the \"Toro\" colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey. Staying true to form, Nike Air cushioning in the heel and forefoot softens your step. Original design elements—like floating eyestays and mesh-like panels—make it feel as fresh as it did in '89."
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$220"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Air Jordan 4 \"Toro\" Men's Shoes"
+        },
+        "product_url": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "availability": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Coming Soon"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Fire Red/Black/Cement Grey/White"
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "first_review": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Air Jordan 4 \"Toro Bravo\" Men's Shoes - Fire Red/Black/Cement Grey/White"
+        },
+        "shipping_text": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "sku": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "FQ8138-600"
+        },
+        "short_description": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "¡Olé! We're bringing the \"Toro\" colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey."
+        },
+        "style_color": {
+          "source": "visible_text",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Fire Red/Black/Cement Grey/White"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 27.899,
+    "input_tokens": 15313,
+    "output_tokens": 1560,
+    "total_tokens": 16873,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_02_NIKE_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_02_NIKE_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

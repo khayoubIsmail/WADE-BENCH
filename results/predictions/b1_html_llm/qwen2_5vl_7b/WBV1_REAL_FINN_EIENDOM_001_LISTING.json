@@ -1,0 +1,37 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "data": {
+          "html": "<div class=\"search-view-transition\" aria-label=\"Bilde 1 av annonsen\" aria-labelledby=\"search-ad-465220582\" aria-describedby=\"search-ad-465220582\" role=\"img\" style=\"object-fit: cover; object-position: center; width: 100%; height: auto; display: block; background-color: #f8f8f8; border-radius: 3px; box-shadow: none; padding-top: 4px; margin-left: -25.6709258288712222222222222222222222222222222"
+        },
+        "source": {
+          "url": "https://example.com",
+          "timestamp": "2023-10-05T14:30:00Z"
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 45.412,
+    "input_tokens": 282,
+    "output_tokens": 232,
+    "total_tokens": 514,
+    "initial_input_tokens": 0,
+    "initial_output_tokens": 0,
+    "repair_input_tokens": 282,
+    "repair_output_tokens": 232,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/house-23-carraig-beag-cootehill-road-cavan/6550086",
+        "price": {
+          "amount": 595000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "23 Carraig Beag, Cootehill Road, Cavan, H12Y6V9",
+        "property_type": "Semi-Detached",
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 130,
+          "unit": "m²"
+        },
+        "price_per_m2": {
+          "amount": 4578,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "sale_type": "By Private Treaty",
+        "tenure": null,
+        "monthly_fees": null,
+        "total_price": null,
+        "status": null,
+        "published_date": "2026-05-27T22:55:15.310Z",
+        "open_house_schedule": [],
+        "key_features": [
+          "Private southwest facing rear patio / garden.",
+          "Established small scale development.",
+          "A2 Energy Rating.",
+          "Air to water heating system.",
+          "Underfloor heating to ground floor."
+        ],
+        "description": "Behind the pretty stone clad facade of No. 23 Carraig Beag, an exceptional 3 bedroom home awaits.\n\nDeceptively spacious this modern home effortlessly combines modern design with an effortless elegance. Calm neutral palettes are complemented by refined finishes and carefully curated details that cleverly elevate every space.",
+        "mls_number": null,
+        "additional_facilities": [
+          "Chain Free Sale",
+          "Built by Castlethorn Construction in 1999",
+          "Three-bed semi-detached home c. 130sq m/ 1,400sq ft to include the attic conversion",
+          "Superbly converted attic providing c. 22sq m/ 237sq ft of additional space",
+          "Four bathrooms to incl. family bathroom, en-suite, guest toilet and attic toilet"
+        ],
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjE0NDAsImhlaWdodCI6OTYwIn0=?signature=7a9d96d94be23b3b52cd15dafcd1a97c1e24d202d75da1061981a7c36682949b",
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjM2MCwiaGVpZ2h0IjoyNDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRcLzJcL2QyOTI4ZTk2LTFiYjEtNDQ4ZS1hNmUwLTVlNzc1ZmZiYzhlMS5qcGcifQ==?signature=608ddc24bd76b7e317ea809b5ae2d3878eab444dae3c5fa367375736018c50d",
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjM2MCwiaGVpZ2h0IjoyNDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRcLzJcL2QyOTI4ZTk2LTFiYjEtNDQ4ZS1hNmUwLTVlNzc1ZmZiYzhlMS5qcGcifQ==?signature=01dbdbbe7006c166c0122ecc967adad7b28c4587a3c5fa367375736018c50d"
+        ],
+        "listing_agent": {
+          "name": null,
+          "phone": null,
+          "photo": null
+        },
+        "listing_office": null,
+        "parking": 21
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 95.253,
+    "input_tokens": 22777,
+    "output_tokens": 5344,
+    "total_tokens": 28121,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_DAFT.IE_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_DAFT.IE_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

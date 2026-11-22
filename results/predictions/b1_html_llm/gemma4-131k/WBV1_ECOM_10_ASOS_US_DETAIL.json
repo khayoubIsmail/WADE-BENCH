@@ -1,0 +1,169 @@
+{
+  "task_id": "WBV1_ECOM_10_ASOS_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Vila",
+        "description": "Dresses by Vila. Scoop neck, Fixed straps, Sleeveless style, Regular fit.",
+        "image_urls": [
+          "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink",
+          "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-2",
+          "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-3",
+          "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-4"
+        ],
+        "price_raw": "$73.00",
+        "product_name": "Vila chiffon trapeze mini dress in light pink",
+        "product_url": "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626",
+        "rating": null,
+        "review_count": null,
+        "available_colors": [
+          {
+            "color": "Sea Pink",
+            "url": null
+          }
+        ],
+        "discount_percentage": 0,
+        "image_url": "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink",
+        "shipping_text": null,
+        "size_or_volume": "EU 34 - EU 44 (Multiple sizes available)",
+        "sku": [
+          "156130691",
+          "156130692",
+          "156130693",
+          "156130694",
+          "156130695",
+          "156130696"
+        ],
+        "available_sizes": [
+          "EU 34",
+          "EU 36",
+          "EU 38",
+          "EU 40",
+          "EU 42",
+          "EU 44"
+        ],
+        "color_name": "Sea Pink",
+        "currency": "USD",
+        "material": null,
+        "short_description": "Dresses by Vila. Scoop neck, Fixed straps, Sleeveless style, Regular fit."
+      },
+      "provenance": {
+        "brand": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"brandName\":\"Vila\""
+        },
+        "description": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"description\":\"<a href=\"/women/dresses/cat/?cid=8799\"><strong>Dresses</strong></a> by <a href=\"/women/a-to-z-of-brands/vila/cat/?cid=6425\"><strong>Vila</strong></a><br><ul><li>Scoop neck</li><li>Fixed straps</li><li>Sleeveless style</li><li>Regular fit</li></ul\">\""
+        },
+        "image_urls": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"images\":[{\"isPrimary\":true,\"colour\":\"Sea Pink\",\"colourWayId\":210606627,\"imageType\":\"Standard1\",\"url\":\"https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink\"...}]"
+        },
+        "price_raw": {
+          "source": "window.asos.pdp.config.stockPriceResponse",
+          "selector": null,
+          "quote": "\"current\":{\"value\":\"73\",\"text\":\"$73.00\",...}"
+        },
+        "product_name": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"name\":\"Vila chiffon trapeze mini dress in light pink\""
+        },
+        "product_url": {
+          "source": "document head link tag",
+          "selector": "link[rel='canonical']",
+          "quote": "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626"
+        },
+        "rating": {
+          "source": "window.asos.pdp.config",
+          "selector": null,
+          "quote": "\"ratings\":{}\""
+        },
+        "review_count": {
+          "source": "window.asos.pdp.config",
+          "selector": null,
+          "quote": "\"reviewNumberThreshold\":3\""
+        },
+        "available_colors": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"totalNumberOfColours\":1,\"media\":{...}"
+        },
+        "discount_percentage": {
+          "source": "window.asos.pdp.config.stockPriceResponse",
+          "selector": null,
+          "quote": "\"discountPercentage\":0\""
+        },
+        "image_url": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"images\":[{\"isPrimary\":true,\"colour\":\"Sea Pink\",\"colourWayId\":210606627,\"imageType\":\"Standard1\",\"url\":\"https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink\"...}]"
+        },
+        "shipping_text": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"showShippedByMessage\":true,\"price\":{...}"
+        },
+        "size_or_volume": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"variants\":[{\"variantId\":210606632,\"size\":\"EU 34\"...},{\"variantId\":210607173,\"size\":\"EU 40\"...}]\""
+        },
+        "sku": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"variants\":[{\"variantId\":210606632,\"size\":\"EU 34\",...\"sku\":\"156130691\"},{\"variantId\":210607173,\"size\":\"EU 40\",...\"sku\":\"156130694\"}]\""
+        },
+        "available_sizes": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"variants\":[{\"variantId\":210606632,\"size\":\"EU 34\"...},{\"variantId\":210607173,\"size\":\"EU 40\"...}]\""
+        },
+        "color_name": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"colour\":\"Sea Pink\""
+        },
+        "currency": {
+          "source": "window.asos.pdp.config.stockPriceResponse",
+          "selector": null,
+          "quote": "\"currency\":\"USD\""
+        },
+        "material": {
+          "source": null,
+          "selector": null,
+          "quote": null
+        },
+        "short_description": {
+          "source": "window.asos.pdp.config.product",
+          "selector": null,
+          "quote": "\"description\":\"<a href=\"/women/dresses/cat/?cid=8799\"><strong>Dresses</strong></a> by <a href=\"/women/a-to-z-of-brands/vila/cat/?cid=6425\"><strong>Vila</strong></a><br><ul><li>Scoop neck</li><li>Fixed straps</li><li>Sleeveless style</li><li>Regular fit</li></ul>\""
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 29.521,
+    "input_tokens": 16978,
+    "output_tokens": 2177,
+    "total_tokens": 19155,
+    "initial_input_tokens": 16978,
+    "initial_output_tokens": 2177,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

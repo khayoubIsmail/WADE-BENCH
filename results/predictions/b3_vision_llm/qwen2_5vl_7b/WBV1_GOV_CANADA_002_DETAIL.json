@@ -1,0 +1,46 @@
+{
+  "task_id": "WBV1_GOV_CANADA_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "ONE PROJECT IN INVERNESS COUNTY, GRAVELLING",
+        "solicitation_number": "NSPW2026-085",
+        "publication_date": "2026/05/28",
+        "closing_date_and_time": "2026/06/12 13:00 EDT",
+        "description": "Project 1: Marble Mountain Road, from Crowdis #1 Truss easterly to end of pavement, approximately 3.3 kilometres TOTAL APPROXIMATELY .....3.3 kilometres\nCost of acquiring documents: Not Applicable\nTerms of payment for acquiring documents: Not Applicable\nTender notices on CanadaBuys published for Nova Scotia Public Sector Entities may not reflect amendments. For tender documents and up-to-date addenda, refer to the Nova Scotia Procurement Portal: https://procurement-portal.novascotia.ca/tenders/NSPW2026-085",
+        "contract_duration": "4 month(s)",
+        "procurement_method": "Competitive - Open Bidding",
+        "trade_agreements": "Canadian Free Trade Agreement (CFTA)",
+        "tender_url": "https://www.canada.ca/en/services/business/buy-canadian/policy.html"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 6.346,
+    "input_tokens": 3857,
+    "output_tokens": 332,
+    "total_tokens": 4189,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_CANADA_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_CANADA_002_DETAIL\\tile_02.png"
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "address": "2749 Fish Ave, Bronx, NY 10469",
+        "price": {
+          "amount": 375000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "property_type": "Single-family",
+        "bedrooms": null,
+        "bathrooms": 3.5,
+        "floor_area": {
+          "value": 2058,
+          "unit": "ft2"
+        },
+        "key_features": [
+          "Brick building with a garage and a covered porch",
+          "Driveway parking for two vehicles",
+          "One-car garage provides additional parking or storage",
+          "Exterior brick façade complements the property's curb appeal"
+        ],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/269/bigphoto/357/1005357_0.jpg"
+        ],
+        "listing_agent_name": "Tyrone Byrdsong",
+        "listing_office": "YourHomeSold Guaranteed Realty",
+        "listing_agent_phone": "718-710-3584",
+        "mls_number": "1005357",
+        "open_house_schedule": [],
+        "status": "Pending"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "record_index": 0,
+        "extraction_method": "manual",
+        "confidence": 1.0,
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "2749 Fish Ave, Bronx, NY 10469 | MLS# 1005357 | Redfin"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 12.384,
+    "input_tokens": 40608,
+    "output_tokens": 263,
+    "total_tokens": 40871,
+    "repaired": false,
+    "error": null
+  }
+}

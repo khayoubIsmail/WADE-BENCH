@@ -1,0 +1,54 @@
+{
+  "task_id": "WBV1_JOBS_EUROBRUSSELS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "id": "1",
+        "name": "John Doe",
+        "age": 30,
+        "city": "New York"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "id": "2",
+        "name": "Jane Smith",
+        "age": 25,
+        "city": "Los Angeles"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "id": "3",
+        "name": "Mike Johnson",
+        "age": 40,
+        "city": "Chicago"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 503.844,
+    "input_tokens": 120855,
+    "output_tokens": 14223,
+    "total_tokens": 135078,
+    "initial_input_tokens": 113895,
+    "initial_output_tokens": 14105,
+    "repair_input_tokens": 6960,
+    "repair_output_tokens": 118,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

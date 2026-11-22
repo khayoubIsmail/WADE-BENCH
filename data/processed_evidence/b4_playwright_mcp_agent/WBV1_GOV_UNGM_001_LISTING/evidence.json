@@ -1,0 +1,918 @@
+{
+  "task_id": "WBV1_GOV_UNGM_001_LISTING",
+  "source_files": {
+    "page_html": "data/raw_snapshots/government/ungm_listing/page.html",
+    "page_safe_html": "data/raw_snapshots/government/ungm_listing/page.safe.html",
+    "text_txt": "data/raw_snapshots/government/ungm_listing/text.txt",
+    "ax_tree": "data/raw_snapshots/government/ungm_listing/ax_tree.json",
+    "metadata": "data/raw_snapshots/government/ungm_listing/metadata.json",
+    "screenshot": "data/raw_snapshots/government/ungm_listing/screenshot.png"
+  },
+  "mcp": {
+    "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/government/ungm_listing/page.safe.html",
+    "available_tools": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "browser_snapshot": "### Page\n- Page URL: http://127.0.0.1:50869/page.safe.html\n- Page Title: Opportunités commerciales\n- Console: 4 errors, 0 warnings\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - generic [ref=e3]:\n    - banner [ref=e4]:\n      - link \"Page d'accueil de Global Marketplace\" [ref=e5] [cursor=pointer]:\n        - /url: /\n        - img [ref=e6]\n      - list [ref=e7]:\n        - listitem [ref=e8]:\n          - button \"Langue\" [ref=e9]:\n            - img [ref=e11]\n            - generic [ref=e14]: Français\n        - listitem [ref=e15]:\n          - link \"Centre d'aide Ouvre un nouvel onglet\" [ref=e16] [cursor=pointer]:\n            - /url: /Help\n            - img [ref=e18]\n            - generic [ref=e21]:\n              - text: Centre d'aide\n              - img \"Ouvre un nouvel onglet\" [ref=e22]\n        - generic [ref=e25]:\n          - link \"Se connecter\" [ref=e26] [cursor=pointer]:\n            - /url: /Login\n          - link \"Enregistrer\" [ref=e27] [cursor=pointer]:\n            - /url: /Account/Registration\n    - generic [ref=e28]:\n      - navigation [ref=e29]:\n        - button \"Réduire le menu\" [ref=e30] [cursor=pointer]:\n          - img [ref=e31]\n        - navigation \"Menu public\" [ref=e33]:\n          - generic [ref=e34]:\n            - navigation \"Skip Links\":\n              - link \"Accédez au contenu principal\" [ref=e35] [cursor=pointer]:\n                - /url: \"#main-center\"\n            - list [ref=e36]:\n              - listitem [ref=e37]:\n                - link \"Accueil\" [ref=e38] [cursor=pointer]:\n                  - /url: /\n              - listitem [ref=e39]:\n                - link \"Opportunités commerciales\" [ref=e40] [cursor=pointer]:\n                  - /url: /Public/Notice\n              - listitem [ref=e41]:\n                - link \"Adjudications de contrats\" [ref=e42] [cursor=pointer]:\n                  - /url: /Public/ContractAward\n              - listitem [ref=e43]:\n                - link \"UNGM Pro Nouveau!\" [ref=e44] [cursor=pointer]:\n                  - /url: /Public/UNGMPro\n                  - text: UNGM Pro\n                  - generic [ref=e45]: Nouveau!\n              - listitem [ref=e46]:\n                - link \"Code de conduite des fournisseurs\" [ref=e47] [cursor=pointer]:\n                  - /url: /Public/CodeOfConduct\n              - listitem [ref=e48]:\n                - link \"Classification universelle normalisée des produits et des services des Nations Unies (UNSPSC)\" [ref=e49] [cursor=pointer]:\n                  - /url: /Public/UNSPSC\n              - listitem [ref=e50]:\n                - link \"Centre d'aide Ouvre un nouvel onglet\" [ref=e51] [cursor=pointer]:\n                  - /url: /Help\n                  - text: Centre d'aide\n                  - img \"Ouvre un nouvel onglet\" [ref=e52]\n              - listitem [ref=e55]:\n                - link \"Centre de connaissances\" [ref=e56] [cursor=pointer]:\n                  - /url: /Shared/KnowledgeCenter/Pages/Index\n                - list [ref=e57]:\n                  - listitem [ref=e58]:\n                    - link \"News and recent deployments\" [ref=e59] [cursor=pointer]:\n                      - /url: /Shared/KnowledgeCenter/Pages/News\n                    - list\n                  - listitem [ref=e60]:\n                    - link \"Doing Business with UN Organizations\" [ref=e61] [cursor=pointer]:\n                      - /url: /Shared/KnowledgeCenter/Pages/KC_UnBusiness\n                    - list [ref=e62]:\n                      - listitem [ref=e63]:\n                        - link \"The UN System of Organizations\" [ref=e64] [cursor=pointer]:\n                          - /url: /Shared/KnowledgeCenter/Pages/VBS_UNSystem\n                        - list\n                      - listitem [ref=e65]:\n                        - link \"The UN Organizations\" [ref=e66] [cursor=pointer]:\n                          - /url: /Shared/KnowledgeCenter/Pages/TheUNOrganizations\n                        - list [ref=e67]:\n                          - listitem [ref=e68]:\n                            - link \"ADB\" [ref=e69] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/ADB\n                            - list\n                          - listitem [ref=e70]:\n                            - link \"AfDB\" [ref=e71] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/AfDB\n                            - list\n                          - listitem [ref=e72]:\n                            - link \"CTBTO\" [ref=e73] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/CTBTO\n                            - list\n                          - listitem [ref=e74]:\n                            - link \"FAO\" [ref=e75] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/FAO\n                            - list\n                          - listitem [ref=e76]:\n                            - link \"IAEA\" [ref=e77] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IAEA\n                            - list\n                          - listitem [ref=e78]:\n                            - link \"ICAO\" [ref=e79] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/ICAO\n                            - list\n                          - listitem [ref=e80]:\n                            - link \"IFAD\" [ref=e81] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IFAD\n                            - list\n                          - listitem [ref=e82]:\n                            - link \"ILO\" [ref=e83] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/ILO\n                            - list\n                          - listitem [ref=e84]:\n                            - link \"IMF\" [ref=e85] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IMF\n                            - list\n                          - listitem [ref=e86]:\n                            - link \"IMO\" [ref=e87] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IMO\n                            - list\n                          - listitem [ref=e88]:\n                            - link \"IOM\" [ref=e89] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IOM\n                            - list\n                          - listitem [ref=e90]:\n                            - link \"ITC\" [ref=e91] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/ITC\n                            - list\n                          - listitem [ref=e92]:\n                            - link \"ITU\" [ref=e93] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/ITU\n                            - list\n                          - listitem [ref=e94]:\n                            - link \"OPCW\" [ref=e95] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/OPCW\n                            - list\n                          - listitem [ref=e96]:\n                            - link \"OSCE\" [ref=e97] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/OSCE\n                            - list\n                          - listitem [ref=e98]:\n                            - link \"PAHO\" [ref=e99] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PAHO\n                            - list\n                          - listitem [ref=e100]:\n                            - link \"UNAIDS\" [ref=e101] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNAIDS\n                            - list\n                          - listitem [ref=e102]:\n                            - link \"UNDP\" [ref=e103] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNDP\n                            - list\n                          - listitem [ref=e104]:\n                            - link \"UNESCO\" [ref=e105] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNESCO\n                            - list\n                          - listitem [ref=e106]:\n                            - link \"UNFPA\" [ref=e107] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNFPA\n                            - list\n                          - listitem [ref=e108]:\n                            - link \"UNFCCC\" [ref=e109] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNFCCC\n                            - list\n                          - listitem [ref=e110]:\n                            - link \"UNICEF\" [ref=e111] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNICEF\n                            - list\n                          - listitem [ref=e112]:\n                            - link \"UNIDO\" [ref=e113] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNIDO\n                            - list\n                          - listitem [ref=e114]:\n                            - link \"UNHCR\" [ref=e115] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNHCR\n                            - list\n                          - listitem [ref=e116]:\n                            - link \"UNOPS\" [ref=e117] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNOPS\n                            - list\n                          - listitem [ref=e118]:\n                            - link \"UNPD\" [ref=e119] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNPD\n                            - list\n                          - listitem [ref=e120]:\n                            - link \"UNRWA\" [ref=e121] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNRWA\n                            - list\n                          - listitem [ref=e122]:\n                            - link \"UN Women\" [ref=e123] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UN_WOMEN\n                            - list\n                          - listitem [ref=e124]:\n                            - link \"UN Tourism (previously UNWTO)\" [ref=e125] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNTourism\n                            - list\n                          - listitem [ref=e126]:\n                            - link \"The World Bank\" [ref=e127] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/WBG\n                            - list\n                          - listitem [ref=e128]:\n                            - link \"WFP\" [ref=e129] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/WFP\n                            - list\n                          - listitem [ref=e130]:\n                            - link \"WIPO\" [ref=e131] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/WIPO\n                            - list\n                          - listitem [ref=e132]:\n                            - link \"WHO\" [ref=e133] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/WHO\n                            - list\n                          - listitem [ref=e134]:\n                            - link \"WMO\" [ref=e135] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/WMO\n                            - list\n                          - listitem [ref=e136]:\n                            - link \"WMU\" [ref=e137] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/WMU\n                            - list\n                          - listitem [ref=e138]:\n                            - link \"UNU\" [ref=e139] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/UNU\n                            - list\n                          - listitem [ref=e140]:\n                            - link \"WTO\" [ref=e141] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/WTO\n                            - list\n                      - listitem [ref=e142]:\n                        - link \"Procurement Categories\" [ref=e143] [cursor=pointer]:\n                          - /url: /Shared/KnowledgeCenter/Pages/UN_Procurement_Categories\n                        - list [ref=e144]:\n                          - listitem [ref=e145]:\n                            - link \"Audio and Visual Devices\" [ref=e146] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_AVD\n                            - list [ref=e147]:\n                              - listitem [ref=e148]:\n                                - link \"Samples of Specifications\" [ref=e149] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/AVD_Specs\n                                - list\n                          - listitem [ref=e150]:\n                            - link \"Building and Maintenance Services\" [ref=e151] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Build\n                            - list [ref=e152]:\n                              - listitem [ref=e153]:\n                                - link \"Samples of Specifications\" [ref=e154] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/BM_Specs\n                                - list\n                          - listitem [ref=e155]:\n                            - link \"Business Professionals and Administrative Services\" [ref=e156] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Adm\n                            - list [ref=e157]:\n                              - listitem [ref=e158]:\n                                - link \"Samples of Specifications\" [ref=e159] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/ADM_Specs\n                                - list\n                          - listitem [ref=e160]:\n                            - link \"Computer Hardware and Software\" [ref=e161] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_CHS\n                            - list [ref=e162]:\n                              - listitem [ref=e163]:\n                                - link \"Samples of Specifications\" [ref=e164] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/CHS_Specs\n                                - list\n                          - listitem [ref=e165]:\n                            - link \"Electoral Systems\" [ref=e166] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_ES\n                            - list [ref=e167]:\n                              - listitem [ref=e168]:\n                                - link \"Samples of Specifications\" [ref=e169] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/ES_Specs\n                                - list\n                          - listitem [ref=e170]:\n                            - link \"Emergency Preparedness Kits\" [ref=e171] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_EPK\n                            - list [ref=e172]:\n                              - listitem [ref=e173]:\n                                - link \"Samples of Specifications\" [ref=e174] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/EPK_Specs\n                                - list\n                          - listitem [ref=e175]:\n                            - link \"Engineering, Research and Technology Based Services\" [ref=e176] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_EnginResTech\n                            - list [ref=e177]:\n                              - listitem [ref=e178]:\n                                - link \"Samples of Specifications\" [ref=e179] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/ERT_Specs\n                                - list\n                          - listitem [ref=e180]:\n                            - link \"Food and Beverage Products\" [ref=e181] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Food\n                            - list [ref=e182]:\n                              - listitem [ref=e183]:\n                                - link \"Samples of Specifications\" [ref=e184] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/FB_Specs\n                                - list\n                          - listitem [ref=e185]:\n                            - link \"Fuels, Additives and Lubricants\" [ref=e186] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Fuels\n                            - list [ref=e187]:\n                              - listitem [ref=e188]:\n                                - link \"Samples of Specifications\" [ref=e189] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/FU_Specs\n                                - list\n                          - listitem [ref=e190]:\n                            - link \"Graphic Design\" [ref=e191] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Graphics\n                            - list [ref=e192]:\n                              - listitem [ref=e193]:\n                                - link \"Samples of Specifications\" [ref=e194] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/Graphics_Specs\n                                - list\n                          - listitem [ref=e195]:\n                            - link \"Healthcare Services\" [ref=e196] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Health\n                            - list [ref=e197]:\n                              - listitem [ref=e198]:\n                                - link \"Samples of Specifications\" [ref=e199] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/HC_Specs\n                                - list\n                          - listitem [ref=e200]:\n                            - link \"IT Services\" [ref=e201] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_ITS\n                            - list [ref=e202]:\n                              - listitem [ref=e203]:\n                                - link \"Samples of Specifications\" [ref=e204] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/ITS_Specs\n                                - list\n                              - listitem [ref=e205]:\n                                - link \"SDG Digital Investment Framework\" [ref=e206] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/URL_SDG\n                                - list\n                          - listitem [ref=e207]:\n                            - link \"Insurance Services\" [ref=e208] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Insurance\n                            - list [ref=e209]:\n                              - listitem [ref=e210]:\n                                - link \"Samples of Specifications\" [ref=e211] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/Ins_Specs\n                                - list\n                          - listitem [ref=e212]:\n                            - link \"Medical Waste Disposal\" [ref=e213] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_MWD\n                            - list [ref=e214]:\n                              - listitem [ref=e215]:\n                                - link \"Samples of Specifications\" [ref=e216] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/MWD_Specs\n                                - list\n                          - listitem [ref=e217]:\n                            - link \"Medical Equipment and Supplies\" [ref=e218] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_MedEquip\n                            - list [ref=e219]:\n                              - listitem [ref=e220]:\n                                - link \"Samples of Specifications\" [ref=e221] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/MES_Specs\n                                - list\n                          - listitem [ref=e222]:\n                            - link \"Personal Hygiene and Sanitation Products\" [ref=e223] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_PHSP\n                            - list [ref=e224]:\n                              - listitem [ref=e225]:\n                                - link \"Samples of Specifications\" [ref=e226] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/PHSP_Specs\n                                - list\n                          - listitem [ref=e227]:\n                            - link \"Pharmaceutical Items\" [ref=e228] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Pharmaceuticals\n                            - list [ref=e229]:\n                              - listitem [ref=e230]:\n                                - link \"Samples of Specifications\" [ref=e231] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/PH_Specs\n                                - list\n                          - listitem [ref=e232]:\n                            - link \"Public Order, Security and Safety Services\" [ref=e233] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Security\n                            - list [ref=e234]:\n                              - listitem [ref=e235]:\n                                - link \"Samples of Specifications\" [ref=e236] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/SEC_Specs\n                                - list\n                          - listitem [ref=e237]:\n                            - link \"Postal, Courier and Mail Services\" [ref=e238] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Courier\n                            - list [ref=e239]:\n                              - listitem [ref=e240]:\n                                - link \"Samples of Specifications\" [ref=e241] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/Courier_Specs\n                                - list\n                          - listitem [ref=e242]:\n                            - link \"Specialized Equipment for Agriculture\" [ref=e243] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_SEA\n                            - list [ref=e244]:\n                              - listitem [ref=e245]:\n                                - link \"Samples of Specifications\" [ref=e246] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/SEA_Specs\n                                - list\n                          - listitem [ref=e247]:\n                            - link \"Telecommunications\" [ref=e248] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_Telecom\n                            - list [ref=e249]:\n                              - listitem [ref=e250]:\n                                - link \"Samples of Specifications\" [ref=e251] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/Telecom_Specs\n                                - list\n                          - listitem [ref=e252]:\n                            - link \"Translation and Publishing Services\" [ref=e253] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_TPS\n                            - list [ref=e254]:\n                              - listitem [ref=e255]:\n                                - link \"Samples of Specifications\" [ref=e256] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/TPS_Specs\n                                - list\n                          - listitem [ref=e257]:\n                            - link \"Transportation and Storage Services\" [ref=e258] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_TranStorMail\n                            - list [ref=e259]:\n                              - listitem [ref=e260]:\n                                - link \"Samples of Specifications\" [ref=e261] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/TSM_Specs\n                                - list\n                          - listitem [ref=e262]:\n                            - link \"Travel Management Services\" [ref=e263] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_TMS\n                            - list [ref=e264]:\n                              - listitem [ref=e265]:\n                                - link \"Samples of Specifications\" [ref=e266] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/TMS_Specs\n                                - list\n                          - listitem [ref=e267]:\n                            - link \"Vehicles and Fleet Management\" [ref=e268] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/PC_VehiclesFleet\n                            - list [ref=e269]:\n                              - listitem [ref=e270]:\n                                - link \"Samples of Specifications\" [ref=e271] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/VF_Specs\n                                - list\n                              - listitem [ref=e272]:\n                                - link \"Joint Initiatives on Vehicles and Fleet Management\" [ref=e273] [cursor=pointer]:\n                                  - /url: /Shared/KnowledgeCenter/Pages/VF_Collaborations\n                                - list\n                      - listitem [ref=e274]:\n                        - link \"International Procurement Seminars (IPS)\" [ref=e275] [cursor=pointer]:\n                          - /url: /Shared/KnowledgeCenter/Pages/VBS_BusSeminar\n                        - list [ref=e276]:\n                          - listitem [ref=e277]:\n                            - link \"IPS, Geneva, November 2025\" [ref=e278] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSNOVEMBER2025\n                            - list\n                          - listitem [ref=e279]:\n                            - link \"IPS, Copenhagen, June 2025\" [ref=e280] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSJUNE2025\n                            - list\n                          - listitem [ref=e281]:\n                            - link \"IPS, Copenhagen, March 2025\" [ref=e282] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSMARCH2025\n                            - list\n                          - listitem [ref=e283]:\n                            - link \"IPS, China, November 2024\" [ref=e284] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSNovember2024\n                            - list\n                          - listitem [ref=e285]:\n                            - link \"IPS, Copenhagen, June 2024\" [ref=e286] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSJune2024\n                            - list\n                          - listitem [ref=e287]:\n                            - link \"IPS, Copenhagen, November 2023\" [ref=e288] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSNovember2023\n                            - list\n                          - listitem [ref=e289]:\n                            - link \"IPS, Copenhagen, March 2023\" [ref=e290] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSMarch2023\n                            - list\n                          - listitem [ref=e291]:\n                            - link \"IPS, Turin, November 2022\" [ref=e292] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSNov2022\n                            - list\n                          - listitem [ref=e293]:\n                            - link \"IPS, Vienna, April 2022\" [ref=e294] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSApril2022\n                            - list\n                          - listitem [ref=e295]:\n                            - link \"IPS, European Consortium [2], June 2021\" [ref=e296] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSJune2021\n                            - list\n                          - listitem [ref=e297]:\n                            - link \"IPS, European Consortium [1], January 2021\" [ref=e298] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSJan22021\n                            - list\n                          - listitem [ref=e299]:\n                            - link \"IPS, Nordic Countries, January 2021\" [ref=e300] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSJan2021\n                            - list\n                          - listitem [ref=e301]:\n                            - link \"IPS, Argentina, November 2019\" [ref=e302] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSNov2019\n                            - list\n                          - listitem [ref=e303]:\n                            - link \"IPS, Copenhagen, June 2019\" [ref=e304] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSJune2019\n                            - list\n                          - listitem [ref=e305]:\n                            - link \"IPS, Copenhagen, November 2018\" [ref=e306] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPSNov18\n                            - list\n                          - listitem [ref=e307]:\n                            - link \"IPS, Copenhagen, June 2018\" [ref=e308] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS_2018June_Copenhagen\n                            - list\n                          - listitem [ref=e309]:\n                            - link \"IPS, Rome, May 2019\" [ref=e310] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS_Rome\n                            - list\n                          - listitem [ref=e311]:\n                            - link \"\\\"How to do Business with CPAG\\\", Geneva 2018\" [ref=e312] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/Switzerland11_6_2018_to_11_6_2018\n                            - list\n                          - listitem [ref=e313]:\n                            - link \"Spain - November 2016\" [ref=e314] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/Seminar_Spain2016\n                            - list\n                          - listitem [ref=e315]:\n                            - link \"IPS, Bonn, November 2016\" [ref=e316] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/SEMINAR_IPS2016\n                            - list\n                          - listitem [ref=e317]:\n                            - link \"Nordic Countries, June 2016\" [ref=e318] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/SEMINAR_NORDICS2016\n                            - list\n                          - listitem [ref=e319]:\n                            - link \"The Netherlands - May 2016\" [ref=e320] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/SEMINAR_THENETHERLANDS2016\n                            - list\n                          - listitem [ref=e321]:\n                            - link \"Nordic UN Procurement Seminar 2025, June 2025\" [ref=e322] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS32_6_10_2025_to_6_11_2025\n                            - list\n                          - listitem [ref=e323]:\n                            - link \"UN Business Meetings - May 2025\" [ref=e324] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS34_5_19_2025_to_5_20_2025\n                            - list\n                          - listitem [ref=e325]:\n                            - link \"UN International Procurement Seminar, Copenhagen, 11 and 12 March 2025\" [ref=e326] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS31_3_11_2025_to_3_12_2025\n                            - list\n                          - listitem [ref=e327]:\n                            - link \"UN IPS, Ningbo, Nov 2024\" [ref=e328] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS30_11_13_2024_to_11_14_2024\n                            - list\n                          - listitem [ref=e329]:\n                            - link \"Estonia, France, Belgium, Brussels IPS - June 2024\" [ref=e330] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS28_6_11_2024_to_6_12_2024\n                            - list\n                          - listitem [ref=e331]:\n                            - link \"UN International Procurement Seminar March 2024\" [ref=e332] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS27_3_20_2024_to_3_21_2024\n                            - list\n                          - listitem [ref=e333]:\n                            - link \"The Republic of Zambia Virtual Business Seminar 2024\" [ref=e334] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS29_2_27_2024_to_2_27_2024\n                            - list\n                          - listitem [ref=e335]:\n                            - link \"Nordic UN Procurement Seminar 2023\" [ref=e336] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS24_11_14_2023_to_11_15_2023\n                            - list\n                          - listitem [ref=e337]:\n                            - link \"Poland, November 2016\" [ref=e338] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/Seminar_Poland2016\n                            - list\n                          - listitem [ref=e339]:\n                            - link \"Hungary, May 2016\" [ref=e340] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/SEMINAR_HUNGARY2016\n                            - list\n                          - listitem [ref=e341]:\n                            - link \"Liberia Virtual Business Seminar - Feb 2025\" [ref=e342] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS33_2_18_2025_to_2_18_2025\n                            - list\n                          - listitem [ref=e343]:\n                            - link \"UN Virtual Business Seminar for Peruvian Vendors\" [ref=e344] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS38_6_3_2025_to_6_3_2025\n                            - list\n                          - listitem [ref=e345]:\n                            - link \"Burundi virtual business seminar\" [ref=e346] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS23_6_14_2023_to_6_14_2023\n                            - list\n                          - listitem [ref=e347]:\n                            - link \"UN Virtual Business Seminar for Côte d’Ivoire Vendors\" [ref=e348] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS40_6_5_2025_to_6_5_2025\n                            - list\n                          - listitem [ref=e349]:\n                            - link \"United Nation International Procurement Seminar\" [ref=e350] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS39_11_19_2025_to_11_20_2025\n                            - list\n                          - listitem [ref=e351]:\n                            - link \"United Nations Business Seminar for Ghanaian Suppliers\" [ref=e352] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS41_7_17_2025_to_7_17_2025\n                            - list\n                          - listitem [ref=e353]:\n                            - link \"United Nations Virtual Business Seminar for Paraguayan Suppliers\" [ref=e354] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS42_7_24_2025_to_7_24_2025\n                            - list\n                          - listitem [ref=e355]:\n                            - link \"United Nations Secretariat Virtual Business Seminar for Mozambique Suppliers\" [ref=e356] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS44_8_26_2025_to_8_26_2025\n                            - list\n                          - listitem [ref=e357]:\n                            - link \"UN International Procurement Seminar June 2026\" [ref=e358] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS45_6_9_2026_to_6_10_2026\n                            - list\n                          - listitem [ref=e359]:\n                            - link \"Angola virtual business seminar\" [ref=e360] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS35_5_28_2025_to_5_28_2025\n                            - list\n                          - listitem [ref=e361]:\n                            - link \"Bolivia virtual business seminar\" [ref=e362] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS36_6_4_2025_to_6_4_2025\n                            - list\n                          - listitem [ref=e363]:\n                            - link \"Mexico virtual business seminar\" [ref=e364] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS37_6_11_2025_to_6_11_2025\n                            - list\n                          - listitem [ref=e365]:\n                            - link \"Lesotho Business Seminar\" [ref=e366] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS19_10_26_2022_to_10_26_2022\n                            - list\n                          - listitem [ref=e367]:\n                            - link \"The Gambia virtual business seminar\" [ref=e368] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS22_6_7_2023_to_6_7_2023\n                            - list\n                          - listitem [ref=e369]:\n                            - link \"Sierra Leone Virtual Business Seminar\" [ref=e370] [cursor=pointer]:\n                              - /url: /Shared/KnowledgeCenter/Pages/IPS26_8_31_2023_to_8_31_2023\n                            - list\n              ",
+    "navigation_result": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:50869/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:50869/page.safe.html\n- Page Title: Opportunités commerciales\n- Console: 4 errors, 0 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T07-32-09-900Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T07-32-08-774Z.log#L1-L4"
+  },
+  "visible_text": "Français\nCentre d'aide  \nSe connecter\nEnregistrer\nAccédez au contenu principal\nAccueil\nOpportunités commerciales\nAdjudications de contrats\nUNGM Pro Nouveau!\nCode de conduite des fournisseurs\nClassification universelle normalisée des produits et des services des Nations Unies (UNSPSC)\nCentre d'aide  \nCentre de connaissances\nNews and recent deployments\nDoing Business with UN Organizations\nThe UN System of Organizations\nThe UN Organizations\nADB\nAfDB\nCTBTO\nFAO\nIAEA\nICAO\nIFAD\nILO\nIMF\nIMO\nIOM\nITC\nITU\nOPCW\nOSCE\nPAHO\nUNAIDS\nUNDP\nUNESCO\nUNFPA\nUNFCCC\nUNICEF\nUNIDO\nUNHCR\nUNOPS\nUNPD\nUNRWA\nUN Women\nUN Tourism (previously UNWTO)\nThe World Bank\nWFP\nWIPO\nWHO\nWMO\nWMU\nUNU\nWTO\nProcurement Categories\nAudio and Visual Devices\nSamples of Specifications\nBuilding and Maintenance Services\nSamples of Specifications\nBusiness Professionals and Administrative Services\nSamples of Specifications\nComputer Hardware and Software\nSamples of Specifications\nElectoral Systems\nSamples of Specifications\nEmergency Preparedness Kits\nSamples of Specifications\nEngineering, Research and Technology Based Services\nSamples of Specifications\nFood and Beverage Products\nSamples of Specifications\nFuels, Additives and Lubricants\nSamples of Specifications\nGraphic Design\nSamples of Specifications\nHealthcare Services\nSamples of Specifications\nIT Services\nSamples of Specifications\nSDG Digital Investment Framework\nInsurance Services\nSamples of Specifications\nMedical Waste Disposal\nSamples of Specifications\nMedical Equipment and Supplies\nSamples of Specifications\nPersonal Hygiene and Sanitation Products\nSamples of Specifications\nPharmaceutical Items\nSamples of Specifications\nPublic Order, Security and Safety Services\nSamples of Specifications\nPostal, Courier and Mail Services\nSamples of Specifications\nSpecialized Equipment for Agriculture\nSamples of Specifications\nTelecommunications\nSamples of Specifications\nTranslation and Publishing Services\nSamples of Specifications\nTransportation and Storage Services\nSamples of Specifications\nTravel Management Services\nSamples of Specifications\nVehicles and Fleet Management\nSamples of Specifications\nJoint Initiatives on Vehicles and Fleet Management\nInternational Procurement Seminars (IPS)\nIPS, Geneva, November 2025\nIPS, Copenhagen, June 2025\nIPS, Copenhagen, March 2025\nIPS, China, November 2024\nIPS, Copenhagen, June 2024\nIPS, Copenhagen, November 2023\nIPS, Copenhagen, March 2023\nIPS, Turin, November 2022\nIPS, Vienna, April 2022\nIPS, European Consortium [2], June 2021\nIPS, European Consortium [1], January 2021\nIPS, Nordic Countries, January 2021\nIPS, Argentina, November 2019\nIPS, Copenhagen, June 2019\nIPS, Copenhagen, November 2018\nIPS, Copenhagen, June 2018\nIPS, Rome, May 2019\n\"How to do Business with CPAG\", Geneva 2018\nSpain - November 2016\nIPS, Bonn, November 2016\nNordic Countries, June 2016\nThe Netherlands - May 2016\nNordic UN Procurement Seminar 2025, June 2025\nUN Business Meetings - May 2025\nUN International Procurement Seminar, Copenhagen, 11 and 12 March 2025\nUN IPS, Ningbo, Nov 2024\nEstonia, France, Belgium, Brussels IPS - June 2024\nUN International Procurement Seminar March 2024\nThe Republic of Zambia Virtual Business Seminar 2024\nNordic UN Procurement Seminar 2023\nPoland, November 2016\nHungary, May 2016\nLiberia Virtual Business Seminar - Feb 2025\nUN Virtual Business Seminar for Peruvian Vendors\nBurundi virtual business seminar\nUN Virtual Business Seminar for Côte d’Ivoire Vendors\nUnited Nation International Procurement Seminar\nUnited Nations Business Seminar for Ghanaian Suppliers\nUnited Nations Virtual Business Seminar for Paraguayan Suppliers\nUnited Nations Secretariat Virtual Business Seminar for Mozambique Suppliers\nUN International Procurement Seminar June 2026\nAngola virtual business seminar\nBolivia virtual business seminar\nMexico virtual business seminar\nLesotho Business Seminar\nThe Gambia virtual business seminar\nSierra Leone Virtual Business Seminar\nGuyana virtual business seminar\nRwanda Virtual Business Seminar\nUnited Nations Secretariat Virtual Business Seminar for Paraguayan Suppliers\nBusiness Meetings ONU 2026 - New York\nDeep Wave 2026\nCollaboration with UN Organizations\nUN Collaboration with Universities\nUniversity of Rome Tor Vergata\nSummaries of Theses\nThe Turin School of Development (TSD)\nProcurement Practitioner's Handbook\nSupplier Human Trafficking & Forced Labour Resources\nSupplier Resources\nUN Operational Indicators\nProcurement Plans\nThe UN Market (DRAFT)\nThe Annual Statistical Report (ASR)\nSustainable Procurement\nThe Sustainable Procurement Indicators\nThe UN Sustainable Procurement Statistics\nThe Sustainability Procurement Portfolio Model\nSustainability Analysis\nThe SPPM methodology\ne-Procurement Systems\nAriba\nUNOPS eSourcing\nQuantum\nJaggaer\nIn-Tend\nProduct Innovation\nTarget Product Profiles\nSchool furniture design\nOnline Courses and Other Resources\nDoing business with UNOPS\nOther UN e-Learning Platforms and Courses\nAbout the Knowledge Center\nThe UNGM Glossary\nStatistiques sur les activités d'achats des Nations Unies\nOpportunités Commerciales\nTitre\nDescription\nRéférence\nPublié entre le\net le\nDate d'échéance entre le\net le\nOpportunités actives\nActuellement actif uniquement\nOrganisation\n\n\nPays/territoire bénéficiaire\n\n\nBiens et services\nRechercher des codes\nType d'avis\nNon-défini\nDemande de manifestation d'intérêt\nDemande de proposition\nDemande de cotation\nAppel d’offres\nDemande de pré-qualification\nDemande d’informations\nAppel à propositions\nAvis précédant l'appel d'offres\nAppel à des consultants individuels\nAppel aux partenaires d’exécution\nDéveloppement durable\nAvis de marché \"durables\"\nRechercher Tout effacer \nEnregistrer cette recherche\nRésultats : 1 - 30 sur 1632\n\tTitre\tDate d'échéance\tDate de publication\tOrganisation\tType d'avis\tRéférence\tPays/territoire bénéficiaire\n\n\t\nUNDP-FJI-00747 - Expression of Interest – Civil Works for AMOS-RD Project\n\t29-mai-2026 02:00 (GMT -4.00) Expire dans les 24 heures\t17-avr.-2026\tPNUD\tDemande de manifestation d'intérêt\tUNDP-FJI-00747,2\tÎles Salomon\n\n\t\nFacilitator for Fiji Women’s Political Participation Programme\n\t29-mai-2026 03:00 (GMT -4.00) Expire dans les 24 heures\t12-mai-2026\tPNUD\tAppel à des consultants individuels\tUNDP-FJI-00764\tFidji\n\n\t\nNational Consultant on Border Force Community Outreach\n\t29-mai-2026 03:15 (GMT -4.00) Expire dans les 24 heures\t16-avr.-2026\tPNUD\tAppel à des consultants individuels\tUNDP-TJK-00601\tTadjikistan\n\n\t\nRFP-Systems Leadership & Jurisdictional Approach (JA) Training\n\t29-mai-2026 04:00 (GMT -4.00) Expire dans les 24 heures\t06-mai-2026\tPNUD\tDemande de proposition\tUNDP-MYS-00285,1\tMalaisie\n\n\t\nRFP/KEITI/2605/29 Conduct a Feasibility Study of MC Solid Waste Magmt Kurunegala\n\t29-mai-2026 04:30 (GMT -4.00) Expire dans les 24 heures\t13-mai-2026\tPNUD\tDemande de proposition\tUNDP-LKA-00687,1\tSri Lanka\n\n\t\nIC/BIOFIN/2605/14-Payment for Ecosystem Services–Partnership Development\n\t29-mai-2026 04:30 (GMT -4.00) Expire dans les 24 heures\t15-mai-2026\tPNUD\tAppel à des consultants individuels\tUNDP-LKA-00688\tSri Lanka\n\n\t\nIndependent Assessment/Review of Implementation Performance of the GEF Project\n\t29-mai-2026 05:00 (GMT -4.00) Expire dans les 24 heures\t20-avr.-2026\tPNUD\tDemande de proposition\tUNDP-CHN-00219\tChine\n\n\t\nInternational Consultant to conduct a comprehensive Capacity Needs Assessment\n\t29-mai-2026 05:00 (GMT -4.00) Expire dans les 24 heures\t04-mai-2026\tPNUD\tAppel à des consultants individuels\tUNDP-KHM-00225,1\tCambodge\n\n\t\nRFP_Studying and Designing Eco-system to strengthen NFV Cluster Competitiveness\n\t29-mai-2026 05:00 (GMT -4.00) Expire dans les 24 heures\t07-mai-2026\tPNUD\tDemande de proposition\tUNDP-THA-00208,1\tThaïlande\n\n\t\nMenstrual Hygiene Kits - UNFPA/MNG/RFQ/26/005\n\t29-mai-2026 05:00 (GMT -4.00) Expire dans les 24 heures\t14-mai-2026\tFNUAP\tDemande de cotation\tUNFPA-MNG-00014,1\tMongolie\n\n\t\nTSP for Advancing WEE in Agrifood System and Unlocking Inclusive and Blended Fin\n\t29-mai-2026 05:00 (GMT -4.00) Expire dans les 24 heures\t14-mai-2026\tONU-Femmes\tDemande de proposition\tUNW-APA-2026-00024\tPhilippines\n\n\t\nProvision of Events Management Package for the 2026 Philippines WEPs Awards\n\t29-mai-2026 05:00 (GMT -4.00) Expire dans les 24 heures\t15-mai-2026\tONU-Femmes\tDemande de cotation\tUNW-APA-2026-00026\tPhilippines\n\n\t\nRFP 813-2026 Trust Gap Analysis\n\t29-mai-2026 05:00 (GMT -4.00) Expire dans les 24 heures\t15-mai-2026\tPNUD\tDemande de proposition\tUNDP-MKD-00813,1\tMacédoine\n\n\t\nAchat de matériel motorisé pour les bénéficiaires de l appel à projet\n\t29-mai-2026 05:00 (GMT -4.00) Expire dans les 24 heures\t18-mai-2026\tPNUD\tDemande de cotation\tUNDP-GAB-00532\tGabon\n\n\t\nINVITATION TO BID: Remodeling Of PHC Malkohi In Adamawa State.\n\t29-mai-2026 05:59 (GMT 2.00) Expire dans les 24 heures\t12-mai-2026\tUNHCR\tAppel d’offres\tNGA - UNHCR ITB 2856\tNigeria\n\n\t\nVarious Materials for the CE Programme of Puerto Princesa City\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t30-mars-2026\tPNUD\tDemande de cotation\tUNDP-PHL-00893,1\tPhilippines\n\n\t\nExpert Roster Circular Economy Technical Experts\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t31-mars-2026\tPNUD\tAppel à des consultants individuels\tUNDP-PHL-00896\tPhilippines\n\n\t\nLong-Term Agreement for Supply and Delivery of Hygiene Supplies\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t06-mai-2026\tPNUD\tDemande de cotation\tUNDP-PHL-00900-2\tPhilippines\n\n\t\nIndividual Consultant for GEDSI Integration for a Circular Economy\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t07-mai-2026\tPNUD\tAppel à des consultants individuels\tUNDP-PHL-00925\tPhilippines\n\n\t\nIC National Associate Circular Economy Financing Specialist with Group C LGUs\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t07-mai-2026\tPNUD\tAppel à des consultants individuels\tUNDP-PHL-00924\tPhilippines\n\n\t\nIC National Associate Circular Economy Financing Specialist with Group B LGUs\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t07-mai-2026\tPNUD\tAppel à des consultants individuels\tUNDP-PHL-00923\tPhilippines\n\n\t\nFirm for the Provision of Technical Assistance on CE Financing Strategies\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t08-mai-2026\tPNUD\tDemande d’informations\tUNDP-PHL-00928,1\tPhilippines\n\n\t\nSupply and Delivery of Construction Materials for Ormoc City (CCO, DepEd, SPC)\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t11-mai-2026\tPNUD\tDemande de cotation\tUNDP-PHL-00930\tPhilippines\n\n\t\nEstablishment of LTA for the provision of printing services; RFQ-004-MYS-2026\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t13-mai-2026\tPNUD\tDemande de cotation\tUNDP-MYS-00291,1\tMalaisie\n\n\t\nRFQ Construction Works for the improvement of Outdoor Sport Fields at: “George S\n\t29-mai-2026 06:00 (GMT -4.00) Expire dans les 24 heures\t22-mai-2026\tPNUD\tDemande de cotation\tUNDP-ALB-00859\tAlbanie\n\n\t\nSurvey and Assessment of Working Conditions in Smallholder Coffee Farming and Coffee Collecting Joint Business Groups (KUB) During Harvest Season in Tanggamus and West Lampung Districts, Lampung Province, Indonesia_VZF_RFQ (Request for Quotation)\n\t29-mai-2026 07:00 (GMT 2.00) Expire dans les 24 heures\t08-mai-2026\tOIT\tDemande de cotation\trfx_6456_ROAP\tIndonésie\n\n\t\nSupply of Medical and/or Laboratory Equipment (UHF Therapy & Radial Shock Wave & Magnetic Therapy & High Laser & Electroencephalograph) for SES Uzbekistan\n\t29-mai-2026 07:00 (GMT 0.00) Expire dans les 24 heures\t09-mai-2026\tUNOPS\tDemande de cotation\tRFQ/2026/62822\tOuzbékistan\n\n\t\nConsultant for Gender Equality Outreach and Knowledge Support\n\t29-mai-2026 07:57 (GMT -4.00) Expire dans les 24 heures\t19-mai-2026\tPNUD\tAppel à des consultants individuels\tUNDP-MNE-00816\tMonténégro\n\n\t\nAppel à Propositions\n\t29-mai-2026 08:00 (GMT -4.00) Expire dans les 24 heures\t12-mai-2026\tPNUD\tAppel à propositions\tUNDP-BDI-00684\tBurundi\n\n\t\nIC- National Consultant – Technical assistance for the preparation and drafting\n\t29-mai-2026 08:00 (GMT -4.00) Expire dans les 24 heures\t13-mai-2026\tPNUD\tAppel à des consultants individuels\tUNDP-ALB-00846\tAlbanie\n\n© 2026 - Portail mondial pour les fournisseurs des organismes des Nations Unies •  Termes et conditions •  Plan du site •  Glossaire",
+  "ax_tree_excerpt": "{\n  \"nodes\": [\n    {\n      \"nodeId\": \"2\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"RootWebArea\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 144\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Opportunités commerciales\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Opportunités commerciales\"\n            },\n            \"nativeSource\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"focused\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/PhD/myArticlesAndPapers/my-papers/5-WISE/wade-bench/data/raw_snapshots/government/ungm_listing/page.html\"\n          }\n        }\n      ],\n      \"childIds\": [\n        \"8\"\n      ],\n      \"backendDOMNodeId\": 2,\n      \"frameId\": \"E9BD0BB903E3641C6C3DC505A4930177\"\n    },\n    {\n      \"nodeId\": \"8\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"2\",\n      \"childIds\": [\n        \"40\"\n      ],\n      \"backendDOMNodeId\": 8\n    },\n    {\n      \"nodeId\": \"40\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"8\",\n      \"childIds\": [\n        \"41\",\n        \"42\",\n        \"3439\",\n        \"3598\",\n        \"3600\",\n        \"3602\"\n      ],\n      \"backendDOMNodeId\": 40\n    },\n    {\n      \"nodeId\": \"41\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"40\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 41\n    },\n    {\n      \"nodeId\": \"42\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"40\",\n      \"childIds\": [\n        \"43\",\n        \"100\",\n        \"3402\",\n        \"3435\"\n      ],\n      \"backendDOMNodeId\": 42\n    },\n    {\n      \"nodeId\": \"3439\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"40\",\n      \"childIds\": [\n        \"3440\",\n        \"3508\"\n      ],\n      \"backendDOMNodeId\": 3439\n    },\n    {\n      \"nodeId\": \"3598\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"status\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 159\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"live\",\n          \"value\": {\n            \"type\": \"token\",\n            \"value\": \"assertive\"\n          }\n        },\n        {\n          \"name\": \"atomic\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"relevant\",\n          \"value\": {\n            \"type\": \"tokenList\",\n            \"value\": \"additions\"\n          }\n        }\n      ],\n      \"parentId\": \"40\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 3598\n    },\n    {\n      \"nodeId\": \"3600\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"status\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 159\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"live\",\n          \"value\": {\n            \"type\": \"token\",\n            \"value\": \"assertive\"\n          }\n        },\n        {\n          \"name\": \"atomic\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"relevant\",\n          \"value\": {\n            \"type\": \"tokenList\",\n            \"value\": \"additions\"\n          }\n        }\n      ],\n      \"parentId\": \"40\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 3600\n    },\n    {\n      \"nodeId\": \"3602\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"40\",\n      \"childIds\": [\n        \"3603\"\n      ],\n      \"backendDOMNodeId\": 3602\n    },\n    {\n      \"nodeId\": \"43\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"banner\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 94\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"42\",\n      \"childIds\": [\n        \"44\",\n        \"48\"\n      ],\n      \"backendDOMNodeId\": 43\n    },\n    {\n      \"nodeId\": \"100\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"42\",\n      \"childIds\": [\n        \"101\",\n        \"855\",\n        \"3401\"\n      ],\n      \"backendDOMNodeId\": 100\n    },\n    {\n      \"nodeId\": \"3402\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"contentinfo\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 26\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"42\",\n      \"childIds\": [\n        \"3403\"\n      ],\n      \"backendDOMNodeId\": 3402\n    },\n    {\n      \"nodeId\": \"3435\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"42\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 3435\n    },\n    {\n      \"nodeId\": \"3440\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"3439\",\n      \"childIds\": [\n        \"3441\",\n        \"3443\",\n        \"3445\"\n      ],\n      \"backendDOMNodeId\": 3440\n    },\n    {\n      \"nodeId\": \"3441\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"3440\",\n      \"childIds\": [\n        \"4566\"\n      ],\n      \"backendDOMNodeId\": 3441\n    },\n    {\n      \"nodeId\": \"3443\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"3440\",\n      \"childIds\": [\n        \"4567\"\n      ],\n      \"backendDOMNodeId\": 3443\n    },\n    {\n      \"nodeId\": \"3445\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"3440\",\n      \"childIds\": [\n        \"3446\",\n        \"3468\"\n      ],\n      \"backendDOMNodeId\": 3445\n    },\n    {\n      \"nodeId\": \"3508\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"table\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 167\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"nativeSource\": \"tablecaption\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"summary\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"3439\",\n      \"childIds\": [\n        \"3509\",\n        \"3525\"\n      ],\n      \"backendDOMNodeId\": 3508\n    },\n    {\n      \"nodeId\": \"3603\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"Iframe\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 97\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Ouvre un widget dans lequel vous pouvez trouver plus d’informations\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Ouvre un widget dans lequel vous pouvez trouver plus d’informations\"\n            },\n            \"attribute\": \"title\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"Ouvre un widget dans lequel vous pouvez trouver plus d’informations\"\n            }\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"3602\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 3603\n    },\n    {\n      \"nodeId\": \"44\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"link\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 110\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Page d'accueil de Global Marketplace\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Page d'accueil de Global Marketplace\"\n            },\n            \"attribute\": \"aria-label\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"Page d'accueil de Global Marketplace\"\n            }\n          },\n          {\n            \"type\": \"contents\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/\"\n          }\n        }\n      ],\n      \"parentId\": \"43\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 44\n    },\n    {\n      \"nodeId\": \"48\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"list\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 111\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"43\",\n      \"childIds\": [\n        \"49\",\n        \"54\",\n        \"86\",\n        \"97\"\n      ],\n      \"backendDOMNodeId\": 48\n    },\n    {\n      \"nodeId\": \"101\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"navigation\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 130\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"100\",\n      \"childIds\": [\n        \"102\",\n        \"105\",\n        \"108\"\n      ],\n      \"backendDOMNodeId\": 101\n    },\n    {\n      \"nodeId\": \"855\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"main\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 118\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"100\",\n      \"childIds\": [\n        \"856\"\n      ],\n      \"backendDOMNodeId\": 855\n    },\n    {\n      \"nodeId\": \"3401\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"100\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 3401\n    },\n    {\n      \"nodeId\": \"3403\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"3402\",\n      \"childIds\": [\n        \"3404\"\n      ],\n      \"backendDOMNodeId\": 3403\n    },\n    {\n      \"nodeId\": \"3404\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boo\n<!-- TRUNCATED -->",
+  "metadata_excerpt": "{\n  \"snapshot_id\": \"ungm_listing\",\n  \"website_id\": \"ungm\",\n  \"task_id\": \"WBV1_GOV_UNGM_LISTING\",\n  \"schema_id\": \"tender_notice_v1\",\n  \"page_type\": \"listing\",\n  \"url\": \"https://www.ungm.org/Public/Notice\",\n  \"captured_at\": \"2026-05-29T01:38:25.962Z\",\n  \"capture_tool\": \"playwright-stealth\",\n  \"browser\": \"chromium\",\n  \"initial_url\": \"https://www.ungm.org/Public/Notice\",\n  \"final_url\": \"https://www.ungm.org/Public/Notice\",\n  \"page_title\": \"Opportunités commerciales\",\n  \"capture_status\": \"captured\",\n  \"html_size\": 333967,\n  \"text_size\": 12123\n}",
+  "html_signals": {
+    "title": "Opportunités commerciales",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Opportunités commerciales"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "Centre d'aide Ouvre un nouvel onglet",
+        "href": "/Help"
+      },
+      {
+        "text": "Se connecter",
+        "href": "/Login"
+      },
+      {
+        "text": "Enregistrer",
+        "href": "/Account/Registration"
+      },
+      {
+        "text": "Accédez au contenu principal",
+        "href": "#main-center"
+      },
+      {
+        "text": "Accueil",
+        "href": "/"
+      },
+      {
+        "text": "Opportunités commerciales",
+        "href": "/Public/Notice"
+      },
+      {
+        "text": "Adjudications de contrats",
+        "href": "/Public/ContractAward"
+      },
+      {
+        "text": "UNGM Pro Nouveau!",
+        "href": "/Public/UNGMPro"
+      },
+      {
+        "text": "Code de conduite des fournisseurs",
+        "href": "/Public/CodeOfConduct"
+      },
+      {
+        "text": "Classification universelle normalisée des produits et des services des Nations Unies (UNSPSC)",
+        "href": "/Public/UNSPSC"
+      },
+      {
+        "text": "Centre d'aide Ouvre un nouvel onglet",
+        "href": "/Help"
+      },
+      {
+        "text": "Centre de connaissances",
+        "href": "/Shared/KnowledgeCenter/Pages/Index"
+      },
+      {
+        "text": "News and recent deployments",
+        "href": "/Shared/KnowledgeCenter/Pages/News"
+      },
+      {
+        "text": "Doing Business with UN Organizations",
+        "href": "/Shared/KnowledgeCenter/Pages/KC_UnBusiness"
+      },
+      {
+        "text": "The UN System of Organizations",
+        "href": "/Shared/KnowledgeCenter/Pages/VBS_UNSystem"
+      },
+      {
+        "text": "The UN Organizations",
+        "href": "/Shared/KnowledgeCenter/Pages/TheUNOrganizations"
+      },
+      {
+        "text": "ADB",
+        "href": "/Shared/KnowledgeCenter/Pages/ADB"
+      },
+      {
+        "text": "AfDB",
+        "href": "/Shared/KnowledgeCenter/Pages/AfDB"
+      },
+      {
+        "text": "CTBTO",
+        "href": "/Shared/KnowledgeCenter/Pages/CTBTO"
+      },
+      {
+        "text": "FAO",
+        "href": "/Shared/KnowledgeCenter/Pages/FAO"
+      },
+      {
+        "text": "IAEA",
+        "href": "/Shared/KnowledgeCenter/Pages/IAEA"
+      },
+      {
+        "text": "ICAO",
+        "href": "/Shared/KnowledgeCenter/Pages/ICAO"
+      },
+      {
+        "text": "IFAD",
+        "href": "/Shared/KnowledgeCenter/Pages/IFAD"
+      },
+      {
+        "text": "ILO",
+        "href": "/Shared/KnowledgeCenter/Pages/ILO"
+      },
+      {
+        "text": "IMF",
+        "href": "/Shared/KnowledgeCenter/Pages/IMF"
+      },
+      {
+        "text": "IMO",
+        "href": "/Shared/KnowledgeCenter/Pages/IMO"
+      },
+      {
+        "text": "IOM",
+        "href": "/Shared/KnowledgeCenter/Pages/IOM"
+      },
+      {
+        "text": "ITC",
+        "href": "/Shared/KnowledgeCenter/Pages/ITC"
+      },
+      {
+        "text": "ITU",
+        "href": "/Shared/KnowledgeCenter/Pages/ITU"
+      },
+      {
+        "text": "OPCW",
+        "href": "/Shared/KnowledgeCenter/Pages/OPCW"
+      },
+      {
+        "text": "OSCE",
+        "href": "/Shared/KnowledgeCenter/Pages/OSCE"
+      },
+      {
+        "text": "PAHO",
+        "href": "/Shared/KnowledgeCenter/Pages/PAHO"
+      },
+      {
+        "text": "UNAIDS",
+        "href": "/Shared/KnowledgeCenter/Pages/UNAIDS"
+      },
+      {
+        "text": "UNDP",
+        "href": "/Shared/KnowledgeCenter/Pages/UNDP"
+      },
+      {
+        "text": "UNESCO",
+        "href": "/Shared/KnowledgeCenter/Pages/UNESCO"
+      },
+      {
+        "text": "UNFPA",
+        "href": "/Shared/KnowledgeCenter/Pages/UNFPA"
+      },
+      {
+        "text": "UNFCCC",
+        "href": "/Shared/KnowledgeCenter/Pages/UNFCCC"
+      },
+      {
+        "text": "UNICEF",
+        "href": "/Shared/KnowledgeCenter/Pages/UNICEF"
+      },
+      {
+        "text": "UNIDO",
+        "href": "/Shared/KnowledgeCenter/Pages/UNIDO"
+      },
+      {
+        "text": "UNHCR",
+        "href": "/Shared/KnowledgeCenter/Pages/UNHCR"
+      },
+      {
+        "text": "UNOPS",
+        "href": "/Shared/KnowledgeCenter/Pages/UNOPS"
+      },
+      {
+        "text": "UNPD",
+        "href": "/Shared/KnowledgeCenter/Pages/UNPD"
+      },
+      {
+        "text": "UNRWA",
+        "href": "/Shared/KnowledgeCenter/Pages/UNRWA"
+      },
+      {
+        "text": "UN Women",
+        "href": "/Shared/KnowledgeCenter/Pages/UN_WOMEN"
+      },
+      {
+        "text": "UN Tourism (previously UNWTO)",
+        "href": "/Shared/KnowledgeCenter/Pages/UNTourism"
+      },
+      {
+        "text": "The World Bank",
+        "href": "/Shared/KnowledgeCenter/Pages/WBG"
+      },
+      {
+        "text": "WFP",
+        "href": "/Shared/KnowledgeCenter/Pages/WFP"
+      },
+      {
+        "text": "WIPO",
+        "href": "/Shared/KnowledgeCenter/Pages/WIPO"
+      },
+      {
+        "text": "WHO",
+        "href": "/Shared/KnowledgeCenter/Pages/WHO"
+      },
+      {
+        "text": "WMO",
+        "href": "/Shared/KnowledgeCenter/Pages/WMO"
+      },
+      {
+        "text": "WMU",
+        "href": "/Shared/KnowledgeCenter/Pages/WMU"
+      },
+      {
+        "text": "UNU",
+        "href": "/Shared/KnowledgeCenter/Pages/UNU"
+      },
+      {
+        "text": "WTO",
+        "href": "/Shared/KnowledgeCenter/Pages/WTO"
+      },
+      {
+        "text": "Procurement Categories",
+        "href": "/Shared/KnowledgeCenter/Pages/UN_Procurement_Categories"
+      },
+      {
+        "text": "Audio and Visual Devices",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_AVD"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/AVD_Specs"
+      },
+      {
+        "text": "Building and Maintenance Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Build"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/BM_Specs"
+      },
+      {
+        "text": "Business Professionals and Administrative Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Adm"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/ADM_Specs"
+      },
+      {
+        "text": "Computer Hardware and Software",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_CHS"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/CHS_Specs"
+      },
+      {
+        "text": "Electoral Systems",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_ES"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/ES_Specs"
+      },
+      {
+        "text": "Emergency Preparedness Kits",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_EPK"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/EPK_Specs"
+      },
+      {
+        "text": "Engineering, Research and Technology Based Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_EnginResTech"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/ERT_Specs"
+      },
+      {
+        "text": "Food and Beverage Products",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Food"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/FB_Specs"
+      },
+      {
+        "text": "Fuels, Additives and Lubricants",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Fuels"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/FU_Specs"
+      },
+      {
+        "text": "Graphic Design",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Graphics"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/Graphics_Specs"
+      },
+      {
+        "text": "Healthcare Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Health"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/HC_Specs"
+      },
+      {
+        "text": "IT Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_ITS"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/ITS_Specs"
+      },
+      {
+        "text": "SDG Digital Investment Framework",
+        "href": "/Shared/KnowledgeCenter/Pages/URL_SDG"
+      },
+      {
+        "text": "Insurance Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Insurance"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/Ins_Specs"
+      },
+      {
+        "text": "Medical Waste Disposal",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_MWD"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/MWD_Specs"
+      },
+      {
+        "text": "Medical Equipment and Supplies",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_MedEquip"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/MES_Specs"
+      },
+      {
+        "text": "Personal Hygiene and Sanitation Products",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_PHSP"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/PHSP_Specs"
+      },
+      {
+        "text": "Pharmaceutical Items",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Pharmaceuticals"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/PH_Specs"
+      },
+      {
+        "text": "Public Order, Security and Safety Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Security"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/SEC_Specs"
+      },
+      {
+        "text": "Postal, Courier and Mail Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Courier"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/Courier_Specs"
+      },
+      {
+        "text": "Specialized Equipment for Agriculture",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_SEA"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/SEA_Specs"
+      },
+      {
+        "text": "Telecommunications",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_Telecom"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/Telecom_Specs"
+      },
+      {
+        "text": "Translation and Publishing Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_TPS"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/TPS_Specs"
+      },
+      {
+        "text": "Transportation and Storage Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_TranStorMail"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/TSM_Specs"
+      },
+      {
+        "text": "Travel Management Services",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_TMS"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/TMS_Specs"
+      },
+      {
+        "text": "Vehicles and Fleet Management",
+        "href": "/Shared/KnowledgeCenter/Pages/PC_VehiclesFleet"
+      },
+      {
+        "text": "Samples of Specifications",
+        "href": "/Shared/KnowledgeCenter/Pages/VF_Specs"
+      },
+      {
+        "text": "Joint Initiatives on Vehicles and Fleet Management",
+        "href": "/Shared/KnowledgeCenter/Pages/VF_Collaborations"
+      },
+      {
+        "text": "International Procurement Seminars (IPS)",
+        "href": "/Shared/KnowledgeCenter/Pages/VBS_BusSeminar"
+      },
+      {
+        "text": "IPS, Geneva, November 2025",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSNOVEMBER2025"
+      },
+      {
+        "text": "IPS, Copenhagen, June 2025",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSJUNE2025"
+      },
+      {
+        "text": "IPS, Copenhagen, March 2025",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSMARCH2025"
+      },
+      {
+        "text": "IPS, China, November 2024",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSNovember2024"
+      },
+      {
+        "text": "IPS, Copenhagen, June 2024",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSJune2024"
+      },
+      {
+        "text": "IPS, Copenhagen, November 2023",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSNovember2023"
+      },
+      {
+        "text": "IPS, Copenhagen, March 2023",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSMarch2023"
+      },
+      {
+        "text": "IPS, Turin, November 2022",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSNov2022"
+      },
+      {
+        "text": "IPS, Vienna, April 2022",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSApril2022"
+      },
+      {
+        "text": "IPS, European Consortium [2], June 2021",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSJune2021"
+      },
+      {
+        "text": "IPS, European Consortium [1], January 2021",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSJan22021"
+      },
+      {
+        "text": "IPS, Nordic Countries, January 2021",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSJan2021"
+      },
+      {
+        "text": "IPS, Argentina, November 2019",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSNov2019"
+      },
+      {
+        "text": "IPS, Copenhagen, June 2019",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSJune2019"
+      },
+      {
+        "text": "IPS, Copenhagen, November 2018",
+        "href": "/Shared/KnowledgeCenter/Pages/IPSNov18"
+      },
+      {
+        "text": "IPS, Copenhagen, June 2018",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS_2018June_Copenhagen"
+      },
+      {
+        "text": "IPS, Rome, May 2019",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS_Rome"
+      },
+      {
+        "text": "\"How to do Business with CPAG\", Geneva 2018",
+        "href": "/Shared/KnowledgeCenter/Pages/Switzerland11_6_2018_to_11_6_2018"
+      },
+      {
+        "text": "Spain - November 2016",
+        "href": "/Shared/KnowledgeCenter/Pages/Seminar_Spain2016"
+      },
+      {
+        "text": "IPS, Bonn, November 2016",
+        "href": "/Shared/KnowledgeCenter/Pages/SEMINAR_IPS2016"
+      },
+      {
+        "text": "Nordic Countries, June 2016",
+        "href": "/Shared/KnowledgeCenter/Pages/SEMINAR_NORDICS2016"
+      },
+      {
+        "text": "The Netherlands - May 2016",
+        "href": "/Shared/KnowledgeCenter/Pages/SEMINAR_THENETHERLANDS2016"
+      },
+      {
+        "text": "Nordic UN Procurement Seminar 2025, June 2025",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS32_6_10_2025_to_6_11_2025"
+      },
+      {
+        "text": "UN Business Meetings - May 2025",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS34_5_19_2025_to_5_20_2025"
+      },
+      {
+        "text": "UN International Procurement Seminar, Copenhagen, 11 and 12 March 2025",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS31_3_11_2025_to_3_12_2025"
+      },
+      {
+        "text": "UN IPS, Ningbo, Nov 2024",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS30_11_13_2024_to_11_14_2024"
+      },
+      {
+        "text": "Estonia, France, Belgium, Brussels IPS - June 2024",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS28_6_11_2024_to_6_12_2024"
+      },
+      {
+        "text": "UN International Procurement Seminar March 2024",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS27_3_20_2024_to_3_21_2024"
+      },
+      {
+        "text": "The Republic of Zambia Virtual Business Seminar 2024",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS29_2_27_2024_to_2_27_2024"
+      },
+      {
+        "text": "Nordic UN Procurement Seminar 2023",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS24_11_14_2023_to_11_15_2023"
+      },
+      {
+        "text": "Poland, November 2016",
+        "href": "/Shared/KnowledgeCenter/Pages/Seminar_Poland2016"
+      },
+      {
+        "text": "Hungary, May 2016",
+        "href": "/Shared/KnowledgeCenter/Pages/SEMINAR_HUNGARY2016"
+      },
+      {
+        "text": "Liberia Virtual Business Seminar - Feb 2025",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS33_2_18_2025_to_2_18_2025"
+      },
+      {
+        "text": "UN Virtual Business Seminar for Peruvian Vendors",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS38_6_3_2025_to_6_3_2025"
+      },
+      {
+        "text": "Burundi virtual business seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS23_6_14_2023_to_6_14_2023"
+      },
+      {
+        "text": "UN Virtual Business Seminar for Côte d’Ivoire Vendors",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS40_6_5_2025_to_6_5_2025"
+      },
+      {
+        "text": "United Nation International Procurement Seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS39_11_19_2025_to_11_20_2025"
+      },
+      {
+        "text": "United Nations Business Seminar for Ghanaian Suppliers",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS41_7_17_2025_to_7_17_2025"
+      },
+      {
+        "text": "United Nations Virtual Business Seminar for Paraguayan Suppliers",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS42_7_24_2025_to_7_24_2025"
+      },
+      {
+        "text": "United Nations Secretariat Virtual Business Seminar for Mozambique Suppliers",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS44_8_26_2025_to_8_26_2025"
+      },
+      {
+        "text": "UN International Procurement Seminar June 2026",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS45_6_9_2026_to_6_10_2026"
+      },
+      {
+        "text": "Angola virtual business seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS35_5_28_2025_to_5_28_2025"
+      },
+      {
+        "text": "Bolivia virtual business seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS36_6_4_2025_to_6_4_2025"
+      },
+      {
+        "text": "Mexico virtual business seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS37_6_11_2025_to_6_11_2025"
+      },
+      {
+        "text": "Lesotho Business Seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS19_10_26_2022_to_10_26_2022"
+      },
+      {
+        "text": "The Gambia virtual business seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS22_6_7_2023_to_6_7_2023"
+      },
+      {
+        "text": "Sierra Leone Virtual Business Seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS26_8_31_2023_to_8_31_2023"
+      },
+      {
+        "text": "Guyana virtual business seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS21_5_31_2023_to_5_31_2023"
+      },
+      {
+        "text": "Rwanda Virtual Business Seminar",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS25_7_28_2023_to_7_28_2023"
+      },
+      {
+        "text": "United Nations Secretariat Virtual Business Seminar for Paraguayan Suppliers",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS43_8_7_2025_to_8_7_2025"
+      },
+      {
+        "text": "Business Meetings ONU 2026 - New York",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS46_6_22_2026_to_6_23_2026"
+      },
+      {
+        "text": "Deep Wave 2026",
+        "href": "/Shared/KnowledgeCenter/Pages/IPS47_9_10_2026_to_9_10_2026"
+      },
+      {
+        "text": "Collaboration with UN Organizations",
+        "href": "/Shared/KnowledgeCenter/Pages/CollaborationwithUN"
+      },
+      {
+        "text": "UN Collaboration with Universities",
+        "href": "/Shared/KnowledgeCenter/Pages/COLLAB_Uni"
+      },
+      {
+        "text": "University of Rome Tor Vergata",
+        "href": "/Shared/KnowledgeCenter/Pages/UNIVERSITY_ROME"
+      },
+      {
+        "text": "Summaries of Theses",
+        "href": "/Shared/KnowledgeCenter/Pages/TORVERGATA_THESES"
+      },
+      {
+        "text": "The Turin School of Development (TSD)",
+        "href": "/Shared/KnowledgeCenter/Pages/University_Turin"
+      },
+      {
+        "text": "Procurement Practitioner's Handbook",
+        "href": "/Shared/KnowledgeCenter/Pages/PPH2"
+      },
+      {
+        "text": "Supplier Human Trafficking & Forced Labour Resources",
+        "href": "/Shared/KnowledgeCenter/Pages/SHTFLResources"
+      },
+      {
+        "text": "Supplier Resources",
+        "href": "/Shared/KnowledgeCenter/Pages/SupResources"
+      },
+      {
+        "text": "UN Operational Indicators",
+        "href": "/Shared/KnowledgeCenter/Pages/OpInd"
+      },
+      {
+        "text": "Procurement Plans",
+        "href": "/Shared/KnowledgeCenter/Pages/Procurement_plans"
+      },
+      {
+        "text": "The UN Market (DRAFT)",
+        "href": "/Shared/KnowledgeCenter/Pages/VBS_SupplyingUN"
+      },
+      {
+        "text": "The Annual Statistical Report (ASR)",
+        "href": "/Shared/KnowledgeCenter/Pages/asr"
+      },
+      {
+        "text": "Sustainable Procurement",
+        "href": "/Shared/KnowledgeCenter/Pages/SustainableProcurement"
+      },
+      {
+        "text": "The Sustainable Procurement Indicators",
+        "href": "/Shared/KnowledgeCenter/Pages/SustProcIndicators"
+      },
+      {
+        "text": "The UN Sustainable Procurement Statistics",
+        "href": "/Shared/KnowledgeCenter/Pages/asr_sustainableprocurement"
+      },
+      {
+        "text": "The Sustainability Procurement Portfolio Model",
+        "href": "/Shared/KnowledgeCenter/Pages/TheSPPM"
+      },
+      {
+        "text": "Sustainability Analysis",
+        "href": "/Shared/KnowledgeCenter/Pages/SustainabilityAnalysis"
+      },
+      {
+        "text": "The SPPM methodology",
+        "href": "/Shared/KnowledgeCenter/Pages/SPPMethodology"
+      },
+      {
+        "text": "e-Procurement Systems",
+        "href": "/Shared/KnowledgeCenter/Pages/e_Procurement_Systems"
+      },
+      {
+        "text": "Ariba",
+        "href": "/Shared/KnowledgeCenter/Pages/Ariba"
+      },
+      {
+        "text": "UNOPS eSourcing",
+        "href": "/Shared/KnowledgeCenter/Pages/UNOPS_eSourcing"
+      },
+      {
+        "text": "Quantum",
+        "href": "/Shared/KnowledgeCenter/Pages/UNDP_eTendering"
+      },
+      {
+        "text": "Jaggaer",
+        "href": "/Shared/KnowledgeCenter/Pages/Jaggaer"
+      },
+      {
+        "text": "In-Tend",
+        "href": "/Shared/KnowledgeCenter/Pages/In_Tend"
+      },
+      {
+        "text": "Product Innovation",
+        "href": "/Shared/KnowledgeCenter/Pages/Innovation"
+      },
+      {
+        "text": "Target Product Profiles",
+        "href": "/Shared/KnowledgeCenter/Pages/targetproductprofiles"
+      },
+      {
+        "text": "School furniture design",
+        "href": "/Shared/KnowledgeCenter/Pages/School_furniture_design"
+      },
+      {
+        "text": "Online Courses and Other Resources",
+        "href": "/Shared/KnowledgeCenter/Pages/courses"
+      },
+      {
+        "text": "Doing business with UNOPS",
+        "href": "/Shared/KnowledgeCenter/Pages/DoingbusinesswithUNOPS"
+      },
+      {
+        "text": "Other UN e-Learning Platforms and Courses",
+        "href": "/Shared/KnowledgeCenter/Pages/OtherResourcesUN"
+      },
+      {
+        "text": "About the Knowledge Center",
+        "href": "/Shared/KnowledgeCenter/Pages/About"
+      },
+      {
+        "text": "The UNGM Glossary",
+        "href": "/Shared/KnowledgeCenter/Pages/UNGMGlossary"
+      },
+      {
+        "text": "Statistiques sur les activités d'achats des Nations Unies",
+        "href": "/Public/ASR"
+      },
+      {
+        "text": "Rechercher des codes",
+        "href": "javascript:;"
+      },
+      {
+        "text": "Vérifier codes sélectionnés",
+        "href": "javascript:;"
+      },
+      {
+        "text": "UNGM Pro",
+        "href": "/Public/TenderAlertService"
+      },
+      {
+        "text": "Annuler la sauvegarde de cet avis de marché.",
+        "href": "javascript:void(0);"
+      },
+      {
+        "text": "",
+        "href": "javascript:void(0);"
+      },
+      {
+        "text": "UNGM Pro",
+        "href": "/Public/TenderAlertService"
+      },
+      {
+        "text": "Ouvrir dans une nouvelle fenêtre",
+        "href": "/Public/Notice/298074"
+      }
+    ],
+    "images": [
+      {
+        "src": "/Styles/Images/HomeV2/logo-ungm-2025.png",
+        "alt": "UNGM home"
+      }
+    ],
+    "embedded_json": []
+  },
+  "tool_trace": [
+    {
+      "step": "local_http_server",
+      "serve_dir": "C:\\Users\\pc-mousannif\\Desktop\\Ismail\\WADE-BENCH\\data\\raw_snapshots\\government\\ungm_listing",
+      "http_url": "http://127.0.0.1:50869/page.safe.html",
+      "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/government/ungm_listing/page.safe.html"
+    },
+    {
+      "step": "list_tools",
+      "tool_names": [
+        "browser_close",
+        "browser_resize",
+        "browser_console_messages",
+        "browser_handle_dialog",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_type",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_take_screenshot",
+        "browser_snapshot",
+        "browser_click",
+        "browser_drag",
+        "browser_hover",
+        "browser_select_option",
+        "browser_tabs",
+        "browser_wait_for"
+      ]
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:50869/page.safe.html"
+      },
+      "output_preview": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:50869/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:50869/page.safe.html\n- Page Title: Opportunités commerciales\n- Console: 4 errors, 0 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T07-32-09-900Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T07-32-08-774Z.log#L1-L4"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_snapshot",
+      "args": {},
+      "output_preview": "### Page\n- Page URL: http://127.0.0.1:50869/page.safe.html\n- Page Title: Opportunités commerciales\n- Console: 4 errors, 0 warnings\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - generic [ref=e3]:\n    - banner [ref=e4]:\n      - link \"Page d'accueil de Global Marketplace\" [ref=e5] [cursor=pointer]:\n        - /url: /\n        - img [ref=e6]\n      - list [ref=e7]:\n        - listitem [ref=e8]:\n          - button \"Langue\" [ref=e9]:\n            - img [ref=e11]\n            - generic [ref=e14]: Français\n        - listitem [ref=e15]:\n          - link \"Centre d'aide Ouvre un nouvel onglet\" [ref=e16] [cursor=pointer]:\n            - /url: /Help\n            - img [ref=e18]\n            - generic [ref=e21]:\n              - text: Centre d'aide\n              - img \"Ouvre un nouvel onglet\" [ref=e22]\n        - generic [ref=e25]:\n          - link \"Se connecter\" [ref=e26] [cursor=pointer]:\n            - /url: /Login\n          - link \"Enregistrer\" [ref=e27] [cursor=pointer]:\n            - /url: /Account/Registration\n    - generic [ref=e28]:\n      - navigation [ref=e29]:\n        - button \"Réduire le menu\" [ref=e30] [cursor=pointer]:\n          - img [ref=e31]\n        - navigation \"Menu public\" [ref=e33]:\n          - generic [ref=e34]:\n            - navigation \"Skip Links\":\n              - link \"Accédez au contenu principal\" [ref=e35] [cursor=pointer]:\n                - /url: \"#main-center\"\n            - list [ref=e36]:\n              - listitem [ref=e37]:\n                - link \"Accueil\" [ref=e38] [cursor=pointer]:\n                  - /url: /\n              - listitem [ref=e39]:\n                - link \"Opportunités commerciales\" [ref=e40] [cursor=pointer]:\n                  - /url: /Public/Notice\n              - listitem [ref=e41]:\n                - link \"Adjudications de contrats\" [ref=e42] [cursor=pointer]:\n                  - /url: /Public/ContractAward\n              - listitem [ref=e43]:\n                - link \"UNGM Pro Nouveau!\" [ref=e44] [cursor=pointer]:\n                  - /url:"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_take_screenshot",
+      "args": {},
+      "output_preview": "### Result\n- [Screenshot of viewport](.playwright-mcp\\page-2026-06-30T07-32-10-026Z.png)\n### Ran Playwright code\n```js\n// Screenshot viewport and save it as .playwright-mcp\\page-2026-06-30T07-32-10-026Z.png\nawait page.screenshot({\n  path: '.playwright-mcp\\\\page-2026-06-30T07-32-10-026Z.png',\n  scale: 'css',\n  type: 'png'\n});\n```\ntype='image' data='iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOydB2ATZf/Hn8tO2nTvSQerlL2RUYZsUEAUt8Lr3r6KqLheF+LGhQMVF/pHUUAEFNl7jw7KaOle6Uyzc3f/390l1zRdKaVQ4Pcxlsvdc8+6S3Lf5/sMmc1mIwiCIAiCIAiCIAhypSMhCIIgCIIgCIIgCHIVICMIgiAIgiAIglxESioNNUYrISxBEORiQPloFKH+XgQdYARBEARBEAS5mID6rTXbUP0iyEWEhQ8dfPQICmAEQRAEQRAEuZiA98swDEEQ5CICHzq+2wV2gUYQBEEQBEGQiwp6vwhySeA+eugAIwiCIAiCIAiCIFcFKIARBEEQBEEQBEGQqwIUwK1jyf7Kh9cXHy4yEwRBEARBEARBEOSyAscAtxqWxWEbCIIgCIIgCIIglx8ogM8LiiAIgiAIgiAIgiCXFyiAWw1FUTh1H4IgCIIgCIIgyGUHjgFGEARBEARBEARBrgrQAT4vsAs0giAIgiAIgrQz8RGBSrkUNqpqzXaaDvTRUBRlpxmWZRmWZBWWN3pWTKifUi4r0NUYzVbSNsIDfXw0yuIKfbWh1ZPg+nqpwgK0NUZLUXkNaT1Nnd7GaDsOcHHhL1zEpiq5LZXfDCiAWwnLcv2fsQs0giAIgiAI0p4IOoeiSHmNsazKIOwEaeelUhjM1tySKnKlA/pHLpUU6mpA/2hUisggH6PFJhRc0E4djStGml7ZoABuPRQ6wAiCIAiCIMjFALxOrUYlCGDQVyqFjGGuFitGLpNA8W00w21LJRKKstkZ4VBT3i9yGXGpLiIK4FZC8doXHWAEQRAEQRCk/TFZbGqlPNjPCzSwr7fKaqPlMqlwCHYKXYKFt1W1ZsF4BOPUz1sl7LTTjNAT2HUnIHjIrl2F3dxL1/BCzEIAo8WqUSpAjDZ0oYUAcAi2LTZakDfNJCEiuLsyqWNyIuFcyAB43fA2NtSPZjjdCzFDluAF+YE6IU4F5VoPYrp8EbQKvq7q72x1uVwRu2RDM4Rb11woRYi/t5hJSLS8mmu2gPDdYoIheyzLCmZ+oykK3j7hl1x19fwbnt7MfteqEKIV6tZm524bqGHXqmiq5kmDu0vcLxZfTLRhio3egbDhmpBQ82IXaGFngI8mIsiHuNy0nld+q+iIAthop/Oq7FlVtlKDXW9hdSbazt/0GhkVqJGFeMk6+co7+cl9VVIJOrEIgiAIgiDIlYudZvVGq5+3WiKRgP2rqzaC3hAOgfxw7Rrto1EazSqFXAobumruEMgbEFrgnYJK8fVSCqpD0DzNJwoCBsILkQjbdtoLtDccAs3WqPYQ5J/JahNFF2TJw37aIHVO5+uEbUFQQaKQVXCAmxLPYhdoIXy1wSIULcTPS8PLSNBaUN6z5eWuEZ5HuVyBREF+5JRUQX5gG8oL7rSo02CjtLLWNZOQZ8L52NLc0mrhFLiOBrPNUWMuKUJm1Aq50NkbtgO0GiFXrqdDfbqe3nC/l0ouVoVYaiF+uHNcxXOLNd9orULRxOJDMJlU6hpMPN1O0w3vwEBfL5phT+eXCoWFK+uWE2gIgGaOjJxS4eYJ8tXk1hfAzVd+q+hAAhh0764c075C8/FSs9XOeawauU"
+    }
+  ]
+}

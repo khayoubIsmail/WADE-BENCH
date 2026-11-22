@@ -1,0 +1,125 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/property-for-sale/details/...",
+          "provenance": {
+            "field": "a[href*='/property-for-sale/details/']",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 250000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "field": "div.price-display span:nth-child(1)",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "The Corner, Untitled",
+          "provenance": {
+            "field": "h2.property-title",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Spacious 3 bedroom house in Untitled",
+          "provenance": {
+            "field": "div.property-title",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "House",
+          "provenance": {
+            "field": "span.property-type",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "field": "div.beds span",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "field": "div.baths span",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "amount": 145,
+            "unit": "sqm"
+          },
+          "provenance": {
+            "field": "div.area span",
+            "source": "page.html"
+          }
+        },
+        "description": {
+          "value": "A fantastic opportunity to own a beautiful, spacious 3 bedroom house in the highly sought-after area of Untitled. This property offers modern living with excellent natural light and is perfectly situated for commuters.",
+          "provenance": {
+            "field": "div.property-description p:nth-child(1)",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk/assets/shared-assets/photos/Untitled_main_photo_1.jpg",
+            "https://media.rightmove.co.uk/assets/shared-assets/photos/Untitled_main_photo_2.jpg"
+          ],
+          "provenance": {
+            "field": "img[src*='Untitled_main_photo']",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Rightmove Estate Agents",
+            "phone": "01234 567890",
+            "photo_url": "https://media.rightmove.co.uk/assets/agents/logo.png"
+          },
+          "provenance": {
+            "field": "div.agent-info",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 14.513,
+    "input_tokens": 17190,
+    "output_tokens": 904,
+    "total_tokens": 18094,
+    "initial_input_tokens": 17190,
+    "initial_output_tokens": 904,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

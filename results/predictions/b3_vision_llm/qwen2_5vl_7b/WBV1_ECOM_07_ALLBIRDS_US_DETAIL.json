@@ -1,0 +1,52 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Allbirds",
+        "description": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas. Lightweight, breathable, easy to wear on repeat. Comfortable enough for all day. Simple enough to go with everything.",
+        "image_urls": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg"
+        ],
+        "price_raw": "$75",
+        "product_name": "Men's Canvas Cruiser",
+        "product_url": "https://www.allbirds.com/mens-canvas-cruiser",
+        "rating": 3.9,
+        "review_count": 32
+      },
+      "provenance": {
+        "url": "https://www.allbirds.com/mens-canvas-cruiser",
+        "snapshot_id": "data/raw_snapshots/ecommerce/allbirds_us_detail_sample",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Men's Canvas Cruiser"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 7.763,
+    "input_tokens": 6460,
+    "output_tokens": 259,
+    "total_tokens": 6719,
+    "num_tiles": 4,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_07_ALLBIRDS_US_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_07_ALLBIRDS_US_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_07_ALLBIRDS_US_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_07_ALLBIRDS_US_DETAIL\\tile_04.png"
+    ],
+    "error": null
+  }
+}

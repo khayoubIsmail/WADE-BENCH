@@ -1,0 +1,52 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Casper",
+        "description": "The One is a premium foam mattress with breathable layers and cozy engineering. It offers responsive yet supportive medium-firm feel for sleepers who love it.",
+        "image_urls": [
+          "https://www.casper.com/mattresses/the-one"
+        ],
+        "price_raw": "$799",
+        "product_name": "The One",
+        "product_url": "https://www.casper.com/mattresses/the-one",
+        "rating": 4.4,
+        "review_count": 17811
+      },
+      "provenance": {
+        "url": "https://www.casper.com/mattresses/the-one",
+        "snapshot_id": "data/raw_snapshots/ecommerce/casper_us_detail_sample",
+        "text_quote_or_attribute": "The One is a premium foam mattress with breathable layers and cozy engineering. It offers responsive yet supportive medium-firm feel for sleepers who love it."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 8.656,
+    "input_tokens": 9411,
+    "output_tokens": 239,
+    "total_tokens": 9650,
+    "num_tiles": 6,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_03_CASPER_US_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_03_CASPER_US_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_03_CASPER_US_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_03_CASPER_US_DETAIL\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_03_CASPER_US_DETAIL\\tile_05.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_03_CASPER_US_DETAIL\\tile_06.png"
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "website_id": "realestate.co.nz",
+  "schema_id": "real_estate_listing_v1",
+  "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "snapshot_path": "raw_snapshots/realestate/SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "live_url": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury/m1fv7m7sc",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL_001",
+      "fields": {
+        "images_urls": {
+          "value": [
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.jpg"
+          ],
+          "normalized": [
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.jpg"
+          ]
+        },
+        "address": {
+          "value": "12B Mary Street, Papanui",
+          "normalized": "12B Mary Street, Papanui"
+        },
+        "listing_url": {
+          "value": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury/m1fv7m7sc",
+          "normalized": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury/m1fv7m7sc"
+        },
+        "price": {
+          "value": "$786K",
+          "normalized": {
+            "amount": 786000.0,
+            "currency": {
+              "name": "New Zealand dollar",
+              "code": "NZD",
+              "symbol": "NZ$"
+            }
+          }
+        },
+        "bedrooms": {
+          "value": "2",
+          "normalized": 2
+        },
+        "bathrooms": {
+          "value": "1",
+          "normalized": 1
+        },
+        "floor_area": {
+          "value": "130m\u00b2",
+          "normalized": 130.0,
+          "unit": "m2"
+        },
+        "land_area": {
+          "value": "386m\u00b2",
+          "normalized": 386.0,
+          "unit": "m2"
+        },
+        "parking": {
+          "value": "2",
+          "normalized": 2
+        }
+      },
+      "provenance": {
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+          "css_selector": "h1[data-test='property-title']",
+          "xpath": "//h1[@data-test='property-title']",
+          "text_quote": "12B Mary Street, Papanui",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/main[1]/div[1]/div[3]/div[1]/div[1]/div[1]/h1[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div > h1"
+        },
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+          "css_selector": "a[href*='m1fv7m7sc']",
+          "xpath": "//link[contains(@href,'m1fv7m7sc')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/head/link[32]",
+          "css_selector_absolute": "html > head:nth-of-type(1) > link:nth-of-type(32)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+          "css_selector": "h3[data-test='pricing-method__price']",
+          "xpath": "//h3[@data-test='pricing-method__price']",
+          "text_quote": "$786K",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/main[1]/div[1]/div[3]/div[1]/div[2]/div[1]/h3[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div > h3"
+        },
+        "bedrooms": {
+          "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+          "css_selector": "div[data-test='features-icons']:nth-child(4) > div.flex.items-center:nth-of-type(1)",
+          "xpath": "//body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[1]",
+          "text_quote": "2",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1)"
+        },
+        "bathrooms": {
+          "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+          "css_selector": "div[data-test='features-icons']:nth-child(4) > div.flex.items-center:nth-of-type(2)",
+          "xpath": "//body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[2]",
+          "text_quote": "1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2)"
+        },
+        "floor_area": {
+          "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+          "css_selector": "div[data-test='features-icons']:nth-child(4) > div.flex.items-center:nth-of-type(3)",
+          "xpath": "//body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[3]",
+          "text_quote": "130m\u00b2",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(3)"
+        },
+        "land_area": {
+          "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+          "css_selector": "div[data-test='features-icons']:nth-child(4) > div.flex.items-center:nth-of-type(4)",
+          "xpath": "//body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[4]",
+          "text_quote": "386m\u00b2",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[4]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(4)"
+        },
+        "parking": {
+          "snapshot_id": "SNAP_REAL_REALESTATE.CO.NZ_002_DETAIL",
+          "css_selector": "div[data-test='features-icons']:nth-child(4) > div.flex.items-center:nth-of-type(5)",
+          "xpath": "//body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[5]",
+          "text_quote": "2",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/main/div[1]/div[3]/div/div[4]/div[5]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(5)"
+        }
+      }
+    }
+  ]
+}

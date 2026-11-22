@@ -1,0 +1,571 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": "20%",
+        "image_url": "data/raw_snapshots/ecommerce/casper_us_listing_mattresses/e125",
+        "old_price_raw": "$749",
+        "price_raw": "$599",
+        "product_name": "The One",
+        "product_url": "/products/casper-one-foam",
+        "rating": "4.4 out of 5 stars",
+        "review_count": 17797,
+        "short_description": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love."
+      },
+      "provenance": {
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "SAVE 20%"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e125",
+          "text_quote_or_attribute": "img \"The One mattress on a bed frame with a blanket and pillows on top of it in a bedroom setting\" [ref=e125]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$749"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$599"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e145",
+          "text_quote_or_attribute": "The One"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "/products/casper-one-foam"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.4 out 5 stars rating in total"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(17797)"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love."
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": "20%",
+        "image_url": "data/raw_snapshots/ecommerce/casper_us_listing_mattresses/e161",
+        "old_price_raw": "$999",
+        "price_raw": "$799",
+        "product_name": "Cloud One",
+        "product_url": "/products/casper-cloud-one-foam",
+        "rating": "4.3 out of 5 stars",
+        "review_count": 134,
+        "short_description": "Our most popular mattress just got an upgrade. Featuring all-new patent-pending Casper Core+™ technology, Cloud One delivers a boost of plushness while giving you all the support and breathability of The One."
+      },
+      "provenance": {
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "SAVE 20%"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e161",
+          "text_quote_or_attribute": "img \"Casper's Cloud One mattress on a bed frame with pillows and a blanket folded on top\" [ref=e161]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$999"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$799"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e181",
+          "text_quote_or_attribute": "Cloud One"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "/products/casper-cloud-one-foam"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.3 out 5 stars rating in total"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(134)"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Our most popular mattress just got an upgrade. Featuring all-new patent-pending Casper Core+™ technology, Cloud One delivers a boost of plushness while giving you all the support and breathability of The One."
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": "30%",
+        "image_url": "data/raw_snapshots/ecommerce/casper_us_listing_mattresses/e197",
+        "old_price_raw": "$1,495",
+        "price_raw": "$1,045",
+        "product_name": "Dream",
+        "product_url": "/products/casper-dream-hybrid",
+        "rating": "4.5 out of 5 stars",
+        "review_count": 4343,
+        "short_description": "Our dream? A hybrid mattress that helps solve tossing and turning. Pairing responsive springs with ergonomic support zones, Dream keeps you aligned and dreaming all night."
+      },
+      "provenance": {
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "SAVE 30%"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e197",
+          "text_quote_or_attribute": "img \"Casper's Dream mattress on a bed frame with pillows and a blanket folded on top.\" [ref=e197]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$1,495"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$1,045"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e217",
+          "text_quote_or_attribute": "Dream"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "/products/casper-dream-hybrid"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.5 out 5 stars rating in total"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(4343)"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Our dream? A hybrid mattress that helps solve tossing and turning. Pairing responsive springs with ergonomic support zones, Dream keeps you aligned and dreaming all night."
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "discount_percentage": "35%",
+        "image_url": "data/raw_snapshots/ecommerce/casper_us_listing_mattresses/e233",
+        "old_price_raw": "$1,995",
+        "price_raw": "$1,395",
+        "product_name": "Snow",
+        "product_url": "/products/casper-snow-v3",
+        "rating": "4.4 out of 5 stars",
+        "review_count": 966,
+        "short_description": "Engineered with Snow Technology, including QuickCool™ Cover, our most popular cooling mattress attacks overheating for 12+ hours, not just when you’re falling asleep. Pairing together conforming memory foam and encased coils, sleep has never been so refreshing."
+      },
+      "provenance": {
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "SAVE 35%"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e233",
+          "text_quote_or_attribute": "img \"Casper's Snow mattress on a bed frame with pillows and a blanket folded on top.\" [ref=e233]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$1,995"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$1,395"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e253",
+          "text_quote_or_attribute": "Snow"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "/products/casper-snow-v3"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.4 out 5 stars rating in total"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(966)"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Engineered with Snow Technology, including QuickCool™ Cover, our most popular cooling mattress attacks overheating for 12+ hours, not just when you’re falling asleep. Pairing together conforming memory foam and encased coils, sleep has never been so refreshing."
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "discount_percentage": "30%",
+        "image_url": "data/raw_snapshots/ecommerce/casper_us_listing_mattresses/e269",
+        "old_price_raw": "$2,595",
+        "price_raw": "$1,815",
+        "product_name": "Dream Max",
+        "product_url": "/products/casper-dream-max-hybrid",
+        "rating": "4.4 out of 5 stars",
+        "review_count": 2466,
+        "short_description": "We made your dream hybrid mattress into a reality. Designed over years, our most supportive mattress ever combines pressure-relieving foam, precise ergonomic zoning, and responsive coils to align your spine, cradle your body, and support you all night."
+      },
+      "provenance": {
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "SAVE 30%"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e269",
+          "text_quote_or_attribute": "img \"Casper's Dream Max mattress on a bed frame with pillows and a blanket folded on top. A badge on the image indicates that this mattress is endorsed by the American Chiropractic Association.\" [ref=e269]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$2,595"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$1,815"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e289",
+          "text_quote_or_attribute": "Dream Max"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "/products/casper-dream-max-hybrid"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.4 out 5 stars rating in total"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(2466)"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "We made your dream hybrid mattress into a reality. Designed over years, our most supportive mattress ever combines pressure-relieving foam, precise ergonomic zoning, and responsive coils to align your spine, cradle your body, and support you all night."
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "discount_percentage": "30%",
+        "image_url": "data/raw_snapshots/ecommerce/casper_us_listing_mattresses/e305",
+        "old_price_raw": "$3,245",
+        "price_raw": "$2,270",
+        "product_name": "Snow Max",
+        "product_url": "/products/casper-snow-max-hybrid-v3",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Aches and pains? Night sweats? With our most supportive ergonomics and enhanced Snow Technology, including QuickCool™ Cover, Snow Max is the ultimate solution for whatever is keeping you up."
+      },
+      "provenance": {
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "SAVE 30%"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e305",
+          "text_quote_or_attribute": "img \"Casper's Snow Max mattress on a bed frame with pillows and a blanket folded on top. A badge on the image indicates that this mattress is endorsed by the American Chiropractic Association.\" [ref=e305]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$3,245"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$2,270"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e309",
+          "text_quote_or_attribute": "Snow Max"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "/products/casper-snow-max-hybrid-v3"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Aches and pains? Night sweats? With our most supportive ergonomics and enhanced Snow Technology, including QuickCool™ Cover, Snow Max is the ultimate solution for whatever is keeping you up."
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "discount_percentage": "30%",
+        "image_url": "data/raw_snapshots/ecommerce/casper_us_listing_mattresses/e325",
+        "old_price_raw": "$1,645",
+        "price_raw": "$1,195",
+        "product_name": "Dream with QuickCool™ Cover",
+        "product_url": "/products/casper-dream-hybrid-quickcool",
+        "rating": "4.5 out of 5 stars",
+        "review_count": 4343,
+        "short_description": "Upgrade your Dream Hybrid Mattress with the Casper QuickCool™ Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy."
+      },
+      "provenance": {
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "SAVE 30%"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e325",
+          "text_quote_or_attribute": "img \"Casper's Dream mattress on a bed frame with pillows and a blanket folded on top.\" [ref=e325]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$1,645"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$1,195"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e345",
+          "text_quote_or_attribute": "Dream with QuickCool™ Cover"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "/products/casper-dream-hybrid-quickcool"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.5 out 5 stars rating in total"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(4343)"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Upgrade your Dream Hybrid Mattress with the Casper QuickCool™ Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy."
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "discount_percentage": "30%",
+        "image_url": "data/raw_snapshots/ecommerce/casper_us_listing_mattresses/e361",
+        "old_price_raw": "$2,745",
+        "price_raw": "$1,965",
+        "product_name": "Dream Max with QuickCool™ Cover",
+        "product_url": "/products/casper-dream-hybrid-max-quickcool",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Upgrade your Dream Max Hybrid Mattress with the Casper QuickCool™ Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy. Our ultimate ergonomic design features seven support zones to align your spine and help reduce aches and pains."
+      },
+      "provenance": {
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "SAVE 30%"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e361",
+          "text_quote_or_attribute": "img \"Casper's Dream Max mattress on a bed frame with pillows and a blanket folded on top. A badge on the image indicates that this mattress is endorsed by the American Chiropractic Association.\" [ref=e361]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$2,745"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$1,965"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e381",
+          "text_quote_or_attribute": "Dream Max with QuickCool™ Cover"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "/products/casper-dream-hybrid-max-quickcool"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Upgrade your Dream Max Hybrid Mattress with the Casper QuickCool™ Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy. Our ultimate ergonomic design features seven support zones to align your spine and help reduce aches and pains."
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "data/raw_snapshots/ecommerce/casper_us_listing_mattresses/e397",
+        "old_price_raw": "$599",
+        "price_raw": "$499",
+        "product_name": "Snug™",
+        "product_url": "/products/snug-v2",
+        "rating": "5 out of 5 stars",
+        "review_count": 21,
+        "short_description": "Long-lasting materials and a pair of waterproof mattress protectors give you peace of mind, while three layers of breathable, supportive foam gives them the deeper sleep little dreamers need."
+      },
+      "provenance": {
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e397",
+          "text_quote_or_attribute": "img \"Front-facing view of the Casper Snug kids mattress in a bedroom setting.\" [ref=e397]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$599"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$499"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "e396",
+          "text_quote_or_attribute": "Snug™"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "/products/snug-v2"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out 5 stars rating in total"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(21)"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Long-lasting materials and a pair of waterproof mattress protectors give you peace of mind, while three layers of breathable, supportive foam gives them the deeper sleep little dreamers need."
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 99.443,
+    "input_tokens": 23286,
+    "output_tokens": 6982,
+    "total_tokens": 30268,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_03_CASPER_US_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_03_CASPER_US_LISTING_tool_trace.json",
+    "error": null
+  }
+}

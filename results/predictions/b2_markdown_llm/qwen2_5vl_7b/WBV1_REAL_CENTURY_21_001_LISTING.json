@@ -1,0 +1,52 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "field": "location",
+        "value": "San Francisco, CA - homes for sale"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "field": "company_name",
+        "value": "CENTURY 21 Real Estate California"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "field": "link_text",
+        "value": "CENTURY 21 Real Estate"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "field": "url",
+        "value": "/homes/list/city/ca/san-francisco-ca/century21-real-estate-california"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 60.376,
+    "input_tokens": 98798,
+    "output_tokens": 182,
+    "total_tokens": 98980,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

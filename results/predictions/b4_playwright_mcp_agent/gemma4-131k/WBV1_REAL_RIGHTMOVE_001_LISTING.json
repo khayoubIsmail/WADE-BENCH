@@ -1,0 +1,1240 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/89583912#/?channel=RES_BUY",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Link to property details page"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 524950,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£524,950 Offers in Region of"
+          }
+        },
+        "address": {
+          "value": "Merchants Wharf, Manchester",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Merchants Wharf, Manchester"
+          }
+        },
+        "property_type": {
+          "value": "Apartment",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Apartment"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "3"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "3"
+          }
+        },
+        "listing_title": {
+          "value": "Invest in a modern 3-bedroom apartment in Manchester, ideally located close to MediaCityUK, Salford Quays & Deansgate",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Invest in a modern 3-bedroom apartment in Manchester, ideally located close to MediaCityUK, Salford Quays & Deansgate"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-21",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 21/05/2026 by RW Invest, Liverpool"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "RW Invest",
+            "phone": "0151 453 4672",
+            "logo_url": "https://media.rightmove.co.uk:443/partner-logo/17607006-PRODUCTS_LOGO-1766059692.jpeg"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 21/05/2026 by RW Invest, Liverpool\n0151 453 4672"
+          }
+        },
+        "listing_agent_name": {
+          "value": "RW Invest",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 21/05/2026 by RW Invest, Liverpool"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "0151 453 4672",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "0151 453 4672"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ccee2f2b4/89583912/ccee2f2b47d2afee8e11593db21b9966_max_476x317.jpeg"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Property Image 1"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source_file": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/142655393#/?channel=COM_BUY",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Link to property details page"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 14000000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£14,000,000"
+          }
+        },
+        "address": {
+          "value": "North Werneth, Oldham, Greater Manchester, OL9",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "North Werneth, Oldham, Greater Manchester, OL9"
+          }
+        },
+        "property_type": {
+          "value": "Land",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Land"
+          }
+        },
+        "bedrooms": null,
+        "bathrooms": null,
+        "listing_title": {
+          "value": "An extremely rare opportunity to acquire a brownfield development site (approximately 8.7 acres) in the heart of Oldham for an excellent residential and commercial project on the former Hartford Mill site. The current landowners have undertaken extensive research into planning potent...",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "An extremely rare opportunity to acquire a brownfield development site (approximately 8.7 acres) in the heart of Oldham for an excellent residential and commercial project on the former Hartford Mill site. The current landowners have undertaken extensive research into planning potent..."
+          }
+        },
+        "published_date": {
+          "value": "2025-09-13",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 13/09/2025 by Philip James Kennedy, Didsbury"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Entwistle Green",
+            "phone": "0161 524 3592",
+            "logo_url": "https://media.rightmove.co.uk:443/partner-logo/85452-PRODUCTS_LOGO-1766057641.jpeg"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Marketed by Entwistle Green, Bury\n0161 524 3592"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Entwistle Green",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Marketed by Entwistle Green, Bury"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "0161 524 3592",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "0161 524 3592 Local call rate"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2ff67ac4a/142655393/2ff67ac4adbefe59419e76e32b23634d_max_476x317.jpeg",
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/79caeddd2/142655393/79caeddd2e4fd04b697ae25c1e1069f1_max_476x317.jpeg",
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/69dd905d1/142655393/69dd905d17ac570135775c572afc98d0_max_476x317.jpeg"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Property Image 1\nProperty Image 2\nProperty Image 10"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_002",
+        "source_file": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt"
+      },
+      "notes": [
+        "The listing title is derived from the description text as it's a development site.",
+        "The property type 'Land' was extracted directly."
+      ]
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/166978733#/?channel=RES_BUY",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Link to property details page"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 4500000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£4,500,000 Swimming Pool"
+          }
+        },
+        "address": {
+          "value": "Stenner Lane, Didsbury, M20",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Stenner Lane, Didsbury, M20"
+          }
+        },
+        "property_type": {
+          "value": "Detached",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Detached"
+          }
+        },
+        "bedrooms": {
+          "value": 9,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "9"
+          }
+        },
+        "bathrooms": {
+          "value": 7,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "7"
+          }
+        },
+        "listing_title": {
+          "value": "Built in Walter Gropius’s Bauhaus style of architecture, Fernbank is one of Didsbury’s MOST SPECTACULAR and truly remarkable PRIVATE RESIDENCES. Occupying a commanding position overlooking Fletcher Moss Park, the property boasts 120 degree panoramic views over Stenner Woods and beyond...",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Built in Walter Gropius’s Bauhaus style of architecture, Fernbank is one of Didsbury’s MOST SPECTACULAR and truly remarkable PRIVATE RESIDENCES. Occupying a commanding position overlooking Fletcher Moss Park, the property boasts 120 degree panoramic views over Stenner Woods and beyond..."
+          }
+        },
+        "published_date": {
+          "value": "2025-09-13",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 13/09/2025 by Philip James Kennedy, Didsbury"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Philip James Kennedy",
+            "phone": "0161 524 4262",
+            "logo_url": "https://media.rightmove.co.uk:443/partner-logo/17607006-PRODUCTS_LOGO-1766059692.jpeg"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 13/09/2025 by Philip James Kennedy, Didsbury\n0161 524 4262"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Philip James Kennedy",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 13/09/2025 by Philip James Kennedy, Didsbury"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "0161 524 4262",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "0161 524 4262 Local call rate"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ea29f946/166978733/3ea29f946c231a523f8e1c08fb95e382_max_476x317.jpeg",
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bc00814bd/166978733/bc00814bdad9a4283334ff3ea3225386_max_476x317.jpeg",
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/803e9ac54/166978733/803e9ac54f2b77633cefb3b0c5e8e78d_max_476x317.jpeg"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Picture No. 07\nGoogle Maps Image\nPicture No. 04"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_003",
+        "source_file": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt"
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/87856368#/?channel=RES_BUY",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Link to property details page"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 3995000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£3,995,000 High Specification"
+          }
+        },
+        "address": {
+          "value": "Didsbury Park, Didsbury Village, M20",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Didsbury Park, Didsbury Village, M20"
+          }
+        },
+        "property_type": {
+          "value": "Detached",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Detached"
+          }
+        },
+        "bedrooms": {
+          "value": 6,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "6"
+          }
+        },
+        "bathrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "5"
+          }
+        },
+        "listing_title": {
+          "value": "A SPECTACULAR AND TRULY EXCEPTIONAL DETACHED MANSION HOUSE, ARCHITECTURALLY DESIGNED to exacting standards of both design and finish; ‘HEDGEWOOD’ offers the perfect blend of LUXURY living and PLATINUM SPECIFICATION throughout, to create ONE OF THE FINEST HOMES in MANCHESTER. <...",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "A SPECTACULAR AND TRULY EXCEPTIONAL DETACHED MANSION HOUSE, ARCHITECTURALLY DESIGNED to exacting standards of both design and finish; ‘HEDGEWOOD’ offers the perfect blend of LUXURY living and PLATINUM SPECIFICATION throughout, to create ONE OF THE FINEST HOMES in MANCHESTER. <..."
+          }
+        },
+        "published_date": {
+          "value": "2026-04-29",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 29/04/2026 by Philip James Kennedy, Didsbury"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Philip James Kennedy",
+            "phone": "0161 524 4262",
+            "logo_url": "https://media.rightmove.co.uk:443/partner-logo/17607006-PRODUCTS_LOGO-1766059692.jpeg"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 29/04/2026 by Philip James Kennedy, Didsbury\n0161 524 4262"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Philip James Kennedy",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 29/04/2026 by Philip James Kennedy, Didsbury"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "0161 524 4262",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "0161 524 4262 Local call rate"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ea29f946/166978733/3ea29f946c231a523f8e1c08fb95e382_max_476x317.jpeg",
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bc00814bd/166978733/bc00814bdad9a4283334ff3ea3225386_max_476x317.jpeg",
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/803e9ac54/166978733/803e9ac54f2b77633cefb3b0c5e8e78d_max_476x317.jpeg"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Picture No. 07\nGoogle Maps Image\nPicture No. 04"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_004",
+        "source_file": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt"
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/159424889#/?channel=RES_BUY",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Link to property details page"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 3750000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£3,750,000 Offers in Region of"
+          }
+        },
+        "address": {
+          "value": "Norden Road, Rochdale, Greater Manchester, OL11",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Norden Road, Rochdale, Greater Manchester, OL11"
+          }
+        },
+        "property_type": {
+          "value": "Detached",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Detached"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "3"
+          }
+        },
+        "bathrooms": null,
+        "listing_title": {
+          "value": "An exciting opportunity to purchase a farm on the edge of the Rochdale, the farm is currently operated as a livery yard and provides two dwellings, a residential caravan, an extensive range of modern and traditional farm and approximately 71 acres or thereabouts of land.",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "An exciting opportunity to purchase a farm on the edge of the Rochdale, the farm is currently operated as a livery yard and provides two dwellings, a residential caravan, an extensive range of modern and traditional farm and approximately 71 acres or thereabouts of land."
+          }
+        },
+        "published_date": {
+          "value": "2025-03-14",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 14/03/2025 by GHA Associates, Grindleton"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "GHA Associates",
+            "phone": "01200 874037",
+            "logo_url": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 14/03/2025 by GHA Associates, Grindleton\n01200 874037"
+          }
+        },
+        "listing_agent_name": {
+          "value": "GHA Associates",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 14/03/2025 by GHA Associates, Grindleton"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "01200 874037",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "01200 874037 Local call rate"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ea29f946/159424889/3ea29f946c231a523f8e1c08fb95e382_max_476x317.jpeg"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Property Image 1"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_005",
+        "source_file": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt"
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/159314969#/?channel=RES_BUY",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Link to property details page"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 3750000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£3,750,000 Offers in Region of"
+          }
+        },
+        "address": {
+          "value": "Norden Road, Rochdale, Greater Manchester, OL11",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Norden Road, Rochdale, Greater Manchester, OL11"
+          }
+        },
+        "property_type": {
+          "value": "Equestrian Facility",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Equestrian Facility"
+          }
+        },
+        "bedrooms": null,
+        "bathrooms": null,
+        "listing_title": {
+          "value": "An exciting opportunity to purchase a farm on the edge of the Rochdale settlement boundary. The farm is currently operated as a livery yard and provides two dwellings, a residential caravan, a range of modern and traditional farm buildings and approximately 71 acres or thereabouts of land.",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "An exciting opportunity to purchase a farm on the edge of the Rochdale settlement boundary. The farm is currently operated as a livery yard and provides two dwellings, a residential caravan, a range of modern and traditional farm buildings and approximately 71 acres or thereabouts of land."
+          }
+        },
+        "published_date": {
+          "value": "2025-03-12",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 12/03/2025 by GHA Associates, Grindleton"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "GHA Associates",
+            "phone": "01200 874037",
+            "logo_url": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 12/03/2025 by GHA Associates, Grindleton\n01200 874037"
+          }
+        },
+        "listing_agent_name": {
+          "value": "GHA Associates",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 12/03/2025 by GHA Associates, Grindleton"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "01200 874037",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "01200 874037 Local call rate"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ea29f946/159314969/3ea29f946c231a523f8e1c08fb95e382_max_476x317.jpeg"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Property Image 1"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_006",
+        "source_file": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt"
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/159314969#/?channel=RES_BUY",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Link to property details page"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2150000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£2,150,000 Wentworth Avenue, Whitefield, Manchester - 7 Bed Main House plus 2 Bed Annexe -Total a huge 7,300sqft"
+          }
+        },
+        "address": {
+          "value": "Wentworth Avenue, Whitefield, Manchester",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Wentworth Avenue, Whitefield, Manchester"
+          }
+        },
+        "property_type": {
+          "value": "Detached",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Detached"
+          }
+        },
+        "bedrooms": {
+          "value": 9,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "9"
+          }
+        },
+        "bathrooms": {
+          "value": 7,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "7"
+          }
+        },
+        "listing_title": {
+          "value": "This bespoke, architect designed contemporary home is brought to the market for the very first time. With 9 bedrooms, (7 to the main house & 2 to the self-contained annexe), plus 7 bathrooms and 6 reception areas, this incredible home amounts to 7,300sqft in all and is simply stunning throughout.",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "This bespoke, architect designed contemporary home is brought to the market for the very first time. With 9 bedrooms, (7 to the main house & 2 to the self-contained annexe), plus 7 bathrooms and 6 reception areas, this incredible home amounts to 7,300sqft in all and is simply stunning throughout."
+          }
+        },
+        "published_date": {
+          "value": "2025-07-08",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Reduced on 08/07/2025 by Fine & Country, Rossendale & North Manchester"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Fine & Country",
+            "phone": "01706 335213",
+            "logo_url": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Reduced on 08/07/2025 by Fine & Country, Rossendale & North Manchester\n01706 335213"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Fine & Country",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Reduced on 08/07/2025 by Fine & Country, Rossendale & North Manchester"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "01706 335213",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "01706 335213 Local call rate"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/87856368/87856368c231a523f8e1c08fb95e382_max_476x317.jpeg"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Property Image 1"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_007",
+        "source_file": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt"
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/87856368#/?channel=RES_BUY",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Link to property details page"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 3995000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£3,995,000 High Specification"
+          }
+        },
+        "address": {
+          "value": "Didsbury Park, Didsbury Village, M20",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Didsbury Park, Didsbury Village, M20"
+          }
+        },
+        "property_type": {
+          "value": "Detached",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Detached"
+          }
+        },
+        "bedrooms": {
+          "value": 6,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "6"
+          }
+        },
+        "bathrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "5"
+          }
+        },
+        "listing_title": {
+          "value": "A SPECTACULAR AND TRULY EXCEPTIONAL DETACHED MANSION HOUSE, ARCHITECTURALLY DESIGNED to exacting standards of both design and finish; ‘HEDGEWOOD’ offers the perfect blend of LUXURY living and PLATINUM SPECIFICATION throughout, to create ONE OF THE FINEST HOMES in MANCHESTER. <...",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "A SPECTACULAR AND TRULY EXCEPTIONAL DETACHED MANSION HOUSE, ARCHITECTURALLY DESIGNED to exacting standards of both design and finish; ‘HEDGEWOOD’ offers the perfect blend of LUXURY living and PLATINUM SPECIFICATION throughout, to create ONE OF THE FINEST HOMES in MANCHESTER. <..."
+          }
+        },
+        "published_date": {
+          "value": "2026-04-29",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 29/04/2026 by Philip James Kennedy, Didsbury"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Philip James Kennedy",
+            "phone": "0161 524 4262",
+            "logo_url": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 29/04/2026 by Philip James Kennedy, Didsbury\n0161 524 4262"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Philip James Kennedy",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 29/04/2026 by Philip James Kennedy, Didsbury"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "0161 524 4262",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "0161 524 4262 Local call rate"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ea29f946/166978733/3ea29f946c231a523f8e1c08fb95e382_max_476x317.jpeg",
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bc00814bd/166978733/bc00814bdad9a4283334ff3ea3225386_max_476x317.jpeg",
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/803e9ac54/166978733/803e9ac54f2b77633cefb3b0c5e8e78d_max_476x317.jpeg"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Picture No. 07\nGoogle Maps Image\nPicture No. 04"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_008",
+        "source_file": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt"
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.rightmove.co.uk/properties/159424889#/?channel=RES_BUY",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Link to property details page"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 3750000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£3,750,000 Offers in Region of"
+          }
+        },
+        "address": {
+          "value": "Norden Road, Rochdale, Greater Manchester, OL11",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Norden Road, Rochdale, Greater Manchester, OL11"
+          }
+        },
+        "property_type": {
+          "value": "Detached",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Detached"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "3"
+          }
+        },
+        "bathrooms": null,
+        "listing_title": {
+          "value": "An exciting opportunity to purchase a farm on the edge of the Rochdale settlement boundary. The farm is currently operated as a livery yard and provides two dwellings, a residential caravan, an extensive range of modern and traditional farm and approximately 71 acres or thereabouts of land.",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "An exciting opportunity to purchase a farm on the edge of the Rochdale, the farm is currently operated as a livery yard and provides two dwellings, a residential caravan, an extensive range of modern and traditional farm and approximately 71 acres or thereabouts of land."
+          }
+        },
+        "published_date": {
+          "value": "2025-03-14",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 14/03/2025 by GHA Associates, Grindleton"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "GHA Associates",
+            "phone": "01200 874037",
+            "logo_url": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 14/03/2025 by GHA Associates, Grindleton\n01200 874037"
+          }
+        },
+        "listing_agent_name": {
+          "value": "GHA Associates",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 14/03/2025 by GHA Associates, Grindleton"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "01200 874037",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "01200 874037 Local call rate"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ea29f946/159424889/3ea29f946c231a523f8e1c08fb95e382_max_476x317.jpeg"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Property Image 1"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_009",
+        "source_file": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 194.518,
+    "input_tokens": 35665,
+    "output_tokens": 13201,
+    "total_tokens": 48866,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_RIGHTMOVE_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_RIGHTMOVE_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

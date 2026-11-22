@@ -1,0 +1,102 @@
+{
+  "task_id": "WBV1_JOBS_NATURECAREERS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Associate/Senior Editor, Nature Communications (Human Behaviour)",
+        "job_url": "https://www.nature.com/naturecareers/job/12860948/",
+        "company_name": "Springer Nature Ltd",
+        "location": "New York City, New York (US)",
+        "salary": {
+          "min_amount": 75000,
+          "max_amount": 95000,
+          "currency": "USD"
+        },
+        "posted_date": "1 day ago",
+        "employment_type": "Full time",
+        "application_deadline": "View details <span class=\"hidden\">Associate/Senior Editor, Nature Communications (Human Behaviour)</span>",
+        "tags": [
+          "Associate Editor",
+          "Senior Editor"
+        ],
+        "job_description": "Title: Associate/Senior Editor, Nature Communications (Human Behaviour) Location: New York City, New York (US)",
+        "provenance": {
+          "page.html": true
+        }
+      },
+      "provenance": {
+        "page.html": true,
+        "canonical_record_key": [
+          "job_title",
+          "company_name",
+          "location",
+          "salary",
+          "posted_date",
+          "employment_type",
+          "application_deadline",
+          "tags",
+          "job_description"
+        ]
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "job_title": "Global Talent Recruitment Announcement of the College of Engineering, HZAU",
+        "job_url": "https://www.nature.com/naturecareers/job/12856815/",
+        "company_name": "Huazhong Agricultural University (HZAU)",
+        "location": "Wuhan, Hubei (CN)",
+        "salary": {
+          "name": "Competitive salary",
+          "code": null,
+          "symbol": null
+        },
+        "posted_date": "1 day ago",
+        "employment_type": "Full time",
+        "application_deadline": "View details <span class=\"hidden\">Global Talent Recruitment Announcement of the College of Engineering, HZAU</span>",
+        "tags": [
+          "Talent",
+          "Recruitment"
+        ],
+        "job_description": "Join HZAU's global faculty team to advance research with competitive benefits.",
+        "provenance": {
+          "page.html": true
+        }
+      },
+      "provenance": {
+        "page.html": true,
+        "canonical_record_key": [
+          "job_title",
+          "company_name",
+          "location",
+          "salary",
+          "posted_date",
+          "employment_type",
+          "application_deadline",
+          "tags",
+          "job_description"
+        ]
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 38.188,
+    "input_tokens": 45370,
+    "output_tokens": 1216,
+    "total_tokens": 46586,
+    "initial_input_tokens": 44639,
+    "initial_output_tokens": 630,
+    "repair_input_tokens": 731,
+    "repair_output_tokens": 586,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

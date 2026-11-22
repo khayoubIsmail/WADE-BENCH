@@ -1,0 +1,12 @@
+import re
+
+def normalize_text(text: str) -> str:
+    """
+    Standard text normalization for evaluations.
+    """
+    if not isinstance(text, str):
+        return text
+    
+    text = text.lower()
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()

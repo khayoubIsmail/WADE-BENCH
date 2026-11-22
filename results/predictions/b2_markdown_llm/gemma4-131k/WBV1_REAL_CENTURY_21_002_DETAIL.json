@@ -1,0 +1,79 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://d.adroll.com/cm/bombora/out?af0=918b4310&adroll_fpc=cd7e51d83725e7cef8cee0e0fc23815a-1779992522513&pv=39142317262.04499&arrfrr=https%3A%2F%2Fwww.century21.com%2Fhomes%2Fdetail%2Fca%2Ffoster-city%2F516-saint-vincent-ln%2Flid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx&advertisable=7JVLHTRZ3NANVNGQMICO27",
+        "address": "516 Saint Vincent Lane, Foster City, CA 94404",
+        "listing_title": null,
+        "property_type": "Single family",
+        "price": {
+          "amount": 2798000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "bathrooms_partial": null,
+        "floor_area": {
+          "value": 2300,
+          "unit": "sq. ft."
+        },
+        "rooms": null,
+        "energy_rating": null,
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": null,
+        "monthly_fees": {
+          "amount": 197,
+          "currency_code": "USD"
+        },
+        "total_price": null,
+        "status": "Active",
+        "published_date": null,
+        "open_house_schedule": [],
+        "key_features": [],
+        "description": "Modern Luxury Meets Resort Living in the Antigua Community. Step into a lifestyle of ease, elegance, and efficiency. This beautifully updated, east-facing corner-lot home offers a seamless blend of modern design and sustainable living. A bright, open floor plan features spacious living and family rooms, enhanced by large windows that fill the home with abundant natural light throughout the day. Fully renovated with a contemporary kitchen, updated flooring, and modern baths. Four bedrooms and two baths are located upstairs, with a full bath on the main level. Equipped with a SunRun solar system and Tesla Powerwall battery backup. The lease is paid in full through 2046, offering long-term energy efficiency with no monthly lease payments. Spacious 3-car garage with integrated EV charging and space for storage or a home gym. Low-maintenance front and rear yards. The Antigua Advantage offers access to premium amenities including a resort-style pool, fitness center, clubhouse, and courts for tennis and pickleball. Ideally located near parks, the Bay Trail, schools, and major commute routes. An exceptional opportunity to find the home you have been waiting for.",
+        "mls_number": "ML82043908",
+        "additional_facilities": [],
+        "images_urls": [
+          "https://d.adroll.com/cm/bombora/out?af0=918b4310&adroll_fpc=cd7e51d83725e7cef8cee0e0fc23815a-1779992522513&pv=39142317262.04499&arrfrr=https%3A%2F%2Fwww.century21.com%2Fhomes%2Fdetail%2Fca%2Ffoster-city%2F516-saint-vincent-ln%2Flid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx&advertisable=7JVLHTRZ3NANVNGQMICO27"
+        ],
+        "listing_agent": {
+          "name": "kateryna davydova",
+          "office": "compass"
+        },
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_agent_phone": null,
+        "listing_office": "compass",
+        "parking": [
+          "Attached Garage : Yes",
+          3
+        ]
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "516 Saint Vincent Lane, Foster City, CA 94404 $2,798,000 4 Beds 3 Baths 2,300 sq. ft. Single family Active Listed by : kateryna davydova Office : compass MLS# : ML82043908"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 17.504,
+    "input_tokens": 14467,
+    "output_tokens": 1203,
+    "total_tokens": 15670,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,1609 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237",
+        "address": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K",
+        "price": {
+          "amount": 495000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 145,
+          "unit": "m²"
+        },
+        "property_type": "Detached",
+        "listing_agent_name": "Christie Smith",
+        "listing_office": "REA T E Potterton",
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcLzNcLzIzN2U0ZTRlLTE3Y2MtNDAyMy1iMDNkLWYxNTIyZTU5OTI0ZS5qcGcifQ==?signature=031cb819009508c16357c42daf8c4ccadda393d0fcddacbb2432e8f07627ea03",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImVcLzhcL2U4OTc5YTQ0LTM4MTItNGE2Ny1hNzQxLTk1YzZiOTg4OTY2OS5qcGcifQ%3D%3D%3Fsignature%3D9d119b7d4159f698488443a296bb424058aaed3fcf94f68c96b871ca4f226448&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImFcL2VcL2FlNjI2ZWJjLWVlMzItNDhiYy04ZTQwLWI0ZDBhMDZmNzhlNi5qcGcifQ%3D%3D%3Fsignature%3Dedf4922c8eed34e65097b95bfad12cc5c0ee0f73c00e57c0095002eacb35f5d0&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcLzBcLzgwZGY0YTlhLWQwNTMtNDFiZi05MzBjLWNhODExNWM3NzhjOS5qcGcifQ%3D%3D%3Fsignature%3Dc242b039057feaf4f9e983a2b0b6ea01db7933d3a392f22a5c31a48a1b32a13f&w=640&q=75"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K €495,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€495,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "145 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Detached"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Christie Smith"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "REA T E Potterton"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357",
+        "address": "52 Clonuske Drive, Balbriggan, Co. Dublin, K32RF82",
+        "price": {
+          "amount": 345000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 105,
+          "unit": "m²"
+        },
+        "property_type": "Terrace",
+        "listing_agent_name": "Chris White",
+        "listing_office": "Sherry Fitzgerald Cumisky Kelly",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "52 Clonuske Drive, Balbriggan, Co. Dublin, K32RF82 €345,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "52 Clonuske Drive, Balbriggan, Co. Dublin, K32RF82"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€345,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "105 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Terrace"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Chris White"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sherry Fitzgerald Cumisky Kelly"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "52 Clonuske Drive, Balbriggan, Co. Dublin, K32RF82"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203",
+        "address": "9b Knockroe, Castlerea, Castlerea, Co. Roscommon, F45C934",
+        "price": {
+          "amount": 285000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 6,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 181,
+          "unit": "m²"
+        },
+        "property_type": "Detached",
+        "listing_agent_name": "Kevin Kirrane",
+        "listing_office": "APP Kirrane Auctioneering",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "9b Knockroe, Castlerea, Castlerea, Co. Roscommon, F45C934 €285,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "9b Knockroe, Castlerea, Castlerea, Co. Roscommon, F45C934"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€285,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "6 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "181 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Detached"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Kevin Kirrane"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "APP Kirrane Auctioneering"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "9b Knockroe, Castlerea, Castlerea, Co. Roscommon, F45C934"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109",
+        "address": "Apartment 22, Cova Da Iria, Salthill, Co. Galway, H91A9XR",
+        "price": {
+          "amount": 780000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 86,
+          "unit": "m²"
+        },
+        "property_type": "Apartment",
+        "listing_agent_name": "Alan O'Dowd",
+        "listing_office": "5SRE.COM",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment 22, Cova Da Iria, Salthill, Co. Galway, H91A9XR €780,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment 22, Cova Da Iria, Salthill, Co. Galway, H91A9XR"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€780,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "86 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Alan O'Dowd"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5SRE.COM"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment 22, Cova Da Iria, Salthill, Co. Galway, H91A9XR"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806",
+        "address": "Foirnis, Burtonport, Co. Donegal, F94H0C1",
+        "price": {
+          "amount": 595000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 8,
+        "bathrooms": 5,
+        "floor_area": {
+          "value": 451,
+          "unit": "m²"
+        },
+        "property_type": "Detached",
+        "listing_agent_name": "Maria Lawler",
+        "listing_office": "Savills",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Foirnis, Burtonport, Co. Donegal, F94H0C1 €595,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Foirnis, Burtonport, Co. Donegal, F94H0C1"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€595,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "8 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "451 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Detached"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Maria Lawler"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Savills"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Foirnis, Burtonport, Co. Donegal, F94H0C1"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469",
+        "address": "127 Gleann Dara, Bishop O Donnell Road, Rahoon, Galway, H91V6YX",
+        "price": {
+          "amount": 350000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 90,
+          "unit": "m²"
+        },
+        "property_type": "Semi-D",
+        "listing_agent_name": "Robyn Commons",
+        "listing_office": "O'Donnellan & Joyce",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "127 Gleann Dara, Bishop O Donnell Road, Rahoon, Galway, H91V6YX €350,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "127 Gleann Dara, Bishop O Donnell Road, Rahoon, Galway, H91V6YX"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€350,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "90 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Semi-D"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Robyn Commons"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "O'Donnellan & Joyce"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "127 Gleann Dara, Bishop O Donnell Road, Rahoon, Galway, H91V6YX"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432",
+        "address": "150 Gort Na Coiribe, Headford Road, Galway, H91RD90",
+        "price": {
+          "amount": 350000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 74,
+          "unit": "m²"
+        },
+        "property_type": "Apartment",
+        "listing_agent_name": "Jamie Costello",
+        "listing_office": "O'Donnellan & Joyce",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "150 Gort Na Coiribe, Headford Road, Galway, H91RD90 €350,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "150 Gort Na Coiribe, Headford Road, Galway, H91RD90"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€350,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "74 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Jamie Costello"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "O'Donnellan & Joyce"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "150 Gort Na Coiribe, Headford Road, Galway, H91RD90"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874",
+        "address": "17 Old Glenview, Castlepollard, Castlepollard, Co. Westmeath, N91VF10",
+        "price": {
+          "amount": 265000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 79,
+          "unit": "m²"
+        },
+        "property_type": "Semi-D",
+        "listing_agent_name": "Jennifer Walsh",
+        "listing_office": "Sherry FitzGerald Davitt & Davitt",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "17 Old Glenview, Castlepollard, Castlepollard, Co. Westmeath, N91VF10 €265,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "17 Old Glenview, Castlepollard, Castlepollard, Co. Westmeath, N91VF10"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€265,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "79 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Semi-D"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Jennifer Walsh"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sherry FitzGerald Davitt & Davitt"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "17 Old Glenview, Castlepollard, Castlepollard, Co. Westmeath, N91VF10"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825",
+        "address": "74 The Court, Petitswood Manor, Mullingar, Co. Westmeath, N91T1H7",
+        "price": {
+          "amount": 445000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "property_type": "Semi-D",
+        "listing_agent_name": "Gary Corroon M.I.P.A.V.",
+        "listing_office": "Sherry FitzGerald Davitt & Davitt",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "74 The Court, Petitswood Manor, Mullingar, Co. Westmeath, N91T1H7 €445,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "74 The Court, Petitswood Manor, Mullingar, Co. Westmeath, N91T1H7"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€445,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 Bath ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Semi-D"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gary Corroon M.I.P.A.V."
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sherry FitzGerald Davitt & Davitt"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/74-the-court-petitswood-manor-mullingar-co-westmeath/6594825'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "74 The Court, Petitswood Manor, Mullingar, Co. Westmeath, N91T1H7"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495",
+        "address": "Birchwood, Three Rocks Lane, Barntown, Wexford, Co. Wexford, Y35A3V9",
+        "price": {
+          "amount": 795000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 343,
+          "unit": "m²"
+        },
+        "property_type": "Detached",
+        "listing_agent_name": "Nick Popplewell",
+        "listing_office": "Sherry FitzGerald Radford - Wexford Town",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Birchwood, Three Rocks Lane, Barntown, Wexford, Co. Wexford, Y35A3V9 €795,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Birchwood, Three Rocks Lane, Barntown, Wexford, Co. Wexford, Y35A3V9"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€795,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "343 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Detached"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Nick Popplewell"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sherry FitzGerald Radford - Wexford Town"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/birchwood-three-rocks-lane-barntown-wexford-co-wexford/6129495'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Birchwood, Three Rocks Lane, Barntown, Wexford, Co. Wexford, Y35A3V9"
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749",
+        "address": "11 Saint Alphonsus' Avenue, Dublin 9, Drumcondra, Dublin 9, D09H920",
+        "price": {
+          "amount": 675000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 111,
+          "unit": "m²"
+        },
+        "property_type": "Terrace",
+        "listing_agent_name": "Gerard O'Connor Assoc SCSI RICS",
+        "listing_office": "O'Connor Estate Agents",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "11 Saint Alphonsus' Avenue, Dublin 9, Drumcondra, Dublin 9, D09H920 €675,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "11 Saint Alphonsus' Avenue, Dublin 9, Drumcondra, Dublin 9, D09H920"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€675,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "111 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Terrace"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gerard O'Connor Assoc SCSI RICS"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "O'Connor Estate Agents"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/11-saint-alphonsus-avenue-dublin-9-drumcondra-dublin-9/6594749'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "11 Saint Alphonsus' Avenue, Dublin 9, Drumcondra, Dublin 9, D09H920"
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728",
+        "address": "Finea, Finea, Co. Westmeath, N91T9XH",
+        "price": {
+          "amount": 149950,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "property_type": "Detached",
+        "listing_agent_name": "Jennifer Walsh",
+        "listing_office": "Sherry FitzGerald Davitt & Davitt",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Finea, Finea, Co. Westmeath, N91T9XH €149,950"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Finea, Finea, Co. Westmeath, N91T9XH"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€149,950"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 Bath ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Detached"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Jennifer Walsh"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sherry FitzGerald Davitt & Davitt"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/finea-finea-co-westmeath/6594728'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Finea, Finea, Co. Westmeath, N91T9XH"
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697",
+        "address": "278 Greenpark Meadows, Mullingar, Mullingar, Co. Westmeath, N91Y1F8",
+        "price": {
+          "amount": 320000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 104,
+          "unit": "m²"
+        },
+        "property_type": "Semi-D",
+        "listing_agent_name": "Gary Corroon M.I.P.A.V.",
+        "listing_office": "Sherry FitzGerald Davitt & Davitt",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "278 Greenpark Meadows, Mullingar, Mullingar, Co. Westmeath, N91Y1F8 €320,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "278 Greenpark Meadows, Mullingar, Mullingar, Co. Westmeath, N91Y1F8"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€320,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "104 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Semi-D"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gary Corroon M.I.P.A.V."
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sherry FitzGerald Davitt & Davitt"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/278-greenpark-meadows-mullingar-mullingar-co-westmeath/6594697'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "278 Greenpark Meadows, Mullingar, Mullingar, Co. Westmeath, N91Y1F8"
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685",
+        "address": "Vilanstown, Gaybrook, Gainestown, Co. Westmeath, N91K6V6",
+        "price": {
+          "amount": 285000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 87,
+          "unit": "m²"
+        },
+        "property_type": "Detached",
+        "listing_agent_name": "Gary Corroon M.I.P.A.V.",
+        "listing_office": "Sherry FitzGerald Davitt & Davitt",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Vilanstown, Gaybrook, Gainestown, Co. Westmeath, N91K6V6 €285,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Vilanstown, Gaybrook, Gainestown, Co. Westmeath, N91K6V6"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€285,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "87 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Detached"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gary Corroon M.I.P.A.V."
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sherry FitzGerald Davitt & Davitt"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/vilanstown-gaybrook-gainestown-co-westmeath/6594685'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Vilanstown, Gaybrook, Gainestown, Co. Westmeath, N91K6V6"
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474",
+        "address": "14 Lacora Glen, Delvin, Delvin, Co. Westmeath, N91C6V3",
+        "price": {
+          "amount": 370000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "property_type": "Detached",
+        "listing_agent_name": "Jennifer Walsh",
+        "listing_office": "Sherry FitzGerald Davitt & Davitt",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "14 Lacora Glen, Delvin, Delvin, Co. Westmeath, N91C6V3 €370,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "14 Lacora Glen, Delvin, Delvin, Co. Westmeath, N91C6V3"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€370,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bath ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Detached"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Jennifer Walsh"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sherry FitzGerald Davitt & Davitt"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/14-lacora-glen-delvin-delvin-co-westmeath/6594474'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "14 Lacora Glen, Delvin, Delvin, Co. Westmeath, N91C6V3"
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733",
+        "address": "56 Church Green, Ballinglanna, Glanmire, Co. Cork, T45X579",
+        "price": {
+          "amount": 515000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 135,
+          "unit": "m²"
+        },
+        "property_type": "Semi-D",
+        "listing_agent_name": "Adrianna Hegarty",
+        "listing_office": "Hegarty-Properties",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "56 Church Green, Ballinglanna, Glanmire, Co. Cork, T45X579 €515,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "56 Church Green, Ballinglanna, Glanmire, Co. Cork, T45X579"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€515,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "135 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Semi-D"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Adrianna Hegarty"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Hegarty-Properties"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/56-church-green-ballinglanna-glanmire-co-cork/6519733'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "56 Church Green, Ballinglanna, Glanmire, Co. Cork, T45X579"
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771",
+        "address": "Nead An Dreoilín, Rathgranagher, Hollymount, Co. Mayo, F12R129",
+        "price": {
+          "amount": 310000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 170,
+          "unit": "m²"
+        },
+        "property_type": "Bungalow",
+        "listing_agent_name": "Emma Gill",
+        "listing_office": "Property Partners Gill and Glynn",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771']",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Nead An Dreoilín, Rathgranagher, Hollymount, Co. Mayo, F12R129 €310,000"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Nead An Dreoilín, Rathgranagher, Hollymount, Co. Mayo, F12R129"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "€310,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 Bed ·"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 Bath ·"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "170 m² ·"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771'] div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bungalow"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Emma Gill"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771'] p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Property Partners Gill and Glynn"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": "a[href='https://www.daft.ie/for-sale/nead-an-dreoil-n-rathgranagher-hollymount-co-mayo/6591771'] img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Nead An Dreoilín, Rathgranagher, Hollymount, Co. Mayo, F12R129"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 214.888,
+    "input_tokens": 27334,
+    "output_tokens": 15270,
+    "total_tokens": 42604,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_DAFT.IE_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_DAFT.IE_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

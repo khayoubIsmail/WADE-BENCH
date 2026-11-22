@@ -1,0 +1,805 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237",
+        "address": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K",
+        "price": {
+          "amount": 495000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 145,
+          "unit": "m2"
+        },
+        "property_type": "Detached",
+        "energy_rating": "A",
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcLzNcLzIzN2U0ZTRlLTE3Y2MtNDAyMy1iMDNkLWYxNTIyZTU5OTI0ZS5qcGcifQ==?signature=031cb819009508c16357c42daf8c4ccadda393d0fcddacbb2432e8f07627ea03",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImVcLzhcL2U4OTc5YTQ0LTM4MTItNGE2Ny1hNzQxLTk1YzZiOTg4OTY2OS5qcGcifQ%3D%3D%3Fsignature%3D9d119b7d4159f698488443a296bb424058aaed3fcf94f68c96b871ca4f226448&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImFcL2VcL2FlNjI2ZWJjLWVlMzItNDhiYy04ZTQwLWI0ZDBhMDZmNzhlNi5qcGcifQ%3D%3D%3Fsignature%3Dedf4922c8eed34e65097b95bfad12cc5c0ee0f73c00e57c0095002eacb35f5d0&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcLzBcLzgwZGY0YTlhLWQwNTMtNDFiZi05MzBjLWNhODExNWM3NzhjOS5qcGcifQ%3D%3D%3Fsignature%3Dc242b039057feaf4f9e983a2b0b6ea01db7933d3a392f22a5c31a48a1b32a13f&w=640&q=75"
+        ],
+        "listing_agent_name": "Christie Smith",
+        "listing_agent_logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiN1wvY1wvN2MzYTc1OGJhNWRhM2I4YzA5OGRhMzBkMTk1Y2EyZjlfc3RhbmRhcmQucG5nIn0=?signature=c9fb414357c564e338bd941afa9f50337e776eb5bdd20501e5db5eed62c9e4ed",
+        "listing_agent_photo": "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcL2JcLzRiNjkwODMwMmM3MTE1NWI2M2QzMjJlNzZjMmM4M2JmLmpwZyJ9%3Fsignature%3Dfb3337946e05b72fb7c7803c344f4a4b1339a9f501b1c0c9067629c285639d47&w=3840&q=75",
+        "listing_office": "REA T E Potterton"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237\"]",
+          "text_quote": "href=\"https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_address\"] p",
+          "text_quote": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_price\"] p",
+          "text_quote": "€495,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "4 Bed"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "2 Bath"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "145 m²"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "Detached"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "[aria-label=\"BER A\"]",
+          "text_quote": "aria-label=\"BER A\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"media.daft.ie\"]",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator_name\"]",
+          "text_quote": "Christie Smith"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_logo\"] img",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator\"] img",
+          "text_quote": "src=\"https://dist-property-frontend-daft.daft.ie/_next/image?url=...\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_agent_name\"]",
+          "text_quote": "REA T E Potterton"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357",
+        "address": "52 Clonuske Drive, Balbriggan, Co. Dublin, K32RF82",
+        "price": {
+          "amount": 345000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 105,
+          "unit": "m2"
+        },
+        "property_type": "Terrace",
+        "energy_rating": "B3",
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcLzBcLzIwZjhkMWMwLTcwN2ItNGY5ZC1iMTVhLTdkMjg1NWU4MTQwMi5qcGcifQ==?signature=87967f8741cb8442143762a34375065628561e260fa621257e7b8cb91bc72f45",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImZcLzlcL2Y5MDIyYmEyLWNjODAtNGVmNi1hMzUwLWI4YTFjMGEwZWE5Zi5qcGcifQ%3D%3D%3Fsignature%3D563cef4422355b2f342a266b309fd795bc05a88f4a30d62d6dcd79ba1b26bf9b&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjBcLzhcLzA4ZDU4YWU2LWIxZTQtNGI4Mi04YjNiLTZjNmYzYzNjMTIxYy5qcGcifQ%3D%3D%3Fsignature%3D39fd5d73c7e330dbbdc66382614de8c7fe22d126c92a5b1990e6f8aeda4f7aef&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcL2VcLzNlNzBkZTg2LTA3NjMtNDE3Zi05MjYyLTA4OTFlNTA2OGNmNC5qcGcifQ%3D%3D%3Fsignature%3D2bd9850fb4bd73cdc1a345033776c82831d2446c1620b93b1a84876f982749c1&w=640&q=75"
+        ],
+        "listing_agent_name": "Chris White",
+        "listing_agent_logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiYlwvNlwvYjYxOTkwZjY4NTk1NDQzZTc4M2FiZjUwNWJjZWM3ZjFfc3RhbmRhcmQucG5nIn0=?signature=b395e8163abbfe120d6f83c0507610d8c04c73d8cc3262fac440fab57f5641c9",
+        "listing_agent_photo": "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcLzhcLzQ4M2JlMjcxNmZiNWNhZmZmYmExYTI4NjFiODJjYzhlLmpwZyJ9%3Fsignature%3Dd8dc7628a7b6b0250c00b136a49b858780f2c993a2ee980330f85a22c31f4742&w=3840&q=75",
+        "listing_office": "Sherry Fitzgerald Cumisky Kelly"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357\"]",
+          "text_quote": "href=\"https://www.daft.ie/for-sale/52-clonuske-drive-balbriggan-co-dublin/6552357\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_address\"] p",
+          "text_quote": "52 Clonuske Drive, Balbriggan, Co. Dublin, K32RF82"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_price\"] p",
+          "text_quote": "€345,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "2 Bed"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "2 Bath"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "105 m²"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "Terrace"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "[aria-label=\"BER B3\"]",
+          "text_quote": "aria-label=\"BER B3\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"media.daft.ie\"]",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator_name\"]",
+          "text_quote": "Chris White"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_logo\"] img",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator\"] img",
+          "text_quote": "src=\"https://dist-property-frontend-daft.daft.ie/_next/image?url=...\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_agent_name\"]",
+          "text_quote": "Sherry Fitzgerald Cumisky Kelly"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203",
+        "address": "9b Knockroe, Castlerea, Castlerea, Co. Roscommon, F45C934",
+        "price": {
+          "amount": 285000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 6,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 181,
+          "unit": "m2"
+        },
+        "property_type": "Detached",
+        "energy_rating": "D1",
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcLzNcLzQzMjQ1NmE4LTdjMTktNDMxNC1hMzM5LTg1ZTJiOTA3ZWM3Yy5KUEVHIn0=?signature=747a532846c25786cc52871e8092ab8dec3f66872e7d4377bcdc1d063542d628",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcLzZcLzQ2OWY2MmQzLTc5MWEtNDVmOC1hYTM1LWUwMDFjYzRjNTIwMC5KUEVHIn0%3D%3Fsignature%3D37bcc03fe5d0bc96cd3096d62ea192fcd89af4254401e40fa34c2b1cb62a2337&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImZcL2JcL2ZiZGJiZmQ2LWQ0NGYtNDc0NC05ODhmLWRmMzJiYTM1ZTg3NC5KUEVHIn0%3D%3Fsignature%3D2d5173e42e83235466e9b1c7c9ec18fc6c6311b874026520ffb335168da71eb7&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcL2NcLzljYThlNmJiLWVlOGItNDc0NS05ZTY4LWUwZDExOTk1YzliMi5KUEVHIn0%3D%3Fsignature%3D878561c4f296420a8f1cf67495aed448afb417e7d389747ef0a74e6b5df91f1c&w=640&q=75"
+        ],
+        "listing_agent_name": "Kevin Kirrane",
+        "listing_agent_logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiMFwvM1wvMDNjNGVmOTY1MDhlMDU1YmViMjgwYjZiMDRhOGViMjJfc3RhbmRhcmQucG5nIn0=?signature=a0e4c21c536d79caef5d611e5b929cc80243e8e58b40fc3d2e81d4a1d98926f5",
+        "listing_agent_photo": "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcL2RcLzNkZmZlMGI0NGE1NTc1NDJmMmUwZmFhYmM3ZTNhMDU4LmpwZyJ9%3Fsignature%3D531f05b38994d4954b643f89a390ebacfde2067e8843a986cad511daf959e65e&w=3840&q=75",
+        "listing_office": "APP Kirrane Auctioneering"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203\"]",
+          "text_quote": "href=\"https://www.daft.ie/for-sale/9b-knockroe-castlerea-castlerea-co-roscommon/6595203\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_address\"] p",
+          "text_quote": "9b Knockroe, Castlerea, Castlerea, Co. Roscommon, F45C934"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_price\"] p",
+          "text_quote": "€285,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "6 Bed"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "2 Bath"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "181 m²"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "Detached"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "[aria-label=\"BER D1\"]",
+          "text_quote": "aria-label=\"BER D1\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"media.daft.ie\"]",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator_name\"]",
+          "text_quote": "Kevin Kirrane"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_logo\"] img",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator\"] img",
+          "text_quote": "src=\"https://dist-property-frontend-daft.daft.ie/_next/image?url=...\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_agent_name\"]",
+          "text_quote": "APP Kirrane Auctioneering"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109",
+        "address": "Apartment 22, Cova Da Iria, Salthill, Co. Galway, H91A9XR",
+        "price": {
+          "amount": 780000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 86,
+          "unit": "m2"
+        },
+        "property_type": "Apartment",
+        "energy_rating": "A2",
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzlcLzk5YWZmYzNhLTA1ODAtNDhiMy04ZDViLWMyZjUwMTExZGUwMC5KUEVHIn0=?signature=7e55e99af5701ee04edb3597362169d2a8be7a37db0f047a5909b31a20d743ba",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcLzZcLzc2ODViNTEzLWNhNzItNGI2Ni1iMDgzLTllNTZiNmZlNjZiMy5KUEVHIn0%3D%3Fsignature%3Dbfd3bf64933717aa1363872b75b24dd2d9a3bd6f3d1d2b012dd9d046db377934&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcLzdcLzM3ODlhZWI3LWUxM2UtNGY0Yi1hZGQ3LWE5NzcyMmQ5NmQ0Mi5KUEVHIn0%3D%3Fsignature%3D68842197ce628860848964cadc17fad73cc2de233758fdd4394194c0030599b4&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImZcLzhcL2Y4OWM0YWExLTViZGQtNDk4ZS1hMGQxLWNkZmY2YTE5YmJmYi5KUEVHIn0%3D%3Fsignature%3D19f26e06423a9063944279cb0a8aa6eb1f90f84f5d638b29e295135b87c367c4&w=640&q=75"
+        ],
+        "listing_agent_name": "Alan O'Dowd",
+        "listing_agent_logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiZlwvOFwvZjg0OGZlYTBiYTI2NDc2NjQ3MzY1Mzc1Njc4YTkzMDRfc3RhbmRhcmQucG5nIn0=?signature=4a94ced99a18ef9c355fd3688fc3a7ccfecab427188917660991c0b0ac1bb718",
+        "listing_agent_photo": "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImFcL2VcL2FlMTM3MDAwYjI1MzU1NjNmNzlkMzJkMzMyMjhlYjU3LnBuZyJ9%3Fsignature%3D186155a3331d95688af2e4dc277de19e35eb54e716e530f131abf95c95be6c4d&w=3840&q=75",
+        "listing_office": "5SRE.COM"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109\"]",
+          "text_quote": "href=\"https://www.daft.ie/for-sale/apartment-22-cova-da-iria-salthill-co-galway/6592109\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_address\"] p",
+          "text_quote": "Apartment 22, Cova Da Iria, Salthill, Co. Galway, H91A9XR"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_price\"] p",
+          "text_quote": "€780,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "2 Bed"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "2 Bath"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "86 m²"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "Apartment"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "[aria-label=\"BER A2\"]",
+          "text_quote": "aria-label=\"BER A2\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"media.daft.ie\"]",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator_name\"]",
+          "text_quote": "Alan O'Dowd"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_logo\"] img",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator\"] img",
+          "text_quote": "src=\"https://dist-property-frontend-daft.daft.ie/_next/image?url=...\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_agent_name\"]",
+          "text_quote": "5SRE.COM"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806",
+        "address": "Foirnis, Burtonport, Co. Donegal, F94H0C1",
+        "price": {
+          "amount": 595000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 8,
+        "bathrooms": 5,
+        "floor_area": {
+          "value": 451,
+          "unit": "m2"
+        },
+        "property_type": "Detached",
+        "energy_rating": "E1",
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImZcL2ZcL2ZmNzRlYzFhLWVlODQtNDI3OS04MTNjLWQ1MmUyYTBmMDZjOC5qcGcifQ==?signature=cfaf02aa78c4d624ec80345a71b1eb8871f9f2284bb9c473273f53e0ed64398b",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcLzlcLzM5MTVlYWRjLTNhYjYtNDVlMy1hMGEwLTIyNmViZGU5ODQ2Zi5qcGcifQ%3D%3D%3Fsignature%3D184a457839b63acb7570f4d06684eee4d7c74dfc5f9675dcaf2abe25b466081f&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjBcLzhcLzA4NTk1NDQwLTljMjEtNDY2Yy1iZmEwLWQ4ZTVlMTE0MDU3OS5qcGcifQ%3D%3D%3Fsignature%3Da1e8371417aef0e5e37e5fe0816a19474990b7edd59bc2ad301d039bdf38a154&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcLzFcL2IxNjNjOGQwLWQ2ODQtNDNlZS04NmI3LWQyMjRhZWVjYWM5Mi5qcGcifQ%3D%3D%3Fsignature%3Da02a5a82a365fda67b1be6d8a54dff30dd77e0fcca7f04a697bce9c15f8bb29a&w=640&q=75"
+        ],
+        "listing_agent_name": "Maria Lawler",
+        "listing_agent_logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiY1wvN1wvYzdlMDY0MmFmZjFjNTNhZjQ3MTkyYmE1MDk2YTUwODZfc3RhbmRhcmQucG5nIn0=?signature=34e4a288a01101e74ce02b732ae32d32a7eeec2176968131e24dd5a7d78a8b20",
+        "listing_agent_photo": "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcL2RcLzlkNjQ5YzAxMWExYWQzMDM4NWYwODYxYjNmNmZhODc0LmpwZyJ9%3Fsignature%3D599c6fc3576b5b00559ef634788cfcbca076e9392a3597ec7c57197c6561b724&w=3840&q=75",
+        "listing_office": "Savills"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806\"]",
+          "text_quote": "href=\"https://www.daft.ie/for-sale/foirnis-burtonport-co-donegal/6594806\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_address\"] p",
+          "text_quote": "Foirnis, Burtonport, Co. Donegal, F94H0C1"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_price\"] p",
+          "text_quote": "€595,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "8 Bed"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "5 Bath"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "451 m²"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "Detached"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "[aria-label=\"BER E1\"]",
+          "text_quote": "aria-label=\"BER E1\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"media.daft.ie\"]",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator_name\"]",
+          "text_quote": "Maria Lawler"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_logo\"] img",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator\"] img",
+          "text_quote": "src=\"https://dist-property-frontend-daft.daft.ie/_next/image?url=...\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_agent_name\"]",
+          "text_quote": "Savills"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469",
+        "address": "127 Gleann Dara, Bishop O Donnell Road, Rahoon, Galway, H91V6YX",
+        "price": {
+          "amount": 350000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 90,
+          "unit": "m2"
+        },
+        "property_type": "Semi-D",
+        "energy_rating": "C",
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRcLzlcL2Q5MGEzZjA5LTViNzMtNDAzYS04MDY2LWNjOTk5ZjA2MWUxMC5qcGcifQ==?signature=c75954f5006407d333963c42a5d3cc66183a0fe523e7dd6f3d56543dbee6b845",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjBcLzFcLzAxYWNlYWUxLWJmZjktNGY0My05ZGY2LTIzNDZlNTAyZDAyYy5qcGcifQ%3D%3D%3Fsignature%3Db3daae7ad26b61a20e0accf207675f6245d00eca6298ecf58edbd57b9ea5161e&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcLzRcLzM0MzA2ZTFkLWQ0NDUtNDYzMC04ZGM0LTQ4YTE1OGFlNTkxOS5qcGcifQ%3D%3D%3Fsignature%3De1570cd8f18389a64bfd51ac035c3ad5fb508da08eec477b11cafe113f57a0bd&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcLzNcLzQzZGIzZmY2LTFiOWMtNDJhNy1iNDZkLTUzNWNiYjk2OTAxMS5qcGcifQ%3D%3D%3Fsignature%3Dfe2fc2a0cba4354f762e4a5fcc1412149fb289cf9a9ba2688b6826e696ee182d&w=640&q=75"
+        ],
+        "listing_agent_name": "Robyn Commons",
+        "listing_agent_logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiZVwvNFwvZTQ2NTYyZWRmMjNiOWFhYzYzYjg5NzQ5OGExMmRjYjRfc3RhbmRhcmQucG5nIn0=?signature=de37eb1a858eb749012ae7f106f03bc1030a9cc62ce5807d12db5070b7576e4a",
+        "listing_agent_photo": "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcL2JcLzhiODQ4YjNiMTI2MjQ1ZDUyY2UxYjY0NWY0NjQzY2ZlLnBuZyJ9%3Fsignature%3Db9abdfb9e282c806ab99893e42015757e7632df3b928dcf57970f2fd7f06316b&w=3840&q=75",
+        "listing_office": "O'Donnellan & Joyce"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469\"]",
+          "text_quote": "href=\"https://www.daft.ie/for-sale/127-gleann-dara-bishop-o-donnell-road-rahoon-galway/6591469\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_address\"] p",
+          "text_quote": "127 Gleann Dara, Bishop O Donnell Road, Rahoon, Galway, H91V6YX"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_price\"] p",
+          "text_quote": "€350,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "4 Bed"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "3 Bath"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "90 m²"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "Semi-D"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "[aria-label=\"BER C\"]",
+          "text_quote": "aria-label=\"BER C\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"media.daft.ie\"]",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator_name\"]",
+          "text_quote": "Robyn Commons"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_logo\"] img",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator\"] img",
+          "text_quote": "src=\"https://dist-property-frontend-daft.daft.ie/_next/image?url=...\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_agent_name\"]",
+          "text_quote": "O'Donnellan & Joyce"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432",
+        "address": "150 Gort Na Coiribe, Headford Road, Galway, H91RD90",
+        "price": {
+          "amount": 350000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 74,
+          "unit": "m2"
+        },
+        "property_type": "Apartment",
+        "energy_rating": "B",
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcLzlcLzM5MjkwNTI1LTI2YjEtNDM0ZS1hZWRlLTE0NDM5MDU0N2JkMS5qcGcifQ==?signature=5167cb53b4f88886d25d94af316e6b9825bac30225d4b5868fe40cff9cd754d3",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzhcLzk4ZjUwMTEyLWQ4OWYtNDY0Yi1iMjVlLTRlNzMyNDJjZjlmOS5qcGcifQ%3D%3D%3Fsignature%3Db80230720a14216e6d8e4989828712b07d06d3f0dfc62fa1d67ed487d33d7345&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImFcLzBcL2EwOTY3NmU1LTc2ZmMtNDM0NS04NmE2LWEyM2I1OTIxMWVkYi5qcGcifQ%3D%3D%3Fsignature%3D13d7cf20c6e085fd0c22a76819f2410fa6167570b6964d7cbc576428b3430512&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcLzhcLzg4OTI4MmI1LTQ4MDEtNDRmYy1hOTk0LTMxODBhNmY1MWE5NC5qcGcifQ%3D%3D%3Fsignature%3D4537b39e2c5777872d968f5b83fbca78e76c5602a527fb094218e6ae0c721142&w=640&q=75"
+        ],
+        "listing_agent_name": "Jamie Costello",
+        "listing_agent_logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiZVwvNFwvZTQ2NTYyZWRmMjNiOWFhYzYzYjg5NzQ5OGExMmRjYjRfc3RhbmRhcmQucG5nIn0=?signature=de37eb1a858eb749012ae7f106f03bc1030a9cc62ce5807d12db5070b7576e4a",
+        "listing_agent_photo": "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRcLzZcL2Q2YzdmNjFkNzI3Njg2MmM4ZDI0MzRhYmRkYTE3ZjdmLnBuZyJ9%3Fsignature%3D797211639df8c423f073af8c836160acfa56b45627fbfd22317817b680dc28a7&w=3840&q=75",
+        "listing_office": "O'Donnellan & Joyce"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432\"]",
+          "text_quote": "href=\"https://www.daft.ie/for-sale/150-gort-na-coiribe-headford-road-galway/6567432\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_address\"] p",
+          "text_quote": "150 Gort Na Coiribe, Headford Road, Galway, H91RD90"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_price\"] p",
+          "text_quote": "€350,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "2 Bed"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "2 Bath"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "74 m²"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": "Apartment"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "[aria-label=\"BER B\"]",
+          "text_quote": "aria-label=\"BER B\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"media.daft.ie\"]",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator_name\"]",
+          "text_quote": "Jamie Costello"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_logo\"] img",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator\"] img",
+          "text_quote": "src=\"https://dist-property-frontend-daft.daft.ie/_next/image?url=...\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_agent_name\"]",
+          "text_quote": "O'Donnellan & Joyce"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874",
+        "address": "17 Old Glenview, Castlepollard, Castlepollard, Co. Westmeath, N91VF10",
+        "price": {
+          "amount": 265000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "bedrooms": null,
+        "bathrooms": null,
+        "floor_area": null,
+        "property_type": null,
+        "energy_rating": null,
+        "images_urls": [
+          "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcL2ZcLzVmYWQxMzJhLWM0ZGUtNDFiYi05MmVlLTE5ZTkxZWM0ODA5Zi5KUEVHIn0=?signature=e780426be69883c16255e97319b18be34e6c3f0be661d45238ff8e534c844f96",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjBcLzRcLzA0ZjRmMjI1LTRkZDgtNDJlMC04N2Q1LWFiOGU0OWEyOTQ5My5KUEVHIn0%3D%3Fsignature%3Dfe773773fdaff26885d63df5688552aa52ef29037ee75184fc97908191f38261&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcLzdcLzg3MDRmN2JmLTY1ZDUtNDA1OS04Y2UzLWUxYjdlYWIyYTJjZC5KUEVHIn0%3D%3Fsignature%3D896ef34eca5a2225e1bd3c63970fc54d6539d3e828d0fbcf7dd3f9699f01ec21&w=640&q=75",
+          "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImZcLzRcL2Y0ZDNjYzM5LTllZmMtNGI1OS1hOGRhLTU5NWYxZTZlOWJmMS5KUEVHIn0%3D%3Fsignature%3Dd5eab8aaed6c5106b350813468a519b0ecf0702bb5cf2ac03dae6455c0f35766&w=640&q=75"
+        ],
+        "listing_agent_name": "Jennifer Walsh",
+        "listing_agent_logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiZVwvMVwvZTEzMWZhODBmOWNjZTU1YmQxMzAyOGIxMGUyNmQzZmFfc3RhbmRhcmQucG5nIn0=?signature=578b247dc50af93b8dfa7dafc0a301bbc85771490a5f2f152c34297ebeaa296f",
+        "listing_agent_photo": "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzZcLzk2OGM2NGZlZmU3N2Q4M2ViZjEwZDMxNDU0MDMxYTExLmpwZyJ9%3Fsignature%3Dc2b0470a59b2f79d7d4724e1232c30424e8a68773c108796a8220965ed817dfa&w=3840&q=75",
+        "listing_office": "Sherry FitzGerald Davitt & Davitt"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874\"]",
+          "text_quote": "href=\"https://www.daft.ie/for-sale/17-old-glenview-castlepollard-castlepollard-co-westmeath/6594874\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_address\"] p",
+          "text_quote": "17 Old Glenview, Castlepollard, Castlepollard, Co. Westmeath, N91VF10"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_price\"] p",
+          "text_quote": "€265,000"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": null
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": null
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": null
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"srp_meta\"] span",
+          "text_quote": null
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "[aria-label^=\"BER\"]",
+          "text_quote": null
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"media.daft.ie\"]",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator_name\"]",
+          "text_quote": "Jennifer Walsh"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_logo\"] img",
+          "text_quote": "src=\"https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1...\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_negotiator\"] img",
+          "text_quote": "src=\"https://dist-property-frontend-daft.daft.ie/_next/image?url=...\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "[data-tracking=\"agent_branding_agent_name\"]",
+          "text_quote": "Sherry FitzGerald Davitt & Davitt"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 226.274,
+    "input_tokens": 96421,
+    "output_tokens": 18742,
+    "total_tokens": 115163,
+    "initial_input_tokens": 96421,
+    "initial_output_tokens": 18742,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

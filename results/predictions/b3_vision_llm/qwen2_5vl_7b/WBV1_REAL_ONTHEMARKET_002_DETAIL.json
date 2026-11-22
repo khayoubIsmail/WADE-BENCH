@@ -1,0 +1,71 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/879000",
+        "price": {
+          "amount": 879000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Kingsfield Avenue, Harrow, HA2 6AQ",
+        "property_type": "Semi-detached house",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1646,
+          "unit": "sqft"
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Ask agent",
+        "images_urls": [
+          "https://www.onthemarket.com/images/property/879000.jpg",
+          "https://www.onthemarket.com/images/property/879001.jpg",
+          "https://www.onthemarket.com/images/property/879002.jpg",
+          "https://www.onthemarket.com/images/property/879003.jpg"
+        ],
+        "listing_agent": {
+          "name": null,
+          "logo": null,
+          "photo": null,
+          "phone": "020 4516 6055",
+          "office": "Robsons - Pinner"
+        }
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 10.279,
+    "input_tokens": 10183,
+    "output_tokens": 370,
+    "total_tokens": 10553,
+    "num_tiles": 5,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_05.png"
+    ],
+    "error": null
+  }
+}

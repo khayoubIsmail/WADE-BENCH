@@ -1,0 +1,30 @@
+{
+  "task_id": "WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Urban Productive Safety Net and Jobs Project",
+        "tender_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00293150"
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 6.633,
+    "input_tokens": 21500,
+    "output_tokens": 104,
+    "total_tokens": 21604,
+    "repaired": false,
+    "error": null
+  }
+}

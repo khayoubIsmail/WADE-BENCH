@@ -1,0 +1,42 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Casper",
+        "description": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love.",
+        "image_urls": [
+          "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=1920"
+        ],
+        "price_raw": "$799",
+        "product_name": "The One - Queen",
+        "product_url": "https://casper.com/products/casper-one-foam?variant=41670971261009",
+        "rating": 4.4,
+        "review_count": 17798
+      },
+      "provenance": {
+        "source": "page.html",
+        "css_selector_or_xpath": null,
+        "text_quote": "The One - Affordable Foam Mattress | Casper"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 16.374,
+    "input_tokens": 24648,
+    "output_tokens": 255,
+    "total_tokens": 24903,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_03_CASPER_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_03_CASPER_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

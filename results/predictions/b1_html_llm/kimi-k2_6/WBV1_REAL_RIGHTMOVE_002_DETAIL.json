@@ -1,0 +1,102 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.rightmove.co.uk/properties/146059961",
+        "price": {
+          "amount": 1200,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": "month"
+        },
+        "address": "The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ, B16",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": null,
+        "floor_area": null,
+        "published_date": null,
+        "description": "1 bedroom apartment for rent in The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ, B16 for £1,200 pcm. Marketed by Way of Life - The Lansdowne, The Lansdowne",
+        "images_urls": [
+          "https://media.rightmove.co.uk/property-photo/163416c0b/146059961/163416c0b8779be92a589b447092794f.jpg"
+        ],
+        "listing_agent": {
+          "name": "Way of Life - The Lansdowne",
+          "phone": null
+        },
+        "listing_agent_name": "Way of Life - The Lansdowne",
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_agent_phone": null,
+        "listing_office": "Way of Life - The Lansdowne"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://www.rightmove.co.uk/properties/146059961"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "meta[property='og:description']",
+          "text_quote": "£1,200 pcm"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "title",
+          "text_quote": "The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ, B16"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "title",
+          "text_quote": "apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "title",
+          "text_quote": "1 bedroom"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "meta[property='og:description']",
+          "text_quote": "1 bedroom apartment for rent in The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ, B16 for £1,200 pcm. Marketed by Way of Life - The Lansdowne, The Lansdowne"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "meta[property='og:image']",
+          "text_quote": "https://media.rightmove.co.uk/property-photo/163416c0b/146059961/163416c0b8779be92a589b447092794f.jpg"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "meta[property='og:description']",
+          "text_quote": "Way of Life - The Lansdowne, The Lansdowne"
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "meta[property='og:description']",
+          "text_quote": "Way of Life - The Lansdowne, The Lansdowne"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 103.351,
+    "input_tokens": 213930,
+    "output_tokens": 598,
+    "total_tokens": 214528,
+    "initial_input_tokens": 213930,
+    "initial_output_tokens": 598,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

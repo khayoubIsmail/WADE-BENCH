@@ -1,0 +1,129 @@
+{
+  "task_id": "WBV1_JOBS_THTJOBS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": {
+          "value": "Global Search for Excellence – The “90 Scholars for 90th Anniversary” Strategic Hiring Scheme",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "h1",
+            "text_quote": "Global Search for Excellence – The “90 Scholars for 90th Anniversary” Strategic Hiring Scheme"
+          }
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/408414/global-search-for-excellence-the-90-scholars-for-90th-anniversary-strategic-hiring-scheme",
+          "provenance": {
+            "source": "metadata.json",
+            "css_selector": null,
+            "text_quote": "https://www.timeshighereducation.com/unijobs/listing/408414/global-search-for-excellence-the-90-scholars-for-90th-anniversary-strategic-hiring-scheme/?utm_source=EmailAFriend&utm_medium=email&utm_campaign=408414"
+          }
+        },
+        "company_name": {
+          "value": "THE HONG KONG POLYTECHNIC UNIVERSITY",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[ref=e104]",
+            "text_quote": "THE HONG KONG POLYTECHNIC UNIVERSITY"
+          }
+        },
+        "location": {
+          "value": "Hong Kong (HK)",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[ref=e106]",
+            "text_quote": "Hong Kong (HK)"
+          }
+        },
+        "job_description": {
+          "value": "To celebrate the 90th Anniversary of The Hong Kong Polytechnic University, we proudly launch the landmark 90 Scholars for the 90th Anniversary faculty recruitment program. As an innovative world-class university guided by our updated 2025 vision and mission, PolyU is committed to advancing excellence in education and high-impact research, nurturing global talent, and contributing to the sustainable development of Hong Kong, the Nation, and the world. Our standing as a top tier global institution is firmly affirmed by exceptional international rankings: 54th in the QS World University Rankings 2026 and 58th in the U.S. News & World Report Best Global Universities 2025–2026, underscoring our academic rigor, research innovation, and global influence.\n\nThis prestigious initiative is designed to attract exceptional scholars across transformative, frontier defining fields: artificial intelligence and related areas, robotics and embedded intelligence, microelectronics, aerospace technology, advanced manufacturing, life sciences, materials science, new energy, and architecture and urban sustainability. Applicants in other areas of strategic importance to the University are also most welcome. By recruiting 90 distinguished academics and rising young leaders, we aim to strengthen interdisciplinary research capacity, accelerate fundamental breakthroughs, and shape the future of global scientific and technological progress.\n\nRooted in 90 years of heritage and intellectual achievement, the program embodies PolyU’s dedication to pushing the frontiers of knowledge, fostering academic leadership, and addressing grand challenges facing humanity. It represents a historic investment in our academic community, reinforcing our ambition to remain a dynamic, innovative world-class university at the forefront of global higher education and research excellence.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": null,
+            "text_quote": "To celebrate the 90th Anniversary of The Hong Kong Polytechnic University, we proudly launch the landmark 90 Scholars for the 90th Anniversary faculty recruitment program..."
+          }
+        },
+        "application_deadline": {
+          "value": "2027-12-31",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[ref=e108]",
+            "text_quote": "31 Dec 2027"
+          }
+        },
+        "apply_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/external-redirect-registration?JobId=408414&LinkSource=TopJob",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "[ref=e123]",
+            "text_quote": "/unijobs/external-redirect-registration?JobId=408414&LinkSource=TopJob"
+          }
+        },
+        "employment_type": {
+          "value": null,
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "text_quote": null
+          }
+        },
+        "work_arrangement": {
+          "value": null,
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "text_quote": null
+          }
+        },
+        "responsibilities": {
+          "value": [],
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "text_quote": null
+          }
+        },
+        "qualifications": {
+          "value": [],
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "text_quote": null
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "job_title": "page.safe.html",
+        "job_url": "metadata.json",
+        "company_name": "page.safe.html",
+        "location": "page.safe.html",
+        "job_description": "text.txt",
+        "application_deadline": "page.safe.html",
+        "apply_url": "page.safe.html",
+        "employment_type": null,
+        "work_arrangement": null,
+        "responsibilities": null,
+        "qualifications": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 28.181,
+    "input_tokens": 28863,
+    "output_tokens": 1486,
+    "total_tokens": 30349,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_THTJOBS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_THTJOBS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

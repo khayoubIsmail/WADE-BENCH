@@ -1,0 +1,54 @@
+{
+  "task_id": "WBV1_JOBS_REMOTEOK_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_id": "1",
+        "company_name": "Newport Water",
+        "location": "Barbados",
+        "title": "Digital Solutions Specialist at Newport Water"
+      },
+      "provenance": "page.html"
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "job_id": "2",
+        "company_name": "Buckeye Partners",
+        "location": "United States",
+        "title": "Safety Officer at Buckeye Partners"
+      },
+      "provenance": "page.html"
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "job_id": "3",
+        "company_name": "GrowthAssistant",
+        "location": "Anywhere",
+        "title": "Supply Planning Specialist at GrowthAssistant"
+      },
+      "provenance": "page.html"
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 25.818,
+    "input_tokens": 61374,
+    "output_tokens": 167,
+    "total_tokens": 61541,
+    "initial_input_tokens": 61374,
+    "initial_output_tokens": 167,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

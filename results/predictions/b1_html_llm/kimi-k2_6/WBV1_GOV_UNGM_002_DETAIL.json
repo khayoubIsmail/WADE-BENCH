@@ -1,0 +1,165 @@
+{
+  "task_id": "WBV1_GOV_UNGM_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "UNDP-FJI-00747 - Expression of Interest – Civil Works for AMOS-RD Project",
+        "tender_url": "https://www.ungm.org/Public/Notice/298074",
+        "reference_number": "UNDP-FJI-00747,2",
+        "beneficiary_countries_or_territories": "Îles Salomon",
+        "registration_level": "niveau de base",
+        "published_date": "2026-04-17",
+        "deadline_date": "2026-05-29T02:00:00-04:00",
+        "agency": "PNUD",
+        "tender_type": "Demande de manifestation d'intérêt",
+        "description": "UNDP invites interested and eligible suppliers to submit Expressions of Interest (EOIs) in respect of provision of the requirements described below. The purpose of the REOI is to identify suppliers that wish to participate in a forthcoming solicitation process. 1. Construction of three (03) new Upper-Air Weather Observation stations in Taro, Tulagi, and Lata in the Solomon Islands. 2. Construction of a new SIMS office facility in Kirakira in the Solomon Islands.",
+        "email": "procurement.sb@undp.org",
+        "contact_name": "Procurement Unit",
+        "apply_portal_link": "http://supplier.quantum.partneragencies.org/",
+        "links": [
+          {
+            "url": "https://estm.fa.em2.oraclecloud.com/fscmUI/redwood/supplier-registration/register-supplier/register-supplier-verification?id=TUW16eK6qcr658BJxwDMMoYCOHny7FmchTkU2046xLg6gVIlmF076R%2FpuA%3D%3D",
+            "description": "Supplier Registration"
+          },
+          {
+            "url": "https://procurement-notices.undp.org/view_negotiation.cfm?nego_id=44597",
+            "description": "UNDP Procurement Notices Ad"
+          },
+          {
+            "url": "https://procurement-notices.undp.org/sharepoint/login.cfm",
+            "description": "Please click on this link before accessing the Negotiation Document(s) link"
+          },
+          {
+            "url": "https://undp.sharepoint.com/sites/Docs-Public/Procurement/Forms/AllItems.aspx?env=Embedded&isAscending=false&FilterType1=Text&sortField=Modified&FilterField1=NegotiationNumber&FilterValue1=UNDP-FJI-00747,2",
+            "description": "Negotiation Document(s)"
+          },
+          {
+            "url": "https://procurement-notices.undp.org/view_negotiation_dlink.cfm?nego_id=44597",
+            "description": "Direct link to Quantum Negotiation"
+          }
+        ],
+        "unspsc_codes": [
+          "43201806"
+        ],
+        "revisions": [
+          {
+            "description": "This amendment has been made to extend the submission deadline until 29 May 2026 and allow interested companies to submit their applications for the EOI to the following dedicated e-mail ID of UNDP: bids.sb@undp.org.",
+            "edited_on": "2026-05-14T08:01:00",
+            "edited_by": "etendering.support@undp.org"
+          },
+          {
+            "description": "This Amendment has been made to extend the submission deadline until 15 May 2026 and reflect the same in the Cover Page of the Quantum Negotiations and revised EOI documents.",
+            "edited_on": "2026-05-08T06:02:00",
+            "edited_by": "etendering.support@undp.org"
+          }
+        ],
+        "country": "Îles Salomon",
+        "language": "fr",
+        "procurement_method": "Expression of Interest",
+        "status": "Active"
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "page.html",
+          "selector": "h1.page-header-title",
+          "text_quote": "UNDP-FJI-00747 - Expression of Interest – Civil Works for AMOS-RD Project"
+        },
+        "tender_url": {
+          "source": "page.html",
+          "selector": "base[href]",
+          "text_quote": "https://www.ungm.org/Public/Notice/298074"
+        },
+        "reference_number": {
+          "source": "page.html",
+          "selector": ".row .label:contains('Référence:') + .value",
+          "text_quote": "UNDP-FJI-00747,2"
+        },
+        "beneficiary_countries_or_territories": {
+          "source": "page.html",
+          "selector": ".row .label:contains('Pays ou territoires bénéficiaires :') + .value",
+          "text_quote": "Îles Salomon"
+        },
+        "registration_level": {
+          "source": "page.html",
+          "selector": ".row .label:contains('Niveau d'inscription :') + .value",
+          "text_quote": "niveau de base"
+        },
+        "published_date": {
+          "source": "page.html",
+          "selector": ".row .label:contains('Publié le :') + .value",
+          "text_quote": "17-avr.-2026"
+        },
+        "deadline_date": {
+          "source": "page.html",
+          "selector": ".row .label:contains('Date limite le :') + .value",
+          "text_quote": "29-mai-2026 02:00 (GMT -4.00)"
+        },
+        "agency": {
+          "source": "page.html",
+          "selector": ".ungm-panel .title .highlighted",
+          "text_quote": "PNUD"
+        },
+        "tender_type": {
+          "source": "page.html",
+          "selector": ".status-tag",
+          "text_quote": "Demande de manifestation d'intérêt"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": ".ungm-list-item .title:contains('Description') + div",
+          "text_quote": "UNDP invites interested and eligible suppliers to submit Expressions of Interest (EOIs)"
+        },
+        "email": {
+          "source": "page.html",
+          "selector": "#contactDetails .row .label:contains('Adresse email:') + .value a",
+          "text_quote": "procurement.sb@undp.org"
+        },
+        "contact_name": {
+          "source": "page.html",
+          "selector": "#contactDetails .row .label:contains('Nom de famille:') + .value",
+          "text_quote": "Procurement Unit"
+        },
+        "apply_portal_link": {
+          "source": "page.html",
+          "selector": "a[href='http://supplier.quantum.partneragencies.org/']",
+          "text_quote": "http://supplier.quantum.partneragencies.org/"
+        },
+        "links": {
+          "source": "page.html",
+          "selector": "#tblLinks tbody tr",
+          "text_quote": "https://estm.fa.em2.oraclecloud.com/fscmUI/redwood/supplier-registration/register-supplier/register-supplier-verification"
+        },
+        "unspsc_codes": {
+          "source": "page.html",
+          "selector": ".unspscNode[data-isparent='False'] .nodeName",
+          "text_quote": "43201806"
+        },
+        "revisions": {
+          "source": "page.html",
+          "selector": "#revisionsHolder .ungm-list-item",
+          "text_quote": "This amendment has been made to extend the submission deadline until 29 May 2026"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 70.318,
+    "input_tokens": 39850,
+    "output_tokens": 1716,
+    "total_tokens": 41566,
+    "initial_input_tokens": 39850,
+    "initial_output_tokens": 1716,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

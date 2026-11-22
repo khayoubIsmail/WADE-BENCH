@@ -1,0 +1,69 @@
+{
+  "task_id": "WBV1_ACAD_GRC_MEETINGS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Additive Manufacturing of Soft Materials GRC",
+        "event_start_date": "2026-07-19",
+        "event_end_date": "2026-07-24",
+        "location": "Southern New Hampshire University, Manchester, New Hampshire, United States",
+        "event_url": "https://www.grc.org/additive-manufacturing-of-soft-materials-conference/2026/"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Additive Manufacturing of Soft Materials GRC"
+        },
+        "event_start_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "July 19 - 24, 2026"
+        },
+        "event_end_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "July 19 - 24, 2026"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Southern New Hampshire University\nManchester, New Hampshire, United States"
+        },
+        "event_url": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.grc.org/additive-manufacturing-of-soft-materials-conference/2026/"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 24.565,
+    "input_tokens": 45150,
+    "output_tokens": 511,
+    "total_tokens": 45661,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_GRC_MEETINGS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_GRC_MEETINGS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

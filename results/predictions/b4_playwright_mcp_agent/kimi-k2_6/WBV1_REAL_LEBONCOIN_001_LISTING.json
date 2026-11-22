@@ -1,0 +1,670 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3051337441",
+        "price": {
+          "amount": 410000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Roissys - Béranger",
+        "property_type": "Appartement",
+        "rooms": 4,
+        "floor_area": {
+          "value": 77,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5325,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "additional_facilities": [
+          "Jardin",
+          "Parking"
+        ],
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/ad/ventes_immobilieres/3051337441\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/ad/ventes_immobilieres/3051337441"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "410 000 €"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Châtillon 92320 Roissys - Béranger"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Appartement · 4 pièces · 77m²"
+        },
+        "rooms": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 pièces"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "77m²"
+        },
+        "price_per_m2": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 325 € par / mètres carrés m²"
+        },
+        "energy_rating": {
+          "source": "page.safe.html",
+          "css_selector": "article img[alt=\"Classe énergie D\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Classe énergie D"
+        },
+        "additional_facilities": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Jardin, Parking"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3133429740",
+        "price": {
+          "amount": 990000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Roissys - Béranger",
+        "property_type": "Maison",
+        "rooms": 6,
+        "floor_area": {
+          "value": 180,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5500,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "additional_facilities": [
+          "Terrain : 287 m²"
+        ],
+        "listing_agent_logo": null,
+        "listing_office": "MAISON KARREZ",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/ad/ventes_immobilieres/3133429740\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/ad/ventes_immobilieres/3133429740"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "990 000 €"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Châtillon 92320 Roissys - Béranger"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Maison · 6 pièces · 180m²"
+        },
+        "rooms": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "6 pièces"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "180m²"
+        },
+        "price_per_m2": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 500 € par / mètres carrés m²"
+        },
+        "additional_facilities": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Terrain : 287 m²"
+        },
+        "listing_agent_logo": {
+          "source": "page.safe.html",
+          "css_selector": "article img[alt=\"Logo du professionnel\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Logo du professionnel"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article strong",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MAISON KARREZ"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3206515329",
+        "price": {
+          "amount": 549000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Vauban - Coulée Verte",
+        "property_type": "Maison",
+        "rooms": 5,
+        "floor_area": {
+          "value": 101,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5436,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/ad/ventes_immobilieres/3206515329\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/ad/ventes_immobilieres/3206515329"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "549 000 €"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Châtillon 92320 Vauban - Coulée Verte"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Maison · 5 pièces · 101m²"
+        },
+        "rooms": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 pièces"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "101m²"
+        },
+        "price_per_m2": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 436 € par / mètres carrés m²"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3167119484",
+        "price": {
+          "amount": 699000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Matisse - Pierrelais",
+        "property_type": "Appartement",
+        "rooms": 5,
+        "floor_area": {
+          "value": 102,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 6853,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "C",
+        "additional_facilities": [
+          "Terrasse",
+          "Dernier étage"
+        ],
+        "listing_agent_logo": null,
+        "listing_office": "CHOUVET Franck - proprietes-privees.com",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/ad/ventes_immobilieres/3167119484\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/ad/ventes_immobilieres/3167119484"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "699 000 €"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Châtillon 92320 Matisse - Pierrelais"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Appartement · 5 pièces · 102m²"
+        },
+        "rooms": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 pièces"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "102m²"
+        },
+        "price_per_m2": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "6 853 € par / mètres carrés m²"
+        },
+        "energy_rating": {
+          "source": "page.safe.html",
+          "css_selector": "article img[alt=\"Classe énergie C\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Classe énergie C"
+        },
+        "additional_facilities": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Terrasse, Dernier étage"
+        },
+        "listing_agent_logo": {
+          "source": "page.safe.html",
+          "css_selector": "article img[alt=\"Logo du professionnel\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Logo du professionnel"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article strong",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "CHOUVET Franck - proprietes-privees.com"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3169369611",
+        "price": {
+          "amount": 359000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Centre-ville - Sarments",
+        "property_type": "Appartement",
+        "rooms": 3,
+        "floor_area": {
+          "value": 66,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5439,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "C",
+        "additional_facilities": [
+          "Parking",
+          "Cave"
+        ],
+        "listing_agent_logo": null,
+        "listing_office": "Adelina Navarro - IAD France",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/ad/ventes_immobilieres/3169369611\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/ad/ventes_immobilieres/3169369611"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "359 000 €"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Châtillon 92320 Centre-ville - Sarments"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Appartement · 3 pièces · 66m²"
+        },
+        "rooms": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 pièces"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "66m²"
+        },
+        "price_per_m2": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 439 € par / mètres carrés m²"
+        },
+        "energy_rating": {
+          "source": "page.safe.html",
+          "css_selector": "article img[alt=\"Classe énergie C\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Classe énergie C"
+        },
+        "additional_facilities": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Parking, Cave"
+        },
+        "listing_agent_logo": {
+          "source": "page.safe.html",
+          "css_selector": "article img[alt=\"Logo du professionnel\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Logo du professionnel"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article strong",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Adelina Navarro - IAD France"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3203498861",
+        "price": {
+          "amount": 269000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Berthelot - Avenue de Paris",
+        "property_type": "Appartement",
+        "rooms": 2,
+        "floor_area": {
+          "value": 47,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5723,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "additional_facilities": [
+          "Balcon",
+          "Parking"
+        ],
+        "listing_agent_logo": null,
+        "listing_office": "ACOR IMMOBILIER",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/ad/ventes_immobilieres/3203498861\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/ad/ventes_immobilieres/3203498861"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "269 000 €"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Châtillon 92320 Berthelot - Avenue de Paris"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Appartement · 2 pièces · 47m²"
+        },
+        "rooms": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 pièces"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "47m²"
+        },
+        "price_per_m2": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 723 € par / mètres carrés m²"
+        },
+        "energy_rating": {
+          "source": "page.safe.html",
+          "css_selector": "article img[alt=\"Classe énergie D\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Classe énergie D"
+        },
+        "additional_facilities": {
+          "source": "page.safe.html",
+          "css_selector": "article p",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Balcon, Parking"
+        },
+        "listing_agent_logo": {
+          "source": "page.safe.html",
+          "css_selector": "article img[alt=\"Logo du professionnel\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Logo du professionnel"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article strong",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "ACOR IMMOBILIER"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 375.773,
+    "input_tokens": 28293,
+    "output_tokens": 36084,
+    "total_tokens": 64377,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_LEBONCOIN_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_LEBONCOIN_001_LISTING_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

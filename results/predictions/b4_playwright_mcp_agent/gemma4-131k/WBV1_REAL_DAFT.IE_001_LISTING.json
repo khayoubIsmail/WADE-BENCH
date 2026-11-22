@@ -1,0 +1,142 @@
+{
+  "task_id": "WBV1_REAL_DAFT.IE_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='12-knightsbrook-crescent-trim-co-meath']",
+            "xpath": "//a[contains(@href, '12-knightsbrook-crescent-trim-co-meath')]",
+            "bbox": null,
+            "text_quote": "https://www.daft.ie/for-sale/12-knightsbrook-crescent-trim-co-meath/6595237"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 495000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": ".listing-card:nth-child(1) .price span",
+            "xpath": "//div[contains(@class, 'listing-card')][1]//*[contains(text(), '€495,000')]",
+            "bbox": null,
+            "text_quote": "€495,000"
+          }
+        },
+        "address": {
+          "value": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": ".listing-card:nth-child(1) .address p:nth-child(1)",
+            "xpath": "//div[contains(@class, 'listing-card')][1]//*[contains(text(), '12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K')]",
+            "bbox": null,
+            "text_quote": "12 Knightsbrook Crescent, Trim, Co. Meath, C15K15K"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": ".listing-card:nth-child(1) .beds span",
+            "xpath": "//div[contains(@class, 'listing-card')][1]//*[contains(text(), '4 Bed')] | //span[contains(text(), '4 Bed')]",
+            "bbox": null,
+            "text_quote": "4 Bed"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": ".listing-card:nth-child(1) .baths span",
+            "xpath": "//div[contains(@class, 'listing-card')][1]//*[contains(text(), '2 Bath')] | //span[contains(text(), '2 Bath')]",
+            "bbox": null,
+            "text_quote": "2 Bath"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 145,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": ".listing-card:nth-child(1) .area span",
+            "xpath": "//div[contains(@class, 'listing-card')][1]//*[contains(text(), '145 m²')] | //span[contains(text(), '145 m²')]",
+            "bbox": null,
+            "text_quote": "145 m²"
+          }
+        },
+        "property_type": {
+          "value": "Detached",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": ".listing-card:nth-child(1) .details span",
+            "xpath": "//div[contains(@class, 'listing-card')][1]//*[contains(text(), 'Detached')] | //span[contains(text(), 'Detached')]",
+            "bbox": null,
+            "text_quote": "Detached"
+          }
+        },
+        "listing_title": {
+          "value": "12 Knightsbrook Crescent, Trim, Co. Meath",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": ".listing-card:nth-child(1) .address p:first-child",
+            "xpath": "//div[contains(@class, 'listing-card')][1]//*[contains(text(), '12 Knightsbrook Crescent, Trim, Co. Meath')] | //p[contains(text(), '12 Knightsbrook Crescent, Trim, Co. Meath')]",
+            "bbox": null,
+            "text_quote": "12 Knightsbrook Crescent, Trim, Co. Meath"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "Christie Smith REA T E Potterton",
+            "phone": null,
+            "photo_url": null
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": ".listing-card:nth-child(1) .agent-info p:nth-child(1)",
+            "xpath": "//div[contains(@class, 'listing-card')][1]//*[contains(text(), 'Christie Smith REA T E Potterton')] | //p[contains(text(), 'Christie Smith REA T E Potterton')]",
+            "bbox": null,
+            "text_quote": "Christie Smith REA T E Potterton"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcLzNcLzIzN2U0ZTRlLTE3Y2MtNDAyMy1iMDNkLWYxNTIyZTU5OTI0ZS5qcGcifQ==?signature=031cb819009508c16357c42daf8c4ccadda393d0fcddacbb2432e8f07627ea03"
+          ],
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": ".listing-card:nth-child(1) img[src*='media.daft.ie']",
+            "xpath": "//div[contains(@class, 'listing-card')][1]//*[contains(@src, 'media.daft.ie')]",
+            "bbox": null,
+            "text_quote": "https://dist-property-frontend-daft.daft.ie/_next/image?url=https%3A%2F%2Fmedia.daft.ie%2FeyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcLzNcLzIzN2U0ZTRlLTE3Y2MtNDAyMy1iMDNkLWYxNTIyZTU5OTI0ZS5qcGcifQ==?signature=031cb819009508c16357c42daf8c4ccadda393d0fcddacbb2432e8f07627ea03"
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 59.913,
+    "input_tokens": 34247,
+    "output_tokens": 4070,
+    "total_tokens": 38317,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_DAFT.IE_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_DAFT.IE_001_LISTING_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

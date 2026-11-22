@@ -1,0 +1,108 @@
+{
+  "task_id": "WBV1_JOBS_GITHUB_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Software Engineer III in United States | GitHub, Inc.",
+        "company_name": "GitHub, Inc.",
+        "job_url": "https://www.github.careers/careers-home/jobs/5428?lang=en-us",
+        "location": "Remote, United States",
+        "employment_type": "Full Time",
+        "work_arrangement": "remote",
+        "posted_date": "2026-05-26T22:18:00+0000",
+        "application_deadline": null,
+        "expected_start_date": null,
+        "apply_url": "https://careers-githubinc.icims.com/jobs/5428/login",
+        "responsibilities": [
+          "Pick up work autonomously and code solutions, working to unblock yourself when stuck either by reaching out for help or finding other solutions in an asynchronous, remote, distributed culture",
+          "Write clear documentation, tests, and recommendations for technical problems",
+          "Collaboratively define, scope, prioritize, and estimate work",
+          "Drive helpful conversations around technical issues and engineering practices, suggesting improvements and ideas as you see fit",
+          "Review code and provide thoughtful, constructive feedback during code reviews",
+          "Triage, reproduce, and debug issues reported for our area of responsibility",
+          "Give and receive feedback to grow yourself and the team",
+          "Provide compassionate technical mentorship, pairing opportunities, and code reviews to encourage the growth of others",
+          "Deliver complex code/features with quality and supportability"
+        ],
+        "qualifications": [
+          "4+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python",
+          "OR Associate’s Degree in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related field AND 3+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python",
+          "OR Bachelor's Degree in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related field AND 2+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python",
+          "OR Master's Degree in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related field",
+          "OR equivalent experience.",
+          "2+ years of demonstrated proficiency in iOS app development, building and maintaining large-scale, highly scalable iOS applications in Swift, and experience developing modern iOS features using UIKit and/or SwiftUI?",
+          "A deep understanding of mobile design patterns, including consistency, reliability, and performance at scale",
+          "Experience with participating in on-call rotations and Apple App Store deployments, including triaging production issues, conducting root cause analysis, and contributing to postmortems"
+        ],
+        "salary_range": "$107,700.00 - $285,900.00 per year",
+        "salary_currency": "USD",
+        "base_salary": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": 0,
+          "minValue": 0,
+          "maxValue": 0,
+          "unitText": "YEAR"
+        },
+        "valid_through": "2027-05-26T22:20:16.000Z",
+        "industry": "UNAVAILABLE",
+        "hiring_organization": {
+          "@type": "Organization",
+          "name": "GitHub, Inc.",
+          "sameAs": "https://www.github.careers",
+          "logo": "https://githubinc.icims.com/icims2/servlet/icims2?module=AppInert&action=download&id=59&hashed=-1914625542"
+        },
+        "job_location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "UNAVAILABLE",
+            "addressRegion": "UNAVAILABLE",
+            "streetAddress": "UNAVAILABLE",
+            "postalCode": "UNAVAILABLE",
+            "addressCountry": "United States"
+          }
+        },
+        "date_posted": "2026-05-26T22:18:00+0000",
+        "education_requirements": "UNAVAILABLE",
+        "salary_period": "YEAR",
+        "normalization_rules": {
+          "salary": "Extract min_amount and max_amount as numbers, currency as {name, code, symbol}, period as year/month/hour. Set to null if not advertised.",
+          "salary_range": "Format as '$X–$Y per period' with currency symbol and period.",
+          "posted_date": "Convert to ISO 8601 (YYYY-MM-DD). Resolve relative expressions using the snapshot date.",
+          "application_deadline": "Convert to ISO 8601 (YYYY-MM-DD).",
+          "expected_start_date": "Convert to ISO 8601 if a date; otherwise retain normalized string."
+        },
+        "canonical_record_key": [
+          "job_title",
+          "company_name",
+          "job_url"
+        ],
+        "provenance_required": true,
+        "notes": [
+          "Use 'salary' (structured object) wherever possible. Use 'salary_range' (string) only for Google Careers.",
+          "Use 'application_deadline' — not 'closing_date' — to match actual field names in gold data."
+        ]
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 2448.779,
+    "input_tokens": 25500,
+    "output_tokens": 102500,
+    "total_tokens": 128000,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_GITHUB_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_GITHUB_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,3216 @@
+{
+  "task_id": "WBV1_ECOM_09_ETSY_HOME_LIVING_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": "55%",
+        "image_url": "https://i.etsystatic.com/65893549/r/il/a7a444/8114445155/il_340x270.8114445155_rjkp.jpg",
+        "old_price_raw": "MAD 13,945.62",
+        "price_raw": "MAD 6,275.53",
+        "product_name": "Beige Terracotta Gray Abstract Geometric Wood Wall Sculpture, Hand-Carved 3D Relief Art, Modern Neutral Decor, Statement Piece",
+        "product_url": "https://www.etsy.com/listing/4512009488/beige-terracotta-gray-abstract-geometric?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT77eebf7e83c000547fbf2fa5350db13efa9a7cd0&click_sum=3d507b7a&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-1&pro=1&frs=1",
+        "rating": "5 out of 5 stars",
+        "review_count": 1,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Ad from Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad from Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 6,275.53"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Beige Terracotta Gray Abstract Geometric Wood Wall Sculpture, Hand-Carved 3D Relief Art, Modern Neutral Decor, Statement Piece"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65893549/r/il/a7a444/8114445155/il_340x270.8114445155_rjkp.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 13,945.62"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 6,275.53"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4512009488/beige-terracotta-gray-abstract-geometric?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT77eebf7e83c000547fbf2fa5350db13efa9a7cd0&click_sum=3d507b7a&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-1&pro=1&frs=1"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(54)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": "50%",
+        "image_url": "https://i.etsystatic.com/11921284/r/il/a02285/8069305992/il_340x270.8069305992_17mi.jpg",
+        "old_price_raw": "MAD 12,399.52",
+        "price_raw": "MAD 6,199.76",
+        "product_name": "Vintage Turkish Oushak Rug 7x10 Neutral Wool Area Rug Beige Handmade Carpet Organic Modern Quiet Luxury Decor",
+        "product_url": "https://www.etsy.com/listing/4512431586/vintage-turkish-oushak-rug-7x10-neutral?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT887e1fc24f69c66885af40b8cd0f8a4b3f6a339e&click_sum=386f2be2&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-2&pro=1&frs=1",
+        "rating": "5 out of 5 stars",
+        "review_count": 54,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 6,199.76"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Vintage Turkish Oushak Rug 7x10 Neutral Wool Area Rug Beige Handmade Carpet Organic Modern Quiet Luxury Decor"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/11921284/r/il/a02285/8069305992/il_340x270.8069305992_17mi.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 12,399.52"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 6,199.76"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4512431586/vintage-turkish-oushak-rug-7x10-neutral?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT887e1fc24f69c66885af40b8cd0f8a4b3f6a339e&click_sum=386f2be2&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-2&pro=1&frs=1"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(54)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": "55%",
+        "image_url": "https://i.etsystatic.com/23251511/r/il/8db0b4/6371710246/il_300x300.6371710246_7yyq.jpg",
+        "old_price_raw": "MAD 8,650.83",
+        "price_raw": "MAD 3,892.87",
+        "product_name": "Authentique Moroccan rug, Handmade wool rug 5x8 ft",
+        "product_url": "https://www.etsy.com/listing/4512426877/authentique-moroccan-rug-handmade-wool?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTadfdc5a1422f37f9d9e15acaacaedc933e3e38aa&click_sum=29f2b8a3&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-3&pro=1&frs=1",
+        "rating": "5 out of 5 stars",
+        "review_count": 499,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 3,892.87"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Authentique Moroccan rug, Handmade wool rug 5x8 ft"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/23251511/r/il/8db0b4/6371710246/il_300x300.6371710246_7yyq.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 8,650.83"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 3,892.87"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4512426877/authentique-moroccan-rug-handmade-wool?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTadfdc5a1422f37f9d9e15acaacaedc933e3e38aa&click_sum=29f2b8a3&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-3&pro=1&frs=1"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(499)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/62276531/r/il/94e226/8075222241/il_fullxfull.8075222241_bp83.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 227.88",
+        "product_name": "Mammotion Luba 2 AWD 3000X/5000X/10000X (2025) Set of Disc Covers + FREE GIFT- Disc Cover 2pcs - minimizing grass accumulation",
+        "product_url": "https://www.etsy.com/listing/4302083251/mammotion-luba-2-awd-3000x5000x10000x?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=c77aed27&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-1&bes=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT9d716f0378245a574ed984df79a80f6367e3a5c7",
+        "rating": "4.5 out of 5 stars",
+        "review_count": 1019,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "ExactDesignsShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ExactDesignsShop"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 227.88"
+          }
+        },
+        "seller_name": {
+          "value": "ExactDesignsShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ExactDesignsShop"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Mammotion Luba 2 AWD 3000X/5000X/10000X (2025) Set of Disc Covers + FREE GIFT- Disc Cover 2pcs - minimizing grass accumulation"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/41167108/r/il/a97be9/7081922347/il_fullxfull.7081922347_58dh.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 115.34"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "227.88"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4302083251/mammotion-luba-2-awd-3000x5000x10000x?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=c77aed27&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-1&bes=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT9d716f0378245a574ed984df79a80f6367e3a5c7"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(1,019)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "discount_percentage": "8%",
+        "image_url": "https://i.etsystatic.com/29124820/r/il/eb9b40/6512745599/il_fullxfull.6512745599_65o8.jpg",
+        "old_price_raw": "MAD 115.34",
+        "price_raw": "MAD 106.12",
+        "product_name": "4x4 Medium Square",
+        "product_url": "https://www.etsy.com/listing/1659069041/4x4-medium-square?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=f0390756&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-2&pro=1&frs=1",
+        "rating": "5 out of 5 stars",
+        "review_count": 8085,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "BurnMyWood",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop BurnMyWood"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 106.12"
+          }
+        },
+        "seller_name": {
+          "value": "BurnMyWood",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop BurnMyWood"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4x4 Medium Square"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/29124820/r/il/eb9b40/6512745599/il_fullxfull.6512745599_65o8.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 115.34"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 106.12"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/1659069041/4x4-medium-square?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=f0390756&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-2&pro=1&frs=1"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(8,085)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/37996266/c/1600/1600/675/285/il/ec214d/6507282085/il_300x300.6507282085_ruvw.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 1,778.23",
+        "product_name": "Vaxinator-Innovative Pneumatic Vacuum",
+        "product_url": "https://www.etsy.com/listing/4362522970/vaxinator-innovative-pneumatic-vacuum?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=36075487&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-3&bes=1&sts=1",
+        "rating": "5 out of 5 stars",
+        "review_count": 1145,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "CoatingsByCoatesLLC",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop CoatingsByCoatesLLC"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 1,778.23"
+          }
+        },
+        "seller_name": {
+          "value": "CoatingsByCoatesLLC",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop CoatingsByCoatesLLC"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Vaxinator-Innovative Pneumatic Vacuum"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/37996266/c/1600/1600/675/285/il/ec214d/6507282085/il_300x300.6507282085_ruvw.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "1778.23"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4362522970/vaxinator-innovative-pneumatic-vacuum?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=36075487&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-3&bes=1&sts=1"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(1,145)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/65295767/r/il/31b938/8039762664/il_fullxfull.8039762664_3ogi.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 9.61",
+        "product_name": "Gingerbread Partners Event Monopoly Go full carry 80k poin",
+        "product_url": "https://www.etsy.com/listing/4497506162/gingerbread-partners-event-monopoly-go?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT60bbf63464838c4e2a2164107ebfe130f1ca3fa5&click_sum=59ad45fd&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-4&frs=1&bes=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT60bbf63464838c4e2a2164107ebfe130f1ca3fa5",
+        "rating": "5 out of 5 stars",
+        "review_count": 84,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "GOGOSOB",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop GOGOSOB"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 9.61"
+          }
+        },
+        "seller_name": {
+          "value": "GOGOSOB",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop GOGOSOB"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Gingerbread Partners Event Monopoly Go full carry 80k poin"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65295767/r/il/31b938/8039762664/il_fullxfull.8039762664_3ogi.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 9.61"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "9.61"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4497506162/gingerbread-partners-event-monopoly-go?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT60bbf63464838c4e2a2164107ebfe130f1ca3fa5&click_sum=59ad45fd&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-4&frs=1&bes=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT60bbf63464838c4e2a2164107ebfe130f1ca3fa5"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(84)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "discount_percentage": "8%",
+        "image_url": "https://i.etsystatic.com/29124820/r/il/eb9b40/6512745599/il_fullxfull.6512745599_65o8.jpg",
+        "old_price_raw": "MAD 144.18",
+        "price_raw": "MAD 132.65",
+        "product_name": "4x6 Rectangle for Detailed Designs",
+        "product_url": "https://www.etsy.com/listing/1742771258/4x6-rectangle-for-detailed-designs?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=c21f18a5&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-5&pro=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTcda2caaf94d55585199e145f596c0fc9c5ab4b3a",
+        "rating": "5 out of 5 stars",
+        "review_count": 8085,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "BurnMyWood",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop BurnMyWood"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 132.65"
+          }
+        },
+        "seller_name": {
+          "value": "BurnMyWood",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop BurnMyWood"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4x6 Rectangle for Detailed Designs"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/29124820/r/il/eb9b40/6512745599/il_fullxfull.6512745599_65o8.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 144.18"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 132.65"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/1742771258/4x6-rectangle-for-detailed-designs?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=c21f18a5&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-5&pro=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTcda2caaf94d55585199e145f596c0fc9c5ab4b3a"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(8,085)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/66023653/r/il/fc7510/8057487380/il_fullxfull.8057487380_ojch.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 550.00",
+        "product_name": "intuit 2024 Desktop pro 3 users - USA for win lieftime",
+        "product_url": "https://www.etsy.com/listing/4510784550/intuit-2024-desktop-pro-3-users-usa-for?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=2f6b59cc&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-6&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT312ec28ebce43ee2f8ef817661a82da417fb5ddf",
+        "rating": "5 out of 5 stars",
+        "review_count": 2,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Hossamshocodesigns",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop Hossamshocodesigns"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 550.00"
+          }
+        },
+        "seller_name": {
+          "value": "Hossamshocodesigns",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop Hossamshocodesigns"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "intuit 2024 Desktop pro 3 users - USA for win lieftime"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/66023653/r/il/fc7510/8057487380/il_fullxfull.8057487380_ojch.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "550.00"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4510784550/intuit-2024-desktop-pro-3-users-usa-for?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=2f6b59cc&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-6&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT312ec28ebce43ee2f8ef817661a82da417fb5ddf"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(2)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/38602966/r/il/46e2a9/4999601896/il_fullxfull.4999601896_eax9.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 67.02",
+        "product_name": "2x Physarum polycephalum (AVA), slime mold, blob, slime mold, high quality, gift",
+        "product_url": "https://www.etsy.com/listing/1334578399/2x-physarum-polycephalum-ava-slime-mold?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT887e1fc24f69c66885af40b8cd0f8a4b3f6a339e&click_sum=386f2be2&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-2&pro=1&frs=1",
+        "rating": "5 out of 5 stars",
+        "review_count": 133,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "iBlob",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop iBlob"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 67.02"
+          }
+        },
+        "seller_name": {
+          "value": "iBlob",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop iBlob"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "2x Physarum polycephalum (AVA), slime mold, blob, slime mold, high quality, gift"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/38602966/r/il/46e2a9/4999601896/il_fullxfull.4999601896_eax9.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "67.02"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/1334578399/2x-physarum-polycephalum-ava-slime-mold?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT887e1fc24f69c66885af40b8cd0f8a4b3f6a339e&click_sum=386f2be2&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-2&pro=1&frs=1"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(133)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/41167108/r/il/eec77a/7110948057/il_fullxfull.7110948057_nrn1.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 345.16",
+        "product_name": "Decorative Rear Spoiler for Mammotion Lawnmowers / Wing v2.0 - Luba Accessories + FREE GIFT (Keychain)",
+        "product_url": "https://www.etsy.com/listing/1755719240/decorative-rear-spoiler-for-mammotion?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=4b84db58&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8&bes=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTfa0bd530a370d04d3adf8667653fa297f4b5f94e",
+        "rating": "4.5 out of 5 stars",
+        "review_count": 1019,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "ExactDesignsShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ExactDesignsShop"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 345.16"
+          }
+        },
+        "seller_name": {
+          "value": "ExactDesignsShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ExactDesignsShop"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Decorative Rear Spoiler for Mammotion Lawnmowers / Wing v2.0 - Luba Accessories + FREE GIFT (Keychain)"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/41167108/r/il/eec77a/7110948057/il_fullxfull.7110948057_nrn1.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "345.16"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/1755719240/decorative-rear-spoiler-for-mammotion?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=4b84db58&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8&bes=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTfa0bd530a370d04d3adf8667653fa297f4b5f94e"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(1,019)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "discount_percentage": "10%",
+        "image_url": "https://i.etsystatic.com/64829776/r/il/1a0f58/8081988907/il_fullxfull.8081988907_m46t.jpg",
+        "old_price_raw": "MAD 134.47",
+        "price_raw": "MAD 121.02",
+        "product_name": "Capcut Pro - 1 yo account access editing",
+        "product_url": "https://www.etsy.com/listing/4507341554/capcut-pro-1-yo-account-access-editing?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=9d2eb08d&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-9&pro=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTe74bf0e7705e5e531a2161a53456790682f787d3",
+        "rating": "3.5 out of 5 stars",
+        "review_count": 42,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "MysticalLVBoutique",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop MysticalLVBoutique"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 121.02"
+          }
+        },
+        "seller_name": {
+          "value": "MysticalLVBoutique",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop MysticalLVBoutique"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Capcut Pro - 1 yo account access editing"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/64829776/r/il/1a0f58/8081988907/il_fullxfull.8081988907_m46t.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 134.47"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 121.02"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4507341554/capcut-pro-1-yo-account-access-editing?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=9d2eb08d&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-9&pro=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTe74bf0e7705e5e531a2161a53456790682f787d3"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "3.5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(42)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "discount_percentage": "50%",
+        "image_url": "https://i.etsystatic.com/62276531/r/il/94e226/8075222241/il_fullxfull.8075222241_bp83.jpg",
+        "old_price_raw": "MAD 336.42",
+        "price_raw": "MAD 168.21",
+        "product_name": "Sketchup pro 2026 | Windows/ Mac | Full Version | Lifetime Activation| Windows / Mac",
+        "product_url": "https://www.etsy.com/listing/4506310118/sketchup-pro-2026-windows-mac-full?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=0a649538&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-10&pro=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT79ce6cf6c166fa771d324eca06af71d81c21992f",
+        "rating": "2.5 out of 5 stars",
+        "review_count": 172,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "YarnExperts",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop YarnExperts"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 168.21"
+          }
+        },
+        "seller_name": {
+          "value": "YarnExperts",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop YarnExperts"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Sketchup pro 2026 | Windows/ Mac | Full Version | Lifetime Activation| Windows / Mac"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/62276531/r/il/94e226/8075222241/il_fullxfull.8075222241_bp83.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 336.42"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 168.21"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4506310118/sketchup-pro-2026-windows-mac-full?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=0a649538&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-10&pro=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT79ce6cf6c166fa771d324eca06af71d81c21992f"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "2.5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(172)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/41167108/r/il/fd0c81/7575909311/il_fullxfull.7575909311_q28d.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 389.85",
+        "product_name": "Spiked Wheel Covers for Mammotion Luba 1/2/2X/3/Mini/Mini 2 – Enhanced Grip, Traction - Mammotion Accessories + FREE Gift (Keychain)",
+        "product_url": "https://www.etsy.com/listing/4420139998/spiked-wheel-covers-for-mammotion-luba?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=7174b83d&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-11&bes=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT9bf4aef6c126acb1afc8f0c936a197c942f2d883",
+        "rating": "4.5 out of 5 stars",
+        "review_count": 1019,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "ExactDesignsShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ExactDesignsShop"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 389.85"
+          }
+        },
+        "seller_name": {
+          "value": "ExactDesignsShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ExactDesignsShop"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Spiked Wheel Covers for Mammotion Luba 1/2/2X/3/Mini/Mini 2 – Enhanced Grip, Traction - Mammotion Accessories + FREE Gift (Keychain)"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/41167108/r/il/fd0c81/7575909311/il_fullxfull.7575909311_q28d.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "389.85"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4420139998/spiked-wheel-covers-for-mammotion-luba?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=7174b83d&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-11&bes=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALT9bf4aef6c126acb1afc8f0c936a197c942f2d883"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(1,019)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/57612356/r/il/199aab/8011293838/il_fullxfull.8011293838_5pza.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 43.25",
+        "product_name": "Nacho Estrella, somos bebedores (DIGITAL DOWNLOAD)",
+        "product_url": "https://www.etsy.com/listing/4503744325/nacho-estrella-somos-bebedores-digital?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=a62d48ee&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-12&bes=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTbebf521b39c95528dc15908dc2b11daab01e0e48",
+        "rating": "5 out of 5 stars",
+        "review_count": 3,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "ChuleriaCraft",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ChuleriaCraft"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 43.25"
+          }
+        },
+        "seller_name": {
+          "value": "ChuleriaCraft",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ChuleriaCraft"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Nacho Estrella, somos bebedores (DIGITAL DOWNLOAD)"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/57612356/r/il/199aab/8011293838/il_fullxfull.8011293838_5pza.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "43.25"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4503744325/nacho-estrella-somos-bebedores-digital?click_key=03e83451-5a10-469f-9366-0e6a5b4aa003&click_sum=a62d48ee&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-12&bes=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTbebf521b39c95528dc15908dc2b11daab01e0e48"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(3)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "discount_percentage": "27%",
+        "image_url": "https://i.etsystatic.com/57809030/r/il/bee3ab/8059259054/il_fullxfull.8059259054_sg73.jpg",
+        "old_price_raw": "MAD 961.11",
+        "price_raw": "MAD 701.58",
+        "product_name": "INTAJ Sheesham Wood Floral Burnt Kitchen Decorative Masala Box/Masala Dani Utility Spice Box Set - Perfect Gift for Her, Mom, Christmas",
+        "product_url": "https://www.etsy.com/listing/977673947/intaj-sheesham-wood-floral-burnt-kitchen?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT05ca3a745329e4614125afd24dd7e3a1ef6f0fd8&click_sum=e8724c5e&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-5&pro=1",
+        "rating": "4.5 out of 5 stars",
+        "review_count": 3036,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 701.58"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "INTAJ Sheesham Wood Floral Burnt Kitchen Decorative Masala Box/Masala Dani Utility Spice Box Set - Perfect Gift for Her, Mom, Christmas"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/57809030/r/il/bee3ab/8059259054/il_fullxfull.8059259054_sg73.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 961.11"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 701.58"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/977673947/intaj-sheesham-wood-floral-burnt-kitchen?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT05ca3a745329e4614125afd24dd7e3a1ef6f0fd8&click_sum=e8724c5e&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-5&pro=1"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4.5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(3,036)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "discount_percentage": "25%",
+        "image_url": "https://i.etsystatic.com/65161996/r/il/b5a80c/8070717991/il_fullxfull.8070717991_5w3g.jpg",
+        "old_price_raw": "MAD 38.45",
+        "price_raw": "MAD 28.84",
+        "product_name": "Ultimate Luxury Lifestyle 4K Video Reels Bundle | Ready To Post Faceless Content | TikTok & Instagram Reels Pack | Viral Content Bundle",
+        "product_url": "https://www.etsy.com/listing/4510578288/ultimate-luxury-lifestyle-4k-video-reels?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT2ba259bc6c835f05cbab8e2eaba0c419b1728758&click_sum=54675475&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-6&pro=1&dd=1",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 28.84"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Ultimate Luxury Lifestyle 4K Video Reels Bundle | Ready To Post Faceless Content | TikTok & Instagram Reels Pack | Viral Content Bundle"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65161996/r/il/b5a80c/8070717991/il_fullxfull.8070717991_5w3g.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 38.45"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 28.84"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4510578288/ultimate-luxury-lifestyle-4k-video-reels?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT2ba259bc6c835f05cbab8e2eaba0c419b1728758&click_sum=54675475&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-6&pro=1&dd=1"
+        },
+        "rating": null,
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "discount_percentage": "65%",
+        "image_url": "https://i.etsystatic.com/58917242/r/il/7111dd/8073614227/il_fullxfull.8073614227_5o39.jpg",
+        "old_price_raw": "MAD 33.64",
+        "price_raw": "MAD 11.73",
+        "product_name": "Floral Collage DTF Transfer, Trendy Floral, Trendy Spring, DTF, Ready to Press, Heat Transfer, Season, Spring",
+        "product_url": "https://www.etsy.com/listing/4362030883/floral-collage-dtf-transfer-trendy?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTe94c634b4efaa62cd428238d097ea8c9297923b0&click_sum=7e4989a1&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7&pro=1",
+        "rating": "4 out of 5 stars",
+        "review_count": 4094,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 11.73"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Floral Collage DTF Transfer, Trendy Floral, Trendy Spring, DTF, Ready to Press, Heat Transfer, Season, Spring"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/58917242/r/il/7111dd/8073614227/il_fullxfull.8073614227_5o39.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 33.64"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 11.73"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4362030883/floral-collage-dtf-transfer-trendy?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTe94c634b4efaa62cd428238d097ea8c9297923b0&click_sum=7e4989a1&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7&pro=1"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "4 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(4,094)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/4484465876/r/il/a91f2d/7314e886/il_fullxfull.7314e886_sg73.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 187.34",
+        "product_name": "Yayoi Kusama Print, Modern Botanical Wall Art, Yellow Floral Poster, 1990s Japanese Art, Large Maximalist Decor, Gift for Her",
+        "product_url": "https://www.etsy.com/listing/4484465876/yayoi-kusama-print-modern-botanical-wall?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 187.34"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Yayoi Kusama Print, Modern Botanical Wall Art, Yellow Floral Poster, 1990s Japanese Art, Large Maximalist Decor, Gift for Her"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/4484465876/r/il/a91f2d/7314e886/il_fullxfull.7314e886_sg73.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "187.34"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4484465876/yayoi-kusama-print-modern-botanical-wall?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(12)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/64773207/r/il/80b4da/7801050411/il_fullxfull.7801050411_enuz.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 93.62",
+        "product_name": "Claude Max Lifetime Private Access Plz read description",
+        "product_url": "https://www.etsy.com/listing/4509085916/claude-max-lifetime-private-access-plz?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-6",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "DigiCraftWith",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop DigiCraftWith"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 93.62"
+          }
+        },
+        "seller_name": {
+          "value": "DigiCraftWith",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop DigiCraftWith"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Claude Max Lifetime Private Access Plz read description"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/64773207/r/il/80b4da/7801050411/il_fullxfull.7801050411_enuz.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 124.86"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "93.62"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4509085916/claude-max-lifetime-private-access-plz?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-6"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/43324334/r/il/ae36cc/6684748682/il_fullxfull.6684748682_eqff.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 21.34",
+        "product_name": "Single Question LIVE",
+        "product_url": "https://www.etsy.com/listing/1867977546/single-question-live?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTbebf521b39c95528dc15908dc2b11daab01e0e48&click_sum=a62d48ee&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-12&bes=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTbebf521b39c95528dc15908dc2b11daab01e0e48",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Hon3yvofficial",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop Hon3yvofficial"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 21.34"
+          }
+        },
+        "seller_name": {
+          "value": "Hon3yvofficial",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop Hon3yvofficial"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Single Question LIVE"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/43324334/r/il/ae36cc/6684748682/il_fullxfull.6684748682_eqff.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "21.34"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/1867977546/single-question-live?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTbebf521b39c95528dc15908dc2b11daab01e0e48&click_sum=a62d48ee&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-12&bes=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTbebf521b39c95528dc15908dc2b11daab01e0e48"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(25)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/43025844/r/il/45cddc/7848402480/il_fullxfull.7848402480_1zae.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 360.35",
+        "product_name": "Personalized Birth Chart Astrology Reading | Detailed Natal Chart Interpretation & Spiritual Clarity Insights",
+        "product_url": "https://www.etsy.com/listing/4478510643/personalized-birth-chart-astrology?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT05ca3a745329e4614125afd24dd7e3a1ef6f0fd8&click_sum=e8724c5e&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-5",
+        "rating": "5 out of 5 stars",
+        "review_count": 3036,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "TarotFamous",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop TarotFamous"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 360.35"
+          }
+        },
+        "seller_name": {
+          "value": "TarotFamous",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop TarotFamous"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Personalized Birth Chart Astrology Reading | Detailed Natal Chart Interpretation & Spiritual Clarity Insights"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/43025844/r/il/45cddc/7848402480/il_fullxfull.7848402480_1zae.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 480.51"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "360.35"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4478510643/personalized-birth-chart-astrology?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT05ca3a745329e4614125afd24dd7e3a1ef6f0fd8&click_sum=e8724c5e&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-5"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "5 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(3,036)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/62159175/r/il/48b64e/8029731230/il_fullxfull.8029731230_34yq.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 61.33",
+        "product_name": "Life Purpose Reading EXTRA DETAILED Soul Frequency Reading, Real Medium Insight, Love, Career, Future, Destiny Detailed Reading",
+        "product_url": "https://www.etsy.com/listing/4435684086/life-purpose-reading-extra-detailed-soul?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "SolanaVisions",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop SolanaVisions"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 61.33"
+          }
+        },
+        "seller_name": {
+          "value": "SolanaVisions",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop SolanaVisions"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Life Purpose Reading EXTRA DETAILED Soul Frequency Reading, Real Medium Insight, Love, Career, Future, Destiny Detailed Reading"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/62159175/r/il/48b64e/8029731230/il_fullxfull.8029731230_34yq.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 245.52"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "61.33"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4435684086/life-purpose-reading-extra-detailed-soul?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/49832764/r/il/289a17/7751122903/il_fullxfull.7751122903_3vve.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 38.93",
+        "product_name": "24 Hours to 4 Treasure Islands. 2 Digital Downloads. Unlimited access. Grab all you want.",
+        "product_url": "https://www.etsy.com/listing/4456797774/24-hours-to-four-treasure-islands?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "RitysTreasure",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop RitysTreasure"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 38.93"
+          }
+        },
+        "seller_name": {
+          "value": "RitysTreasure",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop RitysTreasure"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "24 Hours to 4 Treasure Islands. 2 Digital Downloads. Unlimited access. Grab all you want."
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/49832764/r/il/289a17/7751122903/il_fullxfull.7751122903_3vve.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 86.41"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "38.93"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4456797774/24-hours-to-four-treasure-islands?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/26971380/r/il/349f72/7260348977/il_fullxfull.7260348977_47es.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 115.34",
+        "product_name": "Custom Neon Sign | Neon Sign | Led Neon Sign | Personalized Name Neon Sign | Neon Lights | Neon signs | Wall Decor | Home decor",
+        "product_url": "https://www.etsy.com/listing/1705036881/custom-neon-sign-neon-sign-led-neon-sign?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "NeonOutshine",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop NeonOutshine"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 115.34"
+          }
+        },
+        "seller_name": {
+          "value": "NeonOutshine",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop NeonOutshine"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Custom Neon Sign | Neon Sign | Led Neon Sign | Personalized Name Neon Sign | Neon Lights | Neon signs | Wall Decor | Home decor"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/26971380/r/il/349f72/7260348977/il_fullxfull.7260348977_47es.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 384.48"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "115.34"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/1705036881/custom-neon-sign-neon-sign-led-neon-sign?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_026",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/65161996/r/il/b5a80c/8070717991/il_fullxfull.8070717991_5w3g.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 74.30",
+        "product_name": "Pink Tricolor Variegated Monstera Deliciosa Plant Cuttings (Phytosanitary Certificate)",
+        "product_url": "https://www.etsy.com/listing/4506474039/pink-tricolor-variegated-monstera?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "freshlivehouseplant",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop freshlivehouseplant"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 74.30"
+          }
+        },
+        "seller_name": {
+          "value": "freshlivehouseplant",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop freshlivehouseplant"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Pink Tricolor Variegated Monstera Deliciosa Plant Cuttings (Phytosanitary Certificate)"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65161996/r/il/b5a80c/8070717991/il_fullxfull.8070717991_5w3g.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 85.45"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "74.30"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4506474039/pink-tricolor-variegated-monstera?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_027",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/63165651/r/il/04e38e/7459264696/il_fullxfull.7459264696_snkg.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 81.70",
+        "product_name": "Davids Fire Intentions",
+        "product_url": "https://www.etsy.com/listing/4445209834/fire-reading?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "DarkOwlApothecary",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop DarkOwlApothecary"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 81.70"
+          }
+        },
+        "seller_name": {
+          "value": "DarkOwlApothecary",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop DarkOwlApothecary"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Davids Fire Intentions"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/63165651/r/il/04e38e/7459264696/il_fullxfull.7459264696_snkg.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "81.70"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4445209834/fire-reading?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_028",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/65927985/r/il/ca1f92/8013872166/il_fullxfull.8013872166_8sdl.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 355.55",
+        "product_name": "Soursop Bitters Herbal Extract | Botanical Blend, Gut Health Tonic (16oz)",
+        "product_url": "https://www.etsy.com/listing/4464055575/soursop-bitters-herbal-extract-botanical?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "TheSimplifiShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop TheSimplifiShop"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 355.55"
+          }
+        },
+        "seller_name": {
+          "value": "TheSimplifiShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop TheSimplifiShop"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Soursop Bitters Herbal Extract | Botanical Blend, Gut Health Tonic (16oz)"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65927985/r/il/ca1f92/8013872166/il_fullxfull.8013872166_8sdl.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "355.55"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4464055575/soursop-bitters-herbal-extract-botanical?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(25)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_029",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/65161996/r/il/260f25/8022804034/il_fullxfull.8022804034_4fgy.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 74.30",
+        "product_name": "Pink Tricolor Variegated Monstera Deliciosa Plant Cuttings (Phytosanitary Certificate)",
+        "product_url": "https://www.etsy.com/listing/4506474039/pink-tricolor-variegated-monstera?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "freshlivehouseplant",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop freshlivehouseplant"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 74.30"
+          }
+        },
+        "seller_name": {
+          "value": "freshlivehouseplant",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop freshlivehouseplant"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Pink Tricolor Variegated Monstera Deliciosa Plant Cuttings (Phytosanitary Certificate)"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65161996/r/il/b5a80c/8070717991/il_fullxfull.8070717991_5w3g.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 85.45"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "74.30"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4506474039/pink-tricolor-variegated-monstera?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_030",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/62159175/r/il/5977af/8077690209/il_fullxfull.8077690209_jfnt.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 61.33",
+        "product_name": "Soul Contract Reading Extra Detailed Personalized Life Reading with Medium Guidance, Past & Future",
+        "product_url": "https://www.etsy.com/listing/4384830614/soul-contract-reading-extra-detailed?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "SolanaVisions",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop SolanaVisions"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 61.33"
+          }
+        },
+        "seller_name": {
+          "value": "SolanaVisions",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop SolanaVisions"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Soul Contract Reading Extra Detailed Personalized Life Reading with Medium Guidance, Past & Future"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/62159175/r/il/5977af/8077690209/il_fullxfull.8077690209_jfnt.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 245.52"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "61.33"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4384830614/soul-contract-reading-extra-detailed?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_031",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/41167108/r/il/79076b/7870838432/il_fullxfull.7870838432_mvk3.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 389.73",
+        "product_name": "Mammotion Luba 2 AWD 3000X/5000X/10000X 2025 Edge Protection/ Side protection + FREE GIFT - Compatible with Luba 2X accessories",
+        "product_url": "https://www.etsy.com/listing/4297381430/mammotion-luba-2-awd-3000x5000x10000x?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "ExactDesignsShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ExactDesignsShop"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 389.73"
+          }
+        },
+        "seller_name": {
+          "value": "ExactDesignsShop",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop ExactDesignsShop"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Mammotion Luba 2 AWD 3000X/5000X/10000X 2025 Edge Protection/ Side protection + FREE GIFT - Compatible with Luba 2X accessories"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/41167108/r/il/79076b/7870838432/il_fullxfull.7870838432_mvk3.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "389.73"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4297381430/mammotion-luba-2-awd-3000x5000x10000x?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_032",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/63165651/r/il/04e38e/7459264696/il_fullxfull.7459264696_snkg.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 340.58",
+        "product_name": "Cleansing and Protection Spell By WildWitchWoodByFreya,Same Day Casting",
+        "product_url": "https://www.etsy.com/listing/4480128561/cleansing-and-protection-spell-by?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-5",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "WildWitchWoodByFreya",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop WildWitchWoodByFreya"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 340.58"
+          }
+        },
+        "seller_name": {
+          "value": "WildWitchWoodByFreya",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop WildWitchWoodByFreya"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Cleansing and Protection Spell By WildWitchWoodByFreya,Same Day Casting"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/63165651/r/il/04e38e/7459264696/il_fullxfull.7459264696_snkg.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 681.28"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "340.58"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4480128561/cleansing-and-protection-spell-by?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-5"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_033",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/58917242/r/il/7111dd/8073614227/il_fullxfull.8073614227_5o39.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 73.17",
+        "product_name": "We are drinkers - Nacho Estrella",
+        "product_url": "https://www.etsy.com/listing/4506071997/we-are-drinkers-nacho-estrella?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-5",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "KaDacreationsStore",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop KaDacreationsStore"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 73.17"
+          }
+        },
+        "seller_name": {
+          "value": "KaDacreationsStore",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop KaDacreationsStore"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "We are drinkers - Nacho Estrella"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/58917242/r/il/7111dd/8073614227/il_fullxfull.8073614227_5o39.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "73.17"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4506071997/we-are-drinkers-nacho-estrella?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-5"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_034",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/65927985/r/il/ca1f92/8013872166/il_fullxfull.8013872166_8sdl.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 98.43",
+        "product_name": "Sansevieria Zeylanica Snake Plant, Live Indoor Air Purifier Plant, Easy Care Houseplant in Pot, Low Maintenance Indoor Plant",
+        "product_url": "https://www.etsy.com/listing/4504228043/sansevieria-zeylanica-snake-plant-live?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Sufum",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop Sufum"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 98.43"
+          }
+        },
+        "seller_name": {
+          "value": "Sufum",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop Sufum"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Sansevieria Zeylanica Snake Plant, Live Indoor Air Purifier Plant, Easy Care Houseplant in Pot, Low Maintenance Indoor Plant"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65927985/r/il/ca1f92/8013872166/il_fullxfull.8013872166_8sdl.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 196.95"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "98.43"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4504228043/sansevieria-zeylanica-snake-plant-live?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_035",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/60337968/r/il/a58077/8006946574/il_fullxfull.8006946574_nci4.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 18.26",
+        "product_name": "All Superheroes 367 Coloring Pages | Super Hero Coloring Pages | Spiderman Hulk Superhero Coloring Pages for Kids | Kids Birthday Party Gift",
+        "product_url": "https://www.etsy.com/listing/4407293780/eurovision-character-collectible-cards?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 18.26"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "All Superheroes 367 Coloring Pages | Super Hero Coloring Pages | Spiderman Hulk Superhero Coloring Pages for Kids | Kids Birthday Party Gift"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/60337968/r/il/a58077/8006946574/il_fullxfull.8006946574_nci4.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 36.58"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "18.26"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4407293780/eurovision-character-collectible-cards?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_036",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/22844599/r/il/c52402/7738259655/il_fullxfull.7738259655_f4ep.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 44.68",
+        "product_name": "Citrus Fruit Paint By Number Procreate-ready | Still Life coloring page for adults",
+        "product_url": "https://www.etsy.com/listing/1555609847/psychic-soulmate-drawing-reading?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 44.68"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Citrus Fruit Paint By Number Procreate-ready | Still Life coloring page for adults"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/22844599/r/il/c52402/7738259655/il_fullxfull.7738259655_f4ep.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 55.85"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "44.68"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/1555609847/psychic-soulmate-drawing-reading?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALT9180bc8249de01ead49b6c0e7e14feb4df21c2cb&click_sum=7314e886&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_037",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/65161996/r/il/260f25/8022804034/il_fullxfull.8022804034_4fgy.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 19.22",
+        "product_name": "Juneteenth PNG, 1865 Freedom Day png, We Outside Since 1865 Png, Juneteenth PNG, African American Abolitionist Png",
+        "product_url": "https://www.etsy.com/listing/4362030883/floral-collage-dtf-transfer-trendy?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTe94c634b4efaa62cd428238d097ea8c9297923b0&click_sum=7e4989a1&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 19.22"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Juneteenth PNG, 1865 Freedom Day png, We Outside Since 1865 Png, Juneteenth PNG, African American Abolitionist Png"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65161996/r/il/260f25/8022804034/il_fullxfull.8022804034_4fgy.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 47.96"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "19.22"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4362030883/floral-collage-dtf-transfer-trendy?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTe94c634b4efaa62cd428238d097ea8c9297923b0&click_sum=7e4989a1&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_038",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/65161996/r/il/260f25/8022804034/il_fullxfull.8022804034_4fgy.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 173.79",
+        "product_name": "Funny Frog Bathroom Art – “State of Emergency” Japanese Print Vintage Toilet Humor Poster | Framed Wall Decor for Bathroom or Guest Restroom",
+        "product_url": "https://www.etsy.com/listing/4362030883/floral-collage-dtf-transfer-trendy?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTe94c634b4efaa62cd428238d097ea8c9297923b0&click_sum=7e4989a1&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 173.79"
+          }
+        },
+        "seller_name": {
+          "value": "Etsy seller",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "Ad by Etsy seller"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Funny Frog Bathroom Art – “State of Emergency” Japanese Print Vintage Toilet Humor Poster | Framed Wall Decor for Bathroom or Guest Restroom"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65161996/r/il/260f25/8022804034/il_fullxfull.8022804034_4fgy.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MAD 217.23"
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "173.79"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/4362030883/floral-collage-dtf-transfer-trendy?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTe94c634b4efaa62cd428238d097ea8c9297923b0&click_sum=7e4989a1&ls=a&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103682-1-7"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "record_id": "pred_039",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://i.etsystatic.com/65161996/r/il/260f25/8022804034/il_fullxfull.8022804034_4fgy.jpg",
+        "old_price_raw": null,
+        "price_raw": "MAD 21.34",
+        "product_name": "Personalized Birth Chart Astrology Reading | Detailed Natal Chart Interpretation & Spiritual Clarity Insights",
+        "product_url": "https://www.etsy.com/listing/1867977546/single-question-live?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTbebf521b39c95528dc15908dc2b11daab01e0e48&click_sum=a62d48ee&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-12&bes=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTbebf521b39c95528dc15908dc2b11daab01e0e48",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": "In Stock",
+        "brand": {
+          "value": "Hon3yvofficial",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop Hon3yvofficial"
+          }
+        },
+        "currency": {
+          "value": "MAD",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "MAD 21.34"
+          }
+        },
+        "seller_name": {
+          "value": "Hon3yvofficial",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector_or_xpath": null,
+            "text_quote_or_attribute": "From shop Hon3yvofficial"
+          }
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Single Question LIVE"
+        },
+        "image_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://i.etsystatic.com/65161996/r/il/260f25/8022804034/il_fullxfull.8022804034_4fgy.jpg"
+        },
+        "old_price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "price_raw": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "21.34"
+        },
+        "product_url": {
+          "source": "html_signals",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://www.etsy.com/listing/1867977546/single-question-live?click_key=EuOWcSFGA2Y2GQgJlCMkUFvgEI60%3ALTbebf521b39c95528dc15908dc2b11daab01e0e48&click_sum=a62d48ee&ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=&ref=search_grid-103683-1-12&bes=1&dd=1&content_source=03e83451-5a10-469f-9366-0e6a5b4aa003%253ALTbebf521b39c95528dc15908dc2b11daab01e0e48"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(25)"
+        },
+        "short_description": null,
+        "availability": {
+          "source": "embedded_json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 834.803,
+    "input_tokens": 42668,
+    "output_tokens": 51631,
+    "total_tokens": 94299,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_09_ETSY_HOME_LIVING_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_09_ETSY_HOME_LIVING_LISTING_tool_trace.json",
+    "error": null
+  }
+}

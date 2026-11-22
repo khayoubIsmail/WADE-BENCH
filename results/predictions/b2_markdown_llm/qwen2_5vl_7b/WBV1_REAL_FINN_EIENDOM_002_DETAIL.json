@@ -1,0 +1,50 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "#ad-start-link",
+        "price": {
+          "amount": 1350000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "address": "Skivebakken, 5018 Bergen",
+        "listing_title": "Arealeffektiv og oppgradert 1-roms | Svært sentralt i Bergen | Nær byfjellene | V.vann, TV og internett inkludert",
+        "property_type": "Leilighet",
+        "bedrooms": 0,
+        "bathrooms": null,
+        "floor_area": {
+          "value": 13,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 547.69,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 7.886,
+    "input_tokens": 13456,
+    "output_tokens": 267,
+    "total_tokens": 13723,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "task_id": "WBV1_JOBS_UNJOBS_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Consultant (CTC4)",
+        "job_url": "https://unjobs.org/jobs/unjobs-consultant-ctc4-tokyo-japan",
+        "company_name": "United Nations University (UNU)",
+        "location": "Tokyo, Japan",
+        "salary": {
+          "min_amount": 23700,
+          "max_amount": 4740000,
+          "currency": "JPY",
+          "period": "day"
+        },
+        "employment_type": "Consultant Contract (CTC)",
+        "posted_date": null,
+        "application_deadline": "2 June 2026 (23:59 JST)",
+        "tags": [
+          "environmental sustainability",
+          "global programmes",
+          "international education",
+          "sustainable development goals",
+          "universities and colleges"
+        ],
+        "skills": [
+          "Program Management",
+          "Event Organization",
+          "Bilingual Communication",
+          "Stakeholder Engagement",
+          "AI Tools"
+        ]
+      },
+      "provenance": {
+        "page.md": "https://unjobs.org/jobs/unjobs-consultant-ctc4-tokyo-japan"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 8.325,
+    "input_tokens": 17085,
+    "output_tokens": 297,
+    "total_tokens": 17382,
+    "repaired": false,
+    "error": null
+  }
+}

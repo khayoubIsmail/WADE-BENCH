@@ -1,0 +1,328 @@
+{
+  "task_id": "WBV1_ECOM_01_IKEA_US_DETAIL",
+  "website_id": "ikea_us",
+  "schema_id": "product_detail_v1",
+  "snapshot_id": "ikea_us_detail_sample",
+  "snapshot_path": "raw_snapshots/ecommerce/ikea_us_detail_sample",
+  "live_url": "https://www.ikea.com/us/en/p/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow-s39614282/",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ECOM_01_IKEA_US_DETAIL_001",
+      "fields": {
+        "product_name": {
+          "value": "LILLES\u00c4TER",
+          "normalized": "LILLES\u00c4TER"
+        },
+        "price_raw": {
+          "value": "$1,499.00",
+          "normalized": {
+            "amount": 1499.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "currency": {
+          "value": "$",
+          "normalized": "USD"
+        },
+        "discount_percentage": {
+          "value": null,
+          "normalized": null
+        },
+        "seller_name": {
+          "value": null,
+          "normalized": null
+        },
+        "description": {
+          "value": "Sweeping, soft shapes that are easy on both the eye and the body. The LILLES\u00c4TER series has a modern expression that feels stylish and elegant \u2013 yet youthfully playful. Subtle and bold at the same time!",
+          "normalized": "Sweeping, soft shapes that are easy on both the eye and the body. The LILLES\u00c4TER series has a modern expression that feels stylish and elegant \u2013 yet youthfully playful. Subtle and bold at the same time!"
+        },
+        "brand": {
+          "value": "LILLES\u00c4TER",
+          "normalized": "LILLES\u00c4TER"
+        },
+        "color": {
+          "value": "Gunnared bright green-yellow",
+          "normalized": "Gunnared bright green-yellow"
+        },
+        "rating": {
+          "value": "Review: 0 out of 5 stars. Total reviews: 0",
+          "normalized": 0
+        },
+        "review_count": {
+          "value": "Review: 0 out of 5 stars. Total reviews: 0",
+          "normalized": 0
+        },
+        "product_url": {
+          "value": "https://www.ikea.com/us/en/p/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow-s39614282/",
+          "normalized": "https://www.ikea.com/us/en/p/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow-s39614282/"
+        },
+        "image_urls": {
+          "value": [
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=u",
+            "https://www.ikea.com/pvid/1541927_fe004716.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1480269_pe1000163_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515334_pe1011366_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515336_pe1011368_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1522907_pe1013785_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515337_pe1011367_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1541969_pe1018260_s5.jpg?f=u",
+            "https://www.ikea.com/pvid/1521543_fe004634.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1480269_pe1000163_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515334_pe1011366_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515336_pe1011368_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1522907_pe1013785_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515337_pe1011367_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1541969_pe1018260_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-axvall-off-white__1480267_pe1000165_s5.jpg?f=xu",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=xu",
+            "https://www.ikea.com/us/en/images/products/vaenderot-cushion-white__0772709_pe756079_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/soluppgang-throw-double-sided-blue-off-white__1450500_pe990339_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/oejulf-laptop-support-dark-gray__1167478_pe891586_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/baestis-lint-roller-gray__0654805_pe708843_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/trixig-stick-on-floor-protectors-set-of-20-gray__0662645_pe712772_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/kransborre-cushion-light-pink__0920477_pe787064_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/slangramal-throw-light-gray__1292268_pe935014_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/hannelise-cushion-multicolor__0806431_pe769949_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/margosatraed-throw-multicolor__1488713_pe1003461_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/range-categorisation/images/product/three-seat-sofas-10670.jpeg?f=xu",
+            "https://www.ikea.com/us/en/range-categorisation/images/product/two-seat-sofas-10668.jpeg?f=xu",
+            "https://www.ikea.com/us/en/range-categorisation/images/product/sofas-with-chaise-longues-47388.jpeg?f=xu"
+          ],
+          "normalized": [
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=u",
+            "https://www.ikea.com/pvid/1541927_fe004716.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1480269_pe1000163_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515334_pe1011366_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515336_pe1011368_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1522907_pe1013785_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515337_pe1011367_s5.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1541969_pe1018260_s5.jpg?f=u",
+            "https://www.ikea.com/pvid/1521543_fe004634.jpg?f=u",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1480269_pe1000163_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515334_pe1011366_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515336_pe1011368_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1522907_pe1013785_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515337_pe1011367_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1541969_pe1018260_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-axvall-off-white__1480267_pe1000165_s5.jpg?f=xu",
+            "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=xu",
+            "https://www.ikea.com/us/en/images/products/vaenderot-cushion-white__0772709_pe756079_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/soluppgang-throw-double-sided-blue-off-white__1450500_pe990339_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/oejulf-laptop-support-dark-gray__1167478_pe891586_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/baestis-lint-roller-gray__0654805_pe708843_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/trixig-stick-on-floor-protectors-set-of-20-gray__0662645_pe712772_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/kransborre-cushion-light-pink__0920477_pe787064_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/slangramal-throw-light-gray__1292268_pe935014_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/hannelise-cushion-multicolor__0806431_pe769949_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/images/products/margosatraed-throw-multicolor__1488713_pe1003461_s5.jpg?f=s",
+            "https://www.ikea.com/us/en/range-categorisation/images/product/three-seat-sofas-10670.jpeg?f=xu",
+            "https://www.ikea.com/us/en/range-categorisation/images/product/two-seat-sofas-10668.jpeg?f=xu",
+            "https://www.ikea.com/us/en/range-categorisation/images/product/sofas-with-chaise-longues-47388.jpeg?f=xu"
+          ]
+        },
+        "availability": {
+          "value": null,
+          "normalized": null
+        },
+        "sku": {
+          "value": "396.142.82",
+          "normalized": "39614282"
+        },
+        "image_url": {
+          "value": "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=u",
+          "normalized": "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=u"
+        },
+        "size_or_volume": {
+          "value": null,
+          "normalized": null
+        },
+        "shipping_text": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "span.notranslate.listing-price-module__product-name",
+          "xpath": "//*[@id='listing-carousel__product-rec-carousel-d699d1']/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]/span[1]/a[1]/span[1]",
+          "text_quote": "LILLES\u00c4TER",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/main/div/div[5]/div/div/listing-fragment-loader/div/div[2]/div/div/div[1]/div/div[1]/div/div[2]/div/div/div[1]/h3/span[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > listing-fragment-loader:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "span.notranslate",
+          "xpath": "//*[@id='content']/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]",
+          "text_quote": "$1,499.00",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/main/div/div[2]/div[2]/div[2]/div[1]/div[1]/div/div[2]/div/div/span/span[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "currency": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "description": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "p.pipf-product-summary__description",
+          "xpath": "//*[@id='content']/div[1]/div[2]/div[3]/div[2]/div[1]/p[1]",
+          "text_quote": "Sweeping, soft shapes that are easy on both the eye and the body. The LILLES\u00c4TER series has a modern expression that fee",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/main/div/div[2]/div[3]/div[2]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "brand": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "span.notranslate.listing-price-module__product-name",
+          "xpath": "//*[@id='listing-carousel__product-rec-carousel-d699d1']/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]/span[1]/a[1]/span[1]",
+          "text_quote": "LILLES\u00c4TER",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/main/div/div[5]/div/div/listing-fragment-loader/div/div[2]/div/div/div[1]/div/div[1]/div/div[2]/div/div/div[1]/h3/span[1]/a/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > listing-fragment-loader:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "color": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "div.pipf-product-style-picker__text",
+          "xpath": "//*[@id='content']/div[1]/div[2]/div[2]/div[2]/div[3]/div[1]/div[1]/div[2]",
+          "text_quote": "Gunnared bright green-yellow",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/main/div/div[2]/div[2]/div[2]/div[3]/div/div/div[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "rating": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "span.pipf-rating__sr-only",
+          "xpath": "//*[@id='content']/div[1]/div[2]/div[2]/div[2]/div[1]/div[2]/button[1]/span[2]",
+          "text_quote": "Review: 0 out of 5 stars. Total reviews: 0",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/main/div/div[2]/div[2]/div[2]/div[1]/div[2]/button/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "review_count": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "span.pipf-rating__sr-only",
+          "xpath": "//*[@id='content']/div[1]/div[2]/div[2]/div[2]/div[1]/div[2]/button[1]/span[2]",
+          "text_quote": "Review: 0 out of 5 stars. Total reviews: 0",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/main/div/div[2]/div[2]/div[2]/div[1]/div[2]/button/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "image_urls": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "img[src*='lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg']",
+          "xpath": "//img[@src='https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=u']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[3]/main/div/div[2]/div[1]/div/div[2]/div/div[2]/button[1]/span/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1) > span:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "sku": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "span.pipf-typography-label-s.pipf-product-identifier__value",
+          "xpath": "//*[@id='content']/div[1]/div[2]/div[3]/div[2]/div[2]/span[1]/span[2]",
+          "text_quote": "396.142.82",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[3]/main/div/div[2]/div[3]/div[2]/div[2]/span/span[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "image_url": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "img[src*='lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg']",
+          "xpath": "//img[@src='https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg?f=u']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[3]/main/div/div[2]/div[1]/div/div[2]/div/div[2]/button[1]/span/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > button:nth-of-type(1) > span:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "seller_name": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "product_url": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": "a[aria-label='IKEA Home']",
+          "xpath": "//a[@href='https://www.ikea.com/us/en/']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/header/div[3]/div/div[1]/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "availability": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "size_or_volume": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "shipping_text": {
+          "snapshot_id": "ikea_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/bis/immobilier/vente/châtillon-92320/",
+          "provenance": {
+            "selector": "a[href*='châtillon-92320']",
+            "text_quote": "<a class=\"h-sz-44 flex items-center underline px-md font-semi-bold rounded-md py-0 hover:no-underline focus:no-underline\" href=\"/bis/immobilier/vente/châtillon-92320/\">"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 150000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "selector": ".text-xl font-bold text-red-600",
+            "text_quote": "<div class=\"text-xl font-bold text-red-600\">150 000 €</div>"
+          }
+        },
+        "address": {
+          "value": "Châtillon, 92320",
+          "provenance": {
+            "selector": ".text-sm text-gray-700",
+            "text_quote": "<div class=\"text-sm text-gray-700\">Châtillon, 92320</div>"
+          }
+        },
+        "listing_title": {
+          "value": "Maison familiale de caractère avec jardin à Châtillon",
+          "provenance": {
+            "selector": ".font-bold text-lg",
+            "text_quote": "<h2 class=\"font-bold text-lg\">Maison familiale de caractère avec jardin à Châtillon</h2>"
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "selector": ".text-sm font-medium",
+            "text_quote": "<span class=\"text-sm font-medium\">Maison</span>"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "selector": ".flex items-center gap-x-2 text-sm",
+            "text_quote": "<div class=\"flex items-center gap-x-2 text-sm\"><0xF0><0x9F><0x9B><0x8F>️ 4 chambres</div>"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": ".flex items-center gap-x-2 text-sm",
+            "text_quote": "<div class=\"flex items-center gap-x-2 text-sm\">🛁 3 salles de bain</div>"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "amount": 145,
+            "unit": "m2"
+          },
+          "provenance": {
+            "selector": ".flex items-center gap-x-2 text-sm",
+            "text_quote": "<div class=\"flex items-center gap-x-2 text-sm\">📐 145 m²</div>"
+          }
+        },
+        "additional_facilities": {
+          "value": [
+            "Jardin",
+            "Garage",
+            "Cave"
+          ],
+          "provenance": {
+            "selector": ".flex flex-wrap gap-x-3 text-sm",
+            "text_quote": "<div class=\"flex flex-wrap gap-x-3 text-sm\">🌳 Jardin • 🚗 Garage • 🍷 Cave</div>"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://example.com/image1.jpg",
+            "https://example.com/image2.jpg"
+          ],
+          "provenance": {
+            "selector": "img[src]",
+            "text_quote": "Multiple image sources found in the listing card."
+          }
+        },
+        "listing_agent_name": {
+          "value": "Agence Immobilière Dupont",
+          "provenance": {
+            "selector": ".text-sm text-gray-600",
+            "text_quote": "<div class=\"text-sm text-gray-600\">Agence Immobilière Dupont</div>"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 15.637,
+    "input_tokens": 18525,
+    "output_tokens": 980,
+    "total_tokens": 19505,
+    "initial_input_tokens": 18525,
+    "initial_output_tokens": 980,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

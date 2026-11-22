@@ -1,0 +1,74 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.century21.com/property/516-saint-vincent-lane-foster-city-ca-94404",
+        "price": {
+          "amount": 2798000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "516 Saint Vincent Lane, Foster City, CA 94404",
+        "property_type": "Single family",
+        "bedrooms": 4,
+        "bathrooms": 3.0,
+        "floor_area": {
+          "value": 2300,
+          "unit": "sqft"
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": null,
+        "monthly_fees": null,
+        "total_price": null,
+        "status": "Active",
+        "published_date": "2023-05-18",
+        "open_house_schedule": [],
+        "key_features": [],
+        "description": null,
+        "mls_number": null,
+        "additional_facilities": [],
+        "images_urls": [
+          "https://www.century21.com/images/property/516-saint-vincent-lane-foster-city-ca-94404.jpg",
+          "https://www.century21.com/images/property/516-saint-vincent-lane-foster-city-ca-94404_2.jpg"
+        ],
+        "listing_agent": {
+          "name": null,
+          "logo": null,
+          "photo": null,
+          "phone": null
+        },
+        "parking": 3
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 7.05,
+    "input_tokens": 3964,
+    "output_tokens": 432,
+    "total_tokens": 4396,
+    "num_tiles": 1,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_002_DETAIL\\tile_01.png"
+    ],
+    "error": null
+  }
+}

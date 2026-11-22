@@ -1,0 +1,683 @@
+{
+  "task_id": "WBV1_ECOM_05_DECATHLON_US_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e154]",
+        "old_price_raw": null,
+        "price_raw": "$19.99",
+        "product_name": "Quechua NH100 Arpenaz 10 L Hiking Backpack",
+        "product_url": "/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147?variant=40129897988158",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Quechua NH100 Arpenaz 10 L Hiking Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e142, ref=e186",
+          "text_quote_or_attribute": "Quechua NH100 Arpenaz 10 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e141, ref=e184",
+          "text_quote_or_attribute": "/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147?variant=40129897988158"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e154",
+          "text_quote_or_attribute": "img [ref=e154]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e189",
+          "text_quote_or_attribute": "$19.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e142, ref=e186",
+          "text_quote_or_attribute": "Quechua NH100 Arpenaz 10 L Hiking Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e205]",
+        "old_price_raw": null,
+        "price_raw": "$12.00",
+        "product_name": "Quechua NH100 Arpenaz 20 L Hiking Backpack",
+        "product_url": "/products/quechua-nh-arpenaz-100-20-l-hiking-backpack-301674?variant=40937260384318",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Quechua NH100 Arpenaz 20 L Hiking Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e193, ref=e196",
+          "text_quote_or_attribute": "Quechua NH100 Arpenaz 20 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e192, ref=e196",
+          "text_quote_or_attribute": "/products/quechua-nh-arpenaz-100-20-l-hiking-backpack-301674?variant=40937260384318"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e205",
+          "text_quote_or_attribute": "img [ref=e205]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e234",
+          "text_quote_or_attribute": "$12.00"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e193, ref=e196",
+          "text_quote_or_attribute": "Quechua NH100 Arpenaz 20 L Hiking Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e250]",
+        "old_price_raw": null,
+        "price_raw": "$114.99",
+        "product_name": "Quechua MH500 22L Lightweight Hiking Backpack",
+        "product_url": "/products/quechua-mh500-22l-lightweight-hiking-backpack-346030?variant=42539146018878",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Quechua MH500 22L Lightweight Hiking Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e238, ref=e241",
+          "text_quote_or_attribute": "Quechua MH500 22L Lightweight Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e237, ref=e241",
+          "text_quote_or_attribute": "/products/quechua-mh500-22l-lightweight-hiking-backpack-346030?variant=42539146018878"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e250",
+          "text_quote_or_attribute": "img [ref=e250]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e271",
+          "text_quote_or_attribute": "$114.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e238, ref=e241",
+          "text_quote_or_attribute": "Quechua MH500 22L Lightweight Hiking Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e287]",
+        "old_price_raw": null,
+        "price_raw": "$9.99",
+        "product_name": "Quechua NH50 Arpenaz 10 L Hiking Backpack",
+        "product_url": "/products/quechua-nh-arpenaz-50-10-l-hiking-backpack-301684?variant=41146126041150",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Quechua NH50 Arpenaz 10 L Hiking Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e275, ref=e278",
+          "text_quote_or_attribute": "Quechua NH50 Arpenaz 10 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e274, ref=e278",
+          "text_quote_or_attribute": "/products/quechua-nh-arpenaz-50-10-l-hiking-backpack-301684?variant=41146126041150"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e287",
+          "text_quote_or_attribute": "img [ref=e287]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e308",
+          "text_quote_or_attribute": "$9.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e275, ref=e278",
+          "text_quote_or_attribute": "Quechua NH50 Arpenaz 10 L Hiking Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e324]",
+        "old_price_raw": null,
+        "price_raw": "$59.99",
+        "product_name": "Kiprun Essential 5L Trail Running Hydration Vest - 1L Water Bladder Included",
+        "product_url": "/products/unisex-5l-black-trail-running-bag-with-1l-water-bladder-168331?variant=39962199228478",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Kiprun Essential 5L Trail Running Hydration Vest - 1L Water Bladder Included"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e312, ref=e315",
+          "text_quote_or_attribute": "Kiprun Essential 5L Trail Running Hydration Vest - 1L Water Bladder Included"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e311, ref=e315",
+          "text_quote_or_attribute": "/products/unisex-5l-black-trail-running-bag-with-1l-water-bladder-168331?variant=39962199228478"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e324",
+          "text_quote_or_attribute": "img [ref=e324]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e341",
+          "text_quote_or_attribute": "$59.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e312, ref=e315",
+          "text_quote_or_attribute": "Kiprun Essential 5L Trail Running Hydration Vest - 1L Water Bladder Included"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e357]",
+        "old_price_raw": null,
+        "price_raw": "$99.99",
+        "product_name": "Quechua MH500 25 L Hiking Backpack",
+        "product_url": "/products/quechua-25-l-hiking-backpack-mh500-blue-353060?variant=42534197690430",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Quechua MH500 25 L Hiking Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e345, ref=e348",
+          "text_quote_or_attribute": "Quechua MH500 25 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e344, ref=e348",
+          "text_quote_or_attribute": "/products/quechua-25-l-hiking-backpack-mh500-blue-353060?variant=42534197690430"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e357",
+          "text_quote_or_attribute": "img [ref=e357]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e382",
+          "text_quote_or_attribute": "$99.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e345, ref=e348",
+          "text_quote_or_attribute": "Quechua MH500 25 L Hiking Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e398]",
+        "old_price_raw": null,
+        "price_raw": "$119.00",
+        "product_name": "Quechua MH500 38 L Hiking Backpack",
+        "product_url": "/products/quechua-38-l-hiking-backpack-mh500-black-352976?variant=41695133433918",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Quechua MH500 38 L Hiking Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e386, ref=e389",
+          "text_quote_or_attribute": "Quechua MH500 38 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e385, ref=e389",
+          "text_quote_or_attribute": "/products/quechua-38-l-hiking-backpack-mh500-black-352976?variant=41695133433918"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e398",
+          "text_quote_or_attribute": "img [ref=e398]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e419",
+          "text_quote_or_attribute": "$119.00"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e386, ref=e389",
+          "text_quote_or_attribute": "Quechua MH500 38 L Hiking Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e435]",
+        "old_price_raw": null,
+        "price_raw": "$29.99",
+        "product_name": "Forclaz Travel 100 Compact Waterproof 20 L Hiking Backpack",
+        "product_url": "/products/compact-waterproof-20-liter-backpack-travel-100-309854?variant=31629361250366",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Forclaz Travel 100 Compact Waterproof 20 L Hiking Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e423, ref=e426",
+          "text_quote_or_attribute": "Forclaz Travel 100 Compact Waterproof 20 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e422, ref=e426",
+          "text_quote_or_attribute": "/products/compact-waterproof-20-liter-backpack-travel-100-309854?variant=31629361250366"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e435",
+          "text_quote_or_attribute": "img [ref=e435]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e452",
+          "text_quote_or_attribute": "$29.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e423, ref=e426",
+          "text_quote_or_attribute": "Forclaz Travel 100 Compact Waterproof 20 L Hiking Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e468]",
+        "old_price_raw": "$19.99",
+        "price_raw": "$14.99",
+        "product_name": "Forclaz Ultra-Compact 10 L Backpack",
+        "product_url": "/products/forclaz-foldable-backpack-10l-travel-309861?variant=41695113183294",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Forclaz Ultra-Compact 10 L Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e456, ref=e459",
+          "text_quote_or_attribute": "Forclaz Ultra-Compact 10 L Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e455, ref=e459",
+          "text_quote_or_attribute": "/products/forclaz-foldable-backpack-10l-travel-309861?variant=41695113183294"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e468",
+          "text_quote_or_attribute": "img [ref=e468]"
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e495",
+          "text_quote_or_attribute": "$19.99"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e493",
+          "text_quote_or_attribute": "$14.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e456, ref=e459",
+          "text_quote_or_attribute": "Forclaz Ultra-Compact 10 L Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e511]",
+        "old_price_raw": null,
+        "price_raw": "$74.99",
+        "product_name": "Kiprun 5 L Trail Running Bag - 1 L Water Bladder Included",
+        "product_url": "/products/bag-trail-running-5l-blue-312059?variant=39972817993790",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Kiprun 5 L Trail Running Bag - 1 L Water Bladder Included"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e499, ref=e502",
+          "text_quote_or_attribute": "Kiprun 5 L Trail Running Bag - 1 L Water Bladder Included"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e498, ref=e502",
+          "text_quote_or_attribute": "/products/bag-trail-running-5l-blue-312059?variant=39972817993790"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e511",
+          "text_quote_or_attribute": "img [ref=e511]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e528",
+          "text_quote_or_attribute": "$74.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e499, ref=e502",
+          "text_quote_or_attribute": "Kiprun 5 L Trail Running Bag - 1 L Water Bladder Included"
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e544]",
+        "old_price_raw": null,
+        "price_raw": "$32.99",
+        "product_name": "Quechua 100 Arpenaz 20L Hiking Backpack",
+        "product_url": "/products/quechua-100-arpenaz-20l-hiking-backpack-368816?variant=42525728833598",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Quechua 100 Arpenaz 20L Hiking Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e532, ref=e535",
+          "text_quote_or_attribute": "Quechua 100 Arpenaz 20L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e531, ref=e535",
+          "text_quote_or_attribute": "/products/quechua-100-arpenaz-20l-hiking-backpack-368816?variant=42525728833598"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e544",
+          "text_quote_or_attribute": "img [ref=e544]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e573",
+          "text_quote_or_attribute": "$32.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e532, ref=e535",
+          "text_quote_or_attribute": "Quechua 100 Arpenaz 20L Hiking Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e589]",
+        "old_price_raw": null,
+        "price_raw": "$39.99",
+        "product_name": "Quechua 100 Arpenaz 27L Hiking Backpack",
+        "product_url": "/products/quechua-100-arpenaz-27-l-hiking-backpack-380447?variant=42534242713662",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Quechua 100 Arpenaz 27L Hiking Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e538, ref=e580",
+          "text_quote_or_attribute": "Quechua 100 Arpenaz 27L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e576, ref=e580",
+          "text_quote_or_attribute": "/products/quechua-100-arpenaz-27-l-hiking-backpack-380447?variant=42534242713662"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e589",
+          "text_quote_or_attribute": "img [ref=e589]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e610",
+          "text_quote_or_attribute": "$39.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e538, ref=e580",
+          "text_quote_or_attribute": "Quechua 100 Arpenaz 27L Hiking Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e626]",
+        "old_price_raw": null,
+        "price_raw": "$24.99",
+        "product_name": "Forclaz MT500 2L Water Bladder",
+        "product_url": "/products/forclaz-mt500-2l-water-bladder-306516?variant=40633927434302",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Forclaz MT500 2L Water Bladder"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e614, ref=e617",
+          "text_quote_or_attribute": "Forclaz MT500 2L Water Bladder"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e613, ref=e617",
+          "text_quote_or_attribute": "/products/forclaz-mt500-2l-water-bladder-306516?variant=40633927434302"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e626",
+          "text_quote_or_attribute": "img [ref=e626]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e643",
+          "text_quote_or_attribute": "$24.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e614, ref=e617",
+          "text_quote_or_attribute": "Forclaz MT500 2L Water Bladder"
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e659]",
+        "old_price_raw": null,
+        "price_raw": "$89.99",
+        "product_name": "29L Rolltop Backpack",
+        "product_url": "/products/29l-rolltop-backpack?variant=42675468107838",
+        "rating": null,
+        "review_count": null,
+        "short_description": "29L Rolltop Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e647, ref=e650",
+          "text_quote_or_attribute": "29L Rolltop Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e646, ref=e650",
+          "text_quote_or_attribute": "/products/29l-rolltop-backpack?variant=42675468107838"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e659",
+          "text_quote_or_attribute": "img [ref=e659]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e676",
+          "text_quote_or_attribute": "$89.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e647, ref=e650",
+          "text_quote_or_attribute": "29L Rolltop Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e692]",
+        "old_price_raw": null,
+        "price_raw": "$89.99",
+        "product_name": "29L Rolltop Backpack",
+        "product_url": "/products/29l-rolltop-backpack-1?variant=42675469811774",
+        "rating": null,
+        "review_count": null,
+        "short_description": "29L Rolltop Backpack"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e680, ref=e683",
+          "text_quote_or_attribute": "29L Rolltop Backpack"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e679, ref=e683",
+          "text_quote_or_attribute": "/products/29l-rolltop-backpack-1?variant=42675469811774"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e692",
+          "text_quote_or_attribute": "img [ref=e692]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e709",
+          "text_quote_or_attribute": "$89.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e680, ref=e683",
+          "text_quote_or_attribute": "29L Rolltop Backpack"
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "img [ref=e725]",
+        "old_price_raw": null,
+        "price_raw": "$29.99",
+        "product_name": "2 pocket Waterproof BumBag",
+        "product_url": "/products/2-pocket-waterproof-bumbag?variant=42675457622078",
+        "rating": null,
+        "review_count": null,
+        "short_description": "2 pocket Waterproof BumBag"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e713, ref=e716",
+          "text_quote_or_attribute": "2 pocket Waterproof BumBag"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e712, ref=e716",
+          "text_quote_or_attribute": "/products/2-pocket-waterproof-bumbag?variant=42675457622078"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e725",
+          "text_quote_or_attribute": "img [ref=e725]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e742",
+          "text_quote_or_attribute": "$29.99"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e713, ref=e716",
+          "text_quote_or_attribute": "2 pocket Waterproof BumBag"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 174.2,
+    "input_tokens": 21404,
+    "output_tokens": 12901,
+    "total_tokens": 34305,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_05_DECATHLON_US_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_05_DECATHLON_US_LISTING_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,682 @@
+{
+  "task_id": "WBV1_JOBS_RELIEFWEB_001_LISTING",
+  "source_files": {
+    "page_html": "data/raw_snapshots/jobs/reliefweb_listing/page.html",
+    "page_safe_html": "data/raw_snapshots/jobs/reliefweb_listing/page.safe.html",
+    "text_txt": "data/raw_snapshots/jobs/reliefweb_listing/text.txt",
+    "ax_tree": "data/raw_snapshots/jobs/reliefweb_listing/ax_tree.json",
+    "metadata": "data/raw_snapshots/jobs/reliefweb_listing/metadata.json",
+    "screenshot": "data/raw_snapshots/jobs/reliefweb_listing/screenshot.png"
+  },
+  "mcp": {
+    "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/jobs/reliefweb_listing/page.safe.html",
+    "available_tools": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "browser_snapshot": "### Page\n- Page URL: http://127.0.0.1:64551/page.safe.html\n- Page Title: Jobs | ReliefWeb\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - link \"Skip to main content\" [ref=e2] [cursor=pointer]:\n    - /url: \"#main-content\"\n  - generic [ref=e4]:\n    - banner \"Site header\" [ref=e5]:\n      - generic [ref=e8]:\n        - navigation \"Help\" [ref=e9]:\n          - list [ref=e10]:\n            - listitem [ref=e11]:\n              - link \"Help\" [ref=e12] [cursor=pointer]:\n                - /url: https://reliefweb.int/help\n                - img [ref=e13]\n                - text: Help\n        - navigation \"Account\" [ref=e15]:\n          - link \"Log in\" [ref=e16] [cursor=pointer]:\n            - /url: https://reliefweb.int/user/login\n            - img [ref=e17]\n            - text: Log in\n      - generic [ref=e20]:\n        - link \"ReliefWeb\" [ref=e22] [cursor=pointer]:\n          - /url: https://reliefweb.int/\n          - img [ref=e23]\n          - text: ReliefWeb\n        - generic [ref=e24]:\n          - generic [ref=e25]:\n            - button \"Search\" [ref=e26]:\n              - img [ref=e27]\n              - text: Search\n            - search \"Content Search\" [ref=e29]:\n              - heading \"Content Search\" [level=2] [ref=e30]\n              - generic [ref=e32]:\n                - generic [ref=e33]:\n                  - text: What are you looking for?\n                  - textbox \"What are you looking for?\" [ref=e34]\n                - button \"Search|t\" [ref=e36]:\n                  - img [ref=e37]\n                  - text: Search|t\n          - navigation \"Main\" [ref=e40]:\n            - list [ref=e41]:\n              - listitem [ref=e42]:\n                - link \"Updates\" [ref=e43] [cursor=pointer]:\n                  - /url: https://reliefweb.int/updates\n              - listitem [ref=e44]:\n                - link \"Countries\" [ref=e45] [cursor=pointer]:\n                  - /url: https://reliefweb.int/countries\n              - listitem [ref=e46]:\n                - link \"Disasters\" [ref=e47] [cursor=pointer]:\n                  - /url: https://reliefweb.int/disasters\n              - listitem [ref=e48]:\n                - link \"Organizations\" [ref=e49] [cursor=pointer]:\n                  - /url: https://reliefweb.int/organizations\n              - listitem [ref=e50]:\n                - link \"Topics\" [ref=e51] [cursor=pointer]:\n                  - /url: https://reliefweb.int/topics\n              - listitem [ref=e52]:\n                - link \"Jobs\" [ref=e53] [cursor=pointer]:\n                  - /url: https://reliefweb.int/jobs\n              - listitem [ref=e54]:\n                - link \"Training\" [ref=e55] [cursor=pointer]:\n                  - /url: https://reliefweb.int/training\n      - generic [ref=e58]:\n        - text: Informing humanitarians worldwide 24/7 —\n        - generic [ref=e59]: a service provided by UN OCHA\n    - main \"Page content\" [ref=e60]:\n      - generic [ref=e64]:\n        - generic [ref=e65]:\n          - heading \"Jobs\" [level=1] [ref=e66]\n          - navigation [ref=e67]:\n            - heading \"Views\" [level=2] [ref=e68]\n            - list [ref=e69]:\n              - listitem [ref=e70]:\n                - link \"All Jobs\" [ref=e71] [cursor=pointer]:\n                  - /url: https://reliefweb.int/jobs\n              - listitem [ref=e72]:\n                - link \"Closing soon\" [ref=e73] [cursor=pointer]:\n                  - /url: https://reliefweb.int/jobs?list=Closing%20soon&view=closing-soon\n              - listitem [ref=e74]:\n                - link \"Remote / Roster / Roving\" [ref=e75] [cursor=pointer]:\n                  - /url: https://reliefweb.int/jobs?list=Remote%20/%20Roster%20/%20Roving&view=unspecified-location\n        - generic [ref=e76]:\n          - heading \"Search\" [level=2] [ref=e77]\n          - generic [ref=e79]:\n            - text: Search for jobs with keywords\n            - searchbox \"Search for jobs with keywords\" [ref=e80]\n            - button \"Search\" [ref=e81]\n        - generic [ref=e82]:\n          - heading \"Refine the list with filters\" [level=2] [ref=e83]\n          - link \"Search help\" [ref=e84] [cursor=pointer]:\n            - /url: https://reliefweb.int/search-help\n          - generic [ref=e85]:\n            - heading \"Selected filters\" [level=3] [ref=e87]\n            - generic [ref=e88]:\n              - heading \"Add filters\" [level=3] [ref=e89]\n              - button \"Add filter(Country, job type, experience...)\" [ref=e90]\n              - generic [ref=e91]:\n                - heading \"Apply or clear filters\" [level=3] [ref=e92]\n                - button \"Clear all\" [ref=e93]\n                - button \"Apply filters\" [ref=e94]\n              - generic [ref=e95]:\n                - button \"Add Job type\" [ref=e97]: Job type\n                - button \"Add Career category\" [ref=e99]: Career category\n                - button \"Add Experience\" [ref=e101]: Experience\n                - button \"Add Theme\" [ref=e103]: Theme\n                - button \"Add Country\" [ref=e105]: Country\n                - button \"Add Organization\" [ref=e107]: Organization\n                - button \"Add Organization type\" [ref=e109]: Organization type\n                - button \"Add Closing date\" [ref=e111]: Closing date\n                - button \"Add Posting date on ReliefWeb\" [ref=e113]: Posting date on ReliefWeb\n              - dialog \"Add filter\" [ref=e114]:\n                - heading \"Add filter\" [level=3] [ref=e115]\n                - text: Select operator\n                - combobox \"Select operator\" [ref=e116]:\n                  - option \"WITH\" [disabled]\n                  - option \"WITHOUT\" [disabled]\n                  - option \"AND\" [disabled]\n                  - option \"OR\" [disabled]\n                  - option \"AND WITH\" [disabled]\n                  - option \"AND WITHOUT\" [disabled]\n                  - option \"OR WITH\" [disabled]\n                  - option \"OR WITHOUT\" [disabled]\n                - text: Select field\n                - combobox \"Select field\" [ref=e117]:\n                  - option \"Job type\" [selected]\n                  - option \"Career category\"\n                  - option \"Experience\"\n                  - option \"Theme\"\n                  - option \"Country\"\n                  - option \"Organization\"\n                  - option \"Organization type\"\n                  - option \"Closing date\"\n                  - option \"Posting date on ReliefWeb\"\n                - generic [ref=e118]:\n                  - group \"Job type filter\" [ref=e119]:\n                    - generic [ref=e120]: Job type filter\n                    - text: Select a job type\n                    - combobox \"Select a job type\" [ref=e121]:\n                      - option \"- Select -\" [selected]\n                      - option \"Consultancy\"\n                      - option \"Internship\"\n                      - option \"Job\"\n                  - group \"Career category filter\" [ref=e122]:\n                    - generic [ref=e123]: Career category filter\n                    - text: Select a career categories\n                    - combobox \"Select a career categories\" [disabled] [ref=e124]:\n                      - option \"- Select -\" [disabled] [selected]\n                      - option \"Administration/Finance\" [disabled]\n                      - option \"Advocacy/Communications\" [disabled]\n                      - option \"Donor Relations/Grants Management\" [disabled]\n                      - option \"Human Resources\" [disabled]\n                      - option \"Information and Communications Technology\" [disabled]\n                      - option \"Information Management\" [disabled]\n                      - option \"Logistics/Procurement\" [disabled]\n                      - option \"Monitoring and Evaluation\" [disabled]\n                      - option \"Other\" [disabled]\n                      - option \"Program/Project Management\" [disabled]\n                  - group \"Experience filter\" [ref=e125]:\n                    - generic [ref=e126]: Experience filter\n                    - text: Select years of experience\n                    - combobox \"Select years of experience\" [disabled] [ref=e127]:\n                      - option \"- Select -\" [disabled] [selected]\n                      - option \"0-2 years\" [disabled]\n                      - option \"3-4 years\" [disabled]\n                      - option \"5-9 years\" [disabled]\n                      - option \"10+ years\" [disabled]\n                  - group \"Theme filter\" [ref=e128]:\n                    - generic [ref=e129]: Theme filter\n                    - text: Select a theme\n                    - combobox \"Select a theme\" [disabled] [ref=e130]:\n                      - option \"- Select -\" [disabled] [selected]\n                      - option \"Agriculture\" [disabled]\n                      - option \"Camp Coordination and Camp Management\" [disabled]\n                      - option \"Climate Change and Environment\" [disabled]\n                      - option \"Coordination\" [disabled]\n                      - option \"Disaster Management\" [disabled]\n                      - option \"Education\" [disabled]\n                      - option \"Food and Nutrition\" [disabled]\n                      - option \"Gender\" [disabled]\n                      - option \"Health\" [disabled]\n                      - option \"HIV/Aids\" [disabled]\n                      - option \"Mine Action\" [disabled]\n                      - option \"Peacekeeping and Peacebuilding\" [disabled]\n                      - option \"Protection and Human Rights\" [disabled]\n                      - option \"Recovery and Reconstruction\" [disabled]\n                      - option \"Safety and Security\" [disabled]\n                      - option \"Shelter and Non-Food Items\" [disabled]\n                      - option \"Water Sanitation Hygiene\" [disabled]\n                  - group \"Country filter\" [ref=e131]:\n                    - generic [ref=e132]: Country filter\n                    - text: Search for a country\n                    - searchbox \"Search for a country\" [disabled] [ref=e133]\n                  - group \"Organization filter\" [ref=e134]:\n                    - generic [ref=e135]: Organization filter\n                    - text: Search for an organization\n                    - searchbox \"Search for an organization\" [disabled] [ref=e136]\n                  - group \"Organization type filter\" [ref=e137]:\n                    - generic [ref=e138]: Organization type filter\n                    - text: Select an organization type\n                    - combobox \"Select an organization type\" [disabled] [ref=e139]:\n                      - option \"- Select -\" [disabled] [selected]\n                      - option \"Academic and Research Institution\" [disabled]\n                      - option \"Government\" [disabled]\n                      - option \"International Organization\" [disabled]\n                      - option \"Media\" [disabled]\n                      - option \"Non-governmental Organization\" [disabled]\n                      - option \"Other\" [disabled]\n                      - option \"Red Cross/Red Crescent Movement\" [disabled]\n                  - group \"Select closing date\" [ref=e140]:\n                    - generic [ref=e141]: Select closing date\n                    - text: From (YYYY/MM/DD)\n                    - textbox \"Closing date - From (YYYY/MM/DD)\" [disabled] [ref=e142]:\n                      - /placeholder: e.g. 2019/10/03\n                    - button \"Choose date\" [disabled] [ref=e143]\n                    - text: To (YYYY/MM/DD)\n                    - textbox \"Closing date - To (YYYY/MM/DD)\" [disabled] [ref=e144]:\n                      - /placeholder: e.g. 2019/11/07\n                    - button \"Choose date\" [disabled] [ref=e145]\n                  - group \"Select posting date on ReliefWeb\" [ref=e146]:\n                    - generic [ref=e147]: Select posting date on ReliefWeb\n                    - text: From (YYYY/MM/DD)\n                    - textbox \"Posting date on ReliefWeb - From (YYYY/MM/DD)\" [disabled] [ref=e148]:\n                      - /placeholder: e.g. 2019/10/03\n                    - button \"Choose date\" [disabled] [ref=e149]\n                    - text: To (YYYY/MM/DD)\n                    - textbox \"Posting date on ReliefWeb - To (YYYY/MM/DD)\" [disabled] [ref=e150]:\n                      - /placeholder: e.g. 2019/11/07\n                    - button \"Choose date\" [disabled] [ref=e151]\n                - generic [ref=e152]:\n                  - button \"Cancel\" [ref=e153]\n                  - button \"Add\" [ref=e154]\n              - generic [ref=e155]:\n                - checkbox \"Advanced mode\" [ref=e156]\n                - text: Advanced mode\n                - link \"Search help - Advanced mode\" [ref=e157] [cursor=pointer]:\n                  - /url: https://reliefweb.int/search-help#advanced\n        - generic [ref=e158]:\n          - heading \"List\" [level=2] [ref=e159]\n          - generic [ref=e160]: Showing 1 - 20 of 1,023 results\n          - generic [ref=e161]:\n            - article [ref=e162]:\n              - generic [ref=e163]:\n                - paragraph [ref=e164]:\n                  - link \"oPt\" [ref=e165] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=occupied%20Palestinian%20territory%20Jobs&advanced-search=%28C180%29\n                - heading \"Medical Doctor Gaza\" [level=3] [ref=e166]:\n                  - link \"Medical Doctor Gaza\" [ref=e167] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215856/medical-doctor-gaza\n              - generic [ref=e169]:\n                - term [ref=e170]: Organization\n                - definition [ref=e171]:\n                  - list [ref=e172]:\n                    - listitem [ref=e173]:\n                      - link \"CADUS e.V.\" [ref=e174] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=CADUS%20e.V.%20Jobs&advanced-search=%28S46219%29\n                - term [ref=e175]: Posted\n                - definition [ref=e176]:\n                  - time [ref=e177]: 11 Jun 2026\n                - term [ref=e178]: Closing date\n                - definition [ref=e179]:\n                  - time [ref=e180]: 14 Jun 2026\n            - article [ref=e181]:\n              - generic [ref=e182]:\n                - paragraph [ref=e183]:\n                  - link \"USA\" [ref=e184] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=United%20States%20of%20America%20Jobs&advanced-search=%28C245%29\n                - heading \"Employment Specialist\" [level=3] [ref=e185]:\n                  - link \"Employment Specialist\" [ref=e186] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215946/employment-specialist\n              - generic [ref=e188]:\n                - term [ref=e189]: Organization\n                - definition [ref=e190]:\n                  - list [ref=e191]:\n                    - listitem [ref=e192]:\n                      - link \"IRC\" [ref=e193] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29\n                - term [ref=e194]: Posted\n                - definition [ref=e195]:\n                  - time [ref=e196]: 11 Jun 2026\n                - term [ref=e197]: Closing date\n                - definition [ref=e198]:\n                  - time [ref=e199]: 31 Aug 2026\n            - article [ref=e200]:\n              - generic [ref=e201]:\n                - paragraph [ref=e202]:\n                  - link \"Kenya\" [ref=e203] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Kenya%20Jobs&advanced-search=%28C131%29\n                  - text: + 1 more\n                - heading \"Regional Humanitarian Access & Security Coordinator\" [level=3] [ref=e204]:\n                  - link \"Regional Humanitarian Access & Security Coordinator\" [ref=e205] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215938/regional-humanitarian-access-security-coordinator\n              - generic [ref=e207]:\n                - term [ref=e208]: Organization\n                - definition [ref=e209]:\n                  - list [ref=e210]:\n                    - listitem [ref=e211]:\n                      - link \"IRC\" [ref=e212] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29\n                - term [ref=e213]: Posted\n                - definition [ref=e214]:\n                  - time [ref=e215]: 11 Jun 2026\n                - term [ref=e216]: Closing date\n                - definition [ref=e217]:\n                  - time [ref=e218]: 31 Aug 2026\n            - article [ref=e219]:\n              - generic [ref=e220]:\n                - paragraph [ref=e221]:\n                  - link \"Pakistan\" [ref=e222] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Pakistan%20Jobs&advanced-search=%28C182%29\n                - heading \"DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN\" [level=3] [ref=e223]:\n                  - link \"DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN\" [ref=e224] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215935/deputy-country-director-programmes-pakistan\n              - generic [ref=e226]:\n                - term [ref=e227]: Organization\n                - definition [ref=e228]:\n                  - list [ref=e229]:\n                    - listitem [ref=e230]:\n                      - link \"ACF\" [ref=e231] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=Action%20contre%20la%20Faim%20France%20Jobs&advanced-search=%28S1955%29\n                - term [ref=e232]: Posted\n                - definition [ref=e233]:\n                  - time [ref=e234]: 11 Jun 2026\n                - term [ref=e235]: Closing date\n                - definition [ref=e236]:\n                  - time [ref=e237]: 11 Jul 2026\n            - article [ref=e238]:\n              - generic [ref=e239]:\n                - paragraph [ref=e240]:\n                  - link \"Pakistan\" [ref=e241] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Pakistan%20Jobs&advanced-search=%28C182%29\n                - heading \"DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN\" [level=3] [ref=e242]:\n                  - link \"DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN\" [ref=e243] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215936/deputy-country-director-programmes-pakistan\n              - generic [ref=e245]:\n                - term [ref=e246]: Organization\n                - definition [ref=e247]:\n                  - list [ref=e248]:\n                    - listitem [ref=e249]:\n                      - link \"ACF\" [ref=e250] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=Action%20contre%20la%20Faim%20France%20Jobs&advanced-search=%28S1955%29\n                - term [ref=e251]: Posted\n                - definition [ref=e252]:\n                  - time [ref=e253]: 11 Jun 2026\n                - term [ref=e254]: Closing date\n                - definition [ref=e255]:\n                  - time [ref=e256]: 11 Jul 2026\n            - article [ref=e257]:\n              - generic [ref=e258]:\n                - paragraph [ref=e259]:\n                  - link \"Pakistan\" [ref=e260] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Pakistan%20Jobs&advanced-search=%28C182%29\n                - heading \"DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN\" [level=3] [ref=e261]:\n                  - link \"DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN\" [ref=e262] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215934/deputy-country-director-programmes-pakistan\n              - generic [ref=e264]:\n                - term [ref=e265]: Organization\n                - definition [ref=e266]:\n                  - list [ref=e267]:\n                    - listitem [ref=e268]:\n                      - link \"ACF\" [ref=e269] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=Action%20contre%20la%20Faim%20France%20Jobs&advanced-search=%28S1955%29\n                - term [ref=e270]: Posted\n                - definition [ref=e271]:\n                  - time [ref=e272]: 11 Jun 2026\n                - term [ref=e273]: Closing date\n                - definition [ref=e274]:\n                  - time [ref=e275]: 11 Jul 2026\n            - article [ref=e276]:\n              - generic [ref=e277]:\n                - paragraph [ref=e278]:\n                  - link \"France\" [ref=e279] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=France%20Jobs&advanced-search=%28C92%29\n                - heading \"COORDINATEUR·ICE FINANCE ET ADMINISTRATIF- TRAVAILLEURS HUMANITAIRES-FRANCE\" [level=3] [ref=e280]:\n                  - link \"COORDINATEUR·ICE FINANCE ET ADMINISTRATIF- TRAVAILLEURS HUMANITAIRES-FRANCE\" [ref=e281] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215937/coordinateurice-finance-et-administratif-travailleurs-humanitaires-france\n              - generic [ref=e283]:\n                - term [ref=e284]: Organization\n                - definition [ref=e285]:\n                  - list [ref=e286]:\n                    - listitem [ref=e287]:\n                      - link \"ACF\" [ref=e288] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=Action%20contre%20la%20Faim%20France%20Jobs&advanced-search=%28S1955%29\n                - term [ref=e289]: Posted\n                - definition [ref=e290]:\n                  - time [ref=e291]: 11 Jun 2026\n                - term [ref=e292]: Closing date\n                - definition [ref=e293]:\n                  - time [ref=e294]: 11 Jul 2026\n            - article [ref=e295]:\n              - generic [ref=e296]:\n                - paragraph [ref=e297]:\n                  - link \"USA\" [ref=e298] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=United%20States%20of%20America%20Jobs&advanced-search=%28C245%29\n                - heading \"Legal Assistant\" [level=3] [ref=e299]:\n                  - link \"Legal Assistant\" [ref=e300] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4214337/legal-assistant\n              - generic [ref=e302]:\n                - term [ref=e303]: Organization\n                - definition [ref=e304]:\n                  - list [ref=e305]:\n                    - listitem [ref=e306]:\n                      - link \"IRC\" [ref=e307] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29\n                - term [ref=e308]: Posted\n                - definition [ref=e309]:\n                  - time [ref=e310]: 11 Jun 2026\n                - term [ref=e311]: Closing date\n                - definition [ref=e312]:\n                  - time [ref=e313]: 31 Aug 2026\n            - article [ref=e314]:\n              - generic [ref=e315]:\n                - paragraph [ref=e316]:\n                  - link \"USA\" [ref=e317] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=United%20States%20of%20America%20Jobs&advanced-search=%28C245%29\n                - heading \"Adult ESL Instructor\" [level=3] [ref=e318]:\n                  - link \"Adult ESL Instructor\" [ref=e319] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4214327/adult-esl-instructor\n              - generic [ref=e321]:\n                - term [ref=e322]: Organization\n                - definition [ref=e323]:\n                  - list [ref=e324]:\n                    - listitem [ref=e325]:\n                      - link \"IRC\" [ref=e326] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29\n                - term [ref=e327]: Posted\n                - definition [ref=e328]:\n                  - time [ref=e329]: 11 Jun 2026\n                - term [ref=e330]: Closing date\n                - definition [ref=e331]:\n                  - time [ref=e332]: 31 Aug 2026\n            - article [ref=e333]:\n              - generic [ref=e334]:\n                - paragraph [ref=e335]:\n                  - link \"Haiti\" [ref=e336] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Haiti%20Jobs&advanced-search=%28C113%29\n                - heading \"Superviseurs Logistique basé/e/s à SAINT-MARC – Niveau 6\" [level=3] [ref=e337]:\n                  - link \"Superviseurs Logistique basé/e/s à SAINT-MARC – Niveau 6\" [ref=e338] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215933/superviseurs-logistique-basees-saint-marc-niveau-6\n              - generic [ref=e340]:\n                - term [ref=e341]: Organization\n                - definition [ref=e342]:\n                  - list [ref=e343]:\n                    - listitem [ref=e344]:\n                      - link \"MSF\" [ref=e345] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=M%C3%A9decins%20Sans%20Fronti%C3%A8res%20Jobs&advanced-search=%28S2904%29\n                - term [ref=e346]: Posted\n                - definition [ref=e347]:\n                  - time [ref=e348]: 11 Jun 2026\n                - term [ref=e349]: Closing date\n                - definition [ref=e350]:\n                  - time [ref=e351]: 21 Jun 2026\n            - article [ref=e352]:\n              - generic [ref=e353]:\n                - paragraph [ref=e354]:\n                  - link \"Haiti\" [ref=e355] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Haiti%20Jobs&advanced-search=%28C113%29\n                - heading \"1 Infirmier/Infirmière superviseur basé/e à Saint-Marc – Niveau 8\" [level=3] [ref=e356]:\n                  - link \"1 Infirmier/Infirmière superviseur basé/e à Saint-Marc – Niveau 8\" [ref=e357] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215932/1-infirmierinfirmiere-superviseur-basee-saint-marc-niveau-8\n              - generic [ref=e359]:\n                - term [ref=e360]: Organization\n                - definition [ref=e361]:\n                  - list [ref=e362]:\n                    - listitem [ref=e363]:\n                      - link \"MSF\" [ref=e364] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=M%C3%A9decins%20Sans%20Fronti%C3%A8res%20Jobs&advanced-search=%28S2904%29\n                - term [ref=e365]: Posted\n                - definition [ref=e366]:\n                  - time [ref=e367]: 11 Jun 2026\n                - term [ref=e368]: Closing date\n                - definition [ref=e369]:\n                  - time [ref=e370]: 21 Jun 2026\n            - article [ref=e371]:\n              - generic [ref=e372]:\n                - paragraph [ref=e373]:\n                  - link \"Haiti\" [ref=e374] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Haiti%20Jobs&advanced-search=%28C113%29\n                - heading \"1 Responsable Administration du personnel basé/e aux GONAÏVES – Niveau 10\" [level=3] [ref=e375]:\n                  - link \"1 Responsable Administration du personnel basé/e aux GONAÏVES – Niveau 10\" [ref=e376] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215931/1-responsable-administration-du-personnel-basee-aux-gonaives-niveau-10\n              - generic [ref=e378]:\n                - term [ref=e379]: Organization\n                - definition [ref=e380]:\n                  - list [ref=e381]:\n                    - listitem [ref=e382]:\n                      - link \"MSF\" [ref=e383] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=M%C3%A9decins%20Sans%20Fronti%C3%A8res%20Jobs&advanced-search=%28S2904%29\n                - term [ref=e384]: Posted\n                - definition [ref=e385]:\n                  - time [ref=e386]: 11 Jun 2026\n                - term [ref=e387]: Closing date\n                - definition [ref=e388]:\n                  - time [ref=e389]: 25 Jun 2026\n            - article [ref=e390]:\n              - generic [ref=e391]:\n                - paragraph [ref=e392]:\n                  - link \"Haiti\" [ref=e393] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Haiti%20Jobs&advanced-search=%28C113%29\n                - heading \"1 Responsable comptabilité et Finances basé/e aux GONAÏVES – Niveau 10\" [level=3] [ref=e394]:\n                  - link \"1 Responsable comptabilité et Finances basé/e aux GONAÏVES – Niveau 10\" [ref=e395] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215930/1-responsable-comptabilite-et-finances-basee-aux-gonaives-niveau-10\n              - generic [ref=e397]:\n                - term [ref=e398]: Organization\n                - definition [ref=e399]:\n                  - list [ref=e400]:\n                    - listitem [ref=e401]:\n                      - link \"MSF\" [ref=e402] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=M%C3%A9decins%20Sans%20Fronti%C3%A8res%20Jobs&advanced-search=%28S2904%29\n                - term [ref=e403]: Posted\n                - definition [ref=e404]:\n                  - time [ref=e405]: 11 Jun 2026\n                - term [ref=e406]: Closing date\n                - definition [ref=e407]:\n                  - time [ref=e408]: 25 Jun 2026\n            - article [ref=e409]:\n              - generic [ref=e410]:\n                - paragraph [ref=e411]:\n                  - link \"Rwanda\" [ref=e412] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Rwanda%20Jobs&advanced-search=%28C198%29\n                - heading \"Sustainable Agriculture Innovation Lead\" [level=3] [ref=e413]:\n                  - link \"Sustainable Agriculture Innovation Lead\" [ref=e414] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215926/sustainable-agriculture-innovation-lead\n              - generic [ref=e416]:\n                - term [ref=e417]: Organization\n                - definition [ref=e418]:\n                  - list [ref=e419]:\n                    - listitem [ref=e420]:\n                      - link \"OAF\" [ref=e421] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=One%20Acre%20Fund%20Jobs&advanced-search=%28S1646%29\n                - term [ref=e422]: Posted\n                - definition [ref=e423]:\n                  - time [ref=e424]: 11 Jun 2026\n                - term [ref=e425]: Closing date\n                - definition [ref=e426]:\n                  - time [ref=e427]: 8 Sep 2026\n            - article [ref=e428]:\n              - generic [ref=e429]:\n                - paragraph [ref=e430]:\n                  - link \"Venezuela\" [ref=e431] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Venezuela%20%28Bolivarian%20Republic%20of%29%20Jobs&advanced-search=%28C250%29\n                - heading \"Gerente de Protección - GDO\" [level=3] [ref=e432]:\n                  - link \"Gerente de Protección - GDO\" [ref=e433] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215924/gerente-de-proteccion-gdo\n              - generic [ref=e435]:\n                - term [ref=e436]: Organization\n                - definition [ref=e437]:\n                  - list [ref=e438]:\n                    - listitem [ref=e439]:\n                      - link \"DRC\" [ref=e440] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=Danish%20Refugee%20Council%20Jobs&advanced-search=%28S522%29\n                - term [ref=e441]: Posted\n                - definition [ref=e442]:\n                  - time [ref=e443]: 11 Jun 2026\n                - term [ref=e444]: Closing date\n                - definition [ref=e445]:\n                  - time [ref=e446]: 28 Jun 2026\n            - article [ref=e447]:\n              - heading \"Emergency Women’s Protection and Empowerment Coordinator, Global Surge\" [level=3] [ref=e449]:\n                - link \"Emergency Women’s Protection and Empowerment Coordinator, Global Surge\" [ref=e450] [cursor=pointer]:\n                  - /url: https://reliefweb.int/job/4215923/emergency-womens-protection-and-empowerment-coordinator-global-surge\n              - generic [ref=e452]:\n                - term [ref=e453]: Organization\n                - definition [ref=e454]:\n                  - list [ref=e455]:\n                    - listitem [ref=e456]:\n                      - link \"IRC\" [ref=e457] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29\n                - term [ref=e458]: Posted\n                - definition [ref=e459]:\n                  - time [ref=e460]: 11 Jun 2026\n                - term [ref=e461]: Closing date\n                - definition [ref=e462]:\n                  - time [ref=e463]: 31 Jul 2026\n            - article [ref=e464]:\n              - generic [ref=e465]:\n                - paragraph [ref=e466]:\n                  - link \"oPt\" [ref=e467] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=occupied%20Palestinian%20territory%20Jobs&advanced-search=%28C180%29\n                - 'heading \"Occupied Palestinian Territories : Consortium Project Developement Manager - Ramallah\" [level=3] [ref=e468]':\n                  - 'link \"Occupied Palestinian Territories : Consortium Project Developement Manager - Ramallah\" [ref=e469] [cursor=pointer]':\n                    - /url: https://reliefweb.int/job/4215915/occupied-palestinian-territories-consortium-project-developement-manager-ramallah\n              - generic [ref=e471]:\n                - term [ref=e472]: Organization\n                - definition [ref=e473]:\n                  - list [ref=e474]:\n                    - listitem [ref=e475]:\n                      - link \"ACTED\" [ref=e476] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=Agency%20for%20Technical%20Cooperation%20and%20Development%20Jobs&advanced-search=%28S823%29\n                - term [ref=e477]: Posted\n                - definition [ref=e478]:\n                  - time [ref=e479]: 11 Jun 2026\n                - term [ref=e480]: Closing date\n                - definition [ref=e481]:\n                  - time [ref=e482]: 11 Jul 2026\n            - article [ref=e483]:\n              - generic [ref=e484]:\n                - paragraph [ref=e485]:\n                  - link \"DR Congo\" [ref=e486] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Democratic%20Republic%20of%20the%20Congo%20Jobs&advanced-search=%28C75%29\n                - heading \"Supply Chain Assistant\" [level=3] [ref=e487]:\n                  - link \"Supply Chain Assistant\" [ref=e488] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215906/supply-chain-assistant\n              - generic [ref=e490]:\n                - term [ref=e491]: Organization\n                - definition [ref=e492]:\n                  - list [ref=e493]:\n                    - listitem [ref=e494]:\n                      - link \"IRC\" [ref=e495] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29\n                - term [ref=e496]: Posted\n                - definition [ref=e497]:\n                  - time [ref=e498]: 11 Jun 2026\n                - term [ref=e499]: Closing date\n                - definition [ref=e500]:\n                  - time [ref=e501]: 10 Jul 2026\n            - article [ref=e502]:\n              - generic [ref=e503]:\n                - paragraph [ref=e504]:\n                  - link \"Jordan\" [ref=e505] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Jordan%20Jobs&advanced-search=%28C129%29\n                  - text: + 1 more\n                - heading \"Senior Child Protection Case Management Specialist, oPt Country Program\" [level=3] [ref=e506]:\n                  - link \"Senior Child Protection Case Management Specialist, oPt Country Program\" [ref=e507] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215534/senior-child-protection-case-management-specialist-opt-country-program\n              - generic [ref=e509]:\n                - term [ref=e510]: Organization\n                - definition [ref=e511]:\n                  - list [ref=e512]:\n                    - listitem [ref=e513]:\n                      - link \"IRC\" [ref=e514] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29\n                - term [ref=e515]: Posted\n                - definition [ref=e516]:\n                  - time [ref=e517]: 11 Jun 2026\n                - term [ref=e518]: Closing date\n                - definition [ref=e519]:\n                  - time [ref=e520]: 31 Aug 2026\n            - article [ref=e521]:\n              - generic [ref=e522]:\n                - paragraph [ref=e523]:\n                  - link \"Kenya\" [ref=e524] [cursor=pointer]:\n                    - /url: https://reliefweb.int/jobs?list=Kenya%20Jobs&advanced-search=%28C131%29\n                - heading \"Tupande Product Quality Supervisor\" [level=3] [ref=e525]:\n                  - link \"Tupande Product Quality Supervisor\" [ref=e526] [cursor=pointer]:\n                    - /url: https://reliefweb.int/job/4215902/tupande-product-quality-supervisor\n              - generic [ref=e528]:\n                - term [ref=e529]: Organization\n                - definition [ref=e530]:\n                  - list [ref=e531]:\n                    - listitem [ref=e532]:\n                      - link \"OAF\" [ref=e533] [cursor=pointer]:\n                        - /url: https://reliefweb.int/jobs?list=One%20Acre%20Fund%20Jobs&advanced-search=%28S1646%29\n                - term [ref=e534]: Posted\n                - definition [ref=e535]:\n                  - time [ref=e536]: 11 Jun 2026\n                - term [ref=e537]: Closing date\n                - definition [ref=e538]:\n                  - time [ref=e539]: 9 Sep 2026\n        - navigation \"Pagination\" [ref=e540]:\n          - heading \"Pagination\" [level=2] [ref=e541]\n          - list [ref=e542]:\n            - listitem [ref=e543]:\n              - link \"Current page 1\" [ref=e544] [cursor=pointer]:\n                - /url: \"?page=0\"\n            - listitem [ref=e545]:\n              - link \"Page 2\" [ref=e546] [cursor=pointer]:\n                - /url: \"?page=1\"\n            - listitem [ref=e547]:\n              - link \"Page 3\" [ref=e548] [cursor=pointer]:\n                - /url: \"?page=2\"\n            - listitem [ref=e549]:\n              - link \"Page 4\" [ref=e550] [cursor=pointer]:\n                - /url: \"?page=3\"\n            - listitem [ref=e551]:\n              - link \"Page 5\" [ref=e552] [cursor=pointer]:\n                - /url: \"?page=4\"\n            - listitem [ref=e553]:\n              - link \"Page 6\" [ref=e554] [cursor=pointer]:\n                - /url: \"?page=5\"\n            - listitem [ref=e555]:\n              - link \"Page 7\" [ref=e556] [cursor=pointer]:\n                - /url: \"?page=6\"\n            - listitem [ref=e557]:\n              - link \"Page 8\" [ref=e558] [cursor=pointer]:\n                - /url: \"?page=7\"\n            - listitem [ref=e559]:\n              - link \"Page 9\" [ref=e560] [cursor=pointer]:\n                - /url: \"?page=8\"\n            - text: …\n            - listitem [ref=e561]:\n              - link \"Next page\" [ref=e562] [cursor=pointer]:\n                - /url: \"?page=1\"\n                - text: Next page Next\n            - listitem [ref=e563]:\n              - link \"Last page\" [ref=e564] [cursor=pointer]:\n                - /url: \"?page=51\"\n                - text: Last page Last\n        - generic [ref=e566]:\n          - heading \"API and RSS links\" [level=2] [ref=e567]\n          - list [ref=e568]:\n            - listitem [ref=e569]:\n              - link \"RSS\" [ref=e570] [cursor=pointer]:\n                - /url: https://reliefweb.int/jobs/rss.xml\n            - listite",
+    "navigation_result": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:64551/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:64551/page.safe.html\n- Page Title: Jobs | ReliefWeb\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T14-47-37-835Z.yml)"
+  },
+  "visible_text": "Skip to main content\nHelp\nLog in\nReliefWeb\nSEARCH\nUPDATES\nCOUNTRIES\nDISASTERS\nORGANIZATIONS\nTOPICS\nJOBS\nTRAINING\nInforming humanitarians worldwide 24/7 —\na service provided by UN OCHA\nJobs\nViews\nAll Jobs Closing soon Remote / Roster / Roving\nSearch\nSearch for jobs with keywords\nSearch\nRefine the list with filters\nSearch help\nSelected filters\nAdd filters\nJob type\nCareer category\nExperience\nTheme\nCountry\nOrganization\nOrganization type\nClosing date\nPosting date on ReliefWeb\nAdvanced modeSearch help - Advanced mode\nList\nShowing 1 - 20 of 1,037 results\n\nHaiti\n\n 2 Psychologues basé/e/s à BELLADERE – Niveau 7\nOrganizationMSF  Posted27 May 2026  Closing date1 Jun 2026\n\nUSA\n\n Case Coordination Supervisor\nOrganizationIRC  Posted27 May 2026  Closing date31 Jul 2026\nDeputy Director of Programs, Global Surge\nOrganizationIRC  Posted27 May 2026  Closing date31 Jul 2026\nCountry Director, Global Surge\nOrganizationIRC  Posted27 May 2026  Closing date31 Jul 2026\n\nSouth Sudan\n\n Head of Mission - South Sudan - M/F\nOrganizationALIMA  Posted27 May 2026  Closing date10 Jun 2026\n\nUkraine\n\n UKRAINE - Deputy Field Coordinator for Program (M/F) - DNIPRO\nOrganizationSI  Posted27 May 2026  Closing date21 Jun 2026\n\nUkraine\n\n UKRAINE - GRANTS MANAGER (M/F) - KYIV\nOrganizationSI  Posted27 May 2026  Closing date21 Jun 2026\n\nFrance\n\n France : Grants Management Officer - Paris\nOrganizationACTED  Posted27 May 2026  Closing date27 Jun 2026\n\nNigeria\n\n Pharmacy Manager - Maiduguri\nOrganizationINTERSOS  Posted27 May 2026  Closing date1 Jun 2026\n\nSyria\n\n Operations Officer - Syria (national position)\nOrganizationINSO  Posted27 May 2026  Closing date9 Jun 2026\n\nSyria\n\n Operations & Liaison Officer –Syria (national position)\nOrganizationINSO  Posted27 May 2026  Closing date9 Jun 2026\n\nEthiopia + 4 more\n\n Logistics Specialist – Afrique de l’Est / Maghreb\nOrganizationHI  Posted27 May 2026  Closing date8 Jun 2026\n\nSyria\n\n IT Assistant - Syria (national position)\nOrganizationINSO  Posted27 May 2026  Closing date9 Jun 2026\n\nSyria\n\n Human Resources Officer - Syria (national position)\nOrganizationINSO  Posted27 May 2026  Closing date9 Jun 2026\n\nSyria\n\n Deputy Safety Advisor - Syria (national position)\nOrganizationINSO  Posted27 May 2026  Closing date9 Jun 2026\n\nCambodia\n\n Technical Field Manager, Cambodia\nOrganizationMAG  Posted27 May 2026  Closing date9 Jun 2026\n\nSyria\n\n Assistant Safety Advisor - Syria (national staff only)\nOrganizationINSO  Posted27 May 2026  Closing date9 Jun 2026\n\nUSA\n\n Director, Donor Engagement\nOrganizationIRC  Posted27 May 2026  Closing date31 Jul 2026\n\nChad\n\n Tchad : Responsable de Projet Climat & Environnement – Adré\nOrganizationACTED  Posted27 May 2026  Closing date27 Jun 2026\n\nAfghanistan\n\n DEPUTY COUNTRY DIRECTOR STRATEGY SUPPORT - AFGHANISTAN\nOrganizationACF  Posted27 May 2026  Closing date25 Jun 2026\nPagination\nCurrent page\n1 \nPage\n2 \nPage\n3 \nPage\n4 \nPage\n5 \nPage\n6 \nPage\n7 \nPage\n8 \nPage\n9 \n…\nNext page\nNext \nLast page\nLast\nAPI and RSS links\nRSSAPISubscribe\nBLOG LABS ABOUT US TERMS CONTACT\nFacebook\nX\nLinkedIn\nOCHA Services\n\nRelated Platforms\n\nHumanitarian Action\nCentral Emergency Response Fund\n\nOther OCHA Services\n\nFinancial Tracking Service\nHumanitarian Data Exchange\nReliefWeb Response\n\n \n\nInter-Agency Standing Committee\nOCHA website\nReliefWeb\nVirtual OSOCC\n\n \n\nMore OCHA Services \nOpens in a new window\nService provided by\nUnited Nations Office for the Coordination of Humanitarian Affairs\nOCHA coordinates the global emergency response to save lives and protect people in humanitarian crises. We advocate for effective and principled humanitarian action by all, for all.\n\nReliefWeb's Terms & Conditions.\n\n© 2026 all rights reserved.",
+  "ax_tree_excerpt": "{\n  \"nodes\": [\n    {\n      \"nodeId\": \"2\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"RootWebArea\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 144\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Jobs | ReliefWeb\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Jobs | ReliefWeb\"\n            },\n            \"nativeSource\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"focused\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"busy\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": 1\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/PhD/myArticlesAndPapers/my-papers/5-WISE/wade-bench/data/raw_snapshots/jobs/reliefweb_listing/page.html\"\n          }\n        }\n      ],\n      \"childIds\": [\n        \"11\"\n      ],\n      \"backendDOMNodeId\": 2,\n      \"frameId\": \"D0765FF2CB776E8155E3D60EB3D7C02B\"\n    },\n    {\n      \"nodeId\": \"11\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"2\",\n      \"childIds\": [\n        \"52\"\n      ],\n      \"backendDOMNodeId\": 11\n    },\n    {\n      \"nodeId\": \"52\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"11\",\n      \"childIds\": [\n        \"53\",\n        \"58\",\n        \"1452\"\n      ],\n      \"backendDOMNodeId\": 52\n    },\n    {\n      \"nodeId\": \"53\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"link\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 110\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Skip to main content\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Skip to main content\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/PhD/myArticlesAndPapers/my-papers/5-WISE/wade-bench/data/raw_snapshots/jobs/reliefweb_listing/page.html#main-content\"\n          }\n        }\n      ],\n      \"parentId\": \"52\",\n      \"childIds\": [\n        \"1609\"\n      ],\n      \"backendDOMNodeId\": 53\n    },\n    {\n      \"nodeId\": \"58\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"52\",\n      \"childIds\": [\n        \"59\"\n      ],\n      \"backendDOMNodeId\": 58\n    },\n    {\n      \"nodeId\": \"59\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"58\",\n      \"childIds\": [\n        \"60\",\n        \"143\",\n        \"146\",\n        \"1227\"\n      ],\n      \"backendDOMNodeId\": 59\n    },\n    {\n      \"nodeId\": \"60\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"banner\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 94\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Site header\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Site header\"\n            },\n            \"attribute\": \"aria-label\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"Site header\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"59\",\n      \"childIds\": [\n        \"61\",\n        \"82\",\n        \"138\"\n      ],\n      \"backendDOMNodeId\": 60\n    },\n    {\n      \"nodeId\": \"143\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"59\",\n      \"childIds\": [\n        \"144\"\n      ],\n      \"backendDOMNodeId\": 143\n    },\n    {\n      \"nodeId\": \"144\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"143\",\n      \"childIds\": [\n        \"145\"\n      ],\n      \"backendDOMNodeId\": 144\n    },\n    {\n      \"nodeId\": \"145\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"144\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 145\n    },\n    {\n      \"nodeId\": \"146\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"main\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 118\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Page content\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Page content\"\n            },\n            \"attribute\": \"aria-label\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"Page content\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"59\",\n      \"childIds\": [\n        \"147\"\n      ],\n      \"backendDOMNodeId\": 146\n    },\n    {\n      \"nodeId\": \"1227\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"contentinfo\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 85\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Site footer\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Site footer\"\n            },\n            \"attribute\": \"aria-label\",\n            \"attributeValue\": {\n              \"type\": \"string\",\n              \"value\": \"Site footer\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"59\",\n      \"childIds\": [\n        \"1228\"\n      ],\n      \"backendDOMNodeId\": 1227\n    },\n    {\n      \"nodeId\": \"1452\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"52\",\n      \"childIds\": [\n        \"1453\"\n      ],\n      \"backendDOMNodeId\": 1452\n    },\n    {\n      \"nodeId\": \"1609\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"StaticText\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 158\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Skip to main content\",\n        \"sources\": [\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Skip to main content\"\n            }\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"53\",\n      \"childIds\": [\n        \"-1000000002\"\n      ],\n      \"backendDOMNodeId\": 1609\n    },\n    {\n      \"nodeId\": \"61\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"60\",\n      \"childIds\": [\n        \"62\"\n      ],\n      \"backendDOMNodeId\": 61\n    },\n    {\n      \"nodeId\": \"62\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"61\",\n      \"childIds\": [\n        \"63\"\n      ],\n      \"backendDOMNodeId\": 62\n    },\n    {\n      \"nodeId\": \"63\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"62\",\n      \"childIds\": [\n        \"64\",\n        \"74\"\n      ],\n      \"backendDOMNodeId\": 63\n    },\n    {\n      \"nodeId\": \"82\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"60\",\n      \"childIds\": [\n        \"83\"\n      ],\n      \"backendDOMNodeId\": 82\n    },\n    {\n      \"nodeId\": \"83\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"82\",\n      \"childIds\": [\n        \"84\",\n        \"90\"\n      ],\n      \"backendDOMNodeId\": 83\n    },\n    {\n      \"nodeId\": \"84\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"83\",\n      \"childIds\": [\n        \"85\"\n      ],\n      \"backendDOMNodeId\": 84\n    },\n    {\n      \"nodeId\": \"90\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"83\",\n      \"childIds\": [\n        \"91\",\n        \"114\"\n      ],\n      \"backendDOMNodeId\": 90\n    },\n    {\n      \"nodeId\": \"91\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"90\",\n      \"childIds\": [\n        \"92\",\n        \"98\"\n      ],\n      \"backendDOMNodeId\": 91\n    },\n    {\n      \"nodeId\": \"92\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"button\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 137\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Search\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"nativeSource\": \"label\"\n          },\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Search\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"invalid\",\n          \"value\": {\n            \"type\": \"token\",\n            \"value\": \"false\"\n          }\n        },\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"hasPopup\",\n          \"value\": {\n            \"type\": \"token\",\n            \"value\": \"menu\"\n          }\n        },\n        {\n          \"name\": \"expanded\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": false\n          }\n        },\n        {\n          \"name\": \"controls\",\n          \"value\": {\n            \"type\": \"idrefList\",\n            \"value\": \"site-search\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 98,\n                \"idref\": \"site-search\"\n              }\n            ]\n          }\n        }\n      ],\n      \"parentId\": \"91\",\n      \"childIds\": [\n        \"95\",\n        \"1615\"\n      ],\n      \"backendDOMNodeId\": 92\n    },\n    {\n      \"nodeId\": \"98\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"search\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 152\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Content Search\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Content Search\"\n            },\n            \"attribute\": \"aria-labelledby\",\n            \"attributeValue\": {\n              \"type\": \"idrefList\",\n              \"value\": \"site-search-title\",\n              \"relatedNodes\": [\n                {\n                  \"backendDOMNodeId\": 99,\n                  \"idref\": \"site-search-title\",\n                  \"text\": \"Content Search\"\n                }\n              ]\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"labelledby\",\n          \"value\": {\n            \"type\": \"nodeList\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 99,\n                \"idref\": \"site-search-title\",\n                \"text\": \"Content Search\"\n              }\n            ]\n          }\n        }\n      ],\n      \"parentId\": \"91\",\n      \"childIds\": [\n        \"99\",\n        \"100\"\n      ],\n      \"backendDOMNodeId\": 98\n    },\n    {\n      \"nodeId\": \"114\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"90\",\n      \"childIds\": [\n        \"115\"\n      ],\n      \"backendDOMNodeId\": 114\n    },\n    {\n      \"nodeId\": \"115\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"navigation\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 130\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Main\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Main\"\n            },\n            \"attribute\": \"aria-l\n<!-- TRUNCATED -->",
+  "metadata_excerpt": "{\n  \"snapshot_id\": \"reliefweb_listing\",\n  \"website_id\": \"reliefweb\",\n  \"page_type\": \"listing\",\n  \"url\": \"https://reliefweb.int/jobs\",\n  \"schema_id\": \"job_posting_v1\",\n  \"status\": \"pending\",\n  \"captured_at\": \"2026-05-27T21:06:18.456Z\",\n  \"capture_tool\": \"playwright-stealth\",\n  \"browser\": \"chromium\",\n  \"initial_url\": \"https://reliefweb.int/jobs\",\n  \"final_url\": \"https://reliefweb.int/jobs\",\n  \"page_title\": \"Jobs | ReliefWeb\",\n  \"capture_status\": \"captured\",\n  \"html_size\": 198854,\n  \"text_size\": 3674\n}",
+  "html_signals": {
+    "title": "Jobs | ReliefWeb",
+    "headings": [
+      {
+        "tag": "h2",
+        "text": "Content Search"
+      },
+      {
+        "tag": "h1",
+        "text": "Jobs"
+      },
+      {
+        "tag": "h2",
+        "text": "Views"
+      },
+      {
+        "tag": "h2",
+        "text": "Search"
+      },
+      {
+        "tag": "h2",
+        "text": "Refine the list with filters"
+      },
+      {
+        "tag": "h3",
+        "text": "Selected filters"
+      },
+      {
+        "tag": "h3",
+        "text": "Add filters"
+      },
+      {
+        "tag": "h3",
+        "text": "Apply or clear filters"
+      },
+      {
+        "tag": "h3",
+        "text": "Add filter"
+      },
+      {
+        "tag": "h2",
+        "text": "List"
+      },
+      {
+        "tag": "h3",
+        "text": "Medical Doctor Gaza"
+      },
+      {
+        "tag": "h3",
+        "text": "Employment Specialist"
+      },
+      {
+        "tag": "h3",
+        "text": "Regional Humanitarian Access & Security Coordinator"
+      },
+      {
+        "tag": "h3",
+        "text": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN"
+      },
+      {
+        "tag": "h3",
+        "text": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN"
+      },
+      {
+        "tag": "h3",
+        "text": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN"
+      },
+      {
+        "tag": "h3",
+        "text": "COORDINATEUR·ICE FINANCE ET ADMINISTRATIF- TRAVAILLEURS HUMANITAIRES-FRANCE"
+      },
+      {
+        "tag": "h3",
+        "text": "Legal Assistant"
+      },
+      {
+        "tag": "h3",
+        "text": "Adult ESL Instructor"
+      },
+      {
+        "tag": "h3",
+        "text": "Superviseurs Logistique basé/e/s à SAINT-MARC – Niveau 6"
+      },
+      {
+        "tag": "h3",
+        "text": "1 Infirmier/Infirmière superviseur basé/e à Saint-Marc – Niveau 8"
+      },
+      {
+        "tag": "h3",
+        "text": "1 Responsable Administration du personnel basé/e aux GONAÏVES – Niveau 10"
+      },
+      {
+        "tag": "h3",
+        "text": "1 Responsable comptabilité et Finances basé/e aux GONAÏVES – Niveau 10"
+      },
+      {
+        "tag": "h3",
+        "text": "Sustainable Agriculture Innovation Lead"
+      },
+      {
+        "tag": "h3",
+        "text": "Gerente de Protección - GDO"
+      },
+      {
+        "tag": "h3",
+        "text": "Emergency Women’s Protection and Empowerment Coordinator, Global Surge"
+      },
+      {
+        "tag": "h3",
+        "text": "Occupied Palestinian Territories : Consortium Project Developement Manager - Ramallah"
+      },
+      {
+        "tag": "h3",
+        "text": "Supply Chain Assistant"
+      },
+      {
+        "tag": "h3",
+        "text": "Senior Child Protection Case Management Specialist, oPt Country Program"
+      },
+      {
+        "tag": "h3",
+        "text": "Tupande Product Quality Supervisor"
+      },
+      {
+        "tag": "h2",
+        "text": "Pagination"
+      },
+      {
+        "tag": "h2",
+        "text": "API and RSS links"
+      },
+      {
+        "tag": "h2",
+        "text": "OCHA Services"
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to main content",
+        "href": "#main-content"
+      },
+      {
+        "text": "Help",
+        "href": "https://reliefweb.int/help"
+      },
+      {
+        "text": "Log in",
+        "href": "https://reliefweb.int/user/login"
+      },
+      {
+        "text": "ReliefWeb",
+        "href": "https://reliefweb.int/"
+      },
+      {
+        "text": "Updates",
+        "href": "https://reliefweb.int/updates"
+      },
+      {
+        "text": "Countries",
+        "href": "https://reliefweb.int/countries"
+      },
+      {
+        "text": "Disasters",
+        "href": "https://reliefweb.int/disasters"
+      },
+      {
+        "text": "Organizations",
+        "href": "https://reliefweb.int/organizations"
+      },
+      {
+        "text": "Topics",
+        "href": "https://reliefweb.int/topics"
+      },
+      {
+        "text": "Jobs",
+        "href": "https://reliefweb.int/jobs"
+      },
+      {
+        "text": "Training",
+        "href": "https://reliefweb.int/training"
+      },
+      {
+        "text": "All Jobs",
+        "href": "https://reliefweb.int/jobs"
+      },
+      {
+        "text": "Closing soon",
+        "href": "https://reliefweb.int/jobs?list=Closing%20soon&view=closing-soon"
+      },
+      {
+        "text": "Remote / Roster / Roving",
+        "href": "https://reliefweb.int/jobs?list=Remote%20/%20Roster%20/%20Roving&view=unspecified-location"
+      },
+      {
+        "text": "Search help",
+        "href": "https://reliefweb.int/search-help"
+      },
+      {
+        "text": "Search help",
+        "href": "/search-help"
+      },
+      {
+        "text": "Search help - Advanced mode",
+        "href": "https://reliefweb.int/search-help#advanced"
+      },
+      {
+        "text": "oPt",
+        "href": "https://reliefweb.int/jobs?list=occupied%20Palestinian%20territory%20Jobs&advanced-search=%28C180%29"
+      },
+      {
+        "text": "Medical Doctor Gaza",
+        "href": "https://reliefweb.int/job/4215856/medical-doctor-gaza"
+      },
+      {
+        "text": "CADUS e.V.",
+        "href": "https://reliefweb.int/jobs?list=CADUS%20e.V.%20Jobs&advanced-search=%28S46219%29"
+      },
+      {
+        "text": "USA",
+        "href": "https://reliefweb.int/jobs?list=United%20States%20of%20America%20Jobs&advanced-search=%28C245%29"
+      },
+      {
+        "text": "Employment Specialist",
+        "href": "https://reliefweb.int/job/4215946/employment-specialist"
+      },
+      {
+        "text": "IRC",
+        "href": "https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29"
+      },
+      {
+        "text": "Kenya",
+        "href": "https://reliefweb.int/jobs?list=Kenya%20Jobs&advanced-search=%28C131%29"
+      },
+      {
+        "text": "Regional Humanitarian Access & Security Coordinator",
+        "href": "https://reliefweb.int/job/4215938/regional-humanitarian-access-security-coordinator"
+      },
+      {
+        "text": "IRC",
+        "href": "https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29"
+      },
+      {
+        "text": "Pakistan",
+        "href": "https://reliefweb.int/jobs?list=Pakistan%20Jobs&advanced-search=%28C182%29"
+      },
+      {
+        "text": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN",
+        "href": "https://reliefweb.int/job/4215935/deputy-country-director-programmes-pakistan"
+      },
+      {
+        "text": "ACF",
+        "href": "https://reliefweb.int/jobs?list=Action%20contre%20la%20Faim%20France%20Jobs&advanced-search=%28S1955%29"
+      },
+      {
+        "text": "Pakistan",
+        "href": "https://reliefweb.int/jobs?list=Pakistan%20Jobs&advanced-search=%28C182%29"
+      },
+      {
+        "text": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN",
+        "href": "https://reliefweb.int/job/4215936/deputy-country-director-programmes-pakistan"
+      },
+      {
+        "text": "ACF",
+        "href": "https://reliefweb.int/jobs?list=Action%20contre%20la%20Faim%20France%20Jobs&advanced-search=%28S1955%29"
+      },
+      {
+        "text": "Pakistan",
+        "href": "https://reliefweb.int/jobs?list=Pakistan%20Jobs&advanced-search=%28C182%29"
+      },
+      {
+        "text": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN",
+        "href": "https://reliefweb.int/job/4215934/deputy-country-director-programmes-pakistan"
+      },
+      {
+        "text": "ACF",
+        "href": "https://reliefweb.int/jobs?list=Action%20contre%20la%20Faim%20France%20Jobs&advanced-search=%28S1955%29"
+      },
+      {
+        "text": "France",
+        "href": "https://reliefweb.int/jobs?list=France%20Jobs&advanced-search=%28C92%29"
+      },
+      {
+        "text": "COORDINATEUR·ICE FINANCE ET ADMINISTRATIF- TRAVAILLEURS HUMANITAIRES-FRANCE",
+        "href": "https://reliefweb.int/job/4215937/coordinateurice-finance-et-administratif-travailleurs-humanitaires-france"
+      },
+      {
+        "text": "ACF",
+        "href": "https://reliefweb.int/jobs?list=Action%20contre%20la%20Faim%20France%20Jobs&advanced-search=%28S1955%29"
+      },
+      {
+        "text": "USA",
+        "href": "https://reliefweb.int/jobs?list=United%20States%20of%20America%20Jobs&advanced-search=%28C245%29"
+      },
+      {
+        "text": "Legal Assistant",
+        "href": "https://reliefweb.int/job/4214337/legal-assistant"
+      },
+      {
+        "text": "IRC",
+        "href": "https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29"
+      },
+      {
+        "text": "USA",
+        "href": "https://reliefweb.int/jobs?list=United%20States%20of%20America%20Jobs&advanced-search=%28C245%29"
+      },
+      {
+        "text": "Adult ESL Instructor",
+        "href": "https://reliefweb.int/job/4214327/adult-esl-instructor"
+      },
+      {
+        "text": "IRC",
+        "href": "https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29"
+      },
+      {
+        "text": "Haiti",
+        "href": "https://reliefweb.int/jobs?list=Haiti%20Jobs&advanced-search=%28C113%29"
+      },
+      {
+        "text": "Superviseurs Logistique basé/e/s à SAINT-MARC – Niveau 6",
+        "href": "https://reliefweb.int/job/4215933/superviseurs-logistique-basees-saint-marc-niveau-6"
+      },
+      {
+        "text": "MSF",
+        "href": "https://reliefweb.int/jobs?list=M%C3%A9decins%20Sans%20Fronti%C3%A8res%20Jobs&advanced-search=%28S2904%29"
+      },
+      {
+        "text": "Haiti",
+        "href": "https://reliefweb.int/jobs?list=Haiti%20Jobs&advanced-search=%28C113%29"
+      },
+      {
+        "text": "1 Infirmier/Infirmière superviseur basé/e à Saint-Marc – Niveau 8",
+        "href": "https://reliefweb.int/job/4215932/1-infirmierinfirmiere-superviseur-basee-saint-marc-niveau-8"
+      },
+      {
+        "text": "MSF",
+        "href": "https://reliefweb.int/jobs?list=M%C3%A9decins%20Sans%20Fronti%C3%A8res%20Jobs&advanced-search=%28S2904%29"
+      },
+      {
+        "text": "Haiti",
+        "href": "https://reliefweb.int/jobs?list=Haiti%20Jobs&advanced-search=%28C113%29"
+      },
+      {
+        "text": "1 Responsable Administration du personnel basé/e aux GONAÏVES – Niveau 10",
+        "href": "https://reliefweb.int/job/4215931/1-responsable-administration-du-personnel-basee-aux-gonaives-niveau-10"
+      },
+      {
+        "text": "MSF",
+        "href": "https://reliefweb.int/jobs?list=M%C3%A9decins%20Sans%20Fronti%C3%A8res%20Jobs&advanced-search=%28S2904%29"
+      },
+      {
+        "text": "Haiti",
+        "href": "https://reliefweb.int/jobs?list=Haiti%20Jobs&advanced-search=%28C113%29"
+      },
+      {
+        "text": "1 Responsable comptabilité et Finances basé/e aux GONAÏVES – Niveau 10",
+        "href": "https://reliefweb.int/job/4215930/1-responsable-comptabilite-et-finances-basee-aux-gonaives-niveau-10"
+      },
+      {
+        "text": "MSF",
+        "href": "https://reliefweb.int/jobs?list=M%C3%A9decins%20Sans%20Fronti%C3%A8res%20Jobs&advanced-search=%28S2904%29"
+      },
+      {
+        "text": "Rwanda",
+        "href": "https://reliefweb.int/jobs?list=Rwanda%20Jobs&advanced-search=%28C198%29"
+      },
+      {
+        "text": "Sustainable Agriculture Innovation Lead",
+        "href": "https://reliefweb.int/job/4215926/sustainable-agriculture-innovation-lead"
+      },
+      {
+        "text": "OAF",
+        "href": "https://reliefweb.int/jobs?list=One%20Acre%20Fund%20Jobs&advanced-search=%28S1646%29"
+      },
+      {
+        "text": "Venezuela",
+        "href": "https://reliefweb.int/jobs?list=Venezuela%20%28Bolivarian%20Republic%20of%29%20Jobs&advanced-search=%28C250%29"
+      },
+      {
+        "text": "Gerente de Protección - GDO",
+        "href": "https://reliefweb.int/job/4215924/gerente-de-proteccion-gdo"
+      },
+      {
+        "text": "DRC",
+        "href": "https://reliefweb.int/jobs?list=Danish%20Refugee%20Council%20Jobs&advanced-search=%28S522%29"
+      },
+      {
+        "text": "Emergency Women’s Protection and Empowerment Coordinator, Global Surge",
+        "href": "https://reliefweb.int/job/4215923/emergency-womens-protection-and-empowerment-coordinator-global-surge"
+      },
+      {
+        "text": "IRC",
+        "href": "https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29"
+      },
+      {
+        "text": "oPt",
+        "href": "https://reliefweb.int/jobs?list=occupied%20Palestinian%20territory%20Jobs&advanced-search=%28C180%29"
+      },
+      {
+        "text": "Occupied Palestinian Territories : Consortium Project Developement Manager - Ramallah",
+        "href": "https://reliefweb.int/job/4215915/occupied-palestinian-territories-consortium-project-developement-manager-ramallah"
+      },
+      {
+        "text": "ACTED",
+        "href": "https://reliefweb.int/jobs?list=Agency%20for%20Technical%20Cooperation%20and%20Development%20Jobs&advanced-search=%28S823%29"
+      },
+      {
+        "text": "DR Congo",
+        "href": "https://reliefweb.int/jobs?list=Democratic%20Republic%20of%20the%20Congo%20Jobs&advanced-search=%28C75%29"
+      },
+      {
+        "text": "Supply Chain Assistant",
+        "href": "https://reliefweb.int/job/4215906/supply-chain-assistant"
+      },
+      {
+        "text": "IRC",
+        "href": "https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29"
+      },
+      {
+        "text": "Jordan",
+        "href": "https://reliefweb.int/jobs?list=Jordan%20Jobs&advanced-search=%28C129%29"
+      },
+      {
+        "text": "Senior Child Protection Case Management Specialist, oPt Country Program",
+        "href": "https://reliefweb.int/job/4215534/senior-child-protection-case-management-specialist-opt-country-program"
+      },
+      {
+        "text": "IRC",
+        "href": "https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29"
+      },
+      {
+        "text": "Kenya",
+        "href": "https://reliefweb.int/jobs?list=Kenya%20Jobs&advanced-search=%28C131%29"
+      },
+      {
+        "text": "Tupande Product Quality Supervisor",
+        "href": "https://reliefweb.int/job/4215902/tupande-product-quality-supervisor"
+      },
+      {
+        "text": "OAF",
+        "href": "https://reliefweb.int/jobs?list=One%20Acre%20Fund%20Jobs&advanced-search=%28S1646%29"
+      },
+      {
+        "text": "Current page 1",
+        "href": "?page=0"
+      },
+      {
+        "text": "Page 2",
+        "href": "?page=1"
+      },
+      {
+        "text": "Page 3",
+        "href": "?page=2"
+      },
+      {
+        "text": "Page 4",
+        "href": "?page=3"
+      },
+      {
+        "text": "Page 5",
+        "href": "?page=4"
+      },
+      {
+        "text": "Page 6",
+        "href": "?page=5"
+      },
+      {
+        "text": "Page 7",
+        "href": "?page=6"
+      },
+      {
+        "text": "Page 8",
+        "href": "?page=7"
+      },
+      {
+        "text": "Page 9",
+        "href": "?page=8"
+      },
+      {
+        "text": "Next page Next",
+        "href": "?page=1"
+      },
+      {
+        "text": "Last page Last",
+        "href": "?page=51"
+      },
+      {
+        "text": "RSS",
+        "href": "https://reliefweb.int/jobs/rss.xml"
+      },
+      {
+        "text": "API",
+        "href": "https://reliefweb.int/search/converter?appname=rwint-user-0&search-url=https%3A//reliefweb.int/jobs"
+      },
+      {
+        "text": "Subscribe",
+        "href": "https://reliefweb.int/help#subscriptions"
+      },
+      {
+        "text": "Blog",
+        "href": "https://reliefweb.int/blog"
+      },
+      {
+        "text": "Labs",
+        "href": "https://labs.reliefweb.int/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://reliefweb.int/about"
+      },
+      {
+        "text": "Terms",
+        "href": "https://reliefweb.int/terms-conditions"
+      },
+      {
+        "text": "Contact",
+        "href": "https://reliefweb.int/contact"
+      },
+      {
+        "text": "Facebook",
+        "href": "https://www.facebook.com/reliefweb"
+      },
+      {
+        "text": "X",
+        "href": "https://x.com/reliefweb"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/company/reliefweb"
+      },
+      {
+        "text": "Humanitarian Action",
+        "href": "https://humanitarianaction.info"
+      },
+      {
+        "text": "Central Emergency Response Fund",
+        "href": "https://cerf.un.org"
+      },
+      {
+        "text": "Financial Tracking Service",
+        "href": "https://fts.unocha.org/"
+      },
+      {
+        "text": "Humanitarian Data Exchange",
+        "href": "https://data.humdata.org/"
+      },
+      {
+        "text": "ReliefWeb Response",
+        "href": "https://response.reliefweb.int/"
+      },
+      {
+        "text": "Inter-Agency Standing Committee",
+        "href": "https://interagencystandingcommittee.org"
+      },
+      {
+        "text": "OCHA website",
+        "href": "https://unocha.org/"
+      },
+      {
+        "text": "ReliefWeb",
+        "href": "https://reliefweb.int/"
+      },
+      {
+        "text": "Virtual OSOCC",
+        "href": "https://vosocc.unocha.org/"
+      },
+      {
+        "text": "More OCHA Services Opens in a new window",
+        "href": "https://www.unocha.org/ocha-digital-services"
+      },
+      {
+        "text": "ReliefWeb's Terms & Conditions.",
+        "href": "https://reliefweb.int/terms-conditions"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://reliefweb.int/themes/custom/common_design_subtheme/img/logos/rw-logo-desktop.svg",
+        "alt": "ReliefWeb logo"
+      }
+    ],
+    "embedded_json": []
+  },
+  "tool_trace": [
+    {
+      "step": "local_http_server",
+      "serve_dir": "C:\\Users\\pc-mousannif\\Desktop\\Ismail\\WADE-BENCH\\data\\raw_snapshots\\jobs\\reliefweb_listing",
+      "http_url": "http://127.0.0.1:64551/page.safe.html",
+      "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/jobs/reliefweb_listing/page.safe.html"
+    },
+    {
+      "step": "list_tools",
+      "tool_names": [
+        "browser_close",
+        "browser_resize",
+        "browser_console_messages",
+        "browser_handle_dialog",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_type",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_take_screenshot",
+        "browser_snapshot",
+        "browser_click",
+        "browser_drag",
+        "browser_hover",
+        "browser_select_option",
+        "browser_tabs",
+        "browser_wait_for"
+      ]
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:64551/page.safe.html"
+      },
+      "output_preview": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:64551/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:64551/page.safe.html\n- Page Title: Jobs | ReliefWeb\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T14-47-37-835Z.yml)"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_snapshot",
+      "args": {},
+      "output_preview": "### Page\n- Page URL: http://127.0.0.1:64551/page.safe.html\n- Page Title: Jobs | ReliefWeb\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - link \"Skip to main content\" [ref=e2] [cursor=pointer]:\n    - /url: \"#main-content\"\n  - generic [ref=e4]:\n    - banner \"Site header\" [ref=e5]:\n      - generic [ref=e8]:\n        - navigation \"Help\" [ref=e9]:\n          - list [ref=e10]:\n            - listitem [ref=e11]:\n              - link \"Help\" [ref=e12] [cursor=pointer]:\n                - /url: https://reliefweb.int/help\n                - img [ref=e13]\n                - text: Help\n        - navigation \"Account\" [ref=e15]:\n          - link \"Log in\" [ref=e16] [cursor=pointer]:\n            - /url: https://reliefweb.int/user/login\n            - img [ref=e17]\n            - text: Log in\n      - generic [ref=e20]:\n        - link \"ReliefWeb\" [ref=e22] [cursor=pointer]:\n          - /url: https://reliefweb.int/\n          - img [ref=e23]\n          - text: ReliefWeb\n        - generic [ref=e24]:\n          - generic [ref=e25]:\n            - button \"Search\" [ref=e26]:\n              - img [ref=e27]\n              - text: Search\n            - search \"Content Search\" [ref=e29]:\n              - heading \"Content Search\" [level=2] [ref=e30]\n              - generic [ref=e32]:\n                - generic [ref=e33]:\n                  - text: What are you looking for?\n                  - textbox \"What are you looking for?\" [ref=e34]\n                - button \"Search|t\" [ref=e36]:\n                  - img [ref=e37]\n                  - text: Search|t\n          - navigation \"Main\" [ref=e40]:\n            - list [ref=e41]:\n              - listitem [ref=e42]:\n                - link \"Updates\" [ref=e43] [cursor=pointer]:\n                  - /url: https://reliefweb.int/updates\n              - listitem [ref=e44]:\n                - link \"Countries\" [ref=e45] [cursor=pointer]:\n                  - /url: https://reliefweb.int/countries\n              - listitem [ref=e46]:\n                - link \"Disasters\" [ref=e47] ["
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_take_screenshot",
+      "args": {},
+      "output_preview": "### Result\n- [Screenshot of viewport](.playwright-mcp\\page-2026-06-30T14-47-37-894Z.png)\n### Ran Playwright code\n```js\n// Screenshot viewport and save it as .playwright-mcp\\page-2026-06-30T14-47-37-894Z.png\nawait page.screenshot({\n  path: '.playwright-mcp\\\\page-2026-06-30T14-47-37-894Z.png',\n  scale: 'css',\n  type: 'png'\n});\n```\ntype='image' data='iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOz9D1Rcd4H//79vIMmQbSJ03ZqsunWQdDP8wC1s92iyif6anv66wpKfIaZuGWHX0rrGxH60DKgR67HGusKM+ummZldL6xd2ptq0ZA8sY7Wnqf6S0+jRzVRBJluQsW53g91a2FBhSAbu733/zT9mYEhCBe7zcTiTe9/zvu97ZxhyePH+c/NVVRUAAAAAAKx2awQAAAAAADZAAAYAAAAA2AIBGAAAAABgCwRgAAAAAIAtEIABAAAAALZAAAYAAAAA2AIBGAAAAABgCwRgAAAAAIAtEIABAAAAALZAAAYAAAAA2ML8ATjqKx9TFO2rtD0qei+4e5PKGyYzHDE8UaqM+4bFsqRdtvZCAAAAAAD2M18ADjZMeUT+iFqkqkV9IqrsmdGLZYyc8gxkOaZk46Ba2FQiliVHU3/RYLNDAAAAAADsZ54APOnvEnUPbHTqO87mQrUnT9+UMbLAWyaulmDDhaBY3SbdGXvLcxBpv7Bcu9MBAAAAYIWZJwCvqSwTgcMTkXhBzSZ/jbjKei9Ud4nVLdgwHRCXZXiiumVWAAAAAACuhnkCsKPpgTwxECtW5p0323vBmCRsTgnWdq0eXWNbmxWcVCFJsGFMH1Y9U514dtKtmLOOlfKk7J2gVZDXE2kf16vp842ta7CmKBtTkee2ox1r1cnUTpbTJWZBmxJToxMvNj4vOuVitMO1hN81Hb8864xJF6YdIi/AalYv16ptjYWF6tma7a0AAAAAACzCvItg1WxSh/JdQoRbplLiZZLg8RlXW4GqFqmdG7QgZ84T1vObEW73ij75bE+eDIFpQbqqs2ikTREir884XIuL06JHm3KsquvrZPZOD35ahYB+PdXCoaoF3jI9Hx7Pl4fIpqz+6qhvb0wYVyWvfyDW2ps4Nms7988dpZy4Htl4uCWqh2RtCnRHg964dqBM7zIDW/OiZdDVL6av3ug83+BX9eHi9etloew/l2+LfkZ9WnVFrNgIzNobJV9IVJxIXLA15lzxDhWp/eZAdAAAAADAZVvoNkjaolZFxuzfwJ60ruAZ2WPp35+0rJQMzOY8YS2/meHWCG81m2QmDHdemqcnM9J+MVCWf8QcZb3BL5samOlO6ZiVeXJ9nRAycusndbgq9GyphWfdgBrW/rEWu5LZUutETTlWl6mdObTrqV9vjPrW4qixuFfvRc9Antd8yY6mE/IPBDP+XmtetHUxrnIlQ4tisrVFNf6aoJg9w7Gg+abJoKu3X5KX6VoAAAAAAFdqngAc9bVbnaIypOk9meGWi4kFq7piss8zcDzX5Z2yZMKEcL+aeoDiEurZsLgcxhBorTM2HnoXLf16dJFzqZNy9bwaOpf7rZX0Hl01/rWpSgAAAAAAXg/z9gB3xpLWZ9anBCeTvZ1D+a45A5uz0fJkRd48Q3m1hJze5atUusTiTbq3xip6ihI9w5dFu57QTFqXtXObfMdkl29KYcW23G+tdLmRHgAAAABwZeYfAm1McDVEfYdnRH1+So9lycbBnjxrcmzcbDixa2XF4QlPl+K9Lz2R6nlSGL3NzuZ1dUL17DXn/Qbvj4Xr1132LYXNXtneWCBjeQ6ce/NcA7HqeL"
+    }
+  ]
+}

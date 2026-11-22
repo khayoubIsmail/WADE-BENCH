@@ -1,0 +1,562 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "url: https://www.century21.com/homes/list/city/ca/san-francisco"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2995000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "$2,995,000"
+          }
+        },
+        "address": {
+          "value": "160 Noe Street, San Francisco, CA 94114",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "160 Noe Street, San Francisco, CA 94114"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "@type: SingleFamilyResidence"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "numberOfBedrooms:3"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "numberOfBathroomsTotal:2"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2495,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "floorSize:{\"@type\":\"QuantitativeValue\",\"value\":2495,\"unitCode\":\"sq. ft.\"}"
+          }
+        },
+        "mls_number": {
+          "value": "426133204",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "MLS# 426133204"
+          }
+        },
+        "open_house_schedule": {
+          "value": [
+            {
+              "date": "2026-05-29",
+              "time_start": "15:00:00.000Z",
+              "time_end": "17:00:00.000Z"
+            }
+          ],
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "startDate:\"2026-05-29T15:00:00.000Z\",\"description\":\"To see this property in person, visit the Open house Friday, 3 to 5pm for 160 Noe Street, San Francisco, CA 94114.\""
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "RACHEL SWANN",
+            "provenance": {
+              "source": "embedded_json",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "organizer:{\"@type\":\"Person\",\"name\":\"RACHEL SWANN\"}"
+            }
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "organizer:{\"@type\":\"Person\",\"name\":\"RACHEL SWANN\"}"
+          }
+        }
+      },
+      "provenance": {
+        "source": "embedded_json",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Schema.org structured data for the first listing."
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "url: https://www.century21.com/homes/list/city/ca/san-francisco"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2195000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "offers:{\"@type\":\"Offer\",\"price\":2195000,\"priceCurrency\":\"USD\"}"
+          }
+        },
+        "address": {
+          "value": "487 Belvedere Street, San Francisco, CA 94117",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "address:{\"@type\":\"PostalAddress\",\"streetAddress\":\"487 Belvedere Street\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94117\"}"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "@type: SingleFamilyResidence"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "numberOfBedrooms:3"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "numberOfBathroomsTotal:3"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 1935,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "floorSize:{\"@type\":\"QuantitativeValue\",\"value\":1935,\"unitCode\":\"sq. ft.\"}"
+          }
+        },
+        "mls_number": {
+          "value": "426133814",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "MLS# 426133814"
+          }
+        },
+        "open_house_schedule": {
+          "value": [
+            {
+              "date": "2026-05-29",
+              "time_start": "16:30:00.000Z",
+              "time_end": "18:00:00.000Z"
+            }
+          ],
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "startDate:\"2026-05-29T16:30:00.000Z\",\"description\":\"To see this property in person, visit the Open house Friday, 4:30 to 6pm for 487 Belvedere Street, San Francisco, CA 94117.\""
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "RUTH KRISHNAN",
+            "provenance": {
+              "source": "embedded_json",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "organizer:{\"@type\":\"Person\",\"name\":\"RUTH KRISHNAN\"}"
+            }
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "organizer:{\"@type\":\"Person\",\"name\":\"RUTH KRISHNAN\"}"
+          }
+        }
+      },
+      "provenance": {
+        "source": "embedded_json",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Schema.org structured data for the second listing."
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "url: https://www.century21.com/homes/list/city/ca/san-francisco"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 749000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "offers:{\"@type\":\"Offer\",\"price\":749000,\"priceCurrency\":\"USD\"}"
+          }
+        },
+        "address": {
+          "value": "1360 9th Avenue #13, San Francisco, CA 94122",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "address:{\"@type\":\"PostalAddress\",\"streetAddress\":\"1360 9th Avenue #13\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94122\"}"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "@type: SingleFamilyResidence"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "numberOfBedrooms:2"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "numberOfBathroomsTotal:2"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 861,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "floorSize:{\"@type\":\"QuantitativeValue\",\"value\":861,\"unitCode\":\"sq. ft.\"}"
+          }
+        },
+        "mls_number": {
+          "value": "426134042",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "MLS# 426134042"
+          }
+        },
+        "open_house_schedule": {
+          "value": [
+            {
+              "date": "2026-05-29",
+              "time_start": "10:00:00.000Z",
+              "time_end": "13:00:00.000Z"
+            }
+          ],
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "startDate:\"2026-05-29T10:00:00.000Z\",\"description\":\"To see this property in person, visit the Open house Friday, 10am to 1pm for 1360 9th Avenue #13, San Francisco, CA 94122.\""
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "BRANDON TRAN",
+            "provenance": {
+              "source": "embedded_json",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "organizer:{\"@type\":\"Person\",\"name\":\"BRANDON TRAN\"}"
+            }
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "organizer:{\"@type\":\"Person\",\"name\":\"BRANDON TRAN\"}"
+          }
+        }
+      },
+      "provenance": {
+        "source": "embedded_json",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Schema.org structured data for the third listing."
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "url: https://www.century21.com/homes/list/city/ca/san-francisco"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2800000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "offers:{\"@type\":\"Offer\",\"price\":2800000,\"priceCurrency\":\"USD\"}"
+          }
+        },
+        "address": {
+          "value": "176 Castro Street, San Francisco, CA 94114",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "address:{\"@type\":\"PostalAddress\",\"streetAddress\":\"176 Castro Street\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94114\"}"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "@type: SingleFamilyResidence"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "numberOfBedrooms:3"
+          }
+        },
+        "bathrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "numberOfBathroomsTotal:4"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 3537,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "floorSize:{\"@type\":\"QuantitativeValue\",\"value\":3537,\"unitCode\":\"sq. ft.\"}"
+          }
+        },
+        "mls_number": {
+          "value": "426134300",
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "MLS# 426134300"
+          }
+        },
+        "open_house_schedule": {
+          "value": [
+            {
+              "date": "2026-05-29",
+              "time_start": "14:30:00.000Z",
+              "time_end": "18:00:00.000Z"
+            }
+          ],
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "startDate:\"2026-05-29T14:30:00.000Z\",\"description\":\"To see this property in person, visit the Open house Friday, 4:30 to 6pm for 176 Castro Street, San Francisco, CA 94114.\""
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "COMPASS",
+            "provenance": {
+              "source": "embedded_json",
+              "css_selector": null,
+              "xpath": null,
+              "bbox": null,
+              "text_quote": "organizer:{\"@type\":\"Person\",\"name\":\"COMPASS\"}"
+            }
+          },
+          "provenance": {
+            "source": "embedded_json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "organizer:{\"@type\":\"Person\",\"name\":\"COMPASS\"}"
+          }
+        }
+      },
+      "provenance": {
+        "source": "embedded_json",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Schema.org structured data for the fourth listing."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 85.884,
+    "input_tokens": 43172,
+    "output_tokens": 5090,
+    "total_tokens": 48262,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_CENTURY_21_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_CENTURY_21_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

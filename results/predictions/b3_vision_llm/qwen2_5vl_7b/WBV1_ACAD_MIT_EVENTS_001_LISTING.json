@@ -1,0 +1,110 @@
+{
+  "task_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Food Truck Wednesdays",
+        "event_start_date": "2026-05-27T14:30:00+01:00",
+        "event_end_date": "2026-05-27T19:00:00+01:00",
+        "location": "Building E23, Outside"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "event_name": "Book Discussion",
+        "event_start_date": "2026-05-27T14:30:00+01:00",
+        "event_end_date": "2026-05-28T05:00:00+01:00",
+        "location": "Virtual Event"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "event_name": "Thesis Defense - Skylar Kim",
+        "event_start_date": "2026-05-27T18:00:00+01:00",
+        "location": "Building 37, 212"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "event_name": "Softball vs. Colby College",
+        "event_start_date": "2026-05-28T06:00:00+01:00"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "event_name": "Baseball vs. Salve Regina",
+        "event_start_date": "2026-05-29T06:00:00+01:00"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "event_name": "Men's Lightweight Crew vs. IRA National Championship",
+        "event_start_date": "2026-05-29T06:00:00+01:00"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "event_name": "MIT Mobility Forum",
+        "event_start_date": "2026-05-29T17:00:00+01:00"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 12.477,
+    "input_tokens": 3935,
+    "output_tokens": 774,
+    "total_tokens": 4709,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_MIT_EVENTS_001_LISTING\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_MIT_EVENTS_001_LISTING\\tile_02.png"
+    ],
+    "error": null
+  }
+}

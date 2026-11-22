@@ -1,0 +1,77 @@
+{
+  "task_id": "WBV1_JOBS_GOOGLE_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Director, Business Intelligence",
+        "company_name": "Google",
+        "location": "Sunnyvale, CA, USA",
+        "salary_min": null,
+        "salary_max": 365000,
+        "salary_currency": "USD",
+        "salary_period": "YEAR",
+        "employment_type": "Director+",
+        "work_arrangement": "onsite",
+        "posted_date": null,
+        "application_deadline": null,
+        "expected_start_date": null,
+        "apply_url": "https://www.google.com/careers/jobs/1234567890",
+        "responsibilities": [
+          "Be the architect of an Intelligence pillar within Core StratOps. Provide technical outlook and strategy, leading the design and execution of multi-year technical roadmaps for complex project.",
+          "Develop the infrastructure for StratOps metrics and insights that materially enable Core leaders to develop high-velocity and high accuracy decision making.",
+          "Be responsible for joining and analyzing key data sets on engineering speed and developer experience to identify and lead initiatives that lead to measurable improvements in developer effectiveness and experience",
+          "Partner closely with cross-functional teams, including Product Management, Data Analytics, User Experience, and Technical Program Management, to understand needs, develop key metrics, and execute roadmaps."
+        ],
+        "qualifications": [
+          {
+            "qualification": "20 years of professional experience or 18 years with an advanced degree"
+          },
+          {
+            "qualification": "10 years of experience leading teams product management teams, working cross-functionally, and guiding data influenced planning, prioritization, and strategy development"
+          },
+          {
+            "qualification": "Experience in assessing and analyzing developer sentiment and subjective feedback regarding productivity and the overall developer experience"
+          },
+          {
+            "qualification": "Experience defining and translating engineering productivity metrics into insights and actions"
+          },
+          {
+            "qualification": "Experience working with multiple business stakeholders at various levels, aligning strategy with the business vision"
+          }
+        ],
+        "preferred_qualifications": [
+          "International experience working and influencing across geographic and functional boundaries. Experience navigating a dynamic, global, high transaction rate, and matrixed environments of large scale",
+          "Ability to initiative with a sense of urgency in driving execution"
+        ]
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 10.184,
+    "input_tokens": 7134,
+    "output_tokens": 538,
+    "total_tokens": 7672,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_GOOGLE_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_GOOGLE_002_DETAIL\\tile_02.png"
+    ],
+    "error": null
+  }
+}

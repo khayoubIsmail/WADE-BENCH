@@ -1,0 +1,28 @@
+{
+  "schema_id": "academic_paper_v1",
+  "domain": "academic/events/conferences",
+  "description": "Schema for academic paper records including author and publication information.",
+  "required_fields": [
+    "paper_title",
+    "authors",
+    "publication_year",
+    "venue",
+    "paper_url"
+  ],
+  "optional_fields": [
+    "doi",
+    "abstract",
+    "keywords",
+    "pdf_url",
+    "volume",
+    "issue",
+    "pages"
+  ],
+  "normalization_rules": {
+    "publication_year": "Convert to integer.",
+    "authors": "Format author names consistently (e.g., Lastname, Firstname).",
+    "doi": "Normalize DOI strings to lowercase and remove prefixes (e.g., 'doi:')."
+  },
+  "canonical_record_key": ["paper_title", "authors", "publication_year", "venue", "paper_url"],
+  "provenance_required": true
+}

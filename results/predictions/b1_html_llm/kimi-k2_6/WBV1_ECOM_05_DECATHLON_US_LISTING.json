@@ -1,0 +1,934 @@
+{
+  "task_id": "WBV1_ECOM_05_DECATHLON_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "product_name": "Quechua NH100 Arpenaz 10 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147?variant=40129897988158",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg?v=1712059796",
+        "price_raw": "$19.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Quechua",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Quechua NH100 Arpenaz 10 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147?variant=40129897988158"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg?v=1712059796"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$19.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Quechua"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "product_name": "Quechua NH100 Arpenaz 20 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-nh-arpenaz-100-20-l-hiking-backpack-301674?variant=40937260384318",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8731516-product_image-p2583621.jpg?v=1743794179",
+        "price_raw": "$12.00",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Quechua",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Quechua NH100 Arpenaz 20 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/quechua-nh-arpenaz-100-20-l-hiking-backpack-301674?variant=40937260384318"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8731516-product_image-p2583621.jpg?v=1743794179"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$12.00"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Quechua"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "product_name": "Quechua MH500 22L Lightweight Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-mh500-22l-lightweight-hiking-backpack-346030?variant=42539146018878",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8826304-default_4df97afb-dfeb-494b-9d3b-3d4597bc7fec.jpg?v=1772994875",
+        "price_raw": "$114.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Quechua",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Quechua MH500 22L Lightweight Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/quechua-mh500-22l-lightweight-hiking-backpack-346030?variant=42539146018878"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8826304-default_4df97afb-dfeb-494b-9d3b-3d4597bc7fec.jpg?v=1772994875"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$114.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Quechua"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "product_name": "Quechua NH50 Arpenaz 10 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-nh-arpenaz-50-10-l-hiking-backpack-301684?variant=41146126041150",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8502149-product_image-p2583201.jpg?v=1755813424",
+        "price_raw": "$9.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Quechua",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Quechua NH50 Arpenaz 10 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/quechua-nh-arpenaz-50-10-l-hiking-backpack-301684?variant=41146126041150"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8502149-product_image-p2583201.jpg?v=1755813424"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$9.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Quechua"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "product_name": "Kiprun Essential 5L Trail Running Hydration Vest -  1L Water Bladder Included",
+        "product_url": "https://www.decathlon.com/products/unisex-5l-black-trail-running-bag-with-1l-water-bladder-168331?variant=39962199228478",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8771848-product_image-p2398951.jpg?v=1744146528",
+        "price_raw": "$59.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Kiprun",
+        "category": "Water bag",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Kiprun Essential 5L Trail Running Hydration Vest -  1L Water Bladder Included"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/unisex-5l-black-trail-running-bag-with-1l-water-bladder-168331?variant=39962199228478"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8771848-product_image-p2398951.jpg?v=1744146528"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$59.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Kiprun"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Water bag\"]",
+          "text_quote": "Water bag"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "product_name": "Quechua MH500 25 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-25-l-hiking-backpack-mh500-blue-353060?variant=42534197690430",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8920370-QUECHUA_SAC_A_DOS_MH500_25L_VIOLET_CHARBON_SS26_PE26_-_8920370_-_001_---_Expires_on_30-04-2026.jpg?v=1772720033",
+        "price_raw": "$99.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Quechua",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Quechua MH500 25 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/quechua-25-l-hiking-backpack-mh500-blue-353060?variant=42534197690430"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8920370-QUECHUA_SAC_A_DOS_MH500_25L_VIOLET_CHARBON_SS26_PE26_-_8920370_-_001_---_Expires_on_30-04-2026.jpg?v=1772720033"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$99.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Quechua"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "product_name": "Quechua MH500 38 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-38-l-hiking-backpack-mh500-black-352976?variant=41695133433918",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8903407-product_image-p2861701.jpg?v=1744914368",
+        "price_raw": "$119.00",
+        "old_price_raw": "$119.00",
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Quechua",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Quechua MH500 38 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/quechua-38-l-hiking-backpack-mh500-black-352976?variant=41695133433918"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8903407-product_image-p2861701.jpg?v=1744914368"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$119.00"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .compare-at-price",
+          "text_quote": "$119.00"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Quechua"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "product_name": "Forclaz Travel 100 Compact Waterproof 20 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/compact-waterproof-20-liter-backpack-travel-100-309854?variant=31629361250366",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8560418-product_image-p2621816.jpg?v=1712057869",
+        "price_raw": "$29.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Forclaz",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Forclaz Travel 100 Compact Waterproof 20 L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/compact-waterproof-20-liter-backpack-travel-100-309854?variant=31629361250366"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8560418-product_image-p2621816.jpg?v=1712057869"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$29.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Forclaz"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "product_name": "Forclaz Ultra-Compact 10 L Backpack",
+        "product_url": "https://www.decathlon.com/products/forclaz-foldable-backpack-10l-travel-309861?variant=41695113183294",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8576231-product_image-p2604498.jpg?v=1744931523",
+        "price_raw": "$14.99",
+        "old_price_raw": "$19.99",
+        "discount_percentage": "25%",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Forclaz",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Forclaz Ultra-Compact 10 L Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/forclaz-foldable-backpack-10l-travel-309861?variant=41695113183294"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8576231-product_image-p2604498.jpg?v=1744931523"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price-item--sale",
+          "text_quote": "$14.99"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .compare-at-price",
+          "text_quote": "$19.99"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .product-badges__badge",
+          "text_quote": "Sale"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Forclaz"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "product_name": "Kiprun 5 L Trail Running Bag - 1 L Water Bladder Included",
+        "product_url": "https://www.decathlon.com/products/bag-trail-running-5l-blue-312059?variant=39972817993790",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8607680-product_image-p2713547.jpg?v=1758751193",
+        "price_raw": "$74.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Kiprun",
+        "category": "Water bag",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Kiprun 5 L Trail Running Bag - 1 L Water Bladder Included"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/bag-trail-running-5l-blue-312059?variant=39972817993790"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8607680-product_image-p2713547.jpg?v=1758751193"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$74.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Kiprun"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Water bag\"]",
+          "text_quote": "Water bag"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "product_name": "Quechua 100 Arpenaz 20L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-100-arpenaz-20l-hiking-backpack-368816?variant=42525728833598",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8955893-default_ce03d6a3-9d5b-4c5b-bce5-fe5b867491f9.jpg?v=1772665651",
+        "price_raw": "$32.99",
+        "old_price_raw": "$32.99",
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Quechua",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Quechua 100 Arpenaz 20L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/quechua-100-arpenaz-20l-hiking-backpack-368816?variant=42525728833598"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8955893-default_ce03d6a3-9d5b-4c5b-bce5-fe5b867491f9.jpg?v=1772665651"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$32.99"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .compare-at-price",
+          "text_quote": "$32.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Quechua"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "product_name": "Quechua 100 Arpenaz 27L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-100-arpenaz-27-l-hiking-backpack-380447?variant=42534242713662",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8999006-default_1b12f9ac-ae91-414e-a674-be013568663a.jpg?v=1772721273",
+        "price_raw": "$39.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Quechua",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Quechua 100 Arpenaz 27L Hiking Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/quechua-100-arpenaz-27-l-hiking-backpack-380447?variant=42534242713662"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8999006-default_1b12f9ac-ae91-414e-a674-be013568663a.jpg?v=1772721273"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$39.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Quechua"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "product_name": "Forclaz MT500 2L Water Bladder",
+        "product_url": "https://www.decathlon.com/products/forclaz-mt500-2l-water-bladder-306516?variant=40633927434302",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/8542253-product_image-p2618418.jpg?v=1712057453",
+        "price_raw": "$24.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Forclaz",
+        "category": "Water pouch",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "Forclaz MT500 2L Water Bladder"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/forclaz-mt500-2l-water-bladder-306516?variant=40633927434302"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/8542253-product_image-p2618418.jpg?v=1712057453"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$24.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Forclaz"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Water pouch\"]",
+          "text_quote": "Water pouch"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "product_name": "29L Rolltop Backpack",
+        "product_url": "https://www.decathlon.com/products/29l-rolltop-backpack?variant=42675468107838",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/default_3b1ecf29-2078-4d7e-af20-b388a03a9764.jpg?v=1775496347",
+        "price_raw": "$89.99",
+        "old_price_raw": "$89.99",
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Decathlon",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "29L Rolltop Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/29l-rolltop-backpack?variant=42675468107838"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/default_3b1ecf29-2078-4d7e-af20-b388a03a9764.jpg?v=1775496347"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$89.99"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .compare-at-price",
+          "text_quote": "$89.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Decathlon"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "product_name": "29L Rolltop Backpack",
+        "product_url": "https://www.decathlon.com/products/29l-rolltop-backpack-1?variant=42675469811774",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/default_356517bf-6867-4dc6-a736-69eddf1eaf18.jpg?v=1775496455",
+        "price_raw": "$89.99",
+        "old_price_raw": "$89.99",
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Decathlon",
+        "category": "Backpack",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "29L Rolltop Backpack"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/29l-rolltop-backpack-1?variant=42675469811774"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/default_356517bf-6867-4dc6-a736-69eddf1eaf18.jpg?v=1775496455"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$89.99"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .compare-at-price",
+          "text_quote": "$89.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Decathlon"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Backpack\"]",
+          "text_quote": "Backpack"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "product_name": "2 pocket Waterproof BumBag",
+        "product_url": "https://www.decathlon.com/products/2-pocket-waterproof-bumbag?variant=42675457622078",
+        "image_url": "https://www.decathlon.com/cdn/shop/files/default_0d7fb7f8-f7a6-4c4d-8b84-b3e66c14e190.jpg?v=1775495660",
+        "price_raw": "$29.99",
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Decathlon",
+        "category": "Belt bag",
+        "currency": "USD"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card .text-block p",
+          "text_quote": "2 pocket Waterproof BumBag"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card a.product-card__link",
+          "text_quote": "/products/2-pocket-waterproof-bumbag?variant=42675457622078"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card img.product-media__image",
+          "text_quote": "https://www.decathlon.com/cdn/shop/files/default_0d7fb7f8-f7a6-4c4d-8b84-b3e66c14e190.jpg?v=1775495660"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-price .price",
+          "text_quote": "$29.99"
+        },
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card product-swatches script",
+          "text_quote": "Decathlon"
+        },
+        "category": {
+          "source": "page.html",
+          "css_selector_or_xpath": "facets checkbox input[value=\"Belt bag\"]",
+          "text_quote": "Belt bag"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:site_name\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 187.306,
+    "input_tokens": 190257,
+    "output_tokens": 6933,
+    "total_tokens": 197190,
+    "initial_input_tokens": 190257,
+    "initial_output_tokens": 6933,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

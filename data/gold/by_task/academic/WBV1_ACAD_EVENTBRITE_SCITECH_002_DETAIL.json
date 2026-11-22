@@ -1,0 +1,143 @@
+{
+  "task_id": "WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL",
+  "website_id": "eventbrite_scitech",
+  "schema_id": "academic_event_v1",
+  "snapshot_id": "eventbrite_scitech_detail_sample",
+  "snapshot_path": "raw_snapshots/academic/eventbrite_scitech_detail_sample",
+  "live_url": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL_001",
+      "fields": {
+        "event_name": {
+          "value": "Get Started: Algo & Bot Trading 101",
+          "normalized": "Get Started: Algo & Bot Trading 101"
+        },
+        "event_start_date": {
+          "value": "Thursday, June 4",
+          "normalized": "2026-06-04"
+        },
+        "event_end_date": {
+          "value": "Friday, June 5",
+          "normalized": "2026-06-05"
+        },
+        "event_start_time": {
+          "value": "11:30 PM",
+          "normalized": "11:30 PM"
+        },
+        "event_end_time": {
+          "value": "12:30 AM GMT+1",
+          "normalized": "12:30 AM"
+        },
+        "location": {
+          "value": "Online event",
+          "normalized": "Online event"
+        },
+        "event_url": {
+          "value": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472",
+          "normalized": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472"
+        },
+        "description": {
+          "value": "Learn the fundamentals of algorithmic trading in one hands-on session — no coding required. We'll walk you through how it works.",
+          "normalized": "Learn the fundamentals of algorithmic trading in one hands-on session — no coding required. We'll walk you through how it works."
+        },
+        "organizer": {
+          "value": "Matt DeLong",
+          "normalized": "Matt DeLong"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "eventbrite_scitech_detail_sample",
+          "css_selector": "[id='listing-body'] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "xpath": "//*[@id='listing-body']/div[2]/div[1]/div[1]/main[1]/div[1]/h1[1]",
+          "text_quote": "Get Started: Algo & Bot Trading 101",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div[2]/div[2]/div[1]/div/main/div[1]/h1",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "eventbrite_scitech_detail_sample",
+          "css_selector": "[id='listing-body'] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > time:nth-of-type(1)",
+          "xpath": "//*[@id='listing-body']/div[2]/div[1]/div[1]/main[1]/div[1]/div[2]/div[1]/time[1]",
+          "text_quote": "Thursday, June 4",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div[2]/div[2]/div[1]/div/main/div[1]/div[2]/div/time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > time:nth-of-type(1)"
+        },
+        "event_end_date": {
+          "snapshot_id": "eventbrite_scitech_detail_sample",
+          "css_selector": "[id='listing-body'] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > time:nth-of-type(1)",
+          "xpath": "//*[@id='listing-body']/div[2]/div[1]/div[1]/main[1]/div[1]/div[2]/div[1]/time[1]",
+          "text_quote": "Friday, June 5",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div[2]/div[2]/div[1]/div/main/div[1]/div[2]/div/time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > time:nth-of-type(1)"
+        },
+        "event_start_time": {
+          "snapshot_id": "eventbrite_scitech_detail_sample",
+          "css_selector": "[id='listing-body'] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > time:nth-of-type(1)",
+          "xpath": "//*[@id='listing-body']/div[2]/div[1]/div[1]/main[1]/div[1]/div[2]/div[1]/time[1]",
+          "text_quote": "11:30 PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div[2]/div[2]/div[1]/div/main/div[1]/div[2]/div/time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > time:nth-of-type(1)"
+        },
+        "event_end_time": {
+          "snapshot_id": "eventbrite_scitech_detail_sample",
+          "css_selector": "[id='listing-body'] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > time:nth-of-type(1)",
+          "xpath": "//*[@id='listing-body']/div[2]/div[1]/div[1]/main[1]/div[1]/div[2]/div[1]/time[1]",
+          "text_quote": "12:30 AM GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div[2]/div[2]/div[1]/div/main/div[1]/div[2]/div/time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > time:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "eventbrite_scitech_detail_sample",
+          "css_selector": "[id='related-events'] > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(1)",
+          "xpath": "//*[@id='related-events']/section[1]/div[1]/div[1]/a[1]/div[1]/div[3]/p[1]",
+          "text_quote": "Online event",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div[2]/div[2]/div[1]/div/div[2]/section/div[1]/div/a/div/div[3]/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "eventbrite_scitech_detail_sample",
+          "css_selector": "[id='__next'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='__next']/div[1]/div[1]/div[1]/div[1]/header[1]/nav[1]/div[1]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div/div[1]/div/div/header/nav/div/div[1]/a[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "description": {
+          "snapshot_id": "eventbrite_scitech_detail_sample",
+          "css_selector": "[id='listing-body'] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='listing-body']/div[2]/div[1]/div[1]/main[1]/div[2]/div[2]/div[1]/p[1]",
+          "text_quote": "Learn the fundamentals of algorithmic trading in one hands-on session — no coding required. We'll walk you through how i",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div[2]/div[2]/div[1]/div/main/div[2]/div[2]/div/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "organizer": {
+          "snapshot_id": "eventbrite_scitech_detail_sample",
+          "css_selector": "[id='listing-body'] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='listing-body']/div[2]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]",
+          "text_quote": "Matt DeLong",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div[2]/div[2]/div[1]/div/main/div[1]/div[1]/div/div[1]/div[2]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

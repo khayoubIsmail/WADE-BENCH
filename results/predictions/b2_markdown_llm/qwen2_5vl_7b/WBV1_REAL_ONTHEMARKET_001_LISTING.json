@@ -1,0 +1,72 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "/for-sale/property/london/?modal=sign-in",
+        "price": {
+          "amount": 395000,
+          "currency_code": "GBP",
+          "currency_symbol": "£"
+        },
+        "address": "White Horse Road, East Ham, London, E6",
+        "property_type": "Terraced",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "tenure": "Freehold Chain free",
+        "floor_area": {
+          "value": "105.8 sq m",
+          "unit": "sqm"
+        },
+        "listing_title": "Terraced house 3 bedrooms Spacious through lounge Bairstow Eves - East Ham Reduced < 14 days Email 020 4645 2354",
+        "listing_agent_name": null,
+        "listing_office": null
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "/for-sale/property/london/?modal=sign-in",
+        "price": {
+          "amount": 300000,
+          "currency_code": "GBP",
+          "currency_symbol": "£"
+        },
+        "address": "18 Brumwell Avenue, Woolwich",
+        "property_type": "Flats / apartments",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "tenure": "Leasehold (118 years remaining)",
+        "floor_area": {
+          "value": "30.5 sq ft / 9 m²",
+          "unit": "ft2"
+        },
+        "listing_title": "Apartment 2 bedrooms Two Balconies Modern Apartment Felicity J. Lord - Blackheath Added today Email 020 8022 7076",
+        "listing_agent_name": null,
+        "listing_office": null
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 30.425,
+    "input_tokens": 36984,
+    "output_tokens": 1253,
+    "total_tokens": 38237,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

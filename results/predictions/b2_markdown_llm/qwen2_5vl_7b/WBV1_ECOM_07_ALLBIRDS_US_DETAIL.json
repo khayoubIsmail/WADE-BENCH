@@ -1,0 +1,41 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Allbirds",
+        "description": "Men's Canvas Cruiser Sneakers | Lightweight Everyday Comfort | Allbirds",
+        "image_urls": [
+          "https://www.allbirds.com/cdn/shop/files/26Q1_DasherNZ_Site_Navigation_HalfTile_Men_Desktop-Mobile_3x2_6e3e608c-ee7b-4873-9be1-a206271b0aa0.jpg?v=1769632125&width=400"
+        ],
+        "price_raw": "$75",
+        "product_name": "Men's Canvas Cruiser",
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas",
+        "rating": 4,
+        "review_count": 29
+      },
+      "provenance": {
+        "url": "https://allbirds.com/products/mens-cruiser-canvas",
+        "snapshot_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Men's Canvas Cruiser The Cruiser Canvas fits true-to-size for most customers. Average Width Runs Slightly Wide Our Shoes are Unisex If you wear a women's size 11.5-12, try a men's size 10.5-11. If you wear a men's size 7-7.5, try a women's size 8-8.5."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 10.039,
+    "input_tokens": 19740,
+    "output_tokens": 358,
+    "total_tokens": 20098,
+    "repaired": false,
+    "error": null
+  }
+}

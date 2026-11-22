@@ -1,0 +1,56 @@
+{
+  "task_id": "WBV1_ACAD_10TIMES_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2026-06-27",
+        "event_name": "Plastprintpack Ethiopia",
+        "event_start_date": "2026-06-25",
+        "event_url": "https://10times.com/plast-packprint-ethiopia",
+        "location": "Addis Ababa, Addis Ababa, Ethiopia"
+      },
+      "provenance": {
+        "event_end_date": {
+          "value": "27-Jun-2026",
+          "source": "meta name=\"description\""
+        },
+        "event_name": {
+          "value": "Plastprintpack Ethiopia",
+          "source": "og:title meta content"
+        },
+        "event_start_date": {
+          "value": "25th June",
+          "source": "meta name=\"description\""
+        },
+        "event_url": {
+          "value": "https://10times.com/plast-packprint-ethiopia",
+          "source": "link href=\"https://10times.com/plast-packprint-ethiopia\" rel=\"canonical\" meta content"
+        },
+        "location": {
+          "value": "Addis Ababa, Addis Ababa, Ethiopia",
+          "source": "meta name=\"description\""
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 8.788,
+    "input_tokens": 22986,
+    "output_tokens": 363,
+    "total_tokens": 23349,
+    "initial_input_tokens": 22986,
+    "initial_output_tokens": 363,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

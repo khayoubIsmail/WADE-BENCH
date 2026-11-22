@@ -1,0 +1,242 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3201084037",
+          "provenance": {
+            "source": "metadata.json",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "https://www.leboncoin.fr/ad/ventes_immobilieres/3201084037"
+          }
+        },
+        "address": {
+          "value": "Châtillon (92320) Quartier Vieux Bourg - Malraux",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Châtillon (92320)\nQuartier Vieux Bourg - Malraux"
+          }
+        },
+        "listing_title": {
+          "value": "Appartement 3 pièces 43 m²",
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Appartement 3 pièces 43 m²"
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Appartement"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 269000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "269<0xE2><0x80><0xAF>000<0xC2><0xA0>€"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "3 pièces"
+          }
+        },
+        "bathrooms": {
+          "value": 1,
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Nombre de salles d'eau\n\n1"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "amount": 43,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "43 m²"
+          }
+        },
+        "rooms": {
+          "value": 3,
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Nombre de pièces\n\n3"
+          }
+        },
+        "energy_rating": {
+          "value": "A",
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Classe énergie\n\nA"
+          }
+        },
+        "description": {
+          "value": "Appartement 3 pièces 43 m² EXCLUSIVITE ACOR IMMOBILIER ! Votre Agence ACOR IMMOBILIER vous propose au pied du Tramway T6 PARC ANDRE MALRAUX, des commerces et du Centre Ville, des écoles, dans une copropriété avec le Charme de l'ancien en Molière, un appartement 2/3 pièces de 43 m2 en double exposition comprenant: une entrée, un séjour exposé plein Sud, une cuisine aménagée et équipée, une chambre , une bureau (ou petite chambre d'enfant), une salle d'eau, un wc séparé. Cet appartement en parf…",
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "\"Appartement 3 pièces 43 m² EXCLUSIVITE ACOR IMMOBILIER ! Votre Agence ACOR IMMOBILIER vous propose au pied du Tramway T6 PARC ANDRE MALRAUX, des commerces et du Centre Ville, des écoles, dans une copropriété avec le Charme de l'ancien en Molière, un appartement 2/3 pièces de 43 m2 en double exposition comprenant: une entrée, un séjour exposé plein Sud, une cuisine aménagée et équipée, une chambre , une bureau (ou petite chambre d'enfant), une salle d'eau, un wc séparé. Cet appartement en parf…\""
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-thumb",
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-large",
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/02/66/1c0266d6e8f7a01caf49fc78d3f635ef4b258059.jpg?rule=ad-large",
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/0b/42/580b42b80c2c771bd2f8fab8fa4d88b813ac0487.jpg?rule=ad-large"
+          ],
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Images sources found in page.html signals."
+          }
+        },
+        "listing_office": {
+          "value": "ACOR IMMOBILIER",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "ACOR IMMOBILIER"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ACOR IMMOBILIER",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "ACOR IMMOBILIER"
+          }
+        },
+        "listing_agent_logo": {
+          "value": "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-thumb",
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Logo image source."
+          }
+        },
+        "listing_agent_phone": null,
+        "parking": {
+          "value": null,
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "No explicit parking info found."
+          }
+        },
+        "additional_facilities": {
+          "value": [
+            "Cuisine équipée",
+            "Cave",
+            "Interphone"
+          ],
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Caractéristiques\n\nCuisine équipée, Cave, Interphone"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "visible_text",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "24 mai 2026"
+          }
+        },
+        "key_features": {
+          "value": [],
+          "provenance": {
+            "source": "page.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "No explicit key features found."
+          }
+        }
+      },
+      "provenance": {
+        "source": "mixed",
+        "selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Extracted from multiple sources (page.html, text.txt, metadata.json)."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 46.032,
+    "input_tokens": 28489,
+    "output_tokens": 2497,
+    "total_tokens": 30986,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_LEBONCOIN_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_LEBONCOIN_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

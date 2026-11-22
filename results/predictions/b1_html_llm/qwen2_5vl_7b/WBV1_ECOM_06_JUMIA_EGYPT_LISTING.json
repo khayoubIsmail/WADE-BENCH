@@ -1,0 +1,44 @@
+{
+  "task_id": "WBV1_ECOM_06_JUMIA_EGYPT_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "id": "wb",
+        "data": {
+          "field": "text",
+          "value": "Jumia Express"
+        },
+        "timestamp": "2023-10-05T16:49:58.742Z",
+        "type": "record",
+        "attributes": {
+          "sourceSystem": "web",
+          "domain": "https://www.jumia.com.eg/smartphones/",
+          "instance": "https://www.jumia.com.eg/sp-s-103596842794.html"
+        },
+        "index": 1,
+        "level": 1
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 37.919,
+    "input_tokens": 73356,
+    "output_tokens": 230,
+    "total_tokens": 73586,
+    "initial_input_tokens": 73356,
+    "initial_output_tokens": 230,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

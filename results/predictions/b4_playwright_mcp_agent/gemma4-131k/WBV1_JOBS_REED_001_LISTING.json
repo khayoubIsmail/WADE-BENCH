@@ -1,0 +1,148 @@
+{
+  "task_id": "WBV1_JOBS_REED_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": {
+          "value": "Senior Developer",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "h2:nth-child(3)",
+            "xpath": "//h2[contains(text(), 'Senior Developer')]",
+            "bbox": [
+              146,
+              509,
+              167,
+              682
+            ],
+            "text_quote": "Senior Developer"
+          }
+        },
+        "job_url": {
+          "value": "https://www.reed.co.uk/jobs/senior-developer/56875053?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+          "provenance": {
+            "source": "page.html",
+            "css_selector": "a[href*='56875053']",
+            "xpath": "//a[contains(@href, '56875053')]",
+            "bbox": [
+              147,
+              529,
+              167,
+              682
+            ],
+            "text_quote": "Senior Developer"
+          }
+        },
+        "company_name": {
+          "value": "Reed",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='p40693']",
+            "xpath": "//a[contains(@href, 'p40693')]",
+            "bbox": [
+              148,
+              529,
+              167,
+              612
+            ],
+            "text_quote": "Reed"
+          }
+        },
+        "location": {
+          "value": "London",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "div:nth-child(3) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'listitem')][2]//text()",
+            "bbox": [
+              154,
+              529,
+              173,
+              608
+            ],
+            "text_quote": "London"
+          }
+        },
+        "salary": {
+          "value": {
+            "min_amount": 90000,
+            "max_amount": null,
+            "currency": "GBP",
+            "period": "YEAR"
+          },
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "div:nth-child(1) > div:nth-child(1)",
+            "xpath": "//div[contains(@class, 'listitem')][1]//text()",
+            "bbox": [
+              152,
+              529,
+              173,
+              608
+            ],
+            "text_quote": "£90,000 per annum"
+          }
+        },
+        "employment_type": {
+          "value": "Permanent, full-time",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "div:nth-child(1) > div:nth-child(3)",
+            "xpath": "//div[contains(@class, 'listitem')][3]//text()",
+            "bbox": [
+              157,
+              529,
+              176,
+              608
+            ],
+            "text_quote": "Permanent, full-time"
+          }
+        },
+        "posted_date": {
+          "value": "2026-06-14",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "div:nth-child(1) > div:nth-child(4)",
+            "xpath": "//div[contains(@class, 'listitem')][4]//text()",
+            "bbox": [
+              148,
+              529,
+              167,
+              608
+            ],
+            "text_quote": "4 days ago by"
+          }
+        },
+        "job_description": {
+          "value": null,
+          "provenance": {
+            "source": null,
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 124.138,
+    "input_tokens": 37592,
+    "output_tokens": 8192,
+    "total_tokens": 45784,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_REED_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_REED_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

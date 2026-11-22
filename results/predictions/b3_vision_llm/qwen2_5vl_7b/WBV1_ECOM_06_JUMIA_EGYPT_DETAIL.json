@@ -1,0 +1,50 @@
+{
+  "task_id": "WBV1_ECOM_06_JUMIA_EGYPT_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Honor",
+        "description": "The X6c 6.61* 6GB RAM/256GB ROM Android 15-4G - Ocean Cyan brings cutting-edge technology and premium design together in one powerful device. Engineered by Honor, this smartphone delivers exceptional performance for both daily tasks and demanding applications.\n\nExperience seamless multitasking and stunning visuals with its impressive display and responsive performance. The device features 6.61-inch TFT LCD 120Hz, Mediatek Helio G81 Ultra chipset, 50MP main camera, ensuring you stay productive and entertained throughout the day. Whether you're capturing memories, streaming content, or staying connected, this smartphone delivers reliability and speed in a sleek package.",
+        "image_urls": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg"
+        ],
+        "price_raw": "EGP 8,399.00",
+        "product_name": "X6c 6.61* 6GB RAM/256GB ROM Android 15-4G - Ocean Cyan",
+        "product_url": "https://example.com/product/x6c-6gb-ram-256gb-rom-android-15-4g-ocean-cyan",
+        "rating": "4.3",
+        "review_count": "42"
+      },
+      "provenance": {
+        "url": "https://example.com/product/x6c-6gb-ram-256gb-rom-android-15-4g-ocean-cyan",
+        "snapshot_id": "data/raw_snapshots/ecommerce/jumia_egypt_detail_sample",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Honor X6c 6.61* 6GB RAM/256GB ROM Android 15-4G - Ocean Cyan"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 7.888,
+    "input_tokens": 3582,
+    "output_tokens": 448,
+    "total_tokens": 4030,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_06_JUMIA_EGYPT_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_06_JUMIA_EGYPT_DETAIL\\tile_02.png"
+    ],
+    "error": null
+  }
+}

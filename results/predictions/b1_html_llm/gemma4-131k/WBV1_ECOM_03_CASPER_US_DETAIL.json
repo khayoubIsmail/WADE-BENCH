@@ -1,0 +1,151 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Casper",
+        "description": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love.",
+        "image_urls": [
+          "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=2048",
+          "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?crop=center&height=1200&v=1773690918&width=1200",
+          "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=1920"
+        ],
+        "price_raw": "999.00",
+        "product_name": "The One - Queen",
+        "product_url": "https://casper.com/products/casper-one-foam?variant=41670971261009",
+        "rating": null,
+        "review_count": null,
+        "availability": "InStock",
+        "color": null,
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918&width=2048",
+        "shipping_text": null,
+        "size_or_volume": "Queen",
+        "sku": "CASPRONEMATQUEEN",
+        "available_colors": null,
+        "available_sizes": [
+          "Twin",
+          "Twin XL",
+          "Full",
+          "Queen",
+          "King",
+          "California King",
+          "Split King"
+        ],
+        "color_name": null,
+        "currency": "USD",
+        "first_review_content": null,
+        "first_review_details": null,
+        "first_review_rating": null,
+        "first_review_text": null,
+        "first_review_title": null,
+        "fit": null,
+        "foam_model": null,
+        "key_features": null,
+        "material": null,
+        "materials": null,
+        "measurements": null,
+        "old_price_raw": null,
+        "price": 999.0,
+        "selected_width": "Queen",
+        "seller_name": null,
+        "shipping_info": null,
+        "short_description": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love.",
+        "style_color": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "schema.org/ProductGroup",
+          "selector": "script[type='application/ld+json']",
+          "quote": "\"@type\":\"ProductGroup\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Casper\"}\""
+        },
+        "description": {
+          "source": "og:description",
+          "selector": "meta[property='og:description']",
+          "quote": "Our all-in-one solution for better sleep. Discover affordable foam mattresses no matter your budget with the One. Shop today!"
+        },
+        "image_urls": {
+          "source": "schema.org/ProductGroup",
+          "selector": "script[type='application/ld+json']",
+          "quote": "\"image\":\"https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918\\u0026width=1920\""
+        },
+        "price_raw": {
+          "source": "meta property",
+          "selector": "meta[content='999.00' property='product:price:amount']",
+          "quote": "999.00"
+        },
+        "product_name": {
+          "source": "schema.org/ProductGroup",
+          "selector": "script[type='application/ld+json']",
+          "quote": "\"name\":\"The One\""
+        },
+        "product_url": {
+          "source": "meta property",
+          "selector": "meta[content='https://casper.com/products/casper-one-foam' property='og:url']",
+          "quote": "https://casper.com/products/casper-one-foam"
+        },
+        "rating": {
+          "source": null,
+          "selector": null,
+          "quote": null
+        },
+        "review_count": {
+          "source": null,
+          "selector": null,
+          "quote": null
+        },
+        "availability": {
+          "source": "schema.org/Offer",
+          "selector": "script[type='application/ld+json']",
+          "quote": "\"@id\":\"/products/casper-one-foam?variant=41670971261009#offer\",\"@type\":\"Offer\",\"availability\":\"http://schema.org/InStock\""
+        },
+        "size_or_volume": {
+          "source": "schema.org/Product",
+          "selector": "script[type='application/ld+json']",
+          "quote": "\"name\":\"The One - Queen\""
+        },
+        "sku": {
+          "source": "schema.org/Offer",
+          "selector": "script[type='application/ld+json']",
+          "quote": "\"sku\":\"CASPRONEMATQUEEN\""
+        },
+        "available_sizes": {
+          "source": "script tag (JSON-LD)",
+          "selector": "script[type='application/ld+json']",
+          "quote": "The One - Twin, The One - Twin XL, The One - Full, The One - Queen, The One - King, The One - California King, The One - Split King"
+        },
+        "currency": {
+          "source": "meta property",
+          "selector": "meta[content='USD' property='product:price:currency']",
+          "quote": "USD"
+        },
+        "price": {
+          "source": "schema.org/Offer",
+          "selector": "script[type='application/ld+json']",
+          "quote": "\"price\":\"999.00\""
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 23.471,
+    "input_tokens": 15771,
+    "output_tokens": 1662,
+    "total_tokens": 17433,
+    "initial_input_tokens": 15771,
+    "initial_output_tokens": 1662,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

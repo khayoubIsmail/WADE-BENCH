@@ -1,0 +1,42 @@
+{
+  "task_id": "WBV1_JOBS_RELIEFWEB_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Medical Doctor Gaza",
+        "company_name": "CADUS e.V.",
+        "location": "Gaza, Palestine",
+        "job_url": "https://reliefweb.int/job/4215856/medical-doctor-gaza",
+        "posted_date": "2026-06-11",
+        "application_deadline": "2026-06-14",
+        "country": "Palestine",
+        "provenance": {
+          "job_title": "Medical Doctor Gaza",
+          "job_url": "https://reliefweb.int/job/4215856/medical-doctor-gaza",
+          "company_name": "CADUS e.V.",
+          "location": "Gaza, Palestine",
+          "posted_date": "11 Jun 2026",
+          "application_deadline": "14 Jun 2026",
+          "text_quote": "oPt Medical Doctor Gaza Organization CADUS e.V. Posted 11 Jun 2026 Closing date 14 Jun 2026"
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 76.755,
+    "input_tokens": 16980,
+    "output_tokens": 5987,
+    "total_tokens": 22967,
+    "repaired": false,
+    "error": null
+  }
+}

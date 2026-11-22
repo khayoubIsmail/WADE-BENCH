@@ -1,0 +1,36 @@
+{
+  "task_id": "WBV1_ACAD_UNESCO_EVENTS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Thought Leaders Series with Lê Nguyên Hoang | UNESCO",
+        "event_start_date": "2026-05-05T18:00:00Z",
+        "event_end_date": "2026-05-05T20:00:00Z",
+        "location": "UNESCO Headquarters, Paris, France",
+        "event_url": "https://forms.office.com/e/ynuPusv12d"
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "text_quote": "Join us for the next session of the Thought Leaders Series featuring Lê Nguyên Hoang on 05 May 2026, expert on Artificial Intelligence and CEO of Tournesol and Science4All."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 10.695,
+    "input_tokens": 17314,
+    "output_tokens": 208,
+    "total_tokens": 17522,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_UNESCO_EVENTS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_UNESCO_EVENTS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

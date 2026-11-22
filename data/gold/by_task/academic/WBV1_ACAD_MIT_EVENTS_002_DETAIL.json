@@ -1,0 +1,261 @@
+{
+  "task_id": "WBV1_ACAD_MIT_EVENTS_002_DETAIL",
+  "website_id": "mit_events",
+  "schema_id": "academic_event_v1",
+  "snapshot_id": "mit_events_detail_sample",
+  "snapshot_path": "raw_snapshots/academic/mit_events_detail_sample",
+  "live_url": "https://calendar.mit.edu/event/food-truck-wednesdays",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_002_DETAIL_001",
+      "fields": {
+        "event_name": {
+          "value": "Food Truck Wednesdays",
+          "normalized": "Food Truck Wednesdays"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/food-truck-wednesdays",
+          "normalized": "https://calendar.mit.edu/event/food-truck-wednesdays"
+        },
+        "event_start_date": {
+          "value": "Wednesday, June 3, 2026 4:30pm GMT+1",
+          "normalized": "06-03-2026; 16:30"
+        },
+        "event_end_date": {
+          "value": "Wednesday, June 3, 2026 7:00pm GMT+1",
+          "normalized": "06-03-2026; 19:00"
+        },
+        "location": {
+          "value": "Building E23, Outside, 25 CARLETON ST, Cambridge, MA 02142",
+          "normalized": "Building E23, Outside, 25 CARLETON ST, Cambridge, MA 02142"
+        },
+        "description": {
+          "value": "Enjoy a selection of local food trucks every Wednesday in the Kendall/MIT Open Space, with plenty of outdoor seating options available! Please check this page for an up-to-date lineup each week.",
+          "normalized": "Enjoy a selection of local food trucks every Wednesday in the Kendall/MIT Open Space, with plenty of outdoor seating options available! Please check this page for an up-to-date lineup each week."
+        },
+        "organizer": {
+          "value": "MIT Open Space Programming",
+          "normalized": "MIT Open Space Programming"
+        },
+        "event_type": {
+          "value": "Community Event",
+          "normalized": "community event"
+        },
+        "website": {
+          "value": "https://www.openspace.mit.edu/foodtrucks-2026",
+          "normalized": "https://www.openspace.mit.edu/foodtrucks-2026"
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/52577676356373/card/89bb992c50db17ea8d68c85018923f58d7fddbdc.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/52577676356373/card/89bb992c50db17ea8d68c85018923f58d7fddbdc.jpg"
+        },
+        "cost": {
+          "value": null,
+          "normalized": null
+        },
+        "registration_url": {
+          "value": null,
+          "normalized": null
+        },
+        "contact": {
+          "value": "openspace@mit.edu",
+          "normalized": "openspace@mit.edu"
+        },
+        "accessibility": {
+          "value": "We are committed to creating an inclusive, accessible environment here on our website and in-person in the open space. If you would like to request a disability-related accommodation, please contact us at openspace@mit.edu.",
+          "normalized": "We are committed to creating an inclusive, accessible environment here on our website and in-person in the open space. If you would like to request a disability-related accommodation, please contact us at openspace@mit.edu."
+        },
+        "other_dates": [
+          {
+            "value": "Wednesday, June 10, 2026 4:30pm to 7:00pm GMT+1",
+            "normalized": "06-10-2026"
+          },
+          {
+            "value": "Wednesday, June 17, 2026 4:30pm to 7:00pm GMT+1",
+            "normalized": "06-17-2026"
+          },
+          {
+            "value": "Wednesday, June 24, 2026 4:30pm to 7:00pm GMT+1",
+            "normalized": "06-24-2026"
+          },
+          {
+            "value": "Wednesday, July 1, 2026 4:30pm to 7:00pm GMT+1",
+            "normalized": "07-01-2026"
+          },
+          {
+            "value": "Wednesday, July 8, 2026 4:30pm to 7:00pm GMT+1",
+            "normalized": "07-08-2026"
+          },
+          {
+            "value": "Wednesday, July 15, 2026 4:30pm to 7:00pm GMT+1",
+            "normalized": "07-15-2026"
+          },
+          {
+            "value": "Wednesday, July 22, 2026 4:30pm to 7:00pm GMT+1",
+            "normalized": "07-22-2026"
+          },
+          {
+            "value": "Wednesday, July 29, 2026 4:30pm to 7:00pm GMT+1",
+            "normalized": "07-29-2026"
+          }
+        ]
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "body > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "xpath": "//body/div[4]/div[2]/div/div[1]/h1",
+          "text_quote": "Food Truck Wednesdays",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div[2]/div/div[1]/h1",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "[id='em-buttons-item'] > a:nth-of-type(2)",
+          "xpath": "//*[@id='em-buttons-item']/a[2]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[5]/div[1]/div[1]/div/div/a[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "em-local-time[start='2026-06-03T11:30:00-04:00']",
+          "xpath": "//em-local-time[@start='2026-06-03T11:30:00-04:00']",
+          "text_quote": "Wednesday, June 3, 2026 4:30pm to 7:00pm GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div[2]/div/div[1]/div[1]/p/em-local-time",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > p > em-local-time",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "em-local-time[end='2026-06-03T14:00:00-04:00']",
+          "xpath": "//em-local-time[@end='2026-06-03T14:00:00-04:00']",
+          "text_quote": "Wednesday, June 3, 2026 4:30pm to 7:00pm GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div[2]/div/div[1]/div[1]/p/em-local-time",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > p > em-local-time",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "location": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html without using a broad/incorrect selector"
+        },
+        "description": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "body > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(4) > p:nth-of-type(1)",
+          "xpath": "//body/div[5]/div[1]/div[4]/p",
+          "text_quote": "Enjoy a selection of local food trucks every Wednesday in the Kendall/MIT Open Space, with plenty of outdoor seating opt",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[5]/div[1]/div[4]/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(4) > p:nth-of-type(1)"
+        },
+        "organizer": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "a[href='/department/mit_open_space_programming']",
+          "xpath": "//a[@href='/department/mit_open_space_programming']",
+          "text_quote": "MIT Open Space Programming",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[5]/div[3]/div/div[3]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)"
+        },
+        "event_type": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "[id='em-footer-1'] > a:nth-of-type(4)",
+          "xpath": "//*[@id='em-footer-1']/a[4]",
+          "text_quote": "Community Event",
+          "attribute": null,
+          "xpath_absolute": "/html/body/footer/div[1]/div/div[1]/div/a[4]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(4)"
+        },
+        "website": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "a[title='https://www.openspace.mit.edu/foodtrucks-2026']",
+          "xpath": "//a[@title='https://www.openspace.mit.edu/foodtrucks-2026']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[5]/div[3]/div/div[2]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "img[src='https://localist-images.azureedge.net/photos/52577676356373/card/89bb992c50db17ea8d68c85018923f58d7fddbdc.jpg']",
+          "xpath": "//img[@src='https://localist-images.azureedge.net/photos/52577676356373/card/89bb992c50db17ea8d68c85018923f58d7fddbdc.jpg']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[4]/div[2]/div/div[2]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "contact": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "body > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > span:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//body/div[5]/div[3]/div/div[4]/span[1]/p/a",
+          "text_quote": "openspace@mit.edu",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[5]/div[3]/div/div[4]/span[1]/p/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > span:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "accessibility": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "body > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > span:nth-of-type(2) > p:nth-of-type(1)",
+          "xpath": "//body/div[5]/div[3]/div/div[4]/span[2]/p",
+          "text_quote": "We are committed to creating an inclusive, accessible environment here on our website and in-person in the open space. I",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[5]/div[3]/div/div[4]/span[2]/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > span:nth-of-type(2) > p:nth-of-type(1)"
+        },
+        "other_dates": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": "body > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1)",
+          "xpath": "//body/div[4]/div[2]/div/div[1]/div[1]/div/div/ul",
+          "text_quote": "Wednesday, June 10, 2026 4:30pm to 7:00pm GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div[2]/div/div[1]/div[1]/div/div/ul",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1)"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "registration_url": {
+          "snapshot_id": "mit_events_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    }
+  ]
+}

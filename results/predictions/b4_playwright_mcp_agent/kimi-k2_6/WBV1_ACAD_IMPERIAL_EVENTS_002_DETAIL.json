@@ -1,0 +1,133 @@
+{
+  "task_id": "WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Great Exhibition Road Festival",
+        "event_start_date": "2026-06-06",
+        "event_end_date": "2026-06-07",
+        "event_url": "https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/",
+        "location": "London, UK",
+        "event_start_time": "12.00",
+        "event_end_time": "18.00",
+        "cost": "Free",
+        "register_url": "https://www.eventbrite.com/e/great-exhibition-road-festival-2026-tickets-1985057931710?aff=oddtdtcreator&keep_tld=true",
+        "contact": "Festival Team",
+        "email": "festival@imperial.ac.uk",
+        "event_type": "Festival",
+        "website": "https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.safe.html",
+          "css_selector": "h1",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Great Exhibition Road Festival"
+        },
+        "event_start_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Date: 6-7 June 2026"
+        },
+        "event_end_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Date: 6-7 June 2026"
+        },
+        "event_url": {
+          "source": "page.html",
+          "css_selector": "link[href=\"/events/209153/great-exhibition-road-festival-2026/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Great Exhibition Road Festival"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Location: Exhibition Road, Great Exhibition Road Festival/Marquee - Prince's Gardens"
+        },
+        "event_start_time": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Time: 12.00 - 18.00 BST"
+        },
+        "event_end_time": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Time: 12.00 - 18.00 BST"
+        },
+        "cost": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Cost: Free"
+        },
+        "register_url": {
+          "source": "page.safe.html",
+          "css_selector": "a[href*=\"eventbrite.com\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Register now"
+        },
+        "contact": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Contact: Festival Team"
+        },
+        "email": {
+          "source": "page.safe.html",
+          "css_selector": "a[href^=\"mailto:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "festival@imperial.ac.uk"
+        },
+        "event_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Festival"
+        },
+        "website": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/events/209153/great-exhibition-road-festival-2026/"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 13.249,
+    "input_tokens": 12902,
+    "output_tokens": 663,
+    "total_tokens": 13565,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

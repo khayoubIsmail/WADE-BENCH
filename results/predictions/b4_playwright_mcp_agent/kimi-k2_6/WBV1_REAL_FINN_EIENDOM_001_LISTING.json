@@ -1,0 +1,658 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.finn.no/realestate/homes/ad.html?finnkode=464659921",
+        "address": "Smalgangen 24, Oslo",
+        "listing_title": "Grønland - Oppussingsobjekt med stor balkong, fri utsikt og gode solforhold. Felleskostnad inkl. \"alt\". Heis. Takterrasse. Garasje*",
+        "property_type": "Leilighet",
+        "price": {
+          "amount": 5850000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "bedrooms": 2,
+        "floor_area": {
+          "value": 80,
+          "unit": "m2"
+        },
+        "tenure": "Selveier",
+        "monthly_fees": {
+          "amount": 6691,
+          "currency_code": "NOK"
+        },
+        "total_price": {
+          "amount": 5997340,
+          "currency_code": "NOK"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-06-02",
+            "time_start": "17:00",
+            "time_end": null
+          }
+        ],
+        "listing_office": "Notar Gamle Oslo",
+        "images_urls": [
+          "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/25/1/464/659/921_41ace0c4-ae4a-4576-84be-0aedcddcff2d.jpg",
+          "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/25/1/464/659/921_e74ad346-8b6c-4ffb-b050-77a1a949e92a.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Grønland - Oppussingsobjekt med stor balkong, fri utsikt og gode solforhold. Felleskostnad inkl. \"alt\". Heis. Takterrasse. Garasje*"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Smalgangen 24, Oslo"
+        },
+        "listing_title": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Grønland - Oppussingsobjekt med stor balkong, fri utsikt og gode solforhold. Felleskostnad inkl. \"alt\". Heis. Takterrasse. Garasje*"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Leilighet"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 850 000 kr"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 soverom"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "80 m²"
+        },
+        "tenure": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Selveier"
+        },
+        "monthly_fees": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Fellesutg.: 6 691 kr"
+        },
+        "total_price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Totalpris: 5 997 340 kr"
+        },
+        "open_house_schedule": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Visning - 2. juni kl. 17:00"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Notar Gamle Oslo"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/25/1/464/659/921_41ace0c4-ae4a-4576-84be-0aedcddcff2d.jpg"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.finn.no/realestate/homes/ad.html?finnkode=465121119",
+        "address": "Brattåsen 62, His",
+        "listing_title": "Stor enebolig på Tangen m/gode solforhold, 3 garasjeplasser og opparbeidet uteområdet. Innerst i blindvei.Høyt og fritt",
+        "property_type": "Enebolig",
+        "price": {
+          "amount": 5290000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "bedrooms": 2,
+        "floor_area": {
+          "value": 154,
+          "unit": "m2"
+        },
+        "tenure": "Selveier",
+        "total_price": {
+          "amount": 5422795,
+          "currency_code": "NOK"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-06-04",
+            "time_start": "16:00",
+            "time_end": null
+          }
+        ],
+        "listing_office": "PrivatMegleren Arendal",
+        "listing_agent_logo": "https://images.finncdn.no/dynamic/1280w/logo/cp/8215295/20251208/d8886314-54bb-4d29-a20b-a6cd3262d5b3",
+        "images_urls": [
+          "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/27/9/465/121/119_32ae9a87-fec2-4c75-bb37-7332f0584ee9.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Stor enebolig på Tangen m/gode solforhold, 3 garasjeplasser og opparbeidet uteområdet. Innerst i blindvei.Høyt og fritt"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Brattåsen 62, His"
+        },
+        "listing_title": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Stor enebolig på Tangen m/gode solforhold, 3 garasjeplasser og opparbeidet uteområdet. Innerst i blindvei.Høyt og fritt"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Enebolig"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "5 290 000 kr"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 soverom"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "154 m²"
+        },
+        "tenure": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Selveier"
+        },
+        "total_price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Totalpris: 5 422 795 kr"
+        },
+        "open_house_schedule": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Visning - 4. juni kl. 16:00"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "PrivatMegleren Arendal"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://images.finncdn.no/dynamic/1280w/logo/cp/8215295/20251208/d8886314-54bb-4d29-a20b-a6cd3262d5b3"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/27/9/465/121/119_32ae9a87-fec2-4c75-bb37-7332f0584ee9.jpg"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.finn.no/realestate/homes/ad.html?finnkode=465143887",
+        "address": "Anundskåsveien 62, Notodden",
+        "listing_title": "Anundskås - Lys, familievennlig enebolig - herlige utesoner i skjermet og usjenert hage",
+        "property_type": "Enebolig",
+        "price": {
+          "amount": 2300000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "bedrooms": 4,
+        "floor_area": {
+          "value": 137,
+          "unit": "m2"
+        },
+        "tenure": "Selveier",
+        "total_price": {
+          "amount": 2358590,
+          "currency_code": "NOK"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-06-08",
+            "time_start": "16:30",
+            "time_end": null
+          }
+        ],
+        "listing_office": "DNB Eiendom AS",
+        "listing_agent_logo": "https://images.finncdn.no/dynamic/1280w/logo/cp/-3/20240806/262ca849-73e3-4506-978d-e292fd8a0019",
+        "images_urls": [
+          "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/28/7/465/143/887_07a3d55a-e5b1-4fec-99e6-1a5f1e955695.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Anundskås - Lys, familievennlig enebolig - herlige utesoner i skjermet og usjenert hage"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Anundskåsveien 62, Notodden"
+        },
+        "listing_title": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Anundskås - Lys, familievennlig enebolig - herlige utesoner i skjermet og usjenert hage"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Enebolig"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 300 000 kr"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 soverom"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "137 m²"
+        },
+        "tenure": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Selveier"
+        },
+        "total_price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Totalpris: 2 358 590 kr"
+        },
+        "open_house_schedule": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Visning - 8. juni kl. 16:30"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "DNB Eiendom AS"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://images.finncdn.no/dynamic/1280w/logo/cp/-3/20240806/262ca849-73e3-4506-978d-e292fd8a0019"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/28/7/465/143/887_07a3d55a-e5b1-4fec-99e6-1a5f1e955695.jpg"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.finn.no/realestate/homes/ad.html?finnkode=465142610",
+        "address": "Blåtoppveien 52, Hagan",
+        "listing_title": "Skytta - Halvpart tomannsbolig med idyllisk beliggenhet ved markagrensa. Garasje m/lader. Fantastisk hage!",
+        "property_type": "Tomannsbolig",
+        "price": {
+          "amount": 6800000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "bedrooms": 3,
+        "floor_area": {
+          "value": 130,
+          "unit": "m2"
+        },
+        "tenure": "Selveier",
+        "total_price": {
+          "amount": 6971390,
+          "currency_code": "NOK"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-06-07",
+            "time_start": "12:00",
+            "time_end": null
+          }
+        ],
+        "listing_office": "Aktiv Oslo Nord",
+        "images_urls": [
+          "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/28/0/465/142/610_8fa03c39-ab00-493f-b185-a5e74b5547be.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Skytta - Halvpart tomannsbolig med idyllisk beliggenhet ved markagrensa. Garasje m/lader. Fantastisk hage!"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Blåtoppveien 52, Hagan"
+        },
+        "listing_title": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Skytta - Halvpart tomannsbolig med idyllisk beliggenhet ved markagrensa. Garasje m/lader. Fantastisk hage!"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tomannsbolig"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "6 800 000 kr"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 soverom"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "130 m²"
+        },
+        "tenure": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Selveier"
+        },
+        "total_price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Totalpris: 6 971 390 kr"
+        },
+        "open_house_schedule": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Visning - 7. juni kl. 12:00"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Aktiv Oslo Nord"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://images.finncdn.no/dynamic/480w/2026/5/vertical-2/28/0/465/142/610_8fa03c39-ab00-493f-b185-a5e74b5547be.jpg"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.finn.no/realestate/homes/ad.html?finnkode=465220582",
+        "address": "Svend Foyns gate 28, Stavanger",
+        "listing_title": "Åsen/Bekkefaret - Rekkehus i attraktivt område - 3 soverom - Solrik terrasse og lun bakhage - Parkeringsplass - Selveier",
+        "property_type": "Rekkehus",
+        "price": {
+          "amount": 3490000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "bedrooms": 3,
+        "floor_area": {
+          "value": 117,
+          "unit": "m2"
+        },
+        "tenure": "Selveier",
+        "total_price": {
+          "amount": 3598240,
+          "currency_code": "NOK"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-06-03",
+            "time_start": "16:30",
+            "time_end": null
+          }
+        ],
+        "listing_office": "Krogsveen Stavanger",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Åsen/Bekkefaret - Rekkehus i attraktivt område - 3 soverom - Solrik terrasse og lun bakhage - Parkeringsplass - Selveier"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Svend Foyns gate 28, Stavanger"
+        },
+        "listing_title": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Åsen/Bekkefaret - Rekkehus i attraktivt område - 3 soverom - Solrik terrasse og lun bakhage - Parkeringsplass - Selveier"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Rekkehus"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 490 000 kr"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 soverom"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "117 m²"
+        },
+        "tenure": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Selveier"
+        },
+        "total_price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Totalpris: 3 598 240 kr"
+        },
+        "open_house_schedule": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Visning - 3. juni kl. 16:30"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Krogsveen Stavanger"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": null
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 371.624,
+    "input_tokens": 38802,
+    "output_tokens": 36917,
+    "total_tokens": 75719,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_FINN_EIENDOM_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_FINN_EIENDOM_001_LISTING_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

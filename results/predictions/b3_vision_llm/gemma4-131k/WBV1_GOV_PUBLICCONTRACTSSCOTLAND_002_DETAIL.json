@@ -1,0 +1,46 @@
+{
+  "task_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Tender Notice for the Supply of IT Equipment and Services",
+        "tender_url": "https://www.publiccontractsscotland.gov.uk/tenders/notice-for-it-equipment-and-services"
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "screenshot.png",
+          "bbox": null,
+          "text_quote": "Tender Notice for the Supply of IT Equipment and Services"
+        },
+        "tender_url": {
+          "source": "screenshot.png",
+          "bbox": null,
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/tenders/notice-for-it-equipment-and-services"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 3.206,
+    "input_tokens": 1947,
+    "output_tokens": 222,
+    "total_tokens": 2169,
+    "num_tiles": 1,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL\\tile_01.png"
+    ],
+    "error": null
+  }
+}

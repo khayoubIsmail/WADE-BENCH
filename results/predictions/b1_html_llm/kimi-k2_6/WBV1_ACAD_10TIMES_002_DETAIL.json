@@ -1,0 +1,165 @@
+{
+  "task_id": "WBV1_ACAD_10TIMES_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Plastprintpack Ethiopia",
+        "event_start_date": "2026-06-25",
+        "event_end_date": "2026-06-27",
+        "event_url": "https://10times.com/plast-packprint-ethiopia",
+        "location": "Addis Ababa, Ethiopia",
+        "event_type": "Trade Show",
+        "edition": "8th Edition",
+        "organizer": "fairtrade Messe GmbH & Co. KG",
+        "rating": "4.3",
+        "rating_count": "48",
+        "event_start_time": "10:00 AM",
+        "event_end_time": "5:30 PM",
+        "visitors_count": "- 10.0k",
+        "exhibitors_count": "500+",
+        "frequency": "Annual",
+        "description": "International Trade Show on Plastics & Printing & Packaging",
+        "image_urls": [
+          "https://img.10times.com/event/w1969df71b29b67673610537fbb14b5a/1559707463726/1559650814035.jpg?imgeng=/w_1280/h_720/m_letterbox_000000_100"
+        ],
+        "website": null,
+        "venue": "Addis-Africa International Convention and Exhibition Center (AAICEC)",
+        "topic": [
+          "Packing & Packaging",
+          "Industrial Engineering",
+          "Plastics",
+          "Packaging Materials",
+          "Injection Molding",
+          "Blow Molding",
+          "Recycling Equipment",
+          "Parts And Components",
+          "Extruders and Extrusion Lines",
+          "Packaging Machines and Equipment",
+          "Bottling and Packaging",
+          "Paper Converting and Packaging Production",
+          "plastic",
+          "chemical",
+          "Package",
+          "weld_machine"
+        ]
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "h1.mb-0",
+          "text_quote": "Plastprintpack Ethiopia"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "span[data-localizer='ignore']",
+          "text_quote": "25 - 27 Jun 2026"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "meta[name='description']",
+          "text_quote": "will conclude on 27-Jun-2026"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "text_quote": "https://10times.com/plast-packprint-ethiopia"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "a.bld.text-decoration-none.text-muted",
+          "text_quote": "Addis Ababa"
+        },
+        "event_type": {
+          "source": "page.html",
+          "selector": "span:contains('Trade Show')",
+          "text_quote": "Trade Show"
+        },
+        "edition": {
+          "source": "page.html",
+          "selector": "span.label.label-success",
+          "text_quote": "8th Edition"
+        },
+        "organizer": {
+          "source": "page.html",
+          "selector": "a#org-name",
+          "text_quote": "fairtrade Messe GmbH & Co. KG"
+        },
+        "rating": {
+          "source": "page.html",
+          "selector": "a[href*='reviews']",
+          "text_quote": "4.3 (48 Ratings)"
+        },
+        "rating_count": {
+          "source": "page.html",
+          "selector": "a.sm-x.fw-bold",
+          "text_quote": "48 Ratings"
+        },
+        "event_start_time": {
+          "source": "page.html",
+          "selector": "div.timings_dv",
+          "text_quote": "10:00 AM - 5:30 PM"
+        },
+        "event_end_time": {
+          "source": "page.html",
+          "selector": "div.timings_dv",
+          "text_quote": "10:00 AM - 5:30 PM"
+        },
+        "visitors_count": {
+          "source": "page.html",
+          "selector": "a[href*='visitors']",
+          "text_quote": "- 10.0k"
+        },
+        "exhibitors_count": {
+          "source": "page.html",
+          "selector": "a[href*='exhibitors']",
+          "text_quote": "500+"
+        },
+        "frequency": {
+          "source": "page.html",
+          "selector": "small:contains('Frequency') + br",
+          "text_quote": "Annual"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "span#paragraph",
+          "text_quote": "International Trade Show on Plastics & Printing & Packaging"
+        },
+        "image_urls": {
+          "source": "page.html",
+          "selector": "meta[property='og:image']",
+          "text_quote": "https://img.10times.com/event/w1969df71b29b67673610537fbb14b5a/1559707463726/1559650814035.jpg?imgeng=/w_1280/h_720/m_letterbox_000000_100"
+        },
+        "venue": {
+          "source": "page.html",
+          "selector": "span.paywall3",
+          "text_quote": "Addis-Africa International Convention and Exhibition Center (AAICEC)"
+        },
+        "topic": {
+          "source": "page.html",
+          "selector": "div.quicklink-wrap",
+          "text_quote": "Packing & Packaging"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 78.618,
+    "input_tokens": 153279,
+    "output_tokens": 893,
+    "total_tokens": 154172,
+    "initial_input_tokens": 153279,
+    "initial_output_tokens": 893,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

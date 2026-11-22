@@ -1,0 +1,44 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/for-sale/property/london/details/19328039/",
+        "price": {
+          "amount": 450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "White Horse Road, East Ham, London, E6",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 105.8,
+          "unit": "m2"
+        },
+        "status": null
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 35.002,
+    "input_tokens": 25734,
+    "output_tokens": 1045,
+    "total_tokens": 26779,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_ONTHEMARKET_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_ONTHEMARKET_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

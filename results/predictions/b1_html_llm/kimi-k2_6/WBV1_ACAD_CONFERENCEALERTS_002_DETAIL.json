@@ -1,0 +1,91 @@
+{
+  "task_id": "WBV1_ACAD_CONFERENCEALERTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)",
+        "event_start_date": "2026-06-29",
+        "event_end_date": "2026-07-01",
+        "event_url": "https://conferencealerts.com/show-event?id=274920",
+        "location": "Palma de Mallorca, Spain",
+        "website": "https://iated.org/edulearn/",
+        "contact_person": "EDULEARN25 Technical Secretariat",
+        "organizer_name": "IATED Academy",
+        "abstract_deadline": "2026-03-12",
+        "description": "EDULEARN is one of the world's leading international education conferences, bringing together lecturers, researchers, technologists and professionals in the field of education. Each year, it hosts more than 800 experts from around the globe."
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.html",
+          "selector": "span#eventNameHeader",
+          "text_quote": "EDULEARN26 (18th annual International Conference on Education and New Learning Technologies)"
+        },
+        "event_start_date": {
+          "source": "page.html",
+          "selector": "span#eventDate",
+          "text_quote": "29th June  to 1st July 2026"
+        },
+        "event_end_date": {
+          "source": "page.html",
+          "selector": "span#eventDate",
+          "text_quote": "29th June  to 1st July 2026"
+        },
+        "event_url": {
+          "source": "page.html",
+          "selector": "base",
+          "text_quote": "https://conferencealerts.com/show-event?id=274920"
+        },
+        "location": {
+          "source": "page.html",
+          "selector": "span#eventCountry",
+          "text_quote": "Palma de Mallorca, Spain"
+        },
+        "website": {
+          "source": "page.html",
+          "selector": "span#eventWebsite a",
+          "text_quote": "https://iated.org/edulearn/"
+        },
+        "contact_person": {
+          "source": "page.html",
+          "selector": "span#eventContactPerson",
+          "text_quote": "EDULEARN25 Technical Secretariat"
+        },
+        "organizer_name": {
+          "source": "page.html",
+          "selector": "span#eventOrganiser",
+          "text_quote": "IATED Academy"
+        },
+        "abstract_deadline": {
+          "source": "page.html",
+          "selector": "span#eventDeadline",
+          "text_quote": "12th March 2026"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "span#eventDescription",
+          "text_quote": "EDULEARN is one of the world's leading international education conferences, bringing together lecturers, researchers, technologists and professionals in the field of education. Each year, it hosts more than 800 experts from around the globe."
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 16.394,
+    "input_tokens": 4431,
+    "output_tokens": 495,
+    "total_tokens": 4926,
+    "initial_input_tokens": 4431,
+    "initial_output_tokens": 495,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

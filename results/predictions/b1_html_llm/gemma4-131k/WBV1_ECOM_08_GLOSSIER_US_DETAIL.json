@@ -1,0 +1,116 @@
+{
+  "task_id": "WBV1_ECOM_08_GLOSSIER_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Glossier",
+        "description": "A hydrating, gentle, creamy gel face wash that effectively removes makeup, cleanses, and nourishes while being pH-balanced and kind to sensitive skin.",
+        "image_urls": [
+          "http://www.glossier.com/cdn/shop/files/glossier-skincare-mjc177ml-carousel-1.png?v=1770906323",
+          "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12.gif",
+          "http://www.glossier.com/cdn/shop/files/glossier-mjc-177-02.png?v=1770906323",
+          "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12.gif",
+          "http://www.glossier.com/cdn/shop/files/glossier-mjc-carousel-04_fb65ca2d-b3e4-4006-9323-cc0f90e75548.png?v=1770906323",
+          "https://www.glossier.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12.gif"
+        ],
+        "price_raw": "54.00",
+        "product_name": "Milky Jelly Cleanser",
+        "product_url": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser",
+        "rating": null,
+        "review_count": null,
+        "availability": "instock",
+        "image_url": "http://www.glossier.com/cdn/shop/files/glossier-skincare-mjc177ml-carousel-1.png?v=1770906323",
+        "shipping_info": null,
+        "size_or_volume": "177 ml",
+        "sku": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "meta tag content",
+          "selector": "meta[content='Glossier'][property='og:site_name']",
+          "quote": "Glossier"
+        },
+        "description": {
+          "source": "meta tag content",
+          "selector": "meta[content='A hydrating, gentle, creamy gel face wash that effectively removes makeup, cleanses, and nourishes while being pH-balanced and kind to sensitive skin.'][name='description']",
+          "quote": "A hydrating, gentle, creamy gel face wash that effectively removes makeup, cleanses, and nourishes while being pH-balanced and kind to sensitive skin."
+        },
+        "image_urls": {
+          "source": "meta tag content (multiple)",
+          "selector": "meta[property='og:image']",
+          "quote": "http://www.glossier.com/cdn/shop/files/glossier-skincare-mjc177ml-carousel-1.png?v=1770906323"
+        },
+        "price_raw": {
+          "source": "meta tag content",
+          "selector": "meta[property='product:price:amount']",
+          "quote": "54.00"
+        },
+        "product_name": {
+          "source": "title tag",
+          "selector": "title",
+          "quote": "Milky Jelly Cleanser – Glossier"
+        },
+        "product_url": {
+          "source": "link tag (canonical)",
+          "selector": "link[rel='canonical']",
+          "quote": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser"
+        },
+        "rating": {
+          "source": "meta tag content",
+          "selector": "N/A (Not found)",
+          "quote": null
+        },
+        "review_count": {
+          "source": "meta tag content",
+          "selector": "N/A (Not found)",
+          "quote": null
+        },
+        "availability": {
+          "source": "meta tag content",
+          "selector": "meta[property='product:availability']",
+          "quote": "instock"
+        },
+        "image_url": {
+          "source": "meta tag content",
+          "selector": "meta[content='http://www.glossier.com/cdn/shop/files/glossier-skincare-mjc177ml-carousel-1.png?v=1770906323'][property='og:image']",
+          "quote": "http://www.glossier.com/cdn/shop/files/glossier-skincare-mjc177ml-carousel-1.png?v=1770906323"
+        },
+        "shipping_info": {
+          "source": null,
+          "selector": null,
+          "quote": null
+        },
+        "size_or_volume": {
+          "source": "meta tag content",
+          "selector": "meta[content='177 ml | milky jelly cleanser'][property='og:image:alt']",
+          "quote": "177 ml | milky jelly cleanser"
+        },
+        "sku": {
+          "source": null,
+          "selector": null,
+          "quote": null
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 20.657,
+    "input_tokens": 18969,
+    "output_tokens": 1380,
+    "total_tokens": 20349,
+    "initial_input_tokens": 18969,
+    "initial_output_tokens": 1380,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

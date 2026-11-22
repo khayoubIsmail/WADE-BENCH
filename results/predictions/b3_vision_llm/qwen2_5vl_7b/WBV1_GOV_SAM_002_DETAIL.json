@@ -1,0 +1,47 @@
+{
+  "task_id": "WBV1_GOV_SAM_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "N0016426SCA005 AOI - Modular Kinetic Lethal Drones (MKLD)",
+        "department_ind_agency": "DEPT OF DEFENSE",
+        "sub_tier": "DEPT OF THE NAVY",
+        "major_command": "NAVSEA",
+        "alternate_physical_delivery_address": "WARFARE CENTER 300 HIGHWAY 361 CRANE , IN 47522-9001 USA",
+        "contact_name": "Kaden Pfender",
+        "contact_information": "Kaden.m.pfender.civ@us.navy.mil (812) 381-7204",
+        "alternate_physical_fax_number": null,
+        "tender_url": "https://www.sam.gov/announcements/N0016426SCA005"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 3
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 6.251,
+    "input_tokens": 5459,
+    "output_tokens": 255,
+    "total_tokens": 5714,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_SAM_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_SAM_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_SAM_002_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

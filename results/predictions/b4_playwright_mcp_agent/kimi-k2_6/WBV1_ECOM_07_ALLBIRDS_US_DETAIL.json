@@ -1,0 +1,272 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Allbirds",
+        "description": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas. Lightweight, breathable, easy to wear on repeat. Comfortable enough for all day. Simple enough to go with everything.",
+        "image_urls": [],
+        "price_raw": "$75",
+        "product_name": "Men's Canvas Cruiser",
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas",
+        "rating": "4",
+        "review_count": "29",
+        "availability": null,
+        "color": "Anthracite",
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": null,
+        "shipping_text": "Free Shipping on Orders over $75",
+        "size_or_volume": null,
+        "sku": null,
+        "available_colors": [
+          "Anthracite",
+          "Blizzard",
+          "Warm White",
+          "True Navy",
+          "Sea Spray",
+          "Mushroom",
+          "Chestnut",
+          "Burnt Olive",
+          "Auburn",
+          "Soft Eucalyptus",
+          "Port",
+          "Nautical Gold",
+          "Deep Navy Stripes",
+          "Stormy Lilac",
+          "Dusty Pink"
+        ],
+        "available_sizes": [
+          "8",
+          "8.5",
+          "9",
+          "9.5",
+          "10",
+          "10.5",
+          "11",
+          "11.5",
+          "12",
+          "12.5",
+          "13",
+          "13.5",
+          "14"
+        ],
+        "available_widths": null,
+        "capacity_or_size": null,
+        "care": "Yes, they're machine washable. Remove the insoles, hand wash those separately, and let everything air dry. Fresh again.",
+        "color_name": "Anthracite",
+        "color_options": null,
+        "colors_options": null,
+        "currency": "USD",
+        "first_review_content": null,
+        "first_review_details": null,
+        "first_review_rating": null,
+        "first_review_text": null,
+        "first_review_title": null,
+        "fit": "The Cruiser Canvas fits true-to-size for most customers.",
+        "foam_model": null,
+        "key_features": [
+          "Hemp and organic cotton canvas upper is light, breathable, and durable",
+          "Merino wool-blend lining for softness, socks optional",
+          "Sugarcane-based SweetFoam® cushioning with responsive energy return",
+          "Plush Featherbed™ memory foam insole for extra comfort and bounce"
+        ],
+        "material": "Canvas",
+        "materials": {
+          "upper": "Canvas - Canvas upper made from a breathable blend of hemp and organic cotton",
+          "midsole": "SweetFoam® - SweetFoam® sugarcane-based EVA foam provides comfort and durability while being light on the planet",
+          "lining": "Wool - Merino wool blend lining for uncompromising comfort and softness"
+        },
+        "measurements": null,
+        "old_price_raw": null,
+        "price": 75.0,
+        "selected_width": null,
+        "seller_name": null,
+        "shipping_info": "Free Shipping on Orders over $75",
+        "short_description": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas.",
+        "style_color": "Anthracite (Natural White Sole)"
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Allbirds"
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas. Lightweight, breathable, easy to wear on repeat. Comfortable enough for all day. Simple enough to go with everything."
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "No image URLs found in snapshot evidence"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$75"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Men's Canvas Cruiser"
+        },
+        "product_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.allbirds.com/products/mens-cruiser-canvas"
+        },
+        "rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4\n29 Reviews"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4\n29 Reviews"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Anthracite"
+        },
+        "shipping_text": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Free Shipping on Orders over $75"
+        },
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Men's Cruiser Canvas - Anthracite (Natural White Sole) swatch, Men's Cruiser Canvas - Blizzard (Blizzard Sole) swatch, Men's Cruiser Canvas - Warm White (Natural White Sole) swatch, Men's Canvas Cruiser - True Navy (Natural White Sole) swatch, Men's Canvas Cruiser - Sea Spray (Natural White Sole) swatch, Men's Canvas Cruiser - Mushroom (Natural White Sole) swatch, Men's Canvas Cruiser - Chestnut (Natural White Sole) swatch, Men's Canvas Cruiser - Burnt Olive (Natural White Sole) swatch, Men's Canvas Cruiser - Auburn (Warm White Sole) swatch, Men's Canvas Cruiser - Soft Eucalyptus (Natural White Sole) swatch, Men's Canvas Cruiser - Port (Natural White Sole) swatch, Men's Canvas Cruiser - Nautical Gold (Natural White Sole) swatch, Men's Canvas Cruiser - Deep Navy Stripes (Blizzard Sole) swatch, Men's Canvas Cruiser - Stormy Lilac (Natural White Sole) swatch, Men's Canvas Cruiser - Dusty Pink (Warm White Sole) swatch"
+        },
+        "available_sizes": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14"
+        },
+        "care": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Yes, they're machine washable. Remove the insoles, hand wash those separately, and let everything air dry. Fresh again."
+        },
+        "color_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Anthracite"
+        },
+        "currency": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "USD"
+        },
+        "fit": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "The Cruiser Canvas fits true-to-size for most customers."
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Hemp and organic cotton canvas upper is light, breathable, and durable; Merino wool-blend lining for softness, socks optional; Sugarcane-based SweetFoam® cushioning with responsive energy return; Plush Featherbed™ memory foam insole for extra comfort and bounce"
+        },
+        "material": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Canvas"
+        },
+        "materials": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Upper: Canvas - Canvas upper made from a breathable blend of hemp and organic cotton; Midsole: SweetFoam® - SweetFoam® sugarcane-based EVA foam provides comfort and durability while being light on the planet; Lining: Wool - Merino wool blend lining for uncompromising comfort and softness"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$75"
+        },
+        "shipping_info": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Free Shipping on Orders over $75"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Classic court style, in colors that are hard to ignore. Fifteen fresh shades, including eight Pantone-curated colors, on subtly textured hemp-and-cotton canvas."
+        },
+        "style_color": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Men's Cruiser Canvas - Anthracite (Natural White Sole)"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 52.723,
+    "input_tokens": 21587,
+    "output_tokens": 1798,
+    "total_tokens": 23385,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_07_ALLBIRDS_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_07_ALLBIRDS_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

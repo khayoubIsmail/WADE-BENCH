@@ -1,0 +1,44 @@
+{
+  "task_id": "WBV1_JOBS_RELIEFWEB_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Medical Doctor Gaza",
+        "job_url": "https://reliefweb.int/job/4215856/medical-doctor-gaza",
+        "company_name": "CADUS e.V.",
+        "location": "Gaza, Palestine",
+        "salary": null,
+        "employment_type": null,
+        "posted_date": "2026-06-11",
+        "application_deadline": "2026-06-14",
+        "country": "Palestine",
+        "tags": [
+          "Medical Doctor",
+          "Remote"
+        ],
+        "job_description": "The job is for a Medical Doctor in Gaza.",
+        "work_arrangement": null,
+        "company_logo_url": null
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 126.661,
+    "input_tokens": 32019,
+    "output_tokens": 6401,
+    "total_tokens": 38420,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_RELIEFWEB_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_RELIEFWEB_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

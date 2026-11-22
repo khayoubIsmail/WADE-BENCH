@@ -1,0 +1,53 @@
+{
+  "task_id": "WBV1_ECOM_01_IKEA_US_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "IKEA",
+        "description": "Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÄTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!",
+        "image_urls": [
+          "https://www.example.com/image1.jpg",
+          "https://www.example.com/image2.jpg",
+          "https://www.example.com/image3.jpg"
+        ],
+        "price_raw": "$1,499.00",
+        "product_name": "LILLESÄTER Sectional, 5-seat, Gunnared bright green-yellow",
+        "product_url": "https://www.example.com/product/lillesater-sectionals-5-seat",
+        "rating": null,
+        "review_count": null
+      },
+      "provenance": {
+        "url": "https://www.example.com/product/lillesater-sectionals-5-seat",
+        "snapshot_id": "data/raw_snapshots/ecommerce/ikea_us_detail_sample",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÄTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 15.388,
+    "input_tokens": 6476,
+    "output_tokens": 322,
+    "total_tokens": 6798,
+    "num_tiles": 4,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_01_IKEA_US_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_01_IKEA_US_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_01_IKEA_US_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_01_IKEA_US_DETAIL\\tile_04.png"
+    ],
+    "error": null
+  }
+}

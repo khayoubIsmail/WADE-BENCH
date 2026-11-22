@@ -1,0 +1,492 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918",
+        "old_price_raw": null,
+        "price_raw": "$749.0",
+        "product_name": "The One",
+        "product_url": "https://casper.com/collections/mattresses/products/the-one-foam",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Casper",
+        "category": "Mattress",
+        "color": null,
+        "currency": "USD",
+        "seller_name": null,
+        "product_subtitle": null,
+        "size_or_volume": "Twin"
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "product_url": {
+          "value": "https://casper.com/collections/mattresses/products/the-one-foam",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/The-One-PDP-hero-with-Consumer-Reports.jpg?v=1773690918",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "price_raw": {
+          "value": "$749.0",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "product_name": {
+          "value": "The One",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "brand": {
+          "value": "Casper",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "category": {
+          "value": "Mattress",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "size_or_volume": {
+          "value": "Twin",
+          "source": "script[data-sections='product-media-w-text']"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://casper.com/cdn/shop/files/Cloud-One-PDP-Hero.png?v=1780428818",
+        "old_price_raw": null,
+        "price_raw": "$999.0",
+        "product_name": "Cloud One",
+        "product_url": "https://casper.com/collections/mattresses/products/cloud-one-foam",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Casper",
+        "category": "Mattress",
+        "color": null,
+        "currency": "USD",
+        "seller_name": null,
+        "product_subtitle": null,
+        "size_or_volume": "Twin"
+      },
+      "provenance": {
+        "record_id": "pred_002",
+        "product_url": {
+          "value": "https://casper.com/collections/mattresses/products/cloud-one-foam",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Cloud-One-PDP-Hero.png?v=1780428818",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "price_raw": {
+          "value": "$999.0",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "product_name": {
+          "value": "Cloud One",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "brand": {
+          "value": "Casper",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "category": {
+          "value": "Mattress",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "size_or_volume": {
+          "value": "Twin",
+          "source": "script[data-sections='product-media-w-text']"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-with-Consumer-Reports.jpg?v=1773690937",
+        "old_price_raw": null,
+        "price_raw": "$1495.0",
+        "product_name": "Dream",
+        "product_url": "https://casper.com/collections/mattresses/products/casper-dream-hybrid",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Casper",
+        "category": "Mattress",
+        "color": null,
+        "currency": "USD",
+        "seller_name": null,
+        "product_subtitle": null,
+        "size_or_volume": "Twin"
+      },
+      "provenance": {
+        "record_id": "pred_003",
+        "product_url": {
+          "value": "https://casper.com/collections/mattresses/products/casper-dream-hybrid",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-with-Consumer-Reports.jpg?v=1773690937",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "price_raw": {
+          "value": "$1495.0",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "product_name": {
+          "value": "Dream",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "brand": {
+          "value": "Casper",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "category": {
+          "value": "Mattress",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "size_or_volume": {
+          "value": "Twin",
+          "source": "script[data-sections='product-media-w-text']"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://casper.com/cdn/shop/files/Snow-PDP-Hero-with-Consumer-Reports.jpg?v=1773690955",
+        "old_price_raw": null,
+        "price_raw": "$1995.0",
+        "product_name": "Snow",
+        "product_url": "https://casper.com/collections/mattresses/products/casper-snow-v3",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Casper",
+        "category": "Mattress",
+        "color": null,
+        "currency": "USD",
+        "seller_name": null,
+        "product_subtitle": null,
+        "size_or_volume": "Twin XL"
+      },
+      "provenance": {
+        "record_id": "pred_004",
+        "product_url": {
+          "value": "https://casper.com/collections/mattresses/products/casper-snow-v3",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Snow-PDP-Hero-with-Consumer-Reports.jpg?v=1773690955",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "price_raw": {
+          "value": "$1995.0",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "product_name": {
+          "value": "Snow",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "brand": {
+          "value": "Casper",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "category": {
+          "value": "Mattress",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "size_or_volume": {
+          "value": "Twin XL",
+          "source": "script[data-sections='product-media-w-text']"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-Consumer-Reports.jpg?v=1773690974",
+        "old_price_raw": null,
+        "price_raw": "$2595.0",
+        "product_name": "Dream Max",
+        "product_url": "https://casper.com/collections/mattresses/products/casper-dream-max-hybrid",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Casper",
+        "category": "Mattress",
+        "color": null,
+        "currency": "USD",
+        "seller_name": null,
+        "product_subtitle": null,
+        "size_or_volume": "Twin XL"
+      },
+      "provenance": {
+        "record_id": "pred_005",
+        "product_url": {
+          "value": "https://casper.com/collections/mattresses/products/casper-dream-max-hybrid",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-Consumer-Reports.jpg?v=1773690974",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "price_raw": {
+          "value": "$2595.0",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "product_name": {
+          "value": "Dream Max",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "brand": {
+          "value": "Casper",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "category": {
+          "value": "Mattress",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "size_or_volume": {
+          "value": "Twin XL",
+          "source": "script[data-sections='product-media-w-text']"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://casper.com/cdn/shop/files/Snow-Max-PDP-Hero-with-Consumer-Reports.jpg?v=1773690991",
+        "old_price_raw": null,
+        "price_raw": "$3245.0",
+        "product_name": "Snow Max",
+        "product_url": "https://casper.com/collections/mattresses/products/casper-snow-max-hybrid-v3",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Casper",
+        "category": "Mattress",
+        "color": null,
+        "currency": "USD",
+        "seller_name": null,
+        "product_subtitle": null,
+        "size_or_volume": "Twin XL"
+      },
+      "provenance": {
+        "record_id": "pred_006",
+        "product_url": {
+          "value": "https://casper.com/collections/mattresses/products/casper-snow-max-hybrid-v3",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Snow-Max-PDP-Hero-with-Consumer-Reports.jpg?v=1773690991",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "price_raw": {
+          "value": "$3245.0",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "product_name": {
+          "value": "Snow Max",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "brand": {
+          "value": "Casper",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "category": {
+          "value": "Mattress",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "size_or_volume": {
+          "value": "Twin XL",
+          "source": "script[data-sections='product-media-w-text']"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-with-Consumer-Reports-2025.jpg?v=1773690675",
+        "old_price_raw": null,
+        "price_raw": "$1645.0",
+        "product_name": "Dream with QuickCool™ Cover",
+        "product_url": "https://casper.com/collections/mattresses/products/casper-dream-hybrid-quickcool",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Casper",
+        "category": "Mattress",
+        "color": null,
+        "currency": "USD",
+        "seller_name": null,
+        "product_subtitle": null,
+        "size_or_volume": "Twin"
+      },
+      "provenance": {
+        "record_id": "pred_007",
+        "product_url": {
+          "value": "https://casper.com/collections/mattresses/products/casper-dream-hybrid-quickcool",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-with-Consumer-Reports-2025.jpg?v=1773690675",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "price_raw": {
+          "value": "$1645.0",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "product_name": {
+          "value": "Dream with QuickCool™ Cover",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "brand": {
+          "value": "Casper",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "category": {
+          "value": "Mattress",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "size_or_volume": {
+          "value": "Twin",
+          "source": "script[data-sections='product-media-w-text']"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-Consumer-Reports-2025.jpg?v=1773690688",
+        "old_price_raw": null,
+        "price_raw": "$2745.0",
+        "product_name": "Dream Max with QuickCool™ Cover",
+        "product_url": "https://casper.com/collections/mattresses/products/casper-dream-hybrid-max-quickcool",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Casper",
+        "category": "Mattress",
+        "color": null,
+        "currency": "USD",
+        "seller_name": null,
+        "product_subtitle": null,
+        "size_or_volume": "Twin XL"
+      },
+      "provenance": {
+        "record_id": "pred_008",
+        "product_url": {
+          "value": "https://casper.com/collections/mattresses/products/casper-dream-hybrid-max-quickcool",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-Consumer-Reports-2025.jpg?v=1773690688",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "price_raw": {
+          "value": "$2745.0",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "product_name": {
+          "value": "Dream Max with QuickCool™ Cover",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "brand": {
+          "value": "Casper",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "category": {
+          "value": "Mattress",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "size_or_volume": {
+          "value": "Twin XL",
+          "source": "script[data-sections='product-media-w-text']"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://casper.com/cdn/shop/files/Snug-PDP-Hero-Twin.jpg?v=1772215390",
+        "old_price_raw": null,
+        "price_raw": "$599.0",
+        "product_name": "Snug™",
+        "product_url": "https://casper.com/collections/mattresses/products/snug-v2",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "brand": "Casper",
+        "category": "Mattress",
+        "color": null,
+        "currency": "USD",
+        "seller_name": null,
+        "product_subtitle": null,
+        "size_or_volume": "Twin"
+      },
+      "provenance": {
+        "record_id": "pred_009",
+        "product_url": {
+          "value": "https://casper.com/collections/mattresses/products/snug-v2",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Snug-PDP-Hero-Twin.jpg?v=1772215390",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "price_raw": {
+          "value": "$599.0",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "product_name": {
+          "value": "Snug™",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "brand": {
+          "value": "Casper",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "category": {
+          "value": "Mattress",
+          "source": "script[data-sections='product-media-w-text']"
+        },
+        "size_or_volume": {
+          "value": "Twin",
+          "source": "script[data-sections='product-media-w-text']"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 70.935,
+    "input_tokens": 16546,
+    "output_tokens": 5542,
+    "total_tokens": 22088,
+    "initial_input_tokens": 16546,
+    "initial_output_tokens": 5542,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

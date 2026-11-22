@@ -1,0 +1,42 @@
+{
+  "task_id": "WBV1_ECOM_02_NIKE_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Nike",
+        "description": "¡Olé! We're bringing the \"Toro\" colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey. Staying true to form, Nike Air cushioning in the heel and forefoot softens your step. Original design elements—like floating eyestays and mesh-like panels—make it feel as fresh as it did in '89.",
+        "image_urls": [
+          "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600"
+        ],
+        "price_raw": "$220",
+        "product_name": "Air Jordan 4 \"Toro\" Men's Shoes",
+        "product_url": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600",
+        "rating": null,
+        "review_count": null
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector_or_xpath": ".product-name",
+        "text_quote_or_attribute": "Air Jordan 4 \"Toro\" Men's Shoes"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 14.377,
+    "input_tokens": 14039,
+    "output_tokens": 320,
+    "total_tokens": 14359,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_02_NIKE_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_02_NIKE_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

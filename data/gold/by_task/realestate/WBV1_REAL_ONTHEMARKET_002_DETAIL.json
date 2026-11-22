@@ -1,0 +1,473 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL",
+  "website_id": "onthemarket",
+  "schema_id": "real_estate_listing_v1",
+  "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+  "snapshot_path": "raw_snapshots/realestate/SNAP_REAL_ONTHEMARKET_002_DETAIL",
+  "live_url": "https://www.onthemarket.com/for-sale/property/nn6/?max-price=1200000&min-bedrooms=4&min-price=750000&more-like-this=true&radius=1.0",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.onthemarket.com/details/19547756/",
+          "normalized": "https://www.onthemarket.com/details/19547756/"
+        },
+        "images_urls": {
+          "value": [
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-1-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-2-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-3-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-4-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-5-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-6-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-7-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-8-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-9-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-10-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-11-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-12-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-13-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-14-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/epc-0-1024x1024.png"
+          ],
+          "normalized": [
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-1-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-2-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-3-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-4-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-5-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-6-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-7-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-8-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-9-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-10-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-11-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-12-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-13-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-14-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/epc-0-1024x1024.png"
+          ]
+        },
+        "price": {
+          "value": "\u00a3879,000",
+          "normalized": {
+            "amount": 879000.0,
+            "currency": {
+              "name": "British pound",
+              "code": "GBP",
+              "symbol": "\u00a3"
+            }
+          }
+        },
+        "listing_title": {
+          "value": "4 bedroom semi-detached house for sale",
+          "normalized": "4 bedroom semi-detached house for sale"
+        },
+        "address": {
+          "value": "Kingsfield Avenue, Harrow, HA2 6AQ",
+          "normalized": "Kingsfield Avenue, Harrow, HA2 6AQ"
+        },
+        "property_type": {
+          "value": "Semi-detached house",
+          "normalized": "semi-detached house"
+        },
+        "bedrooms": {
+          "value": 4,
+          "normalized": 4
+        },
+        "bathrooms": {
+          "value": 2,
+          "normalized": 2
+        },
+        "floor_area": {
+          "value": 1646,
+          "normalized": 1646.0,
+          "unit": "m2"
+        },
+        "listing_agent": {
+          "value": "Robsons - Pinner",
+          "normalized": "Robsons - Pinner"
+        },
+        "listing_agent_logo": {
+          "value": "https://media.onthemarket.com/agents/companies/6752/180613094609042/logo-190x100.jpg",
+          "normalized": "https://media.onthemarket.com/agents/companies/6752/180613094609042/logo-190x100.jpg"
+        },
+        "listing_agent_phone": {
+          "value": "020 4516 6055",
+          "normalized": "02045166055"
+        },
+        "listing_agent_website": {
+          "value": "https://robsonsweb.com/",
+          "normalized": "https://robsonsweb.com/"
+        },
+        "energy_rating": {
+          "value": "E",
+          "normalized": "E"
+        },
+        "area_statistics": {
+          "value": {
+            "avgHomePrices": {
+              "title": "4 bedroom semi-detached houses",
+              "price": "\u00a3731,685"
+            },
+            "crimes": {
+              "score": 2,
+              "label": "Low"
+            }
+          },
+          "normalized": {
+            "avgHomePrices": {
+              "title": "4 bedroom semi-detached houses",
+              "price": "\u00a3731,685"
+            },
+            "crimes": {
+              "score": 2,
+              "label": "Low"
+            }
+          }
+        },
+        "about_agent": {
+          "value": "Robsons are an established independent estate agent with ten branches and a proven track record of being market leaders selling and letting properties along the popular commuter stretch surrounding London\u2019s Metropolitan Underground from North Middlesex, through Hertfordshire and across Buckinghamshire.\u00a0 We pride ourselves in providing a flexible and personal service whether buying or renting, we treat all our clients as individuals. When selling or letting your property you can count on us to be with you every step of the way to show you all the options available and offer our professional advice, local knowledge and expertise.",
+          "normalized": "Robsons are an established independent estate agent with ten branches and a proven track record of being market leaders selling and letting properties along the popular commuter stretch surrounding London\u2019s Metropolitan Underground from North Middlesex, through Hertfordshire and across Buckinghamshire.\u00a0 We pride ourselves in providing a flexible and personal service whether buying or renting, we treat all our clients as individuals. When selling or letting your property you can count on us to be with you every step of the way to show you all the options available and offer our professional advice, local knowledge and expertise."
+        },
+        "council_tax": {
+          "value": "Band F",
+          "normalized": "Band F"
+        },
+        "mobile_signal": {
+          "value": [
+            "o2: green",
+            "three: enhanced",
+            "vodafone: enhanced",
+            "ee: green"
+          ],
+          "normalized": [
+            "o2: green",
+            "three: enhanced",
+            "vodafone: enhanced",
+            "ee: green"
+          ]
+        },
+        "property_information": {
+          "value": "<p>A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow\u2019s shops and Metropolitan Line station.</p><p>Offering spacious and versatile accommodation across three floors, the property features a porch and entrance hallway leading to a bright reception room and through dining room with patio doors to the garden. To the rear, there is a fitted kitchen leading to a versatile room suitable for a variety of uses, such as a study, with access to the garage and garden. Completing this floor is a guest w.c. To the first floor are three generously sized bedrooms and a family bathroom. To the second floor is a principal bedroom with fitted wardrobes, under eaves storage and an ensuite shower room.</p><p>Externally there is a private southerly aspect laid to lawn rear garden with a patio while to the front has access to a garage via its own driveway and off street parking.</p><p>North Harrow offers a variety of shops, restaurants, coffee houses and popular supermarkets. Transport facilities include local bus links and the Metropolitan Line at North Harrow tube station, providing a fast and frequent service into the heart of Central London and beyond. The area is well served for primary and secondary schooling, children\u2019s parks/playgrounds and recreational facilities.</p><p>Tenure: Freeehold<br/>Local Authority: London Borough of Harrow<br/>Council Tax Band: F<br/>Energy Efficiency Rating: E</p><p> </p>",
+          "normalized": "<p>A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow\u2019s shops and Metropolitan Line station.</p><p>Offering spacious and versatile accommodation across three floors, the property features a porch and entrance hallway leading to a bright reception room and through dining room with patio doors to the garden. To the rear, there is a fitted kitchen leading to a versatile room suitable for a variety of uses, such as a study, with access to the garage and garden. Completing this floor is a guest w.c. To the first floor are three generously sized bedrooms and a family bathroom. To the second floor is a principal bedroom with fitted wardrobes, under eaves storage and an ensuite shower room.</p><p>Externally there is a private southerly aspect laid to lawn rear garden with a patio while to the front has access to a garage via its own driveway and off street parking.</p><p>North Harrow offers a variety of shops, restaurants, coffee houses and popular supermarkets. Transport facilities include local bus links and the Metropolitan Line at North Harrow tube station, providing a fast and frequent service into the heart of Central London and beyond. The area is well served for primary and secondary schooling, children\u2019s parks/playgrounds and recreational facilities.</p><p>Tenure: Freeehold<br/>Local Authority: London Borough of Harrow<br/>Council Tax Band: F<br/>Energy Efficiency Rating: E</p><p> </p>"
+        },
+        "nearest_stations": {
+          "value": [
+            "North Harrow Underground (0.4mi.)",
+            "West Harrow Underground (0.6mi.)",
+            "Harrow & Wealdstone Underground (0.9mi.)"
+          ],
+          "normalized": [
+            "North Harrow Underground (0.4mi.)",
+            "West Harrow Underground (0.6mi.)",
+            "Harrow & Wealdstone Underground (0.9mi.)"
+          ]
+        },
+        "key_features": {
+          "value": {
+            "features": [
+              {
+                "id": 1,
+                "feature": "Porch and Entrance Hallway"
+              },
+              {
+                "id": 2,
+                "feature": "Four Bedrooms"
+              },
+              {
+                "id": 3,
+                "feature": "Reception Room"
+              },
+              {
+                "id": 4,
+                "feature": "Dining Room"
+              },
+              {
+                "id": 5,
+                "feature": "Study"
+              },
+              {
+                "id": 6,
+                "feature": "Kitchen"
+              },
+              {
+                "id": 7,
+                "feature": "Two Bathrooms and Ground floor W.C."
+              },
+              {
+                "id": 8,
+                "feature": "Landscaped rear garden"
+              },
+              {
+                "id": 9,
+                "feature": "Garage accessed by own driveway"
+              },
+              {
+                "id": 10,
+                "feature": "Off Street Parking"
+              }
+            ],
+            "description": "<p>A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow\u2019s shops and Metropolitan Line station.</p><p>Offering spacious and versatile accommodation across three floors, the property features a porch and entrance hallway leading to a bright reception room and through dining room with patio doors to the garden. To the rear, there is a fitted kitchen leading to a versatile room suitable for a variety of uses, such as a study, with access to the garage and garden. Completing this floor is a guest w.c. To the first floor are three generously sized bedrooms and a family bathroom. To the second floor is a principal bedroom with fitted wardrobes, under eaves storage and an ensuite shower room.</p><p>Externally there is a private southerly aspect laid to lawn rear garden with a patio while to the front has access to a garage via its own driveway and off street parking.</p><p>North Harrow offers a variety of shops, restaurants, coffee houses and popular supermarkets. Transport facilities include local bus links and the Metropolitan Line at North Harrow tube station, providing a fast and frequent service into the heart of Central London and beyond. The area is well served for primary and secondary schooling, children\u2019s parks/playgrounds and recreational facilities.</p><p>Tenure: Freeehold<br/>Local Authority: London Borough of Harrow<br/>Council Tax Band: F<br/>Energy Efficiency Rating: E</p><p> </p>"
+          },
+          "normalized": {
+            "features": [
+              {
+                "id": 1,
+                "feature": "Porch and Entrance Hallway"
+              },
+              {
+                "id": 2,
+                "feature": "Four Bedrooms"
+              },
+              {
+                "id": 3,
+                "feature": "Reception Room"
+              },
+              {
+                "id": 4,
+                "feature": "Dining Room"
+              },
+              {
+                "id": 5,
+                "feature": "Study"
+              },
+              {
+                "id": 6,
+                "feature": "Kitchen"
+              },
+              {
+                "id": 7,
+                "feature": "Two Bathrooms and Ground floor W.C."
+              },
+              {
+                "id": 8,
+                "feature": "Landscaped rear garden"
+              },
+              {
+                "id": 9,
+                "feature": "Garage accessed by own driveway"
+              },
+              {
+                "id": 10,
+                "feature": "Off Street Parking"
+              }
+            ],
+            "description": "<p>A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow\u2019s shops and Metropolitan Line station.</p><p>Offering spacious and versatile accommodation across three floors, the property features a porch and entrance hallway leading to a bright reception room and through dining room with patio doors to the garden. To the rear, there is a fitted kitchen leading to a versatile room suitable for a variety of uses, such as a study, with access to the garage and garden. Completing this floor is a guest w.c. To the first floor are three generously sized bedrooms and a family bathroom. To the second floor is a principal bedroom with fitted wardrobes, under eaves storage and an ensuite shower room.</p><p>Externally there is a private southerly aspect laid to lawn rear garden with a patio while to the front has access to a garage via its own driveway and off street parking.</p><p>North Harrow offers a variety of shops, restaurants, coffee houses and popular supermarkets. Transport facilities include local bus links and the Metropolitan Line at North Harrow tube station, providing a fast and frequent service into the heart of Central London and beyond. The area is well served for primary and secondary schooling, children\u2019s parks/playgrounds and recreational facilities.</p><p>Tenure: Freeehold<br/>Local Authority: London Borough of Harrow<br/>Council Tax Band: F<br/>Energy Efficiency Rating: E</p><p> </p>"
+          }
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div.flex.items-center > a.flex.justify-end.items-center",
+          "xpath": "//body/div[2]/header/div/div/a",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/header/div/div/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "img[href*='None']",
+          "xpath": "//body/div[2]/div[2]/div[1]/div[3]/div/div[1]/div[1]/a/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div[3]/div/div[1]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div.yj_Syj",
+          "xpath": "//body[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[3]",
+          "text_quote": "\u00a3879,000",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div[3]/div[3]",
+          "css_selector_absolute": "div#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(3)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "h1.h4.text-body",
+          "xpath": "//h1[@data-test='property-title']",
+          "text_quote": "4 bedroom semi-detached house for sale",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/h1",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > h1:nth-of-type(1)"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div.p-5.relative.z-40.rounded-t-3xl.bg-white:nth-of-type(3) > div.text-slate.text-body2.font-normal.leading-none.font-heading",
+          "xpath": "//title[contains(normalize-space(.), 'Kingsfield Avenue, Harrow, HA2 6AQ')]",
+          "text_quote": "Kingsfield Avenue, Harrow, HA2 6AQ",
+          "attribute": null,
+          "xpath_absolute": "/html/head/title",
+          "css_selector_absolute": "html > head:nth-of-type(1) > title:nth-of-type(1)"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div._4kGe5T.flex.items-center.text-xs.flex-auto",
+          "xpath": "//body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[6]/div[1]/div",
+          "text_quote": "Semi-detached house",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[6]/div[1]/div",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "bedrooms": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div.text-xs.flex-auto:nth-of-type(2) > div.leading-none.whitespace-nowrap",
+          "xpath": "//body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[6]/div[2]/div",
+          "text_quote": "4 beds",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[6]/div[2]/div",
+          "css_selector_absolute": "body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(6) > div:nth-of-type(2) > div"
+        },
+        "bathrooms": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div.text-xs.flex-auto:nth-of-type(3) > div.leading-none.whitespace-nowrap",
+          "xpath": "//body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[6]/div[3]/div",
+          "text_quote": "2 baths",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[6]/div[3]/div",
+          "css_selector_absolute": "body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(6) > div:nth-of-type(3) > div"
+        },
+        "floor_area": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div.leading-none.whitespace-nowrap > span",
+          "xpath": "//span[contains(normalize-space(.), '1646')]",
+          "text_quote": "1646",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[6]/div[4]/div/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(6) > div:nth-of-type(4) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "listing_agent": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div > div.text-sm.font-bold",
+          "xpath": "//body/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div/div[1]",
+          "text_quote": "Robsons - Pinner",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "listing_agent_logo": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "img[href*='None']",
+          "xpath": "//body/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)"
+        },
+        "listing_agent_phone": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div.AAapZ7.text-link.font-semibold.flex.items-center.mb-3",
+          "xpath": "//body/div[2]/div[2]/div[2]/div[1]/div/div/div[1]/div[2]",
+          "text_quote": "020 4516 6055",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[1]/div/div/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "listing_agent_website": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "energy_rating": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "div.text-xs.flex-auto:nth-of-type(5) > div.leading-none.whitespace-nowrap",
+          "xpath": "//body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[6]/div[5]/div",
+          "text_quote": "EPC rating: E",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[6]/div[5]/div",
+          "css_selector_absolute": "body > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div:nth-of-type(6) > div:nth-of-type(5) > div"
+        },
+        "about_agent": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "property_information": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "p[href*='None']",
+          "xpath": "//p[contains(normalize-space(.), 'A well-presented and thoughtfully extended four be')]",
+          "text_quote": "A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 mi",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/section[2]/div[2]/div/div/p[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "nearest_stations": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "span > div.text-denim",
+          "xpath": "//body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[7]/section/div[4]/div/div[2]/div/div/div[1]/span/div",
+          "text_quote": "North Harrow Underground",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/div[7]/section/div[4]/div/div[2]/div/div/div[1]/span/div",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(7) > section:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "key_features": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "ul.list-disc.ml-5.mt-5.font-heading.text-semibold.text-body.text-denim > li",
+          "xpath": "//li[contains(normalize-space(.), 'Porch and Entrance Hallway')]",
+          "text_quote": "Porch and Entrance Hallway",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/section[2]/div[1]/div/ul/li[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)"
+        },
+        "area_statistics": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "council_tax": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": "span[href*='None']",
+          "xpath": "//span[contains(normalize-space(.), 'Band F')]",
+          "text_quote": "Band F",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[2]/div[2]/div/div[3]/section[1]/div/div[2]/span[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "mobile_signal": {
+          "snapshot_id": "SNAP_REAL_ONTHEMARKET_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    }
+  ]
+}

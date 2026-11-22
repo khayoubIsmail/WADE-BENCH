@@ -1,0 +1,47 @@
+{
+  "task_id": "WBV1_ECOM_10_ASOS_US_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Vila",
+        "description": "Scoop neck Fixed straps Sleeveless style Regular fit Product Code: 156130501 Machine wash according to instructions on care label Chiffon: soft, drapey, sheer fabric with a dry handle Main: 100% Polyester. Seeking inspiration from street and city style, Scandi favourite Vila combines quality fabrics and delicate cuts to create a collection of fashion-forward pieces.",
+        "image_urls": [
+          "https://www.asos.com/women/new-in/new-products-view-all-new-in-dressing-top-tops-jeans-skirts-shorts-trainers-sandals/landing-page"
+        ],
+        "price_raw": "$73.00",
+        "product_name": "Vila chiffon trapeze mini dress in light pink",
+        "product_url": "https://www.asos.com/women/new-in/new-products-view-all-new-in-dressing-top-tops-jeans-skirts-shorts-trainers-sandals/",
+        "rating": null,
+        "review_count": 0,
+        "size_or_fit": {
+          "model_height": "171.5cm / 5'7½\"",
+          "model_wearing": "EU 36",
+          "sizing_help": "Find your Fit Assistant size Please select EU 34 EU 36 EU 38 EU 40 EU 42 EU 44"
+        },
+        "provenance": {
+          "url": "https://www.asos.com/women/new-in/new-products-view-all-new-in-dressing-top-tops-jeans-skirts-shorts-trainers-sandals/",
+          "css_selector_or_xpath": null,
+          "text_quote": "Scoop neck Fixed straps Sleeveless style Regular fit"
+        }
+      },
+      "provenance_required": true,
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 22.713,
+    "input_tokens": 44741,
+    "output_tokens": 428,
+    "total_tokens": 45169,
+    "repaired": false,
+    "error": null
+  }
+}

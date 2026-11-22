@@ -1,0 +1,84 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "N/A (Implicit from context)",
+        "address": "Skivebakken 19, 5018 Bergen",
+        "listing_title": "Arealeffektiv og oppgradert 1-roms | Svært sentralt i Bergen | Nær byfjellene | V.vann, TV og internett inkludert",
+        "property_type": "Leilighet",
+        "price": {
+          "amount": 1350000,
+          "currency_code": "NOK",
+          "currency_symbol": "kr",
+          "period": null
+        },
+        "bedrooms": 0,
+        "bathrooms": null,
+        "bathrooms_partial": null,
+        "floor_area": {
+          "value": 13,
+          "unit": "m2"
+        },
+        "rooms": 1,
+        "energy_rating": null,
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Andel",
+        "monthly_fees": {
+          "amount": 6979,
+          "currency_code": "NOK"
+        },
+        "total_price": {
+          "amount": 1722746,
+          "currency_code": "NOK"
+        },
+        "status": null,
+        "published_date": null,
+        "open_house_schedule": [],
+        "key_features": [
+          "Arealeffektiv leilighet pusset opp i 2024",
+          "Lekkert flislagt bad",
+          "Kjøkken med integrert platetopp og kjøleskap",
+          "IN-ordning på fellesgjeld gir økonomisk fleksibilitet",
+          "Varmtvann, strøm og TV og internett er inkludert i felleskostnadene",
+          "Felles vaskerom i samme etasje"
+        ],
+        "description": "Velkommen til Skivebakken 19 - En arealeffektiv og oppusset leilighet med en svært sentral beliggenhet i Bergen. Her bor du tilbaketrukket i en rolig gate, men med gangavstand til alt Bergen sentrum har å by på. Servicetilbud som Bergen Storsenter og et bredt utvalg restauranter er rett i nærheten. For rekreasjon starter turstier mot Fløyen og Fjellveien utenfor døren. Beliggenheten kombinerer byliv og friluftsliv, med kort vei til både Jernbanestasjonen og Fisketorget.",
+        "mls_number": null,
+        "additional_facilities": [],
+        "images_urls": [],
+        "listing_agent": {
+          "name": null,
+          "phone": null
+        },
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_agent_phone": null,
+        "listing_office": "Skivebakken Borettslag",
+        "parking": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Skivebakken Arealeffektiv og oppgradert 1-roms | Svært sentralt i Bergen | Nær byfjellene | V.vann, TV og internett inkludert Skivebakken 19, 5018 Bergen Prisantydning 1 350 000 kr Totalpris 1 722 746 kr Omkostninger 8 990 kr Fellesgjeld 363 756 kr Felleskost/mnd. 6 979 kr"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 13.49,
+    "input_tokens": 13496,
+    "output_tokens": 930,
+    "total_tokens": 14426,
+    "repaired": false,
+    "error": null
+  }
+}

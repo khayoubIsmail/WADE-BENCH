@@ -1,0 +1,245 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/130-maywood-dr/pid_71582925/",
+        "address": "130 Maywood Dr San Francisco, CA 94127",
+        "listing_title": "130 Maywood Drive, San Francisco, CA 94127",
+        "property_type": "Single Family",
+        "price": {
+          "amount": 2395000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "bathrooms_partial": 1,
+        "floor_area": {
+          "value": 2392,
+          "unit": "ft2"
+        },
+        "status": "Pending",
+        "published_date": "2026-05-27",
+        "mls_number": "426131611",
+        "images_urls": [
+          "https://m.cbhomes.com/p/1111/426131611/7C6Bf4CE39354F9/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/7929df464c0D401/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/8A2eC724e1C840a/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/3A2166093DE9479/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/070328Bb5c1D483/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/fb91799CeCE7460/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/D373B7174C0244F/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/9106EC5A06794f1/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/9719e04DF234428/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/72bdc1136F3d4D5/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/F349998c340C466/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/0944feEB63574e8/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/Ef846f8F657049c/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/04ff27766769432/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/bdA3614D688A4A2/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/93e0da25CdAD4f7/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/B68C7772570E46C/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/1C158CA5820B42B/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/f80Cd8cdE55b44e/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/65bfd95a45FF465/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/637Bf25F16Fe4d7/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/DBDfEB12A3694E4/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/78e75D1C23b34f3/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/93C3d13052Ee408/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/E07dA7b98D19435/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/B9b4cFBFF924433/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/C023F36EcAC740d/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/B95282497Ad64cd/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/99cCF7F04D3441C/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/b391A99B38F0467/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/2F26E87188b747F/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/d2479eB45C0F46d/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/4d495865da3143a/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/AbC96513d3cF40c/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/5eb760A420d446a/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/2309cC4E8aA64Ac/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/e89D620858da495/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/e62f221Ae61543E/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/fffae89F878d4bB/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/360315Bfe8Ed468/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/A817A90467014C5/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/2278f79bA249432/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/FF879f83966B434/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/C57Aca5cC915403/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/4CEaf6e2c5a24B9/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/B9A9Ba8e733B460/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/DDa343ef81404fc/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/468A789A71654F8/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/02Fea98143c8455/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/9f432a3C300A43b/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/12fa9A2CF623438/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/c0d455a07f4A427/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/67586DbFcBEA46B/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/90eFa2e0E0dB4D6/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/CAb314bbBB73410/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/bC48967b15Ab40D/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/5F7663cd9Cd7481/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/A8F2AFe9b4f04Ab/full.webp",
+          "https://m.cbhomes.com/p/1111/426131611/2B78C1f6b07B4A4/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/351886060F3c4B6/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/cF167706D4054Fd/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/436A61aDF27C4a2/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/5aFd5e8B8B8145a/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/12B226F573Ff4b0/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/9C6BD7141239451/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/461ADF372840428/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/32Ce04820441465/full.webp",
+          "https://m1.cbhomes.com/p/1111/426131611/ec489869E79341D/full.webp"
+        ],
+        "listing_agent": {
+          "name": "Andrew Herrera II",
+          "office": "Berkshire Hathaway-Franciscan"
+        },
+        "listing_agent_name": "Andrew Herrera II",
+        "listing_office": "Berkshire Hathaway-Franciscan",
+        "parking": "2"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "\"url\": \"https://www.coldwellbankerhomes.com/ca/san-francisco/274-mangels-ave/pid_71397303/\""
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "h1",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "130 Maywood Dr San Francisco, CA 94127"
+        },
+        "listing_title": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "\"name\": \"130 Maywood Drive, San Francisco, CA 94127\""
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Single Family"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$2,395,000"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "\"4\" Beds"
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "\"2\" Full Baths, \"1\" Partial Bath"
+        },
+        "bathrooms_partial": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "\"1\" Partial Bath"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2,392 Sq. Ft."
+        },
+        "status": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sale Pending"
+        },
+        "published_date": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "\"datePosted\": \"2026-05-27T00:00:00-04:00\""
+        },
+        "mls_number": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "MLS ID: \"426131611\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "\"image\": [\"https://m.cbhomes.com/p/1111/426131611/7C6Bf4CE39354F9/full.webp\""
+        },
+        "listing_agent": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Listed by Berkshire Hathaway-Franciscan, Andrew Herrera II"
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Andrew Herrera II"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Berkshire Hathaway-Franciscan"
+        },
+        "parking": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "\"2\" Car Garage"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 53.608,
+    "input_tokens": 37867,
+    "output_tokens": 2768,
+    "total_tokens": 40635,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_APARTMENTS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_APARTMENTS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

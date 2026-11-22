@@ -1,0 +1,86 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.rightmove.co.uk/to-rent/property/69823475",
+        "price": {
+          "amount": 1200,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": "pcm"
+        },
+        "address": "The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": null,
+          "unit": "ft2"
+        },
+        "status": "Let Agreed",
+        "published_date": "2024-03-22T00:00:00Z",
+        "images_urls": [
+          "https://www.rightmove.co.uk/property-images/1/25-hagley-road-birmingham-b16-8fz/1.jpg",
+          "https://www.rightmove.co.uk/property-images/1/25-hagley-road-birmingham-b16-8fz/2.jpg",
+          "https://www.rightmove.co.uk/property-images/1/25-hagley-road-birmingham-b16-8fz/3.jpg",
+          "https://www.rightmove.co.uk/property-images/1/25-hagley-road-birmingham-b16-8fz/4.jpg"
+        ],
+        "key_features": [
+          "24h Concierge Service",
+          "Central Living",
+          "Gym",
+          "Bike storage",
+          "Double Glazing",
+          "Porter Security"
+        ],
+        "description": "This luxurious one-bedroom apartment is pet friendly and situated on the 13th floor, fitted out to provide the best living experience possible. It has a generously sized open living space with floor to ceiling windows, one double bedroom with built-in wardrobe, a high quality kitchen with lots of storage space and integrated appliances. The apartment is furnished with private parking spaces available for an additional fee (POA).",
+        "mls_number": null,
+        "additional_facilities": [
+          "Gym",
+          "Pets allowed",
+          "Bike storage",
+          "Communal areas"
+        ],
+        "listing_agent": {
+          "name": null,
+          "logo": null,
+          "photo": null,
+          "phone": null
+        },
+        "parking": "Yes"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 13.853,
+    "input_tokens": 9820,
+    "output_tokens": 634,
+    "total_tokens": 10454,
+    "num_tiles": 5,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_RIGHTMOVE_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_RIGHTMOVE_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_RIGHTMOVE_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_RIGHTMOVE_002_DETAIL\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_RIGHTMOVE_002_DETAIL\\tile_05.png"
+    ],
+    "error": null
+  }
+}

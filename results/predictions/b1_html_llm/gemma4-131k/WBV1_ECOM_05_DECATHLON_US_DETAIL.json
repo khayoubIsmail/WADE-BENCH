@@ -1,0 +1,285 @@
+{
+  "task_id": "WBV1_ECOM_05_DECATHLON_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Quechua",
+        "description": "Description Highlights: User comfort: Foam-padded back and straps, with ventilated fabric | Adjustable straps | Thumb rests. Multiple compartments: 1 x compartment | 2 x zipped pockets | 1 x flask holder. Capacity: Great volume: 10 liters | Weight: 6.7 oz. | Dimensions: 15.7” x 8.6” x 5.9” Abrasion resistance: Durable.",
+        "image_urls": [
+          "https://cdn.shopify.com/s/files/1/1330/6287/files/8775634-product_image-p2621212.jpg?v=1712059796"
+        ],
+        "price_raw": "€20.00",
+        "product_name": "Quechua NH100 Arpenaz 10 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147",
+        "rating": null,
+        "review_count": null,
+        "availability": null,
+        "color": null,
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": "https://cdn.shopify.com/s/files/1/1330/6287/files/8775634-product_image-p2621212.jpg?v=1712059796",
+        "shipping_text": null,
+        "size_or_volume": "10 liters",
+        "sku": null,
+        "available_colors": null,
+        "available_sizes": null,
+        "available_widths": null,
+        "capacity_or_size": "10 liters",
+        "care": null,
+        "color_name": null,
+        "color_options": null,
+        "currency": "USD",
+        "first_review_content": null,
+        "first_review_details": null,
+        "first_review_rating": null,
+        "first_review_text": null,
+        "first_review_title": null,
+        "fit": null,
+        "foam_model": null,
+        "key_features": "User comfort: Foam-padded back and straps, with ventilated fabric | Adjustable straps | Thumb rests. Multiple compartments: 1 x compartment | 2 x zipped pockets | 1 x flask holder.",
+        "material": null,
+        "materials": null,
+        "measurements": "Dimensions: 15.7” x 8.6” x 5.9”, Weight: 6.7 oz.",
+        "old_price_raw": null,
+        "price": 20.0,
+        "selected_width": null,
+        "seller_name": "Decathlon",
+        "shipping_info": null,
+        "short_description": "Description Highlights: User comfort: Foam-padded back and straps, with ventilated fabric | Adjustable straps | Thumb rests. Multiple compartments: 1 x compartment | 2 x zipped pockets | 1 x flask holder.",
+        "style_color": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "og:title",
+          "selector": "meta[property='og:title']",
+          "quote": "Quechua NH100 Arpenaz 10 L Hiking Backpack"
+        },
+        "description": {
+          "source": "meta description",
+          "selector": "meta[name='description']",
+          "quote": "Description Highlights: User comfort: Foam-padded back and straps, with ventilated fabric | Adjustable straps | Thumb rests. Multiple compartments: 1 x compartment | 2 x zipped pockets | 1 x flask holder. Capacity: Great volume: 10 liters | Weight: 6.7 oz. | Dimensions: 15.7” x 8.6” x 5.9” Abrasion resistance: Durable,"
+        },
+        "image_urls": {
+          "source": "og:image",
+          "selector": "meta[property='og:image']",
+          "quote": "https://www.decathlon.com/cdn/shop/files/8775634-product_image-p2621212.jpg?v=1712059796"
+        },
+        "price_raw": {
+          "source": "og:price:amount",
+          "selector": "meta[property='og:price:amount']",
+          "quote": "5.00"
+        },
+        "product_name": {
+          "source": "title tag",
+          "selector": "title",
+          "quote": "Quechua NH100 Arpenaz 10 L Hiking Backpack – Decathlon"
+        },
+        "product_url": {
+          "source": "base href",
+          "selector": "base",
+          "quote": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147"
+        },
+        "rating": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "review_count": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "availability": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "color": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "discount_percentage": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "first_review": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "image_url": {
+          "source": "og:image:secure_url",
+          "selector": "meta[property='og:image:secure_url']",
+          "quote": "https://cdn.shopify.com/s/files/1/1330/6287/files/8775634-product_image-p2621212.jpg?v=1712059796"
+        },
+        "shipping_text": {
+          "source": "announcement bar",
+          "selector": ".announcement-bar__text",
+          "quote": "Free Shipping on Orders $49+"
+        },
+        "size_or_volume": {
+          "source": "og:description",
+          "selector": "meta[name='twitter:description']",
+          "quote": "Capacity: Great volume: 10 liters"
+        },
+        "sku": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "available_colors": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "available_sizes": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "available_widths": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "capacity_or_size": {
+          "source": "og:description",
+          "selector": "meta[name='twitter:description']",
+          "quote": "Capacity: Great volume: 10 liters"
+        },
+        "care": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "color_name": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "color_options": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "currency": {
+          "source": "og:price:currency",
+          "selector": "meta[property='og:price:currency']",
+          "quote": "USD"
+        },
+        "first_review_content": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "first_review_details": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "first_review_rating": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "first_review_text": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "first_review_title": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "fit": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "foam_model": {
+          "source": "og:description",
+          "selector": "meta[name='twitter:description']",
+          "quote": "User comfort: Foam-padded back and straps, with ventilated fabric"
+        },
+        "key_features": {
+          "source": "og:description",
+          "selector": "meta[name='twitter:description']",
+          "quote": "Description Highlights: User comfort: Foam-padded back and straps, with ventilated fabric | Adjustable straps | Thumb rests. Multiple compartments: 1 x compartment | 2 x zipped pockets | 1 x flask holder."
+        },
+        "material": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "materials": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "measurements": {
+          "source": "og:description",
+          "selector": "meta[name='twitter:description']",
+          "quote": "Dimensions: 15.7” x 8.6” x 5.9”, Weight: 6.7 oz."
+        },
+        "old_price_raw": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "price": {
+          "source": "og:price:amount",
+          "selector": "meta[property='og:price:amount']",
+          "quote": "5.00"
+        },
+        "selected_width": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        },
+        "seller_name": {
+          "source": "og:site_name",
+          "selector": "meta[property='og:site_name']",
+          "quote": "Decathlon"
+        },
+        "shipping_info": {
+          "source": "announcement bar",
+          "selector": ".announcement-bar__text",
+          "quote": "Free Shipping on Orders $49+"
+        },
+        "short_description": {
+          "source": "og:description",
+          "selector": "meta[name='twitter:description']",
+          "quote": "Description Highlights: User comfort: Foam-padded back and straps, with ventilated fabric | Adjustable straps | Thumb rests. Multiple compartments: 1 x compartment | 2 x zipped pockets | 1 x flask holder."
+        },
+        "style_color": {
+          "source": null,
+          "selector": "body",
+          "quote": null
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 39.465,
+    "input_tokens": 16427,
+    "output_tokens": 2912,
+    "total_tokens": 19339,
+    "initial_input_tokens": 16427,
+    "initial_output_tokens": 2912,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

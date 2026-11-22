@@ -1,0 +1,58 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.allbirds.com/cdn/shop/files/26Q1_Dasher-NZ_Site_Navigation_HalfTile_Men_Desktop-Mobile_3x2_6e3e608c-ee7b-4873-9be1-a206271b0aa0.jpg",
+        "old_price_raw": "$140 +8 $140",
+        "price_raw": "$140",
+        "product_name": "Men's Dasher NZ Anthracite",
+        "product_url": "https://www.allbirds.com/products/mens-dasher-nz-anthracite",
+        "rating": null,
+        "review_count": 0,
+        "short_description": "Sustainable, supportive, and wildly comfortable, our sneakers are always ready for you."
+      },
+      "provenance": {
+        "url": "https://www.allbirds.com/products/mens-dasher-nz-anthracite",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Link text: Men's Dasher NZ Anthracite $140"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://www.allbirds.com/cdn/shop/files/26Q1_Cruiser-Canvas-Sea-Spray_Men_Desktop-Mobile_3x2_85bcd49b-7cdd-40f5-aebd-4e4a40404040.jpg",
+        "old_price_raw": "$75 +10 $75",
+        "price_raw": "$75",
+        "product_name": "Men's Canvas Cruiser Sea Spray",
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "rating": null,
+        "review_count": 0,
+        "short_description": "Sustainable, supportive, and wildly comfortable, our sneakers are always ready for you."
+      },
+      "provenance": {
+        "url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Link text: Men's Canvas Cruiser Sea Spray $75"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 35.056,
+    "input_tokens": 48279,
+    "output_tokens": 561,
+    "total_tokens": 48840,
+    "repaired": false,
+    "error": null
+  }
+}

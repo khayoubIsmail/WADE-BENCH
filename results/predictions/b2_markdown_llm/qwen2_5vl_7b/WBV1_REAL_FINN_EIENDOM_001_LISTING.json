@@ -1,0 +1,39 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.finn.no/realestate/homes/ad.html?finnkode=464659238",
+        "price": {
+          "amount": 5850000,
+          "currency_code": "kr",
+          "currency_symbol": "kr"
+        },
+        "address": "Smalgangen 24, Oslo",
+        "property_type": "Leilighet"
+      },
+      "provenance": {
+        "source": "page.md",
+        "notes": [
+          "The 'price' field is structured as {amount, currency_code, currency_symbol}. For normalization, the amount will be extracted and converted to numerical format."
+        ]
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 23.64,
+    "input_tokens": 55753,
+    "output_tokens": 216,
+    "total_tokens": 55969,
+    "repaired": false,
+    "error": null
+  }
+}

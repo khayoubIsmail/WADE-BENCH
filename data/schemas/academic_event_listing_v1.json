@@ -1,0 +1,45 @@
+{
+  "schema_id": "academic_event_listing_v1",
+  "domain": "academic/events/conferences",
+  "version": "1.0",
+  "description": "Schema for extracting academic events, conferences, and seminars from listing/calendar pages. Each record represents one event card as shown on the listing page.",
+
+  "required_fields": ["event_name", "event_url"],
+
+  "optional_fields": {
+    "event_start_date": {"type": "string", "description": "Start date. Normalize to ISO 8601 (YYYY-MM-DD).", "sites": ["all"]},
+    "event_end_date":   {"type": "string", "description": "End date. Normalize to ISO 8601 (YYYY-MM-DD).", "sites": ["all"]},
+    "location":         {"type": "string", "description": "City, country, or 'Online'.", "sites": ["all"]},
+    "description":      {"type": "string", "description": "Short description or teaser shown on the listing card.", "sites": ["10times", "cern_indico", "imperial_events"]},
+    "event_type":       {"type": "string", "description": "Event category (e.g. 'Seminar', 'Conference').", "sites": ["imperial_events", "stanford_events"]},
+    "organizer":        {"type": "string", "description": "Organizer name.", "sites": ["10times"]},
+    "organizer_name":   {"type": "string", "description": "Organizer name as shown (Eventbrite).", "sites": ["eventbrite_scitech"]},
+    "topic":            {"type": "string", "description": "Event topic or subject area.", "sites": ["10times"]},
+    "visitors_count":   {"type": "integer", "description": "Expected visitor/attendee count.", "sites": ["10times"]},
+    "rating":           {"type": "number", "description": "Event rating score.", "sites": ["10times"]},
+    "edition":          {"type": ["string", "integer"], "description": "Edition number of the event.", "sites": ["10times", "conferencealerts"]},
+    "price":            {"type": "string", "description": "Ticket price or 'Free'.", "sites": ["eventbrite_scitech"]},
+    "cost":             {"type": "string", "description": "Cost or admission fee.", "sites": ["mit_events"]},
+    "subtitle":         {"type": "string", "description": "Event subtitle (GRC conferences).", "sites": ["grc_meetings"]},
+    "acronym":          {"type": "string", "description": "Conference acronym (e.g. 'ICLR 2026').", "sites": ["conferencealerts"]},
+    "participation_type": {"type": "string", "description": "In-person, online, or hybrid.", "sites": ["conferencealerts"]},
+    "register_url":     {"type": "string", "description": "Registration/application URL shown on listing.", "sites": ["stanford_events"]},
+    "additional_option":{"type": "string", "description": "Additional option label (Stanford events).", "sites": ["stanford_events"]},
+    "timing_start":     {"type": "string", "description": "Event start time (HH:MM).", "sites": ["imperial_events"]},
+    "timing_end":       {"type": "string", "description": "Event end time (HH:MM).", "sites": ["imperial_events"]},
+    "name_of_responsable": {"type": "string", "description": "Name of responsible person (CERN Indico).", "sites": ["cern_indico"]},
+    "faculty_schoole_departement": {"type": "string", "description": "Faculty/school/department (CERN Indico).", "sites": ["cern_indico"]},
+    "image_url":        {"type": "string", "description": "Event banner or thumbnail URL.", "sites": ["eventbrite_scitech", "grc_meetings", "imperial_events", "mit_events", "stanford_events"]}
+  },
+
+  "normalization_rules": {
+    "event_start_date": "Normalize to ISO 8601 (YYYY-MM-DD).",
+    "event_end_date":   "Normalize to ISO 8601 (YYYY-MM-DD).",
+    "event_url":        "Return the full absolute URL.",
+    "register_url":     "Return the full absolute URL.",
+    "image_url":        "Return the full absolute URL."
+  },
+
+  "canonical_record_key": ["event_name", "event_url"],
+  "provenance_required": true
+}

@@ -1,0 +1,56 @@
+{
+  "task_id": "WBV1_ECOM_08_GLOSSIER_US_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Glossier",
+        "description": "A super gentle cleansing experience. A pH-balanced gel-cream cleanser that's suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished–never stripped.",
+        "image_urls": [],
+        "price_raw": "259 dh",
+        "price": "259",
+        "currency": "MAD",
+        "product_name": "Milky Jelly Cleanser",
+        "product_url": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser",
+        "rating": "4.2",
+        "review_count": "4634",
+        "availability": "Coming soon",
+        "size_or_volume": "177 mL",
+        "sku": null,
+        "color": null,
+        "discount_percentage": null,
+        "first_review": "05.17.26",
+        "shipping_text": "Free express shipping over 1,375 dh",
+        "key_features": [
+          "Nourishing",
+          "Soothing"
+        ],
+        "materials": null,
+        "care": null,
+        "short_description": "Conditioning face wash"
+      },
+      "provenance": {
+        "url": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser",
+        "snapshot_id": "data/raw_snapshots/ecommerce/glossier_us_detail_sample",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Milky Jelly Cleanser Conditioning face wash 4.200043 star rating (4634) Coming soon 177 mL 60 mL 177 mL 60 mL Out of stock 177 mL Add to bag 259 dh Notify me 259 dh",
+        "source": "page.markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 14.481,
+    "input_tokens": 21718,
+    "output_tokens": 325,
+    "total_tokens": 22043,
+    "repaired": false,
+    "error": null
+  }
+}

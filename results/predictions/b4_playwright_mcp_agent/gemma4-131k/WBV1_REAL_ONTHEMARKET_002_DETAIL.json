@@ -1,0 +1,171 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.onthemarket.com/details/19547756/",
+          "provenance": {
+            "source": "metadata.json",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000"
+          }
+        },
+        "price": {
+          "amount": 879000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£879,000"
+          }
+        },
+        "address": {
+          "value": "Kingsfield Avenue, Harrow, HA2 6AQ",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Kingsfield Avenue, Harrow, HA2 6AQ"
+          }
+        },
+        "listing_title": {
+          "value": "4 bedroom semi-detached house for sale",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "4 bedroom semi-detached house for sale"
+          }
+        },
+        "property_type": {
+          "value": "semi-detached house",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Semi-detached house"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "4 beds"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "2 baths"
+          }
+        },
+        "floor_area": {
+          "value": 1646,
+          "unit": "sq ft",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "1646\""
+          }
+        },
+        "energy_rating": {
+          "value": "E",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "EPC rating: E"
+          }
+        },
+        "tenure": {
+          "value": "Freeehold",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Tenure: Freeehold"
+          }
+        },
+        "description": {
+          "value": "A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow’s shops and Metropolitan Line station. Offering spacious and versatile accommodation across three floors, the property features a porch and entrance hallway leading to a bright reception room and through dining room with patio doors to the garden. To the rear, there is a fitted kitchen leading to a versatile room suitable for a variety of uses, such as a study, with access to the garage and garden. Completing this floor is a guest w.c. To the first floor are three generously sized bedrooms and a family bathroom. To the second floor is a principal bedroom with fitted wardrobes, under eaves storage and an ensuite shower room.",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow’s shops and Metropolitan Line station."
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-1-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-2-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-3-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-4-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-5-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-6-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-7-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-8-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-9-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-10-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-11-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-12-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-13-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/image-14-1024x1024.jpg",
+            "https://media.onthemarket.com/properties/19547756/1616476327/epc-0-1024x1024.png",
+            {
+              "provenance": {
+                "source": "page.html",
+                "css_selector": null,
+                "xpath": null,
+                "bbox": null,
+                "text_quote": "images sources"
+              }
+            }
+          ]
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 30.011,
+    "input_tokens": 25447,
+    "output_tokens": 1749,
+    "total_tokens": 27196,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_ONTHEMARKET_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

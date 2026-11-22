@@ -1,0 +1,52 @@
+{
+  "task_id": "WBV1_JOBS_RELIEFWEB_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Medical Doctor Gaza",
+        "job_url": "https://reliefweb.int/job/4215856/medical-doctor-gaza",
+        "company_name": "CADUS e.V.",
+        "location": "occupied Palestinian territory",
+        "employment_type": "Job",
+        "posted_date": "2026-06-11T19:51:05+00:00",
+        "application_deadline": "2026-06-14",
+        "salary_range": null,
+        "salary_min": null,
+        "salary_max": null,
+        "salary_currency": null,
+        "salary_period": null,
+        "qualifications": [
+          "5 years experience for medics/doctors after graduating from your initial medical degree",
+          "Humanitarian/Austere environment experience preferred and prioritised"
+        ],
+        "apply_url": "https://form.asana.com/?k=l7nYpo9GCoKd6HXgy8x9rA&d=905616002382993",
+        "company_logo_url": null,
+        "job_id": null
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": null,
+        "bbox": null,
+        "text_quote": "Skip to main content\nHelp\nLog in\nReliefWeb\nSEARCH\nUPDATES\nCOUNTRIES\nDISASTERS\nORGANIZATIONS\nTOPICS\nJOBS\nTRAINING"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 14.862,
+    "input_tokens": 25825,
+    "output_tokens": 362,
+    "total_tokens": 26187,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_RELIEFWEB_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_RELIEFWEB_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

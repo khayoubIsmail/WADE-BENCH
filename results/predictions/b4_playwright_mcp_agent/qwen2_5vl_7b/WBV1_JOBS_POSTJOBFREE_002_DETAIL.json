@@ -1,0 +1,55 @@
+{
+  "task_id": "WBV1_JOBS_POSTJOBFREE_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Mechanical Engineer III",
+        "company_name": "LaunchPoint Electric Propulsion Solutions, Inc.",
+        "location": "Santa Barbara, CA, 93190",
+        "job_url": "https://www.postjobfree.com/job/bwv490/mechanical-engineer-iii-santa-barbara-ca",
+        "salary_range": "$90,000–$135,000/year",
+        "employment_type": null,
+        "posted_date": "2026-05-23",
+        "application_deadline": null,
+        "country": "United States",
+        "tags": [
+          "Mechanical Engineer",
+          "Santa Barbara"
+        ],
+        "job_description": "LaunchPoint Electric Propulsion Solutions, Inc. is an aerospace power generation and electric propulsion design company that is committed to hiring the very best people to join our team.",
+        "work_arrangement": null,
+        "categories": [],
+        "job_experience_level": null,
+        "qualifications": [
+          "BSME degree or equivalent",
+          "Advanced working knowledge of SOLIDWORKS CAD software"
+        ],
+        "apply_url": "/apply-for-job/bwv490/mechanical-engineer-iii-santa-barbara-ca",
+        "company_logo_url": null,
+        "job_id": null
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "text_quote": "Mechanical Engineer III job in Santa Barbara, CA, 93190 - May 2026"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 12.063,
+    "input_tokens": 17570,
+    "output_tokens": 357,
+    "total_tokens": 17927,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_POSTJOBFREE_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_POSTJOBFREE_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

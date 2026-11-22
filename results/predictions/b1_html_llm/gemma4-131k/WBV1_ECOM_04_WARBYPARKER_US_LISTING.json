@@ -1,0 +1,78 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://img.warbyparker.com/v2/white%20glasses-a7529002b5ae4bbf96539c27854ce782.svg?originWidth=32&amp;originHeight=32",
+        "old_price_raw": null,
+        "price_raw": "$95",
+        "product_name": "Premium eyewear",
+        "product_url": "/eyeglasses",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Premium eyewear, starting at $95",
+        "availability": null,
+        "brand": null,
+        "category": "Eyeglasses",
+        "color": null,
+        "color_options": null,
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "url": "https://www.warbyparker.com/",
+        "snapshot_id": "data/raw_snapshots/ecommerce/warbyparker_us_listing_eyeglasses",
+        "css_selector_or_xpath": ".top-nav-module-scss-module__SnGFkq__upperBar .visibility-module-scss-module__-HGUXG__tabletDesktop a.base-text-button-module-scss-module__ExIOha__core",
+        "text_quote_or_attribute": "Premium eyewear, starting at $95"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://img.warbyparker.com/v2/white%20glasses-a7529002b5ae4bbf96539c27854ce782.svg?originWidth=32&amp;originHeight=32",
+        "old_price_raw": null,
+        "price_raw": "$95",
+        "product_name": "Premium eyewear",
+        "product_url": "/eyeglasses",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Premium eyewear, starting at $95",
+        "availability": null,
+        "brand": null,
+        "category": "Eyeglasses",
+        "color": null,
+        "color_options": null,
+        "currency": "$",
+        "seller_name": null
+      },
+      "provenance": {
+        "url": "https://www.warbyparker.com/",
+        "snapshot_id": "data/raw_snapshots/ecommerce/warbyparker_us_listing_eyeglasses",
+        "css_selector_or_xpath": ".top-nav-module-scss-module__SnGFkq__upperBar .visibility-module-scss-module__-HGUXG__mobile li.icon-link-module-scss-module__n42LzW__base",
+        "text_quote_or_attribute": "Premium eyewear, starting at $95"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 16.011,
+    "input_tokens": 31214,
+    "output_tokens": 777,
+    "total_tokens": 31991,
+    "initial_input_tokens": 31214,
+    "initial_output_tokens": 777,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

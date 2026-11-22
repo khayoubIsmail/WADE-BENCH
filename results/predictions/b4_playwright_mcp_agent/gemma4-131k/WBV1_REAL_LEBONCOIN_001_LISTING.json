@@ -1,0 +1,3671 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3051337441",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3051337441']",
+            "xpath": "//a[@href*='3051337441']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 410000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('410 000 €')",
+            "xpath": "//p[contains(text(), '410<0xE2><0x80><0xAF>000<0xC2><0xA0>€')]",
+            "bbox": null,
+            "text_quote": "410<0xE2><0x80><0xAF>000<0xC2><0xA0>€\n\nPrix: 410<0xE2><0x80><0xAF>000<0xC2><0xA0>€.. Baisse de prix"
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Roissys - Béranger",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Roissys - Béranger')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Roissys - Béranger.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Roissys - Béranger\n\nSituée à Châtillon 92320 Roissys - Béranger."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 4 pièces · 77m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 4 pièces · 77m²"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 4 pièces · 77m²')",
+            "xpath": "//p[contains(text(), '4 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 4 pièces · 77m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 77,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 4 pièces · 77m²')",
+            "xpath": "//p[contains(text(), '77m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 4 pièces · 77m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Jardin",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Jardin') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Jardin')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Jardin\n\nJardin\n\nParking\n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Roissys - Béranger.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Roissys - Béranger.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Roissys - Béranger.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Roissys - Béranger."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(1) img[src*='3051337441']",
+            "xpath": "//article[@href*='3051337441']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3051337441 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "MAISON KARREZ",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('MAISON KARREZ')",
+            "xpath": "//p[contains(text(), 'MAISON KARREZ')]",
+            "bbox": null,
+            "text_quote": "MAISON KARREZ"
+          }
+        },
+        "listing_agent_logo": {
+          "value": null,
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".agency-info:contains('MAISON KARREZ') img[src*='logo']",
+            "xpath": "//p[contains(text(), 'MAISON KARREZ')] / img/@src",
+            "bbox": null,
+            "text_quote": "Logo URL for MAISON KARREZ (Not explicitly visible in text.txt)"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 23:28.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 23:28.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 23:28."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(1)",
+        "xpath": "//article[contains(@href, '3051337441')]",
+        "bbox": null,
+        "text_quote": "Appartement, 4 pièces, 77 m²... Châtillon 92320 Roissys - Béranger."
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3133429740",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3133429740']",
+            "xpath": "//a[@href*='3133429740']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 990000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('990 000 €')",
+            "xpath": "//p[contains(text(), '990<0xE2><0x80><0xAF>000<0xC2><0xA0>€')]",
+            "bbox": null,
+            "text_quote": "990<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 990<0xE2><0x80><0xAF>000<0xC2><0xA0>€.. Baisse de prix"
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Roissys - Béranger",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Roissys - Béranger.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Roissys - Béranger.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Roissys - Béranger\n\nSituée à Châtillon 92320 Roissys - Béranger."
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 6 pièces · 180m²')",
+            "xpath": "//p[contains(text(), 'Maison')] | //h3[contains(text(), 'Maison')]",
+            "bbox": null,
+            "text_quote": "Maison · 6 pièces · 180m²"
+          }
+        },
+        "bedrooms": {
+          "value": 6,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 6 pièces · 180m²')",
+            "xpath": "//p[contains(text(), '6 pièces')]",
+            "bbox": null,
+            "text_quote": "Maison · 6 pièces · 180m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 180,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 6 pièces · 180m²')",
+            "xpath": "//p[contains(text(), '180m²')]",
+            "bbox": null,
+            "text_quote": "Maison · 6 pièces · 180m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrain",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrain') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrain')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrain : 287 m²\n\nSurface du terrain 287 mètres carrés\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Roissys - Béranger.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Roissys - Béranger.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Roissys - Béranger.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Roissys - Béranger."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(2) img[src*='3133429740']",
+            "xpath": "//article[@href*='3133429740']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3133429740 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "MAISON KARREZ",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('MAISON KARREZ')",
+            "xpath": "//p[contains(text(), 'MAISON KARREZ')]",
+            "bbox": null,
+            "text_quote": "MAISON KARREZ"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 23:28.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 23:28.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 23:28."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(2)",
+        "xpath": "//article[contains(@href, '3133429740')]",
+        "bbox": null,
+        "text_quote": "Maison, 6 pièces, 180 mètres carrés... Châtillon 92320 Roissys - Béranger."
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3206515329",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3206515329']",
+            "xpath": "//a[@href*='3206515329']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 549000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('549 000 €')",
+            "xpath": "//p[contains(text(), '549<0xE2><0x80><0xAF>000<0xC2><0xA0>€')]",
+            "bbox": null,
+            "text_quote": "549<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 549<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Vauban - Coulée Verte",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Vauban - Coulée Verte.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Vauban - Coulée Verte.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Vauban - Coulée Verte\n\nSituée à Châtillon 92320 Vauban - Coulée Verte."
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 101m²')",
+            "xpath": "//p[contains(text(), 'Maison')] | //h3[contains(text(), 'Maison')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 101m²"
+          }
+        },
+        "bedrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 101m²')",
+            "xpath": "//p[contains(text(), '5 pièces')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 101m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 101,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 101m²')",
+            "xpath": "//p[contains(text(), '101m²')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 101m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrain",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrain') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrain')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrain : 287 m²\n\nSurface du terrain 287 mètres carrés\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Vauban - Coulée Verte.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Vauban - Coulée Verte.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Vauban - Coulée Verte.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Vauban - Coulée Verte."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(3) img[src*='3206515329']",
+            "xpath": "//article[@href*='3206515329']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3206515329 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": null,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('3206515329')",
+            "xpath": "//p[contains(text(), '3206515329')]",
+            "bbox": null,
+            "text_quote": "No agent name found for this listing."
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 23:28.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 23:28.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 23:28."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(4)",
+        "xpath": "//article[contains(@href, '3206515329')]",
+        "bbox": null,
+        "text_quote": "Maison, 5 pièces, 101 mètres carrés... Châtillon 92320 Vauban - Coulée Verte."
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3167119484",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3167119484']",
+            "xpath": "//a[@href*='3167119484']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 699000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('699 000 €')",
+            "xpath": "//p[contains(text(), '699<0xE2><0x80><0xAF>000<0xC2><0xA0>€')]",
+            "bbox": null,
+            "text_quote": "699<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 699<0xE2><0x80><0xAF>000<0xC2><0xA0>€.. Baisse de prix"
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Matisse - Pierrelais",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Matisse - Pierrelais.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Matisse - Pierrelais.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Matisse - Pierrelais\n\nSituée à Châtillon 92320 Matisse - Pierrelais."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 5 pièces · 102m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 5 pièces · 102m²"
+          }
+        },
+        "bedrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 5 pièces · 102m²')",
+            "xpath": "//p[contains(text(), '5 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 5 pièces · 102m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 102,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 5 pièces · 102m²')",
+            "xpath": "//p[contains(text(), '102m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 5 pièces · 102m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrasse",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrasse') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrasse')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrasse\n\nTerrasse\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Matisse - Pierrelais.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Matisse - Pierrelais.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Matisse - Pierrelais.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Matisse - Pierrelais."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(5) img[src*='3167119484']",
+            "xpath": "//article[@href*='3167119484']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3167119484 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "CHOUVET Franck - proprietes-privees.com",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('CHOUVET Franck')",
+            "xpath": "//p[contains(text(), 'CHOUVET Franck - proprietes-privees.com')]",
+            "bbox": null,
+            "text_quote": "CHOUVET Franck - proprietes-privees.com"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 21:23.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 21:23.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 21:23."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(6)",
+        "xpath": "//article[contains(@href, '3169369611')]",
+        "bbox": null,
+        "text_quote": "Appartement, 3 pièces, 66 mètres carrés... Châtillon 92320 Centre-ville - Sarments."
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3169369611",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3169369611']",
+            "xpath": "//a[@href*='3169369611']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 359000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('359 000 €')",
+            "xpath": "//p[contains(text(), '359<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "359<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 359<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Centre-ville - Sarments",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Centre-ville - Sarments.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Centre-ville - Sarments.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Centre-ville - Sarments\n\nSituée à Châtillon 92320 Centre-ville - Sarments."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 66m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 66m²"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 66m²')",
+            "xpath": "//p[contains(text(), '3 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 66m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 66,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 66m²')",
+            "xpath": "//p[contains(text(), '66m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 66m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Parking",
+            "Cave"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Parking') > span, .feature-list:contains('Cave') > span",
+            "xpath": "//p[contains(text(), 'Parking')] | //p[contains(text(), 'Cave')]",
+            "bbox": null,
+            "text_quote": "Parking\n\nParking\n\nCave\n\nCave"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Centre-ville - Sarments.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Centre-ville - Sarments.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Centre-ville - Sarments.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Centre-ville - Sarments."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(7) img[src*='3169369611']",
+            "xpath": "//article[@href*='3169369611']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3169369611 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Adelina Navarro - IAD France",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('Adelina Navarro')",
+            "xpath": "//p[contains(text(), 'Adelina Navarro - IAD France')]",
+            "bbox": null,
+            "text_quote": "Adelina Navarro - IAD France"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 21:01.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 21:01.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 21:01."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(8)",
+        "xpath": "//article[contains(@href, '3169369611')]",
+        "bbox": null,
+        "text_quote": "Appartement, 3 pièces, 66 mètres carrés... Châtillon 92320 Centre-ville - Sarments."
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3203498861",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3203498861']",
+            "xpath": "//a[@href*='3203498861']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 269000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('269 000 €')",
+            "xpath": "//p[contains(text(), '269<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "269<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 269<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Berthelot - Avenue de Paris",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Berthelot - Avenue de Paris\n\nSituée à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 47m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 47m²"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 47m²')",
+            "xpath": "//p[contains(text(), '2 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 47m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 47,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 47m²')",
+            "xpath": "//p[contains(text(), '47m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 47m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Balcon",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Balcon') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Balcon')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Balcon\n\nBalcon\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Berthelot - Avenue de Paris.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(9) img[src*='3203498861']",
+            "xpath": "//article[@href*='3203498861']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3203498861 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ACOR IMMOBILIER",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('ACOR IMMOBILIER')",
+            "xpath": "//p[contains(text(), 'ACOR IMMOBILIER')]",
+            "bbox": null,
+            "text_quote": "ACOR IMMOBILIER"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 20:11.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 20:11.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 20:11."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(10)",
+        "xpath": "//article[contains(@href, '3203498861')]",
+        "bbox": null,
+        "text_quote": "Appartement, 2 pièces, 47 mètres carrés... Châtillon 92320 Berthelot - Avenue de Paris."
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3168980478",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3168980478']",
+            "xpath": "//a[@href*='3168980478']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 620000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('620 000 €')",
+            "xpath": "//p[contains(text(), '620<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "620<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 620<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Roissys - Béranger",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Roissys - Béranger.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Roissys - Béranger.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Roissys - Béranger\n\nSituée à Châtillon 92320 Roissys - Béranger."
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 4 pièces · 90m²')",
+            "xpath": "//p[contains(text(), 'Maison')] | //h3[contains(text(), 'Maison')]",
+            "bbox": null,
+            "text_quote": "Maison · 4 pièces · 90m²"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 4 pièces · 90m²')",
+            "xpath": "//p[contains(text(), '4 pièces')]",
+            "bbox": null,
+            "text_quote": "Maison · 4 pièces · 90m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 90,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 4 pièces · 90m²')",
+            "xpath": "//p[contains(text(), '90m²')]",
+            "bbox": null,
+            "text_quote": "Maison · 4 pièces · 90m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrain",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrain') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrain')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrain : 137 m²\n\nSurface du terrain 137 mètres carrés\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Roissys - Béranger.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Roissys - Béranger.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Roissys - Béranger.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Roissys - Béranger."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(11) img[src*='3168980478']",
+            "xpath": "//article[@href*='3168980478']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3168980478 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Julien Bernardini - IAD France",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('Julien Bernardini')",
+            "xpath": "//p[contains(text(), 'Julien Bernardini - IAD France')]",
+            "bbox": null,
+            "text_quote": "Julien Bernardini - IAD France"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 19:24.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 19:24.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 19:24."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(12)",
+        "xpath": "//article[contains(@href, '3168980478')]",
+        "bbox": null,
+        "text_quote": "Maison, 4 pièces, 90 mètres carrés... Châtillon 92320 Roissys - Béranger."
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3169369611",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3169369611']",
+            "xpath": "//a[@href*='3169369611']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 559000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('559 000 €')",
+            "xpath": "//p[contains(text(), '559<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "559<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 559<0xE2><0x80><0xAF>000<0xC2><0xA0>€.. Baisse de prix"
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Berthelot - Avenue de Paris",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Berthelot - Avenue de Paris\n\nSituée à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 101m²')",
+            "xpath": "//p[contains(text(), 'Maison')] | //h3[contains(text(), 'Maison')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 101m²"
+          }
+        },
+        "bedrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 101m²')",
+            "xpath": "//p[contains(text(), '5 pièces')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 101m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 101,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 101m²')",
+            "xpath": "//p[contains(text(), '101m²')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 101m²"
+          }
+        },
+        "key_features": {
+          "value": [],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Maison') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrain')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "No specific key features listed in the visible text."
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Berthelot - Avenue de Paris.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(13) img[src*='3168980478']",
+            "xpath": "//article[@href*='3168980478']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3168980478 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Samia Appraoui - IAD France",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('Samia Appraoui')",
+            "xpath": "//p[contains(text(), 'Samia Appraoui - IAD France')]",
+            "bbox": null,
+            "text_quote": "Samia Appraoui - IAD France"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 19:24.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 19:24.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 19:24."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(14)",
+        "xpath": "//article[contains(@href, '3168980478')]",
+        "bbox": null,
+        "text_quote": "Maison, 5 pièces, 101 mètres carrés... Châtillon 92320 Berthelot - Avenue de Paris."
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3167119484",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3167119484']",
+            "xpath": "//a[@href*='3167119484']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 359000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('359 000 €')",
+            "xpath": "//p[contains(text(), '359<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "359<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 359<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Centre-ville - Sarments",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Centre-ville - Sarments.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Centre-ville - Sarments.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Centre-ville - Sarments\n\nSituée à Châtillon 92320 Centre-ville - Sarments."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 66m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 66m²"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 66m²')",
+            "xpath": "//p[contains(text(), '3 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 66m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 66,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 66m²')",
+            "xpath": "//p[contains(text(), '66m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 66m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Parking",
+            "Cave"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Parking') > span, .feature-list:contains('Cave') > span",
+            "xpath": "//p[contains(text(), 'Parking')] | //p[contains(text(), 'Cave')]",
+            "bbox": null,
+            "text_quote": "Parking\n\nParking\n\nCave\n\nCave"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Centre-ville - Sarments.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Centre-ville - Sarments.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Centre-ville - Sarments.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Centre-ville - Sarments."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(8) img[src*='3169369611']",
+            "xpath": "//article[@href*='3169369611']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3169369611 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ACOR IMMOBILIER",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('ACOR IMMOBILIER')",
+            "xpath": "//p[contains(text(), 'ACOR IMMOBILIER')]",
+            "bbox": null,
+            "text_quote": "ACOR IMMOBILIER"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 21:01.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 21:01.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 21:01."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(9)",
+        "xpath": "//article[contains(@href, '3169369611')]",
+        "bbox": null,
+        "text_quote": "Appartement, 3 pièces, 66 mètres carrés... Châtillon 92320 Centre-ville - Sarments."
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3203498861",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3203498861']",
+            "xpath": "//a[@href*='3203498861']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 269000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('269 000 €')",
+            "xpath": "//p[contains(text(), '269<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "269<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 269<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Berthelot - Avenue de Paris",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Berthelot - Avenue de Paris\n\nSituée à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 47m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 47m²"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 47m²')",
+            "xpath": "//p[contains(text(), '2 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 47m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 47,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 47m²')",
+            "xpath": "//p[contains(text(), '47m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 47m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Balcon",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Balcon') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Balcon')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Balcon\n\nBalcon\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Berthelot - Avenue de Paris.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(10) img[src*='3203498861']",
+            "xpath": "//article[@href*='3203498861']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3203498861 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ACOR IMMOBILIER",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('ACOR IMMOBILIER')",
+            "xpath": "//p[contains(text(), 'ACOR IMMOBILIER')]",
+            "bbox": null,
+            "text_quote": "ACOR IMMOBILIER"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 20:11.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 20:11.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 20:11."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(11)",
+        "xpath": "//article[contains(@href, '3203498861')]",
+        "bbox": null,
+        "text_quote": "Appartement, 2 pièces, 47 mètres carrés... Châtillon 92320 Berthelot - Avenue de Paris."
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3168980478",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3168980478']",
+            "xpath": "//a[@href*='3168980478']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 559000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('559 000 €')",
+            "xpath": "//p[contains(text(), '559<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "559<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 559<0xE2><0x80><0xAF>000<0xC2><0xA0>€.. Baisse de prix"
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Berthelot - Avenue de Paris",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Berthelot - Avenue de Paris\n\nSituée à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 101m²')",
+            "xpath": "//p[contains(text(), 'Maison')] | //h3[contains(text(), 'Maison')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 101m²"
+          }
+        },
+        "bedrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 101m²')",
+            "xpath": "//p[contains(text(), '5 pièces')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 101m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 101,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 101m²')",
+            "xpath": "//p[contains(text(), '101m²')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 101m²"
+          }
+        },
+        "key_features": {
+          "value": [],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Maison') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrain')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "No specific key features listed in the visible text."
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Berthelot - Avenue de Paris.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(14) img[src*='3168980478']",
+            "xpath": "//article[@href*='3168980478']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3168980478 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Samia Appraoui - IAD France",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('Samia Appraoui')",
+            "xpath": "//p[contains(text(), 'Samia Appraoui - IAD France')]",
+            "bbox": null,
+            "text_quote": "Samia Appraoui - IAD France"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 19:24.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 19:24.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 19:24."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(15)",
+        "xpath": "//article[contains(@href, '3168980478')]",
+        "bbox": null,
+        "text_quote": "Maison, 5 pièces, 101 mètres carrés... Châtillon 92320 Berthelot - Avenue de Paris."
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3167119484",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3167119484']",
+            "xpath": "//a[@href*='3167119484']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 274000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('274 000 €')",
+            "xpath": "//p[contains(text(), '274<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "274<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 274<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Vieux Bourg - Malraux",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Vieux Bourg - Malraux\n\nSituée à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 42m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 42m²"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 42m²')",
+            "xpath": "//p[contains(text(), '2 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 42m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 42,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 42m²')",
+            "xpath": "//p[contains(text(), '42m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 42m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrasse",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrasse') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrasse')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrasse\n\nTerrasse\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Vieux Bourg - Malraux.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(16) img[src*='3203498861']",
+            "xpath": "//article[@href*='3203498861']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3203498861 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Grand Paris Groupe",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('Grand Paris Groupe')",
+            "xpath": "//p[contains(text(), 'Grand Paris Groupe')]",
+            "bbox": null,
+            "text_quote": "Grand Paris Groupe"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 17:37.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 17:37.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 17:37."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(17)",
+        "xpath": "//article[contains(@href, '3203498861')]",
+        "bbox": null,
+        "text_quote": "Appartement, 2 pièces, 47 mètres carrés... Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/3203498861",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='3203498861']",
+            "xpath": "//a[@href*='3203498861']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 274000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('274 000 €')",
+            "xpath": "//p[contains(text(), '274<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "274<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 274<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Vieux Bourg - Malraux",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Vieux Bourg - Malraux\n\nSituée à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 42m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 42m²"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 42m²')",
+            "xpath": "//p[contains(text(), '2 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 42m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 42,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 42m²')",
+            "xpath": "//p[contains(text(), '42m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 42m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrasse",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrasse') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrasse')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrasse\n\nTerrasse\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Vieux Bourg - Malraux.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(18) img[src*='3203498861']",
+            "xpath": "//article[@href*='3203498861']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 3203498861 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Grand Paris Groupe",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('Grand Paris Groupe')",
+            "xpath": "//p[contains(text(), 'Grand Paris Groupe')]",
+            "bbox": null,
+            "text_quote": "Grand Paris Groupe"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 17:35.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 17:35.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 17:35."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(19)",
+        "xpath": "//article[contains(@href, '3203498861')]",
+        "bbox": null,
+        "text_quote": "Appartement, 2 pièces, 47 mètres carrés... Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/321500",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='321500']",
+            "xpath": "//a[@href*='321500']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 321500,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('321 500 €')",
+            "xpath": "//p[contains(text(), '321<0xE2><0x80><0xAF>500<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "321<0xE2><0x80><0xAF>500<0xC2><0xA0>€\nPrix: 321<0xE2><0x80><0xAF>500<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Maison Blanche",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Maison Blanche.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Maison Blanche.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Maison Blanche\n\nSituée à Châtillon 92320 Maison Blanche."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 48m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 48m²"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 48m²')",
+            "xpath": "//p[contains(text(), '2 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 48m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 48,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 48m²')",
+            "xpath": "//p[contains(text(), '48m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 48m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrasse",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrasse') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrasse')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrasse\n\nTerrasse\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Maison Blanche.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Maison Blanche.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Maison Blanche.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Maison Blanche."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(18) img[src*='321500']",
+            "xpath": "//article[@href*='321500']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 321500 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ACOR IMMOBILIER",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('ACOR IMMOBILIER')",
+            "xpath": "//p[contains(text(), 'ACOR IMMOBILIER')]",
+            "bbox": null,
+            "text_quote": "ACOR IMMOBILIER"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 17:24.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 17:24.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 17:24."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(20)",
+        "xpath": "//article[contains(@href, '321500')]",
+        "bbox": null,
+        "text_quote": "Appartement, 2 pièces, 48 mètres carrés... Châtillon 92320 Maison Blanche."
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/798000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='798000']",
+            "xpath": "//a[@href*='798000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 798000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('798 000 €')",
+            "xpath": "//p[contains(text(), '798<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "798<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 798<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Vieux Bourg - Malraux",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Vieux Bourg - Malraux\n\nSituée à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 5 pièces · 118m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 5 pièces · 118m²"
+          }
+        },
+        "bedrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 5 pièces · 118m²')",
+            "xpath": "//p[contains(text(), '5 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 5 pièces · 118m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 118,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 5 pièces · 118m²')",
+            "xpath": "//p[contains(text(), '118m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 5 pièces · 118m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrasse",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrasse') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrasse')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrasse\n\nTerrasse\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Vieux Bourg - Malraux.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(20) img[src*='798000']",
+            "xpath": "//article[@href*='798000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 798000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "RESOMIA IMMOBILIER",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('RESOMIA IMMOBILIER')",
+            "xpath": "//p[contains(text(), 'RESOMIA IMMOBILIER')]",
+            "bbox": null,
+            "text_quote": "RESOMIA IMMOBILIER"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 16:44.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 16:44.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 16:44."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(21)",
+        "xpath": "//article[contains(@href, '798000')]",
+        "bbox": null,
+        "text_quote": "Appartement, 5 pièces, 118 mètres carrés... Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/950000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='950000']",
+            "xpath": "//a[@href*='950000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 950000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('950 000 €')",
+            "xpath": "//p[contains(text(), '950<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "950<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 950<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Savoie - Brossolette",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Savoie - Brossolette.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Savoie - Brossolette.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Savoie - Brossolette\n\nSituée à Châtillon 92320 Savoie - Brossolette."
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 7 pièces · 207m²')",
+            "xpath": "//p[contains(text(), 'Maison')] | //h3[contains(text(), 'Maison')]",
+            "bbox": null,
+            "text_quote": "Maison · 7 pièces · 207m²"
+          }
+        },
+        "bedrooms": {
+          "value": 7,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 7 pièces · 207m²')",
+            "xpath": "//p[contains(text(), '7 pièces')]",
+            "bbox": null,
+            "text_quote": "Maison · 7 pièces · 207m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 207,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 7 pièces · 207m²')",
+            "xpath": "//p[contains(text(), '207m²')]",
+            "bbox": null,
+            "text_quote": "Maison · 7 pièces · 207m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrain",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrain') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrain')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrain : 230 m²\n\nSurface du terrain 230 mètres carrés\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Savoie - Brossolette.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Savoie - Brossolette.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Savoie - Brossolette.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Savoie - Brossolette."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(21) img[src*='950000']",
+            "xpath": "//article[@href*='950000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 950000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "RESOMIA IMMOBILIER",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('RESOMIA IMMOBILIER')",
+            "xpath": "//p[contains(text(), 'RESOMIA IMMOBILIER')]",
+            "bbox": null,
+            "text_quote": "RESOMIA IMMOBILIER"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 16:21.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 16:21.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 16:21."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(22)",
+        "xpath": "//article[contains(@href, '950000')]",
+        "bbox": null,
+        "text_quote": "Maison, 7 pièces, 207 mètres carrés... Châtillon 92320 Savoie - Brossolette."
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/457500",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='457500']",
+            "xpath": "//a[@href*='457500']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 457500,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('457 500 €')",
+            "xpath": "//p[contains(text(), '457<0xE2><0x80><0xAF>500<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "457<0xE2><0x80><0xAF>500<0xC2><0xA0>€\nPrix: 457<0xE2><0x80><0xAF>500<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Vieux Bourg - Malraux",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Vieux Bourg - Malraux\n\nSituée à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 66m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 66m²"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 66m²')",
+            "xpath": "//p[contains(text(), '3 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 66m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 66,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 66m²')",
+            "xpath": "//p[contains(text(), '66m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 66m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrasse",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrasse') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrasse')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrasse\n\nTerrasse\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Vieux Bourg - Malraux.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(22) img[src*='457500']",
+            "xpath": "//article[@href*='457500']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 457500 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ORPI Chatillon Immobilier Gestion",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('ORPI Chatillon Immobilier Gestion')",
+            "xpath": "//p[contains(text(), 'ORPI Chatillon Immobilier Gestion')]",
+            "bbox": null,
+            "text_quote": "ORPI Chatillon Immobilier Gestion"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 16:11.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 16:11.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 16:11."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(23)",
+        "xpath": "//article[contains(@href, '457500')]",
+        "bbox": null,
+        "text_quote": "Appartement, 3 pièces, 66 mètres carrés... Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/690000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='690000']",
+            "xpath": "//a[@href*='690000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 690000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('690 000 €')",
+            "xpath": "//p[contains(text(), '690<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "690<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 690<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Conservatoire",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Conservatoire.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Conservatoire.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Conservatoire\n\nSituée à Châtillon 92320 Conservatoire."
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 150m²')",
+            "xpath": "//p[contains(text(), 'Maison')] | //h3[contains(text(), 'Maison')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 150m²"
+          }
+        },
+        "bedrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 150m²')",
+            "xpath": "//p[contains(text(), '5 pièces')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 150m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 150,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 5 pièces · 150m²')",
+            "xpath": "//p[contains(text(), '150m²')]",
+            "bbox": null,
+            "text_quote": "Maison · 5 pièces · 150m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrain",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrain') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrain')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrain : 115 m²\n\nSurface du terrain 115 mètres carrés\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Conservatoire.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Conservatoire.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Conservatoire.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Conservatoire."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(23) img[src*='690000']",
+            "xpath": "//article[@href*='690000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 690000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "efficity - Nicolas Henry",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('Nicolas Henry')",
+            "xpath": "//p[contains(text(), 'efficity - Nicolas Henry')]",
+            "bbox": null,
+            "text_quote": "efficity - Nicolas Henry"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 16:01.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 16:01.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 16:01."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(24)",
+        "xpath": "//article[contains(@href, '690000')]",
+        "bbox": null,
+        "text_quote": "Maison, 5 pièces, 150 mètres carrés... Châtillon 92320 Conservatoire."
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/220000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='220000']",
+            "xpath": "//a[@href*='220000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 220000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('220 000 €')",
+            "xpath": "//p[contains(text(), '220<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "220<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 220<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Vieux Bourg - Malraux",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Vieux Bourg - Malraux\n\nSituée à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 1 pièce · 29m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 1 pièce · 29m²"
+          }
+        },
+        "bedrooms": {
+          "value": 1,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 1 pièce · 29m²')",
+            "xpath": "//p[contains(text(), '1 pièce')]",
+            "bbox": null,
+            "text_quote": "Appartement · 1 pièce · 29m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 29,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 1 pièce · 29m²')",
+            "xpath": "//p[contains(text(), '29m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 1 pièce · 29m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Parking",
+            "Terrain"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Parking') > span, .feature-list:contains('Terrain') > span",
+            "xpath": "//p[contains(text(), 'Parking')] | //p[contains(text(), 'Terrain')]",
+            "bbox": null,
+            "text_quote": "Parking\n\n... \n\nTerrain : 12 m²"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Vieux Bourg - Malraux.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(24) img[src*='220000']",
+            "xpath": "//article[@href*='220000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 220000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "La Petite Agence 92",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('La Petite Agence 92')",
+            "xpath": "//p[contains(text(), 'La Petite Agence 92')]",
+            "bbox": null,
+            "text_quote": "La Petite Agence 92"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 15:10.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 15:10.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 15:10."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(25)",
+        "xpath": "//article[contains(@href, '220000')]",
+        "bbox": null,
+        "text_quote": "Appartement, 1 pièce, 29 mètres carrés... Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/689000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='689000']",
+            "xpath": "//a[@href*='689000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 689000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('689 000 €')",
+            "xpath": "//p[contains(text(), '689<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "689<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 689<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Berthelot - Avenue de Paris",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Berthelot - Avenue de Paris\n\nSituée à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 4 pièces · 82m²')",
+            "xpath": "//p[contains(text(), 'Maison')] | //h3[contains(text(), 'Maison')]",
+            "bbox": null,
+            "text_quote": "Maison · 4 pièces · 82m²"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 4 pièces · 82m²')",
+            "xpath": "//p[contains(text(), '4 pièces')]",
+            "bbox": null,
+            "text_quote": "Maison · 4 pièces · 82m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 82,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 4 pièces · 82m²')",
+            "xpath": "//p[contains(text(), '82m²')]",
+            "bbox": null,
+            "text_quote": "Maison · 4 pièces · 82m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrain",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrain') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrain')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrain : 135 m²\n\nSurface du terrain 135 mètres carrés\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Berthelot - Avenue de Paris.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(25) img[src*='689000']",
+            "xpath": "//article[@href*='689000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 689000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ACOR IMMOBILIER",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('ACOR IMMOBILIER')",
+            "xpath": "//p[contains(text(), 'ACOR IMMOBILIER')]",
+            "bbox": null,
+            "text_quote": "ACOR IMMOBILIER"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 14:49.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 14:49.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 14:49."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(26)",
+        "xpath": "//article[contains(@href, '689000')]",
+        "bbox": null,
+        "text_quote": "Maison, 4 pièces, 82 mètres carrés... Châtillon 92320 Berthelot - Avenue de Paris."
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/480000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='480000']",
+            "xpath": "//a[@href*='480000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 480000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('480 000 €')",
+            "xpath": "//p[contains(text(), '480<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "480<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 480<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Savoie - Brossolette",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Savoie - Brossolette.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Savoie - Brossolette.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Savoie - Brossolette\n\nSituée à Châtillon 92320 Savoie - Brossolette."
+          }
+        },
+        "property_type": {
+          "value": "Maison",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 3 pièces · 90m²')",
+            "xpath": "//p[contains(text(), 'Maison')] | //h3[contains(text(), 'Maison')]",
+            "bbox": null,
+            "text_quote": "Maison · 3 pièces · 90m²"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 3 pièces · 90m²')",
+            "xpath": "//p[contains(text(), '3 pièces')]",
+            "bbox": null,
+            "text_quote": "Maison · 3 pièces · 90m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 90,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Maison · 3 pièces · 90m²')",
+            "xpath": "//p[contains(text(), '90m²')]",
+            "bbox": null,
+            "text_quote": "Maison · 3 pièces · 90m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrain",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrain') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrain')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrain : 431 m²\n\nSurface du terrain 431 mètres carrés\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Savoie - Brossolette.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Savoie - Brossolette.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Savoie - Brossolette.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Savoie - Brossolette."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(26) img[src*='480000']",
+            "xpath": "//article[@href*='480000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 480000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ORPI Chatillon Immobilier Gestion",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('ORPI Chatillon Immobilier Gestion')",
+            "xpath": "//p[contains(text(), 'ORPI Chatillon Immobilier Gestion')]",
+            "bbox": null,
+            "text_quote": "ORPI Chatillon Immobilier Gestion"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 14:40.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 14:40.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 14:40."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(27)",
+        "xpath": "//article[contains(@href, '480000')]",
+        "bbox": null,
+        "text_quote": "Maison, 3 pièces, 90 mètres carrés... Châtillon 92320 Savoie - Brossolette."
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/569000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='569000']",
+            "xpath": "//a[@href*='569000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 569000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('569 000 €')",
+            "xpath": "//p[contains(text(), '569<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "569<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 569<0xE2><0x80><0xAF>000<0xC2><0xA0>€.. Baisse de prix"
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Vieux Bourg - Malraux",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Vieux Bourg - Malraux\n\nSituée à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 5 pièces · 100m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 5 pièces · 100m²"
+          }
+        },
+        "bedrooms": {
+          "value": 5,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 5 pièces · 100m²')",
+            "xpath": "//p[contains(text(), '5 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 5 pièces · 100m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 100,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 5 pièces · 100m²')",
+            "xpath": "//p[contains(text(), '100m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 5 pièces · 100m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Balcon",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Balcon') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Balcon')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Balcon\n\nBalcon\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Vieux Bourg - Malraux.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(27) img[src*='569000']",
+            "xpath": "//article[@href*='569000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 569000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Bénédicte Poirier - IAD France",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('Bénédicte Poirier')",
+            "xpath": "//p[contains(text(), 'Bénédicte Poirier - IAD France')]",
+            "bbox": null,
+            "text_quote": "Bénédicte Poirier - IAD France"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 14:30.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 14:30.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 14:30."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(28)",
+        "xpath": "//article[contains(@href, '569000')]",
+        "bbox": null,
+        "text_quote": "Appartement, 5 pièces, 100 mètres carrés... Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/430000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='430000']",
+            "xpath": "//a[@href*='430000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 430000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('430 000 €')",
+            "xpath": "//p[contains(text(), '430<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "430<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 430<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Roissys - Béranger",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Roissys - Béranger.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Roissys - Béranger.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Roissys - Béranger\n\nSituée à Châtillon 92320 Roissys - Béranger."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 65m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 65m²"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 65m²')",
+            "xpath": "//p[contains(text(), '3 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 65m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 65,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 65m²')",
+            "xpath": "//p[contains(text(), '65m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 65m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Balcon",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Balcon') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Balcon')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Balcon\n\nBalcon\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Roissys - Béranger.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Roissys - Béranger.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Roissys - Béranger.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Roissys - Béranger."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(28) img[src*='430000']",
+            "xpath": "//article[@href*='430000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 430000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "HOSMAN",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('HOSMAN')",
+            "xpath": "//p[contains(text(), 'HOSMAN')]",
+            "bbox": null,
+            "text_quote": "HOSMAN"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 14:20.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 14:20.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 14:20."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(29)",
+        "xpath": "//article[contains(@href, '430000')]",
+        "bbox": null,
+        "text_quote": "Appartement, 3 pièces, 65 mètres carrés... Châtillon 92320 Roissys - Béranger."
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/550000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='550000']",
+            "xpath": "//a[@href*='550000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 550000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('550 000 €')",
+            "xpath": "//p[contains(text(), '550<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "550<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 550<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Matisse - Pierrelais",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Matisse - Pierrelais.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Matisse - Pierrelais.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Matisse - Pierrelais\n\nSituée à Châtillon 92320 Matisse - Pierrelais."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 4 pièces · 89m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 4 pièces · 89m²"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 4 pièces · 89m²')",
+            "xpath": "//p[contains(text(), '4 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 4 pièces · 89m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 89,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 4 pièces · 89m²')",
+            "xpath": "//p[contains(text(), '89m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 4 pièces · 89m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Terrasse",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Terrasse') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Terrasse')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Terrasse\n\nTerrasse\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Matisse - Pierrelais.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Matisse - Pierrelais.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Matisse - Pierrelais.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Matisse - Pierrelais."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(29) img[src*='550000']",
+            "xpath": "//article[@href*='550000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 550000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "ORPI Chatillon Immobilier Gestion",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('ORPI Chatillon Immobilier Gestion')",
+            "xpath": "//p[contains(text(), 'ORPI Chatillon Immobilier Gestion')]",
+            "bbox": null,
+            "text_quote": "ORPI Chatillon Immobilier Gestion"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 13:00.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 13:00.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 13:00."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(30)",
+        "xpath": "//article[contains(@href, '550000')]",
+        "bbox": null,
+        "text_quote": "Appartement, 4 pièces, 89 mètres carrés... Châtillon 92320 Matisse - Pierrelais."
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/295000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='295000']",
+            "xpath": "//a[@href*='295000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 295000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('295 000 €')",
+            "xpath": "//p[contains(text(), '295<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "295<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 295<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Berthelot - Avenue de Paris",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Berthelot - Avenue de Paris\n\nSituée à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 47m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 47m²"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 47m²')",
+            "xpath": "//p[contains(text(), '3 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 47m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 47,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 3 pièces · 47m²')",
+            "xpath": "//p[contains(text(), '47m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 3 pièces · 47m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Parking",
+            "Cave"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Parking') > span, .feature-list:contains('Cave') > span",
+            "xpath": "//p[contains(text(), 'Parking')] | //p[contains(text(), 'Cave')]",
+            "bbox": null,
+            "text_quote": "Parking\n\nParking\n\nCave\n\nCave"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Berthelot - Avenue de Paris.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Berthelot - Avenue de Paris.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Berthelot - Avenue de Paris.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Berthelot - Avenue de Paris."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(30) img[src*='295000']",
+            "xpath": "//article[@href*='295000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 295000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Ariane SIAHPOOSH - IAD France",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('Ariane SIAHPOOSH')",
+            "xpath": "//p[contains(text(), 'Ariane SIAHPOOSH - IAD France')]",
+            "bbox": null,
+            "text_quote": "Ariane SIAHPOOSH - IAD France"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 12:00.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 12:00.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 12:00."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(31)",
+        "xpath": "//article[contains(@href, '295000')]",
+        "bbox": null,
+        "text_quote": "Appartement, 3 pièces, 47 mètres carrés... Châtillon 92320 Berthelot - Avenue de Paris."
+      }
+    },
+    {
+      "record_id": "pred_026",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/237000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='237000']",
+            "xpath": "//a[@href*='237000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 237000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('237 000 €')",
+            "xpath": "//p[contains(text(), '237<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "237<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 237<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Savoie - Brossolette",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Savoie - Brossolette.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Savoie - Brossolette.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Savoie - Brossolette\n\nSituée à Châtillon 92320 Savoie - Brossolette."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 42m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 42m²"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 42m²')",
+            "xpath": "//p[contains(text(), '2 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 42m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 42,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 42m²')",
+            "xpath": "//p[contains(text(), '42m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 42m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Jardin",
+            "Parking"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Jardin') > span, .feature-list:contains('Parking') > span",
+            "xpath": "//p[contains(text(), 'Jardin')] | //p[contains(text(), 'Parking')]",
+            "bbox": null,
+            "text_quote": "Jardin\n\nJardin\n\n... \n\nParking"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Savoie - Brossolette.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Savoie - Brossolette.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Savoie - Brossolette.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Savoie - Brossolette."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(31) img[src*='237000']",
+            "xpath": "//article[@href*='237000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 237000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "La Petite Agence 92",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('La Petite Agence 92')",
+            "xpath": "//p[contains(text(), 'La Petite Agence 92')]",
+            "bbox": null,
+            "text_quote": "La Petite Agence 92"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 11:50.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 11:50.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 11:50."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(32)",
+        "xpath": "//article[contains(@href, '237000')]",
+        "bbox": null,
+        "text_quote": "Appartement, 2 pièces, 42 mètres carrés... Châtillon 92320 Savoie - Brossolette."
+      }
+    },
+    {
+      "record_id": "pred_027",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.leboncoin.fr/ad/ventes_immobilieres/260000",
+          "provenance": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='260000']",
+            "xpath": "//a[@href*='260000']",
+            "bbox": null,
+            "text_quote": "Voir l'annonce"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 260000,
+            "currency_code": "EUR",
+            "currency_symbol": "€",
+            "period": null
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".price-block:contains('260 000 €')",
+            "xpath": "//p[contains(text(), '260<0xE2><0x80><0xAF>000<0xA0>€')]",
+            "bbox": null,
+            "text_quote": "260<0xE2><0x80><0xAF>000<0xC2><0xA0>€\nPrix: 260<0xE2><0x80><0xAF>000<0xC2><0xA0>€."
+          }
+        },
+        "address": {
+          "value": "Châtillon 92320 Vieux Bourg - Malraux",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-info:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Châtillon 92320 Vieux Bourg - Malraux\n\nSituée à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "property_type": {
+          "value": "Appartement",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 41m²')",
+            "xpath": "//p[contains(text(), 'Appartement')] | //h3[contains(text(), 'Appartement')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 41m²"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 41m²')",
+            "xpath": "//p[contains(text(), '2 pièces')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 41m²"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 41,
+            "unit": "m2"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".listing-summary:contains('Appartement · 2 pièces · 41m²')",
+            "xpath": "//p[contains(text(), '41m²')]",
+            "bbox": null,
+            "text_quote": "Appartement · 2 pièces · 41m²"
+          }
+        },
+        "key_features": {
+          "value": [
+            "Parking",
+            "Cave"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".feature-list:contains('Parking') > span, .feature-list:contains('Cave') > span",
+            "xpath": "//p[contains(text(), 'Parking')] | //p[contains(text(), 'Cave')]",
+            "bbox": null,
+            "text_quote": "Parking\n\nParking\n\nCave\n\nCave"
+          }
+        },
+        "description": {
+          "value": "Située à Châtillon 92320 Vieux Bourg - Malraux.",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".location-details:contains('Vieux Bourg - Malraux.')",
+            "xpath": "//p[contains(text(), 'Située à Châtillon 92320 Vieux Bourg - Malraux.')]",
+            "bbox": null,
+            "text_quote": "Située à Châtillon 92320 Vieux Bourg - Malraux."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.html",
+            "css_selector": ".listing-card:nth-child(32) img[src*='260000']",
+            "xpath": "//article[@href*='260000']/img/@src",
+            "bbox": null,
+            "text_quote": "Image URL for listing 260000 (Not explicitly visible in text.txt)"
+          }
+        },
+        "listing_agent_name": {
+          "value": "La Petite Agence 92",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".agency-info:contains('La Petite Agence 92')",
+            "xpath": "//p[contains(text(), 'La Petite Agence 92')]",
+            "bbox": null,
+            "text_quote": "La Petite Agence 92"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-28",
+          "provenance": {
+            "source": "text.txt",
+            "css_selector": ".date-info:contains('aujourd’hui à 11:40.')",
+            "xpath": "//p[contains(text(), 'Date de dépôt : aujourd’hui à 11:40.')]",
+            "bbox": null,
+            "text_quote": "Date de dépôt : aujourd’hui à 11:40."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector": ".listing-card:nth-child(33)",
+        "xpath": "//article[contains(@href, '260000')]",
+        "bbox": null,
+        "text_quote": "Appartement, 2 pièces, 41 mètres carrés... Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 663.706,
+    "input_tokens": 28961,
+    "output_tokens": 44467,
+    "total_tokens": 73428,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_LEBONCOIN_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_LEBONCOIN_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_002_DETAIL",
+  "website_id": "maroc_annonces",
+  "schema_id": "real_estate_listing_v1",
+  "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+  "snapshot_path": "raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+  "live_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_002_DETAIL_001",
+      "fields": {
+        "listing_title": {
+          "value": "Vend joli appart Maarif",
+          "normalized": "Vend joli appart Maarif"
+        },
+        "address": {
+          "value": "Casablanca / Maarif",
+          "normalized": "Casablanca / Maarif"
+        },
+        "published_date": {
+          "value": "Publi\u00e9e le: 28 May-20:23",
+          "normalized": "2026-05-28T20:23:00"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/315/6112302.jpg",
+            "https://www.marocannonces.com/user_images/315/9837565.jpg",
+            "https://www.marocannonces.com/user_images/315/3850453.jpg",
+            "https://www.marocannonces.com/user_images/315/4263932.jpg",
+            "https://www.marocannonces.com/user_images/315/8582109.jpg",
+            "https://www.marocannonces.com/user_images/315/5831737.jpg",
+            "https://www.marocannonces.com/user_images/315/3758064.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/315/6112302.jpg",
+            "https://www.marocannonces.com/user_images/315/9837565.jpg",
+            "https://www.marocannonces.com/user_images/315/3850453.jpg",
+            "https://www.marocannonces.com/user_images/315/4263932.jpg",
+            "https://www.marocannonces.com/user_images/315/8582109.jpg",
+            "https://www.marocannonces.com/user_images/315/5831737.jpg",
+            "https://www.marocannonces.com/user_images/315/3758064.jpg"
+          ]
+        },
+        "price": {
+          "value": "1 185 000 DH",
+          "normalized": {
+            "amount": 1185000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "floor_area": {
+          "value": "72 m\u00b2",
+          "normalized": 72.0,
+          "unit": "m2"
+        },
+        "rooms": {
+          "value": "3",
+          "normalized": 3
+        },
+        "bathrooms": {
+          "value": "1",
+          "normalized": 1
+        },
+        "description": {
+          "value": "Detail de l'annonce : Particulier vend joli appartement Maarif avec parking constitu\u00e9 d'un salon, deux chambres, cuisine \u00e9quip\u00e9e, salle de bain, proche de toutes commodit\u00e9s, Possibilit\u00e9 de le vendre MEUBL\u00c9 pour les int\u00e9ress\u00e9s.",
+          "normalized": "Detail de l'annonce : Particulier vend joli appartement Maarif avec parking constitu\u00e9 d'un salon, deux chambres, cuisine \u00e9quip\u00e9e, salle de bain, proche de toutes commodit\u00e9s, Possibilit\u00e9 de le vendre MEUBL\u00c9 pour les int\u00e9ress\u00e9s."
+        },
+        "listing_agent_name": {
+          "value": "Riffi",
+          "normalized": "Riffi"
+        },
+        "listing_agent_phone": {
+          "value": "064-592-2877",
+          "normalized": "0645922877"
+        },
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+          "normalized": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html"
+        },
+        "listing_id": {
+          "value": "10387457",
+          "normalized": "10387457"
+        }
+      },
+      "provenance": {
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "div.description > h1",
+          "xpath": "//h1[contains(normalize-space(.), 'Vend joli appart Maarif')]",
+          "text_quote": "Vend joli appart Maarif",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/h1[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div > h1"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "ul.info-holder > li",
+          "xpath": "//li[contains(normalize-space(.), 'Casablanca / Maarif')]",
+          "text_quote": "Casablanca / Maarif",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/ul/li[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "ul.info-holder > li",
+          "xpath": "//li[contains(normalize-space(.), 'Publi\u00e9e le: 28 May-20:23')]",
+          "text_quote": "Publi\u00e9e le: 28 May-20:23",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/ul/li[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "img[href*='None']",
+          "xpath": "//body/div[2]/div[2]/div[1]/div/div[2]/div/div[1]/div/div[1]/div[1]/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[1]/div/div[1]/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "strong.price",
+          "xpath": "//strong[contains(normalize-space(.), '1 185 000 DH')]",
+          "text_quote": "1 185 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div > strong"
+        },
+        "floor_area": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "ul#extraQuestionName > li > a",
+          "xpath": "//a[contains(@href,'vente-appartements-surface-en-msup2-sup-72-casablanca-b315-t563')]",
+          "text_quote": "72",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div[1]/ul/li[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "rooms": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "ul#extraQuestionName > li > a",
+          "xpath": "//a[contains(@href,'vente-appartements-nombre-de-chambres-3-casablanca-b315-t563')]",
+          "text_quote": "3",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div[1]/ul/li[2]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        "bathrooms": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "ul#extraQuestionName > li > a",
+          "xpath": "//a[contains(@href,'vente-appartements-salles-de-bain-1-casablanca-b315-t563')]",
+          "text_quote": "1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div[1]/ul/li[3]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)"
+        },
+        "description": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "div.block",
+          "xpath": "//body/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div[2]",
+          "text_quote": "Detail de l'annonce : Particulier vend joli appartement Maarif avec parking constitu\u00e9 d'un salon, deux chambres, cuisine \u00e9quip\u00e9e, salle de bain, proche de toute",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)"
+        },
+        "listing_agent_name": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "div.infoannonce > dl > dd",
+          "xpath": "//dd[contains(normalize-space(.), 'Riffi')]",
+          "text_quote": "Riffi",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div[3]/dl/dd[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > dl:nth-of-type(1) > dd:nth-of-type(1)"
+        },
+        "listing_agent_phone": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "div#phone_number img",
+          "xpath": "//option[contains(normalize-space(.), 'T\u00e9l\u00e9phones Portables')]",
+          "text_quote": "T\u00e9l\u00e9phones Portables",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[1]/div[5]/form/div[2]/select/option[57]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > form:nth-of-type(1) > div:nth-of-type(2) > select:nth-of-type(1) > option:nth-of-type(57)"
+        },
+        "listing_id": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "ul.info-holder > li",
+          "xpath": "//li[contains(normalize-space(.), '10387457')]",
+          "text_quote": "10387457",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/ul/li[4]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4)"
+        },
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_002_DETAIL",
+          "css_selector": "a[title='Imprimer']",
+          "xpath": "//a[contains(@href,'10387457/Vend-joli-appart-Maarif.html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div[4]/div[1]/ul/li[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

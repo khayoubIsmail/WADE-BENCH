@@ -1,0 +1,53 @@
+{
+  "task_id": "WBV1_ACAD_MIT_EVENTS_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Food Truck Wednesdays",
+        "event_start_date": "2026-06-03",
+        "event_end_date": "2026-06-03",
+        "event_start_time": "16:30",
+        "event_end_time": "19:00",
+        "event_url": "https://www.openspace.mit.edu/foodtrucks-2026",
+        "location": "Cambridge, MA, USA",
+        "event_type": "Community Event",
+        "website": "https://www.openspace.mit.edu/foodtrucks-2026",
+        "email": "openspace@mit.edu",
+        "accessibility": "We are committed to creating an inclusive, accessible environment here on our website and in-person in the open space. If you would like to request a disability-related accommodation, please contact us at openspace@mit.edu.",
+        "department": "MIT Open Space Programming",
+        "subtitle": "Enjoy a selection of local food trucks every Wednesday in the Kendall/MIT Open Space, with plenty of outdoor seating options available! Please check this page for an up-to-date lineup each week.",
+        "address": "25 Carleton St, Cambridge, MA 02142",
+        "organizer": "MIT Open Space Programming"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "bbox": null,
+        "text_quote": "Wednesday, June 3, 2026 4:30pm to 7:00pm GMT+1"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 7.238,
+    "input_tokens": 2468,
+    "output_tokens": 282,
+    "total_tokens": 2750,
+    "num_tiles": 1,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_MIT_EVENTS_002_DETAIL\\tile_01.png"
+    ],
+    "error": null
+  }
+}

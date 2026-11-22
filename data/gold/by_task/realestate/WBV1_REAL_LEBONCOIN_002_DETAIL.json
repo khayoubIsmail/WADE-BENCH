@@ -1,0 +1,319 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_002_DETAIL",
+  "website_id": "leboncoin",
+  "schema_id": "real_estate_listing_v1",
+  "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+  "snapshot_path": "raw_snapshots/realestate/SNAP_REAL_LEBONCOIN_002_DETAIL",
+  "live_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3201084037",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_REAL_LEBONCOIN_002_DETAIL_001",
+      "fields": {
+        "images_urls": {
+          "value": [
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-large",
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/02/66/1c0266d6e8f7a01caf49fc78d3f635ef4b258059.jpg?rule=ad-large",
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/0b/42/580b42b80c2c771bd2f8fab8fa4d88b813ac0487.jpg?rule=ad-large"
+          ],
+          "normalized": [
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-large",
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/02/66/1c0266d6e8f7a01caf49fc78d3f635ef4b258059.jpg?rule=ad-large",
+            "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/0b/42/580b42b80c2c771bd2f8fab8fa4d88b813ac0487.jpg?rule=ad-large"
+          ]
+        },
+        "description": {
+          "value": "Appartement 3 pi\u00e8ces 43 m\u00b2\n\nEXCLUSIVITE ACOR IMMOBILIER ! Votre Agence ACOR IMMOBILIER vous propose au pied du Tramway T6 PARC ANDRE MALRAUX, des commerces et du Centre Ville, des \u00e9coles, dans une copropri\u00e9t\u00e9 avec le Charme de l'ancien en Moli\u00e8re, un appartement  2/3 pi\u00e8ces de 43 m2 en double exposition comprenant: une entr\u00e9e, un s\u00e9jour expos\u00e9 plein Sud, une cuisine am\u00e9nag\u00e9e et \u00e9quip\u00e9e, une chambre , une bureau (ou petite chambre d'enfant), une salle d'eau, un wc s\u00e9par\u00e9. \nCet appartement en parf\u2026",
+          "normalized": "Appartement 3 pi\u00e8ces 43 m\u00b2\n\nEXCLUSIVITE ACOR IMMOBILIER ! Votre Agence ACOR IMMOBILIER vous propose au pied du Tramway T6 PARC ANDRE MALRAUX, des commerces et du Centre Ville, des \u00e9coles, dans une copropri\u00e9t\u00e9 avec le Charme de l'ancien en Moli\u00e8re, un appartement  2/3 pi\u00e8ces de 43 m2 en double exposition comprenant: une entr\u00e9e, un s\u00e9jour expos\u00e9 plein Sud, une cuisine am\u00e9nag\u00e9e et \u00e9quip\u00e9e, une chambre , une bureau (ou petite chambre d'enfant), une salle d'eau, un wc s\u00e9par\u00e9. \nCet appartement en parf\u2026"
+        },
+        "price_per_m2": {
+          "value": "6 256 \u20ac/m\u00b2",
+          "normalized": {
+            "amount": 6256.0,
+            "currency": {
+              "name": "Euro",
+              "code": "EUR",
+              "symbol": "\u20ac"
+            }
+          }
+        },
+        "listing_agent_logo": {
+          "value": "https://img.leboncoin.fr/api/v1/lbcpb1/images/4c/a5/d6/4ca5d683-a7e8-4231-896d-db3a53744798?rule=bo-thumb",
+          "normalized": "https://img.leboncoin.fr/api/v1/lbcpb1/images/4c/a5/d6/4ca5d683-a7e8-4231-896d-db3a53744798?rule=bo-thumb"
+        },
+        "listing_title": {
+          "value": "Appartement 3 pi\u00e8ces 43 m\u00b2",
+          "normalized": "Appartement 3 pi\u00e8ces 43 m\u00b2"
+        },
+        "property_type": {
+          "value": "Appartement",
+          "normalized": "appartement"
+        },
+        "floor_area": {
+          "value": "43 m\u00b2",
+          "normalized": 43.0,
+          "unit": "m2"
+        },
+        "rooms": {
+          "value": "3",
+          "normalized": 3
+        },
+        "bedrooms": {
+          "value": "2 ch.",
+          "normalized": 2
+        },
+        "bathrooms": {
+          "value": "1",
+          "normalized": 1
+        },
+        "price": {
+          "value": "269\u202f000\u00a0\u20ac",
+          "normalized": {
+            "amount": 269000.0,
+            "currency": {
+              "name": "Euro",
+              "code": "EUR",
+              "symbol": "\u20ac"
+            }
+          }
+        },
+        "monthly_fees": {
+          "value": "1\u202f361\u00a0\u20ac",
+          "normalized": {
+            "amount": 1361.0,
+            "currency": {
+              "name": "Euro",
+              "code": "EUR",
+              "symbol": "\u20ac"
+            }
+          }
+        },
+        "listing_agent": {
+          "value": "ACOR Immobilier",
+          "normalized": "ACOR Immobilier"
+        },
+        "energy_rating": {
+          "value": "Classe \u00e9nergie E",
+          "normalized": "E"
+        },
+        "address": {
+          "value": "Quartier Vieux Bourg - Malraux\nCh\u00e2tillon (92320)",
+          "normalized": "Quartier Vieux Bourg - Malraux\nCh\u00e2tillon (92320)"
+        },
+        "greenhouse_gas_rating": {
+          "value": "GES E",
+          "normalized": "E"
+        },
+        "characteristics": {
+          "value": [
+            "Cuisine \u00e9quip\u00e9e",
+            "Cave",
+            "Interphone"
+          ],
+          "normalized": [
+            "Cuisine \u00e9quip\u00e9e",
+            "Cave",
+            "Interphone"
+          ]
+        },
+        "heating_type": {
+          "value": "Individuel",
+          "normalized": "Individuel"
+        },
+        "heating_mode": {
+          "value": "Gaz",
+          "normalized": "Gaz"
+        }
+      },
+      "provenance": {
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'rule=ad-thumb')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/nav/div[1]/div/div/div/div[1]/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "description": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "article#grid .min-w-page-min .mx-lg div #readme-content",
+          "xpath": "//p[@id='readme-content']",
+          "text_quote": "Appartement 3 pi\u00e8ces 43 m\u00b2\n\nEXCLUSIVITE ACOR IMMOBILIER ! Votre Agence ACOR IMMO",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/article[1]/article[1]/div[6]/div[1]/p[1]",
+          "css_selector_absolute": "p#readme-content"
+        },
+        "price_per_m2": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "listing_agent_logo": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "img[href*='None']",
+          "xpath": "//body/div[2]/div/div/div/div[1]/div/main/div/div/article/section/div[1]/div[1]/div/div[1]/div[1]/div/a/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/section/div[1]/div[1]/div/div[1]/div[1]/div/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "article#grid > article.min-w-page-min.col-[1].row-[1] > span > h1",
+          "xpath": "//title[contains(normalize-space(.), 'Appartement 3 pi\u00e8ces 43 m\u00b2')]",
+          "text_quote": "Appartement 3 pi\u00e8ces 43 m\u00b2",
+          "attribute": null,
+          "xpath_absolute": "/html/head/title",
+          "css_selector_absolute": "html > head:nth-of-type(1) > title:nth-of-type(1)"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "p.text-body-1-highlight",
+          "xpath": "//p[@title='Appartement']",
+          "text_quote": "Appartement",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[5]/div[2]/div[1]/div[1]/div[2]/a/div/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "floor_area": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "p.text-body-1-highlight",
+          "xpath": "//p[@title='43 m\u00b2']",
+          "text_quote": "43 m\u00b2",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[5]/div[2]/div[1]/div[2]/div[2]/div/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "rooms": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "p.text-body-1-highlight",
+          "xpath": "//p[@title='3']",
+          "text_quote": "3",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[5]/div[2]/div[1]/div[3]/div[2]/a/div/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "bedrooms": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "p.text-body-1-highlight",
+          "xpath": "//p[@title='2 ch.']",
+          "text_quote": "2 ch.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[5]/div[2]/div[1]/div[4]/div[2]/div/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "bathrooms": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "p.text-body-1-highlight",
+          "xpath": "//body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[5]/div[2]/div[1]/div[5]/div[2]/div/p",
+          "text_quote": "1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[5]/div[2]/div[1]/div[5]/div[2]/div/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "div[data-qa-id='adview_price']",
+          "xpath": "//body/div[2]/div/div/div/div[1]/div/main/div/div/nav/div[1]/div/div/div/div[1]/div[2]/div[2]/div",
+          "text_quote": "269 000 \u20ac",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/nav/div[1]/div/div/div/div[1]/div[2]/div[2]/div",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1)"
+        },
+        "monthly_fees": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "span.text-headline-1",
+          "xpath": "//body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/article[1]/article[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/span[1]",
+          "text_quote": "1\u202f361\u00a0\u20ac",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/article[1]/article[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/span[1]",
+          "css_selector_absolute": "div#loanCalculator > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > span:nth-of-type(1)"
+        },
+        "listing_agent": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "energy_rating": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "p[aria-label='Quartier Vieux Bourg - Malraux']",
+          "xpath": "//p[@aria-label='Quartier Vieux Bourg - Malraux']",
+          "text_quote": "Quartier Vieux Bourg - Malraux",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[7]/section/div[1]/div/p[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(7) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "heating_type": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "p.text-body-1-highlight",
+          "xpath": "//p[@title='Individuel']",
+          "text_quote": "Individuel",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[5]/div[2]/div[1]/div[7]/div[2]/div/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "heating_mode": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "p.text-body-1-highlight",
+          "xpath": "//p[@title='Gaz']",
+          "text_quote": "Gaz",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[5]/div[2]/div[1]/div[8]/div[2]/div/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "greenhouse_gas_rating": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        },
+        "characteristics": {
+          "snapshot_id": "SNAP_REAL_LEBONCOIN_002_DETAIL",
+          "css_selector": "p[title='Cuisine \u00e9quip\u00e9e, Cave, Interphone']",
+          "xpath": "//p[@title='Cuisine \u00e9quip\u00e9e, Cave, Interphone']",
+          "text_quote": "Cuisine \u00e9quip\u00e9e",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div/div/div/div[1]/div/main/div/div/article/article/div[5]/div[2]/div[1]/div[6]/div[2]/div/p",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "task_id": "WBV1_ACAD_STANFORD_EVENTS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2026-06-25",
+        "event_name": "Stanford University Events Calendar",
+        "event_start_date": "2026-05-27",
+        "event_url": null,
+        "location": null
+      },
+      "provenance": {
+        "event_end_date": "page.html",
+        "event_name": "page.html",
+        "event_start_date": "page.html",
+        "event_url": null,
+        "location": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 5.144,
+    "input_tokens": 16323,
+    "output_tokens": 180,
+    "total_tokens": 16503,
+    "initial_input_tokens": 16323,
+    "initial_output_tokens": 180,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

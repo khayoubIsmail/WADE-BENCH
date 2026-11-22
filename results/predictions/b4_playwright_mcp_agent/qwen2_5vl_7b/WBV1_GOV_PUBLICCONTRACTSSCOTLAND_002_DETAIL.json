@@ -1,0 +1,33 @@
+{
+  "task_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Integrated case management system configuration and development",
+        "tender_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703"
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "text_quote": "Title: Integrated case management system configuration and development\nReference No: MAY556703\nOCID: ocds-r6ebe6-0000833071\nPublished by: The City of Edinburgh Council\nPublication Date: 27/05/2026"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 11.226,
+    "input_tokens": 15577,
+    "output_tokens": 173,
+    "total_tokens": 15750,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

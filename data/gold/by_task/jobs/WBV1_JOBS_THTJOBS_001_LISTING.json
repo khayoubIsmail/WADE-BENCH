@@ -1,0 +1,2425 @@
+{
+  "task_id": "WBV1_JOBS_THTJOBS_001_LISTING",
+  "website_id": "thtjobs",
+  "schema_id": "job_posting_v1",
+  "snapshot_id": "timeshighered_listing",
+  "snapshot_path": "raw_snapshots/jobs/timeshighered_listing",
+  "live_url": "https://www.timeshighereducation.com/unijobs/listings/academic-posts/",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 21
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_001",
+      "fields": {
+        "job_title": {
+          "value": "Global Search for Excellence \u2013 The \u201c90 Scholars for 90th Anniversary\u201d Strategic Hiring Scheme",
+          "normalized": "Global Search for Excellence \u2013 The \u201c90 Scholars for 90th Anniversary\u201d Strategic Hiring Scheme"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/408414/global-search-for-excellence-the-90-scholars-for-90th-anniversary-strategic-hiring-scheme/?LinkSource=TopJob",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/408414/global-search-for-excellence-the-90-scholars-for-90th-anniversary-strategic-hiring-scheme/?LinkSource=TopJob"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/ae4147cf-930a-4f87-bd51-f01fd093a5a6/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/ae4147cf-930a-4f87-bd51-f01fd093a5a6/"
+        },
+        "job_description": {
+          "value": "This prestigious initiative is designed to attract exceptional scholars across transformative, frontier defining fields: artificial ...",
+          "normalized": "This prestigious initiative is designed to attract exceptional scholars across transformative, frontier defining fields: artificial ..."
+        },
+        "location": {
+          "value": "Hong Kong (HK)",
+          "normalized": "Hong Kong (HK)"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "THE HONG KONG POLYTECHNIC UNIVERSITY",
+          "normalized": "THE HONG KONG POLYTECHNIC UNIVERSITY"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-408414 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-408414']/div[1]/h3[1]/a[1]",
+          "text_quote": "Global Search for Excellence \u2013 The \u201c90 Scholars for 90th Anniversary\u201d Strategic Hiring Scheme",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-408414 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-408414']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "img[src='https://www.timeshighereducation.com/unijobs/getasset/ae4147cf-930a-4f87-bd51-f01fd093a5a6/']",
+          "xpath": "//img[@src='https://www.timeshighereducation.com/unijobs/getasset/ae4147cf-930a-4f87-bd51-f01fd093a5a6/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/ae4147cf-930a-4f87-bd51-f01fd093a5a6/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-408414 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-408414']/div[1]/p[1]",
+          "text_quote": "This prestigious initiative is designed to attract exceptional scholars across transformative, frontier defining fields: artificial ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-408414 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-408414']/div[1]/ul[1]/li[1]",
+          "text_quote": "Hong Kong (HK)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-408414 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-408414']/div[1]/ul[1]/li[2]",
+          "text_quote": "THE HONG KONG POLYTECHNIC UNIVERSITY",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[1]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_002",
+      "fields": {
+        "job_title": {
+          "value": "Teaching Fellow in Textile Design",
+          "normalized": "Teaching Fellow in Textile Design"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411540/teaching-fellow-in-textile-design/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411540/teaching-fellow-in-textile-design/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/e7440fd3-912c-4d1d-a181-a1c0c72b2a72/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/e7440fd3-912c-4d1d-a181-a1c0c72b2a72/"
+        },
+        "job_description": {
+          "value": "This role is committed to preserving and enhancing our growing national and international reputation in Textiles, ...",
+          "normalized": "This role is committed to preserving and enhancing our growing national and international reputation in Textiles, ..."
+        },
+        "location": {
+          "value": "Southampton, United Kingdom / Hybrid",
+          "normalized": "Southampton, United Kingdom / Hybrid"
+        },
+        "salary": {
+          "value": "\u00a336,636 to \u00a344,746 Pro rata per annum",
+          "normalized": {
+            "min_amount": 36636.0,
+            "max_amount": 44746.0,
+            "currency": {
+              "name": "British pound",
+              "code": "GBP",
+              "symbol": "\u00a3"
+            },
+            "period": "year"
+          }
+        },
+        "company_name": {
+          "value": "UNIVERSITY OF SOUTHAMPTON",
+          "normalized": "UNIVERSITY OF SOUTHAMPTON"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411540 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411540']/div[1]/h3[1]/a[1]",
+          "text_quote": "Teaching Fellow in Textile Design",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411540 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411540']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "img[src='https://www.timeshighereducation.com/unijobs/getasset/e7440fd3-912c-4d1d-a181-a1c0c72b2a72/']",
+          "xpath": "//img[@src='https://www.timeshighereducation.com/unijobs/getasset/e7440fd3-912c-4d1d-a181-a1c0c72b2a72/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/e7440fd3-912c-4d1d-a181-a1c0c72b2a72/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411540 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411540']/div[1]/p[1]",
+          "text_quote": "This role is committed to preserving and enhancing our growing national and international reputation in Textiles, ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411540 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411540']/div[1]/ul[1]/li[1]",
+          "text_quote": "Southampton, United Kingdom / Hybrid",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411540 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411540']/div[1]/ul[1]/li[2]",
+          "text_quote": "\u00a336,636 to \u00a344,746 Pro rata per annum",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411540 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-411540']/div[1]/ul[1]/li[3]",
+          "text_quote": "UNIVERSITY OF SOUTHAMPTON",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[2]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_003",
+      "fields": {
+        "job_title": {
+          "value": "Instructor of the Institute of Forensic Medicine of the Faculty of Medicine",
+          "normalized": "Instructor of the Institute of Forensic Medicine of the Faculty of Medicine"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411538/instructor-of-the-institute-of-forensic-medicine-of-the-faculty-of-medicine/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411538/instructor-of-the-institute-of-forensic-medicine-of-the-faculty-of-medicine/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/6c0c47c1-7114-4e8d-a9f6-177b40665bd7/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/6c0c47c1-7114-4e8d-a9f6-177b40665bd7/"
+        },
+        "job_description": {
+          "value": "Masaryk University appoints a selection procedure for the position Instructor of the Department of Forensic Medicine ...",
+          "normalized": "Masaryk University appoints a selection procedure for the position Instructor of the Department of Forensic Medicine ..."
+        },
+        "location": {
+          "value": "Brno, Czech Republic",
+          "normalized": "Brno, Czech Republic"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "MASARYK UNIVERSITY",
+          "normalized": "MASARYK UNIVERSITY"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411538 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411538']/div[1]/h3[1]/a[1]",
+          "text_quote": "Instructor of the Institute of Forensic Medicine of the Faculty of Medicine",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411538 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411538']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "img[src='https://www.timeshighereducation.com/unijobs/getasset/6c0c47c1-7114-4e8d-a9f6-177b40665bd7/']",
+          "xpath": "//img[@src='https://www.timeshighereducation.com/unijobs/getasset/6c0c47c1-7114-4e8d-a9f6-177b40665bd7/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/6c0c47c1-7114-4e8d-a9f6-177b40665bd7/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411538 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411538']/div[1]/p[1]",
+          "text_quote": "Masaryk University appoints a selection procedure for the position Instructor of the Department of Forensic Medicine ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411538 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411538']/div[1]/ul[1]/li[1]",
+          "text_quote": "Brno, Czech Republic",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411538 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411538']/div[1]/ul[1]/li[2]",
+          "text_quote": "MASARYK UNIVERSITY",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[3]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_004",
+      "fields": {
+        "job_title": {
+          "value": "University Assistant Predoctoral, Law",
+          "normalized": "University Assistant Predoctoral, Law"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411534/university-assistant-predoctoral-law/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411534/university-assistant-predoctoral-law/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/e3a59d10-b9c4-48e4-90e7-5c2ca38d5e76/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/e3a59d10-b9c4-48e4-90e7-5c2ca38d5e76/"
+        },
+        "job_description": {
+          "value": "We are a highly dedicated team working intensively in the area of teaching and researching Austrian and international civil procedure.",
+          "normalized": "We are a highly dedicated team working intensively in the area of teaching and researching Austrian and international civil procedure."
+        },
+        "location": {
+          "value": "Vienna (Landbezirke) (AT)",
+          "normalized": "Vienna (Landbezirke) (AT)"
+        },
+        "salary": {
+          "value": "The basic salary of EUR 3.776,10 (on a full-time basis)",
+          "normalized": {
+            "min_amount": 3776.1,
+            "max_amount": 3776.1,
+            "currency": {
+              "name": "Euro",
+              "code": "EUR",
+              "symbol": "\u20ac"
+            },
+            "period": null
+          }
+        },
+        "company_name": {
+          "value": "UNIVERSITY OF VIENNA",
+          "normalized": "UNIVERSITY OF VIENNA"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411534 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411534']/div[1]/h3[1]/a[1]",
+          "text_quote": "University Assistant Predoctoral, Law",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411534 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411534']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411534 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411534']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/e3a59d10-b9c4-48e4-90e7-5c2ca38d5e76/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411534 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411534']/div[1]/p[1]",
+          "text_quote": "We are a highly dedicated team working intensively in the area of teaching and researching Austrian and international civil procedure.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411534 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411534']/div[1]/ul[1]/li[1]",
+          "text_quote": "Vienna (Landbezirke) (AT)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411534 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411534']/div[1]/ul[1]/li[2]",
+          "text_quote": "The basic salary of EUR 3.776,10 (on a full-time basis)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411534 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-411534']/div[1]/ul[1]/li[3]",
+          "text_quote": "UNIVERSITY OF VIENNA",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[4]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_005",
+      "fields": {
+        "job_title": {
+          "value": "Research Advisor",
+          "normalized": "Research Advisor"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411504/research-advisor/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411504/research-advisor/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/0dc0350e-5742-4b9e-a1e4-2050ea3808ec/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/0dc0350e-5742-4b9e-a1e4-2050ea3808ec/"
+        },
+        "job_description": {
+          "value": "You will provide support on a diverse range of research activities including quantitative data analysis, policy analysis...",
+          "normalized": "You will provide support on a diverse range of research activities including quantitative data analysis, policy analysis..."
+        },
+        "location": {
+          "value": "Canberra, ACT, Australian Capital Territory, Australia",
+          "normalized": "Canberra, ACT, Australian Capital Territory, Australia"
+        },
+        "salary": {
+          "value": "$107,850 - $113,252",
+          "normalized": {
+            "min_amount": 107850.0,
+            "max_amount": 113252.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            },
+            "period": null
+          }
+        },
+        "company_name": {
+          "value": "AUSTRALIAN NATIONAL UNIVERSITY (ANU)",
+          "normalized": "AUSTRALIAN NATIONAL UNIVERSITY (ANU)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411504 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411504']/div[1]/h3[1]/a[1]",
+          "text_quote": "Research Advisor",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411504 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411504']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "img[src='https://www.timeshighereducation.com/unijobs/getasset/0dc0350e-5742-4b9e-a1e4-2050ea3808ec/']",
+          "xpath": "//img[@src='https://www.timeshighereducation.com/unijobs/getasset/0dc0350e-5742-4b9e-a1e4-2050ea3808ec/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/0dc0350e-5742-4b9e-a1e4-2050ea3808ec/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411504 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411504']/div[1]/p[1]",
+          "text_quote": "You will provide support on a diverse range of research activities including quantitative data analysis, policy analysis...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411504 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411504']/div[1]/ul[1]/li[1]",
+          "text_quote": "Canberra, ACT, Australian Capital Territory, Australia",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411504 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411504']/div[1]/ul[1]/li[2]",
+          "text_quote": "$107,850 - $113,252",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411504 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-411504']/div[1]/ul[1]/li[3]",
+          "text_quote": "AUSTRALIAN NATIONAL UNIVERSITY (ANU)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[5]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_006",
+      "fields": {
+        "job_title": {
+          "value": "Faculty Positions in Psychology and Behavioral Sciences",
+          "normalized": "Faculty Positions in Psychology and Behavioral Sciences"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411533/faculty-positions-in-psychology-and-behavioral-sciences/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411533/faculty-positions-in-psychology-and-behavioral-sciences/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/383586a2-16ba-4919-adf2-7dff326ce549/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/383586a2-16ba-4919-adf2-7dff326ce549/"
+        },
+        "job_description": {
+          "value": "To teach undergraduate students. To maintain active and highly productive research agenda and obtain research funding.",
+          "normalized": "To teach undergraduate students. To maintain active and highly productive research agenda and obtain research funding."
+        },
+        "location": {
+          "value": "Suzhou, China",
+          "normalized": "Suzhou, China"
+        },
+        "salary": {
+          "value": "Competitive salary package in the market",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "XIAN JIAOTONG LIVERPOOL UNIVERSITY (XJTLU)",
+          "normalized": "XIAN JIAOTONG LIVERPOOL UNIVERSITY (XJTLU)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411533 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411533']/div[1]/h3[1]/a[1]",
+          "text_quote": "Faculty Positions in Psychology and Behavioral Sciences",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411533 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411533']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411533 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411533']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/383586a2-16ba-4919-adf2-7dff326ce549/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411533 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411533']/div[1]/p[1]",
+          "text_quote": "To teach undergraduate students. To maintain active and highly productive research agenda and obtain research funding.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411533 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411533']/div[1]/ul[1]/li[1]",
+          "text_quote": "Suzhou, China",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411533 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411533']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary package in the market",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411533 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-411533']/div[1]/ul[1]/li[3]",
+          "text_quote": "XIAN JIAOTONG LIVERPOOL UNIVERSITY (XJTLU)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[7]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_007",
+      "fields": {
+        "job_title": {
+          "value": "Faculty Position in Public Health and Biosciences",
+          "normalized": "Faculty Position in Public Health and Biosciences"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411532/faculty-position-in-public-health-and-biosciences/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411532/faculty-position-in-public-health-and-biosciences/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/383586a2-16ba-4919-adf2-7dff326ce549/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/383586a2-16ba-4919-adf2-7dff326ce549/"
+        },
+        "job_description": {
+          "value": "We are looking to recruit and hire highly experienced, motivated, productive and accomplished scholars/researchers at the forefront ...",
+          "normalized": "We are looking to recruit and hire highly experienced, motivated, productive and accomplished scholars/researchers at the forefront ..."
+        },
+        "location": {
+          "value": "Suzhou, China",
+          "normalized": "Suzhou, China"
+        },
+        "salary": {
+          "value": "Competitive salary package in the market",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "XIAN JIAOTONG LIVERPOOL UNIVERSITY (XJTLU)",
+          "normalized": "XIAN JIAOTONG LIVERPOOL UNIVERSITY (XJTLU)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411532 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411532']/div[1]/h3[1]/a[1]",
+          "text_quote": "Faculty Position in Public Health and Biosciences",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411532 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411532']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411532 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411532']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/383586a2-16ba-4919-adf2-7dff326ce549/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411532 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411532']/div[1]/p[1]",
+          "text_quote": "We are looking to recruit and hire highly experienced, motivated, productive and accomplished scholars/researchers at the forefront ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411532 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411532']/div[1]/ul[1]/li[1]",
+          "text_quote": "Suzhou, China",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411532 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411532']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary package in the market",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411532 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-411532']/div[1]/ul[1]/li[3]",
+          "text_quote": "XIAN JIAOTONG LIVERPOOL UNIVERSITY (XJTLU)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[8]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_008",
+      "fields": {
+        "job_title": {
+          "value": "Post-doctoral Fellow in the Department of Microbiology, School of Clinical Medicine",
+          "normalized": "Post-doctoral Fellow in the Department of Microbiology, School of Clinical Medicine"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411530/post-doctoral-fellow-in-the-department-of-microbiology-school-of-clinical-medicine/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411530/post-doctoral-fellow-in-the-department-of-microbiology-school-of-clinical-medicine/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/925d527c-cb88-4015-b543-aa6190b417bb/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/925d527c-cb88-4015-b543-aa6190b417bb/"
+        },
+        "job_description": {
+          "value": "The appointee is expected to play an important role in the team on molecular mechanisms of protective immune responses ...",
+          "normalized": "The appointee is expected to play an important role in the team on molecular mechanisms of protective immune responses ..."
+        },
+        "location": {
+          "value": "Pok Fu Lam, Hong Kong",
+          "normalized": "Pok Fu Lam, Hong Kong"
+        },
+        "salary": {
+          "value": "Competitive salary",
+          "normalized": null
+        },
+        "company_name": {
+          "value": "THE UNIVERSITY OF HONG KONG",
+          "normalized": "THE UNIVERSITY OF HONG KONG"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411530 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411530']/div[1]/h3[1]/a[1]",
+          "text_quote": "Post-doctoral Fellow in the Department of Microbiology, School of Clinical Medicine",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411530 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411530']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "img[src='https://www.timeshighereducation.com/unijobs/getasset/925d527c-cb88-4015-b543-aa6190b417bb/']",
+          "xpath": "//img[@src='https://www.timeshighereducation.com/unijobs/getasset/925d527c-cb88-4015-b543-aa6190b417bb/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/925d527c-cb88-4015-b543-aa6190b417bb/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411530 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411530']/div[1]/p[1]",
+          "text_quote": "The appointee is expected to play an important role in the team on molecular mechanisms of protective immune responses ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411530 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411530']/div[1]/ul[1]/li[1]",
+          "text_quote": "Pok Fu Lam, Hong Kong",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411530 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411530']/div[1]/ul[1]/li[2]",
+          "text_quote": "Competitive salary",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411530 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-411530']/div[1]/ul[1]/li[3]",
+          "text_quote": "THE UNIVERSITY OF HONG KONG",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[9]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(9) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_009",
+      "fields": {
+        "job_title": {
+          "value": "Research Fellow / Research Engineer (Healthcare Design and Business) - (LJY)",
+          "normalized": "Research Fellow / Research Engineer (Healthcare Design and Business) - (LJY)"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411529/research-fellow-research-engineer-healthcare-design-and-business-ljy-/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411529/research-fellow-research-engineer-healthcare-design-and-business-ljy-/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/"
+        },
+        "job_description": {
+          "value": "The Research Fellow / Research Engineer (with focus on Healthcare Design and Business) will support applied research and innovation ...",
+          "normalized": "The Research Fellow / Research Engineer (with focus on Healthcare Design and Business) will support applied research and innovation ..."
+        },
+        "location": {
+          "value": "Singapore",
+          "normalized": "Singapore"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "normalized": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411529 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411529']/div[1]/h3[1]/a[1]",
+          "text_quote": "Research Fellow / Research Engineer (Healthcare Design and Business) - (LJY)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411529 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411529']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411529 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411529']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411529 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411529']/div[1]/p[1]",
+          "text_quote": "The Research Fellow / Research Engineer (with focus on Healthcare Design and Business) will support applied research and innovation ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411529 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411529']/div[1]/ul[1]/li[1]",
+          "text_quote": "Singapore",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411529 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411529']/div[1]/ul[1]/li[2]",
+          "text_quote": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[10]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(10) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_010",
+      "fields": {
+        "job_title": {
+          "value": "Research Fellow / Research Engineer (Data Analytics and Digital Dashboards) - (LJY)",
+          "normalized": "Research Fellow / Research Engineer (Data Analytics and Digital Dashboards) - (LJY)"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411527/research-fellow-research-engineer-data-analytics-and-digital-dashboards-ljy-/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411527/research-fellow-research-engineer-data-analytics-and-digital-dashboards-ljy-/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/"
+        },
+        "job_description": {
+          "value": "The Research Fellow / Research Engineer (with focus on Data Analytics and Digital Dashboards) will support applied research and innovation ...",
+          "normalized": "The Research Fellow / Research Engineer (with focus on Data Analytics and Digital Dashboards) will support applied research and innovation ..."
+        },
+        "location": {
+          "value": "Singapore",
+          "normalized": "Singapore"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "normalized": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411527 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411527']/div[1]/h3[1]/a[1]",
+          "text_quote": "Research Fellow / Research Engineer (Data Analytics and Digital Dashboards) - (LJY)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411527 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411527']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411527 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411527']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411527 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411527']/div[1]/p[1]",
+          "text_quote": "The Research Fellow / Research Engineer (with focus on Data Analytics and Digital Dashboards) will support applied research and innovation ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411527 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411527']/div[1]/ul[1]/li[1]",
+          "text_quote": "Singapore",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411527 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411527']/div[1]/ul[1]/li[2]",
+          "text_quote": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[11]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_011",
+      "fields": {
+        "job_title": {
+          "value": "Research Fellow / Research Engineer (MedTech / HealthTech Engineering) - (LJY)",
+          "normalized": "Research Fellow / Research Engineer (MedTech / HealthTech Engineering) - (LJY)"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411526/research-fellow-research-engineer-medtech-healthtech-engineering-ljy-/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411526/research-fellow-research-engineer-medtech-healthtech-engineering-ljy-/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/"
+        },
+        "job_description": {
+          "value": "The Research Fellow / Research Engineer (with focus on MedTech / HealthTech Engineering) will support applied research and innovation ...",
+          "normalized": "The Research Fellow / Research Engineer (with focus on MedTech / HealthTech Engineering) will support applied research and innovation ..."
+        },
+        "location": {
+          "value": "Singapore",
+          "normalized": "Singapore"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "normalized": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411526 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411526']/div[1]/h3[1]/a[1]",
+          "text_quote": "Research Fellow / Research Engineer (MedTech / HealthTech Engineering) - (LJY)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411526 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411526']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411526 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411526']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411526 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411526']/div[1]/p[1]",
+          "text_quote": "The Research Fellow / Research Engineer (with focus on MedTech / HealthTech Engineering) will support applied research and innovation ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411526 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411526']/div[1]/ul[1]/li[1]",
+          "text_quote": "Singapore",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411526 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411526']/div[1]/ul[1]/li[2]",
+          "text_quote": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[13]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(13) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_012",
+      "fields": {
+        "job_title": {
+          "value": "Research Fellow (Connector) (in Community & Allied Health) - (LJY)",
+          "normalized": "Research Fellow (Connector) (in Community & Allied Health) - (LJY)"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411525/research-fellow-connector-in-community-and-allied-health-ljy-/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411525/research-fellow-connector-in-community-and-allied-health-ljy-/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/"
+        },
+        "job_description": {
+          "value": "This role will play a pivotal role in advancing healthcare innovation research and projects. Collaborating closely with faculty, healthcare ...",
+          "normalized": "This role will play a pivotal role in advancing healthcare innovation research and projects. Collaborating closely with faculty, healthcare ..."
+        },
+        "location": {
+          "value": "Singapore",
+          "normalized": "Singapore"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "normalized": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411525 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411525']/div[1]/h3[1]/a[1]",
+          "text_quote": "Research Fellow (Connector) (in Community & Allied Health) - (LJY)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411525 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411525']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411525 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411525']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411525 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411525']/div[1]/p[1]",
+          "text_quote": "This role will play a pivotal role in advancing healthcare innovation research and projects. Collaborating closely with faculty, healthcare ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411525 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411525']/div[1]/ul[1]/li[1]",
+          "text_quote": "Singapore",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411525 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411525']/div[1]/ul[1]/li[2]",
+          "text_quote": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[14]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(14) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_013",
+      "fields": {
+        "job_title": {
+          "value": "Assistant Professor / Associate Professor / Professor in Aerospace MRO",
+          "normalized": "Assistant Professor / Associate Professor / Professor in Aerospace MRO"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411524/assistant-professor-associate-professor-professor-in-aerospace-mro/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411524/assistant-professor-associate-professor-professor-in-aerospace-mro/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/"
+        },
+        "job_description": {
+          "value": "SIT is strengthening its capabilities in Aerospace Maintenance, Repair and Overhaul (MRO), building a cohort of faculty who are experienced ...",
+          "normalized": "SIT is strengthening its capabilities in Aerospace Maintenance, Repair and Overhaul (MRO), building a cohort of faculty who are experienced ..."
+        },
+        "location": {
+          "value": "Singapore",
+          "normalized": "Singapore"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "normalized": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411524 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411524']/div[1]/h3[1]/a[1]",
+          "text_quote": "Assistant Professor / Associate Professor / Professor in Aerospace MRO",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411524 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411524']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411524 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411524']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411524 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411524']/div[1]/p[1]",
+          "text_quote": "SIT is strengthening its capabilities in Aerospace Maintenance, Repair and Overhaul (MRO), building a cohort of faculty who are experienced ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411524 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411524']/div[1]/ul[1]/li[1]",
+          "text_quote": "Singapore",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411524 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411524']/div[1]/ul[1]/li[2]",
+          "text_quote": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[15]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(15) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_014",
+      "fields": {
+        "job_title": {
+          "value": "Assistant Professor / Associate Professor / Professor in Robotics and Embodied AI",
+          "normalized": "Assistant Professor / Associate Professor / Professor in Robotics and Embodied AI"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411521/assistant-professor-associate-professor-professor-in-robotics-and-embodied-ai/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411521/assistant-professor-associate-professor-professor-in-robotics-and-embodied-ai/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/"
+        },
+        "job_description": {
+          "value": "Lead and contribute to applied research projects with industry partners and government agencies.",
+          "normalized": "Lead and contribute to applied research projects with industry partners and government agencies."
+        },
+        "location": {
+          "value": "Singapore",
+          "normalized": "Singapore"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "normalized": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411521 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411521']/div[1]/h3[1]/a[1]",
+          "text_quote": "Assistant Professor / Associate Professor / Professor in Robotics and Embodied AI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411521 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411521']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411521 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411521']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/64dc54ef-48fd-48e1-b424-b130857a183b/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411521 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411521']/div[1]/p[1]",
+          "text_quote": "Lead and contribute to applied research projects with industry partners and government agencies.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411521 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411521']/div[1]/ul[1]/li[1]",
+          "text_quote": "Singapore",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411521 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411521']/div[1]/ul[1]/li[2]",
+          "text_quote": "SINGAPORE INSTITUTE OF TECHNOLOGY (SIT)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[16]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(16) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_015",
+      "fields": {
+        "job_title": {
+          "value": "Lecturer I / Lecturer II in Psychology",
+          "normalized": "Lecturer I / Lecturer II in Psychology"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411512/lecturer-i-lecturer-ii-in-psychology/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411512/lecturer-i-lecturer-ii-in-psychology/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/d25dbd12-6ed3-4b45-91c7-1ee5c6a75009/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/d25dbd12-6ed3-4b45-91c7-1ee5c6a75009/"
+        },
+        "job_description": {
+          "value": "The appointee will be responsible for teaching a diverse range of subjects within the field of psychology and related areas offered ...",
+          "normalized": "The appointee will be responsible for teaching a diverse range of subjects within the field of psychology and related areas offered ..."
+        },
+        "location": {
+          "value": "Kowloon Tong, Hong Kong",
+          "normalized": "Kowloon Tong, Hong Kong"
+        },
+        "salary": {
+          "value": "HK$51,000 - HK$53,000",
+          "normalized": {
+            "min_amount": 51000.0,
+            "max_amount": 53000.0,
+            "currency": {
+              "name": "Hong Kong dollar",
+              "code": "HKD",
+              "symbol": "HK$"
+            },
+            "period": null
+          }
+        },
+        "company_name": {
+          "value": "HONG KONG BAPTIST UNIVERSITY",
+          "normalized": "HONG KONG BAPTIST UNIVERSITY"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411512 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411512']/div[1]/h3[1]/a[1]",
+          "text_quote": "Lecturer I / Lecturer II in Psychology",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411512 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411512']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "img[src='https://www.timeshighereducation.com/unijobs/getasset/d25dbd12-6ed3-4b45-91c7-1ee5c6a75009/']",
+          "xpath": "//img[@src='https://www.timeshighereducation.com/unijobs/getasset/d25dbd12-6ed3-4b45-91c7-1ee5c6a75009/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/d25dbd12-6ed3-4b45-91c7-1ee5c6a75009/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411512 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411512']/div[1]/p[1]",
+          "text_quote": "The appointee will be responsible for teaching a diverse range of subjects within the field of psychology and related areas offered ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411512 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411512']/div[1]/ul[1]/li[1]",
+          "text_quote": "Kowloon Tong, Hong Kong",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411512 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411512']/div[1]/ul[1]/li[2]",
+          "text_quote": "HK$51,000 - HK$53,000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411512 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-411512']/div[1]/ul[1]/li[3]",
+          "text_quote": "HONG KONG BAPTIST UNIVERSITY",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[17]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(17) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_016",
+      "fields": {
+        "job_title": {
+          "value": "Fully Funded PhD Place at ISEY - Institute for the Science of Early Years and Youth",
+          "normalized": "Fully Funded PhD Place at ISEY - Institute for the Science of Early Years and Youth"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/410878/fully-funded-phd-place-at-isey-institute-for-the-science-of-early-years-and-youth/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/410878/fully-funded-phd-place-at-isey-institute-for-the-science-of-early-years-and-youth/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/7d950feb-983b-4e0c-b64e-1e13ef85c227/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/7d950feb-983b-4e0c-b64e-1e13ef85c227/"
+        },
+        "job_description": {
+          "value": "The PhD candidate must have a first or upper second-class undergraduate honours degree and preferably a Masters in ...",
+          "normalized": "The PhD candidate must have a first or upper second-class undergraduate honours degree and preferably a Masters in ..."
+        },
+        "location": {
+          "value": "Stratford, United Kingdom",
+          "normalized": "Stratford, United Kingdom"
+        },
+        "salary": {
+          "value": "\u00a35,000 - \u00a322,780 p.a",
+          "normalized": {
+            "min_amount": 5000.0,
+            "max_amount": 22780.0,
+            "currency": {
+              "name": "British pound",
+              "code": "GBP",
+              "symbol": "\u00a3"
+            },
+            "period": "year"
+          }
+        },
+        "company_name": {
+          "value": "UNIVERSITY OF EAST LONDON",
+          "normalized": "UNIVERSITY OF EAST LONDON"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-410878 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-410878']/div[1]/h3[1]/a[1]",
+          "text_quote": "Fully Funded PhD Place at ISEY - Institute for the Science of Early Years and Youth",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-410878 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-410878']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "img[src='https://www.timeshighereducation.com/unijobs/getasset/7d950feb-983b-4e0c-b64e-1e13ef85c227/']",
+          "xpath": "//img[@src='https://www.timeshighereducation.com/unijobs/getasset/7d950feb-983b-4e0c-b64e-1e13ef85c227/']",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/7d950feb-983b-4e0c-b64e-1e13ef85c227/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-410878 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-410878']/div[1]/p[1]",
+          "text_quote": "The PhD candidate must have a first or upper second-class undergraduate honours degree and preferably a Masters in ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-410878 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-410878']/div[1]/ul[1]/li[1]",
+          "text_quote": "Stratford, United Kingdom",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-410878 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-410878']/div[1]/ul[1]/li[2]",
+          "text_quote": "\u00a35,000 - \u00a322,780 p.a",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-410878 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-410878']/div[1]/ul[1]/li[3]",
+          "text_quote": "UNIVERSITY OF EAST LONDON",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[18]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(18) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_017",
+      "fields": {
+        "job_title": {
+          "value": "VE Literacy and Numeracy Specialist",
+          "normalized": "VE Literacy and Numeracy Specialist"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411503/ve-literacy-and-numeracy-specialist/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411503/ve-literacy-and-numeracy-specialist/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/36b21bf5-1946-4c3d-bdf8-5667913908e5/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/36b21bf5-1946-4c3d-bdf8-5667913908e5/"
+        },
+        "job_description": {
+          "value": "Provide embedded foundation skills support to students enrolled in vocational education programs across a range of disciplines at RMIT's CoVE ...",
+          "normalized": "Provide embedded foundation skills support to students enrolled in vocational education programs across a range of disciplines at RMIT's CoVE ..."
+        },
+        "location": {
+          "value": "Melbourne, Australia",
+          "normalized": "Melbourne, Australia"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "RMIT UNIVERSITY",
+          "normalized": "RMIT UNIVERSITY"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411503 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411503']/div[1]/h3[1]/a[1]",
+          "text_quote": "VE Literacy and Numeracy Specialist",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411503 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411503']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411503 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411503']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/36b21bf5-1946-4c3d-bdf8-5667913908e5/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411503 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411503']/div[1]/p[1]",
+          "text_quote": "Provide embedded foundation skills support to students enrolled in vocational education programs across a range of disciplines at RMIT's CoVE ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411503 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411503']/div[1]/ul[1]/li[1]",
+          "text_quote": "Melbourne, Australia",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411503 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411503']/div[1]/ul[1]/li[2]",
+          "text_quote": "RMIT UNIVERSITY",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[19]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(19) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_018",
+      "fields": {
+        "job_title": {
+          "value": "University Assistant Predoctoral (Faculty of Law)",
+          "normalized": "University Assistant Predoctoral (Faculty of Law)"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411502/university-assistant-predoctoral-faculty-of-law-/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411502/university-assistant-predoctoral-faculty-of-law-/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/e3a59d10-b9c4-48e4-90e7-5c2ca38d5e76/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/e3a59d10-b9c4-48e4-90e7-5c2ca38d5e76/"
+        },
+        "job_description": {
+          "value": "The team of Prof. Sabine Kirchmayr-Schliesselberger is seeking a pre-doctoral university assistant (prae doc) starting in August 2026 ...",
+          "normalized": "The team of Prof. Sabine Kirchmayr-Schliesselberger is seeking a pre-doctoral university assistant (prae doc) starting in August 2026 ..."
+        },
+        "location": {
+          "value": "Vienna (Landbezirke) (AT)",
+          "normalized": "Vienna (Landbezirke) (AT)"
+        },
+        "salary": {
+          "value": "The basic salary of  EUR 3.776,10 EUR",
+          "normalized": {
+            "min_amount": 3776.1,
+            "max_amount": 3776.1,
+            "currency": {
+              "name": "Euro",
+              "code": "EUR",
+              "symbol": "\u20ac"
+            },
+            "period": null
+          }
+        },
+        "company_name": {
+          "value": "UNIVERSITY OF VIENNA",
+          "normalized": "UNIVERSITY OF VIENNA"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411502 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411502']/div[1]/h3[1]/a[1]",
+          "text_quote": "University Assistant Predoctoral (Faculty of Law)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411502 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411502']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411502 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411502']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/e3a59d10-b9c4-48e4-90e7-5c2ca38d5e76/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411502 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411502']/div[1]/p[1]",
+          "text_quote": "The team of Prof. Sabine Kirchmayr-Schliesselberger is seeking a pre-doctoral university assistant (prae doc) starting in August 2026 ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411502 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411502']/div[1]/ul[1]/li[1]",
+          "text_quote": "Vienna (Landbezirke) (AT)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411502 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411502']/div[1]/ul[1]/li[2]",
+          "text_quote": "The basic salary of EUR 3.776,10 EUR",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411502 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "xpath": "//*[@id='item-411502']/div[1]/ul[1]/li[3]",
+          "text_quote": "UNIVERSITY OF VIENNA",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[20]/div[1]/ul/li[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(20) > div:nth-of-type(1) > ul > li:nth-of-type(3)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_019",
+      "fields": {
+        "job_title": {
+          "value": "IWRI - Postdoctoral Position in Hybrid Machine Learning \u2013 Physics Modeling",
+          "normalized": "IWRI - Postdoctoral Position in Hybrid Machine Learning \u2013 Physics Modeling"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411501/iwri-postdoctoral-position-in-hybrid-machine-learning-physics-modeling/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411501/iwri-postdoctoral-position-in-hybrid-machine-learning-physics-modeling/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/af456d57-b75a-4924-9fc1-b4e4ea5467ad/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/af456d57-b75a-4924-9fc1-b4e4ea5467ad/"
+        },
+        "job_description": {
+          "value": "The postdoctoral researcher will develop innovative hybrid machine learning-physics based modeling approaches ...",
+          "normalized": "The postdoctoral researcher will develop innovative hybrid machine learning-physics based modeling approaches ..."
+        },
+        "location": {
+          "value": "Benguerir, Morocco (MA)",
+          "normalized": "Benguerir, Morocco (MA)"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "MOHAMMED VI POLYTECHNIC UNIVERSITY",
+          "normalized": "MOHAMMED VI POLYTECHNIC UNIVERSITY"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411501 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411501']/div[1]/h3[1]/a[1]",
+          "text_quote": "IWRI - Postdoctoral Position in Hybrid Machine Learning \u2013 Physics Modeling",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411501 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411501']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411501 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411501']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/af456d57-b75a-4924-9fc1-b4e4ea5467ad/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411501 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411501']/div[1]/p[1]",
+          "text_quote": "The postdoctoral researcher will develop innovative hybrid machine learning-physics based modeling approaches ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411501 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411501']/div[1]/ul[1]/li[1]",
+          "text_quote": "Benguerir, Morocco (MA)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411501 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411501']/div[1]/ul[1]/li[2]",
+          "text_quote": "MOHAMMED VI POLYTECHNIC UNIVERSITY",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[21]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(21) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_020",
+      "fields": {
+        "job_title": {
+          "value": "IWRI - Postdoctoral Position in Climate Modeling and Uncertainty Quantification",
+          "normalized": "IWRI - Postdoctoral Position in Climate Modeling and Uncertainty Quantification"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411500/iwri-postdoctoral-position-in-climate-modeling-and-uncertainty-quantification/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411500/iwri-postdoctoral-position-in-climate-modeling-and-uncertainty-quantification/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/af456d57-b75a-4924-9fc1-b4e4ea5467ad/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/af456d57-b75a-4924-9fc1-b4e4ea5467ad/"
+        },
+        "job_description": {
+          "value": "The International Water Research Institute (IWRI) of the College of Agriculture and Environmental Sciences (CAES) at UM6P invites applications ...",
+          "normalized": "The International Water Research Institute (IWRI) of the College of Agriculture and Environmental Sciences (CAES) at UM6P invites applications ..."
+        },
+        "location": {
+          "value": "Benguerir, Morocco (MA)",
+          "normalized": "Benguerir, Morocco (MA)"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "MOHAMMED VI POLYTECHNIC UNIVERSITY",
+          "normalized": "MOHAMMED VI POLYTECHNIC UNIVERSITY"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411500 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411500']/div[1]/h3[1]/a[1]",
+          "text_quote": "IWRI - Postdoctoral Position in Climate Modeling and Uncertainty Quantification",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[22]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(22) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411500 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411500']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[22]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(22) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411500 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411500']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[22]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(22) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/af456d57-b75a-4924-9fc1-b4e4ea5467ad/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411500 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411500']/div[1]/p[1]",
+          "text_quote": "The International Water Research Institute (IWRI) of the College of Agriculture and Environmental Sciences (CAES) at UM6P invites applications ...",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[22]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(22) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411500 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411500']/div[1]/ul[1]/li[1]",
+          "text_quote": "Benguerir, Morocco (MA)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[22]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(22) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411500 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411500']/div[1]/ul[1]/li[2]",
+          "text_quote": "MOHAMMED VI POLYTECHNIC UNIVERSITY",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[22]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(22) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_THTJOBS_001_LISTING_021",
+      "fields": {
+        "job_title": {
+          "value": "VE Teacher, Applied Business & Commerce",
+          "normalized": "VE Teacher, Applied Business & Commerce"
+        },
+        "job_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/listing/411493/ve-teacher-applied-business-and-commerce/?LinkSource=PremiumListing",
+          "normalized": "https://www.timeshighereducation.com/unijobs/listing/411493/ve-teacher-applied-business-and-commerce/?LinkSource=PremiumListing"
+        },
+        "company_logo_url": {
+          "value": "https://www.timeshighereducation.com/unijobs/getasset/36b21bf5-1946-4c3d-bdf8-5667913908e5/",
+          "normalized": "https://www.timeshighereducation.com/unijobs/getasset/36b21bf5-1946-4c3d-bdf8-5667913908e5/"
+        },
+        "job_description": {
+          "value": "Experienced educator in business, systems, and logistics, focused on practical training, inclusion, and student success.",
+          "normalized": "Experienced educator in business, systems, and logistics, focused on practical training, inclusion, and student success."
+        },
+        "location": {
+          "value": "Melbourne, Australia",
+          "normalized": "Melbourne, Australia"
+        },
+        "salary": {
+          "value": null,
+          "normalized": null
+        },
+        "company_name": {
+          "value": "RMIT UNIVERSITY",
+          "normalized": "RMIT UNIVERSITY"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411493 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411493']/div[1]/h3[1]/a[1]",
+          "text_quote": "VE Teacher, Applied Business & Commerce",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[23]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(23) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411493 > div:nth-of-type(1) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='item-411493']/div[1]/h3[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[23]/div[1]/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(23) > div:nth-of-type(1) > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_logo_url": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411493 > div:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='item-411493']/div[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[23]/div[1]/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(23) > div:nth-of-type(1) > img[src='https://www.timeshighereducation.com/unijobs/getasset/36b21bf5-1946-4c3d-bdf8-5667913908e5/']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "job_description": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411493 > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='item-411493']/div[1]/p[1]",
+          "text_quote": "Experienced educator in business, systems, and logistics, focused on practical training, inclusion, and student success.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[23]/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(23) > div:nth-of-type(1) > p",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "location": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411493 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "xpath": "//*[@id='item-411493']/div[1]/ul[1]/li[1]",
+          "text_quote": "Melbourne, Australia",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[23]/div[1]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(23) > div:nth-of-type(1) > ul > li:nth-of-type(1)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "salary": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "company_name": {
+          "snapshot_id": "timeshighered_listing",
+          "css_selector": "li#item-411493 > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "xpath": "//*[@id='item-411493']/div[1]/ul[1]/li[2]",
+          "text_quote": "RMIT UNIVERSITY",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[7]/div/div[2]/div[2]/ul/li[23]/div[1]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(23) > div:nth-of-type(1) > ul > li:nth-of-type(2)",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      }
+    }
+  ]
+}

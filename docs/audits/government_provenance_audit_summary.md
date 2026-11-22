@@ -1,0 +1,1705 @@
+# Government Provenance Audit
+
+Automated check against `page.html` from `government_pages.zip`. Checks: CSS uniqueness, XPath uniqueness, attribute/value match, text quote/value containment, exact text vs parent selector, and selector reuse within a record.
+
+| task_id | fields checked | OK | WARN | FAIL | css invalid | css non-unique/0 | xpath non-unique/0 | duplicate CSS | parent-text warnings | attr fails |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| WBV1_GOV_CANADA_001_LISTING | 300 | 265 | 0 | 35 | 0 | 0 | 0 | 0 | 0 | 0 |
+| WBV1_GOV_CANADA_002_DETAIL | 13 | 8 | 5 | 0 | 0 | 0 | 0 | 2 | 5 | 0 |
+| WBV1_GOV_CFIN_001_LISTING | 200 | 0 | 200 | 0 | 0 | 0 | 0 | 200 | 160 | 0 |
+| WBV1_GOV_CFIN_002_DETAIL | 22 | 2 | 18 | 2 | 0 | 0 | 0 | 19 | 19 | 1 |
+| WBV1_GOV_FAT_001_LISTING | 80 | 0 | 70 | 10 | 0 | 0 | 0 | 20 | 60 | 0 |
+| WBV1_GOV_FAT_002_DETAIL | 17 | 3 | 13 | 1 | 0 | 0 | 0 | 2 | 11 | 1 |
+| WBV1_GOV_GETS_001_LISTING | 175 | 0 | 150 | 25 | 0 | 0 | 0 | 150 | 150 | 25 |
+| WBV1_GOV_GETS_002_DETAIL | 16 | 4 | 8 | 4 | 0 | 0 | 0 | 0 | 9 | 0 |
+| WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING | 80 | 0 | 63 | 17 | 0 | 0 | 0 | 63 | 63 | 10 |
+| WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL | 11 | 8 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
+| WBV1_GOV_SAM_001_LISTING | 275 | 0 | 0 | 275 | 264 | 0 | 0 | 50 | 31 | 0 |
+| WBV1_GOV_SAM_002_DETAIL | 15 | 5 | 8 | 2 | 0 | 1 | 1 | 0 | 7 | 0 |
+| WBV1_GOV_SELL2WALES_001_LISTING | 120 | 5 | 92 | 23 | 0 | 0 | 0 | 20 | 92 | 10 |
+| WBV1_GOV_SELL2WALES_002_DETAIL | 19 | 9 | 7 | 3 | 0 | 2 | 0 | 4 | 2 | 0 |
+| WBV1_GOV_TED_001_LISTING | 496 | 223 | 246 | 27 | 0 | 50 | 0 | 0 | 196 | 0 |
+| WBV1_GOV_TED_002_DETAIL | 28 | 7 | 17 | 4 | 0 | 2 | 1 | 11 | 8 | 0 |
+| WBV1_GOV_UNGM_001_LISTING | 240 | 59 | 181 | 0 | 0 | 0 | 0 | 180 | 181 | 0 |
+| WBV1_GOV_UNGM_002_DETAIL | 14 | 7 | 1 | 6 | 0 | 7 | 1 | 5 | 0 | 0 |
+| WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING | 140 | 0 | 120 | 20 | 0 | 0 | 0 | 120 | 120 | 20 |
+| WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL | 21 | 1 | 11 | 9 | 0 | 20 | 2 | 19 | 2 | 0 |
+
+## Failures and warnings sample
+
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_008` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_013` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_014` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_015` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_016` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_017` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_018` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_019` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_020` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_021` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_022` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_023` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_024` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_025` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_028` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_029` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_030` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_031` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_032` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_033` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_034` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_035` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_036` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_037` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_040` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_041` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_042` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_043` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_044` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_045` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_046` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_047` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_048` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_049` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_CANADA_001_LISTING` `WBV1_GOV_CANADA_001_LISTING_050` `publication_date`: xpath_text_quote_not_found; xpath_text_value_not_found
+- **WARN** `WBV1_GOV_CANADA_002_DETAIL` `WBV1_GOV_CANADA_002_DETAIL_001` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CANADA_002_DETAIL` `WBV1_GOV_CANADA_002_DETAIL_001` `trade_agreements`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CANADA_002_DETAIL` `WBV1_GOV_CANADA_002_DETAIL_001` `status`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_CANADA_002_DETAIL` `WBV1_GOV_CANADA_002_DETAIL_001` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_CANADA_002_DETAIL` `WBV1_GOV_CANADA_002_DETAIL_001` `notice_id`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_001` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_002` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_003` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_004` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_005` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_006` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_007` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_008` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_009` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_010` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_011` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_012` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_013` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_014` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_015` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_016` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_017` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_018` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_019` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `tender_title`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `tender_url`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `buyer`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `procurement_stage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `status`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_001_LISTING` `WBV1_GOV_CFIN_001_LISTING_020` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `tender_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `industry`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `contract_location`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `contract_value`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `procurement_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `closing_time`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `contract_start_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `contract_end_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `contract_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `procedure_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `suitable_for_smes`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `suitable_for_vcses`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `contact_name`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `address`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `telephone`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `email`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `website`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_CFIN_002_DETAIL` `WBV1_GOV_CFIN_002_DETAIL_001` `description`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_001` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_001` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_001` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_001` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_001` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_001` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_001` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_001` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_002` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_002` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_002` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_002` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_002` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_002` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_002` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_002` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_003` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_003` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_003` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_003` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_003` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_003` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_003` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_003` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_004` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_004` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_004` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_004` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_004` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_004` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_004` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_004` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_005` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_005` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_005` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_005` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_005` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_005` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_005` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_005` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_006` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_006` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_006` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_006` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_006` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_006` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_006` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_006` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_007` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_007` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_007` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_007` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_007` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_007` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_007` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_007` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_008` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_008` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_008` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_008` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_008` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_008` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_008` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_008` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_009` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_009` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_009` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_009` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_009` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_009` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_009` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_009` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_010` `tender_title`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_010` `tender_url`: xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_010` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_010` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_010` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_010` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_text_value_not_found; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_010` `type_submission`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_FAT_001_LISTING` `WBV1_GOV_FAT_001_LISTING_010` `tender_reference`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `quotation_no`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `agency`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `published_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `offer_validity_duration`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `remarks`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `procurement_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `quotation_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `procurement_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `procurement_method`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `payment_terms`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `procurement_category`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `tender_url`: css_attr_not_matching_value_or_missing; xpath_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `items_to_respond`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_FAT_002_DETAIL` `WBV1_GOV_FAT_002_DETAIL_001` `contact_persons_details`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_001` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_001` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_001` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_001` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_001` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_001` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_001` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_002` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_002` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_002` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_002` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_002` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_002` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_002` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_003` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_003` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_003` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_003` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_003` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_003` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_003` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_004` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_004` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_004` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_004` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_004` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_004` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_004` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_005` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_005` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_005` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_005` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_005` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_005` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_005` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_006` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_006` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_006` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_006` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_006` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_006` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_006` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_007` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_007` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_007` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_007` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_007` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_007` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_007` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_008` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_008` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_008` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_008` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_008` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_008` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_008` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_009` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_009` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_009` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_009` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_009` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_009` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_009` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_010` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_010` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_010` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_010` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_010` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_010` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_010` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_011` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_011` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_011` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_011` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_011` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_011` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_011` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_012` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_012` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_012` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_012` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_012` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_012` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_012` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_013` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_013` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_013` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_013` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_013` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_013` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_013` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_014` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_014` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_014` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_014` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_014` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_014` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_014` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_015` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_015` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_015` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_015` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_015` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_015` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_015` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_016` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_016` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_016` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_016` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_016` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_016` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_016` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_017` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_017` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_017` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_017` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_017` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_017` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_017` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_018` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_018` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_018` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_018` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_018` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_018` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_018` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_019` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_019` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_019` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_019` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_019` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_019` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_019` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_020` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_020` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_020` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_020` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_020` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_020` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_020` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_021` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_021` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_021` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_021` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_021` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_021` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_021` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_022` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_022` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_022` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_022` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_022` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_022` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_022` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_023` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_023` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_023` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_023` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_023` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_023` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_023` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_024` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_024` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_024` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_024` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_024` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_024` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_024` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_025` `rfx_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_025` `reference`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_025` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_025` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_025` `tender_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_025` `close_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_001_LISTING` `WBV1_GOV_GETS_001_LISTING_025` `organisation`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `rfx_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `open_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `close_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `department`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `tender_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `tender_coverage`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `regions`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `required_pre_qualifications`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `overview`: css_points_to_parent_not_exact_text; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `reference`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `alternate_physical_delivery_address`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_GETS_002_DETAIL` `WBV1_GOV_GETS_002_DETAIL_001` `alternate_physical_fax_number`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_001` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_001` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_001` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_001` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_001` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_001` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_001` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_001` `deadline_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_002` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_002` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_002` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_002` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_002` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_002` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_002` `deadline_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_002` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_003` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_003` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_003` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_003` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_003` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_003` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_003` `deadline_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_003` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_004` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_004` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_004` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_004` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_004` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_004` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_004` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_004` `deadline_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_005` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_005` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_005` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_005` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_005` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_005` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_005` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_005` `deadline_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_006` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_006` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_006` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_006` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_006` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_006` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_006` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_006` `deadline_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_007` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_007` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_007` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_007` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_007` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_007` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_007` `deadline_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_007` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_008` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_008` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_008` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_008` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_008` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_008` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_008` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_008` `deadline_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_009` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_009` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_009` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_009` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_009` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_009` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_009` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_009` `deadline_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_010` `tender_title`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_010` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_010` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_010` `reference_no`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_010` `ocid`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_010` `published_by`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_010` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_010` `deadline_date`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL_001` `status`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL_001` `description`: css_text_value_not_found; xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL` `WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL_001` `closing_date`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `updated_date`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_001` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_002` `current_date_offers_due`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_003` `current_date_offers_due`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `description`: css_invalid_or_error; xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_004` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `updated_date`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_005` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_006` `current_date_offers_due`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_007` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_008` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_009` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `description`: css_invalid_or_error; xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `updated_date`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_010` `current_date_offers_due`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `description`: css_invalid_or_error; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_011` `current_date_offers_due`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_012` `description`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `description`: css_invalid_or_error; xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_013` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_014` `current_date_offers_due`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `updated_date`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_015` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_016` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `description`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_017` `current_date_offers_due`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `description`: css_invalid_or_error; xpath_text_quote_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `updated_date`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_018` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_019` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_020` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `updated_date`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_021` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_022` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_023` `current_date_offers_due`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `current_date_offers_due`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_024` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `tender_title`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `tender_url`: css_invalid_or_error; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `reference_number`: css_invalid_or_error; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `description`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `department_ind_agency`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `subtier`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `office`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `notice_type`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `updated_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `published_date`: css_invalid_or_error
+- **FAIL** `WBV1_GOV_SAM_001_LISTING` `WBV1_GOV_SAM_001_LISTING_025` `current_date_offers_due`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `notice_id`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `buyer_name`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `original_publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `original_closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `inactive_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `description`: xpath_text_value_not_found
+- **WARN** `WBV1_GOV_SAM_002_DETAIL` `WBV1_GOV_SAM_002_DETAIL_001` `tender_url`: css_matches=2; xpath_matches=2
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `description`: css_text_value_not_found; xpath_text_value_not_found
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `closing_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `location`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_001` `value`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `location`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `closing_date`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_002` `value`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `description`: css_text_value_not_found; xpath_text_value_not_found
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `closing_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `location`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_003` `value`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `location`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `closing_date`: css_missing; xpath_missing
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_004` `value`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `description`: css_text_value_not_found; xpath_text_value_not_found
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `closing_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `location`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_005` `value`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `description`: css_text_value_not_found; xpath_text_value_not_found
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `closing_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `location`: css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_006` `value`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `closing_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `location`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_007` `value`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `closing_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `location`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_008` `value`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `description`: css_text_value_not_found; xpath_text_value_not_found
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `closing_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `location`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_009` `value`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `tender_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record; xpath_reused_in_record
+- **FAIL** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `tender_url`: css_attr_not_matching_value_or_missing; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `notice_id`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `ocid`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `publication_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `published_to`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `closing_date`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `notice_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `location`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_001_LISTING` `WBV1_GOV_SELL2WALES_001_LISTING_010` `value`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `notice_id`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `procurement_reference`: css_matches=62
+- **WARN** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `last_modified_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `closing_date`: css_text_value_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `status`: css_text_value_not_found; xpath_text_value_not_found
+- **FAIL** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `description`: css_matches=2; xpath_text_value_not_found
+- **WARN** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `contract_details`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `classification`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `buyer`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_SELL2WALES_002_DETAIL` `WBV1_GOV_SELL2WALES_002_DETAIL_001` `engagement`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_001` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_001` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_001` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_001` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_001` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_002` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_002` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_002` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_002` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_002` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_003` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_003` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_003` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_003` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_003` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_003` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_004` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_004` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_004` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_004` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_004` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_005` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_005` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_005` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_005` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_005` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_006` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_006` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_006` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_006` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_006` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_007` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_007` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_007` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_007` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_007` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_007` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_008` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_008` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_008` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_008` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_008` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_008` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_009` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_009` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_009` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_009` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_009` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_009` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_010` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_010` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_010` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_010` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_010` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_010` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_011` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_011` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_011` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_011` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_011` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_012` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_012` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_012` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_012` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_012` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_012` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_013` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_013` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_013` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_013` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_013` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_014` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_014` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_014` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_014` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_014` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_014` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_015` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_015` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_015` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_015` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_015` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_015` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_016` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_016` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_016` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_016` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_016` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_016` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_017` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_017` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_017` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_017` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_017` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_017` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_018` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_018` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_018` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_018` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_018` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_018` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_019` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_019` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_019` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_019` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_019` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_020` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_020` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_020` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_020` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_020` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_021` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_021` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_021` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_021` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_021` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_022` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_022` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_022` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_022` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_022` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_023` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_023` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_023` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_023` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_023` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_024` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_024` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_024` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_024` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_024` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_025` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_025` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_025` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_025` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_025` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_026` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_026` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_026` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_026` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_026` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_027` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_027` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_027` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_027` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_027` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_027` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_028` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_028` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_028` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_028` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_028` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_029` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_029` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_029` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_029` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_029` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_029` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_030` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_030` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_030` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_030` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_030` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_030` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_031` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_031` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_031` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_031` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_031` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_032` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_032` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_032` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_032` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_032` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_032` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_033` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_033` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_033` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_033` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_033` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_034` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_034` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_034` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_034` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_034` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_035` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_035` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_035` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_035` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_035` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_035` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_036` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_036` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_036` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_036` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_036` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_036` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_037` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_037` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_037` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_037` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_037` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_038` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_038` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_038` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_038` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_038` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_039` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_039` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_039` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_039` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_039` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_040` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_040` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_040` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_040` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_040` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_040` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_041` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_041` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_041` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_041` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_041` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_042` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_042` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_042` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_042` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_042` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_043` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_043` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_043` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_043` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_043` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_043` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_044` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_044` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_044` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_044` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_044` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_044` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_045` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_045` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_045` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_045` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_045` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_045` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_046` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_046` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_046` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_046` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_046` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_047` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_047` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_047` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_047` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_047` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_048` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_048` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_048` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_048` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_048` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_048` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_049` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_049` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_049` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_049` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_049` `tender_url`: css_matches=2
+- **FAIL** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_049` `closing_date`: css_missing; xpath_missing
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_050` `place_of_performance`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_050` `contract_nature`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_050` `procedure_type`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_050` `buyer_name`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_001_LISTING` `WBV1_GOV_TED_001_LISTING_050` `tender_url`: css_matches=2
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `tender_title`: css_matches=5; xpath_points_to_parent_not_exact_text; xpath_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `notice_id`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `notice_type`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; xpath_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `form_type`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `buyer_name`: css_matches=3
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `publication_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `notice_dispatch_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `closing_date`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `status`: css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `description`: xpath_matches=12; css_points_to_parent_not_exact_text
+- **FAIL** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `estimated_value_excluding_vat`: css_points_to_parent_not_exact_text; xpath_text_quote_not_found; xpath_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `buyer`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `classification`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `selection_criteria`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `award_criteria`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `procurement_documents`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `submission`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `contract_terms`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `review`: css_selector_reused_in_record
+- **WARN** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `notice_information`: css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_TED_002_DETAIL` `WBV1_GOV_TED_002_DETAIL_001` `buyer_address`: css_text_value_not_found; xpath_text_quote_not_found
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_001` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_001` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_001` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_001` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_001` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_001` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_002` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_002` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_002` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_002` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_002` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_002` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_003` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_003` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_003` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_003` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_003` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_003` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_004` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_004` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_004` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_004` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_004` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_004` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_005` `tender_title`: css_points_to_parent_not_exact_text
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_005` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_005` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_005` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_005` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_005` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_005` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_006` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_006` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_006` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_006` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_006` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_006` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_007` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_007` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_007` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_007` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_007` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_007` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_008` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_008` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_008` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_008` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_008` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_008` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_009` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_009` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_009` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_009` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_009` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_009` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_010` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_010` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_010` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_010` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_010` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_010` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_011` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_011` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_011` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_011` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_011` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_011` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_012` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_012` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_012` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_012` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_012` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_012` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_013` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_013` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_013` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_013` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_013` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_013` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_014` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_014` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_014` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_014` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_014` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_014` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_015` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_015` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_015` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_015` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_015` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_015` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_016` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_016` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_016` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_016` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_016` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_016` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_017` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_017` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_017` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_017` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_017` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_017` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_018` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_018` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_018` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_018` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_018` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_018` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_019` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_019` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_019` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_019` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_019` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_019` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_020` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_020` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_020` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_020` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_020` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_020` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_021` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_021` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_021` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_021` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_021` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_021` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_022` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_022` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_022` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_022` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_022` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_022` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_023` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_023` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_023` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_023` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_023` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_023` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_024` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_024` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_024` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_024` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_024` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_024` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_025` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_025` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_025` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_025` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_025` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_025` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_026` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_026` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_026` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_026` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_026` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_026` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_027` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_027` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_027` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_027` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_027` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_027` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_028` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_028` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_028` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_028` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_028` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_028` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_029` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_029` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_029` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_029` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_029` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_029` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_030` `notice_id`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_030` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_030` `buyer_name`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_030` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_030` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_001_LISTING` `WBV1_GOV_UNGM_001_LISTING_030` `closing_date`: css_points_to_parent_not_exact_text; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_UNGM_002_DETAIL` `WBV1_GOV_UNGM_002_DETAIL_001` `notice_type`: css_matches=2; xpath_matches=3
+- **FAIL** `WBV1_GOV_UNGM_002_DETAIL` `WBV1_GOV_UNGM_002_DETAIL_001` `reference`: css_matches=11; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_UNGM_002_DETAIL` `WBV1_GOV_UNGM_002_DETAIL_001` `beneficiary_countries_or_territories`: css_matches=11; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_UNGM_002_DETAIL` `WBV1_GOV_UNGM_002_DETAIL_001` `registration_level`: css_matches=11; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_UNGM_002_DETAIL` `WBV1_GOV_UNGM_002_DETAIL_001` `publication_date`: css_matches=11; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_UNGM_002_DETAIL` `WBV1_GOV_UNGM_002_DETAIL_001` `closing_date`: css_matches=11; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_UNGM_002_DETAIL` `WBV1_GOV_UNGM_002_DETAIL_001` `description`: css_matches=2; xpath_text_value_not_found
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_001` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_001` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_001` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_001` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_001` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_001` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_001` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_002` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_002` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_002` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_002` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_002` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_002` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_002` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_003` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_003` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_003` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_003` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_003` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_003` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_003` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_004` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_004` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_004` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_004` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_004` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_004` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_004` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_005` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_005` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_005` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_005` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_005` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_005` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_005` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_006` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_006` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_006` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_006` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_006` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_006` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_006` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_007` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_007` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_007` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_007` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_007` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_007` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_007` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_008` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_008` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_008` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_008` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_008` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_008` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_008` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_009` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_009` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_009` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_009` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_009` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_009` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_009` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_010` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_010` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_010` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_010` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_010` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_010` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_010` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_011` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_011` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_011` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_011` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_011` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_011` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_011` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_012` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_012` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_012` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_012` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_012` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_012` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_012` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_013` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_013` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_013` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_013` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_013` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_013` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_013` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_014` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_014` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_014` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_014` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_014` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_014` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_014` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_015` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_015` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_015` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_015` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_015` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_015` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_015` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_016` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_016` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_016` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_016` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_016` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_016` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_016` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_017` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_017` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_017` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_017` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_017` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_017` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_017` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_018` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_018` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_018` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_018` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_018` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_018` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_018` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_019` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_019` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_019` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_019` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_019` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_019` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_019` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_020` `description`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_020` `project_title`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_020` `location`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_020` `notice_type`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_020` `language`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_020` `publication_date`: css_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING` `WBV1_GOV_WORLDBANK_PROCUREMENT_001_LISTING_020` `tender_url`: css_attr_not_matching_value_or_missing
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `tender_title`: css_matches=31; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `project_title`: css_matches=22; xpath_matches=2
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `project_id`: css_matches=21; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `notice_id`: css_matches=21; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `notice_type`: css_matches=21; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `status`: css_matches=21; xpath_text_quote_not_found; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `country`: css_matches=21; xpath_matches=2; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `borrower_bid_reference`: css_matches=21; xpath_text_quote_not_found; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `reference_no_in_notice_text`: css_matches=31; xpath_points_to_parent_not_exact_text; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `procurement_method`: css_matches=21; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `language`: css_matches=21; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `publication_date`: css_matches=21; xpath_text_quote_not_found; css_selector_reused_in_record
+- **FAIL** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `closing_date`: css_matches=21; xpath_text_quote_not_found; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `description`: css_matches=2; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `project_financing`: css_matches=2; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `buyer`: css_matches=2; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `contact_information`: css_matches=2; css_selector_reused_in_record; xpath_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `lots`: css_matches=2; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `bidding_details`: css_matches=2; css_selector_reused_in_record
+- **WARN** `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL` `WBV1_GOV_WORLDBANK_PROCUREMENT_002_DETAIL_001` `bid_security`: css_matches=2; css_selector_reused_in_record

@@ -1,0 +1,493 @@
+{
+  "schema_id": "job_posting_v1",
+  "domain": "jobs/careers",
+  "version": "1.1",
+  "description": "Schema for job posting pages covering both listing (search/browse) pages and individual job detail pages across job boards, career portals, and company career sites.",
+
+  "contexts": {
+    "listing": "Used when extracting multiple job cards from a search results or listing page.",
+    "detail": "Used when extracting a single job's full details from its dedicated page."
+  },
+
+  "required_fields": [
+    "job_title",
+    "job_url"
+  ],
+
+  "core_fields": {
+    "job_title": {
+      "type": "string",
+      "description": "The full title of the job position as displayed.",
+      "contexts": ["listing", "detail"],
+      "sites": ["all"]
+    },
+    "job_url": {
+      "type": "string",
+      "description": "The canonical URL to the job posting page.",
+      "contexts": ["listing", "detail"],
+      "sites": ["all"]
+    },
+    "company_name": {
+      "type": "string",
+      "description": "The name of the hiring company or organization. May be an institution, NGO, UN agency, or government body.",
+      "contexts": ["listing", "detail"],
+      "sites": ["eurobrussels", "google", "naturecareers", "postjobfree", "reed", "reliefweb", "remoteok", "thtjobs", "unjobs"]
+    },
+    "location": {
+      "type": "string",
+      "description": "The job location as shown on the site. May be a city, region, country, or 'Remote'. Normalize to 'City, Region, Country' when possible.",
+      "contexts": ["listing", "detail"],
+      "sites": ["eurobrussels", "github", "google", "naturecareers", "postjobfree", "reed", "remoteok", "thtjobs", "unjobs"]
+    }
+  },
+
+  "listing_fields": {
+    "salary": {
+      "type": "object",
+      "description": "Salary or compensation shown on the listing card. Extract as structured object with min_amount, max_amount, currency (code/symbol), and period (year/month/hour) when available. May be null.",
+      "normalization": "Extract numerical values. Identify currency by code (e.g. GBP, USD) and period (year, month, hour). Set to null if not shown.",
+      "sites": ["eurobrussels", "naturecareers", "postjobfree", "reed", "remoteok", "thtjobs"]
+    },
+    "employment_type": {
+      "type": "string",
+      "description": "The employment type as shown (e.g. 'Permanent, full-time', 'Contract', 'Part-time'). May be null.",
+      "sites": ["google", "reed"]
+    },
+    "posted_date": {
+      "type": "string",
+      "description": "The date the job was posted. Normalize to ISO 8601 (YYYY-MM-DD) when possible.",
+      "normalization": "Convert to ISO 8601 format (YYYY-MM-DD). Resolve relative dates (e.g. '3 days ago') using the snapshot date.",
+      "sites": ["postjobfree", "reliefweb", "unjobs"]
+    },
+    "application_deadline": {
+      "type": "string",
+      "description": "The closing/deadline date for applications. Normalize to ISO 8601 (YYYY-MM-DD).",
+      "normalization": "Convert to ISO 8601 format (YYYY-MM-DD).",
+      "sites": ["eurobrussels", "reliefweb"]
+    },
+    "country": {
+      "type": "string",
+      "description": "Country of the job location, used on sites that separate country from city/region.",
+      "sites": ["reliefweb"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Technology or category tags associated with the job (e.g. ['React', 'Remote', 'Senior']).",
+      "sites": ["eurobrussels", "remoteok"]
+    },
+    "job_description": {
+      "type": "string",
+      "description": "Short description or teaser text shown on the listing card.",
+      "sites": ["eurobrussels", "naturecareers", "postjobfree", "reed", "thtjobs"]
+    },
+    "work_arrangement": {
+      "type": "string",
+      "description": "Work arrangement (e.g. 'remote', 'hybrid', 'onsite').",
+      "normalization": "Normalize to lowercase: 'remote', 'hybrid', or 'onsite'.",
+      "sites": ["github"]
+    },
+    "categories": {
+      "type": "array",
+      "description": "Job function or department categories (e.g. ['Engineering', 'Marketing']).",
+      "sites": ["github"]
+    },
+    "job_experience_level": {
+      "type": "string",
+      "description": "Experience level classification (e.g. 'Director+', 'Mid', 'Senior').",
+      "sites": ["google"]
+    },
+    "qualifications": {
+      "type": "array",
+      "description": "Key qualification requirements shown on the listing card.",
+      "sites": ["google"]
+    },
+    "apply_url": {
+      "type": "string",
+      "description": "Direct application URL, when distinct from job_url.",
+      "sites": ["github", "remoteok"]
+    },
+    "company_logo_url": {
+      "type": "string",
+      "description": "URL of the company's logo image as shown on the listing card.",
+      "sites": ["eurobrussels", "naturecareers", "reed", "remoteok", "thtjobs"]
+    },
+    "job_id": {
+      "type": "string",
+      "description": "Internal job identifier used by the site.",
+      "sites": ["github"]
+    }
+  },
+
+  "detail_fields": {
+    "salary": {
+      "type": "object",
+      "description": "Full salary or compensation details from the job detail page. Structured object with min_amount, max_amount, currency (name, code, symbol), and period. May also carry flat fields salary_min, salary_max, salary_currency, salary_period.",
+      "normalization": "Extract min/max numerical values, currency code and symbol, and period. Set to null if not advertised.",
+      "sites": ["eurobrussels", "naturecareers", "postjobfree", "reed"]
+    },
+    "salary_range": {
+      "type": "string",
+      "description": "Salary range as a human-readable string when a structured object is not available.",
+      "normalization": "Use format '$X–$Y per year' or equivalent with currency and period.",
+      "sites": ["google"]
+    },
+    "salary_min": {"type": "number", "description": "Minimum salary value.", "sites": ["postjobfree"]},
+    "salary_max": {"type": "number", "description": "Maximum salary value.", "sites": ["postjobfree"]},
+    "salary_currency": {"type": "string", "description": "ISO 4217 currency code for salary (e.g. 'USD').", "sites": ["postjobfree"]},
+    "salary_period": {"type": "string", "description": "Pay period (e.g. 'YEAR', 'MONTH', 'HOUR').", "sites": ["postjobfree"]},
+    "employment_type": {
+      "type": "string",
+      "description": "Full employment type from the detail page (e.g. 'Permanent, full-time', 'Contract', 'consultant_not_staff_member').",
+      "sites": ["github", "postjobfree", "reed", "remoteok", "thtjobs", "unjobs"]
+    },
+    "job_description": {
+      "type": "string",
+      "description": "Full job description text from the detail page.",
+      "sites": ["eurobrussels", "naturecareers", "postjobfree", "reed", "reliefweb", "remoteok", "thtjobs", "unjobs"]
+    },
+    "responsibilities": {
+      "type": "array",
+      "description": "List of job responsibilities or duties.",
+      "sites": ["eurobrussels", "github", "google", "postjobfree", "remoteok", "unjobs"]
+    },
+    "qualifications": {
+      "type": "array",
+      "description": "List of required qualifications, often structured by sub-category (education, experience, languages).",
+      "sites": ["github", "unjobs"]
+    },
+    "required_qualifications": {
+      "type": "array",
+      "description": "Explicitly listed required qualifications.",
+      "sites": ["postjobfree"]
+    },
+    "preferred_qualifications": {
+      "type": "array",
+      "description": "Preferred or nice-to-have qualifications.",
+      "sites": ["google", "postjobfree"]
+    },
+    "minimum_qualifications": {
+      "type": "array",
+      "description": "Minimum qualifications required (used by Google Careers).",
+      "sites": ["google"]
+    },
+    "benefits": {
+      "type": "array",
+      "description": "List of employee benefits (e.g. pension, health, parking).",
+      "sites": ["eurobrussels", "postjobfree", "reed"]
+    },
+    "posted_date": {
+      "type": "string",
+      "description": "Date the job was posted. Normalize to ISO 8601 (YYYY-MM-DD).",
+      "normalization": "Convert to ISO 8601 format (YYYY-MM-DD).",
+      "sites": ["postjobfree", "reliefweb"]
+    },
+    "application_deadline": {
+      "type": "string",
+      "description": "Deadline for applications. Normalize to ISO 8601 (YYYY-MM-DD).",
+      "normalization": "Convert to ISO 8601 format (YYYY-MM-DD).",
+      "sites": ["eurobrussels", "naturecareers", "reliefweb", "remoteok", "thtjobs", "unjobs"]
+    },
+    "apply_url": {
+      "type": "string",
+      "description": "Direct URL to submit an application, when distinct from job_url.",
+      "sites": ["eurobrussels", "github", "google", "naturecareers", "postjobfree", "reed", "reliefweb", "remoteok", "thtjobs"]
+    },
+    "work_arrangement": {
+      "type": "string",
+      "description": "Work arrangement (e.g. 'remote', 'hybrid', 'onsite').",
+      "normalization": "Normalize to lowercase: 'remote', 'hybrid', or 'onsite'.",
+      "sites": ["github", "postjobfree"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Technology or category tags associated with the job.",
+      "sites": ["eurobrussels", "remoteok"]
+    },
+    "skills": {
+      "type": "array",
+      "description": "Specific skills listed for the role.",
+      "sites": ["remoteok", "unjobs"]
+    },
+    "job_type": {
+      "type": "array",
+      "description": "Job type classifications (e.g. ['Academic Posts', 'Professor'] or ['Researcher']).",
+      "sites": ["github", "naturecareers", "thtjobs"]
+    },
+    "employment_hours": {
+      "type": "string",
+      "description": "Hours commitment (e.g. 'Full time', 'Part time').",
+      "sites": ["naturecareers"]
+    },
+    "hours": {
+      "type": "string",
+      "description": "Hours description (e.g. 'Full Time').",
+      "sites": ["thtjobs"]
+    },
+    "duration": {
+      "type": ["string", "object"],
+      "description": "Contract or role duration. May be a string ('Permanent') or structured object with start/end dates.",
+      "sites": ["naturecareers", "unjobs"]
+    },
+    "department": {
+      "type": "string",
+      "description": "The team or department hiring for the role.",
+      "sites": ["remoteok"]
+    },
+    "job_level": {
+      "type": "string",
+      "description": "Seniority or grade level (e.g. 'level_3', 'Senior').",
+      "sites": ["github", "postjobfree"]
+    },
+    "job_experience_level": {
+      "type": "string",
+      "description": "Experience level label used by the site (e.g. 'Director+').",
+      "sites": ["google"]
+    },
+    "discipline": {
+      "type": "array",
+      "description": "Academic or scientific discipline(s) of the position.",
+      "sites": ["naturecareers"]
+    },
+    "sector": {
+      "type": "string",
+      "description": "Sector of the organization (e.g. 'Academia', 'NGO').",
+      "sites": ["naturecareers"]
+    },
+    "academic_discipline": {
+      "type": "array",
+      "description": "Academic discipline categories used by Times Higher Education.",
+      "sites": ["thtjobs"]
+    },
+    "qualification": {
+      "type": "string",
+      "description": "Qualification level required (e.g. 'Professional certification', 'PhD').",
+      "sites": ["naturecareers"]
+    },
+    "language_requirements": {
+      "type": "string",
+      "description": "Language skills required for the role.",
+      "sites": ["unjobs"]
+    },
+    "expected_start_date": {
+      "type": "string",
+      "description": "Expected start date or description (e.g. 'as_soon_as_possible', '2026-09-01').",
+      "sites": ["unjobs"]
+    },
+    "remuneration": {
+      "type": "object",
+      "description": "Structured remuneration details for contract roles (e.g. daily fee, currency, max days/total).",
+      "sites": ["unjobs"]
+    },
+    "visa_sponsorship": {
+      "type": "string",
+      "description": "Visa sponsorship policy statement.",
+      "sites": ["unjobs"]
+    },
+    "competencies": {
+      "type": "string",
+      "description": "Required competencies or value statements.",
+      "sites": ["unjobs"]
+    },
+    "how_to_apply": {
+      "type": "string",
+      "description": "Instructions for submitting an application.",
+      "sites": ["reed", "unjobs"]
+    },
+    "job_id": {
+      "type": "string",
+      "description": "Internal job identifier used by the site.",
+      "sites": ["github", "postjobfree", "reed"]
+    },
+    "company_logo_url": {
+      "type": "string",
+      "description": "URL of the company's logo image.",
+      "sites": ["reed", "remoteok", "thtjobs"]
+    },
+    "company_overview": {
+      "type": "string",
+      "description": "Company background description included in the job posting.",
+      "sites": ["postjobfree"]
+    },
+    "ideal_candidate": {
+      "type": "string",
+      "description": "Description of the ideal candidate profile.",
+      "sites": ["remoteok"]
+    },
+    "working_hours": {
+      "type": "string",
+      "description": "Expected working hours or schedule details.",
+      "sites": ["remoteok"]
+    },
+    "about_the_role": {
+      "type": "string",
+      "description": "Narrative description of the role (Reed-specific section).",
+      "sites": ["reed"]
+    },
+    "about_you": {
+      "type": "string",
+      "description": "Candidate profile narrative (Reed-specific section).",
+      "sites": ["reed"]
+    },
+    "about_the_job": {
+      "type": "string",
+      "description": "Overview of the job narrative (Google Careers section).",
+      "sites": ["google"]
+    },
+    "role_overview": {
+      "type": "string",
+      "description": "High-level overview of the role.",
+      "sites": ["eurobrussels"]
+    },
+    "about_company": {
+      "type": "string",
+      "description": "Company background section from the job detail page.",
+      "sites": ["eurobrussels"]
+    },
+    "application_procedure": {
+      "type": "string",
+      "description": "Step-by-step application procedure.",
+      "sites": ["eurobrussels"]
+    },
+    "requirements": {
+      "type": "string",
+      "description": "Free-text requirements section (used on some sites before structured qualification fields).",
+      "sites": ["eurobrussels"]
+    },
+    "what_we_offer": {
+      "type": "string",
+      "description": "What the organization offers to the candidate (benefits, culture, mission).",
+      "sites": ["reliefweb"]
+    },
+    "theme": {
+      "type": "string",
+      "description": "Thematic category of the humanitarian job (e.g. 'Health', 'Coordination').",
+      "sites": ["reliefweb"]
+    },
+    "years_of_experience": {
+      "type": "string",
+      "description": "Required years of experience.",
+      "sites": ["reliefweb"]
+    },
+    "office": {
+      "type": "string",
+      "description": "Specific office or institute location within the organization.",
+      "sites": ["unjobs"]
+    },
+    "payment_schedule_and_conditions": {
+      "type": "string",
+      "description": "Payment schedule and contractual conditions.",
+      "sites": ["unjobs"]
+    },
+    "assessment": {
+      "type": "string",
+      "description": "Description of the candidate evaluation/assessment process.",
+      "sites": ["unjobs"]
+    },
+    "physical_requirements": {
+      "type": "string",
+      "description": "Physical requirements of the role.",
+      "sites": ["postjobfree"]
+    },
+    "work_environment": {
+      "type": "string",
+      "description": "Description of the work environment.",
+      "sites": ["postjobfree"]
+    },
+    "equal_opportunity_statement": {
+      "type": "string",
+      "description": "Equal opportunity employer statement.",
+      "sites": ["postjobfree"]
+    },
+    "export_control_requirement": {
+      "type": "string",
+      "description": "Export control compliance requirement (e.g. US Person requirement).",
+      "sites": ["postjobfree"]
+    },
+    "overview": {
+      "type": "string",
+      "description": "Job overview section (GitHub Careers).",
+      "sites": ["github"]
+    },
+    "who_we_are": {
+      "type": "string",
+      "description": "Company/team description section (GitHub Careers).",
+      "sites": ["github"]
+    },
+    "about_github": {
+      "type": "string",
+      "description": "About GitHub boilerplate section.",
+      "sites": ["github"]
+    },
+    "about_unu": {
+      "type": "string",
+      "description": "About the United Nations University boilerplate.",
+      "sites": ["unjobs"]
+    },
+    "about_office_institute": {
+      "type": "string",
+      "description": "Description of the specific UNU office or institute.",
+      "sites": ["unjobs"]
+    },
+    "information_about_unu_rosters": {
+      "type": "string",
+      "description": "UNU talent roster policy statement.",
+      "sites": ["unjobs"]
+    },
+    "github_values": {
+      "type": "string",
+      "description": "GitHub company values statement.",
+      "sites": ["github"]
+    },
+    "leadership_principles": {
+      "type": "string",
+      "description": "GitHub leadership principles statement.",
+      "sites": ["github"]
+    },
+    "manager_fundamentals": {
+      "type": "string",
+      "description": "GitHub manager fundamentals statement.",
+      "sites": ["github"]
+    },
+    "eeo_statement": {
+      "type": "string",
+      "description": "GitHub Equal Employment Opportunity statement.",
+      "sites": ["github"]
+    },
+    "category": {
+      "type": "string",
+      "description": "Single job category string (GitHub detail page).",
+      "sites": ["github"]
+    },
+    "compensation_range": {
+      "type": "string",
+      "description": "Compensation range as a human-readable string (GitHub).",
+      "sites": ["github"]
+    }
+  },
+
+  "normalization_rules": {
+    "salary": "Extract min_amount and max_amount as numbers. Identify currency by ISO 4217 code (e.g. GBP, USD, EUR) and period (year, month, hour). Store null for fields not present.",
+    "salary_range": "Format as a human-readable string, e.g. '$90,000–$135,000/year'. Use currency symbol when available.",
+    "posted_date": "Convert to ISO 8601 format (YYYY-MM-DD). Resolve relative expressions (e.g. '3 days ago') using the snapshot date.",
+    "application_deadline": "Convert to ISO 8601 format (YYYY-MM-DD).",
+    "expected_start_date": "Convert to ISO 8601 (YYYY-MM-DD) if a date is given; otherwise retain normalized string (e.g. 'as_soon_as_possible').",
+    "location": "Normalize to 'City, Region, Country' when possible. For fully remote roles use 'Remote'. Retain the site's original value if normalization is ambiguous.",
+    "country": "Use the ISO country name or code as provided by the site.",
+    "employment_type": "Retain the site's original string. Do not normalize across sites.",
+    "work_arrangement": "Normalize to lowercase: 'remote', 'hybrid', or 'onsite'.",
+    "job_url": "Return the full absolute URL. Resolve relative URLs against the site origin.",
+    "apply_url": "Return the full absolute URL."
+  },
+
+  "canonical_record_key": ["job_title", "company_name", "job_url"],
+
+  "provenance_required": true,
+
+  "notes": [
+    "The 'salary' field supersedes the earlier 'salary_range' string field. Use 'salary' as a structured object wherever possible; use 'salary_range' only for Google Careers which does not expose structured salary data.",
+    "Fields under 'listing_fields' and 'detail_fields' are all optional; their presence depends on the source site and what is visible on the page.",
+    "'company_name' is required on most sites but may be absent on GitHub (where the company is always GitHub) — in that case it need not be extracted unless visible.",
+    "'location' is required on most sites but is not present in UNJobs listing pages (only job_title, company_name, and job_url are available).",
+    "Some sites (e.g. EuroBrussels, ReliefWeb) use 'application_deadline' rather than 'closing_date'; both refer to the same concept and should be stored under 'application_deadline'."
+  ]
+}

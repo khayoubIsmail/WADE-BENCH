@@ -1,0 +1,85 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Warby Parker",
+        "description": "Everything included for $95. We also offer progressive, blue-light-filtering, and anti-fatigue lenses—plus more! Single-vision prescriptions. Also choose readers or non-prescription lenses. Polycarbonate lenses. The most impact-resistant lens material for glasses. Anti-reflective and scratch-resistant lens coatings. And our lenses block 100% of UV rays. Free shipping on every single order at Warby Parker. Free returns or exchanges within 30 days of purchase. Free scratched lens replacement guaranteed for prescription lenses within six months of purchase. FSA, HSA, and insurance accepted. Save an average of $100 when you use insurance. Buy a Pair, Give a Pair. For every pair purchased, a pair of glasses is distributed to someone in need.",
+        "image_urls": [
+          "https://www.warbyparker.com/images/wilkie-black-matte-eclipse-1"
+        ],
+        "price_raw": "Starting at $95",
+        "product_name": "Wilkie",
+        "product_url": "https://www.warbyparker.com/eyeglasses/men/wilkie/black-matte-eclipse",
+        "rating": 4.3,
+        "review_count": 350,
+        "availability": "In Stock",
+        "color": "Black Matte Eclipse",
+        "currency": "USD",
+        "first_review": "Todd614 2 days ago. I love my new glasses. My only issue is my first order was lost and so I had to wait for them to be made again.",
+        "first_review_content": "I love my new glasses. My only issue is my first order was lost and so I had to wait for them to be made again.",
+        "first_review_rating": 5,
+        "first_review_text": "I love my new glasses. My only issue is my first order was lost and so I had to wait for them to be made again.",
+        "first_review_title": "Happy",
+        "image_url": "https://www.warbyparker.com/images/wilkie-black-matte-eclipse-1",
+        "key_features": [
+          "Single-vision prescriptions",
+          "Polycarbonate lenses",
+          "Anti-reflective and scratch-resistant lens coatings",
+          "Free shipping",
+          "Free returns or exchanges within 30 days",
+          "Free scratched lens replacement within six months",
+          "FSA, HSA, and insurance accepted",
+          "Buy a Pair, Give a Pair"
+        ],
+        "material": "Polycarbonate lenses",
+        "shipping_info": "Free shipping on every single order at Warby Parker",
+        "shipping_text": "Free shipping",
+        "short_description": "Premium eyewear, starting at $95",
+        "size_or_volume": "Medium",
+        "available_widths": [
+          "Extra narrow",
+          "Medium",
+          "Extra wide"
+        ],
+        "selected_width": "Medium"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "url": "https://www.warbyparker.com/eyeglasses/men/wilkie/black-matte-eclipse",
+        "snapshot_id": "WBV1_ECOM_04_WARBYPARKER_US_DETAIL",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "Wilkie Starting at $95 Black Matte Eclipse"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 19.078,
+    "input_tokens": 5602,
+    "output_tokens": 617,
+    "total_tokens": 6219,
+    "num_tiles": 4,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_04_WARBYPARKER_US_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_04_WARBYPARKER_US_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_04_WARBYPARKER_US_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_04_WARBYPARKER_US_DETAIL\\tile_04.png"
+    ],
+    "error": null
+  }
+}

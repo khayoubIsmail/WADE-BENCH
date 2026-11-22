@@ -1,0 +1,292 @@
+{
+  "task_id": "WBV1_ECOM_10_ASOS_US_DETAIL",
+  "website_id": "asos_us",
+  "schema_id": "product_detail_v1",
+  "snapshot_id": "asos_us_detail_sample",
+  "snapshot_path": "raw_snapshots/ecommerce/asos_us_detail_sample",
+  "live_url": "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ECOM_10_ASOS_US_DETAIL_001",
+      "fields": {
+        "product_name": {
+          "value": "Vila chiffon trapeze mini dress in light pink",
+          "normalized": "Vila chiffon trapeze mini dress in light pink"
+        },
+        "price_raw": {
+          "value": "$73.00",
+          "normalized": {
+            "amount": 73.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "currency": {
+          "value": "$",
+          "normalized": "USD"
+        },
+        "discount_percentage": {
+          "value": null,
+          "normalized": null
+        },
+        "seller_name": {
+          "value": null,
+          "normalized": null
+        },
+        "description": {
+          "value": "Dresses by Vila\nScoop neck\nFixed straps\nSleeveless style\nRegular fit\nProduct Code: 156130501\nMachine wash according to instructions on care label\nChiffon: soft, drapey, sheer fabric with a dry handle\n\nMain: 100% Polyester.\nSeeking inspiration from street and city style, Scandi favourite Vila combines quality fabrics and delicate cuts to create a collection of fashion-forward pieces. Signature floral prints and grown-up lace feature across a range of dresses and blouses, while the brand's casual jackets and cosy knitwear are your new wardrobe staples.",
+          "normalized": "Dresses by Vila\nScoop neck\nFixed straps\nSleeveless style\nRegular fit\nProduct Code: 156130501\nMachine wash according to instructions on care label\nChiffon: soft, drapey, sheer fabric with a dry handle\n\nMain: 100% Polyester.\nSeeking inspiration from street and city style, Scandi favourite Vila combines quality fabrics and delicate cuts to create a collection of fashion-forward pieces. Signature floral prints and grown-up lace feature across a range of dresses and blouses, while the brand's casual jackets and cosy knitwear are your new wardrobe staples."
+        },
+        "brand": {
+          "value": "Vila",
+          "normalized": "Vila"
+        },
+        "color": {
+          "value": "Sea Pink",
+          "normalized": "Sea Pink"
+        },
+        "rating": {
+          "value": null,
+          "normalized": null
+        },
+        "review_count": {
+          "value": null,
+          "normalized": null
+        },
+        "product_url": {
+          "value": "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626",
+          "normalized": "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626"
+        },
+        "image_urls": {
+          "value": [
+            "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink?$n_240w$&wid=40&fit=constrain",
+            "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-2?$n_240w$&wid=40&fit=constrain",
+            "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-3?$n_240w$&wid=40&fit=constrain",
+            "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-4?$n_240w$&wid=40&fit=constrain"
+          ],
+          "normalized": [
+            "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink?$n_240w$&wid=40&fit=constrain",
+            "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-2?$n_240w$&wid=40&fit=constrain",
+            "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-3?$n_240w$&wid=40&fit=constrain",
+            "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-4?$n_240w$&wid=40&fit=constrain"
+          ]
+        },
+        "availability": {
+          "value": null,
+          "normalized": null
+        },
+        "sku": {
+          "value": "Product Code: 156130501",
+          "normalized": "156130501"
+        },
+        "image_url": {
+          "value": "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink?$n_240w$&wid=40&fit=constrain",
+          "normalized": "https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink?$n_240w$&wid=40&fit=constrain"
+        },
+        "size_or_volume": {
+          "value": [
+            "EU 34",
+            "EU 36",
+            "EU 38",
+            "EU 40",
+            "EU 42",
+            "EU 44"
+          ],
+          "normalized": [
+            "EU 34",
+            "EU 36",
+            "EU 38",
+            "EU 40",
+            "EU 42",
+            "EU 44"
+          ]
+        },
+        "shipping_text": {
+          "value": "Free delivery on qualifying orders.",
+          "normalized": "Free delivery on qualifying orders."
+        }
+      },
+      "provenance": {
+        "price_raw": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "html > head",
+          "xpath": "/html/head",
+          "text_quote": "$73.00",
+          "attribute": null,
+          "xpath_absolute": "/html/head",
+          "css_selector_absolute": "html > head"
+        },
+        "currency": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "size_or_volume": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "html > head",
+          "xpath": "/html/head",
+          "text_quote": "EU 34",
+          "attribute": null,
+          "xpath_absolute": "/html/head",
+          "css_selector_absolute": "html > head"
+        },
+        "product_name": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "html > head > title:nth-of-type(1)",
+          "xpath": "/html/head/title",
+          "text_quote": "Vila chiffon trapeze mini dress in light pink",
+          "attribute": null,
+          "xpath_absolute": "/html/head/title",
+          "css_selector_absolute": "html > head > title:nth-of-type(1)"
+        },
+        "color": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "html > head",
+          "xpath": "/html/head",
+          "text_quote": "Sea Pink",
+          "attribute": null,
+          "xpath_absolute": "/html/head",
+          "css_selector_absolute": "html > head"
+        },
+        "brand": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "html > head > title:nth-of-type(1)",
+          "xpath": "/html/head/title",
+          "text_quote": "Vila",
+          "attribute": null,
+          "xpath_absolute": "/html/head/title",
+          "css_selector_absolute": "html > head > title:nth-of-type(1)"
+        },
+        "shipping_text": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "div[data-testid='deliveryAndReturns__deliveryMessage']",
+          "xpath": "//div[@data-testid='deliveryAndReturns__deliveryMessage']",
+          "text_quote": "Free delivery on qualifying orders.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div[3]/section/div/div[2]/div/span[3]/div[6]/div[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(3) > div:nth-of-type(6) > div:nth-of-type(2)"
+        },
+        "description": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "image_urls": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "meta[content*='210606626-1-seapink']",
+          "xpath": "//meta[@content='https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink']",
+          "text_quote": null,
+          "attribute": "content",
+          "xpath_absolute": "/html/head/meta[11]",
+          "css_selector_absolute": "html > head > meta:nth-of-type(11)"
+        },
+        "image_url": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "meta[content*='210606626-1-seapink']",
+          "xpath": "//meta[@content='https://images.asos-media.com/products/vila-chiffon-trapeze-mini-dress-in-light-pink/210606626-1-seapink']",
+          "text_quote": null,
+          "attribute": "content",
+          "xpath_absolute": "/html/head/meta[11]",
+          "css_selector_absolute": "html > head > meta:nth-of-type(11)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "seller_name": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "rating": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "review_count": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "product_url": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "base[href*='210606627']",
+          "xpath": "//base[contains(@href,'210606627')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/head/base",
+          "css_selector_absolute": "html > head > base:nth-of-type(1)"
+        },
+        "availability": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "sku": {
+          "snapshot_id": "asos_us_detail_sample",
+          "css_selector": "p.Jk9Oz",
+          "xpath": "//*[@id='productDescriptionDetails']/div[1]/p[1]",
+          "text_quote": "Product Code: 156130501",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div[3]/section/div/div[2]/div/span[3]/div[7]/ul/li[2]/div/div/div/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(3) > div:nth-of-type(7) > ul:nth-of-type(1) > li:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

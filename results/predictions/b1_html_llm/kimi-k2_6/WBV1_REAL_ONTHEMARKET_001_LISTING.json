@@ -1,0 +1,2500 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19328039/",
+        "price": {
+          "amount": 450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "White Horse Road, East Ham, London, E6",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain free",
+          "Three bedrooms",
+          "Spacious through lounge"
+        ],
+        "listing_agent_name": "Bairstow Eves - East Ham",
+        "listing_agent_phone": "020 4645 2354",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19328039/1609874437/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19328039/1609874437/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19328039/1609874437/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19328039/1609874437/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19328039/1609874437/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19328039/\"]",
+          "text_quote": "href=\"/details/19328039/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19328039/\"]",
+          "text_quote": "£450,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "White Horse Road, East Ham, London, E6"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Terraced house"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - East Ham"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 2354"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - East Ham\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19328039\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19328039/1609874437/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19591853/",
+        "price": {
+          "amount": 395000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "18 Brumwell Avenue, Woolwich",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (118 years remaining)",
+          "Two Bedrooms",
+          "Two Balconies",
+          "Modern Apartment"
+        ],
+        "listing_agent_name": "Felicity J. Lord - Blackheath",
+        "listing_agent_phone": "020 8022 7076",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/branches/2070/170220165840476/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19591853/1617925440/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591853/1617925440/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591853/1617925440/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591853/1617925440/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591853/1617925440/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19591853/\"]",
+          "text_quote": "href=\"/details/19591853/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19591853/\"]",
+          "text_quote": "£395,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "18 Brumwell Avenue, Woolwich"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (118 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Felicity J. Lord - Blackheath"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 8022 7076"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Felicity J. Lord - Blackheath\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/branches/2070/170220165840476/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19591853\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19591853/1617925440/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19591397/",
+        "price": {
+          "amount": 300000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Stoneleigh Road, Clayhall",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Leasehold (105 years remaining)",
+          "Ground Floor Apartment",
+          "Two Bedrooms",
+          "Bathroom and En-suite",
+          "Chain-free"
+        ],
+        "listing_agent_name": "haart Estate Agents - Barkingside",
+        "listing_agent_phone": "020 8022 6704",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/branches/5300/240501110007042/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19591397/1617917074/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591397/1617917074/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591397/1617917074/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591397/1617917074/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591397/1617917074/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19591397/\"]",
+          "text_quote": "href=\"/details/19591397/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19591397/\"]",
+          "text_quote": "£300,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Stoneleigh Road, Clayhall"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (105 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "haart Estate Agents - Barkingside"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 8022 6704"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"haart Estate Agents - Barkingside\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/branches/5300/240501110007042/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19591397\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19591397/1617917074/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19595111/",
+        "price": {
+          "amount": 550000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Eversleigh Road, East Ham, London, E6",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain free",
+          "Private garage",
+          "Recently renovated throughout",
+          "Chain-free",
+          "Study"
+        ],
+        "listing_agent_name": "Bairstow Eves - East Ham",
+        "listing_agent_phone": "020 4645 2354",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19595111/1617994799/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19595111/1617994799/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19595111/1617994799/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19595111/1617994799/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19595111/1617994799/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19595111/\"]",
+          "text_quote": "href=\"/details/19595111/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19595111/\"]",
+          "text_quote": "£550,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Eversleigh Road, East Ham, London, E6"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Terraced house"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - East Ham"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 2354"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - East Ham\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19595111\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19595111/1617994799/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593929/",
+        "price": {
+          "amount": 140000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Vicarage Close, Northolt",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (173 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "First for Auctions - National",
+        "listing_agent_phone": "01344 527052",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/13005/240103101601061/logo-190x100.png",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19593929/1617974111/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593929/1617974111/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593929/1617974111/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593929/1617974111/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593929/1617974111/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593929/\"]",
+          "text_quote": "href=\"/details/19593929/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593929/\"]",
+          "text_quote": "£140,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Vicarage Close, Northolt"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (173 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "First for Auctions - National"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "01344 527052"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"First for Auctions - National\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/13005/240103101601061/logo-190x100.png\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19593929\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19593929/1617974111/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593942/",
+        "price": {
+          "amount": 140000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Vicarage Close, Northolt",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (83 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "Gibbs Gillespie - Ruislip Manor Sales",
+        "listing_agent_phone": "01895 754548",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/7592/240119134638629/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19593942/1617974239/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593942/1617974239/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593942/1617974239/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593942/1617974239/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593942/1617974239/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593942/\"]",
+          "text_quote": "href=\"/details/19593942/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593942/\"]",
+          "text_quote": "£140,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Vicarage Close, Northolt"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (83 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Gibbs Gillespie - Ruislip Manor Sales"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "01895 754548"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Gibbs Gillespie - Ruislip Manor Sales\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/7592/240119134638629/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19593942\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19593942/1617974239/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593878/",
+        "price": {
+          "amount": 275000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Pembroke Road, Ruislip",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Leasehold (971 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "First for Auctions - National",
+        "listing_agent_phone": "01344 527052",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/13005/240103101601061/logo-190x100.png",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19593878/1617972939/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593878/1617972939/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593878/1617972939/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593878/1617972939/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593878/1617972939/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593878/\"]",
+          "text_quote": "href=\"/details/19593878/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593878/\"]",
+          "text_quote": "£275,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Pembroke Road, Ruislip"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (971 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "First for Auctions - National"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "01344 527052"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"First for Auctions - National\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/13005/240103101601061/logo-190x100.png\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19593878\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19593878/1617972939/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/18923176/",
+        "price": {
+          "amount": 100000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Limewood Court, Beehive Lane, Ilford, IG4",
+        "property_type": "Flat",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (60 years remaining)",
+          "Retirement",
+          "Chain-free",
+          "Nearest station 0.3mi.",
+          "Nearest school 0.1mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Barkingside",
+        "listing_agent_phone": "020 4645 3221",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/18923176/1598196332/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/18923176/1598196332/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/18923176/1598196332/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/18923176/1598196332/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/18923176/1598196332/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/18923176/\"]",
+          "text_quote": "href=\"/details/18923176/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/18923176/\"]",
+          "text_quote": "£100,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Limewood Court, Beehive Lane, Ilford, IG4"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (60 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - Barkingside"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 3221"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - Barkingside\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/18923176\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/18923176/1598196332/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/16508645/",
+        "price": {
+          "amount": 1450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8",
+        "property_type": "Apartment",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Leasehold (923 years remaining)",
+          "3 bedrooms",
+          "2 bathrooms",
+          "1,246 sq ft / 115.8 sq m"
+        ],
+        "listing_agent_name": "Hanover - St Johns Wood",
+        "listing_agent_phone": "020 8115 0361",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/branches/47653/240304132628382/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/16508645/1611571083/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/16508645/1611571083/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/16508645/1611571083/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/16508645/1611571083/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/16508645/1611571083/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/16508645/\"]",
+          "text_quote": "href=\"/details/16508645/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/16508645/\"]",
+          "text_quote": "£1,450,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (923 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Hanover - St Johns Wood"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 8115 0361"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Hanover - St Johns Wood\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/branches/47653/240304132628382/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/16508645\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/16508645/1611571083/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593521/",
+        "price": {
+          "amount": 195000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Lee High Road, London",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (109 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "First for Auctions - National",
+        "listing_agent_phone": "01344 527052",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/13005/240103101601061/logo-190x100.png",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19593521/1617966750/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593521/1617966750/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593521/1617966750/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593521/1617966750/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593521/1617966750/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593521/\"]",
+          "text_quote": "href=\"/details/19593521/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593521/\"]",
+          "text_quote": "£195,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Lee High Road, London"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (109 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "First for Auctions - National"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "01344 527052"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"First for Auctions - National\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/13005/240103101601061/logo-190x100.png\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19593521\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19593521/1617966750/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19108279/",
+        "price": {
+          "amount": 220000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Glebe Road, Stanmore",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (977 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "Gibbs Gillespie - Stanmore",
+        "listing_agent_phone": "020 8128 5233",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/7592/240119134638629/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19108279/1617954539/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19108279/1617954539/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19108279/1617954539/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19108279/1617954539/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19108279/1617954539/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19108279/\"]",
+          "text_quote": "href=\"/details/19108279/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19108279/\"]",
+          "text_quote": "£220,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Glebe Road, Stanmore"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (977 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Gibbs Gillespie - Stanmore"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 8128 5233"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Gibbs Gillespie - Stanmore\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/7592/240119134638629/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19108279\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19108279/1617954539/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593169/",
+        "price": {
+          "amount": 700000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Gates Green Road, Coney Hall, West Wickham, BR4",
+        "property_type": "Bungalow",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Freehold",
+          "Nearest station 0.6mi.",
+          "Nearest school 0.2mi."
+        ],
+        "listing_agent_name": "Mann - Beckenham",
+        "listing_agent_phone": "020 7768 6890",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14676/260126142049904/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19593169/1617961837/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593169/1617961837/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593169/1617961837/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593169/1617961837/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593169/1617961837/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593169/\"]",
+          "text_quote": "href=\"/details/19593169/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593169/\"]",
+          "text_quote": "£700,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Gates Green Road, Coney Hall, West Wickham, BR4"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Bungalow"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Mann - Beckenham"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 7768 6890"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Mann - Beckenham\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14676/260126142049904/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19593169\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19593169/1617961837/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593064/",
+        "price": {
+          "amount": 220000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Glebe Road, Stanmore",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Share of freehold (977 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "First for Auctions - National",
+        "listing_agent_phone": "01344 527052",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/13005/240103101601061/logo-190x100.png",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19593064/1617948973/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593064/1617948973/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593064/1617948973/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593064/1617948973/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19593064/1617948973/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593064/\"]",
+          "text_quote": "href=\"/details/19593064/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19593064/\"]",
+          "text_quote": "£220,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Glebe Road, Stanmore"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Share of freehold (977 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "First for Auctions - National"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "01344 527052"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"First for Auctions - National\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/13005/240103101601061/logo-190x100.png\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19593064\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19593064/1617948973/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19592919/",
+        "price": {
+          "amount": 450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Porters Avenue, DAGENHAM, Essex, RM9",
+        "property_type": "Semi-detached house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Study",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Dagenham",
+        "listing_agent_phone": "020 4645 3408",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19592919/1617943214/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592919/1617943214/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592919/1617943214/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592919/1617943214/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592919/1617943214/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19592919/\"]",
+          "text_quote": "href=\"/details/19592919/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19592919/\"]",
+          "text_quote": "£450,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Porters Avenue, DAGENHAM, Essex, RM9"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Semi-detached house"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - Dagenham"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 3408"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - Dagenham\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19592919\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19592919/1617943214/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19322931/",
+        "price": {
+          "amount": 600000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Otley Drive, Ilford, IG2",
+        "property_type": "End of terrace house",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Freehold",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Barkingside",
+        "listing_agent_phone": "020 4645 3221",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19322931/1609795173/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19322931/1609795173/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19322931/1609795173/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19322931/1609795173/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19322931/1609795173/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19322931/\"]",
+          "text_quote": "href=\"/details/19322931/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19322931/\"]",
+          "text_quote": "£600,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Otley Drive, Ilford, IG2"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "End of terrace house"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - Barkingside"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 3221"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - Barkingside\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19322931\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19322931/1609795173/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19592588/",
+        "price": {
+          "amount": 475000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Tweedmouth Road,, London, E13",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain-free",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.1mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Stratford",
+        "listing_agent_phone": "020 4645 2667",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19592588/1617937412/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592588/1617937412/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592588/1617937412/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592588/1617937412/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592588/1617937412/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19592588/\"]",
+          "text_quote": "href=\"/details/19592588/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19592588/\"]",
+          "text_quote": "£475,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Tweedmouth Road,, London, E13"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Terraced house"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - Stratford"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 2667"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - Stratford\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19592588\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19592588/1617937412/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/18780788/",
+        "price": {
+          "amount": 545000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": null,
+        "key_features": [
+          "Tenure: Leasehold",
+          "High spec finishes throughout",
+          "New build"
+        ],
+        "listing_agent_name": "Peabody - Zone Oval Village Shared Ownership",
+        "listing_agent_phone": "020 8022 4899",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/10420/260423114345111/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/18780788/1595680314/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/18780788/1595680314/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/18780788/1595680314/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/18780788/1595680314/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/18780788/1595680314/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/18780788/\"]",
+          "text_quote": "href=\"/details/18780788/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/18780788/\"]",
+          "text_quote": "£545,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Peabody - Zone Oval Village Shared Ownership"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 8022 4899"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Peabody - Zone Oval Village Shared Ownership\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/10420/260423114345111/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/18780788\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/18780788/1595680314/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/18780789/",
+        "price": {
+          "amount": 136250,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": null,
+        "key_features": [
+          "Tenure: Leasehold",
+          "High spec finishes throughout",
+          "New build"
+        ],
+        "listing_agent_name": "Peabody - Zone Oval Village Shared Ownership",
+        "listing_agent_phone": "020 8022 4899",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/10420/260423114345111/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/18780789/1595680315/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/18780789/1595680315/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/18780789/1595680315/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/18780789/1595680315/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/18780789/1595680315/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/18780789/\"]",
+          "text_quote": "href=\"/details/18780789/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/18780789/\"]",
+          "text_quote": "£136,250"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Peabody - Zone Oval Village Shared Ownership"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 8022 4899"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Peabody - Zone Oval Village Shared Ownership\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/10420/260423114345111/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/18780789\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/18780789/1595680315/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19409786/",
+        "price": {
+          "amount": 160000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Jedburgh Road, Plaistow, London, E13",
+        "property_type": "Flat",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (137 years remaining)",
+          "Chain free",
+          "Long lease – 138 years remaining",
+          "No service charges or ground rent",
+          "Auction",
+          "Chain-free"
+        ],
+        "listing_agent_name": "Bairstow Eves - East Ham",
+        "listing_agent_phone": "020 4645 2354",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19409786/1612448952/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19409786/1612448952/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19409786/1612448952/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19409786/1612448952/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19409786/1612448952/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19409786/\"]",
+          "text_quote": "href=\"/details/19409786/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19409786/\"]",
+          "text_quote": "£160,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Jedburgh Road, Plaistow, London, E13"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (137 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - East Ham"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 2354"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - East Ham\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19409786\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19409786/1612448952/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19592383/",
+        "price": {
+          "amount": 475000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Surrey Road, Dagenham, Essex, RM10",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain-free",
+          "Nearest station 0.2mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Dagenham",
+        "listing_agent_phone": "020 4645 3408",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19592383/1617933809/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592383/1617933809/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592383/1617933809/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592383/1617933809/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592383/1617933809/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19592383/\"]",
+          "text_quote": "href=\"/details/19592383/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19592383/\"]",
+          "text_quote": "£475,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Surrey Road, Dagenham, Essex, RM10"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Terraced house"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - Dagenham"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 3408"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - Dagenham\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19592383\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19592383/1617933809/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19592213/",
+        "price": {
+          "amount": 2000000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "South Lodge Drive, LONDON, London, N14",
+        "property_type": "Bungalow",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "key_features": [
+          "Tenure: Freehold",
+          "Study",
+          "Nearest station 0.5mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Southgate",
+        "listing_agent_phone": "020 4645 2800",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19592213/1617931027/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592213/1617931027/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592213/1617931027/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592213/1617931027/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19592213/1617931027/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19592213/\"]",
+          "text_quote": "href=\"/details/19592213/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19592213/\"]",
+          "text_quote": "£2,000,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "South Lodge Drive, LONDON, London, N14"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Bungalow"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "4"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "3"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - Southgate"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 2800"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - Southgate\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19592213\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19592213/1617931027/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19591266/",
+        "price": {
+          "amount": 300000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Jedburgh Road, Plaistow, London, E13",
+        "property_type": "Flat",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (97 years remaining)",
+          "Impressively spacious",
+          "Contemporary bathroom",
+          "Factory conversion",
+          "Chain-free"
+        ],
+        "listing_agent_name": "Bairstow Eves - East Ham",
+        "listing_agent_phone": "020 4645 2354",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19591266/1617915351/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591266/1617915351/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591266/1617915351/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591266/1617915351/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19591266/1617915351/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19591266/\"]",
+          "text_quote": "href=\"/details/19591266/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19591266/\"]",
+          "text_quote": "£300,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Jedburgh Road, Plaistow, London, E13"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (97 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - East Ham"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 2354"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - East Ham\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19591266\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19591266/1617915351/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19590721/",
+        "price": {
+          "amount": 475000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Croombs Road, London, E16",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain-free",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.2mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Stratford",
+        "listing_agent_phone": "020 4645 2667",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19590721/1617904635/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19590721/1617904635/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19590721/1617904635/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19590721/1617904635/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19590721/1617904635/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19590721/\"]",
+          "text_quote": "href=\"/details/19590721/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19590721/\"]",
+          "text_quote": "£475,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Croombs Road, London, E16"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Terraced house"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - Stratford"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 4645 2667"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - Stratford\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19590721\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19590721/1617904635/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/18729644/",
+        "price": {
+          "amount": 290000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Fairmont Road, Rainham, Essex, RM13",
+        "property_type": "Flat",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (242 years remaining)",
+          "Lift Access",
+          "Secure Entry System",
+          "Two Bedrooms"
+        ],
+        "listing_agent_name": "Bairstow Eves - Rainham",
+        "listing_agent_phone": "01708 243973",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/18729644/1598199746/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/18729644/1598199746/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/18729644/1598199746/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/18729644/1598199746/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/18729644/1598199746/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/18729644/\"]",
+          "text_quote": "href=\"/details/18729644/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/18729644/\"]",
+          "text_quote": "£290,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Fairmont Road, Rainham, Essex, RM13"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Leasehold (242 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - Rainham"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "01708 243973"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - Rainham\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/18729644\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/18729644/1598199746/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19589506/",
+        "price": {
+          "amount": 300000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Albemarle Road, Beckenham, BR3",
+        "property_type": "Flat",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Share of freehold (998 years remaining)",
+          "Auction",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.2mi."
+        ],
+        "listing_agent_name": "Mann - Beckenham",
+        "listing_agent_phone": "020 7768 6890",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14676/260126142049904/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19589506/1617884769/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19589506/1617884769/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19589506/1617929492/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19589506/1617929492/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19589506/1617929492/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19589506/\"]",
+          "text_quote": "href=\"/details/19589506/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19589506/\"]",
+          "text_quote": "£300,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Albemarle Road, Beckenham, BR3"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Share of freehold (998 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Mann - Beckenham"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 7768 6890"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Mann - Beckenham\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14676/260126142049904/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19589506\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19589506/1617884769/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_026",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19589114/",
+        "price": {
+          "amount": 600000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Stanley Road, Hornchurch, RM12",
+        "property_type": "End of terrace house",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "key_features": [
+          "Tenure: Freehold",
+          "Nearest station 0.3mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Hornchurch",
+        "listing_agent_phone": "01708 243066",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19589114/1617875713/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19589114/1617875713/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19589114/1617875713/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19589114/1617875713/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19589114/1617875713/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19589114/\"]",
+          "text_quote": "href=\"/details/19589114/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19589114/\"]",
+          "text_quote": "£600,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Stanley Road, Hornchurch, RM12"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "End of terrace house"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "4"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "3"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Bairstow Eves - Hornchurch"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "01708 243066"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Bairstow Eves - Hornchurch\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19589114\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19589114/1617875713/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_027",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19075435/",
+        "price": {
+          "amount": 1350000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Eastbrook Drive, Romford, RM7",
+        "property_type": "Semi-detached house",
+        "bedrooms": 8,
+        "bathrooms": 3,
+        "key_features": [
+          "Tenure: Freehold",
+          "*chain free*",
+          "Chain-free",
+          "Study"
+        ],
+        "listing_agent_name": "Purplebricks -  Covering Romford",
+        "listing_agent_phone": "01708 243284",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/14568/251203165912368/logo-190x100.png",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19075435/1617868644/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19075435/1617868644/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19075435/1617868644/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19075435/1617868644/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19075435/1617868644/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19075435/\"]",
+          "text_quote": "href=\"/details/19075435/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19075435/\"]",
+          "text_quote": "£1,350,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Eastbrook Drive, Romford, RM7"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Semi-detached house"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "8"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "3"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Freehold"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Purplebricks -  Covering Romford"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "01708 243284"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Purplebricks -  Covering Romford\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/14568/251203165912368/logo-190x100.png\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19075435\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19075435/1617868644/image-0-480x320.webp\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_028",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19588832/",
+        "price": {
+          "amount": 350000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Coldharbour Lane, London, SE5",
+        "property_type": "Flat",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Share of freehold (175 years remaining)",
+          "One Bedroom"
+        ],
+        "listing_agent_name": "Hunters - Camberwell",
+        "listing_agent_phone": "020 8128 9302",
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/495/161111082254267/logo-190x100.jpg",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19588832/1617853313/image-0-480x320.jpg",
+          "https://media.onthemarket.com/properties/19588832/1617853313/image-1-480x320.jpg",
+          "https://media.onthemarket.com/properties/19588832/1617853313/image-2-480x320.jpg",
+          "https://media.onthemarket.com/properties/19588832/1617853313/image-3-480x320.jpg",
+          "https://media.onthemarket.com/properties/19588832/1617853313/image-4-480x320.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19588832/\"]",
+          "text_quote": "href=\"/details/19588832/\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "a[href=\"/details/19588832/\"]",
+          "text_quote": "£350,000"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "address span",
+          "text_quote": "Coldharbour Lane, London, SE5"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div.text-sm.mr-2",
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "span[itemprop=\"numberOfBedrooms\"]",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-component=\"BedBathCounts\"] span:nth-child(2)",
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "page.html",
+          "selector": "div.line-clamp-2 span",
+          "text_quote": "Tenure: Share of freehold (175 years remaining)"
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "div[itemprop=\"name\"] div",
+          "text_quote": "Hunters - Camberwell"
+        },
+        "listing_agent_phone": {
+          "source": "page.html",
+          "selector": "a[itemprop=\"telephone\"]",
+          "text_quote": "020 8128 9302"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Hunters - Camberwell\"]",
+          "text_quote": "src=\"https://media.onthemarket.com/agents/companies/495/161111082254267/logo-190x100.jpg\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[srcset*=\"properties/19588832\"]",
+          "text_quote": "srcset=\"https://media.onthemarket.com/properties/19588832/1617853313/image-0-480x320.webp\""
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 533.929,
+    "input_tokens": 224198,
+    "output_tokens": 19092,
+    "total_tokens": 243290,
+    "initial_input_tokens": 224198,
+    "initial_output_tokens": 19092,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

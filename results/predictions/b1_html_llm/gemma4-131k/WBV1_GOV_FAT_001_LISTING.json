@@ -1,0 +1,74 @@
+{
+  "task_id": "WBV1_GOV_FAT_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": {
+          "value": null,
+          "provenance": {
+            "selector": "div.form2_ROW-TABLE .col-md-12 div.formOutputText_HIDDEN-LABEL",
+            "text_quote": "outputText_TITLE-BLACK"
+          }
+        },
+        "tender_url": {
+          "value": null,
+          "provenance": {
+            "selector": "div[role='main']",
+            "text_quote": "No explicit URL found for the listing."
+          }
+        },
+        "notice_information": {
+          "value": "5823 opportunities found.",
+          "provenance": {
+            "selector": "#contentForm:j_idt206",
+            "text_quote": "5823 opportunities found."
+          }
+        },
+        "tender_type": {
+          "value": null,
+          "provenance": {
+            "selector": ".formTabBar_TAB-BUTTON-ACTIVE",
+            "text_quote": "Open (487)"
+          }
+        },
+        "tender_status": {
+          "value": "Closed",
+          "provenance": {
+            "selector": "#contentForm:j_idt794_TabAction_1",
+            "text_quote": "Closed (5336)"
+          }
+        },
+        "tender_coverage": {
+          "value": null,
+          "provenance": {
+            "selector": "div.form2_ROW-TABLE .col-md-12",
+            "text_quote": "No specific coverage details visible."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 7.843,
+    "input_tokens": 14567,
+    "output_tokens": 444,
+    "total_tokens": 15011,
+    "initial_input_tokens": 14567,
+    "initial_output_tokens": 444,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

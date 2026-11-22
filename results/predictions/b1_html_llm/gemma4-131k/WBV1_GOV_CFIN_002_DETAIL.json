@@ -1,0 +1,443 @@
+{
+  "task_id": "WBV1_GOV_CFIN_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": {
+          "value": "Refurbishment works Harris Academy Beckenham",
+          "provenance": {
+            "selector": "h1.govuk-heading-l",
+            "text_quote": "Refurbishment works Harris Academy Beckenham"
+          }
+        },
+        "tender_url": {
+          "value": "https://www.contractsfinder.service.gov.uk/Notice/2b06444b-814c-43b5-a102-8379666b1f2c",
+          "provenance": {
+            "selector": "base[href]",
+            "text_quote": "https://www.contractsfinder.service.gov.uk/notice/2b06444b-814c-43b5-a102-8379666b1f2c?origin=SearchResults&p=1"
+          }
+        },
+        "address": {
+          "value": "Interchange, 81-85 Station Road, Croydon, CR0 2RD, England",
+          "provenance": {
+            "selector": "h4:contains('Address') + p",
+            "text_quote": "Interchange, 81-85 Station Road\nCroydon\nCR0 2RD\nEngland"
+          }
+        },
+        "agency": {
+          "value": "Harris Federation",
+          "provenance": {
+            "selector": ".breadcrumb-description",
+            "text_quote": "Harris Federation"
+          }
+        },
+        "awarding_agency": {
+          "value": "Harris Federation",
+          "provenance": {
+            "selector": "h2.breadcrumb-description",
+            "text_quote": "Harris Federation"
+          }
+        },
+        "buyer": {
+          "value": "Harris Federation",
+          "provenance": {
+            "selector": ".breadcrumb-description",
+            "text_quote": "Harris Federation"
+          }
+        },
+        "buyer_address": {
+          "value": "Interchange, 81-85 Station Road, Croydon, CR0 2RD, England",
+          "provenance": {
+            "selector": "h4:contains('Address') + p",
+            "text_quote": "Interchange, 81-85 Station Road\nCroydon\nCR0 2RD\nEngland"
+          }
+        },
+        "categories": {
+          "value": [
+            {
+              "category": "Refurbishment work",
+              "provenance": {
+                "selector": "li:contains('Industry') + p",
+                "text_quote": "Refurbishment work - 45453100"
+              }
+            }
+          ],
+          "provenance": {
+            "selector": ".content-block h4 strong:contains('Industry') + ul li p",
+            "text_quote": "Refurbishment work - 45453100"
+          }
+        },
+        "classification": null,
+        "close_date": {
+          "value": "2026-06-19",
+          "provenance": {
+            "selector": ".content-block h4:contains('Closing date') + p",
+            "text_quote": "19 June 2026"
+          }
+        },
+        "closing_time": {
+          "value": "12:00 PM",
+          "provenance": {
+            "selector": ".content-block h4:contains('Closing time') + p",
+            "text_quote": "12pm"
+          }
+        },
+        "contact": {
+          "value": "Procurement",
+          "provenance": {
+            "selector": "h4:contains('Contact name') + p",
+            "text_quote": "Procurement"
+          }
+        },
+        "contact_name": {
+          "value": "Procurement",
+          "provenance": {
+            "selector": "h4:contains('Contact name') + p",
+            "text_quote": "Procurement"
+          }
+        },
+        "contract_details": null,
+        "contract_duration": null,
+        "contract_end_date": {
+          "value": "2026-08-28",
+          "provenance": {
+            "selector": ".content-block h4:contains('Contract end date') + p",
+            "text_quote": "28 August 2026"
+          }
+        },
+        "contract_start_date": {
+          "value": "2026-07-06",
+          "provenance": {
+            "selector": ".content-block h4:contains('Contract start date') + p",
+            "text_quote": " 6 July 2026"
+          }
+        },
+        "contract_type": {
+          "value": "Works",
+          "provenance": {
+            "selector": ".content-block h4:contains('Contract type') + p",
+            "text_quote": "Works"
+          }
+        },
+        "contract_value": {
+          "value": 380000,
+          "provenance": {
+            "selector": ".content-block h4:contains('Value of contract') + p",
+            "text_quote": "£380,000"
+          }
+        },
+        "country": {
+          "value": "England",
+          "provenance": {
+            "selector": "h4:contains('Address') + p",
+            "text_quote": "Interchange, 81-85 Station Road\nCroydon\nCR0 2RD\nEngland"
+          }
+        },
+        "current_date_offers_due": null,
+        "deadline_date": {
+          "value": "2026-06-19",
+          "provenance": {
+            "selector": ".content-block h4:contains('Closing date') + p",
+            "text_quote": "19 June 2026"
+          }
+        },
+        "department": null,
+        "department_ind_agency": null,
+        "documents": {
+          "value": [
+            {
+              "name": "Tender notice",
+              "provenance": {
+                "selector": ".content-block dd ul li:nth-child(1)",
+                "text_quote": "Tender notice"
+              }
+            }
+          ],
+          "provenance": {
+            "selector": ".content-block dl",
+            "text_quote": "<ul><li>...</li></ul>"
+          }
+        },
+        "email": {
+          "value": "Procurement@harrisfederation.org.uk",
+          "provenance": {
+            "selector": "a[href^='mailto:']",
+            "text_quote": "Procurement@harrisfederation.org.uk"
+          }
+        },
+        "estimated_value_excluding_vat": null,
+        "form_type": null,
+        "inactive_date": null,
+        "industry": {
+          "value": "Refurbishment work",
+          "provenance": {
+            "selector": ".content-block h4 strong:contains('Industry') + ul li p",
+            "text_quote": "Refurbishment work - 45453100"
+          }
+        },
+        "internal_identifier": null,
+        "items_to_respond": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "No specific section found."
+          }
+        },
+        "language": {
+          "value": "English",
+          "provenance": {
+            "selector": "html[lang]",
+            "text_quote": "en"
+          }
+        },
+        "last_modified_date": null,
+        "legal_basis": null,
+        "links": {
+          "value": [
+            {
+              "url": "https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404",
+              "provenance": {
+                "selector": ".content-block dd ul li:nth-child(1) a",
+                "text_quote": "https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404"
+              }
+            }
+          ],
+          "provenance": {
+            "selector": ".content-block dd ul",
+            "text_quote": "<ul><li>...</li></ul>"
+          }
+        },
+        "location": {
+          "value": "London, England",
+          "provenance": {
+            "selector": ".content-block h4:contains('Location of contract') + p span",
+            "text_quote": "London"
+          }
+        },
+        "notice_dispatch_date": null,
+        "notice_information": null,
+        "ocid": null,
+        "offer_validity_duration": null,
+        "office": {
+          "value": "Croydon",
+          "provenance": {
+            "selector": "h4:contains('Address') + p",
+            "text_quote": "Interchange, 81-85 Station Road\nCroydon\nCR0 2RD\nEngland"
+          }
+        },
+        "open_date": null,
+        "organisation": {
+          "value": "Harris Federation",
+          "provenance": {
+            "selector": ".breadcrumb-description",
+            "text_quote": "Harris Federation"
+          }
+        },
+        "original_closing_date": null,
+        "original_publication_date": null,
+        "overview": {
+          "value": "Open opportunity - This means that the contract is currently active, and the buying department is looking for potential suppliers to fulfil the contract.",
+          "provenance": {
+            "selector": ".content-block-left p:nth-child(2)",
+            "text_quote": "Open opportunity - This means that the contract is currently active, and the buying department is looking for potential suppliers to fulfil the contract."
+          }
+        },
+        "payment_terms": null,
+        "place_of_performance": {
+          "value": "London",
+          "provenance": {
+            "selector": ".content-block h4:contains('Location of contract') + p span",
+            "text_quote": "London"
+          }
+        },
+        "procedure_identifier": null,
+        "procedure_type": {
+          "value": "Open procedure (below threshold)",
+          "provenance": {
+            "selector": ".content-block h4:contains('Procedure type') + p",
+            "text_quote": "Open procedure (below threshold)"
+          }
+        },
+        "procurement_category": null,
+        "procurement_documents": {
+          "value": [
+            {
+              "name": "Tender notice",
+              "provenance": {
+                "selector": ".content-block dd ul li:nth-child(1)",
+                "text_quote": "Tender notice"
+              }
+            }
+          ],
+          "provenance": {
+            "selector": ".content-block dl",
+            "text_quote": "<ul><li>...</li></ul>"
+          }
+        },
+        "procurement_method": null,
+        "procurement_nature": null,
+        "procurement_reference": {
+          "value": "MT237418",
+          "provenance": {
+            "selector": ".content-block h4:contains('Procurement reference') + p",
+            "text_quote": "MT237418"
+          }
+        },
+        "procurement_stage": null,
+        "procurement_type": null,
+        "project_financing": null,
+        "project_id": null,
+        "project_title": null,
+        "published_by": {
+          "value": "Harris Federation",
+          "provenance": {
+            "selector": ".breadcrumb-description",
+            "text_quote": "Harris Federation"
+          }
+        },
+        "published_date": {
+          "value": "2026-05-27",
+          "provenance": {
+            "selector": ".content-block h4:contains('Published date') + p",
+            "text_quote": "27 May 2026"
+          }
+        },
+        "published_to": null,
+        "quotation_no": null,
+        "quotation_type": null,
+        "reference": {
+          "value": "MT237418",
+          "provenance": {
+            "selector": ".content-block h4:contains('Procurement reference') + p",
+            "text_quote": "MT237418"
+          }
+        },
+        "reference_no": {
+          "value": "MT237418",
+          "provenance": {
+            "selector": ".content-block h4:contains('Procurement reference') + p",
+            "text_quote": "MT237418"
+          }
+        },
+        "reference_no_in_notice_text": null,
+        "reference_number": {
+          "value": "MT237418",
+          "provenance": {
+            "selector": ".content-block h4:contains('Procurement reference') + p",
+            "text_quote": "MT237418"
+          }
+        },
+        "regions": null,
+        "registration_level": null,
+        "remarks": null,
+        "required_pre_qualifications": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "No specific section found."
+          }
+        },
+        "review": null,
+        "revisions": null,
+        "rfx_id": null,
+        "selection_criteria": null,
+        "submission": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "No specific section found."
+          }
+        },
+        "subtier": null,
+        "suitable_for_smes": {
+          "value": true,
+          "provenance": {
+            "selector": ".content-block h4:contains('Contract is suitable for SMEs?') + p",
+            "text_quote": "Yes"
+          }
+        },
+        "suitable_for_vcses": {
+          "value": false,
+          "provenance": {
+            "selector": ".content-block h4:contains('Contract is suitable for VCSEs?') + p",
+            "text_quote": "No"
+          }
+        },
+        "telephone": {
+          "value": "+44 2082537777",
+          "provenance": {
+            "selector": "h4:contains('Telephone') + p",
+            "text_quote": "+44 2082537777"
+          }
+        },
+        "tender_coverage": null,
+        "tender_reference": {
+          "value": "MT237418",
+          "provenance": {
+            "selector": ".content-block h4:contains('Procurement reference') + p",
+            "text_quote": "MT237418"
+          }
+        },
+        "tender_type": null,
+        "trade_agreements": null,
+        "type_submission": null,
+        "unspsc_codes": {
+          "value": [
+            {
+              "code": "45453100",
+              "description": "Refurbishment work",
+              "provenance": {
+                "selector": ".content-block h4 strong:contains('Industry') + ul li p",
+                "text_quote": "Refurbishment work - 45453100"
+              }
+            }
+          ],
+          "provenance": {
+            "selector": ".content-block h4 strong:contains('Industry') + ul li p",
+            "text_quote": "Refurbishment work - 45453100"
+          }
+        },
+        "updated_date": null,
+        "url_pdf_spanish_language": null,
+        "value": {
+          "value": 380000,
+          "provenance": {
+            "selector": ".content-block h4:contains('Value of contract') + p",
+            "text_quote": "£380,000"
+          }
+        },
+        "website": {
+          "value": "http://www.harrisfederation.org.uk",
+          "provenance": {
+            "selector": "a[href*='harrisfederation.org.uk']",
+            "text_quote": "http://www.harrisfederation.org.uk"
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.html",
+        "selector": "body"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 49.937,
+    "input_tokens": 9391,
+    "output_tokens": 4102,
+    "total_tokens": 13493,
+    "initial_input_tokens": 9391,
+    "initial_output_tokens": 4102,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

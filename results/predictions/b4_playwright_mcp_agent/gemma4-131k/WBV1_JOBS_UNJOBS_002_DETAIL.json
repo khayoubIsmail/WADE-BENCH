@@ -1,0 +1,116 @@
+{
+  "task_id": "WBV1_JOBS_UNJOBS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Consultant (CTC4), Tokyo, Japan",
+        "job_url": "https://unjobs.org/vacancies/1778623830833",
+        "company_name": "United Nations University (UNU)",
+        "location": "Tokyo, Japan",
+        "description": "The United Nations University (UNU) is a global think tank and postgraduate teaching organization within the United Nations System. UNU engages in policy-relevant research, capacity development, and knowledge dissemination in furtherance of the purposes and principles of the United Nations. The work of UNU contributes to solving pressing global problems that are the concern of the United Nations and its Member States.",
+        "responsibilities": [
+          "Support the coordination of the activities of the UNU SDG University Platform focusing on achieving the platform's objectives: Support of the planning and implementation of SDG-UP activities, and assist the coordination of the organisation of workshops and symposia under the SDG-UP;",
+          "Liaise with SDG-UP member universities, including coordination of expert speakers, and provide logistical support of events organized under the SDG-UP;",
+          "Communicate and liaise with international guest speakers for the SDG-UP Working Sessions;",
+          "Prepare written summaries and reports of SDG-UP activities including Working Group meetings, Working Sessions and Symposia).",
+          "Assist outreach and communication activities of the UNU SDG University Platform to enhance visibility and engagement focusing on achieving the following results: Draft promotional and outreach materials including text, photographs, and figures, in both English and Japanese to effectively showcase SDG-UP activities;",
+          "Disseminate SDG-UP information and related materials to enhance the visibility of SDG-UP initiatives and efforts by the member universities toward achieving SDGs, in close coordination with UNU-IAS Communication Team.",
+          "Provide assistance in UNU's co-leading roles in the HESI activities, including creating the annual work plan, drafting concept notes, communicating with HESI partners, and participating in the regular meetings;",
+          "Support the design and implementation of the annual HESI Global Forum (as part of High-Level Political Forum), including designing sessions, identifying speakers, inviting and coordinating the panel members, providing operational support, drafting the activity reports;",
+          "Liaise with members of the HESI Action Group on Futures of Higher Education and Artificial Intelligence, including supporting the organization of Learning Lab Webinars and the production of AI and Sustainability Podcast production.",
+          "Contribute to setting up and maintaining systemic measures to ensure the synergy between HESI and SDG-UP, including formulation and coordination of the inter-network taskforce;",
+          "Closely collaborate with the Communication teams of UNU and UNU IAS to raise the visibility of SDG-UP and UNU-HESI initiatives;",
+          "Engage other programmes and activities of UNU IAS in HESI, including the thematic programmes (WRM, BDS, GSD) and networks (IPSI, RCE, ProSPER.Net, Satoyama Initiatives, etc.);",
+          "Assist the Head of PDT and IVE and provide inputs to strategies to involve other UNU Institutes in HESI's activities;",
+          "Expand outreach of HESI beyond UNU, namely other UN agencies, leading universities and private sectors.",
+          "Perform other duties as assigned by supervisors."
+        ],
+        "qualifications": [
+          "Bachelor's or master's degree in education, public administration, information technology, sustainable development, business administration or a related field to the sustainability science",
+          "At least six (6) years of relevant, progressively responsible experience with a bachelor's degree or three (3) years with a master's degree is required",
+          "Experience in managing complex programs and projects, resource mobilization, and partnerships (including international partnerships);",
+          "Demonstrated abilities to organize webinars and online/offline events; and",
+          "Excellent team player with strong interpersonal skills and ability to work in a multi-cultural, multi-ethnic environment with sensitivity and respect for diversity.",
+          "Experiences in the existing network in higher education",
+          "Knowledge of the UN system and of its functions and activities;",
+          "Demonstrated expertise in transformative education with digital and AI technology;",
+          "Proficiency in using technologies and familiarity with AI tools (GenAI, Agentic AI, etc.)"
+        ],
+        "application_deadline": "2026-06-02",
+        "expected_start_date": "As soon as possible",
+        "employment_type": "Consultant Contract (CTC)",
+        "salary": {
+          "min_amount": 23700,
+          "max_amount": null,
+          "currency": "JPY",
+          "period": "DAY"
+        },
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "selector": "h2"
+          },
+          "job_url": {
+            "source": "metadata.json",
+            "selector": null
+          },
+          "company_name": {
+            "source": "text.txt",
+            "selector": "Organization: United Nations University (UNU)"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "selector": "cell"
+          },
+          "description": {
+            "source": "text.txt",
+            "selector": "About UN University (UNU)"
+          },
+          "responsibilities": {
+            "source": "text.txt",
+            "selector": "Responsibilities section"
+          },
+          "qualifications": {
+            "source": "text.txt",
+            "selector": "Qualifications list items"
+          },
+          "application_deadline": {
+            "source": "text.txt",
+            "selector": "2 June 2026 (23:59 JST)"
+          },
+          "expected_start_date": {
+            "source": "text.txt",
+            "selector": "Expected start date section"
+          },
+          "employment_type": {
+            "source": "text.txt",
+            "selector": "Consultant Contract (CTC)"
+          },
+          "salary": {
+            "source": "text.txt",
+            "selector": "Remuneration section"
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 24.318,
+    "input_tokens": 24899,
+    "output_tokens": 1353,
+    "total_tokens": 26252,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_UNJOBS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_UNJOBS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

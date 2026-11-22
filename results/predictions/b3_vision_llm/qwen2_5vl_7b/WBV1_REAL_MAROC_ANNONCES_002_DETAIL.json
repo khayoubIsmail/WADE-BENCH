@@ -1,0 +1,51 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/annonce/vente-joli-appart-maarif-185000-dh-casablanca-1367457",
+        "price": {
+          "amount": 185000,
+          "currency_code": "DZD",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Casablanca, Maarif",
+        "property_type": "Appartement",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 72,
+          "unit": "m2"
+        }
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 4.311,
+    "input_tokens": 4302,
+    "output_tokens": 214,
+    "total_tokens": 4516,
+    "num_tiles": 1,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_MAROC_ANNONCES_002_DETAIL\\tile_01.png"
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "task_id": "WBV1_GOV_CANADA_002_DETAIL",
+  "website_id": "canada_002",
+  "schema_id": "tender_notice_v1",
+  "snapshot_id": "canada_002_detail",
+  "snapshot_path": "raw_snapshots/government/canada_002_detail",
+  "live_url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/nsnspw2026-085",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_GOV_CANADA_002_DETAIL_001",
+      "fields": {
+        "tender_title": {
+          "value": "2026-085: ONE PROJECT IN INVERNESS COUNTY, GRAVELLING",
+          "normalized": "2026-085: ONE PROJECT IN INVERNESS COUNTY, GRAVELLING"
+        },
+        "tender_url": {
+          "value": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/nsnspw2026-085",
+          "normalized": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/nsnspw2026-085"
+        },
+        "description": {
+          "value": "Project 1: Marble Mountain Road, from Crowdis #1 Truss easterly to end of pavement, approximately 3.3 kilometres TOTAL APPROXIMATELY \u2026..3.3 kilometres Cost of acquiring documents: Not Applicable Terms of payment for acquiring documents: Not Applicable Tender notices on CanadaBuys published for Nova Scotia Public Sector Entities may not reflect amendments. For tender documents and up-to-date addenda, refer to the Nova Scotia Procurement Portal: https://procurement-portal.novascotia.ca/tenders/NSPW2026-085 For additional detail on contract duration, refer to the tender documents. Note that in some cases, third-party hosting platform registration and/or fees may be required to review related documents, or to submit tender responses.",
+          "normalized": "Project 1: Marble Mountain Road, from Crowdis #1 Truss easterly to end of pavement, approximately 3.3 kilometres TOTAL APPROXIMATELY \u2026..3.3 kilometres Cost of acquiring documents: Not Applicable Terms of payment for acquiring documents: Not Applicable Tender notices on CanadaBuys published for Nova Scotia Public Sector Entities may not reflect amendments. For tender documents and up-to-date addenda, refer to the Nova Scotia Procurement Portal: https://procurement-portal.novascotia.ca/tenders/NSPW2026-085 For additional detail on contract duration, refer to the tender documents. Note that in some cases, third-party hosting platform registration and/or fees may be required to review related documents, or to submit tender responses."
+        },
+        "notice_type": {
+          "value": "Request for Proposal",
+          "normalized": "Request for Proposal"
+        },
+        "language": {
+          "value": "English",
+          "normalized": "English"
+        },
+        "contract_duration": {
+          "value": "4 month(s)",
+          "normalized": "4 months"
+        },
+        "procurement_method": {
+          "value": "Competitive \u2013 Open Bidding",
+          "normalized": "Competitive \u2013 Open Bidding"
+        },
+        "apply_portal_link": {
+          "value": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-085",
+          "normalized": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-085"
+        },
+        "trade_agreements": {
+          "value": "Canadian Free Trade Agreement (CFTA)",
+          "normalized": "Canadian Free Trade Agreement (CFTA)"
+        },
+        "publication_date": {
+          "value": "2026/05/28",
+          "normalized": {
+            "published_date": "2026-05-28",
+            "last_edited_date": null
+          }
+        },
+        "status": {
+          "value": "Open",
+          "normalized": "open"
+        },
+        "closing_date": {
+          "value": "2026/06/12 13:00 EDT",
+          "normalized": {
+            "date": "2026-06-12",
+            "time": "13:00",
+            "datetime": "2026-06-12T13:00:00",
+            "timezone": "America/New_York"
+          }
+        },
+        "notice_id": {
+          "value": "NSPW2026-085",
+          "normalized": "NSPW2026-085"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "div#block-eps-wxt-bootstrap-views-block-tender-details-general > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "xpath": "//*[@id='block-eps-wxt-bootstrap-views-block-tender-details-general']/div[1]/div[1]/div[1]/div[1]/div[1]/h1[1]",
+          "text_quote": "2026-085: ONE PROJECT IN INVER",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[1]/div/div/div/div[3]/section/div/div/div/div/div/div/div/h1",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(1) > div > div > div > div:nth-of-type(3) > section > div > div > div > div > div > div > div > h1"
+        },
+        "tender_url": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "html > head > link:nth-of-type(1)",
+          "xpath": "/html/head/link[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/head/link[1]",
+          "css_selector_absolute": "html > head > link:nth-of-type(1)"
+        },
+        "description": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "details#edit-group-description > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='edit-group-description']/div[1]/div[1]",
+          "text_quote": "Project 1: Marble Mountain Road, from Crowdis #1 Truss easterly to end of pavement, approximately 3.3 kilometres TOTAL APPROXIMATELY \u2026..3.3 kilometres Cost of acquiring documents: Not Applicable Terms",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[2]/section/div/div[1]/div/div/div/div/details[1]/div/div[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(2) > section > div > div:nth-of-type(1) > div > div > div > div > details:nth-of-type(1) > div > div:nth-of-type(1)"
+        },
+        "notice_type": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "section#block-eps-wxt-bootstrap-views-block-tender-details-summary > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(1) > dd:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-eps-wxt-bootstrap-views-block-tender-details-summary']/div[1]/div[1]/div[1]/div[1]/dl[1]/div[1]/dd[1]/div[1]",
+          "text_quote": "Request for Proposal",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[2]/div/div/section/div/div/div/div/dl/div[1]/dd/div",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(2) > div > div > section > div > div > div > div > dl > div:nth-of-type(1) > dd > div"
+        },
+        "language": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "section#block-eps-wxt-bootstrap-views-block-tender-details-summary > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(2) > dd:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-eps-wxt-bootstrap-views-block-tender-details-summary']/div[1]/div[1]/div[1]/div[1]/dl[1]/div[2]/dd[1]/div[1]",
+          "text_quote": "English",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[2]/div/div/section/div/div/div/div/dl/div[2]/dd/div",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(2) > div > div > section > div > div > div > div > dl > div:nth-of-type(2) > dd > div"
+        },
+        "contract_duration": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "section#block-eps-wxt-bootstrap-views-block-tender-details-summary > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(3) > dd:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-eps-wxt-bootstrap-views-block-tender-details-summary']/div[1]/div[1]/div[1]/div[1]/dl[1]/div[3]/dd[1]/div[1]",
+          "text_quote": "4 month(s)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[2]/div/div/section/div/div/div/div/dl/div[3]/dd/div",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(2) > div > div > section > div > div > div > div > dl > div:nth-of-type(3) > dd > div"
+        },
+        "procurement_method": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "section#block-eps-wxt-bootstrap-views-block-tender-details-summary > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(4) > dd:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-eps-wxt-bootstrap-views-block-tender-details-summary']/div[1]/div[1]/div[1]/div[1]/dl[1]/div[4]/dd[1]/div[1]",
+          "text_quote": "Competitive \u2013 Open Bidding",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[2]/div/div/section/div/div/div/div/dl/div[4]/dd/div",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(2) > div > div > section > div > div > div > div > dl > div:nth-of-type(4) > dd > div"
+        },
+        "apply_portal_link": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "a[href='https://procurement-portal.novascotia.ca/tenders/NSPW2026-085']",
+          "xpath": "//a[@href='https://procurement-portal.novascotia.ca/tenders/NSPW2026-085']",
+          "text_quote": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-085",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[2]/section/div/div[1]/div/div/div/div/details[1]/div/div[1]/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(2) > section > div > div:nth-of-type(1) > div > div > div > div > details:nth-of-type(1) > div > div:nth-of-type(1) > a"
+        },
+        "trade_agreements": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "details#edit-group-description > div:nth-of-type(1) > div:nth-of-type(4)",
+          "xpath": "//*[@id='edit-group-description']/div[1]/div[4]",
+          "text_quote": "Canadian Free Trade Agreement (CFTA)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[2]/section/div/div[1]/div/div/div/div/details[1]/div/div[4]",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(2) > section > div > div:nth-of-type(1) > div > div > div > div > details:nth-of-type(1) > div > div:nth-of-type(4)"
+        },
+        "publication_date": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "time[datetime='2026-05-28T12:00:00Z']",
+          "xpath": "//time[@datetime='2026-05-28T12:00:00Z']",
+          "text_quote": "2026/05/28",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[1]/div/div/div/div[3]/section/div/div/div/div/div/div/div/div/div[3]/div[1]/div/p/span[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(1) > div > div > div > div:nth-of-type(3) > section > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > p > span:nth-of-type(2) > time"
+        },
+        "status": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "span#tender-status-label",
+          "xpath": "//*[@id='tender-status-label']",
+          "text_quote": "Open",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[1]/div/div/div/div[4]/div/div[1]/div/div/div/div/div[1]/p/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(1) > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(1) > p > span"
+        },
+        "closing_date": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "div#block-eps-wxt-bootstrap-views-block-tender-details-general > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-eps-wxt-bootstrap-views-block-tender-details-general']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]",
+          "text_quote": "2026/06/12 13:00 EDT",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[1]/div/div/div/div[3]/section/div/div/div/div/div/div/div/div/div[3]/div[2]/div",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(1) > div > div > div > div:nth-of-type(3) > section > div > div > div > div > div > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div"
+        },
+        "notice_id": {
+          "snapshot_id": "canada_002_detail",
+          "css_selector": "div#block-eps-wxt-bootstrap-views-block-tender-details-general > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='block-eps-wxt-bootstrap-views-block-tender-details-general']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
+          "text_quote": "NSPW2026-085",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div[1]/div[1]/div/div/div/div[3]/section/div/div/div/div/div/div/div/div/div[1]/p",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > main > div:nth-of-type(1) > div:nth-of-type(1) > div > div > div > div:nth-of-type(3) > section > div > div > div > div > div > div > div > div > div:nth-of-type(1) > p"
+        }
+      }
+    }
+  ]
+}

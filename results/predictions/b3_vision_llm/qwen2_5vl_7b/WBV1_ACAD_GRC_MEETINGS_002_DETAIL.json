@@ -1,0 +1,57 @@
+{
+  "task_id": "WBV1_ACAD_GRC_MEETINGS_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Additive Manufacturing of Soft Materials Gordon Research Conference",
+        "event_start_date": "2026-07-19T00:00:00Z",
+        "event_end_date": "2026-07-24T00:00:00Z",
+        "location": {
+          "city": "Manchester",
+          "region": "New Hampshire",
+          "country": "United States"
+        },
+        "event_url": "https://www.grc.org/conferences/soft-materials/",
+        "Chairs": [
+          "Callie Higgins",
+          "Alshakim Nelson"
+        ],
+        "Vice Chairs": [
+          "Johanna J. Schwartz",
+          "Brett Compton"
+        ]
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 11.075,
+    "input_tokens": 7946,
+    "output_tokens": 227,
+    "total_tokens": 8173,
+    "num_tiles": 5,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_GRC_MEETINGS_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_GRC_MEETINGS_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_GRC_MEETINGS_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_GRC_MEETINGS_002_DETAIL\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_GRC_MEETINGS_002_DETAIL\\tile_05.png"
+    ],
+    "error": null
+  }
+}

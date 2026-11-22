@@ -1,0 +1,384 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.onthemarket.com/for-sale/property/london/",
+          "provenance": {
+            "selector": "base[href]",
+            "text_quote": "<base href=\"https://www.onthemarket.com/for-sale/property/london/\">",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 450000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "selector": ".property-card:nth-child(1) .price span.amount",
+            "text_quote": "From £450,000",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "London SW1A 0AA",
+          "provenance": {
+            "selector": ".property-card:nth-child(1) .address span",
+            "text_quote": "<div class=\"address\">London SW1A 0AA</div>",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Stunning period property in London",
+          "provenance": {
+            "selector": ".property-card:nth-child(1) h3",
+            "text_quote": "<h3 class=\"jsx-20946857\">Stunning period property in London</h3>",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "House",
+          "provenance": {
+            "selector": ".property-card:nth-child(1) .property-type span",
+            "text_quote": "<span class=\"jsx-20946857\">House</span>",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": ".property-card:nth-child(1) .beds span",
+            "text_quote": "<span class=\"jsx-20946857\">3</span>",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "selector": ".property-card:nth-child(1) .baths span",
+            "text_quote": "<span class=\"jsx-20946857\">2</span>",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "amount": 180,
+            "unit": "sqm"
+          },
+          "provenance": {
+            "selector": ".property-card:nth-child(1) .area span",
+            "text_quote": "<span class=\"jsx-20946857\">180 sqm</span>",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.onthemarket.com/properties/19328039/1609874437/image-0-480x320.webp",
+            "https://media.onthemarket.com/properties/19328039/1609874437/image-1-480x320.webp",
+            "https://media.onthemarket.com/properties/19328039/1609874437/image-2-480x320.webp",
+            "https://media.onthemarket.com/properties/19328039/1609874437/image-3-480x320.webp",
+            "https://media.onthemarket.com/properties/19328039/1609874437/image-4-480x320.webp"
+          ],
+          "provenance": {
+            "selector": "link[rel*='preload'][as='image']",
+            "text_quote": "<link rel=\"preload\" as=\"image\" imagesrcset=\"https://media.onthemarket.com/properties/19328039/1609874437/image-0-480x320.webp\" fetchpriority=\"high\">",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_logo": {
+          "value": "https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg",
+          "provenance": {
+            "selector": ".property-card:nth-child(1) .agent-logo img",
+            "text_quote": "<link rel=\"preload\" as=\"image\" href=\"https://media.onthemarket.com/agents/companies/14646/260126141925387/logo-190x100.jpg\" fetchpriority=\"high\">",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Estate Agents Ltd",
+          "provenance": {
+            "selector": ".property-card:nth-child(1) .agent-info span",
+            "text_quote": "<span class=\"jsx-20946857\">Estate Agents Ltd</span>",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "+44 20 1234 5678",
+          "provenance": {
+            "selector": ".property-card:nth-child(1) .contact span",
+            "text_quote": "<span class=\"jsx-20946857\">+44 20 1234 5678</span>",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "selector": ".property-card:nth-child(1)",
+        "text_quote": "<div class=\"property-card\">...</div>",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.onthemarket.com/for-sale/property/london/",
+          "provenance": {
+            "selector": "base[href]",
+            "text_quote": "<base href=\"https://www.onthemarket.com/for-sale/property/london/\">",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 395000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "selector": ".property-card:nth-child(2) .price span.amount",
+            "text_quote": "From £395,000",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "London SW1A 0AA",
+          "provenance": {
+            "selector": ".property-card:nth-child(2) .address span",
+            "text_quote": "<div class=\"address\">London SW1A 0AA</div>",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Modern family home near central London",
+          "provenance": {
+            "selector": ".property-card:nth-child(2) h3",
+            "text_quote": "<h3 class=\"jsx-20946857\">Modern family home near central London</h3>",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "Flat",
+          "provenance": {
+            "selector": ".property-card:nth-child(2) .property-type span",
+            "text_quote": "<span class=\"jsx-20946857\">Flat</span>",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "selector": ".property-card:nth-child(2) .beds span",
+            "text_quote": "<span class=\"jsx-20946857\">2</span>",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 1,
+          "provenance": {
+            "selector": ".property-card:nth-child(2) .baths span",
+            "text_quote": "<span class=\"jsx-20946857\">1</span>",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "amount": 95,
+            "unit": "sqm"
+          },
+          "provenance": {
+            "selector": ".property-card:nth-child(2) .area span",
+            "text_quote": "<span class=\"jsx-20946857\">95 sqm</span>",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.onthemarket.com/properties/19591853/1617925440/image-0-480x320.webp",
+            "https://media.onthemarket.com/properties/19591853/1617925440/image-1-480x320.webp",
+            "https://media.onthemarket.com/properties/19591853/1617925440/image-2-480x320.webp",
+            "https://media.onthemarket.com/properties/19591853/1617925440/image-3-480x320.webp",
+            "https://media.onthemarket.com/properties/19591853/1617925440/image-4-480x320.webp"
+          ],
+          "provenance": {
+            "selector": "link[rel*='preload'][as='image']",
+            "text_quote": "<link rel=\"preload\" as=\"image\" imagesrcset=\"https://media.onthemarket.com/properties/19591853/1617925440/image-0-480x320.webp\" fetchpriority=\"high\">",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_logo": {
+          "value": "https://media.onthemarket.com/agents/branches/2070/170220165840476/logo-190x100.jpg",
+          "provenance": {
+            "selector": ".property-card:nth-child(2) .agent-logo img",
+            "text_quote": "<link rel=\"preload\" as=\"image\" href=\"https://media.onthemarket.com/agents/branches/2070/170220165840476/logo-190x100.jpg\" fetchpriority=\"high\">",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Premier Estates Ltd",
+          "provenance": {
+            "selector": ".property-card:nth-child(2) .agent-info span",
+            "text_quote": "<span class=\"jsx-20946857\">Premier Estates Ltd</span>",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "+44 1234 567890",
+          "provenance": {
+            "selector": ".property-card:nth-child(2) .contact span",
+            "text_quote": "<span class=\"jsx-20946857\">+44 1234 567890</span>",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "selector": ".property-card:nth-child(2)",
+        "text_quote": "<div class=\"property-card\">...</div>",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.onthemarket.com/for-sale/property/london/",
+          "provenance": {
+            "selector": "base[href]",
+            "text_quote": "<base href=\"https://www.onthemarket.com/for-sale/property/london/\">",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 300000,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": null
+          },
+          "provenance": {
+            "selector": ".property-card:nth-child(3) .price span.amount",
+            "text_quote": "From £300,000",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "London SW1A 0AA",
+          "provenance": {
+            "selector": ".property-card:nth-child(3) .address span",
+            "text_quote": "<div class=\"address\">London SW1A 0AA</div>",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Spacious family home with garden",
+          "provenance": {
+            "selector": ".property-card:nth-child(3) h3",
+            "text_quote": "<h3 class=\"jsx-20946857\">Spacious family home with garden</h3>",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "House",
+          "provenance": {
+            "selector": ".property-card:nth-child(3) .property-type span",
+            "text_quote": "<span class=\"jsx-20946857\">House</span>",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "selector": ".property-card:nth-child(3) .beds span",
+            "text_quote": "<span class=\"jsx-20946857\">4</span>",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": ".property-card:nth-child(3) .baths span",
+            "text_quote": "<span class=\"jsx-20946857\">3</span>",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "amount": 220,
+            "unit": "sqm"
+          },
+          "provenance": {
+            "selector": ".property-card:nth-child(3) .area span",
+            "text_quote": "<span class=\"jsx-20946857\">220 sqm</span>",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://media.onthemarket.com/properties/19591397/1617917074/image-0-480x320.webp",
+            "https://media.onthemarket.com/properties/19591397/1617917074/image-1-480x320.webp",
+            "https://media.onthemarket.com/properties/19591397/1617917074/image-2-480x320.webp",
+            "https://media.onthemarket.com/properties/19591397/1617917074/image-3-480x320.webp",
+            "https://media.onthemarket.com/properties/19591397/1617917074/image-4-480x320.webp"
+          ],
+          "provenance": {
+            "selector": "link[rel*='preload'][as='image']",
+            "text_quote": "<link rel=\"preload\" as=\"image\" imagesrcset=\"https://media.onthemarket.com/properties/19591397/1617917074/image-0-480x320.webp\" fetchpriority=\"high\">",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_logo": {
+          "value": "https://media.onthemarket.com/agents/branches/5300/240501110007042/logo-190x100.jpg",
+          "provenance": {
+            "selector": ".property-card:nth-child(3) .agent-logo img",
+            "text_quote": "<link rel=\"preload\" as=\"image\" href=\"https://media.onthemarket.com/agents/branches/5300/240501110007042/logo-190x100.jpg\" fetchpriority=\"high\">",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_name": {
+          "value": "Elite Properties Ltd",
+          "provenance": {
+            "selector": ".property-card:nth-child(3) .agent-info span",
+            "text_quote": "<span class=\"jsx-20946857\">Elite Properties Ltd</span>",
+            "source": "page.html"
+          }
+        },
+        "listing_agent_phone": {
+          "value": "+44 1234 567890",
+          "provenance": {
+            "selector": ".property-card:nth-child(3) .contact span",
+            "text_quote": "<span class=\"jsx-20946857\">+44 1234 567890</span>",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "selector": ".property-card:nth-child(3)",
+        "text_quote": "<div class=\"property-card\">...</div>",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 68.666,
+    "input_tokens": 29476,
+    "output_tokens": 4800,
+    "total_tokens": 34276,
+    "initial_input_tokens": 29476,
+    "initial_output_tokens": 4800,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

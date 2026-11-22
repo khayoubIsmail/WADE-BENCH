@@ -1,0 +1,43 @@
+{
+  "task_id": "WBV1_JOBS_REED_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Senior Developer",
+        "company_name": "Reed",
+        "job_url": "https://www.reed.co.uk/jobs/senior-developer/56875053?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "location": "London, England, UK",
+        "employment_type": "Permanent, full-time",
+        "posted_date": "4 days ago by Reed",
+        "application_deadline": "4 days ago by Reed",
+        "salary": {
+          "min_amount": 90000,
+          "max_amount": 100000,
+          "currency": "GBP",
+          "period": "year"
+        },
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_40693.png?w=256&q=75",
+        "job_id": "56875053"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 1432.665,
+    "input_tokens": 33861,
+    "output_tokens": 64043,
+    "total_tokens": 97904,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_REED_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_REED_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

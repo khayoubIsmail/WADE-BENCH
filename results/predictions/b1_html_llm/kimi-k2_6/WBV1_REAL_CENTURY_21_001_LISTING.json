@@ -1,0 +1,664 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/list/city/ca/san-francisco",
+        "price": {
+          "amount": 2995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "160 Noe Street, San Francisco, CA 94114",
+        "property_type": "MFR",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 2495,
+          "unit": "ft2"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-05-29",
+            "time_start": "15:00",
+            "time_end": "17:00"
+          }
+        ],
+        "images_urls": [
+          "https://images-listings.century21.com/CABCREIS/42/61/33/20/4/_P/426133204_P00.jpg"
+        ],
+        "listing_agent_name": "RACHEL SWANN"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"url\":\"https://www.century21.com/homes/list/city/ca/san-francisco\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"price\":2995000,\"priceCurrency\":\"USD\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"streetAddress\":\"160 Noe Street\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94114\""
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "this MFR in San Francisco, CA"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBedrooms\":3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBathroomsTotal\":2"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"floorSize\":{\"@type\":\"QuantitativeValue\",\"value\":2495,\"unitCode\":\"sq. ft.\"}"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-29T15:00:00.000Z\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"image\":\"https://images-listings.century21.com/CABCREIS/42/61/33/20/4/_P/426133204_P00.jpg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"organizer\":{\"@type\":\"Person\",\"name\":\"RACHEL SWANN\"}"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/list/city/ca/san-francisco",
+        "price": {
+          "amount": 2195000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "487 Belvedere Street, San Francisco, CA 94117",
+        "property_type": "CONDO",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 1935,
+          "unit": "ft2"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-05-29",
+            "time_start": "16:30",
+            "time_end": "18:00"
+          }
+        ],
+        "images_urls": [
+          "https://images-listings.century21.com/CABCREIS/42/61/33/81/4/_P/426133814_P00.jpg"
+        ],
+        "listing_agent_name": "RUTH KRISHNAN"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"url\":\"https://www.century21.com/homes/list/city/ca/san-francisco\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"price\":2195000,\"priceCurrency\":\"USD\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"streetAddress\":\"487 Belvedere Street\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94117\""
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "this CONDO in San Francisco, CA"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBedrooms\":3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBathroomsTotal\":3"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"floorSize\":{\"@type\":\"QuantitativeValue\",\"value\":1935,\"unitCode\":\"sq. ft.\"}"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-29T16:30:00.000Z\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"image\":\"https://images-listings.century21.com/CABCREIS/42/61/33/81/4/_P/426133814_P00.jpg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"organizer\":{\"@type\":\"Person\",\"name\":\"RUTH KRISHNAN\"}"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/list/city/ca/san-francisco",
+        "price": {
+          "amount": 749000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "1360 9th Avenue #13, San Francisco, CA 94122",
+        "property_type": "CONDO",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 861,
+          "unit": "ft2"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-05-29",
+            "time_start": "10:00",
+            "time_end": "13:00"
+          }
+        ],
+        "images_urls": [
+          "https://images-listings.century21.com/CABCREIS/42/61/34/04/2/_P/426134042_P00.jpg"
+        ],
+        "listing_agent_name": "BRANDON TRAN"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"url\":\"https://www.century21.com/homes/list/city/ca/san-francisco\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"price\":749000,\"priceCurrency\":\"USD\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"streetAddress\":\"1360 9th Avenue #13\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94122\""
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "this CONDO in San Francisco, CA"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBedrooms\":2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBathroomsTotal\":2"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"floorSize\":{\"@type\":\"QuantitativeValue\",\"value\":861,\"unitCode\":\"sq. ft.\"}"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-29T10:00:00.000Z\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"image\":\"https://images-listings.century21.com/CABCREIS/42/61/34/04/2/_P/426134042_P00.jpg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"organizer\":{\"@type\":\"Person\",\"name\":\"BRANDON TRAN\"}"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/list/city/ca/san-francisco",
+        "price": {
+          "amount": 1198888,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "35 Admiral Avenue, San Francisco, CA 94112",
+        "property_type": "SFR",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1386,
+          "unit": "ft2"
+        },
+        "images_urls": [
+          "https://images-listings.century21.com/MFMLS/42/61/33/88/5/_P/426133885_P00.jpg"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"url\":\"https://www.century21.com/homes/list/city/ca/san-francisco\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"price\":1198888,\"priceCurrency\":\"USD\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"streetAddress\":\"35 Admiral Avenue\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94112\""
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "this SFR in San Francisco, CA"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBedrooms\":2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBathroomsTotal\":2"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"floorSize\":{\"@type\":\"QuantitativeValue\",\"value\":1386,\"unitCode\":\"sq. ft.\"}"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"image\":\"https://images-listings.century21.com/MFMLS/42/61/33/88/5/_P/426133885_P00.jpg\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/list/city/ca/san-francisco",
+        "price": {
+          "amount": 2800000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "176 Castro Street, San Francisco, CA 94114",
+        "property_type": "SFR",
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "floor_area": {
+          "value": 3537,
+          "unit": "ft2"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-05-30",
+            "time_start": "14:00",
+            "time_end": "16:00"
+          }
+        ],
+        "images_urls": [
+          "https://images-listings.century21.com/CABCREIS/42/61/34/30/0/_P/426134300_P00.jpg"
+        ],
+        "listing_agent_name": "AMANDA M JONES"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"url\":\"https://www.century21.com/homes/list/city/ca/san-francisco\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"price\":2800000,\"priceCurrency\":\"USD\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"streetAddress\":\"176 Castro Street\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94114\""
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "this SFR in San Francisco, CA"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBedrooms\":3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBathroomsTotal\":4"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"floorSize\":{\"@type\":\"QuantitativeValue\",\"value\":3537,\"unitCode\":\"sq. ft.\"}"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-30T14:00:00.000Z\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"image\":\"https://images-listings.century21.com/CABCREIS/42/61/34/30/0/_P/426134300_P00.jpg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"organizer\":{\"@type\":\"Person\",\"name\":\"AMANDA M JONES\"}"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/list/city/ca/san-francisco",
+        "price": {
+          "amount": 799000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "1800 Washington Street #815, San Francisco, CA 94109",
+        "property_type": "CONDO",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "floor_area": null,
+        "open_house_schedule": [
+          {
+            "date": "2026-05-30",
+            "time_start": "12:00",
+            "time_end": "14:00"
+          }
+        ],
+        "images_urls": [
+          "https://images-listings.century21.com/CABCREIS/42/61/22/91/6/_P/426122916_P00.jpg"
+        ],
+        "listing_agent_name": "MEREDITH MARTIN"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"url\":\"https://www.century21.com/homes/list/city/ca/san-francisco\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"price\":799000,\"priceCurrency\":\"USD\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"streetAddress\":\"1800 Washington Street #815\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94109\""
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "this CONDO in San Francisco, CA"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBedrooms\":1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBathroomsTotal\":1"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"floorSize\":{\"@type\":\"QuantitativeValue\",\"value\":null,\"unitCode\":\"sq. ft.\"}"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-30T12:00:00.000Z\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"image\":\"https://images-listings.century21.com/CABCREIS/42/61/22/91/6/_P/426122916_P00.jpg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"organizer\":{\"@type\":\"Person\",\"name\":\"MEREDITH MARTIN\"}"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/list/city/ca/san-francisco",
+        "price": {
+          "amount": 1995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "131 Missouri Street #301, San Francisco, CA 94107",
+        "property_type": "CONDO",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1465,
+          "unit": "ft2"
+        },
+        "open_house_schedule": [
+          {
+            "date": "2026-05-30",
+            "time_start": "14:00",
+            "time_end": "16:00"
+          }
+        ],
+        "images_urls": [
+          "https://images-listings.century21.com/CABCREIS/42/61/28/24/5/_P/426128245_P00.jpg"
+        ],
+        "listing_agent_name": "BRADLEY JOE"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"url\":\"https://www.century21.com/homes/list/city/ca/san-francisco\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"price\":1995000,\"priceCurrency\":\"USD\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"streetAddress\":\"131 Missouri Street #301\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94107\""
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "this CONDO in San Francisco, CA"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBedrooms\":2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBathroomsTotal\":2"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"floorSize\":{\"@type\":\"QuantitativeValue\",\"value\":1465,\"unitCode\":\"sq. ft.\"}"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-30T14:00:00.000Z\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"image\":\"https://images-listings.century21.com/CABCREIS/42/61/28/24/5/_P/426128245_P00.jpg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"organizer\":{\"@type\":\"Person\",\"name\":\"BRADLEY JOE\"}"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/list/city/ca/san-francisco",
+        "price": {
+          "amount": 2150000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "1633 Mcallister Street, San Francisco, CA 94115",
+        "property_type": "CONDO",
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "floor_area": null,
+        "open_house_schedule": [
+          {
+            "date": "2026-05-30",
+            "time_start": "14:00",
+            "time_end": "16:00"
+          }
+        ],
+        "images_urls": [
+          "https://images-listings.century21.com/CABCREIS/42/61/30/14/9/_P/426130149_P00.jpg"
+        ],
+        "listing_agent_name": "KATE D TOMASSI"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"url\":\"https://www.century21.com/homes/list/city/ca/san-francisco\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"price\":2150000,\"priceCurrency\":\"USD\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"streetAddress\":\"1633 Mcallister Street\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94115\""
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "this CONDO in San Francisco, CA"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBedrooms\":3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"numberOfBathroomsTotal\":4"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"floorSize\":{\"@type\":\"QuantitativeValue\",\"value\":null,\"unitCode\":\"sq. ft.\"}"
+        },
+        "open_house_schedule": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"startDate\":\"2026-05-30T14:00:00.000Z\""
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"image\":\"https://images-listings.century21.com/CABCREIS/42/61/30/14/9/_P/426130149_P00.jpg\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "script[type=\"application/ld+json\"]",
+          "text_quote": "\"organizer\":{\"@type\":\"Person\",\"name\":\"KATE D TOMASSI\"}"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 1050.551,
+    "input_tokens": 156124,
+    "output_tokens": 37424,
+    "total_tokens": 193548,
+    "initial_input_tokens": 151706,
+    "initial_output_tokens": 32768,
+    "repair_input_tokens": 4418,
+    "repair_output_tokens": 4656,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "WBV1_ACAD_10TIMES_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event": {
+          "name": "PALM Expo",
+          "date": "2026-05-31"
+        },
+        "location": "Riyadh, Saudi Arabia",
+        "description": "The PALM Expo is set to take place from May 28 to May 30, 2026."
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "event": {
+          "name": "Electric Expo Ahmedabad",
+          "date": "2026-05-31"
+        },
+        "location": "Ahmedabad, India"
+      },
+      "provenance": {}
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "event": {
+          "name": "Texworld Los Angeles &amp; Apparel Sourcing Los Angeles",
+          "date": "2026-07-24"
+        },
+        "location": "Los Angeles, USA"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 57.27,
+    "input_tokens": 96224,
+    "output_tokens": 206,
+    "total_tokens": 96430,
+    "initial_input_tokens": 96224,
+    "initial_output_tokens": 206,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

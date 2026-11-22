@@ -1,0 +1,1565 @@
+{
+  "task_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING",
+  "website_id": "unesco_events",
+  "schema_id": "academic_event_v1",
+  "snapshot_id": "unesco_events_listing",
+  "snapshot_path": "raw_snapshots/academic/unesco_events_listing",
+  "live_url": "https://www.unesco.org/en/events",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 20
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_001",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/session-3-ecosystems-climate-and-adaptive-strategies-building-climate-resilience-gender-equality?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/session-3-ecosystems-climate-and-adaptive-strategies-building-climate-resilience-gender-equality?hub=68184"
+        },
+        "event_name": {
+          "value": "Session 3: Ecosystems, climate and adaptive strategies: Building climate resilience with a gender equality perspective - Cat VII – Seminar and training",
+          "normalized": "Session 3: Ecosystems, climate and adaptive strategies: Building climate resilience with a gender equality perspective - Cat VII – Seminar and training"
+        },
+        "event_start_date": {
+          "value": "10 June 2026 - 3:00 pm",
+          "normalized": "06-10-2026, 15:00"
+        },
+        "event_end_date": {
+          "value": "24 June 2026 - 4:30 pm",
+          "normalized": "06-24-2026, 16:30"
+        },
+        "location": {
+          "value": [
+            "Online"
+          ],
+          "normalized": [
+            "Online"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[1]/a[1]",
+          "text_quote": "Session 3: Ecosystems, climate and adaptive strategies: Building climate resilience with a gender equality perspective -",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[1]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "10 June 2026 - 3:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[1]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[1]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "24 June 2026 - 4:30 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[1]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[1]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Online",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[1]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_002",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/10th-global-forum-sustainable-cities?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/10th-global-forum-sustainable-cities?hub=68184"
+        },
+        "event_name": {
+          "value": "10th Global Forum Sustainable Cities",
+          "normalized": "10th Global Forum Sustainable Cities"
+        },
+        "event_start_date": {
+          "value": "11 June 2026 - 9:00 am",
+          "normalized": "06-11-2026, 09:00"
+        },
+        "event_end_date": {
+          "value": "11 June 2026 - 2:00 pm",
+          "normalized": "06-11-2026, 14:00"
+        },
+        "location": {
+          "value": [
+            "Room IX"
+          ],
+          "normalized": [
+            "Room IX"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[2]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[2]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[2]/a[1]",
+          "text_quote": "10th Global Forum Sustainable Cities",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[2]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[2]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "11 June 2026 - 9:00 am",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[2]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[2]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "11 June 2026 - 2:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[2]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[2]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Room IX",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[2]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_003",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/articles/exchange-day-rethinking-underwater-cultural-heritage-integrating-living-heritage-safeguarding-ocean?hub=68184",
+          "normalized": "https://www.unesco.org/en/articles/exchange-day-rethinking-underwater-cultural-heritage-integrating-living-heritage-safeguarding-ocean?hub=68184"
+        },
+        "event_name": {
+          "value": "Exchange Day 'Rethinking underwater cultural heritage: integrating living heritage safeguarding into ocean and inland waters' management'",
+          "normalized": "Exchange Day 'Rethinking underwater cultural heritage: integrating living heritage safeguarding into ocean and inland waters' management'"
+        },
+        "event_start_date": {
+          "value": "11 June 2026",
+          "normalized": "2026-06-11"
+        },
+        "event_end_date": {
+          "value": null,
+          "normalized": null
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[3]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[3]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html without using a broad/incorrect selector"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[3]/a[1]/div[2]/div[3]",
+          "text_quote": "11 June 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[3]/a/div[2]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_004",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/scientific-conference-0?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/scientific-conference-0?hub=68184"
+        },
+        "event_name": {
+          "value": "Scientific Conference - Cat VIII - Symposia",
+          "normalized": "Scientific Conference - Cat VIII - Symposia"
+        },
+        "event_start_date": {
+          "value": "11 June 2026 - 10:00 am",
+          "normalized": "06-11-2026, 10:00"
+        },
+        "event_end_date": {
+          "value": "11 June 2026 - 1:00 pm",
+          "normalized": "06-11-2026, 13:00"
+        },
+        "location": {
+          "value": [
+            "Room XI"
+          ],
+          "normalized": [
+            "Room XI"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[4]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[4]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[4]/a[1]/div[2]/div[2]/div[1]/div[1]",
+          "text_quote": "Scientific Conference - Cat VIII - Symposia",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[4]/a/div[2]/div[2]/div[1]/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[4]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "11 June 2026 - 10:00 am",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[4]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[4]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "11 June 2026 - 1:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[4]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[4]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Room XI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[4]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_005",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/philippine-independence-day-celebration-2026-0?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/philippine-independence-day-celebration-2026-0?hub=68184"
+        },
+        "event_name": {
+          "value": "Philippine Independence Day Celebration 2026",
+          "normalized": "Philippine Independence Day Celebration 2026"
+        },
+        "event_start_date": {
+          "value": "11 June 2026 - 12:30 pm",
+          "normalized": "06-11-2026, 12:30"
+        },
+        "event_end_date": {
+          "value": "11 June 2026 - 3:00 pm",
+          "normalized": "06-11-2026, 15:00"
+        },
+        "location": {
+          "value": [
+            "Restaurant"
+          ],
+          "normalized": [
+            "Restaurant"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[5]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[5]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[5]/a[1]",
+          "text_quote": "Philippine Independence Day Celebration 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[5]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[5]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "11 June 2026 - 12:30 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[5]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[5]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "11 June 2026 - 3:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[5]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[5]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Restaurant",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[5]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_006",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/award-ceremony-dom-phillips-and-bruno-pereira-journalism-competition?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/award-ceremony-dom-phillips-and-bruno-pereira-journalism-competition?hub=68184"
+        },
+        "event_name": {
+          "value": "Award Ceremony of the Dom Phillips and Bruno Pereira Journalism Competition - Meeting by Member States or Institutions",
+          "normalized": "Award Ceremony of the Dom Phillips and Bruno Pereira Journalism Competition - Meeting by Member States or Institutions"
+        },
+        "event_start_date": {
+          "value": "11 June 2026 - 5:00 pm",
+          "normalized": "06-11-2026, 17:00"
+        },
+        "event_end_date": {
+          "value": "11 June 2026 - 7:00 pm",
+          "normalized": "06-11-2026, 19:00"
+        },
+        "location": {
+          "value": [
+            "Brasilia",
+            "Brazil"
+          ],
+          "normalized": [
+            "Brasilia",
+            "Brazil"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[6]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[6]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[6]/a[1]/div[2]/div[2]/div[1]/div[1]",
+          "text_quote": "Award Ceremony of the Dom Phillips and Bruno Pereira Journalism Competition - Meeting by Member States or Institutions",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[6]/a/div[2]/div[2]/div[1]/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[6]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "11 June 2026 - 5:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[6]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[6]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "11 June 2026 - 7:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[6]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[6]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Brasilia",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[6]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_007",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/2026-loreal-unesco-women-science-international-award?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/2026-loreal-unesco-women-science-international-award?hub=68184"
+        },
+        "event_name": {
+          "value": "2026 L'Oréal-UNESCO For Women in Science International Award - Ceremony",
+          "normalized": "2026 L'Oréal-UNESCO For Women in Science International Award - Ceremony"
+        },
+        "event_start_date": {
+          "value": "11 June 2026 - 7:30 pm",
+          "normalized": "06-11-2026, 19:30"
+        },
+        "event_end_date": {
+          "value": "11 June 2026 - 9:30 pm",
+          "normalized": "06-11-2026, 21:30"
+        },
+        "location": {
+          "value": [
+            "Room I"
+          ],
+          "normalized": [
+            "Room I"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[7]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[7]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html without using a broad/incorrect selector"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[7]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "11 June 2026 - 7:30 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[7]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[7]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "11 June 2026 - 9:30 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[7]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[7]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Room I",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[7]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_008",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/articles/28th-edition-loreal-unesco-women-science-international-awards-ceremony?hub=68184",
+          "normalized": "https://www.unesco.org/en/articles/28th-edition-loreal-unesco-women-science-international-awards-ceremony?hub=68184"
+        },
+        "event_name": {
+          "value": "28th edition of the L'Oréal-UNESCO for Women in Science International Awards Ceremony",
+          "normalized": "28th edition of the L'Oréal-UNESCO for Women in Science International Awards Ceremony"
+        },
+        "event_start_date": {
+          "value": "11 June 2026",
+          "normalized": "2026-06-11"
+        },
+        "event_end_date": {
+          "value": null,
+          "normalized": null
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[8]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[8]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html without using a broad/incorrect selector"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[8]/a[1]/div[2]/div[3]",
+          "text_quote": "11 June 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[8]/a/div[2]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_009",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/gem-report/en/articles/launch-2026-gem-report-republic-korea?hub=68184",
+          "normalized": "https://www.unesco.org/gem-report/en/articles/launch-2026-gem-report-republic-korea?hub=68184"
+        },
+        "event_name": {
+          "value": "Launch of the 2026 GEM Report in the Republic of Korea",
+          "normalized": "Launch of the 2026 GEM Report in the Republic of Korea"
+        },
+        "event_start_date": {
+          "value": "12 June 2026",
+          "normalized": "2026-06-12"
+        },
+        "event_end_date": {
+          "value": null,
+          "normalized": null
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[9]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[9]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[9]/a[1]/div[2]/div[2]",
+          "text_quote": "Launch of the 2026 GEM Report in the Republic of Korea",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[9]/a/div[2]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[9]/a[1]/div[2]/div[3]",
+          "text_quote": "12 June 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[9]/a/div[2]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_010",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/sherpa-group-sdg4-high-level-steering-committee-meeting?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/sherpa-group-sdg4-high-level-steering-committee-meeting?hub=68184"
+        },
+        "event_name": {
+          "value": "Sherpa group SDG4 High-Level Steering Committee Meeting - Cat IV – International Congress",
+          "normalized": "Sherpa group SDG4 High-Level Steering Committee Meeting - Cat IV – International Congress"
+        },
+        "event_start_date": {
+          "value": "12 June 2026 - 1:00 pm",
+          "normalized": "06-12-2026, 13:00"
+        },
+        "event_end_date": {
+          "value": "12 June 2026 - 4:00 pm",
+          "normalized": "06-12-2026, 16:00"
+        },
+        "location": {
+          "value": [
+            "Room VI"
+          ],
+          "normalized": [
+            "Room VI"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[10]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[10]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[10]/a[1]/div[2]/div[2]/div[1]/div[1]",
+          "text_quote": "Sherpa group SDG4 High-Level Steering Committee Meeting - Cat IV – International Congress",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[10]/a/div[2]/div[2]/div[1]/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[10]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "12 June 2026 - 1:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[10]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[10]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "12 June 2026 - 4:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[10]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[10]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Room VI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[10]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_011",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/articles/open-ended-working-group-mandate-implementation-review-12-june?hub=68184",
+          "normalized": "https://www.unesco.org/en/articles/open-ended-working-group-mandate-implementation-review-12-june?hub=68184"
+        },
+        "event_name": {
+          "value": "Open-ended working group on mandate implementation review - 12 June",
+          "normalized": "Open-ended working group on mandate implementation review - 12 June"
+        },
+        "event_start_date": {
+          "value": "12 June 2026",
+          "normalized": "2026-06-12"
+        },
+        "event_end_date": {
+          "value": null,
+          "normalized": null
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[11]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[11]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[11]/a[1]/div[2]/div[2]",
+          "text_quote": "Open-ended working group on mandate implementation review - 12 June",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[11]/a/div[2]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[11]/a[1]/div[2]/div[3]",
+          "text_quote": "12 June 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[11]/a/div[2]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_012",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/e20-education-first-priority-1?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/e20-education-first-priority-1?hub=68184"
+        },
+        "event_name": {
+          "value": "E20 – Education First Priority",
+          "normalized": "E20 – Education First Priority"
+        },
+        "event_start_date": {
+          "value": "15 June 2026 - 8:00 am",
+          "normalized": "06-15-2026, 08:00"
+        },
+        "event_end_date": {
+          "value": "15 June 2026 - 2:00 pm",
+          "normalized": "06-15-2026, 14:00"
+        },
+        "location": {
+          "value": [
+            "Office S 381",
+            "Office S 382",
+            "Office S 383",
+            "Pas Perdus Hall",
+            "Restaurant",
+            "Room I Foyer",
+            "Room V",
+            "Ségur Hall"
+          ],
+          "normalized": [
+            "Office S 381",
+            "Office S 382",
+            "Office S 383",
+            "Pas Perdus Hall",
+            "Restaurant",
+            "Room I Foyer",
+            "Room V",
+            "Ségur Hall"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[12]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[12]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[15]/a[1]",
+          "text_quote": "E20 – Education First Priority",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[15]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[12]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "15 June 2026 - 8:00 am",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[12]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[12]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "15 June 2026 - 2:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[12]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(56) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[56]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Office S 381",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[56]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(56) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_013",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/project-meeting?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/project-meeting?hub=68184"
+        },
+        "event_name": {
+          "value": "Project meeting - Working group meeting",
+          "normalized": "Project meeting - Working group meeting"
+        },
+        "event_start_date": {
+          "value": "15 June 2026 - 9:30 am",
+          "normalized": "06-15-2026, 09:30"
+        },
+        "event_end_date": {
+          "value": "15 June 2026 - 3:30 pm",
+          "normalized": "06-15-2026, 15:30"
+        },
+        "location": {
+          "value": [
+            "Room III"
+          ],
+          "normalized": [
+            "Room III"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[13]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[13]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[13]/a[1]/div[2]/div[2]/div[1]/div[1]",
+          "text_quote": "Project meeting - Working group meeting",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[13]/a/div[2]/div[2]/div[1]/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[13]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "15 June 2026 - 9:30 am",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[13]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[13]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "15 June 2026 - 3:30 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[13]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[13]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Room III",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[13]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(13) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_014",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/base-de-vie-pour-le-chantier-des-salles-miro?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/base-de-vie-pour-le-chantier-des-salles-miro?hub=68184"
+        },
+        "event_name": {
+          "value": "Base de vie pour le chantier des salles Miro",
+          "normalized": "Base de vie pour le chantier des salles Miro"
+        },
+        "event_start_date": {
+          "value": "15 June 2026 - 10:00 am",
+          "normalized": "06-15-2026, 10:00"
+        },
+        "event_end_date": {
+          "value": "29 June 2026 - 6:00 pm",
+          "normalized": "06-29-2026, 18:00"
+        },
+        "location": {
+          "value": [
+            "Office A 27",
+            "Office A 28"
+          ],
+          "normalized": [
+            "Office A 27",
+            "Office A 28"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[14]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[14]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[14]/a[1]",
+          "text_quote": "Base de vie pour le chantier des salles Miro",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[14]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[14]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "15 June 2026 - 10:00 am",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[14]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[14]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "29 June 2026 - 6:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[14]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[14]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Office A 27",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[14]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_015",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/e20-education-first-priority-0?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/e20-education-first-priority-0?hub=68184"
+        },
+        "event_name": {
+          "value": "E20 – Education First Priority - Ceremony",
+          "normalized": "E20 – Education First Priority - Ceremony"
+        },
+        "event_start_date": {
+          "value": "15 June 2026 - 10:00 am",
+          "normalized": "06-15-2026, 10:00"
+        },
+        "event_end_date": {
+          "value": "15 June 2026 - 6:00 pm",
+          "normalized": "06-15-2026, 18:00"
+        },
+        "location": {
+          "value": [
+            "Room I"
+          ],
+          "normalized": [
+            "Room I"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[15]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[15]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[15]/a[1]/div[2]/div[2]/div[1]/div[1]",
+          "text_quote": "E20 – Education First Priority - Ceremony",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[15]/a/div[2]/div[2]/div[1]/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[15]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "15 June 2026 - 10:00 am",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[15]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[15]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "15 June 2026 - 6:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[15]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[15]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Room I",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[15]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(15) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_016",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/meeting-open-ended-working-group-governance-1?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/meeting-open-ended-working-group-governance-1?hub=68184"
+        },
+        "event_name": {
+          "value": "Meeting of the Open-Ended Working Group on Governance - Working group meeting",
+          "normalized": "Meeting of the Open-Ended Working Group on Governance - Working group meeting"
+        },
+        "event_start_date": {
+          "value": "15 June 2026 - 10:00 am",
+          "normalized": "06-15-2026, 10:00"
+        },
+        "event_end_date": {
+          "value": "15 June 2026 - 6:00 pm",
+          "normalized": "06-15-2026, 18:00"
+        },
+        "location": {
+          "value": [
+            "Room IV"
+          ],
+          "normalized": [
+            "Room IV"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[16]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[16]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[16]/a[1]/div[2]/div[2]/div[1]/div[1]",
+          "text_quote": "Meeting of the Open-Ended Working Group on Governance - Working group meeting",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[16]/a/div[2]/div[2]/div[1]/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[16]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "15 June 2026 - 10:00 am",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[16]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[16]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "15 June 2026 - 6:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[16]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[16]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Room IV",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[16]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_017",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/ordinary-session-intergovernmental-committee-physical-education-and-sport-cigeps-1?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/ordinary-session-intergovernmental-committee-physical-education-and-sport-cigeps-1?hub=68184"
+        },
+        "event_name": {
+          "value": "Ordinary session of the Intergovernmental Committee for Physical Education and Sport (CIGEPS) - Cat II – Intergovernmental meeting, other than international conference of States",
+          "normalized": "Ordinary session of the Intergovernmental Committee for Physical Education and Sport (CIGEPS) - Cat II – Intergovernmental meeting, other than international conference of States"
+        },
+        "event_start_date": {
+          "value": "15 June 2026 - 10:00 am",
+          "normalized": "06-15-2026, 10:00"
+        },
+        "event_end_date": {
+          "value": "16 June 2026 - 12:30 pm",
+          "normalized": "06-16-2026, 12:30"
+        },
+        "location": {
+          "value": [
+            "Room X",
+            "Room XI"
+          ],
+          "normalized": [
+            "Room X",
+            "Room XI"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[17]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[17]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[17]/a[1]",
+          "text_quote": "Ordinary session of the Intergovernmental Committee for Physical Education and Sport (CIGEPS) - Cat II – Intergovernment",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[17]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[17]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "15 June 2026 - 10:00 am",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[17]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[17]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "16 June 2026 - 12:30 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[17]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(50) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[50]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Room X",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[50]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(50) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_018",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/unesco-youth-hackathon-2026?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/unesco-youth-hackathon-2026?hub=68184"
+        },
+        "event_name": {
+          "value": "UNESCO Youth Hackathon 2026 - Cat VIII - Symposia",
+          "normalized": "UNESCO Youth Hackathon 2026 - Cat VIII - Symposia"
+        },
+        "event_start_date": {
+          "value": "15 June 2026 - 10:00 am",
+          "normalized": "06-15-2026, 10:00"
+        },
+        "event_end_date": {
+          "value": "25 November 2026 - 6:00 pm",
+          "normalized": "11-25-2026, 18:00"
+        },
+        "location": {
+          "value": [
+            "Online 2"
+          ],
+          "normalized": [
+            "Online 2"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(18) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[18]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[18]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(18) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(18) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[18]/a[1]/div[2]/div[2]/div[1]/div[1]",
+          "text_quote": "UNESCO Youth Hackathon 2026 - Cat VIII - Symposia",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[18]/a/div[2]/div[2]/div[1]/div[1]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(18) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[14]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "15 June 2026 - 10:00 am",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[14]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(14) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(18) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[18]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "25 November 2026 - 6:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[18]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(18) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(18) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[18]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Online 2",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[18]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(18) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_019",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/articles/unesco-youth-hackathon-2026?hub=68184",
+          "normalized": "https://www.unesco.org/en/articles/unesco-youth-hackathon-2026?hub=68184"
+        },
+        "event_name": {
+          "value": "UNESCO Youth Hackathon 2026",
+          "normalized": "UNESCO Youth Hackathon 2026"
+        },
+        "event_start_date": {
+          "value": "15 June 2026",
+          "normalized": "2026-06-15"
+        },
+        "event_end_date": {
+          "value": null,
+          "normalized": null
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(19) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[19]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[19]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(19) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(19) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[19]/a[1]/div[2]/div[2]",
+          "text_quote": "UNESCO Youth Hackathon 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[19]/a/div[2]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(19) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(19) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[19]/a[1]/div[2]/div[3]",
+          "text_quote": "15 June 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[19]/a/div[2]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(19) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_UNESCO_EVENTS_001_LISTING_020",
+      "fields": {
+        "event_url": {
+          "value": "https://www.unesco.org/en/event/second-ieg-66-second-meeting-independent-expert-groups-revision-1966-recommendation-ieg-66?hub=68184",
+          "normalized": "https://www.unesco.org/en/event/second-ieg-66-second-meeting-independent-expert-groups-revision-1966-recommendation-ieg-66?hub=68184"
+        },
+        "event_name": {
+          "value": "Second IEG-66 (Second Meeting of the Independent Expert Groups for the revision of the 1966 recommendation (IEG-66)) - Cat VI – Expert Committee",
+          "normalized": "Second IEG-66 (Second Meeting of the Independent Expert Groups for the revision of the 1966 recommendation (IEG-66)) - Cat VI – Expert Committee"
+        },
+        "event_start_date": {
+          "value": "15 June 2026 - 1:00 pm",
+          "normalized": "06-15-2026, 13:00"
+        },
+        "event_end_date": {
+          "value": "15 June 2026 - 4:00 pm",
+          "normalized": "06-15-2026, 16:00"
+        },
+        "location": {
+          "value": [
+            "Room VIII"
+          ],
+          "normalized": [
+            "Room VIII"
+          ]
+        }
+      },
+      "provenance": {
+        "event_url": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[20]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[20]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1)"
+        },
+        "event_name": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[20]/a[1]",
+          "text_quote": "Second IEG-66 (Second Meeting of the Independent Expert Groups for the revision of the 1966 recommendation (IEG-66)) - C",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[20]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[20]/a[1]/div[2]/div[2]/div[1]/div[2]",
+          "text_quote": "15 June 2026 - 1:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[20]/a/div[2]/div[2]/div[1]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "event_end_date": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[20]/a[1]/div[2]/div[2]/div[1]/div[3]",
+          "text_quote": "15 June 2026 - 4:00 pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[20]/a/div[2]/div[2]/div[1]/div[3]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)"
+        },
+        "location": {
+          "snapshot_id": "unesco_events_listing",
+          "css_selector": "[id='block-unesco-content'] > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='block-unesco-content']/article[1]/div[1]/div[2]/div[2]/div[20]/a[1]/div[2]/div[2]/div[2]/span[1]",
+          "text_quote": "Room VIII",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/main/div/div/div[4]/article/div/div[2]/div[2]/div[20]/a/div[2]/div[2]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > a:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_id": "government_announcement_v1",
+  "domain": "government/tenders/announcements",
+  "description": "Schema for government announcements or public notices with general information.",
+  "required_fields": [
+    "announcement_title",
+    "publication_date",
+    "government_entity",
+    "announcement_url"
+  ],
+  "optional_fields": [
+    "category",
+    "description",
+    "location",
+    "effective_date"
+  ],
+  "normalization_rules": {
+    "publication_date": "Convert to ISO 8601 format (YYYY-MM-DD).",
+    "effective_date": "Convert to ISO 8601 format (YYYY-MM-DD).",
+    "location": "Normalize location names to City, Region, Country."
+  },
+  "canonical_record_key": ["announcement_title", "publication_date", "government_entity", "announcement_url"],
+  "provenance_required": true
+}

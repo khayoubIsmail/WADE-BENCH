@@ -1,0 +1,60 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": null,
+        "address": "516 Saint Vincent Lane, Foster City, CA 94404",
+        "listing_title": "516 Saint Vincent Lane, Foster City, CA 94404",
+        "property_type": "Single family",
+        "status": "Active",
+        "price": {
+          "amount": 2798000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 2300,
+          "unit": "sq ft"
+        },
+        "mls_number": "ML82042608",
+        "listing_agent_name": "Katerina Dovlatova",
+        "listing_agent_phone": "(650) 302-XXXX",
+        "listing_office": "CENTURY 21",
+        "images_urls": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "bbox": null,
+        "text_quote": "516 Saint Vincent Lane, Foster City, CA 94404"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 7.482,
+    "input_tokens": 3735,
+    "output_tokens": 189,
+    "total_tokens": 3924,
+    "num_tiles": 1,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_002_DETAIL\\tile_01.png"
+    ],
+    "error": null
+  }
+}

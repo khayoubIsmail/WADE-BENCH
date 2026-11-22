@@ -1,0 +1,615 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "selector": "meta[data-react-helmet='true'][name='twitter:url:landing_url']/@content",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2995000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@price",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "160 Noe Street, San Francisco, CA 94114",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@address/streetAddress",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@type",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBedrooms",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBathroomsTotal",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 2495,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@floorSize",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "160 Noe Street - A trusted home listing for sale in San Francisco, CA featured on CENTURY 21",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@name",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "RACHEL SWANN",
+            "provenance": {
+              "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@organizer/@name",
+              "source": "page.html"
+            }
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://images-listings.century21.com/CABCREIS/42/61/33/20/4/_P/426133204_P00.jpg"
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@image",
+            "source": "page.html"
+          }
+        },
+        "open_house_schedule": {
+          "value": [
+            {
+              "date": "2026-05-29",
+              "time_start": "15:00:00.000Z",
+              "time_end": "17:00:00.000Z"
+            }
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@startDate",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@url",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2195000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@price",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "487 Belvedere Street, San Francisco, CA 94117",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@address/streetAddress",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@type",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBedrooms",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBathroomsTotal",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 1935,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@floorSize",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "487 Belvedere Street - A trusted home listing for sale in San Francisco, CA featured on CENTURY 21",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@name",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "RUTH KRISHNAN",
+            "provenance": {
+              "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@organizer/@name",
+              "source": "page.html"
+            }
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://images-listings.century21.com/CABCREIS/42/61/33/81/4/_P/426133814_P00.jpg"
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@image",
+            "source": "page.html"
+          }
+        },
+        "open_house_schedule": {
+          "value": [
+            {
+              "date": "2026-05-29",
+              "time_start": "16:30:00.000Z",
+              "time_end": "18:00:00.000Z"
+            }
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@startDate",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_002",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@url",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 749000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@price",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "1360 9th Avenue #13, San Francisco, CA 94122",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@address/streetAddress",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@type",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBedrooms",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBathroomsTotal",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 861,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@floorSize",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "1360 9th Avenue #13 - A trusted home listing for sale in San Francisco, CA featured on CENTURY 21",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@name",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "BRANDON TRAN",
+            "provenance": {
+              "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@organizer/@name",
+              "source": "page.html"
+            }
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://images-listings.century21.com/CABCREIS/42/61/34/04/2/_P/426134042_P00.jpg"
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@image",
+            "source": "page.html"
+          }
+        },
+        "open_house_schedule": {
+          "value": [
+            {
+              "date": "2026-05-29",
+              "time_start": "10:00:00.000Z",
+              "time_end": "13:00:00.000Z"
+            }
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@startDate",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_003",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@url",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1198888,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@price",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "35 Admiral Avenue, San Francisco, CA 94112",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@address/streetAddress",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@type",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBedrooms",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 2,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBathroomsTotal",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 1386,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@floorSize",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "35 Admiral Avenue - A trusted home listing for sale in San Francisco, CA featured on CENTURY 21",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@name",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": null,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@organizer",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://images-listings.century21.com/MFMLS/42/61/33/88/5/_P/426133885_P00.jpg"
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@image",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_004",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@url",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2800000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@price",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "176 Castro Street, San Francisco, CA 94114",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@address/streetAddress",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@type",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBedrooms",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 4,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBathroomsTotal",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 3537,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@floorSize",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "176 Castro Street - A trusted home listing for sale in San Francisco, CA featured on CENTURY 21",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@name",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": {
+            "name": "AMANDA M JONES",
+            "provenance": {
+              "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@organizer/@name",
+              "source": "page.html"
+            }
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://images-listings.century21.com/CABCREIS/42/61/34/30/0/_P/426134300_P00.jpg"
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@image",
+            "source": "page.html"
+          }
+        },
+        "open_house_schedule": {
+          "value": [
+            {
+              "date": "2026-05-30",
+              "time_start": "14:00:00.000Z",
+              "time_end": "16:00:00.000Z"
+            }
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@startDate",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_005",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/list/city/ca/san-francisco",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@url",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 799000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'offers')]/@price",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "1800 Washington Street #815, San Francisco, CA 94109",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@address/streetAddress",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "SingleFamilyResidence",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@type",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 1,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBedrooms",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 1,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@numberOfBathroomsTotal",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": null,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@floorSize",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "1800 Washington Street #815 - A trusted home listing for sale in San Francisco, CA featured on CENTURY 21",
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@name",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": null,
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'subjectOf')]/@organizer",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://images-listings.century21.com/CABCREIS/42/61/22/91/6/_P/426122916_P00.jpg"
+          ],
+          "provenance": {
+            "selector": "script[type='application/ld+json']//*[contains(@name, 'mainEntity')]/@image",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_006",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 79.968,
+    "input_tokens": 17404,
+    "output_tokens": 6193,
+    "total_tokens": 23597,
+    "initial_input_tokens": 17404,
+    "initial_output_tokens": 6193,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

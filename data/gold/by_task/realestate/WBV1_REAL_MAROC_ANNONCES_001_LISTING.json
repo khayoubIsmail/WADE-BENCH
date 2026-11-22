@@ -1,0 +1,2205 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING",
+  "website_id": "maroc_annonces",
+  "schema_id": "real_estate_listing_v1",
+  "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+  "snapshot_path": "raw_snapshots/realestate/SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+  "live_url": "https://www.marocannonces.com/maroc/immobilier-casablanca-b309-t556.html",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 20
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+          "normalized": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/315/9837565.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/315/9837565.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Vend joli appart maarif",
+          "normalized": "Vend joli appart maarif"
+        },
+        "address": {
+          "value": "Casablanca / Maarif",
+          "normalized": "Casablanca / Maarif"
+        },
+        "price": {
+          "value": "1 185 000 DH",
+          "normalized": {
+            "amount": 1185000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Appartements",
+          "normalized": "appartements"
+        },
+        "published_date": {
+          "value": "Aujourd'hui 20:23",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:first-child a",
+          "xpath": "//a[contains(@href,'Vend-joli-appart-Maarif')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[1]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(1) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'315/9837565.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[1]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387457/Vend-joli-appart-Maarif.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Vend-joli-appart-Maarif')]/div[2]/h3",
+          "text_quote": "Vend joli appart maarif",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[1]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(1) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387457/Vend-joli-appart-Maarif.html'] span.location",
+          "xpath": "//a[contains(@href,'Vend-joli-appart-Maarif')]/div[2]/span[1]",
+          "text_quote": "Casablanca / Maarif",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[1]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(1) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387457/Vend-joli-appart-Maarif.html'] strong.price",
+          "xpath": "//a[contains(@href,'Vend-joli-appart-Maarif')]/div[2]/strong",
+          "text_quote": "1 185 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[1]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(1) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387457/Vend-joli-appart-Maarif.html'] span.views",
+          "xpath": "//a[contains(@href,'Vend-joli-appart-Maarif')]/div[2]/span[2]",
+          "text_quote": "Appartements",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[1]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(1) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_002",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387454/Belle-appartement-\u00e0-vendre.html",
+          "normalized": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387454/Belle-appartement-\u00e0-vendre.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/315/3565762.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/315/3565762.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Belle appartement \u00e0 vendre",
+          "normalized": "Belle appartement \u00e0 vendre"
+        },
+        "address": {
+          "value": "Tanger / Marjane",
+          "normalized": "Tanger / Marjane"
+        },
+        "price": {
+          "value": "1 180 000 DH",
+          "normalized": {
+            "amount": 1180000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Appartements",
+          "normalized": "appartements"
+        },
+        "published_date": {
+          "value": "Aujourd'hui 20:23",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(2) a",
+          "xpath": "//a[contains(@href,'Belle-appartement-\u00e0-vendre.html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[2]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(2) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'315/3565762.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[2]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387454/Belle-appartement-\u00e0-vendre.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Belle-appartement-\u00e0-vendre.html')]/div[2]/h3",
+          "text_quote": "Belle appartement \u00e0 vendre",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[2]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(2) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387454/Belle-appartement-\u00e0-vendre.html'] span.location",
+          "xpath": "//a[contains(@href,'Belle-appartement-\u00e0-vendre.html')]/div[2]/span[1]",
+          "text_quote": "Tanger / Marjane",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[2]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(2) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387454/Belle-appartement-\u00e0-vendre.html'] strong.price",
+          "xpath": "//a[contains(@href,'Belle-appartement-\u00e0-vendre.html')]/div[2]/strong",
+          "text_quote": "1 180 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[2]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(2) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387454/Belle-appartement-\u00e0-vendre.html'] span.views",
+          "xpath": "//a[contains(@href,'Belle-appartement-\u00e0-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Appartements",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[2]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(2) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_003",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html",
+          "normalized": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/332/2803819.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/332/2803819.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Terrain commercial, lotissement andalouss ,oujda",
+          "normalized": "Terrain commercial, lotissement andalouss ,oujda"
+        },
+        "address": {
+          "value": "Oujda",
+          "normalized": "Oujda"
+        },
+        "price": {
+          "value": "360 000 DH",
+          "normalized": {
+            "amount": 360000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "normalized": "terrains constructibles"
+        },
+        "published_date": {
+          "value": "Aujourd'hui 18:19",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(3) a",
+          "xpath": "//a[contains(@href,'-lotissement-andalouss-')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[3]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(3) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'332/2803819.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[3]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'-lotissement-andalouss-')]/div[2]/h3",
+          "text_quote": "Terrain commercial, lotissement andalouss ,oujda",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[3]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(3) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html'] span.location",
+          "xpath": "//a[contains(@href,'Lot-magnifique-')]/div[2]/span[1]",
+          "text_quote": "Oujda",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[5]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(5) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html'] strong.price",
+          "xpath": "//a[contains(@href,'-lotissement-andalouss-')]/div[2]/strong",
+          "text_quote": "360 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[3]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(3) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html'] span.views",
+          "xpath": "//a[contains(@href,'-pour-villa-Moulay-Bousselham')]/div[2]/span[2]",
+          "text_quote": "Terrains constructibles",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[7]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(7) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_004",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10328164/Lot-magnifique-\u00e0-c\u00f4t\u00e9-de-gala-OUJDA.html",
+          "normalized": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10328164/Lot-magnifique-\u00e0-c\u00f4t\u00e9-de-gala-OUJDA.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/5977362.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/5977362.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Lot magnifique \u00e0 c\u00f4t\u00e9 de gala oujda",
+          "normalized": "Lot magnifique \u00e0 c\u00f4t\u00e9 de gala oujda"
+        },
+        "address": {
+          "value": "Oujda",
+          "normalized": "Oujda"
+        },
+        "price": {
+          "value": "210 000 DH",
+          "normalized": {
+            "amount": 210000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "normalized": "terrains constructibles"
+        },
+        "published_date": {
+          "value": "Aujourd'hui 18:19",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(5) a",
+          "xpath": "//a[contains(@href,'Lot-magnifique-')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[5]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(5) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'user_images/5977362.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[5]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(5) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10328164/Lot-magnifique-\u00e0-c\u00f4t\u00e9-de-gala-OUJDA.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Lot-magnifique-')]/div[2]/h3",
+          "text_quote": "Lot magnifique \u00e0 c\u00f4t\u00e9 de gala oujda",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[5]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(5) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10328164/Lot-magnifique-\u00e0-c\u00f4t\u00e9-de-gala-OUJDA.html'] span.location",
+          "xpath": "//a[contains(@href,'Lot-magnifique-')]/div[2]/span[1]",
+          "text_quote": "Oujda",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[5]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(5) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10328164/Lot-magnifique-\u00e0-c\u00f4t\u00e9-de-gala-OUJDA.html'] strong.price",
+          "xpath": "//a[contains(@href,'Lot-magnifique-')]/div[2]/strong",
+          "text_quote": "210 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[5]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(5) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10328164/Lot-magnifique-\u00e0-c\u00f4t\u00e9-de-gala-OUJDA.html'] span.views",
+          "xpath": "//a[contains(@href,'Terrain-titr\u00e9-r3-(futur-r5).html')]/div[2]/span[2]",
+          "text_quote": "Terrains constructibles",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[8]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(8) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_005",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/330/Magasins-D\u00e9p\u00f4t-Hangar-Cave/annonce/10387375/Porte-garage-hamza.html",
+          "normalized": "https://www.marocannonces.com/categorie/330/Magasins-D\u00e9p\u00f4t-Hangar-Cave/annonce/10387375/Porte-garage-hamza.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/330/3679821.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/330/3679821.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Porte garage hamza",
+          "normalized": "Porte garage hamza"
+        },
+        "address": {
+          "value": "Marrakech",
+          "normalized": "Marrakech"
+        },
+        "price": {
+          "value": "5 000 DH",
+          "normalized": {
+            "amount": 5000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Magasins - D\u00e9p\u00f4t - Hangar - Cave",
+          "normalized": "magasins - d\u00e9p\u00f4t - hangar - cave"
+        },
+        "published_date": {
+          "value": "Aujourd'hui 15:35",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(6) a",
+          "xpath": "//a[contains(@href,'Porte-garage-hamza.html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[6]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(6) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'330/3679821.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[6]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(6) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387375/Porte-garage-hamza.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Magasins-D\u00e9p\u00f4t-Hangar-Cave')]/div[2]/h3",
+          "text_quote": "Porte garage hamza",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[6]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(6) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387375/Porte-garage-hamza.html'] span.location",
+          "xpath": "//a[contains(@href,'Magasins-D\u00e9p\u00f4t-Hangar-Cave')]/div[2]/span[1]",
+          "text_quote": "Marrakech",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[6]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(6) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387375/Porte-garage-hamza.html'] strong.price",
+          "xpath": "//a[contains(@href,'Magasins-D\u00e9p\u00f4t-Hangar-Cave')]/div[2]/strong",
+          "text_quote": "5 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[6]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(6) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387375/Porte-garage-hamza.html'] span.views",
+          "xpath": "//a[contains(@href,'Magasins-D\u00e9p\u00f4t-Hangar-Cave')]/div[2]/span[2]",
+          "text_quote": "Magasins - D\u00e9p\u00f4t - Hangar - Cave",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[6]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(6) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_006",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10357677/Terrain-titr\u00e9-pour-villa-Moulay-Bousselham.html",
+          "normalized": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10357677/Terrain-titr\u00e9-pour-villa-Moulay-Bousselham.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/332/6735519.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/332/6735519.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Terrain titr\u00e9 pour villa moulay bousselham",
+          "normalized": "Terrain titr\u00e9 pour villa moulay bousselham"
+        },
+        "address": {
+          "value": "K\u00e9nitra",
+          "normalized": "K\u00e9nitra"
+        },
+        "price": {
+          "value": "900 000 DH",
+          "normalized": {
+            "amount": 900000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "normalized": "terrains constructibles"
+        },
+        "published_date": {
+          "value": "Aujourd'hui 12:00",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(7) a",
+          "xpath": "//a[contains(@href,'-pour-villa-Moulay-Bousselham')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[7]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(7) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'332/6735519.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[7]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(7) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10357677/Terrain-titr\u00e9-pour-villa-Moulay-Bousselham.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'-pour-villa-Moulay-Bousselham')]/div[2]/h3",
+          "text_quote": "Terrain titr\u00e9 pour villa moulay bousselham",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[7]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(7) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10357677/Terrain-titr\u00e9-pour-villa-Moulay-Bousselham.html'] span.location",
+          "xpath": "//a[contains(@href,'-pour-villa-Moulay-Bousselham')]/div[2]/span[1]",
+          "text_quote": "K\u00e9nitra",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[7]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(7) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10357677/Terrain-titr\u00e9-pour-villa-Moulay-Bousselham.html'] strong.price",
+          "xpath": "//a[contains(@href,'-pour-villa-Moulay-Bousselham')]/div[2]/strong",
+          "text_quote": "900 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[7]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(7) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10357677/Terrain-titr\u00e9-pour-villa-Moulay-Bousselham.html'] span.views",
+          "xpath": "//a[contains(@href,'Terrain-villa-riad.html')]/div[2]/span[2]",
+          "text_quote": "Terrains constructibles",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[12]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(12) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_007",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10149173/Terrain-titr\u00e9-r3-(futur-r5).html",
+          "normalized": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10149173/Terrain-titr\u00e9-r3-(futur-r5).html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/332/9781675.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/332/9781675.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Terrain titr\u00e9 r3 (futur r+5)",
+          "normalized": "Terrain titr\u00e9 r3 (futur r+5)"
+        },
+        "address": {
+          "value": "Khemisset",
+          "normalized": "Khemisset"
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "normalized": "terrains constructibles"
+        },
+        "published_date": {
+          "value": "Hier 19:11",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(8) a",
+          "xpath": "//a[contains(@href,'Terrain-titr\u00e9-r3-(futur-r5).html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[8]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(8) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'332/9781675.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[8]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(8) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10149173/Terrain-titr\u00e9-r3-(futur-r5).html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Terrain-titr\u00e9-r3-(futur-r5).html')]/div[2]/h3",
+          "text_quote": "Terrain titr\u00e9 r3 (futur r+5)",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[8]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(8) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10149173/Terrain-titr\u00e9-r3-(futur-r5).html'] span.location",
+          "xpath": "//a[contains(@href,'Terrain-titr\u00e9-r3-(futur-r5).html')]/div[2]/span[1]",
+          "text_quote": "Khemisset",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[8]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(8) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10149173/Terrain-titr\u00e9-r3-(futur-r5).html'] span.views",
+          "xpath": "//a[contains(@href,'Terrain-expose-bir-kacem')]/div[2]/span[2]",
+          "text_quote": "Terrains constructibles",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[13]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(13) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_008",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/319/Villas-Maisons-Riads/annonce/10387171/Maison-\u00e0-vendre-R3agadir.html",
+          "normalized": "https://www.marocannonces.com/categorie/319/Villas-Maisons-Riads/annonce/10387171/Maison-\u00e0-vendre-R3agadir.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/319/4696054.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/319/4696054.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Maison \u00e0 vendre r+3.agadir",
+          "normalized": "Maison \u00e0 vendre r+3.agadir"
+        },
+        "address": {
+          "value": "Agadir",
+          "normalized": "Agadir"
+        },
+        "price": {
+          "value": "1 600 000 DH",
+          "normalized": {
+            "amount": 1600000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Villas - Maisons - Riads",
+          "normalized": "villas - maisons - riads"
+        },
+        "published_date": {
+          "value": "Hier 15:01",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(9) a",
+          "xpath": "//a[contains(@href,'Maison-\u00e0-vendre-R3agadir.html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[9]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(9) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'319/4696054.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[9]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(9) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387171/Maison-\u00e0-vendre-R3agadir.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Maison-\u00e0-vendre-R3agadir.html')]/div[2]/h3",
+          "text_quote": "Maison \u00e0 vendre r+3.agadir",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[9]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(9) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387171/Maison-\u00e0-vendre-R3agadir.html'] span.location",
+          "xpath": "//a[contains(@href,'Maison-\u00e0-vendre-R3agadir.html')]/div[2]/span[1]",
+          "text_quote": "Agadir",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[9]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(9) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387171/Maison-\u00e0-vendre-R3agadir.html'] strong.price",
+          "xpath": "//a[contains(@href,'Maison-\u00e0-vendre-R3agadir.html')]/div[2]/strong",
+          "text_quote": "1 600 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[9]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(9) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387171/Maison-\u00e0-vendre-R3agadir.html'] span.views",
+          "xpath": "//a[contains(@href,'-vendre-en-zone-immeuble-R3')]/div[2]/span[2]",
+          "text_quote": "Villas - Maisons - Riads",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[16]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(16) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_009",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10387042/Terrain-expose-orangerie-angle-1250m.html",
+          "normalized": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10387042/Terrain-expose-orangerie-angle-1250m.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Terrain expose orangerie angle 1250m",
+          "normalized": "Terrain expose orangerie angle 1250m"
+        },
+        "address": {
+          "value": "Rabat / Souissi",
+          "normalized": "Rabat / Souissi"
+        },
+        "price": {
+          "value": "110 000 000 DH",
+          "normalized": {
+            "amount": 110000000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "normalized": "terrains constructibles"
+        },
+        "published_date": {
+          "value": "Hier 09:40",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(10) a",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[10]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(10) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[1]/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[10]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387042/Terrain-expose-orangerie-angle-1250m.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[2]/h3",
+          "text_quote": "Terrain expose orangerie angle 1250m",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[10]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(10) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387042/Terrain-expose-orangerie-angle-1250m.html'] span.location",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[2]/span[1]",
+          "text_quote": "Rabat / Souissi",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[10]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(10) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387042/Terrain-expose-orangerie-angle-1250m.html'] strong.price",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[2]/strong",
+          "text_quote": "110 000 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[10]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(10) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387042/Terrain-expose-orangerie-angle-1250m.html'] span.views",
+          "xpath": "//a[contains(@href,'terrains-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Terrains constructibles",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[20]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(20) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_010",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/331/Bureaux-Plateaux/annonce/10290598/Bureau-expos\u00e9.html",
+          "normalized": "https://www.marocannonces.com/categorie/331/Bureaux-Plateaux/annonce/10290598/Bureau-expos\u00e9.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Bureau expos\u00e9",
+          "normalized": "Bureau expos\u00e9"
+        },
+        "address": {
+          "value": "Rabat / Hay Ryad",
+          "normalized": "Rabat / Hay Ryad"
+        },
+        "price": {
+          "value": "11 500 DH",
+          "normalized": {
+            "amount": 11500.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Bureaux - Plateaux",
+          "normalized": "bureaux - plateaux"
+        },
+        "published_date": {
+          "value": "Hier 09:40",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(11) a",
+          "xpath": "//a[contains(@href,'10290598/Bureau-expos\u00e9.html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[11]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(11) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[1]/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[10]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10290598/Bureau-expos\u00e9.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'10290598/Bureau-expos\u00e9.html')]/div[2]/h3",
+          "text_quote": "Bureau expos\u00e9",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[11]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(11) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10290598/Bureau-expos\u00e9.html'] span.location",
+          "xpath": "//a[contains(@href,'Terrain-villa-riad.html')]/div[2]/span[1]",
+          "text_quote": "Rabat / Hay Ryad",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[12]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(12) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10290598/Bureau-expos\u00e9.html'] strong.price",
+          "xpath": "//a[contains(@href,'10290598/Bureau-expos\u00e9.html')]/div[2]/strong",
+          "text_quote": "11 500 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[11]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(11) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10290598/Bureau-expos\u00e9.html'] span.views",
+          "xpath": "//a[contains(@href,'10290598/Bureau-expos\u00e9.html')]/div[2]/span[2]",
+          "text_quote": "Bureaux - Plateaux",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[11]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(11) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_011",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10385987/Terrain-villa-riad.html",
+          "normalized": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10385987/Terrain-villa-riad.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Terrain villa riad",
+          "normalized": "Terrain villa riad"
+        },
+        "address": {
+          "value": "Rabat / Hay Ryad",
+          "normalized": "Rabat / Hay Ryad"
+        },
+        "price": {
+          "value": "47 500 000 DH",
+          "normalized": {
+            "amount": 47500000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "normalized": "terrains constructibles"
+        },
+        "published_date": {
+          "value": "Hier 09:40",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(12) a",
+          "xpath": "//a[contains(@href,'Terrain-villa-riad.html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[12]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(12) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[1]/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[10]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10385987/Terrain-villa-riad.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Terrain-villa-riad.html')]/div[2]/h3",
+          "text_quote": "Terrain villa riad",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[12]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(12) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10385987/Terrain-villa-riad.html'] span.location",
+          "xpath": "//a[contains(@href,'Terrain-villa-riad.html')]/div[2]/span[1]",
+          "text_quote": "Rabat / Hay Ryad",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[12]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(12) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10385987/Terrain-villa-riad.html'] strong.price",
+          "xpath": "//a[contains(@href,'Terrain-villa-riad.html')]/div[2]/strong",
+          "text_quote": "47 500 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[12]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(12) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10385987/Terrain-villa-riad.html'] span.views",
+          "xpath": "//a[contains(@href,'terrains-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Terrains constructibles",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[20]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(20) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_012",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10325969/Terrain-expose-bir-kacem.html",
+          "normalized": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10325969/Terrain-expose-bir-kacem.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Terrain expose bir kacem",
+          "normalized": "Terrain expose bir kacem"
+        },
+        "address": {
+          "value": "Rabat / Bir Kacem",
+          "normalized": "Rabat / Bir Kacem"
+        },
+        "price": {
+          "value": "10 800 000 DH",
+          "normalized": {
+            "amount": 10800000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "normalized": "terrains constructibles"
+        },
+        "published_date": {
+          "value": "Hier 09:40",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(13) a",
+          "xpath": "//a[contains(@href,'Terrain-expose-bir-kacem')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[13]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(13) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[1]/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[10]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10325969/Terrain-expose-bir-kacem.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Terrain-expose-bir-kacem')]/div[2]/h3",
+          "text_quote": "Terrain expose bir kacem",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[13]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(13) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10325969/Terrain-expose-bir-kacem.html'] span.location",
+          "xpath": "//a[contains(@href,'Terrain-expose-bir-kacem')]/div[2]/span[1]",
+          "text_quote": "Rabat / Bir Kacem",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[13]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(13) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10325969/Terrain-expose-bir-kacem.html'] strong.price",
+          "xpath": "//a[contains(@href,'Terrain-expose-bir-kacem')]/div[2]/strong",
+          "text_quote": "10 800 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[13]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(13) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10325969/Terrain-expose-bir-kacem.html'] span.views",
+          "xpath": "//a[contains(@href,'terrains-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Terrains constructibles",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[20]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(20) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_013",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10334323/Appartement-\u00e0-vendre.html",
+          "normalized": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10334323/Appartement-\u00e0-vendre.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Appartement \u00e0 vendre",
+          "normalized": "Appartement \u00e0 vendre"
+        },
+        "address": {
+          "value": "Bouskoura",
+          "normalized": "Bouskoura"
+        },
+        "price": {
+          "value": "560 000 DH",
+          "normalized": {
+            "amount": 560000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Appartements",
+          "normalized": "appartements"
+        },
+        "published_date": {
+          "value": "Hier 09:40",
+          "normalized": null
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(14) a",
+          "xpath": "//a[contains(@href,'Appartement-\u00e0-vendre.html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[14]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(14) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[1]/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[10]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10334323/Appartement-\u00e0-vendre.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Appartement-\u00e0-vendre.html')]/div[2]/h3",
+          "text_quote": "Appartement \u00e0 vendre",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[14]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(14) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10334323/Appartement-\u00e0-vendre.html'] span.location",
+          "xpath": "//a[contains(@href,'Appartement-\u00e0-vendre.html')]/div[2]/span[1]",
+          "text_quote": "Bouskoura",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[14]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(14) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10334323/Appartement-\u00e0-vendre.html'] strong.price",
+          "xpath": "//a[contains(@href,'Appartement-\u00e0-vendre.html')]/div[2]/strong",
+          "text_quote": "560 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[14]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(14) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10334323/Appartement-\u00e0-vendre.html'] span.views",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Appartements",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[21]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(21) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_014",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387082/Appartement-a-vendre-tanger.html",
+          "normalized": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387082/Appartement-a-vendre-tanger.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/315/5788639.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/315/5788639.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Appartement a vendre tanger",
+          "normalized": "Appartement a vendre tanger"
+        },
+        "address": {
+          "value": "Tanger / Centre ville",
+          "normalized": "Tanger / Centre ville"
+        },
+        "price": {
+          "value": "200 000 DH",
+          "normalized": {
+            "amount": 200000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Appartements",
+          "normalized": "appartements"
+        },
+        "published_date": {
+          "value": "26 Mai 2026 19:36",
+          "normalized": "2026-05-26T19:36:00"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(15) a",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre-tanger')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[15]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(15) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'315/5788639.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[15]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(15) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387082/Appartement-a-vendre-tanger.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre-tanger')]/div[2]/h3",
+          "text_quote": "Appartement a vendre tanger",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[15]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(15) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387082/Appartement-a-vendre-tanger.html'] span.location",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre-tanger')]/div[2]/span[1]",
+          "text_quote": "Tanger / Centre ville",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[15]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(15) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387082/Appartement-a-vendre-tanger.html'] strong.price",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre-tanger')]/div[2]/strong",
+          "text_quote": "200 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[15]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(15) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387082/Appartement-a-vendre-tanger.html'] span.views",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Appartements",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[21]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(21) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "em[href*='None']",
+          "xpath": "//em[contains(normalize-space(.), '26 Mai 2026 19:36')]",
+          "text_quote": "26 Mai 2026 19:36",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[15]/div/em",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(15) > div:nth-of-type(1) > em:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_015",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/319/Villas-Maisons-Riads/annonce/10387068/Villa-\u00e0-vendre-en-zone-immeuble-R3.html",
+          "normalized": "https://www.marocannonces.com/categorie/319/Villas-Maisons-Riads/annonce/10387068/Villa-\u00e0-vendre-en-zone-immeuble-R3.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/319/8596597.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/319/8596597.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Villa \u00e0 vendre en zone immeuble r3",
+          "normalized": "Villa \u00e0 vendre en zone immeuble r3"
+        },
+        "address": {
+          "value": "Casablanca / Hermitage",
+          "normalized": "Casablanca / Hermitage"
+        },
+        "price": {
+          "value": "1 DH",
+          "normalized": {
+            "amount": 1.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Villas - Maisons - Riads",
+          "normalized": "villas - maisons - riads"
+        },
+        "published_date": {
+          "value": "26 Mai 2026 16:31",
+          "normalized": "2026-05-26T16:31:00"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(16) a",
+          "xpath": "//a[contains(@href,'-vendre-en-zone-immeuble-R3')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[16]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(16) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'319/8596597.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[16]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(16) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387068/Villa-\u00e0-vendre-en-zone-immeuble-R3.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'-vendre-en-zone-immeuble-R3')]/div[2]/h3",
+          "text_quote": "Villa \u00e0 vendre en zone immeuble r3",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[16]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(16) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387068/Villa-\u00e0-vendre-en-zone-immeuble-R3.html'] span.location",
+          "xpath": "//a[contains(@href,'-vendre-en-zone-immeuble-R3')]/div[2]/span[1]",
+          "text_quote": "Casablanca / Hermitage",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[16]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(16) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387068/Villa-\u00e0-vendre-en-zone-immeuble-R3.html'] strong.price",
+          "xpath": "//a[contains(@href,'-vendre-en-zone-immeuble-R3')]/div[2]/strong",
+          "text_quote": "1 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[16]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(16) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387068/Villa-\u00e0-vendre-en-zone-immeuble-R3.html'] span.views",
+          "xpath": "//a[contains(@href,'-vendre-en-zone-immeuble-R3')]/div[2]/span[2]",
+          "text_quote": "Villas - Maisons - Riads",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[16]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(16) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "em[href*='None']",
+          "xpath": "//em[contains(normalize-space(.), '26 Mai 2026 16:31')]",
+          "text_quote": "26 Mai 2026 16:31",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[16]/div/em",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(16) > div:nth-of-type(1) > em:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_016",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387040/Bel-appartement-ryad-185u.html",
+          "normalized": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387040/Bel-appartement-ryad-185u.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Bel appartement ryad 185u",
+          "normalized": "Bel appartement ryad 185u"
+        },
+        "address": {
+          "value": "Rabat",
+          "normalized": "Rabat"
+        },
+        "price": {
+          "value": "1 850 000 DH",
+          "normalized": {
+            "amount": 1850000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Appartements",
+          "normalized": "appartements"
+        },
+        "published_date": {
+          "value": "26 Mai 2026 15:12",
+          "normalized": "2026-05-26T15:12:00"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(17) a",
+          "xpath": "//a[contains(@href,'Bel-appartement-ryad-185u')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[17]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(17) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[1]/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[10]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387040/Bel-appartement-ryad-185u.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Bel-appartement-ryad-185u')]/div[2]/h3",
+          "text_quote": "Bel appartement ryad 185u",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[17]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(17) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387040/Bel-appartement-ryad-185u.html'] span.location",
+          "xpath": "//a[contains(@href,'Bel-appartement-ryad-185u')]/div[2]/span[1]",
+          "text_quote": "Rabat",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[17]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(17) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387040/Bel-appartement-ryad-185u.html'] strong.price",
+          "xpath": "//a[contains(@href,'Bel-appartement-ryad-185u')]/div[2]/strong",
+          "text_quote": "1 850 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[17]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(17) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387040/Bel-appartement-ryad-185u.html'] span.views",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Appartements",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[21]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(21) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "em[href*='None']",
+          "xpath": "//em[contains(normalize-space(.), '26 Mai 2026 15:12')]",
+          "text_quote": "26 Mai 2026 15:12",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[17]/div/em",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(17) > div:nth-of-type(1) > em:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_017",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10376659/Appartement-en-vente-res-bagdad-99m.html",
+          "normalized": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10376659/Appartement-en-vente-res-bagdad-99m.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/315/8847208.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/315/8847208.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Appartement en vente res bagdad 99/m",
+          "normalized": "Appartement en vente res bagdad 99/m"
+        },
+        "address": {
+          "value": "Casablanca / Sidi Bernoussi",
+          "normalized": "Casablanca / Sidi Bernoussi"
+        },
+        "price": {
+          "value": "870 000 DH",
+          "normalized": {
+            "amount": 870000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Appartements",
+          "normalized": "appartements"
+        },
+        "published_date": {
+          "value": "26 Mai 2026 14:02",
+          "normalized": "2026-05-26T14:02:00"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(18) a",
+          "xpath": "//a[contains(@href,'Appartement-en-vente-res-bagdad-99m')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[18]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(18) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'315/8847208.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[18]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(18) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10376659/Appartement-en-vente-res-bagdad-99m.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Appartement-en-vente-res-bagdad-99m')]/div[2]/h3",
+          "text_quote": "Appartement en vente res bagdad 99/m",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[18]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(18) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10376659/Appartement-en-vente-res-bagdad-99m.html'] span.location",
+          "xpath": "//a[contains(@href,'Appartement-en-vente-res-bagdad-99m')]/div[2]/span[1]",
+          "text_quote": "Casablanca / Sidi Bernoussi",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[18]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(18) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10376659/Appartement-en-vente-res-bagdad-99m.html'] strong.price",
+          "xpath": "//a[contains(@href,'Appartement-en-vente-res-bagdad-99m')]/div[2]/strong",
+          "text_quote": "870 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[18]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(18) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10376659/Appartement-en-vente-res-bagdad-99m.html'] span.views",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Appartements",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[21]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(21) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "em[href*='None']",
+          "xpath": "//em[contains(normalize-space(.), '26 Mai 2026 14:02')]",
+          "text_quote": "26 Mai 2026 14:02",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[18]/div/em",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(18) > div:nth-of-type(1) > em:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_018",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10387011/Terrain-Titr\u00e9-constructible-213m2-Imouzzer-Kandar.html",
+          "normalized": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10387011/Terrain-Titr\u00e9-constructible-213m2-Imouzzer-Kandar.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/332/4684211.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/332/4684211.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Terrain titr\u00e9 constructible 213m2 imouzzer kandar",
+          "normalized": "Terrain titr\u00e9 constructible 213m2 imouzzer kandar"
+        },
+        "address": {
+          "value": "Imouzzer Kandar",
+          "normalized": "Imouzzer Kandar"
+        },
+        "price": {
+          "value": "300 000 DH",
+          "normalized": {
+            "amount": 300000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "normalized": "terrains constructibles"
+        },
+        "published_date": {
+          "value": "26 Mai 2026 13:31",
+          "normalized": "2026-05-26T13:31:00"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(19) a",
+          "xpath": "//a[contains(@href,'-constructible-213m2-Imouzzer-Kandar')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[19]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(19) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'332/4684211.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[19]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(19) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387011/Terrain-Titr\u00e9-constructible-213m2-Imouzzer-Kandar.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'-constructible-213m2-Imouzzer-Kandar')]/div[2]/h3",
+          "text_quote": "Terrain titr\u00e9 constructible 213m2 imouzzer kandar",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[19]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(19) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387011/Terrain-Titr\u00e9-constructible-213m2-Imouzzer-Kandar.html'] span.location",
+          "xpath": "//a[contains(@href,'-constructible-213m2-Imouzzer-Kandar')]/div[2]/span[1]",
+          "text_quote": "Imouzzer Kandar",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[19]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(19) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387011/Terrain-Titr\u00e9-constructible-213m2-Imouzzer-Kandar.html'] strong.price",
+          "xpath": "//a[contains(@href,'-constructible-213m2-Imouzzer-Kandar')]/div[2]/strong",
+          "text_quote": "300 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[19]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(19) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10387011/Terrain-Titr\u00e9-constructible-213m2-Imouzzer-Kandar.html'] span.views",
+          "xpath": "//a[contains(@href,'terrains-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Terrains constructibles",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[20]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(20) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "em[href*='None']",
+          "xpath": "//em[contains(normalize-space(.), '26 Mai 2026 13:31')]",
+          "text_quote": "26 Mai 2026 13:31",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[19]/div/em",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(19) > div:nth-of-type(1) > em:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_019",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10386934/terrains-a-vendre.html",
+          "normalized": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10386934/terrains-a-vendre.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/geo_templates/marocannonces/external/images/icon-no-photo.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Terrains a vendre",
+          "normalized": "Terrains a vendre"
+        },
+        "address": {
+          "value": "Casablanca / Belv\u00e9d\u00e8re",
+          "normalized": "Casablanca / Belv\u00e9d\u00e8re"
+        },
+        "price": {
+          "value": "26 000 DH",
+          "normalized": {
+            "amount": 26000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "normalized": "terrains constructibles"
+        },
+        "published_date": {
+          "value": "26 Mai 2026 10:10",
+          "normalized": "2026-05-26T10:10:00"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(20) a",
+          "xpath": "//a[contains(@href,'terrains-a-vendre.html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[20]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(20) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//a[contains(@href,'Terrain-expose-orangerie-angle-1250m')]/div[1]/img",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[10]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(10) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10386934/terrains-a-vendre.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'terrains-a-vendre.html')]/div[2]/h3",
+          "text_quote": "Terrains a vendre",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[20]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(20) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10386934/terrains-a-vendre.html'] span.location",
+          "xpath": "//a[contains(@href,'terrains-a-vendre.html')]/div[2]/span[1]",
+          "text_quote": "Casablanca / Belv\u00e9d\u00e8re",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[20]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(20) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10386934/terrains-a-vendre.html'] strong.price",
+          "xpath": "//a[contains(@href,'terrains-a-vendre.html')]/div[2]/strong",
+          "text_quote": "26 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[20]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(20) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10386934/terrains-a-vendre.html'] span.views",
+          "xpath": "//a[contains(@href,'terrains-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Terrains constructibles",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[20]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(20) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "em[href*='None']",
+          "xpath": "//em[contains(normalize-space(.), '26 Mai 2026 10:10')]",
+          "text_quote": "26 Mai 2026 10:10",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[20]/div/em",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(20) > div:nth-of-type(1) > em:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING_020",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10310952/Appartement-a-vendre.html",
+          "normalized": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10310952/Appartement-a-vendre.html"
+        },
+        "images_urls": {
+          "value": [
+            "https://www.marocannonces.com/user_images/9631819.jpg"
+          ],
+          "normalized": [
+            "https://www.marocannonces.com/user_images/9631819.jpg"
+          ]
+        },
+        "listing_title": {
+          "value": "Appartement a vendre",
+          "normalized": "Appartement a vendre"
+        },
+        "address": {
+          "value": "Casablanca / Lissasfa",
+          "normalized": "Casablanca / Lissasfa"
+        },
+        "price": {
+          "value": "960 000 DH",
+          "normalized": {
+            "amount": 960000.0,
+            "currency": {
+              "name": "Moroccan dirham",
+              "code": "MAD",
+              "symbol": "MAD"
+            }
+          }
+        },
+        "property_type": {
+          "value": "Appartements",
+          "normalized": "appartements"
+        },
+        "published_date": {
+          "value": "26 Mai 2026 09:49",
+          "normalized": "2026-05-26T09:49:00"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content .used-cars .content_box .cars-list li:nth-child(21) a",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre.html')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[21]/a[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(21) > a"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'user_images/9631819.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[21]/a/div[1]/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(21) > a:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "listing_title": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10310952/Appartement-a-vendre.html'] div.holder > h3",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre.html')]/div[2]/h3",
+          "text_quote": "Appartement a vendre",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[21]/a[1]/div[2]/h3[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(21) > a > div:nth-of-type(2) > h3"
+        },
+        "address": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10310952/Appartement-a-vendre.html'] span.location",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre.html')]/div[2]/span[1]",
+          "text_quote": "Casablanca / Lissasfa",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[21]/a[1]/div[2]/span[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(21) > a > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10310952/Appartement-a-vendre.html'] strong.price",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre.html')]/div[2]/strong",
+          "text_quote": "960 000 DH",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[21]/a[1]/div[2]/strong[1]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(21) > a > div:nth-of-type(2) > strong"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "div#content a[href*='10310952/Appartement-a-vendre.html'] span.views",
+          "xpath": "//a[contains(@href,'Appartement-a-vendre.html')]/div[2]/span[2]",
+          "text_quote": "Appartements",
+          "attribute": null,
+          "xpath_absolute": "//html/body[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/ul[1]/li[21]/a[1]/div[2]/span[2]",
+          "css_selector_absolute": "div#content > div:nth-of-type(2) > div:nth-of-type(4) > ul > li:nth-of-type(21) > a > div:nth-of-type(2) > span:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "SNAP_REAL_MAROC_ANNONCES_001_LISTING",
+          "css_selector": "em[href*='None']",
+          "xpath": "//em[contains(normalize-space(.), '26 Mai 2026 09:49')]",
+          "text_quote": "26 Mai 2026 09:49",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div[1]/div/div[2]/div[4]/ul/li[21]/div/em",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > ul:nth-of-type(1) > li:nth-of-type(21) > div:nth-of-type(1) > em:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

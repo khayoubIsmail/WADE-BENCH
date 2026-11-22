@@ -1,0 +1,41 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Warby Parker",
+        "description": "Premium eyewear, starting at $95. 25% off your first contacts order.",
+        "image_urls": [
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAxIi8+PGJvZHkgaHR0cDovL3d3dy53My5vcmcvY3NzL1NWRU4tMjAyMC8yMDAuanBnPjwvc2NyaXB0Pjwvc3ZnPgo="
+        ],
+        "price_raw": "$95",
+        "product_name": "Wilkie Eyeglasses in Black Matte Eclipse — Medium",
+        "product_url": "/eyeglasses/wilkie-black-matte-eclipse-medium",
+        "rating": 4.3,
+        "review_count": 350
+      },
+      "provenance": {
+        "url": "https://www.warbyparker.com/eyeglasses/wilkie-black-matte-eclipse-medium",
+        "snapshot_id": "data/raw_snapshots/ecommerce/warbyparker_us_detail_sample",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Premium eyewear, starting at $95 25% off your first contacts order"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 9.345,
+    "input_tokens": 15516,
+    "output_tokens": 362,
+    "total_tokens": 15878,
+    "repaired": false,
+    "error": null
+  }
+}

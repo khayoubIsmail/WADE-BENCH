@@ -1,0 +1,46 @@
+{
+  "task_id": "WBV1_ACAD_IMPERIAL_EVENTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Great Exhibition Road Festival",
+        "event_start_date": "2026-06-06T12:00:00+01:00",
+        "event_end_date": "2026-06-07T18:00:00+01:00",
+        "location": {
+          "address": "Exhibition Road, Great Exhibition Road Festival/Marquee - Prince’s Gardens",
+          "locality": "South Kensington Campus",
+          "region": "London",
+          "country": "United Kingdom"
+        },
+        "event_url": "https://www.imperial.ac.uk/events/209153/great-exhibition-road-festival-2026/",
+        "provenance": {
+          "source": "page.html",
+          "text_quote": "The Great Exhibition Road Festival is a free annual celebration of science and the arts each summer in South Kensington. Join us on 6-7 June 2026 for a weekend of free science and arts events for all ages."
+        }
+      },
+      "provenance": {
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 8.471,
+    "input_tokens": 15494,
+    "output_tokens": 284,
+    "total_tokens": 15778,
+    "initial_input_tokens": 15494,
+    "initial_output_tokens": 284,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

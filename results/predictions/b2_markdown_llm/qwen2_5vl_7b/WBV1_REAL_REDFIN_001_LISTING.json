@@ -1,0 +1,33 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "/NY/Bayside/29-Greenpoint-Avenue-Unit-2B/home/40738993"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "version": "1.0",
+        "notes": [
+          "The 'listing_url' field is derived from the markdown representation of a listing URL."
+        ]
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 22.612,
+    "input_tokens": 53656,
+    "output_tokens": 131,
+    "total_tokens": 53787,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_001_LISTING",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/274-mangels-ave-san-francisco-ca-94127",
+        "price": {
+          "amount": 995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94127",
+        "property_type": "Single Family",
+        "bedrooms": 2,
+        "bathrooms": 1.0,
+        "floor_area": {
+          "value": 101,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/35-admiral-ave-san-francisco-ca-94112",
+        "price": {
+          "amount": 1198888,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94112",
+        "property_type": "Single Family",
+        "bedrooms": 2,
+        "bathrooms": 1.0,
+        "floor_area": {
+          "value": 1386,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/1624-larkin-st-7-san-francisco-ca-94109",
+        "price": {
+          "amount": 1995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94109",
+        "property_type": "Condo",
+        "bedrooms": 3,
+        "bathrooms": 3.0,
+        "floor_area": {
+          "value": 1790,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/309-orizaba-ave-san-francisco-ca-94132",
+        "price": {
+          "amount": 995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94132",
+        "property_type": "Duplex",
+        "bedrooms": 3,
+        "bathrooms": 4.0,
+        "floor_area": {
+          "value": 1950,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/487-belvedere-st-san-francisco-ca-94117",
+        "price": {
+          "amount": 2195000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94117",
+        "property_type": "Condo",
+        "bedrooms": 3,
+        "bathrooms": 3.0,
+        "floor_area": {
+          "value": 1935,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/126-romain-st-san-francisco-ca-94114",
+        "price": {
+          "amount": 1095000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94114",
+        "property_type": "Condo",
+        "bedrooms": 2,
+        "bathrooms": 1.0,
+        "floor_area": {
+          "value": 1010,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/1800-bryant-st-216-san-francisco-ca-94112",
+        "price": {
+          "amount": 850000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94112",
+        "property_type": "Condo",
+        "bedrooms": 1,
+        "bathrooms": 2.0,
+        "floor_area": {
+          "value": 976,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/160-noe-st-san-francisco-ca-94114",
+        "price": {
+          "amount": 2995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94114",
+        "property_type": "Single Family",
+        "bedrooms": 3,
+        "bathrooms": 2.0,
+        "floor_area": {
+          "value": 2495,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/1360-9th-ave-13-san-francisco-ca-94122",
+        "price": {
+          "amount": 749000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94122",
+        "property_type": "Condo",
+        "bedrooms": 2,
+        "bathrooms": 1.0,
+        "floor_area": {
+          "value": 861,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/176-castro-st-san-francisco-ca-94114",
+        "price": {
+          "amount": 2800000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94114",
+        "property_type": "Single Family",
+        "bedrooms": 3,
+        "bathrooms": 4.0,
+        "floor_area": {
+          "value": 3537,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/750-van-ness-ave-805-san-francisco-ca-94102",
+        "price": {
+          "amount": 829000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94102",
+        "property_type": "Condo",
+        "bedrooms": 2,
+        "bathrooms": 2.0,
+        "floor_area": {
+          "value": 1091,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/1106-masonic-ave-san-francisco-ca-94117",
+        "price": {
+          "amount": 2700000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94117",
+        "property_type": "Duplex",
+        "bedrooms": 6,
+        "bathrooms": 3.0,
+        "floor_area": {
+          "value": 3300,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/218-justin-dr-san-francisco-ca-94112",
+        "price": {
+          "amount": 2195000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94112",
+        "property_type": "Single Family",
+        "bedrooms": 4,
+        "bathrooms": 4.0,
+        "floor_area": {
+          "value": 2198,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/1633-mcallister-st-san-francisco-ca-94115",
+        "price": {
+          "amount": 2150000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94115",
+        "property_type": "Condo",
+        "bedrooms": 3,
+        "bathrooms": 3.0,
+        "floor_area": {
+          "value": 2779,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/131-missouri-st-301-san-francisco-ca-94117",
+        "price": {
+          "amount": 1995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94117",
+        "property_type": "Condo",
+        "bedrooms": 2,
+        "bathrooms": 2.0,
+        "floor_area": {
+          "value": 1465,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/1547-46th-ave-san-francisco-ca-94122",
+        "price": {
+          "amount": 1698000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94122",
+        "property_type": "Single Family",
+        "bedrooms": 3,
+        "bathrooms": 3.0,
+        "floor_area": {
+          "value": 2198,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/1874-18th-ave-san-francisco-ca-94122",
+        "price": {
+          "amount": 1100000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94122",
+        "property_type": "Single Family",
+        "bedrooms": 2,
+        "bathrooms": 1.0,
+        "floor_area": {
+          "value": 1300,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/74-new-montgomery-st-412-san-francisco-ca-94105",
+        "price": {
+          "amount": 850000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94105",
+        "property_type": "Condo",
+        "bedrooms": 1,
+        "bathrooms": 1.0,
+        "floor_area": {
+          "value": 832,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/1250-folsom-st-san-francisco-ca-94103",
+        "price": {
+          "amount": 4498000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94103",
+        "property_type": "Townhouse",
+        "bedrooms": 3,
+        "bathrooms": 2.0,
+        "floor_area": {
+          "value": 5750,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/611-washington-st-2105-san-francisco-ca-94111",
+        "price": {
+          "amount": 3999000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94111",
+        "property_type": "Condo",
+        "bedrooms": 2,
+        "bathrooms": 1.0,
+        "floor_area": {
+          "value": 2879,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/3020-25th-st-san-francisco-ca-94110",
+        "price": {
+          "amount": 2898000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94110",
+        "property_type": "Single Family",
+        "bedrooms": 4,
+        "bathrooms": 3.0,
+        "floor_area": {
+          "value": 2779,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/731-noe-st-san-francisco-ca-94114",
+        "price": {
+          "amount": 2695000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94114",
+        "property_type": "Single Family",
+        "bedrooms": 3,
+        "bathrooms": 2.0,
+        "floor_area": {
+          "value": 1769,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/566-6th-ave-san-francisco-ca-94118",
+        "price": {
+          "amount": 2495000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94118",
+        "property_type": "Condo",
+        "bedrooms": 4,
+        "bathrooms": 3.0,
+        "floor_area": {
+          "value": 2498,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/listing/130-maywood-dr-san-francisco-ca-94127",
+        "price": {
+          "amount": 2395000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "San Francisco, CA 94127",
+        "property_type": "Single Family",
+        "bedrooms": 4,
+        "bathrooms": 2.0,
+        "floor_area": {
+          "value": 2392,
+          "unit": "Sq. Ft."
+        },
+        "status": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 74.1,
+    "input_tokens": 8346,
+    "output_tokens": 4937,
+    "total_tokens": 13283,
+    "num_tiles": 4,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_001_LISTING\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_001_LISTING\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_001_LISTING\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_APARTMENTS_001_LISTING\\tile_04.png"
+    ],
+    "error": null
+  }
+}

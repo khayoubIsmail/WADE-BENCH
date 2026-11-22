@@ -1,0 +1,326 @@
+{
+  "task_id": "WBV1_GOV_CFIN_002_DETAIL",
+  "source_files": {
+    "page_html": "data/raw_snapshots/government/cfin_002_detail/page.html",
+    "page_safe_html": "data/raw_snapshots/government/cfin_002_detail/page.safe.html",
+    "text_txt": "data/raw_snapshots/government/cfin_002_detail/text.txt",
+    "ax_tree": "data/raw_snapshots/government/cfin_002_detail/ax_tree.json",
+    "metadata": "data/raw_snapshots/government/cfin_002_detail/metadata.json",
+    "screenshot": "data/raw_snapshots/government/cfin_002_detail/screenshot.png"
+  },
+  "mcp": {
+    "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/government/cfin_002_detail/page.safe.html",
+    "available_tools": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "browser_snapshot": "### Page\n- Page URL: http://127.0.0.1:63128/page.safe.html\n- Page Title: Refurbishment works Harris Academy Beckenham - Contracts Finder\n- Console: 10 errors, 1 warnings\n### Snapshot\n```yaml\n- generic [active]:\n  - link \"Skip to main content\" [ref=e1] [cursor=pointer]:\n    - /url: \"#all-content-wrapper\"\n  - generic [ref=e2]:\n    - generic [ref=e3]:\n      - banner [ref=e5]:\n        - generic [ref=e6]:\n          - link \"GOV.UK\" [ref=e8] [cursor=pointer]:\n            - /url: http://gov.uk\n            - generic [ref=e9]:\n              - img [ref=e10]\n              - text: GOV.UK\n          - link \"Contracts Finder\" [ref=e13] [cursor=pointer]:\n            - /url: https://www.contractsfinder.service.gov.uk\n      - navigation [ref=e16]:\n        - generic [ref=e17]:\n          - generic [ref=e18]: BETA\n          - generic [ref=e19]:\n            - text: This is a new service - your\n            - link \"feedback (opens in a new window)\" [ref=e20] [cursor=pointer]:\n              - /url: https://crowncommercial.qualtrics.com/jfe/form/SV_5dIO8hji9NCBDtc\n              - text: feedback\n            - text: will help us improve it.\n        - list [ref=e22]:\n          - listitem [ref=e23]:\n            - link \"Register\" [ref=e24] [cursor=pointer]:\n              - /url: \"https://www.contractsfinder.service.gov.uk/organisation/register \"\n          - listitem [ref=e25]:\n            - link \"Sign in\" [ref=e26] [cursor=pointer]:\n              - /url: \"https://www.contractsfinder.service.gov.uk/login \"\n    - generic [ref=e29]:\n      - list [ref=e30]:\n        - listitem \"Home\" [ref=e31]:\n          - link \"Home\" [ref=e32] [cursor=pointer]:\n            - /url: /contractfinder\n        - listitem [ref=e33]\n        - listitem \"Search results\" [ref=e34]:\n          - link \"Search results\" [ref=e35] [cursor=pointer]:\n            - /url: /Search/Results?page=1#2b06444b-814c-43b5-a102-8379666b1f2c\n        - listitem [ref=e36]\n        - listitem \"Refurbishment works Harris Academy Beckenham\" [ref=e37]\n      - generic [ref=e38]:\n        - heading \"Refurbishment works Harris Academy Beckenham\" [level=1] [ref=e39]\n        - heading \"Harris Federation\" [level=2] [ref=e41]\n        - main [ref=e42]:\n          - generic [ref=e45]:\n            - generic [ref=e46]:\n              - paragraph [ref=e48]: \"Published date: 27 May 2026\"\n              - paragraph [ref=e49]: Open opportunity - This means that the contract is currently active, and the buying department is looking for potential suppliers to fulfil the contract.\n            - generic [ref=e50]:\n              - heading \"Contract summary\" [level=3] [ref=e51]\n              - paragraph\n              - heading \"Industry\" [level=4] [ref=e52]:\n                - strong [ref=e53]: Industry\n              - list [ref=e54]:\n                - listitem [ref=e55]:\n                  - paragraph [ref=e56]: Refurbishment work - 45453100\n              - heading \"Location of contract\" [level=4] [ref=e57]:\n                - strong [ref=e58]: Location of contract\n              - paragraph [ref=e59]: London\n              - heading \"Value of contract\" [level=4] [ref=e60]:\n                - strong [ref=e61]: Value of contract\n              - paragraph [ref=e62]: £380,000\n              - heading \"Procurement reference\" [level=4] [ref=e63]:\n                - strong [ref=e64]: Procurement reference\n              - paragraph [ref=e65]: MT237418\n              - heading \"Published date\" [level=4] [ref=e66]:\n                - strong [ref=e67]: Published date\n              - paragraph [ref=e68]: 27 May 2026\n              - heading \"Closing date\" [level=4] [ref=e69]:\n                - strong [ref=e70]: Closing date\n              - paragraph [ref=e71]: 19 June 2026\n              - heading \"Closing time\" [level=4] [ref=e72]:\n                - strong [ref=e73]: Closing time\n              - paragraph [ref=e74]: 12pm\n              - heading \"Contract start date\" [level=4] [ref=e75]:\n                - strong [ref=e76]: Contract start date\n              - paragraph [ref=e77]: 6 July 2026\n              - heading \"Contract end date\" [level=4] [ref=e78]:\n                - strong [ref=e79]: Contract end date\n              - paragraph [ref=e80]: 28 August 2026\n              - heading \"Contract type\" [level=4] [ref=e81]:\n                - strong [ref=e82]: Contract type\n              - paragraph [ref=e83]: Works\n              - heading \"Procedure type\" [level=4] [ref=e84]:\n                - strong [ref=e85]: Procedure type\n              - paragraph [ref=e86]: Open procedure (below threshold)\n              - group [ref=e87]:\n                - button \"What is an open procedure (below threshold)?\" [ref=e88] [cursor=pointer]\n              - heading \"Contract is suitable for SMEs?\" [level=4] [ref=e89]:\n                - strong [ref=e90]: Contract is suitable for SMEs?\n              - paragraph [ref=e91]: \"Yes\"\n              - heading \"Contract is suitable for VCSEs?\" [level=4] [ref=e92]:\n                - strong [ref=e93]: Contract is suitable for VCSEs?\n              - paragraph [ref=e94]: \"No\"\n            - generic [ref=e95]:\n              - separator [ref=e96]\n              - heading \"Description\" [level=3] [ref=e97]\n              - paragraph\n              - paragraph [ref=e98]: As detailed in tender pack\n            - generic [ref=e99]:\n              - separator [ref=e100]\n              - heading \"More information\" [level=3] [ref=e101]\n              - paragraph\n              - generic [ref=e102]:\n                - term [ref=e103]:\n                  - paragraph [ref=e104]:\n                    - strong [ref=e105]: Links\n                - definition [ref=e106]:\n                  - list [ref=e107]:\n                    - listitem [ref=e108]:\n                      - link \"https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404 (opens in a new window)\" [ref=e109] [cursor=pointer]:\n                        - /url: https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404\n                        - text: https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404\n                    - listitem [ref=e110]: Tender notice\n                    - listitem [ref=e111]: \"NOTE: To register your interest in this notice and obtain any additional information please visit the myTenders Web Site at the link provided.\"\n            - generic [ref=e112]:\n              - separator [ref=e113]\n              - heading \"How to apply\" [level=3] [ref=e114]\n              - paragraph\n              - paragraph [ref=e115]: Follow the instructions given in the description or the more information section.\n            - generic [ref=e116]:\n              - separator [ref=e117]\n              - heading \"About the buyer\" [level=3] [ref=e118]\n              - paragraph\n              - heading \"Contact name\" [level=4] [ref=e119]:\n                - strong [ref=e120]: Contact name\n              - paragraph [ref=e121]: Procurement\n              - heading \"Address\" [level=4] [ref=e122]:\n                - strong [ref=e123]: Address\n              - paragraph [ref=e124]:\n                - text: Interchange, 81-85 Station Road\n                - text: Croydon\n                - text: CR0 2RD\n                - text: England\n              - heading \"Telephone\" [level=4] [ref=e125]:\n                - strong [ref=e126]: Telephone\n              - paragraph [ref=e127]: +44 2082537777\n              - heading \"Email\" [level=4] [ref=e128]:\n                - strong [ref=e129]: Email\n              - paragraph [ref=e130]:\n                - link \"Procurement@harrisfederation.org.uk\" [ref=e131] [cursor=pointer]:\n                  - /url: mailto:Procurement@harrisfederation.org.uk\n              - heading \"Website\" [level=4] [ref=e132]:\n                - strong [ref=e133]: Website\n              - paragraph [ref=e134]:\n                - link \"www.harrisfederation.org.uk (opens in a new window)\" [ref=e135] [cursor=pointer]:\n                  - /url: http://www.harrisfederation.org.uk\n                  - text: www.harrisfederation.org.uk\n              - paragraph\n            - generic [ref=e136]:\n              - separator [ref=e137]\n              - heading \"Share this notice\" [level=2] [ref=e138]\n              - list [ref=e140]:\n                - listitem [ref=e141]:\n                  - link \"Share this notice on Twitter\" [ref=e142] [cursor=pointer]:\n                    - /url: \"#\"\n                    - text: Twitter\n                - listitem [ref=e143]:\n                  - link \"Share this notice on LinkedIn\" [ref=e144] [cursor=pointer]:\n                    - /url: \"#\"\n                    - text: LinkedIn\n                - listitem [ref=e145]:\n                  - link \"Share this notice by email\" [ref=e146] [cursor=pointer]:\n                    - /url: mailto:?subject=A%20Contracts%20Finder%20notice%20has%20been%20shared%20with%20you&body=Contracts%20Finder%20notice%20reference%20URL:%20https://www.contractsfinder.service.gov.uk/Notice/2b06444b-814c-43b5-a102-8379666b1f2c\n                    - text: Email\n            - paragraph [ref=e148]:\n              - button \"Is there anything wrong with this page?\" [ref=e149] [cursor=pointer]\n          - complementary [ref=e150]:\n            - generic [ref=e153]:\n              - button \"Watch this notice\" [ref=e154] [cursor=pointer]\n              - button \"Print this notice\" [ref=e155] [cursor=pointer]\n              - paragraph [ref=e156]: \"Closing: 19 June 2026, 12pm\"\n    - contentinfo [ref=e157]:\n      - generic [ref=e159]:\n        - generic [ref=e160]:\n          - list [ref=e161]:\n            - listitem [ref=e162]:\n              - link \"About us\" [ref=e163] [cursor=pointer]:\n                - /url: https://www.gov.uk/government/organisations/crown-commercial-service\n            - listitem [ref=e164]:\n              - link \"Contact us\" [ref=e165] [cursor=pointer]:\n                - /url: https://www.contractsfinder.service.gov.uk/Home/Contact\n            - listitem [ref=e166]:\n              - link \"Accessibility statement\" [ref=e167] [cursor=pointer]:\n                - /url: https://www.contractsfinder.service.gov.uk/Home/AccessibilityStatement\n            - listitem [ref=e168]:\n              - link \"Terms and conditions\" [ref=e169] [cursor=pointer]:\n                - /url: https://www.contractsfinder.service.gov.uk/Home/TermsAndConditions\n            - listitem [ref=e170]:\n              - link \"Privacy notice\" [ref=e171] [cursor=pointer]:\n                - /url: https://www.gov.uk/government/publications/crown-commercial-service-privacy-notice/crown-commercial-service-privacy-notice\n            - listitem [ref=e172]:\n              - link \"Cookies\" [ref=e173] [cursor=pointer]:\n                - /url: https://www.contractsfinder.service.gov.uk/Home/Cookies\n            - listitem [ref=e174]:\n              - link \"Data and API\" [ref=e175] [cursor=pointer]:\n                - /url: https://www.contractsfinder.service.gov.uk/apidocumentation\n          - paragraph [ref=e176]:\n            - text: All content is available under the\n            - link \"Open Government Licence v3.0\" [ref=e177] [cursor=pointer]:\n              - /url: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3\n            - text: except where otherwise stated.\n        - link \"© Crown copyright\" [ref=e179] [cursor=pointer]:\n          - /url: http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm\n          - paragraph [ref=e180]: © Crown copyright\n  - status\n  - status\n```",
+    "navigation_result": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:63128/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:63128/page.safe.html\n- Page Title: Refurbishment works Harris Academy Beckenham - Contracts Finder\n- Console: 10 errors, 1 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T06-32-23-387Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T06-32-22-969Z.log#L1-L17"
+  },
+  "visible_text": "Skip to main content\n GOV.UK\nContracts Finder\n\nHelp us improve Contracts Finder\nClose\n\nSign up for user testing\n\nBETA\nThis is a new service - your feedback will help us improve it.\nRegister\nSign in\nHome  Search results  Refurbishment works Harris Academy Beckenham\nRefurbishment works Harris Academy Beckenham\nHarris Federation\n\nPublished date: 27 May 2026\n\nOpen opportunity - This means that the contract is currently active, and the buying department is looking for potential suppliers to fulfil the contract.\n\nContract summary\n\nIndustry\n\nRefurbishment work - 45453100\n\nLocation of contract\n\nLondon\n\nValue of contract\n\n£380,000\n\nProcurement reference\n\nMT237418\n\nPublished date\n\n27 May 2026\n\nClosing date\n\n19 June 2026\n\nClosing time\n\n12pm\n\nContract start date\n\n6 July 2026\n\nContract end date\n\n28 August 2026\n\nContract type\n\nWorks\n\nProcedure type\n\nOpen procedure (below threshold)\n\nWhat is an open procedure (below threshold)?\nContract is suitable for SMEs?\n\nYes\n\nContract is suitable for VCSEs?\n\nNo\n\nDescription\n\nAs detailed in tender pack\n\nMore information\n\nLinks\n\nhttps://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404\nTender notice\nNOTE: To register your interest in this notice and obtain any additional information please visit the myTenders Web Site at the link provided.\nHow to apply\n\nFollow the instructions given in the description or the more information section.\n\nAbout the buyer\n\nContact name\n\nProcurement\n\nAddress\n\nInterchange, 81-85 Station Road\nCroydon\nCR0 2RD\nEngland\n\nTelephone\n\n+44 2082537777\n\nEmail\n\nProcurement@harrisfederation.org.uk\n\nWebsite\n\nwww.harrisfederation.org.uk\n\nShare this notice\nTwitter LinkedIn Email\n\nIs there anything wrong with this page?\n\nWatch this notice Print this notice\n\nClosing: 19 June 2026, 12pm\n\nAbout us Contact us Accessibility statement Terms and conditions Privacy notice Cookies Data and API\n\nAll content is available under the Open Government Licence v3.0 except where otherwise stated.\n\n© Crown copyright\n\nConcerned about public procurement practices?\n\nContact us if you are experiencing problems using Contracts Finder.\n\nIf you have any concerns about procurement practices, including late payment, you can contact the Procurement Review Unit by completing the case request form.\n\nThe role of the service is to:\n\nprovide a clear, structured and direct route for suppliers to raise concerns about public procurement practice\noffer feedback to enquirers on their concerns\n\nFind out more on the Procurement Review Unit website.\n\nClose\nSaved to watched notices list\n\nThis notice has been added to your watched notices list.\n\nClose\nSign in to watch this notice\n\nTo watch this notice, sign in to your account or register.\n\nYou will need to find this notice again after signing in to watch it.\n\nWatching a notice means:\n\nIt will be in your list of watched notices, so you can easily find it again\nYou can choose to receive emails when it is updated or before it closes\nClose\nSession timeout\n\nYour session will time out soon\n\nYou will be signed out of your account if you do not respond in 5 minutes. We do this to keep your information secure.\n\nContinue session\nSign out\nConfirm\nYes\nNo",
+  "ax_tree_excerpt": "{\n  \"nodes\": [\n    {\n      \"nodeId\": \"2\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"RootWebArea\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 144\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Refurbishment works Harris Academy Beckenham - Contracts Finder\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Refurbishment works Harris Academy Beckenham - Contracts Finder\"\n            },\n            \"nativeSource\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"focused\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/PhD/myArticlesAndPapers/my-papers/5-WISE/wade-bench/data/raw_snapshots/government/cfin_002_detail/page.html\"\n          }\n        }\n      ],\n      \"childIds\": [\n        \"3\"\n      ],\n      \"backendDOMNodeId\": 2,\n      \"frameId\": \"425312E0017BBDF7018DDD104AD91E68\"\n    },\n    {\n      \"nodeId\": \"3\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"2\",\n      \"childIds\": [\n        \"37\"\n      ],\n      \"backendDOMNodeId\": 3\n    },\n    {\n      \"nodeId\": \"37\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"3\",\n      \"childIds\": [\n        \"38\",\n        \"63\",\n        \"316\",\n        \"319\",\n        \"321\",\n        \"324\",\n        \"325\",\n        \"327\",\n        \"328\",\n        \"334\",\n        \"337\",\n        \"339\",\n        \"344\",\n        \"348\",\n        \"349\",\n        \"353\",\n        \"354\",\n        \"356\",\n        \"362\",\n        \"368\",\n        \"369\",\n        \"374\",\n        \"380\",\n        \"381\",\n        \"382\"\n      ],\n      \"backendDOMNodeId\": 37\n    },\n    {\n      \"nodeId\": \"38\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"39\"\n      ],\n      \"backendDOMNodeId\": 38\n    },\n    {\n      \"nodeId\": \"63\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"64\",\n        \"110\",\n        \"278\"\n      ],\n      \"backendDOMNodeId\": 63\n    },\n    {\n      \"nodeId\": \"316\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 312,\n                \"idref\": \"popup-dialog-0\"\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 316\n    },\n    {\n      \"nodeId\": \"319\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"519\"\n      ],\n      \"backendDOMNodeId\": 319\n    },\n    {\n      \"nodeId\": \"519\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"319\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 519\n    },\n    {\n      \"nodeId\": \"321\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"522\"\n      ],\n      \"backendDOMNodeId\": 321\n    },\n    {\n      \"nodeId\": \"522\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"321\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 522\n    },\n    {\n      \"nodeId\": \"324\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"525\"\n      ],\n      \"backendDOMNodeId\": 324\n    },\n    {\n      \"nodeId\": \"525\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"324\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 525\n    },\n    {\n      \"nodeId\": \"325\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"527\"\n      ],\n      \"backendDOMNodeId\": 325\n    },\n    {\n      \"nodeId\": \"527\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"325\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 527\n    },\n    {\n      \"nodeId\": \"327\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"530\"\n      ],\n      \"backendDOMNodeId\": 327\n    },\n    {\n      \"nodeId\": \"530\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"327\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 530\n    },\n    {\n      \"nodeId\": \"328\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"532\"\n      ],\n      \"backendDOMNodeId\": 328\n    },\n    {\n      \"nodeId\": \"532\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 317\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"328\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 532\n    },\n    {\n      \"nodeId\": \"334\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 330,\n                \"idref\": \"popup-dialog-1\"\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 334\n    },\n    {\n      \"nodeId\": \"337\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 335\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"535\"\n      ],\n      \"backendDOMNodeId\": 337\n    },\n    {\n      \"nodeId\": \"535\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 335\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"337\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 535\n    },\n    {\n      \"nodeId\": \"339\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 335\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"537\"\n      ],\n      \"backendDOMNodeId\": 339\n    },\n    {\n      \"nodeId\": \"537\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 335\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"339\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 537\n    },\n    {\n      \"nodeId\": \"344\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 340,\n                \"idref\": \"popup-dialog-2\"\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 344\n    },\n    {\n      \"nodeId\": \"348\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 345\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"540\"\n      ],\n      \"backendDOMNodeId\": 348\n    },\n    {\n      \"nodeId\": \"540\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 345\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"348\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 540\n    },\n    {\n      \"nodeId\": \"349\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 345\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"542\"\n      ],\n      \"backendDOMNodeId\": 349\n    },\n    {\n      \"nodeId\": \"542\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 345\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"349\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 542\n    },\n    {\n      \"nodeId\": \"353\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 345\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"546\"\n      ],\n      \"backendDOMNodeId\": 353\n    },\n    {\n      \"nodeId\": \"546\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 345\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"353\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 546\n    },\n    {\n      \"nodeId\": \"354\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 345\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"37\",\n      \"childIds\": [\n        \"548\"\n      ],\n      \"backendDOMNodeId\": 354\n    },\n    {\n      \"nodeId\": \"548\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"ariaHiddenSubtree\",\n          \"value\": {\n            \"type\": \"idref\",\n            \"relatedNodes\": [\n              {\n                \"backendDOMNodeId\": 345\n              }\n            ]\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"354\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 548\n    },\n    {\n      \"nodeId\": \"356\",\n      \"ignored\": true,\n \n<!-- TRUNCATED -->",
+  "metadata_excerpt": "{\n  \"snapshot_id\": \"cfin_002_detail\",\n  \"website_id\": \"cfin\",\n  \"task_id\": \"WBV1_GOV_CFIN_002_DETAIL\",\n  \"schema_id\": \"tender_notice_v1\",\n  \"page_type\": \"detail\",\n  \"url\": \"https://www.contractsfinder.service.gov.uk/notice/2b06444b-814c-43b5-a102-8379666b1f2c?origin=SearchResults&p=1\",\n  \"captured_at\": \"2026-05-28T22:47:52.991Z\",\n  \"capture_tool\": \"playwright-stealth\",\n  \"browser\": \"chromium\",\n  \"initial_url\": \"https://www.contractsfinder.service.gov.uk/notice/2b06444b-814c-43b5-a102-8379666b1f2c?origin=SearchResults&p=1\",\n  \"final_url\": \"https://www.contractsfinder.service.gov.uk/notice/2b06444b-814c-43b5-a102-8379666b1f2c?origin=SearchResults&p=1\",\n  \"page_title\": \"Refurbishment works Harris Academy Beckenham - Contracts Finder\",\n  \"capture_status\": \"captured\",\n  \"html_size\": 31718,\n  \"text_size\": 3149\n}",
+  "html_signals": {
+    "title": "Refurbishment works Harris Academy Beckenham - Contracts Finder",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Refurbishment works Harris Academy Beckenham"
+      },
+      {
+        "tag": "h2",
+        "text": "Harris Federation"
+      },
+      {
+        "tag": "h3",
+        "text": "Contract summary"
+      },
+      {
+        "tag": "h4",
+        "text": "Industry"
+      },
+      {
+        "tag": "h4",
+        "text": "Location of contract"
+      },
+      {
+        "tag": "h4",
+        "text": "Value of contract"
+      },
+      {
+        "tag": "h4",
+        "text": "Procurement reference"
+      },
+      {
+        "tag": "h4",
+        "text": "Published date"
+      },
+      {
+        "tag": "h4",
+        "text": "Closing date"
+      },
+      {
+        "tag": "h4",
+        "text": "Closing time"
+      },
+      {
+        "tag": "h4",
+        "text": "Contract start date"
+      },
+      {
+        "tag": "h4",
+        "text": "Contract end date"
+      },
+      {
+        "tag": "h4",
+        "text": "Contract type"
+      },
+      {
+        "tag": "h4",
+        "text": "Procedure type"
+      },
+      {
+        "tag": "h4",
+        "text": "Contract is suitable for SMEs?"
+      },
+      {
+        "tag": "h4",
+        "text": "Contract is suitable for VCSEs?"
+      },
+      {
+        "tag": "h3",
+        "text": "Description"
+      },
+      {
+        "tag": "h3",
+        "text": "More information"
+      },
+      {
+        "tag": "h3",
+        "text": "How to apply"
+      },
+      {
+        "tag": "h3",
+        "text": "About the buyer"
+      },
+      {
+        "tag": "h4",
+        "text": "Contact name"
+      },
+      {
+        "tag": "h4",
+        "text": "Address"
+      },
+      {
+        "tag": "h4",
+        "text": "Telephone"
+      },
+      {
+        "tag": "h4",
+        "text": "Email"
+      },
+      {
+        "tag": "h4",
+        "text": "Website"
+      },
+      {
+        "tag": "h2",
+        "text": "Share this notice"
+      }
+    ],
+    "links": [
+      {
+        "text": "Skip to main content",
+        "href": "#all-content-wrapper"
+      },
+      {
+        "text": "GOV.UK",
+        "href": "http://gov.uk"
+      },
+      {
+        "text": "Contracts Finder",
+        "href": "https://www.contractsfinder.service.gov.uk"
+      },
+      {
+        "text": "Register",
+        "href": "/organisation/register"
+      },
+      {
+        "text": "Sign in",
+        "href": "/login"
+      },
+      {
+        "text": "feedback",
+        "href": "https://crowncommercial.qualtrics.com/jfe/form/SV_5dIO8hji9NCBDtc"
+      },
+      {
+        "text": "Register",
+        "href": "https://www.contractsfinder.service.gov.uk/organisation/register "
+      },
+      {
+        "text": "Sign in",
+        "href": "https://www.contractsfinder.service.gov.uk/login "
+      },
+      {
+        "text": "Home",
+        "href": "/contractfinder"
+      },
+      {
+        "text": "Search results",
+        "href": "/Search/Results?page=1#2b06444b-814c-43b5-a102-8379666b1f2c"
+      },
+      {
+        "text": "contract value threshold",
+        "href": "https://www.gov.uk/government/publications/procurement-policy-note-0921-thresholds-and-inclusion-of-vat"
+      },
+      {
+        "text": "https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404",
+        "href": "https://www.mytenders.co.uk/search/show/search_view.aspx?ID=MAY171404"
+      },
+      {
+        "text": "Procurement@harrisfederation.org.uk",
+        "href": "mailto:Procurement@harrisfederation.org.uk"
+      },
+      {
+        "text": "www.harrisfederation.org.uk",
+        "href": "http://www.harrisfederation.org.uk"
+      },
+      {
+        "text": "Twitter",
+        "href": "#"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "#"
+      },
+      {
+        "text": "Email",
+        "href": "mailto:?subject=A%20Contracts%20Finder%20notice%20has%20been%20shared%20with%20you&body=Contracts%20Finder%20notice%20reference%20URL:%20https://www.contractsfinder.service.gov.uk/Notice/2b06444b-814c-43b5-a102-8379666b1f2c"
+      },
+      {
+        "text": "About us",
+        "href": "https://www.gov.uk/government/organisations/crown-commercial-service"
+      },
+      {
+        "text": "Contact us",
+        "href": "https://www.contractsfinder.service.gov.uk/Home/Contact"
+      },
+      {
+        "text": "Accessibility statement",
+        "href": "https://www.contractsfinder.service.gov.uk/Home/AccessibilityStatement"
+      },
+      {
+        "text": "Terms and conditions",
+        "href": "https://www.contractsfinder.service.gov.uk/Home/TermsAndConditions"
+      },
+      {
+        "text": "Privacy notice",
+        "href": "https://www.gov.uk/government/publications/crown-commercial-service-privacy-notice/crown-commercial-service-privacy-notice"
+      },
+      {
+        "text": "Cookies",
+        "href": "https://www.contractsfinder.service.gov.uk/Home/Cookies"
+      },
+      {
+        "text": "Data and API",
+        "href": "https://www.contractsfinder.service.gov.uk/apidocumentation"
+      },
+      {
+        "text": "Open Government Licence v3.0",
+        "href": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3"
+      },
+      {
+        "text": "© Crown copyright",
+        "href": "http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.contractsfinder.service.gov.uk/libraries/base-noticing/images/OGL.png",
+        "alt": ""
+      },
+      {
+        "src": "https://www.contractsfinder.service.gov.uk/libraries/base-noticing/images/crown_copyright.png",
+        "alt": ""
+      }
+    ],
+    "embedded_json": []
+  },
+  "tool_trace": [
+    {
+      "step": "local_http_server",
+      "serve_dir": "C:\\Users\\pc-mousannif\\Desktop\\Ismail\\WADE-BENCH\\data\\raw_snapshots\\government\\cfin_002_detail",
+      "http_url": "http://127.0.0.1:63128/page.safe.html",
+      "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/government/cfin_002_detail/page.safe.html"
+    },
+    {
+      "step": "list_tools",
+      "tool_names": [
+        "browser_close",
+        "browser_resize",
+        "browser_console_messages",
+        "browser_handle_dialog",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_type",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_take_screenshot",
+        "browser_snapshot",
+        "browser_click",
+        "browser_drag",
+        "browser_hover",
+        "browser_select_option",
+        "browser_tabs",
+        "browser_wait_for"
+      ]
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:63128/page.safe.html"
+      },
+      "output_preview": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:63128/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:63128/page.safe.html\n- Page Title: Refurbishment works Harris Academy Beckenham - Contracts Finder\n- Console: 10 errors, 1 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T06-32-23-387Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T06-32-22-969Z.log#L1-L17"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_snapshot",
+      "args": {},
+      "output_preview": "### Page\n- Page URL: http://127.0.0.1:63128/page.safe.html\n- Page Title: Refurbishment works Harris Academy Beckenham - Contracts Finder\n- Console: 10 errors, 1 warnings\n### Snapshot\n```yaml\n- generic [active]:\n  - link \"Skip to main content\" [ref=e1] [cursor=pointer]:\n    - /url: \"#all-content-wrapper\"\n  - generic [ref=e2]:\n    - generic [ref=e3]:\n      - banner [ref=e5]:\n        - generic [ref=e6]:\n          - link \"GOV.UK\" [ref=e8] [cursor=pointer]:\n            - /url: http://gov.uk\n            - generic [ref=e9]:\n              - img [ref=e10]\n              - text: GOV.UK\n          - link \"Contracts Finder\" [ref=e13] [cursor=pointer]:\n            - /url: https://www.contractsfinder.service.gov.uk\n      - navigation [ref=e16]:\n        - generic [ref=e17]:\n          - generic [ref=e18]: BETA\n          - generic [ref=e19]:\n            - text: This is a new service - your\n            - link \"feedback (opens in a new window)\" [ref=e20] [cursor=pointer]:\n              - /url: https://crowncommercial.qualtrics.com/jfe/form/SV_5dIO8hji9NCBDtc\n              - text: feedback\n            - text: will help us improve it.\n        - list [ref=e22]:\n          - listitem [ref=e23]:\n            - link \"Register\" [ref=e24] [cursor=pointer]:\n              - /url: \"https://www.contractsfinder.service.gov.uk/organisation/register \"\n          - listitem [ref=e25]:\n            - link \"Sign in\" [ref=e26] [cursor=pointer]:\n              - /url: \"https://www.contractsfinder.service.gov.uk/login \"\n    - generic [ref=e29]:\n      - list [ref=e30]:\n        - listitem \"Home\" [ref=e31]:\n          - link \"Home\" [ref=e32] [cursor=pointer]:\n            - /url: /contractfinder\n        - listitem [ref=e33]\n        - listitem \"Search results\" [ref=e34]:\n          - link \"Search results\" [ref=e35] [cursor=pointer]:\n            - /url: /Search/Results?page=1#2b06444b-814c-43b5-a102-8379666b1f2c\n        - listitem [ref=e36]\n        - listitem \"Refurbishment works Harris Academy Beckenham\" [ref=e37]\n    "
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_take_screenshot",
+      "args": {},
+      "output_preview": "### Result\n- [Screenshot of viewport](.playwright-mcp\\page-2026-06-30T06-32-23-442Z.png)\n### Ran Playwright code\n```js\n// Screenshot viewport and save it as .playwright-mcp\\page-2026-06-30T06-32-23-442Z.png\nawait page.screenshot({\n  path: '.playwright-mcp\\\\page-2026-06-30T06-32-23-442Z.png',\n  scale: 'css',\n  type: 'png'\n});\n```\ntype='image' data='iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOzdDVwUdf4H8N913LmeEpbaaphsiK4iuQYkPuV2kO4huj6Aa6JBB0Uauf7VwATiPAJLCT22yCIlIYVcJRMfuNXkWvMhVDjXQ3R9oMU03dR0U8/1jqv/zD7OLLvL8qTCft4vsn2Yh9/85jez853fw3h0696dAAAAAAAAAHR2DxEAAAAAAAAAN4AAGAAAAAAAANwCAmAAAAAAAABwCwiAAQAAAAAAwC0gAAYAAAAAAAC3gAAYAAAAAAAA3AICYAAAAAAAAHALCIA7oXffeefWzZvU3/KsLAIAAAAAAAAGCIA7ofK//934YueuXQQAAAAAAAAMPAh0In5+fgEBAbt377558+b//ve/AwcOjB49+tKlS9999x0BAAAAAABwbwiAO5WBfn4bPvvs+vXrnp6e1NtzZ89yudwZM2YgAAYAAAAAAEAT6E7Iw8N0X+MPf/gDaS+C2GXrdlaevXj5irG/Mf13/crVC2erdq5Ln+Hj2kJ8hAtySnfX2F/IHEHjGXhrjlqnvHmzao3TFfnmVTEmrikQ2puIOc2Fna87WpZ05wXmehnfvL7jonUJR/MczC9ac/QqIzHU38WdUh4BAAAAAIB7BwFwp/LfhoY1a9YMDQi4desW9Xbss89++OGH//nvf0mbEizZUnN5f95iidCf69WNY/3Cg8Px4vLHSZILai4qcyS+zhbCm5G188TRnZkJolE+9heyZv/VE1uSA1lzabKVqgbrW/6IZJ7jVQjThHzrO7UyU0nuE1Hm3oI5fMZGEt2+1DERMg0BAAAAAIB7BwFwZ8Dn8wcNGkS9+Oqrr5KSk4ODg7t37069HT1qVPKSJXv37qVeDzIgreUjlZ/dmybidWtiOq/AhILdO6QOYmDegh1786XC/hznC+H0F6UrzpYuYFTz1skqaxlTDApJchhmC2ODGDMeV2bXkfuC2tiCBSO8GJ/o9mVMRPQLAAAAAHDPIQDu8CZMmFB19Gh1VVVUVJTxk+nTpxtfTJ061fhCIpFQE1B/zz33HGkF0ZrS9HAux8WpucL0kjw7zY7D80rThFwXu59zuKK00rxwy/v6RftUjK/5I5MctIIOTRhhjY31leWLNeQ+4C3YsjdNyIp+j8jiIrJVBKANCRLe31F16sLV69auBBdPHd35vlToS+4lwdx1VVVbpOR+ats0SHdeuMXuvNDoz9LxwdqfgtVLotWo5ZrWVZVHAAAAoHUQAHd48fHxxhepKSnGF5MiIowvRCJRt250XW3GX/9qmjgujrTY6zts2vESnVq5PiNOMra7p2d3z7GRSfmKOh3ze46/JH2JzVJiSt+PsVmKZl9RRsykAHohARExGYX71LoG5lL4se9tFFneLnWpFbTwJYH189vHFZnkPqBDfRHzhoHueH5caKqCALQZ3svrqi7sX/WSkO/txbHcV/LgeHnzhS9l7aysYbWhaD+BCQWVFw5kS/gu3yLrnGkAAACABxsC4A7J0uaZUnfunPHFxYsXjV/16NHDMuXTTz9N/WsZBfpf//qX8cVTTz31JI9HmkGY92fbmszIfsER87Pl5cbqTJXio8WRgjEp+5gxMCdEnMVcCi87QcRlvNer5X"
+    }
+  ]
+}

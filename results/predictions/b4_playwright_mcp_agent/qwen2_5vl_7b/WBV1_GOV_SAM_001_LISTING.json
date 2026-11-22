@@ -1,0 +1,90 @@
+{
+  "task_id": "WBV1_GOV_SAM_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Buck Helene Fuels Reduction IRSC",
+        "tender_url": "https://sam.gov/workspace/contract/opp/6ed958dc159447e5be994afda6a50322/view"
+      },
+      "provenance": {
+        "source_files": [
+          "page.html",
+          "page.safe.html",
+          "text.txt",
+          "ax_tree.json",
+          "metadata.json"
+        ],
+        "visible_text": "This is a combined synopsis/solicitation for commercial items prepared in accordance with the format in FAR Part 12. This announcement consti...",
+        "html_signals": {
+          "title": "SAM.gov | Search",
+          "headings": [],
+          "links": [
+            "https://sam.gov/workspace/contract/opp/6ed958dc159447e5be994afda6a50322/view"
+          ],
+          "images": [],
+          "embedded_json": []
+        },
+        "metadata_excerpt": {
+          "schema_id": "tender_notice_v1",
+          "domain": "government/tenders/announcements",
+          "required_fields": [
+            "tender_title",
+            "tender_url"
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "tender_title": "Presolicitation Notice - Aircraft Wash Services BPAs",
+        "tender_url": "https://sam.gov/workspace/contract/opp/2196b9fb4d984a6d9c0287cdf2edddd4/view"
+      },
+      "provenance": {
+        "source_files": [
+          "page.html",
+          "page.safe.html",
+          "text.txt",
+          "ax_tree.json",
+          "metadata.json"
+        ],
+        "visible_text": "The 914th Niagara Falls Air Refueling Wing (ARW) hereby gives notice of their intent to award multiple Firm Fixed Price Blanket Purchase Agreements...",
+        "html_signals": {
+          "title": "SAM.gov | Search",
+          "headings": [],
+          "links": [
+            "https://sam.gov/workspace/contract/opp/2196b9fb4d984a6d9c0287cdf2edddd4/view"
+          ],
+          "images": [],
+          "embedded_json": []
+        },
+        "metadata_excerpt": {
+          "schema_id": "tender_notice_v1",
+          "domain": "government/tenders/announcements",
+          "required_fields": [
+            "tender_title",
+            "tender_url"
+          ]
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 27.65,
+    "input_tokens": 26123,
+    "output_tokens": 1235,
+    "total_tokens": 27358,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_SAM_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_SAM_001_LISTING_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

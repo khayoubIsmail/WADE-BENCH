@@ -1,0 +1,75 @@
+{
+  "task_id": "WBV1_ECOM_01_IKEA_US_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "IKEA",
+        "description": "Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÅTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!",
+        "image_urls": [
+          "https://www.ikea.com/us/en/images/lillesater-sectional-5-seat-gunnared-bright-green-yellow__1264914_pe927161_s5.jpg?f=xl"
+        ],
+        "price_raw": "$1,499.00",
+        "product_name": "LILLESÅTER Sectional, 5-seat, Gunnared bright green-yellow",
+        "product_url": "https://www.ikea.com/us/en/p/lillesater-sectional-5-seat-gunnared-bright-green-yellow-39614282/",
+        "rating": null,
+        "review_count": 0,
+        "availability": "Check availability",
+        "color": "Gunnared bright green-yellow",
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": "https://www.ikea.com/us/en/images/lillesater-sectional-5-seat-gunnared-bright-green-yellow__1264914_pe927161_s5.jpg?f=xl",
+        "shipping_text": "Delivery - Check availability",
+        "size_or_volume": "5-seat",
+        "sku": "396.142.82",
+        "available_colors": [
+          "Gunnared bright green-yellow"
+        ],
+        "available_sizes": null,
+        "currency": "USD",
+        "key_features": [
+          "10 year limited warranty"
+        ],
+        "material": null,
+        "measurements": null,
+        "old_price_raw": null,
+        "price": 1499.0,
+        "short_description": "Sweeping, soft shapes that are easy on both the eye and the body."
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "url": "https://www.ikea.com/us/en/p/lillesater-sectional-5-seat-gunnared-bright-green-yellow-39614282/",
+        "snapshot_id": "WBV1_ECOM_01_IKEA_US_DETAIL",
+        "css_selector": null,
+        "xpath": null,
+        "text_quote": "LILLESÅTER Sectional, 5-seat, Gunnared bright green-yellow $1,499.00"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 17.639,
+    "input_tokens": 5599,
+    "output_tokens": 446,
+    "total_tokens": 6045,
+    "num_tiles": 4,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_01_IKEA_US_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_01_IKEA_US_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_01_IKEA_US_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_01_IKEA_US_DETAIL\\tile_04.png"
+    ],
+    "error": null
+  }
+}

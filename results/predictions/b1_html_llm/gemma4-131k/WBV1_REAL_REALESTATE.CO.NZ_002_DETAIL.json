@@ -1,0 +1,130 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury/m1fv7m7sc",
+          "provenance": {
+            "selector": "meta[content*='canonical']/@href",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 386000,
+            "currency_code": "NZD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": "div[data-test='property-price'] span:nth-child(1)",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "12B Mary Street, Papanui, Christchurch City",
+          "provenance": {
+            "selector": "div[data-test='property-details'] div:nth-child(1) p",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Property value - 12B Mary Street, Papanui - realestate.co.nz",
+          "provenance": {
+            "selector": "meta[property='og:title']/@content",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "Residential",
+          "provenance": {
+            "selector": "div[data-test='breadcrumbs__category'] a",
+            "source": "page.html"
+          }
+        },
+        "bedrooms": {
+          "value": 2,
+          "provenance": {
+            "selector": "meta[content*='numberOfRooms']/@value",
+            "source": "page.html"
+          }
+        },
+        "bathrooms": {
+          "value": 1,
+          "provenance": {
+            "selector": "meta[content*='floorSize']/@unitCode",
+            "source": "page.html"
+          }
+        },
+        "floor_area": {
+          "value": {
+            "value": 130,
+            "unit": "SQM"
+          },
+          "provenance": {
+            "selector": "meta[content*='floorSize']/@value",
+            "source": "page.html"
+          }
+        },
+        "listing_agent": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.100x54.jpg?options=compress 100w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.200x109.jpg?options=compress 200w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.300x164.jpg?options=compress 300w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.420x230.jpg?options=compress 420w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.500x274.jpg?options=compress 500w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.650x357.jpg?options=compress 650w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.767x421.jpg?options=compress 767w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.900x494.jpg?options=compress 900w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.1075x590.jpg?options=compress 1075w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.1200x659.jpg?options=compress 1200w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.1440x791.jpg?options=compress 1440w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.1660x912.jpg?options=compress 1660w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.1800x989.jpg?options=compress 1800w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.2880x1583.jpg?options=compress 2880w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.3600x1979.jpg?options=compress 3600w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.4700x2583.jpg?options=compress 4700w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.5500x3023.jpg?options=compress 5500w",
+            "https://mediaserver.realestate.co.nz/listings/42608006/ac14acb2cde08cea10fba965b7d50cf4.crop.6200x3408.jpg?options=compress 6200w"
+          ],
+          "provenance": {
+            "selector": "link[as='image']/@href",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 30.905,
+    "input_tokens": 21697,
+    "output_tokens": 2120,
+    "total_tokens": 23817,
+    "initial_input_tokens": 21697,
+    "initial_output_tokens": 2120,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

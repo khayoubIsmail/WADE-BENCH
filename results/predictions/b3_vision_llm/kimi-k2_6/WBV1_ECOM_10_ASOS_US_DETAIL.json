@@ -1,0 +1,87 @@
+{
+  "task_id": "WBV1_ECOM_10_ASOS_US_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Vila",
+        "description": "Vila chiffon trapeze mini dress in light pink",
+        "image_urls": [
+          "https://www.asos.com/us/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/203987310"
+        ],
+        "price_raw": "$73.00",
+        "product_name": "Vila chiffon trapeze mini dress in light pink",
+        "product_url": "https://www.asos.com/us/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/203987310",
+        "rating": null,
+        "review_count": null,
+        "availability": null,
+        "color": "Sea Pink",
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": "https://www.asos.com/us/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/203987310",
+        "shipping_text": "Free delivery on qualifying orders.",
+        "size_or_volume": null,
+        "sku": null,
+        "available_colors": null,
+        "available_sizes": null,
+        "available_widths": null,
+        "capacity_or_size": null,
+        "care": null,
+        "color_name": "Sea Pink",
+        "color_options": null,
+        "colors_options": null,
+        "currency": "USD",
+        "first_review_content": null,
+        "first_review_details": null,
+        "first_review_rating": null,
+        "first_review_text": null,
+        "first_review_title": null,
+        "fit": null,
+        "foam_model": null,
+        "key_features": null,
+        "material": null,
+        "materials": null,
+        "measurements": null,
+        "old_price_raw": null,
+        "price": 73.0,
+        "selected_width": null,
+        "seller_name": null,
+        "shipping_info": "Free delivery on qualifying orders.",
+        "short_description": null,
+        "style_color": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "url": "https://www.asos.com/us/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/203987310",
+        "snapshot_id": "WBV1_ECOM_10_ASOS_US_DETAIL",
+        "css_selector": null,
+        "xpath": null,
+        "text_quote": "Vila chiffon trapeze mini dress in light pink $73.00 colour: Sea Pink"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 24.749,
+    "input_tokens": 3682,
+    "output_tokens": 454,
+    "total_tokens": 4136,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_10_ASOS_US_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_10_ASOS_US_DETAIL\\tile_02.png"
+    ],
+    "error": null
+  }
+}

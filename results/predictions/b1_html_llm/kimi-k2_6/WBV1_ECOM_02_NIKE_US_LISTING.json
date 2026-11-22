@@ -1,0 +1,1666 @@
+{
+  "task_id": "WBV1_ECOM_02_NIKE_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "product_name": "Air Jordan 4 \"Toro\"",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$220",
+        "price": 220.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fde2cc9-99ff-469a-81b3-e74ffe5be20f/AIR+JORDAN+4+RETRO.png",
+        "product_url": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Coming Soon",
+        "availability": null,
+        "brand": "Jordan",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": null,
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Air Jordan 4 \"Toro\""
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$220"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fde2cc9-99ff-469a-81b3-e74ffe5be20f/AIR+JORDAN+4+RETRO.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600\""
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__messaging",
+          "text_quote": "Coming Soon"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "product_name": "Air Jordan 3 \"World's Best\"",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$215",
+        "price": 215.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31313d8b-c313-4270-91d8-f03d8078f960/AIR+JORDAN+3+RETRO+OG.png",
+        "product_url": "https://www.nike.com/t/air-jordan-3-worlds-best-mens-shoes-1ViayvSi/IF4396-103",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Just In",
+        "availability": null,
+        "brand": "Jordan",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": null,
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Air Jordan 3 \"World's Best\""
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$215"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31313d8b-c313-4270-91d8-f03d8078f960/AIR+JORDAN+3+RETRO+OG.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/air-jordan-3-worlds-best-mens-shoes-1ViayvSi/IF4396-103\""
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__messaging",
+          "text_quote": "Just In"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "product_name": "Nike Tennis Classic",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$105",
+        "price": 105.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/94ae4c48-4647-4eae-8301-6bd0b50ba81a/TENNIS+CLASSIC+CS+STYLE.png",
+        "product_url": "https://www.nike.com/t/tennis-classic-mens-shoes-78rRP46N/IV2436-300",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": [
+          "Fir/Sail/Fir",
+          "Sanddrift/Sail/Sanddrift"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Tennis Classic"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$105"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/94ae4c48-4647-4eae-8301-6bd0b50ba81a/TENNIS+CLASSIC+CS+STYLE.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/tennis-classic-mens-shoes-78rRP46N/IV2436-300\""
+        },
+        "color_options": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__colorways-image img",
+          "text_quote": "alt=\"Fir/Sail/Fir\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "product_name": "Nike Tennis Classic PRM",
+        "product_subtitle": "Men's Terry Shoes",
+        "price_raw": "$125",
+        "price": 125.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8b837a52-4418-43b1-9ec3-b865042a409b/TENNIS+CLASSIC+CS+PRM+%28TERRY%29.png",
+        "product_url": "https://www.nike.com/t/tennis-classic-prm-mens-terry-shoes-nGj0bX59/IR1114-300",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": [
+          "Fir/White/Sail/Fir",
+          "White/Sail/Safety Orange/White"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Tennis Classic PRM"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Terry Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$125"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8b837a52-4418-43b1-9ec3-b865042a409b/TENNIS+CLASSIC+CS+PRM+%28TERRY%29.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/tennis-classic-prm-mens-terry-shoes-nGj0bX59/IR1114-300\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "product_name": "Nike Air Max 95 OG",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$190",
+        "price": 190.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ca9fcdc0-a84e-478e-b370-2d396d50e369/AIR+MAX+95+BIG+BUBBLE.png",
+        "product_url": "https://www.nike.com/t/air-max-95-og-mens-shoes-2xNsHz6W/IH7855-100",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": [
+          "White/Lake Blue/French Blue/Emerald Green",
+          "Phantom/Fir/Alabaster/Team Red",
+          "Black/Dark Smoke Grey/Metallic Cool Grey/Black",
+          "Varsity Maize/Black/Metallic Silver/Black",
+          "Black/Team Crimson/Wolf Grey/Black",
+          "Wolf Grey/Wolf Grey/Anthracite/Wolf Grey",
+          "White/White/Pure Platinum/White",
+          "Black/Black/Black",
+          "Metallic Silver/Black/University Red/Black",
+          "Black/Off Noir/Metallic Silver/Black",
+          "Black/University Gold/Metallic Silver/White",
+          "University Red/White/Black/University Red",
+          "Court Purple/Black/Cave Purple/Vast Grey",
+          "Black/Metallic Silver/Golden Beige/Safety Orange",
+          "Metallic Gold/University Red/Elemental Gold/Black",
+          "Black/Black/Anthracite/Black",
+          "Photon Dust/Dark Smoke Grey/Cool Grey/Metallic Silver",
+          "Baroque Brown/Baroque Brown/Black/Coconut Milk",
+          "Black/Dark Team Red/Varsity Red/White",
+          "Black/Cobalt Pulse/Photo Blue/White",
+          "Black/Orange Horizon/Fortress Green/White"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Air Max 95 OG"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$190"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ca9fcdc0-a84e-478e-b370-2d396d50e369/AIR+MAX+95+BIG+BUBBLE.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/air-max-95-og-mens-shoes-2xNsHz6W/IH7855-100\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "product_name": "Nike G.T. Cut 4 \"Victor Wembanyama\"",
+        "product_subtitle": "Basketball Shoes",
+        "price_raw": "$210",
+        "price": 210.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0bf16e28-22e6-4c40-bf76-b38a14b184f9/G.T.+CUT+4+VW.png",
+        "product_url": "https://www.nike.com/t/gt-cut-4-victor-wembanyama-basketball-shoes-g6ukBsq1/IU1960-001",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Just In",
+        "availability": null,
+        "brand": "Nike",
+        "category": "Basketball",
+        "color": null,
+        "color_options": [
+          "Black/Metallic Gold/Bright Crimson",
+          "Metallic Rose Gold/Deep Maroon",
+          "Light Photo Blue/Metallic Silver/White/Action Red",
+          "Metallic Silver/Iron Grey"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike G.T. Cut 4 \"Victor Wembanyama\""
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Basketball Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$210"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0bf16e28-22e6-4c40-bf76-b38a14b184f9/G.T.+CUT+4+VW.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/gt-cut-4-victor-wembanyama-basketball-shoes-g6ukBsq1/IU1960-001\""
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__messaging",
+          "text_quote": "Just In"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "product_name": "Ja 3 x \"Kool-Aid\"",
+        "product_subtitle": "Basketball Shoes",
+        "price_raw": "$135",
+        "price": 135.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/de772a38-6a2d-4a2d-a40f-9446a43a5f83/JA+3+KOOL+AID.png",
+        "product_url": "https://www.nike.com/t/ja-3-x-kool-aid-basketball-shoes-8jL3s6S4/IW1159-700",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Just In",
+        "availability": null,
+        "brand": "Nike",
+        "category": "Basketball",
+        "color": null,
+        "color_options": [
+          "Lemon Venom/Light Green Spark/Pink Beam/Light Photo Blue",
+          "Anthracite/Yellow Ochre/Bright Crimson",
+          "Light Lemon Twist/Hemp/Bright Crimson/Black",
+          "Black/Total Orange/Hyper Pink/Baltic Blue",
+          "Green Spark/University Red/Dynamic Yellow/Black",
+          "Tour Yellow/Black/University Red",
+          "Blue Chill/Zitron/Blue Legend/Fire Red",
+          "Metallic Silver/White/Baltic Blue/Black"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Ja 3 x \"Kool-Aid\""
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Basketball Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$135"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/de772a38-6a2d-4a2d-a40f-9446a43a5f83/JA+3+KOOL+AID.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/ja-3-x-kool-aid-basketball-shoes-8jL3s6S4/IW1159-700\""
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__messaging",
+          "text_quote": "Just In"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "product_name": "Nike Pegasus Premium",
+        "product_subtitle": "Men's Road Running Shoes",
+        "price_raw": "$220",
+        "price": 220.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f9a1f279-7cb2-4934-a325-b62a68269fc4/NIKE+PEGASUS+PREMIUM.png",
+        "product_url": "https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/HQ2592-701",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Best Seller",
+        "availability": null,
+        "brand": "Nike",
+        "category": "Running",
+        "color": null,
+        "color_options": [
+          "Alabaster/Barely Volt/Volt Ice/Black",
+          "White/Metallic Silver/Metallic Silver",
+          "Photon Dust/Black/Metallic Silver",
+          "Caldera Brown/Caldera Brown/Pecan",
+          "Black/Metallic Silver/Black",
+          "Pale Ivory/Jade Horizon/Spruce Aura/Black Spruce",
+          "Off Noir/Black/Iron Grey/Metallic Dark Grey",
+          "Volt Ice/Lime Blast/Sapphire/Black Spruce",
+          "White/Off White/Volt/Black",
+          "Platinum Tint/Grey Fog/Iron Grey/Reflect Silver",
+          "Light Crimson/Bright Crimson/Black/Team Red",
+          "Lapis/Total Orange/Off Noir/White",
+          "Natural/Natural/Black/Mushroom",
+          "Wolf Grey/Pewter/Sail/Midnight Navy",
+          "Cannon/Barely Volt/Volt/Seaweed",
+          "Pink Foam/Black/Hyper Pink/Off Noir",
+          "Black/White/Metallic Silver",
+          "Thunder Blue/Obsidian/Black/Ashen Slate"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Pegasus Premium"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Road Running Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$220"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f9a1f279-7cb2-4934-a325-b62a68269fc4/NIKE+PEGASUS+PREMIUM.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/pegasus-premium-mens-road-running-shoes-kWXqW9yR/HQ2592-701\""
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__messaging",
+          "text_quote": "Best Seller"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "product_name": "Nike Vomero Premium",
+        "product_subtitle": "Men's Road Running Shoes",
+        "price_raw": "$230",
+        "price": 230.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d0e0df7b-e2a0-4e04-aaed-59dacae250d4/NIKE+VOMERO+PREMIUM.png",
+        "product_url": "https://www.nike.com/t/vomero-premium-mens-road-running-shoes-l11miwwa/HQ2050-702",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Best Seller",
+        "availability": null,
+        "brand": "Nike",
+        "category": "Running",
+        "color": null,
+        "color_options": [
+          "Volt Tint/Sapphire/Volt/Black Spruce",
+          "Pale Ivory/Sanddrift/Jade Horizon/Black Spruce",
+          "White/Total Orange/Laser Orange/Lapis",
+          "Barely Green/Barely Volt/Volt/Clay Green",
+          "Sail/Coconut Milk/Total Orange/Black"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Vomero Premium"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Road Running Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$230"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d0e0df7b-e2a0-4e04-aaed-59dacae250d4/NIKE+VOMERO+PREMIUM.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/vomero-premium-mens-road-running-shoes-l11miwwa/HQ2050-702\""
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__messaging",
+          "text_quote": "Best Seller"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "product_name": "Air Jordan 1 Retro Low OG \"Banned\"",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$145",
+        "price": 145.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ba9c1273-c857-431c-8ec7-f97aa861ed69/AIR+JORDAN+1+RETRO+LOW+OG.png",
+        "product_url": "https://www.nike.com/t/air-jordan-1-retro-low-og-banned-mens-shoes-9ceTZAxR/IW6276-001",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Jordan",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": null,
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Air Jordan 1 Retro Low OG \"Banned\""
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$145"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ba9c1273-c857-431c-8ec7-f97aa861ed69/AIR+JORDAN+1+RETRO+LOW+OG.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/air-jordan-1-retro-low-og-banned-mens-shoes-9ceTZAxR/IW6276-001\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "product_name": "Air Jordan 1 High OG \"Khaki\"",
+        "product_subtitle": "Women's Shoes",
+        "price_raw": "$185",
+        "price": 185.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0264677b-c726-4a85-9def-a6082a1768ad/WMNS+AIR+JORDAN+1+RETRO+HI+OG.png",
+        "product_url": "https://www.nike.com/t/air-jordan-1-high-og-khaki-womens-shoes-FO6hGtmD/FD2596-201",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Just In",
+        "availability": null,
+        "brand": "Jordan",
+        "category": "Women's Shoes",
+        "color": null,
+        "color_options": null,
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Air Jordan 1 High OG \"Khaki\""
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Women's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$185"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0264677b-c726-4a85-9def-a6082a1768ad/WMNS+AIR+JORDAN+1+RETRO+HI+OG.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/air-jordan-1-high-og-khaki-womens-shoes-FO6hGtmD/FD2596-201\""
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__messaging",
+          "text_quote": "Just In"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "product_name": "Nike Dunk Low SE \"LNY\"",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$97.97",
+        "price": 97.97,
+        "old_price_raw": "$130",
+        "discount_percentage": "24% off",
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/29ae8373-4463-48c7-9956-63300e6218c5/NIKE+DUNK+LOW.png",
+        "product_url": "https://www.nike.com/t/dunk-low-se-lny-mens-shoes-wlaYvsTw/IQ1118-220",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": [
+          "Linen/Phantom/Neutral Olive/Dark Hazel",
+          "Wolf Grey/Deep Royal Blue/Sail/White",
+          "Off White/Spruce Aura/Moon Particle/Dark Raisin",
+          "Cave Stone/Cave Stone/Cave Stone",
+          "Wolf Grey/Wolf Grey",
+          "Jade Horizon/Fir/Summit White/Black",
+          "Black/Black/Black",
+          "Filbert/Twine/Coconut Milk/Black",
+          "Moon Particle/Photon Dust/Coconut Milk/White",
+          "Phantom/Phantom"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Dunk Low SE \"LNY\""
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price.is--current-price",
+          "text_quote": "$97.97"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price.is--striked-out",
+          "text_quote": "$130"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price__perc",
+          "text_quote": "24% off"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/29ae8373-4463-48c7-9956-63300e6218c5/NIKE+DUNK+LOW.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/dunk-low-se-lny-mens-shoes-wlaYvsTw/IQ1118-220\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "product_name": "Nike Air Force 1 '07 RealTree",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$76.97",
+        "price": 76.97,
+        "old_price_raw": "$125",
+        "discount_percentage": "38% off",
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/857770a5-33de-4f3d-882d-8c2bc8234a79/AIR+FORCE+1+%2707.png",
+        "product_url": "https://www.nike.com/t/air-force-1-07-realtree-mens-shoes-slhnOew1/IO9803-200",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": [
+          "Rattan/Rocky Tan/Seal Brown/Multi-Color",
+          "Off Noir/Multi-Color/Gum Yellow/Multi-Color"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Air Force 1 '07 RealTree"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price.is--current-price",
+          "text_quote": "$76.97"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price.is--striked-out",
+          "text_quote": "$125"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price__perc",
+          "text_quote": "38% off"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/857770a5-33de-4f3d-882d-8c2bc8234a79/AIR+FORCE+1+%2707.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/air-force-1-07-realtree-mens-shoes-slhnOew1/IO9803-200\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "product_name": "Nike ACG Zegama",
+        "product_subtitle": "Men's Trail Running Shoes",
+        "price_raw": "$180",
+        "price": 180.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d6c5beef-1ed9-4b35-925f-6dc63b6ae69a/NIKE+ACG+ZEGAMA+TRAIL.png",
+        "product_url": "https://www.nike.com/t/acg-zegama-mens-trail-running-shoes-R6m2RvQq/HV8113-103",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Trail Running",
+        "color": null,
+        "color_options": [
+          "Summit White/Phantom/Safety Orange/Black",
+          "Cream II/Safety Orange/Light Orewood Brown",
+          "Baltic Blue/Light Orewood Brown/Mink Brown/Phantom",
+          "Black/Anthracite",
+          "Black/Safety Orange/Anthracite/Summit White"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike ACG Zegama"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Trail Running Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$180"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d6c5beef-1ed9-4b35-925f-6dc63b6ae69a/NIKE+ACG+ZEGAMA+TRAIL.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/acg-zegama-mens-trail-running-shoes-R6m2RvQq/HV8113-103\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "product_name": "Nike ACG Pegasus Trail",
+        "product_subtitle": "Men's Trail Running Shoes",
+        "price_raw": "$155",
+        "price": 155.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4c66c037-f50e-4de0-b7ae-39288003a0e0/NIKE+ACG+PEGASUS+TRAIL.png",
+        "product_url": "https://www.nike.com/t/acg-pegasus-trail-mens-trail-running-shoes-Z5DRSN1X/HV8116-310",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Trail Running",
+        "color": null,
+        "color_options": [
+          "Jade Horizon/Light Silver/Safety Orange/Phantom",
+          "Baltic Blue/Light Orewood Brown/Ironstone/Summit White",
+          "Black/Anthracite/Summit White",
+          "Summit White/Phantom/Safety Orange/Black",
+          "Cream II/Light Orewood Brown/Safety Orange/Cream II"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike ACG Pegasus Trail"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Trail Running Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$155"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4c66c037-f50e-4de0-b7ae-39288003a0e0/NIKE+ACG+PEGASUS+TRAIL.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/acg-pegasus-trail-mens-trail-running-shoes-Z5DRSN1X/HV8116-310\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "product_name": "Nike Phantom 6 Low Elite LV8",
+        "product_subtitle": "Firm-Ground Soccer Cleats",
+        "price_raw": "$270",
+        "price": 270.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/85a45ade-9d96-4dc6-85c4-de7888949f3e/PHANTOM+6+LOW+ELITE+FG+LV8.png",
+        "product_url": "https://www.nike.com/t/phantom-6-low-elite-lv8-firm-ground-soccer-cleats-XmHqLlVc/IO8217-008",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Soccer",
+        "color": null,
+        "color_options": [
+          "Ghost/Guava Ice/Ghost",
+          "Hot Punch/Green Strike/Black",
+          "Pistachio Frost/Hyper Orange",
+          "Burgundy Crush/Fossil/University Red",
+          "Racer Blue/White/Pink Blast",
+          "Medium Ash/Black/Gold Amber",
+          "Bright Crimson/Black",
+          "Black/Black"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Phantom 6 Low Elite LV8"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Firm-Ground Soccer Cleats"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$270"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/85a45ade-9d96-4dc6-85c4-de7888949f3e/PHANTOM+6+LOW+ELITE+FG+LV8.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/phantom-6-low-elite-lv8-firm-ground-soccer-cleats-XmHqLlVc/IO8217-008\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "product_name": "Nike Phantom 6 High Elite LV8",
+        "product_subtitle": "Firm-Ground Soccer Cleats",
+        "price_raw": "$295",
+        "price": 295.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70d4e6c1-9d72-453f-9996-4017791e1f88/PHANTOM+6+HIGH+ELITE+FG+LV8.png",
+        "product_url": "https://www.nike.com/t/phantom-6-high-elite-lv8-firm-ground-soccer-cleats-7Gaczkk1/IO8216-008",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Soccer",
+        "color": null,
+        "color_options": [
+          "Ghost/Guava Ice/Ghost",
+          "Pistachio Frost/Hyper Orange",
+          "Multi-Color/Bright Crimson",
+          "Hyper Crimson/Limelight/Black",
+          "Racer Blue/White/Pink Blast",
+          "Burgundy Crush/Fossil/University Red",
+          "Medium Ash/Black/Gold Amber",
+          "Black/Black"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Phantom 6 High Elite LV8"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Firm-Ground Soccer Cleats"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$295"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70d4e6c1-9d72-453f-9996-4017791e1f88/PHANTOM+6+HIGH+ELITE+FG+LV8.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/phantom-6-high-elite-lv8-firm-ground-soccer-cleats-7Gaczkk1/IO8216-008\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "product_name": "Nike Air Max Big Bubble",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$200",
+        "price": 200.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2d8b3ec5-9e42-463f-86c4-f110ee6d7ac8/AIR+MAX+95+BB+TECH.png",
+        "product_url": "https://www.nike.com/t/air-max-big-bubble-mens-shoes-YpxmNMcL/IH7853-200",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": [
+          "Medium Ash/Wolf Grey/Metallic Silver/Steam",
+          "Black/Iron Grey/Metallic Silver/University Blue"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Air Max Big Bubble"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$200"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2d8b3ec5-9e42-463f-86c4-f110ee6d7ac8/AIR+MAX+95+BB+TECH.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/air-max-big-bubble-mens-shoes-YpxmNMcL/IH7853-200\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "product_name": "Nike Shox R4",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$155",
+        "price": 155.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/37255fa7-9512-4e59-97fe-631af32c8056/NIKE+SHOX+R4+JEWEL+QS.png",
+        "product_url": "https://www.nike.com/t/shox-r4-mens-shoes-0PISn0m1/IO4546-002",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": [
+          "Black/Metallic Silver/Purple Dynasty/Anthracite",
+          "Black Spruce/Spruce Aura/Black/Olive Aura",
+          "Metallic Gold/Black/Metallic Gold",
+          "Sapphire/Pencil Point/Black/Light Liquid Lime",
+          "White/Metallic Silver/Deep Royal Blue/White",
+          "Court Blue/White/Metallic Silver",
+          "Metallic Silver/Black/Metallic Silver/Metallic Silver",
+          "Black/Seaweed/Light Lemon Twist/Black",
+          "Metallic Silver/Black/Team Crimson",
+          "Black/Light Smoke Grey/Metallic Silver/Sail",
+          "Metallic Silver/Black/Picante Red/Metallic Silver",
+          "Black/Black/Bright Crimson/Black",
+          "White/White/Bright Crimson/Metallic Silver",
+          "Light Smoke Grey/Smoke Grey/White/Black"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Shox R4"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$155"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/37255fa7-9512-4e59-97fe-631af32c8056/NIKE+SHOX+R4+JEWEL+QS.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/shox-r4-mens-shoes-0PISn0m1/IO4546-002\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "product_name": "Sabrina 3 \"WNBA 30th\"",
+        "product_subtitle": "Basketball Shoes",
+        "price_raw": "$145",
+        "price": 145.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93a1bdf0-4400-4218-bc42-3a93389a4684/SABRINA+3++NRG.png",
+        "product_url": "https://www.nike.com/t/sabrina-3-wnba-30th-basketball-shoes-LArVJUMq/IH1125-100",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Basketball",
+        "color": null,
+        "color_options": [
+          "Sail/Atom Red/Photo Blue/Team Navy",
+          "White/Wolf Grey/Photon Dust/Metallic Dark Grey",
+          "Soft Yellow/Orange Trance/Black/Black",
+          "Night Purple/Atomic Violet/Mint Foam/White",
+          "Pink Oxford/Red Stardust/Enamel Green/Coconut Milk",
+          "Iron Grey/Barely Volt/Mint Foam/Aluminum",
+          "Phantom/Ivory/Rush Coral/Black",
+          "Yellow Strike/Pale Yellow/Apple Green",
+          "Mint/White/Black",
+          "White/Football Grey/Bleached Lilac/Dusty Purple"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Sabrina 3 \"WNBA 30th\""
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Basketball Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$145"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93a1bdf0-4400-4218-bc42-3a93389a4684/SABRINA+3++NRG.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/sabrina-3-wnba-30th-basketball-shoes-LArVJUMq/IH1125-100\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "product_name": "LeBron XXIII \"Old Glory\"",
+        "product_subtitle": "Basketball Shoes",
+        "price_raw": "$210",
+        "price": 210.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4c7f7ef9-0f0b-4e1c-96bd-12f0859042e6/LEBRON+XXIII.png",
+        "product_url": "https://www.nike.com/t/lebron-xxiii-old-glory-basketball-shoes-1EPyFJde/IB9562-103",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Basketball",
+        "color": null,
+        "color_options": [
+          "Pale Ivory/University Red/Midnight Navy/Metallic Gold",
+          "Wheat Gold/Gum Medium Brown/Magic Ember/Wolf Grey",
+          "Black/Black/Black",
+          "Silt Red/Black/Metallic Copper",
+          "Cool Grey/Cool Grey/Black",
+          "Volt Tint/Black/Magic Ember/Multi-Color",
+          "Metallic Silver/Dusty Cactus/Black/Multi-Color",
+          "White/Light Crimson/Volt Tint/Multi-Color",
+          "White/White/Black",
+          "Hyper Pink/Black/Voltage Green/Alabaster",
+          "Black/Stadium Green/College Grey/Soft Yellow",
+          "Bright Crimson/Dusty Amethyst/Barely Volt/Multi-Color",
+          "White/University Red/Black/Metallic Gold"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "LeBron XXIII \"Old Glory\""
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Basketball Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$210"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4c7f7ef9-0f0b-4e1c-96bd-12f0859042e6/LEBRON+XXIII.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/lebron-xxiii-old-glory-basketball-shoes-1EPyFJde/IB9562-103\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "product_name": "Nike Air Max Moto 2K",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$135",
+        "price": 135.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/048a5c41-fe81-445d-bcab-99f9a5dcaff8/NIKE+AIR+MAX+MOTO+2K.png",
+        "product_url": "https://www.nike.com/t/air-max-moto-2k-mens-shoes-sHpe9Gv4/IO9279-101",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": [
+          "White/Wolf Grey/Royal Pulse/Concord",
+          "Light British Tan/Cream II/Linen/Coconut Milk",
+          "Anthracite/Black/Metallic Dark Grey/Wild Grape",
+          "Wolf Grey/Vast Grey/Cool Grey/Wolf Grey",
+          "Ironstone/College Grey/Velvet Brown/Ironstone",
+          "White/Metallic Silver/Photon Dust/Black",
+          "White/Black/Wolf Grey/Metallic Silver",
+          "Black/Metallic Dark Grey/Dark Smoke Grey",
+          "Off White/Metallic Silver/Hyper Turquoise/Black",
+          "White/Metallic Gold/Elemental Gold/Black",
+          "Wolf Grey/Vast Grey/Sundial/Black"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Air Max Moto 2K"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$135"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/048a5c41-fe81-445d-bcab-99f9a5dcaff8/NIKE+AIR+MAX+MOTO+2K.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/air-max-moto-2k-mens-shoes-sHpe9Gv4/IO9279-101\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "product_name": "Nike Air Force 1 '07",
+        "product_subtitle": "Men's Shoes",
+        "price_raw": "$115",
+        "price": 115.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b596fa86-9e1f-4629-99a0-0f17b8b963d3/AIR+FORCE+1+%2707.png",
+        "product_url": "https://www.nike.com/t/air-force-1-07-mens-shoes-XVPIszaq/FJ4146-126",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Men's Shoes",
+        "color": null,
+        "color_options": [
+          "White/Game Royal",
+          "Black/Black",
+          "White/White/Malachite",
+          "White/White/Light Smoke Grey/Light Smoke Grey",
+          "Anthracite/Iron Grey/Light Violet Ore/Black",
+          "Linen/Moon Particle/Mink Brown/Burgundy Crush",
+          "Black/Black/White",
+          "College Grey/College Grey",
+          "White/Blue Tint/Pure Platinum/Chrome",
+          "White/Black",
+          "Desert Moss/Midwest Gold/Baroque Brown/Fierce Pink",
+          "White/White/Orange Frost",
+          "Hydrogen Blue/White/Orange Frost/Metallic Silver",
+          "Asparagus/Aluminum/Phantom/Wheat Grass"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Air Force 1 '07"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Men's Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$115"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b596fa86-9e1f-4629-99a0-0f17b8b963d3/AIR+FORCE+1+%2707.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/air-force-1-07-mens-shoes-XVPIszaq/FJ4146-126\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "product_name": "Nike NEXT% TOUR 3",
+        "product_subtitle": "Golf Shoes",
+        "price_raw": "$200",
+        "price": 200.0,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fe7260f2-bb22-4523-805e-081dab97937a/NIKE+NEXT%25+TOUR+3+NRG+M26.png",
+        "product_url": "https://www.nike.com/t/next-tour-3-golf-shoes-2HpEZxcY/IH0840-001",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Golf",
+        "color": null,
+        "color_options": [
+          "Phantom/Off White/Volt Ice/Midnight Navy",
+          "Summit White/Bright Crimson/Dusty Cactus/Black",
+          "Black/Light Smoke Grey/White",
+          "White/Phantom/Black",
+          "White/Work Blue/Thunder Blue"
+        ],
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike NEXT% TOUR 3"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Golf Shoes"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-price",
+          "text_quote": "$200"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fe7260f2-bb22-4523-805e-081dab97937a/NIKE+NEXT%25+TOUR+3+NRG+M26.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/next-tour-3-golf-shoes-2HpEZxcY/IH0840-001\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "product_name": "Nike Pegasus 1 G",
+        "product_subtitle": "Golf Shoes",
+        "price_raw": null,
+        "price": null,
+        "old_price_raw": null,
+        "discount_percentage": null,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/acba5092-0a6b-469a-8e73-4601f5581eb3/PEGASUS+1+G.png",
+        "product_url": "https://www.nike.com/t/pegasus-1-g-golf-shoes-dpr7oQdF/HV4700-100",
+        "rating": null,
+        "review_count": null,
+        "short_description": null,
+        "availability": null,
+        "brand": "Nike",
+        "category": "Golf",
+        "color": null,
+        "color_options": null,
+        "currency": "USD",
+        "seller_name": "Nike"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__title",
+          "text_quote": "Nike Pegasus 1 G"
+        },
+        "product_subtitle": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".product-card__subtitle",
+          "text_quote": "Golf Shoes"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img.product-card__hero-image",
+          "text_quote": "src=\"https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/acba5092-0a6b-469a-8e73-4601f5581eb3/PEGASUS+1+G.png\""
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.product-card__link-overlay",
+          "text_quote": "href=\"https://www.nike.com/t/pegasus-1-g-golf-shoes-dpr7oQdF/HV4700-100\""
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote": "Nike.com",
+          "inferred": true
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 436.907,
+    "input_tokens": 216322,
+    "output_tokens": 15786,
+    "total_tokens": 232108,
+    "initial_input_tokens": 216322,
+    "initial_output_tokens": 15786,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

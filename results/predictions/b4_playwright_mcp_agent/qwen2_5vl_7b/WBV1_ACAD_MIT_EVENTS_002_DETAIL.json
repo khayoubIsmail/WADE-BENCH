@@ -1,0 +1,35 @@
+{
+  "task_id": "WBV1_ACAD_MIT_EVENTS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Food Truck Wednesdays",
+        "event_start_date": "2026-05-03T17:30:00+01:00",
+        "event_end_date": "2026-05-03T18:00:00+01:00",
+        "location": "Building E23, Outside",
+        "event_url": "https://calendar.mit.edu/event/food-truck-wednesdays",
+        "registration_deadline": null,
+        "submission_deadline": null
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 21.551,
+    "input_tokens": 25308,
+    "output_tokens": 733,
+    "total_tokens": 26041,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_MIT_EVENTS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_MIT_EVENTS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_id": "conference_cfp_v1",
+  "domain": "academic/events/conferences",
+  "description": "Schema for conference call for papers (CFP) announcements.",
+  "required_fields": [
+    "conference_name",
+    "abstract_deadline",
+    "full_paper_deadline",
+    "notification_date",
+    "conference_start_date",
+    "conference_end_date",
+    "location",
+    "cfp_url"
+  ],
+  "optional_fields": [
+    "topics",
+    "submission_link",
+    "organizer"
+  ],
+  "normalization_rules": {
+    "abstract_deadline": "Convert to ISO 8601 format (YYYY-MM-DD).",
+    "full_paper_deadline": "Convert to ISO 8601 format (YYYY-MM-DD).",
+    "notification_date": "Convert to ISO 8601 format (YYYY-MM-DD).",
+    "conference_start_date": "Convert to ISO 8601 format.",
+    "conference_end_date": "Convert to ISO 8601 format.",
+    "location": "Normalize location names to City, Region, Country."
+  },
+  "canonical_record_key": ["conference_name", "conference_start_date", "cfp_url"],
+  "provenance_required": true
+}

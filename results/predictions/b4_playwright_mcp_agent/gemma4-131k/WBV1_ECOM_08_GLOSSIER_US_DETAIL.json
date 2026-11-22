@@ -1,0 +1,93 @@
+{
+  "task_id": "WBV1_ECOM_08_GLOSSIER_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Glossier",
+        "description": "A super gentle cleansing experience. A pH-balanced gel-cream cleanser that’s suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished–never stripped.",
+        "image_urls": [
+          {
+            "url": "data/raw_snapshots/ecommerce/glossier_us_detail_sample/page.safe.html#e157",
+            "source": "page.safe.html"
+          }
+        ],
+        "price_raw": "259 dh",
+        "product_name": "Milky Jelly Cleanser",
+        "product_url": null,
+        "rating": "4.2",
+        "review_count": 4634,
+        "available_sizes": [
+          {
+            "size": "177 mL",
+            "source": "page.safe.html"
+          },
+          {
+            "size": "60 mL",
+            "source": "page.safe.html"
+          }
+        ]
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "h1[ref=e77]",
+          "text_quote_or_attribute": "Milky Jelly Cleanser – Glossier (Page Title/Context)"
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "[ref=e137]",
+          "text_quote_or_attribute": "A pH-balanced gel-cream cleanser that’s suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished–never stripped."
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "[ref=e157]",
+          "text_quote_or_attribute": "img \"milky jelly cleanser\" [ref=e157]"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "[ref=e133]",
+          "text_quote_or_attribute": "259 dh"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "[ref=e77]",
+          "text_quote_or_attribute": "Milky Jelly Cleanser"
+        },
+        "product_url": null,
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "[ref=e90]",
+          "text_quote_or_attribute": "4.200043 star rating"
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "(4634) Total reviews"
+        },
+        "available_sizes": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "[ref=e121], [ref=e124]",
+          "text_quote_or_attribute": "177 mL, 60 mL"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 37.022,
+    "input_tokens": 24003,
+    "output_tokens": 2140,
+    "total_tokens": 26143,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_08_GLOSSIER_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_08_GLOSSIER_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

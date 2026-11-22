@@ -1,0 +1,42 @@
+{
+  "task_id": "WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Get Started: Algo & Bot Trading 101",
+        "event_start_date": "2023-06-04T23:30:00Z",
+        "event_end_date": "2023-06-05T00:30:00Z",
+        "location": "Online event",
+        "event_url": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-478923222027"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 4.726,
+    "input_tokens": 3541,
+    "output_tokens": 184,
+    "total_tokens": 3725,
+    "num_tiles": 2,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL\\tile_02.png"
+    ],
+    "error": null
+  }
+}

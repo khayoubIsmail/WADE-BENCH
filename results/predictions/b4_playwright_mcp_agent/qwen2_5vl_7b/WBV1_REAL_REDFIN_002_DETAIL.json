@@ -1,0 +1,52 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662",
+        "price": {
+          "amount": 375000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "2749 Fish Ave, Bronx, NY 10469",
+        "property_type": "Single-family",
+        "bedrooms": 3,
+        "bathrooms": 3.5,
+        "floor_area": {
+          "value": 2058,
+          "unit": "sq ft"
+        },
+        "listing_title": null,
+        "year_built": "1950",
+        "lot_size": "2,500 Sq. Ft.",
+        "price_per_m2": {
+          "amount": 182,
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        },
+        "parking": null
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 171.407,
+    "input_tokens": 26435,
+    "output_tokens": 9383,
+    "total_tokens": 35818,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_REDFIN_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_REDFIN_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

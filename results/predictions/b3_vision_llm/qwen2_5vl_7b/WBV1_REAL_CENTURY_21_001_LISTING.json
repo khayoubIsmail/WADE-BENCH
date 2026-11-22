@@ -1,0 +1,100 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_001_LISTING",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.century21.com/listings/160-noe-street-san-francisco-ca-94114",
+        "price": {
+          "amount": 2995000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "160 Noe Street, San Francisco, CA 94114",
+        "listing_title": "3 beds 2 baths 2.495 sq. ft.",
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 2495,
+          "unit": "sq ft"
+        }
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.century21.com/listings/487-belvedere-street-san-francisco-ca-94115",
+        "price": {
+          "amount": 2195000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "487 Belvedere Street, San Francisco, CA ...",
+        "listing_title": "3 beds 3 baths 1.935 sq. ft.",
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "floor_area": {
+          "value": 1935,
+          "unit": "sq ft"
+        }
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 2
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 44.047,
+    "input_tokens": 38688,
+    "output_tokens": 1069,
+    "total_tokens": 39757,
+    "num_tiles": 24,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_05.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_06.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_07.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_08.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_09.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_10.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_11.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_12.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_13.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_14.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_15.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_16.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_17.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_18.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_19.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_20.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_21.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_22.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_23.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_CENTURY_21_001_LISTING\\tile_24.png"
+    ],
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

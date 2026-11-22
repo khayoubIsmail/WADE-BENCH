@@ -1,0 +1,626 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_001_LISTING",
+  "source_files": {
+    "page_html": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/page.html",
+    "page_safe_html": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/page.safe.html",
+    "text_txt": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/text.txt",
+    "ax_tree": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/ax_tree.json",
+    "metadata": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/metadata.json",
+    "screenshot": "data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/screenshot.png"
+  },
+  "mcp": {
+    "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/page.safe.html",
+    "available_tools": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "browser_snapshot": "### Page\n- Page URL: http://127.0.0.1:53290/page.safe.html\n- Page Title: Properties For Sale in Untitled (Drawn Area) | Rightmove\n- Console: 4 errors, 0 warnings\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - banner [ref=e3]:\n    - generic [ref=e5]:\n      - link \"Go to Rightmove homepage\" [ref=e6] [cursor=pointer]:\n        - /url: /\n        - img [ref=e7]\n      - navigation [ref=e11]:\n        - link \"Buy\" [ref=e13] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Rent\" [ref=e15] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"House Prices\" [ref=e17] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Mortgages\" [ref=e19] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Find Agent\" [ref=e21] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Commercial\" [ref=e23] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Inspire\" [ref=e25] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Overseas\" [ref=e27] [cursor=pointer]:\n          - /url: \"#\"\n        - button \"Sign in\" [ref=e29] [cursor=pointer]:\n          - generic [ref=e30]:\n            - img [ref=e31]\n            - text: Sign in\n    - generic:\n      - banner:\n        - link \"Go to homepage\" [ref=e33] [cursor=pointer]:\n          - /url: /\n          - img [ref=e34]\n      - generic [ref=e38]:\n        - img \"log_in\" [ref=e40]\n        - link \"Sign in\" [ref=e46] [cursor=pointer]:\n          - /url: /login.html?from=http://127.0.0.1:53290/page.safe.html\n      - generic:\n        - generic: Buy\n        - link \"Property for sale\" [ref=e47] [cursor=pointer]:\n          - /url: /property-for-sale.html\n        - link \"New homes for sale\" [ref=e48] [cursor=pointer]:\n          - /url: /new-homes-for-sale.html\n        - link \"Property valuation\" [ref=e49] [cursor=pointer]:\n          - /url: /agent-valuation\n        - link \"Investors\" [ref=e50] [cursor=pointer]:\n          - /url: /guides/landlord/investor-newsletter/\n        - link \"Mortgages\" [ref=e51] [cursor=pointer]:\n          - /url: /mortgages\n      - generic:\n        - generic: Rent\n        - link \"Property to rent\" [ref=e52] [cursor=pointer]:\n          - /url: /property-to-rent.html\n        - link \"Student property to rent\" [ref=e53] [cursor=pointer]:\n          - /url: /student-accommodation.html\n      - generic:\n        - generic: Find Agent\n        - link \"Find estate agents\" [ref=e54] [cursor=pointer]:\n          - /url: /estate-agents\n      - generic:\n        - generic: House prices\n        - link \"Sold house prices\" [ref=e55] [cursor=pointer]:\n          - /url: /house-prices.html\n        - link \"Instant online valuation\" [ref=e56] [cursor=pointer]:\n          - /url: /house-value.html\n      - generic:\n        - generic: Mortgages\n        - link \"Get started\" [ref=e57] [cursor=pointer]:\n          - /url: /mortgages\n        - link \"Get a Mortgage in Principle\" [ref=e58] [cursor=pointer]:\n          - /url: /mortgages/mortgage-in-principle\n        - link \"Check your affordability\" [ref=e59] [cursor=pointer]:\n          - /url: /mortgages/calculators/mortgage-calculator\n        - link \"Remortgage Calculator\" [ref=e60] [cursor=pointer]:\n          - /url: /mortgages/calculators/remortgage-calculator\n        - link \"Mortgage guides\" [ref=e61] [cursor=pointer]:\n          - /url: /mortgages/guides\n      - generic:\n        - generic: Commercial\n        - link \"Commercial property to rent\" [ref=e62] [cursor=pointer]:\n          - /url: /commercial-property\n        - link \"Commercial property for sale\" [ref=e63] [cursor=pointer]:\n          - /url: /commercial-property?buy=true\n        - link \"Advertise\" [ref=e64] [cursor=pointer]:\n          - /url: /c/commercial-advertising/\n      - generic:\n        - generic: Inspire\n        - link \"Moving stories\" [ref=e65] [cursor=pointer]:\n          - /url: /moving-stories/\n        - link \"Property news\" [ref=e66] [cursor=pointer]:\n          - /url: /news/\n        - link \"Energy efficiency\" [ref=e67] [cursor=pointer]:\n          - /url: /guides/energy-efficiency/\n        - link \"Property guides\" [ref=e68] [cursor=pointer]:\n          - /url: /guides/\n        - link \"Housing trends\" [ref=e69] [cursor=pointer]:\n          - /url: /news/house-price-index/\n        - link \"Overseas blog\" [ref=e70] [cursor=pointer]:\n          - /url: /overseas-magazine/\n        - link \"Mortgage guides\" [ref=e71] [cursor=pointer]:\n          - /url: /mortgages/guides/\n      - generic:\n        - generic: Overseas\n        - link \"All countries\" [ref=e72] [cursor=pointer]:\n          - /url: /overseas-property.html\n        - link \"Spain\" [ref=e73] [cursor=pointer]:\n          - /url: /overseas-property/in-Spain.html\n        - link \"France\" [ref=e74] [cursor=pointer]:\n          - /url: /overseas-property/in-France.html\n        - link \"Portugal\" [ref=e75] [cursor=pointer]:\n          - /url: /overseas-property/in-Portugal.html\n        - link \"Italy\" [ref=e76] [cursor=pointer]:\n          - /url: /overseas-property/in-Italy.html\n        - link \"Greece\" [ref=e77] [cursor=pointer]:\n          - /url: /overseas-property/in-Greece.html\n        - link \"Currency\" [ref=e78] [cursor=pointer]:\n          - /url: /overseas-property/currency-zone.html\n        - link \"Sell Overseas property\" [ref=e79] [cursor=pointer]:\n          - /url: /overseas-property/advertise.html\n  - generic [ref=e80]:\n    - button \"Skip to Content\" [ref=e81] [cursor=pointer]:\n      - generic [ref=e82]: Skip to Content\n    - main [ref=e83]:\n      - generic [ref=e84]:\n        - generic [ref=e87]:\n          - generic \"Enter a search location\" [ref=e89]:\n            - textbox \"Enter a search location\" [ref=e94]\n          - generic [ref=e97]:\n            - combobox \"radius select\" [ref=e98]:\n              - option \"This area only\" [selected]\n              - option \"Within 1/4 mile\"\n              - option \"Within 1/2 mile\"\n              - option \"Within 1 mile\"\n              - option \"Within 3 miles\"\n              - option \"Within 5 miles\"\n              - option \"Within 10 miles\"\n              - option \"Within 15 miles\"\n              - option \"Within 20 miles\"\n              - option \"Within 30 miles\"\n              - option \"Within 40 miles\"\n            - img\n          - generic [ref=e99]:\n            - generic [ref=e101]:\n              - combobox \"Min Price\" [ref=e102]:\n                - option \"Min Price\" [selected]\n                - option \"£50,000\"\n                - option \"£60,000\"\n                - option \"£70,000\"\n                - option \"£80,000\"\n                - option \"£90,000\"\n                - option \"£100,000\"\n                - option \"£110,000\"\n                - option \"£120,000\"\n                - option \"£125,000\"\n                - option \"£130,000\"\n                - option \"£140,000\"\n                - option \"£150,000\"\n                - option \"£160,000\"\n                - option \"£170,000\"\n                - option \"£175,000\"\n                - option \"£180,000\"\n                - option \"£190,000\"\n                - option \"£200,000\"\n                - option \"£210,000\"\n                - option \"£220,000\"\n                - option \"£230,000\"\n                - option \"£240,000\"\n                - option \"£250,000\"\n                - option \"£260,000\"\n                - option \"£270,000\"\n                - option \"£280,000\"\n                - option \"£290,000\"\n                - option \"£300,000\"\n                - option \"£325,000\"\n                - option \"£350,000\"\n                - option \"£375,000\"\n                - option \"£400,000\"\n                - option \"£425,000\"\n                - option \"£450,000\"\n                - option \"£475,000\"\n                - option \"£500,000\"\n                - option \"£550,000\"\n                - option \"£600,000\"\n                - option \"£650,000\"\n                - option \"£700,000\"\n                - option \"£800,000\"\n                - option \"£900,000\"\n                - option \"£1,000,000\"\n                - option \"£1,250,000\"\n                - option \"£1,500,000\"\n                - option \"£1,750,000\"\n                - option \"£2,000,000\"\n                - option \"£2,500,000\"\n                - option \"£3,000,000\"\n                - option \"£4,000,000\"\n                - option \"£5,000,000\"\n                - option \"£7,500,000\"\n                - option \"£10,000,000\"\n                - option \"£15,000,000\"\n                - option \"£20,000,000\"\n              - img\n            - generic [ref=e103]: to\n            - generic [ref=e105]:\n              - combobox \"Max Price\" [ref=e106]:\n                - option \"Max Price\" [selected]\n                - option \"£50,000\"\n                - option \"£60,000\"\n                - option \"£70,000\"\n                - option \"£80,000\"\n                - option \"£90,000\"\n                - option \"£100,000\"\n                - option \"£110,000\"\n                - option \"£120,000\"\n                - option \"£125,000\"\n                - option \"£130,000\"\n                - option \"£140,000\"\n                - option \"£150,000\"\n                - option \"£160,000\"\n                - option \"£170,000\"\n                - option \"£175,000\"\n                - option \"£180,000\"\n                - option \"£190,000\"\n                - option \"£200,000\"\n                - option \"£210,000\"\n                - option \"£220,000\"\n                - option \"£230,000\"\n                - option \"£240,000\"\n                - option \"£250,000\"\n                - option \"£260,000\"\n                - option \"£270,000\"\n                - option \"£280,000\"\n                - option \"£290,000\"\n                - option \"£300,000\"\n                - option \"£325,000\"\n                - option \"£350,000\"\n                - option \"£375,000\"\n                - option \"£400,000\"\n                - option \"£425,000\"\n                - option \"£450,000\"\n                - option \"£475,000\"\n                - option \"£500,000\"\n                - option \"£550,000\"\n                - option \"£600,000\"\n                - option \"£650,000\"\n                - option \"£700,000\"\n                - option \"£800,000\"\n                - option \"£900,000\"\n                - option \"£1,000,000\"\n                - option \"£1,250,000\"\n                - option \"£1,500,000\"\n                - option \"£1,750,000\"\n                - option \"£2,000,000\"\n                - option \"£2,500,000\"\n                - option \"£3,000,000\"\n                - option \"£4,000,000\"\n                - option \"£5,000,000\"\n                - option \"£7,500,000\"\n                - option \"£10,000,000\"\n                - option \"£15,000,000\"\n                - option \"£20,000,000\"\n              - img\n          - generic [ref=e107]:\n            - generic [ref=e109]:\n              - combobox \"Min Beds\" [ref=e110]:\n                - option \"Min Beds\" [selected]\n                - option \"Studio\"\n                - option \"1 Bed\"\n                - option \"2 Bed\"\n                - option \"3 Bed\"\n                - option \"4 Bed\"\n                - option \"5 Bed\"\n                - option \"6 Bed\"\n                - option \"7 Bed\"\n                - option \"8 Bed\"\n                - option \"9 Bed\"\n                - option \"10 Bed\"\n              - img\n            - generic [ref=e111]: to\n            - generic [ref=e113]:\n              - combobox \"Max Beds\" [ref=e114]:\n                - option \"Max Beds\" [selected]\n                - option \"Studio\"\n                - option \"1 Bed\"\n                - option \"2 Bed\"\n                - option \"3 Bed\"\n                - option \"4 Bed\"\n                - option \"5 Bed\"\n                - option \"6 Bed\"\n                - option \"7 Bed\"\n                - option \"8 Bed\"\n                - option \"9 Bed\"\n                - option \"10 Bed\"\n              - img\n          - button \"Filters\" [ref=e116] [cursor=pointer]:\n            - generic [ref=e117]: Filters\n            - img [ref=e119]\n        - generic [ref=e122]:\n          - generic [ref=e123]:\n            - generic \"Properties For Sale in Untitled (Drawn Area)\" [ref=e124]:\n              - heading \"Properties For Sale in Untitled (Drawn Area)\" [level=1] [ref=e125]\n              - img [ref=e126]\n            - generic [ref=e128]:\n              - button \"Save Search\" [ref=e130] [cursor=pointer]:\n                - img [ref=e131]\n                - generic [ref=e133]: Save Search\n              - button \"Create Alert\" [ref=e135] [cursor=pointer]:\n                - img [ref=e136]\n                - generic [ref=e142]: Create Alert\n          - generic [ref=e143]:\n            - generic [ref=e144]:\n              - generic [ref=e146]:\n                - paragraph [ref=e148]: 13,352 results\n                - generic \"sort properties\" [ref=e149]:\n                  - generic [ref=e150]: \"Sort:\"\n                  - generic [ref=e151]:\n                    - combobox \"Sort:\" [ref=e152]:\n                      - option \"Highest Price\" [selected]\n                      - option \"Lowest Price\"\n                      - option \"Newest Listed\"\n                      - option \"Oldest Listed\"\n                    - img\n                - link \"Link to map view for USER_DEFINED_AREA^null\" [ref=e153] [cursor=pointer]:\n                  - /url: https://www.rightmove.co.uk/property-for-sale/map.html?sortType=2&areaSizeUnit=sqft&viewType=MAP&channel=BUY&index=0&radius=0.0&locationIdentifier=USERDEFINEDAREA%5E%7B%22polylines%22%3A%22upcfItd%60N%60xYha%40%7C%7BPslq%40ybDgbjAspXidPm_%5B%7Cj_A_%7C%40huf%40ngN%7Cyh%40jSihC%22%7D&numberOfPropertiesPerPage=47\n                  - generic [ref=e154]:\n                    - img [ref=e155]\n                    - text: Map\n              - generic [ref=e158]:\n                - generic [ref=e159]:\n                  - generic [ref=e160]:\n                    - img [ref=e161]\n                    - generic [ref=e163]: Prioritise properties with...\n                  - button \"Add keyword\" [ref=e165] [cursor=pointer]:\n                    - img [ref=e167]\n                    - generic [ref=e169]: Add keyword\n                - generic [ref=e170]:\n                  - generic [ref=e171]:\n                    - link \"Property has a floorplan | Property has virtual tour | Property has 10 images Viewing photo 1 of 10\" [ref=e173] [cursor=pointer]:\n                      - /url: /properties/89583912#/?channel=RES_BUY\n                      - generic [ref=e174]:\n                        - generic [ref=e175]:\n                          - img \"Property has a floorplan\" [ref=e176]\n                          - generic [ref=e177]: \"|\"\n                        - generic [ref=e178]:\n                          - img \"Property has virtual tour\" [ref=e179]\n                          - generic [ref=e180]: \"|\"\n                        - generic [ref=e181]:\n                          - img \"Property has 10 images\" [ref=e182]\n                          - generic \"Viewing photo 1 of 10\" [ref=e183]: 1/10\n                    - generic \"Featured Property\" [ref=e184]: FEATURED PROPERTY\n                  - generic [ref=e185]:\n                    - generic [ref=e186]:\n                      - generic \"Property images\" [ref=e187]:\n                        - generic [ref=e188]:\n                          - generic [ref=e190]:\n                            - img \"Property image 1\" [ref=e192]\n                            - img \"Property image 2\" [ref=e194]\n                            - img \"Property image 10\" [ref=e196]\n                          - generic [ref=e198]:\n                            - button \"left arrow - previous image\" [ref=e199] [cursor=pointer]:\n                              - img \"previous image\" [ref=e200]\n                            - link \"Link to property details page\" [ref=e201] [cursor=pointer]:\n                              - /url: /properties/89583912#/?channel=RES_BUY\n                            - button \"right arrow - next image\" [ref=e202] [cursor=pointer]:\n                              - img \"next image\" [ref=e203]\n                      - link \"£200,000 Offers in Region of\" [ref=e205] [cursor=pointer]:\n                        - /url: /properties/89583912#/?channel=RES_BUY\n                        - generic [ref=e206]:\n                          - generic [ref=e207]: £200,000\n                          - generic [ref=e208]: Offers in Region of\n                    - generic [ref=e209]:\n                      - generic [ref=e211]:\n                        - 'link \"Property address: Completed Manchester Apartment – 6% Rental Yields | Buy-to-Let Investment Apartment 1 in property 1 in property\" [ref=e212] [cursor=pointer]':\n                          - /url: /properties/89583912#/?channel=RES_BUY\n                          - generic [ref=e213]:\n                            - 'generic \"Property address: Completed Manchester Apartment – 6% Rental Yields | Buy-to-Let Investment\" [ref=e215]': Completed Manchester Apartment – 6% Rental Yields | Buy-to-Let Investment\n                            - generic [ref=e216]:\n                              - generic \"Apartment\" [ref=e217]\n                              - generic [ref=e218]:\n                                - img [ref=e219]\n                                - generic \"1 in property\" [ref=e221]: \"1\"\n                              - generic [ref=e222]:\n                                - img [ref=e223]\n                                - generic \"1 in property\" [ref=e225]: \"1\"\n                        - link \"Link to property details page\" [ref=e226] [cursor=pointer]:\n                          - /url: /properties/89583912#/?channel=RES_BUY\n                          - paragraph [ref=e227]: 1-bedroom apartment in central Manchester offering projected rental yields of 6%+.\n                      - generic [ref=e230]: Added yesterday by RW Invest, Liverpool\n                      - generic [ref=e231]:\n                        - link \"RW Invest, Liverpool Estate Agent Logo\" [ref=e233] [cursor=pointer]:\n                          - /url: /estate-agents/agent/RW-Invest/Liverpool-68046.html\n                          - img \"RW Invest, Liverpool Estate Agent Logo\" [ref=e234]\n                        - link \"0151 453 4672 Local call rate\" [ref=e237] [cursor=pointer]:\n                          - /url: tel:0151 453 4672\n                          - generic [ref=e238]: 0151 453 4672\n                          - generic [ref=e239]: Local call rate\n                        - link \"Click to email RW Invest\" [ref=e241] [cursor=pointer]:\n                          - /url: /property-for-sale/contactBranch.html?propertyId=89583912&from=null\n                          - img [ref=e242]\n                        - button \"Click to save this property\" [ref=e245] [cursor=pointer]:\n                          - img [ref=e247]\n                          - generic [ref=e249]: Save\n                - generic [ref=e250]:\n                  - generic [ref=e252]:\n                    - button \"Hide property\" [ref=e253] [cursor=pointer]:\n                      - img [ref=e254]\n                    - link \"Property has virtual tour | Property has 17 images Viewing photo 1 of 17\":\n                      - /url: /properties/142655393#/?channel=COM_BUY\n                      - generic [ref=e256] [cursor=pointer]:\n                        - generic [ref=e257]:\n                          - img \"Property has virtual tour\" [ref=e258]\n                          - generic [ref=e259]: \"|\"\n                        - generic [ref=e260]:\n                          - img \"Property has 17 images\" [ref=e261]\n                          - generic \"Viewing photo 1 of 17\" [ref=e262]: 1/17\n                    - generic [ref=e263]:\n                      - generic \"Property images\" [ref=e264]:\n                        - generic [ref=e265]:\n                          - generic [ref=e267]:\n                            - img \"Property image 1\" [ref=e269]\n                            - img \"Property image 2\" [ref=e271]\n                            - img \"Property image 17\" [ref=e273]\n                          - generic [ref=e275]:\n                            - button \"left arrow - previous image\" [ref=e276] [cursor=pointer]:\n                              - img \"previous image\" [ref=e277]\n                            - link \"Link to property details page\" [ref=e278] [cursor=pointer]:\n                              - /url: /properties/142655393#/?channel=COM_BUY\n                            - button \"right arrow - next image\" [ref=e279] [cursor=pointer]:\n                              - img \"next image\" [ref=e280]\n                      - link \"£14,000,000\" [ref=e282] [cursor=pointer]:\n                        - /url: /properties/142655393#/?channel=COM_BUY\n                        - generic [ref=e284]: £14,000,000\n                    - generic [ref=e285]:\n                      - generic [ref=e287]:\n                        - 'link \"Property address: North Werneth, Oldham, Greater Manchester, OL9 Land\" [ref=e288] [cursor=pointer]':\n                          - /url: /properties/142655393#/?channel=COM_BUY\n                          - generic [ref=e289]:\n                            - 'generic \"Property address: North Werneth, Oldham, Greater Manchester, OL9\" [ref=e291]': North Werneth, Oldham, Greater Manchester, OL9\n                            - generic \"Land\" [ref=e293]\n                        - link \"Link to property details page\" [ref=e294] [cursor=pointer]:\n                          - /url: /properties/142655393#/?channel=COM_BUY\n                          - paragraph [ref=e295]: An extremely rare opportunity to acquire a brownfield development site (approximately 8.7 acres) in the heart of Oldham for an excellent residential and commercial project on the former Hartford Mill site. The current landowners have undertaken extensive research into planning potent...\n                      - generic [ref=e298]: Marketed by Entwistle Green, Bury\n                      - generic [ref=e299]:\n                        - link \"Entwistle Green, Bury Estate Agent Logo\" [ref=e301] [cursor=pointer]:\n                          - /url: /estate-agents/agent/Entwistle-Green/Bury-134.html\n                          - img \"Entwistle Green, Bury Estate Agent Logo\" [ref=e302]\n                        - link \"0161 524 3592 Local call rate\" [ref=e305] [cursor=pointer]:\n                          - /url: tel:0161 524 3592\n                          - generic [ref=e306]: 0161 524 3592\n                          - generic [ref=e307]: Local call rate\n                        - link \"Click to email Entwistle Green\" [ref=e309] [cursor=pointer]:\n                          - /url: /commercial-property-for-sale/contactBranch.html?propertyId=142655393&from=null\n                          - img [ref=e310]\n                        - button \"Click to save this property\" [ref=e313] [cursor=pointer]:\n                          - img [ref=e315]\n                          - generic [ref=e317]: Save\n                  - generic [ref=e319]:\n                    - button \"Hide property\" [ref=e320] [cursor=pointer]:\n                      - img [ref=e321]\n                    - link \"Property has a floorplan | Property has 3 images Viewing photo 1 of 3\":\n                      - /url: /properties/166978733#/?channel=RES_BUY\n                      - generic [ref=e323] [cursor=pointer]:\n                        - generic [ref=e324]:\n                          - img \"Property has a floorplan\" [ref=e325]\n                          - generic [ref=e326]: \"|\"\n                        - generic [ref=e327]:\n                          - img \"Property has 3 images\" [ref=e328]\n                          - generic \"Viewing photo 1 of 3\" [ref=e329]: 1/3\n                    - generic [ref=e330]:\n                      - generic \"Property images\" [ref=e331]:\n                        - generic [ref=e332]:\n                          - generic [ref=e334]:\n                            - generic [ref=e336]:\n                              - img \"Property image 1\" [ref=e338]\n                              - img \"Property image 3\" [ref=e340]\n                              - img \"Property image 2\" [ref=e342]\n                            - generic [ref=e343]:\n                              - img [ref=e344]:\n                                - img [ref=e345]\n                              - img [ref=e349]:\n                                - img [ref=e350]\n                          - generic [ref=e355]:\n                            - button \"left arrow - previous image\" [ref=e356] [cursor=pointer]:\n                              - img \"previous image\" [ref=e357]\n                            - link \"Link to property details page\" [ref=e358] [cursor=pointer]:\n                              - /url: /properties/166978733#/?channel=RES_BUY\n                            - button \"right arrow - next image\" [ref=e359] [cursor=pointer]:\n                              - img \"next image\" [ref=e360]\n                      - link \"£4,500,000 Swimming Pool\" [ref=e362] [cursor=pointer]:\n                        - /url: /properties/166978733#/?channel=RES_BUY\n                        - generic [ref=e364]: £4,500,000\n                        - generic [ref=e365]: Swimming Pool\n                    - generic [ref=e366]:\n                      - generic [ref=e368]:\n                        - 'link \"Property address: Stenner Lane, Didsbury, M20 Detached 9 in property 7 in property\" [ref=e369] [cursor=pointer]':\n                          - /url: /properties/166978733#/?channel=RES_BUY\n                          - generic [ref=e370]:\n                            - 'generic \"Property address: Stenner Lane, Didsbury, M20\" [ref=e372]': Stenner Lane, Didsbury, M20\n                            - generic [ref=e373]:\n                              - generic \"Detached\" [ref=e374]\n                              - generic [ref=e375]:\n                                - img [ref=e376]\n                                - generic \"9 in property\" [ref=e378]: \"9\"\n                              - generic [ref=e379]:\n                                - img [ref=e380]\n                                - generic \"7 in property\" [ref=e382]: \"7\"\n                        - link \"Link to property details page\" [ref=e383] [cursor=pointer]:\n                          - /url: /properties/166978733#/?channel=RES_BUY\n                          - paragraph [ref=e384]: Built in Walter Gropius’s Bauhaus style of architecture, Fernbank is one of Didsbury’s MOST SPECTACULAR and truly remarkable PRIVATE RESIDENCES. Occupying a commanding position overlooking Fletcher Moss Park, the property boasts 120 degree panoramic views over Stenner Woods and beyond...\n                      - generic [ref=e387]: Added on 13/09/2025 by Philip James Kennedy, Didsbury\n                      - generic [ref=e388]:\n                        - link \"Philip James Kennedy, Didsbury Estate Agent Logo\" [ref=e390] [cursor=pointer]:\n                          - /url: /estate-agents/agent/Philip-James-Kennedy/Didsbury-7572.html\n                          - img \"Philip James Kennedy, Didsbury Estate Agent Logo\" [ref=e391]\n                        - link \"0161 524 4262 Local call rate\" [ref=e394] [cursor=pointer]:\n                          - /url: tel:0161 524 4262\n                          - generic [ref=e395]: 0161 524 4262\n                          - generic [ref=e396]: Local call rate\n                        - link \"Click to email Philip James Kennedy\" [ref=e398] [cursor=pointer]:\n                          - /url: /property-for-sale/contactBranch.html?propertyId=166978733&from=null\n                          - img [ref=e399]\n                        - button \"Click to save this property\" [ref=e402] [cursor=pointer]:\n                          - img [ref=e404]\n                          - generic [ref=e406]: Save\n                  - generic [ref=e408]:\n                    - button \"Hide property\" [ref=e409] [cursor=pointer]:\n                      - img [ref=e410]\n                    - link \"Property has a floorplan | Property has virtual tour | Property has 40 images Viewing photo 1 of 40\":\n                      - /url: /properties/87856368#/?channel=RES_BUY\n                      - generic [ref=e412] [cursor=pointer]:\n                        - generic [ref=e413]:\n                          - img \"Property has a floorplan\" [ref=e414]\n                          - generic [ref=e415]: \"|\"\n                        - generic [ref=e416]:\n                          - img \"Property has virtual tour\" [ref=e417]\n                          - generic [ref=e418]: \"|\"\n                        - generic [ref=e419]:\n                          - img \"Property has 40 images\" [ref=e420]\n                          - generic \"Viewing photo 1 of 40\" [ref=e421]: 1/40\n                    - generic [ref=e422]:\n                      - generic \"Property images\" [ref=e423]:\n                        - generic [ref=e424]:\n                          - generic [ref=e426]:\n                            - generic [ref=e428]:\n                              - img \"Property image 1\" [ref=e430]\n                              - img \"Property image 40\" [ref=e432]\n                              - img \"Property image 2\" [ref=e434]\n                            - generic [ref=e435]:\n                              - img [ref=e436]:\n                                - img [ref=e437]\n                              - img [ref=e441]:\n                                - img [ref=e442]\n                          - generic [ref=e447]:\n                            - button \"left arrow - previous image\" [ref=e448] [cursor=pointer]:\n                              - img \"previous image\" [ref=e449]\n                            - link \"Link to property details page\" [ref=e450] [cursor=pointer]:\n                              - /url: /properties/87856368#/?channel=RES_BUY\n                            - button \"right arrow - next image\" [ref=e451] [cursor=pointer]:\n                              - img \"next image\" [ref=e452]\n                      - link \"£3,995,000 High Specification\" [ref=e454] [cursor=pointer]:\n                        - /url: /properties/87856368#/?channel=RES_BUY\n                        - generic [ref=e456]: £3,995,000\n                        - generic [ref=e457]: High Specification\n                    - generic [ref=e458]:\n                      - generic [ref=e460]:\n                        - 'link \"Property address: Didsbury Park, Didsbury Village, M20 Detached 6 in property 5 in property\" [ref=e461] [cursor=pointer]':\n                          - /url: /properties/87856368#/?channel=RES_BUY\n                          - generic [ref=e462]:\n                            - 'generic \"Property address: Didsbury Park, Didsbury Village, M20\" [ref=e464]': Didsbury Park, Didsbury Village, M20\n                            - generic [ref=e465]:\n                              - generic \"Detached\" [ref=e466]\n                              - generic [ref=e467]:\n                                - img [ref=e468]\n                                - generic \"6 in property\" [ref=e470]: \"6\"\n                              - generic [ref=e471]:\n                                - img [ref=e472]\n                                - generic \"5 in property\" [ref=e474]: \"5\"\n                        - link \"Link to property details page\" [ref=e475] [cursor=pointer]:\n                          - /url: /properties/87856368#/?channel=RES_BUY\n                          - paragraph [ref=e476]: A SPECTACULAR AND TRULY EXCEPTIONAL DETACHED MANSION HOUSE, ARCHITECTURALLY DESIGNED to exacting standards of both design and finish; ‘HEDGEWOOD’ offers the perfect blend of LUXURY living and PLATINUM SPECIFICATION throughout, to create ONE OF THE FINEST HOMES in MANCHESTER. <...\n                      - generic [ref=e479]: Added on 29/04/2026 by Philip James Kennedy, Didsbury\n                      - generic [ref=e480]:\n                        - link \"Philip James Kennedy, Didsbury Estate Agent Logo\" [ref=e482] [cursor=pointer]:\n                          - /url: /estate-agents/agent/Philip-James-Kennedy/Didsbury-7572.html\n                          - img \"Philip James Kennedy, Didsbury Estate Agent Logo\" [ref=e483]\n                        - link \"0161 524 4262 Local call rate\" [ref=e486] [cursor=pointer]:\n                          - /url: tel:0161 524 4262\n                          - generic [ref=e487]: 0161 524 4262\n                          - generic [ref=e488]: Local call rate\n                        - link \"Click to email Philip James Kennedy\" [ref=e490] [cursor=pointer]:\n                          - /url: /property-for-sale/contactBranch.html?propertyId=87856368&from=null\n                          - img [ref=e491]\n                        - button \"Click to save this property\" [ref=e494] [cursor=pointer]:\n                          - img [ref=e496]\n                          - generic [ref=e498]: Save\n                  - generic [ref=e500]:\n                    - button \"Hide property\" [ref=e501] [cursor=pointer]:\n                      - img [ref=e502]\n                    - link \"Property has a floorplan | Property has 19 images Viewing photo 1 of 19\":\n                      - /url: /properties/159424889#/?channel=RES_BUY\n                      - generic [ref=e504] [cursor=pointer]:\n                        - generic [ref=e505]:\n                          - img \"Property has a floorplan\" [ref=e506]\n                          - generic [ref=e507]: \"|\"\n                        - generic [ref=e508]:\n                          - img \"Property has 19 images\" [ref=e509]\n                          - generic \"Viewing photo 1 of 19\" [ref=e510]: 1/19\n                    - generic [ref=e511]:\n                      - generic \"Property images\" [ref=e512]:\n                        - generic [ref=e513]:\n                          - generic [ref=e515]:\n                            - img \"Property image 1\" [ref=e517]\n                            - img \"Property image 2\" [ref=e519]\n                            - img \"Property image 19\" [ref=e521]\n                          - generic [ref=e523]:\n                            - button \"left arrow - previous image\" [ref=e524] [cursor=pointer]:\n                              - img \"previous image\" [ref=e525]\n                            - link \"Link to property details page\" [ref=e526] [cursor=pointer]:\n                              - /url: /properties/159424889#/?channel=RES_BUY\n                            - button \"right arrow - next image\" [ref=e527] [cursor=pointer]:\n                              - img \"next image\" [ref=e528]\n                      - link \"£3,750,000 Offers in Region of\" [ref=e530] [cursor=pointer]:\n                        - /url: /properties/159424889#/?channel=RES_BUY\n                        - generic [ref=e531]:\n                          - generic [ref=e532]: £3,750,000\n                          - generic [ref=e533]: Offers in Region of\n                    - generic [ref=e534]:\n                      - generic [ref=e536]:\n                        - 'link \"Property address: Norden Road, Rochdale, Greater Manchester, OL11 Detached 3 in property\" [ref=e537] [cursor=pointer]':\n                          - /url: /properties/159424889#/?channel=RES_BUY\n                          - generic [ref=e538]:\n                            - 'generic \"Property address: Norden Road, Rochdale, Greater Manchester, OL11\" [ref=e540]': Norden Road, Rochdale, Greater Manchester, OL11\n                            - generic [ref=e541]:\n                              - generic \"Detached\" [ref=e542]\n                              - generic [ref=e543]:\n                                - img [ref=e544]\n                                - generic \"3 in property\" [ref=e546]: \"3\"\n                        - link \"Link to property details page\" [ref=e547] [cursor=pointer]:\n                          - /url: /properties/159424889#/?channel=RES_BUY\n                          - paragraph [ref=e548]: An exciting opportunity to purchase a farm on the edge of the Rochdale, the farm is currently operated as a livery yard and provides two dwellings, a residential caravan, an extensive range of modern and traditional farm and approximately 71 acres or thereabouts of land.\n                      - generic [ref=e551]: Added on 14/03/2025 by GHA Associates, Grindleton\n                      - generic [ref=e552]:\n                        - link \"GHA Associates, Grindleton Estate Agent Logo\" [ref=e554] [cursor=pointer]:\n                          - /url: /estate-agents/agent/GHA-Associates/Grindleton-113044.html\n                          - img \"GHA Associates, Grindleton Estate Agent Logo\" [ref=e555]\n                        - link \"01200 874037 Local call rate\" [ref=e558] [cursor=pointer]:\n                          - /url: tel:01200 874037\n                          - generic [ref=e559]: 01200 874037\n                          - generic [ref=e560]: Local call rate\n                        - link \"Click to email GHA Associates\" [ref=e562] [cursor=pointer]:\n                          - /url: /property-for-sale/contactBranch.html?propertyId=159424889&from=null\n                          - img [ref=e563]\n                        - button \"Click to save this property\" [ref=e566] [cursor=pointer]:\n                          - img [ref=e568]\n                          - generic [ref=e570]: Save\n                  - generic [ref=e572]:\n                    - button \"Hide property\" [ref=e573] [cursor=pointer]:\n                      - img [ref=e574]\n                    - link \"Property has a floorplan | Property has 14 images Viewing photo 1 of 14\":\n                      - /url: /properties/159314969#/?channel=RES_BUY\n                      - generic [ref=e576] [cursor=pointer]:\n                        - generic [ref=e577]:\n                          - img \"Property has a floorplan\" [ref=e578]\n                          - generic [ref=e579]: \"|\"\n                        - generic [ref=e580]:\n                          - img \"Property has 14 images\" [ref=e581]\n                          - generic \"Viewing photo 1 of 14\" [ref=e582]: 1/14\n                    - generic [ref=e583]:\n                      - generic \"Property images\" [ref=e584]:\n                        - generic [ref=e585]:\n                          - generic [ref=e587]:\n                            - img \"Property image 1\" [ref=e589]\n                            - img \"Property image 2\" [ref=e591]\n                            - img \"Property image 14\" [ref=e593]\n                          - generic [ref=e595]:\n                            - button \"left arrow - previous image\" [ref=e596] [cursor=pointer]:\n                              - img \"previous image\" [ref=e597]\n                            - link \"Link to property details page\" [ref=e598] [cursor=pointer]:\n                              - /url: /properties/159314969#/?channel=RES_BUY\n                            - button \"right arrow - next image\" [ref=e599] [cursor=pointer]:\n                              - img \"next image\" [ref=e600]\n                      - link \"£3,750,000 Offers in Region of\" [ref=e602] [cursor=pointer]:\n                        - /url: /properties/159314969#/?channel=RES_BUY\n                        - generic [ref=e603]:\n                          - generic [ref=e604]: £3,750,000\n                          - generic [ref=e605]: Offers in Region of\n                    - generic [ref=e606]:\n                      - generic [ref=e608]:\n                        - 'link \"Property address: Norden Road, Rochdale, Greater Manchester, OL11 Equestrian Facility 3 in property\" [ref=e609] [cursor=pointer]':\n                          - /url: /properties/159314969#/?channel=RES_BUY\n                          - generic [ref=e610]:\n                            - 'generic \"Property address: Norden Road, Rochdale, Greater Manchester, OL11\" [ref=e612]': Norden Road, Rochdale, Greater Manchester, OL11\n                            - generic [ref=e613]:\n                              - generic \"Equestrian Facility\" [ref=e614]\n                              - generic [ref=e615]:\n                                - img [ref=e616]\n                                - generic \"3 in property\" [ref=e618]: \"3\"\n                        - link \"Link to property details page\" [ref=e619] [cursor=pointer]:\n                          - /url: /properties/159314969#/?channel=RES",
+    "navigation_result": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:53290/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:53290/page.safe.html\n- Page Title: Properties For Sale in Untitled (Drawn Area) | Rightmove\n- Console: 4 errors, 0 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T17-56-27-408Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T17-56-26-419Z.log#L1-L4"
+  },
+  "visible_text": "Buy\nRent\nHouse Prices\nFind Agent\nCommercial\nInspire\nOverseas\nSign in\nSign in\nBuy\nProperty for sale\nNew homes for sale\nProperty valuation\nInvestors\nMortgages\nRent\nProperty to rent\nStudent property to rent\nFind Agent\nFind estate agents\nHouse prices\nSold house prices\nInstant online valuation\nCommercial\nCommercial property to rent\nCommercial property for sale\nAdvertise\nInspire\nMoving stories\nProperty news\nEnergy efficiency\nProperty guides\nHousing trends\nOverseas blog\nMortgage guides\nOverseas\nAll countries\nSpain\nFrance\nPortugal\nItaly\nGreece\nCurrency\nSell Overseas property\nSkip to Content\nThis area only\nWithin 1/4 mile\nWithin 1/2 mile\nWithin 1 mile\nWithin 3 miles\nWithin 5 miles\nWithin 10 miles\nWithin 15 miles\nWithin 20 miles\nWithin 30 miles\nWithin 40 miles\nMin Price\n£50,000\n£60,000\n£70,000\n£80,000\n£90,000\n£100,000\n£110,000\n£120,000\n£125,000\n£130,000\n£140,000\n£150,000\n£160,000\n£170,000\n£175,000\n£180,000\n£190,000\n£200,000\n£210,000\n£220,000\n£230,000\n£240,000\n£250,000\n£260,000\n£270,000\n£280,000\n£290,000\n£300,000\n£325,000\n£350,000\n£375,000\n£400,000\n£425,000\n£450,000\n£475,000\n£500,000\n£550,000\n£600,000\n£650,000\n£700,000\n£800,000\n£900,000\n£1,000,000\n£1,250,000\n£1,500,000\n£1,750,000\n£2,000,000\n£2,500,000\n£3,000,000\n£4,000,000\n£5,000,000\n£7,500,000\n£10,000,000\n£15,000,000\n£20,000,000\nto\nMax Price\n£50,000\n£60,000\n£70,000\n£80,000\n£90,000\n£100,000\n£110,000\n£120,000\n£125,000\n£130,000\n£140,000\n£150,000\n£160,000\n£170,000\n£175,000\n£180,000\n£190,000\n£200,000\n£210,000\n£220,000\n£230,000\n£240,000\n£250,000\n£260,000\n£270,000\n£280,000\n£290,000\n£300,000\n£325,000\n£350,000\n£375,000\n£400,000\n£425,000\n£450,000\n£475,000\n£500,000\n£550,000\n£600,000\n£650,000\n£700,000\n£800,000\n£900,000\n£1,000,000\n£1,250,000\n£1,500,000\n£1,750,000\n£2,000,000\n£2,500,000\n£3,000,000\n£4,000,000\n£5,000,000\n£7,500,000\n£10,000,000\n£15,000,000\n£20,000,000\nMin Beds\nStudio\n1 Bed\n2 Bed\n3 Bed\n4 Bed\n5 Bed\n6 Bed\n7 Bed\n8 Bed\n9 Bed\n10 Bed\nto\nMax Beds\nStudio\n1 Bed\n2 Bed\n3 Bed\n4 Bed\n5 Bed\n6 Bed\n7 Bed\n8 Bed\n9 Bed\n10 Bed\nFilters\nProperties For Sale in Untitled (Drawn Area)\nSave Search\nCreate Alert\n\n13,293 results\n\nSort:\nHighest Price\nLowest Price\nNewest Listed\nOldest Listed\nMap view\nPrioritise properties with...\nAdd keyword\n|\n|\n1/9\nFEATURED NEW HOME\n£524,950\nOffers in Region of\nMerchants Wharf, Manchester\nApartment\n3\n3\n\nInvest in a modern 3-bedroom apartment in Manchester, ideally located close to MediaCityUK, Salford Quays & Deansgate\n\nNEW HOME\nAdded on 21/05/2026 by RW Invest, Liverpool\n0151 453 4672\nLocal call rate\nContact\nSave\n|\n1/17\n£14,000,000\nNorth Werneth, Oldham, Greater Manchester, OL9\nLand\n\nAn extremely rare opportunity to acquire a brownfield development site (approximately 8.7 acres) in the heart of Oldham for an excellent residential and commercial project on the former Hartford Mill site. The current landowners have undertaken extensive research into planning potent...\n\nMarketed by Entwistle Green, Bury\n0161 524 3592\nLocal call rate\nContact\nSave\n|\n1/3\n£4,500,000\nSWIMMING POOL\nStenner Lane, Didsbury, M20\nDetached\n9\n7\n\nBuilt in Walter Gropius’s Bauhaus style of architecture, Fernbank is one of Didsbury’s MOST SPECTACULAR and truly remarkable PRIVATE RESIDENCES. Occupying a commanding position overlooking Fletcher Moss Park, the property boasts 120 degree panoramic views over Stenner Woods and beyond...\n\nAdded on 13/09/2025 by Philip James Kennedy, Didsbury\n0161 524 4262\nLocal call rate\nContact\nSave\n|\n|\n1/40\n£3,995,000\nHIGH SPECIFICATION\nDidsbury Park, Didsbury Village, M20\nDetached\n6\n5\n\nA SPECTACULAR AND TRULY EXCEPTIONAL DETACHED MANSION HOUSE, ARCHITECTURALLY DESIGNED to exacting standards of both design and finish; ‘HEDGEWOOD’ offers the perfect blend of LUXURY living and PLATINUM SPECIFICATION throughout, to create ONE OF THE FINEST HOMES in MANCHESTER. <...\n\nAdded on 29/04/2026 by Philip James Kennedy, Didsbury\n0161 524 4262\nLocal call rate\nContact\nSave\n|\n1/19\n£3,750,000\nOffers in Region of\nNorden Road, Rochdale, Greater Manchester, OL11\nDetached\n3\n\nAn exciting opportunity to purchase a farm on the edge of the Rochdale, the farm is currently operated as a livery yard and provides two dwellings, a residential caravan, an extensive range of modern and traditional farm and approximately 71 acres or thereabouts of land.\n\nAdded on 14/03/2025 by GHA Associates, Grindleton\n01200 874037\nLocal call rate\nContact\nSave\n|\n1/14\n£3,750,000\nOffers in Region of\nNorden Road, Rochdale, Greater Manchester, OL11\nEquestrian Facility\n3\n\nAn exciting opportunity to purchase a farm on the edge of the Rochdale settlement boundary. The farm is currently operated as a livery yard and provides two dwellings, a residential caravan, a range of modern and traditional farm buildings and approximately 71 acres or thereabouts of land.\n\nAdded on 12/03/2025 by GHA Associates, Grindleton\n01200 874037\nLocal call rate\nContact\nSave\n|\n|\n1/28\n£3,500,000\nGuide Price\nViadux, Albion Street, Manchester, Greater Manchester, M1\nPenthouse\n3\n4\n\nExplore this market leading penthouse at Viadux, a coveted development that merges Manchester's rich industrial heritage with modern design.\n\nNEW HOME\nAdded on 23/04/2026 by Savills New Homes, New Homes North West\n0161 524 6449\nLocal call rate\nContact\nSave\n|\n|\n1/18\n£3,500,000\nAcre House Portfolio, 20 Benbow Street, Sale, Cheshire, M33\nFlat\n2\n1\n\nAcre House has over the years performed as one of Sale’s most highly sought after developments in the local rental market, with contemporary living accommodation and some of the best yields in the immediate area - As an investor the development is likely to serve you well. We are...\n\nAdded on 03/01/2024 by Thornley Groves, Sale\n0161 524 0526\nLocal call rate\nContact\nSave\n|\n1/8\n£3,000,000\nGuide Price\nDale House, London Road, Hazel Grove, Stockport, SK7\nApartment\n\nIan Tonge Property Services are delighted to offer for sale this superb development known as Dale House. The development opportunity consists of 23 apartments over four storeys, 9 two bedroomed apartments and 14 one bedroomed apartments, plus a ground floor commercial unit and parking facilities ...\n\nNEW HOME\nAdded on 24/04/2024 by Ian Tonge Property Services Limited, Hazel Grove\n0161 524 9316\nLocal call rate\nContact\nSave\n|\n1/70\n£2,999,950\nOffers Over\nBindloss Avenue, Eccles, Manchester\nBlock of Apartments\n27\n24\n\nA SUPERB BLOCK OF TWELVE TWO AND THREE BEDROOM LUXURY APARTMENTS Welcome to Bindloss Avenue, Eccles, Manchester - a truly remarkable property that offers a unique opportunity for luxury living in the heart of Monton. This stunning block of 12 luxury two and three bedroom apartments offer...\n\nReduced on 20/05/2026 by Keenans Estate Agents, Swinton\n0161 524 5515\nLocal call rate\nContact\nSave\n|\n|\n1/45\n£2,850,000\nFeatherstall Road, Littleborough, OL15\nDetached\n9\n5\n\nA truly enchanting and meticulously restored Grade II* listed property with a rich history dating back to the 13th century, offering expansive living space throughout.\n\nReduced on 06/02/2026 by Fine & Country, Ribble Valley\n01254 961029\nLocal call rate\nContact\nSave\n|\n1/18\n£2,600,000\nPREMIUM LISTING\nEast Tower, Deansgate Square\nApartment\n3\n3\n\nBuilt and developed by Renaker, and designed by renowned architects SimpsonHaugh, Deansgate Square is Manchester's premier landmark development. Located in New Jackson, a world-class skyscraper district at the southern gateway to Manchester city centre, all four towers boast unparalleled views ac...\n\nAdded on 28/08/2025 by Reside, Manchester\n0161 524 5946\nLocal call rate\nContact\nSave\n|\n1/9\n£2,550,000\nGuide Price\nGreat Bridgewater Street, Manchester, M1\nApartment\n2\n2\n\nSuper Prime Penthouse at the Pinnacle of Manchester Luxury\n\nAdded on 23/02/2026 by DDRE.global, London\n020 8078 8474\nLocal call rate\nContact\nSave\n|\n1/26\n£2,500,000\nOffers Over\nNO CHAIN\nChatsworth Road, Worsley, M28\nDetached\n4\n4\n\nAn impressive, detached family home in a highly regarded position close to local facilities. Set in a convenient location close to Worsley Golf Course and the highly regarded Broadoak Primary School, this impressive residence offers a rare opportunity to secure a home of exceptional qu...\n\nReduced on 15/01/2026 by Jackson-Stops, Hale\n0161 524 3069\nLocal call rate\nContact\nSave\n|\n|\n1/60\n£2,500,000\nWITH LAND\nBradshaw Road, Tottington, BL8\nDetached\n4\n4\n\nA Remarkable Gated Country Home of Exceptional Quality — Main Residence & Luxurious Detached Annex — Set Within Approximately 15 Acres of land with a Further 7 Acres Available by Separate Negotiation.\n\nAdded on 01/12/2025 by Miller Metcalfe, Bury\n0161 524 6920\nLocal call rate\nContact\nSave\n1/1\n£2,500,000\nOffers in Excess of\nSpringfield Road, Bolton, Greater Manchester, BL4\nLand\n\nFreehold Title, located on the site of a former railway cutting, to the North of Springfield Road, Kearsley, Bolton, Greater Manchester. Planning granted for 36 homes. The gross acre of the site extends to 2.08 hectares (5.13 acres)\n\nMarketed by W. MAHER & SONS LIMITED, Warrington\n0161 524 6534\nLocal call rate\nContact\nSave\n|\n1/43\n£2,500,000\nOffers in Region of\nSUBSTANTIAL PLOT\nLeigh Road, Worsley, Manchester\nDetached\n4\n5\n\nSet behind double electric gates on one of Worsley’s most prestigious roads, this stunning detached residence offers over 4700 sq ft of elegant, thoughtfully designed living. Nestled on a private, landscaped plot with manicured lawns and mature hedges, it combines space, style, and privacy. <...\n\nAdded on 11/03/2026 by Hunters Worsley, Worsley\n0161 524 8645\nLocal call rate\nContact\nSave\n|\n1/39\n£2,500,000\nOffers in Region of\nKinders Lane, Greenfield, Saddleworth, OL3\nDetached\n6\n5\n\nA truly unique local gem, 'The Sycamores' is a substantial detached residence set in a prime position in popular Greenfield and as such, viewing is considered essential. EPC: F.\n\nAdded on 02/05/2025 by Ryder & Dutton, Uppermill\n01457 602739\nLocal call rate\nContact\nSave\n|\n|\n1/28\n£2,250,000\nOffers Over\nBroadway, Bramhall\nDetached\n5\n4\n\nThe perfect mix of a prime location, high-end specification and beautifully designed living space make this home something very special. \n\nAdded on 23/02/2026 by Agent MXM, Covering Greater Manchester\n0161 524 8394\nLocal call rate\nContact\nSave\n|\n1/5\n£2,250,000\nHorseshoe Lane, Chadderton, Greater Manchester - Outstanding, Detached Gated Residence ~10,000sqft, 1/2 Acre Plot\nDetached\n9\n5\n\nThis exceptional, substantial home offers 9 bedroom family accommodation laid out over 3 floors. With 6 receptions rooms, 5 bathrooms and almost 10,000sqft of accommodation, all set within a gated, half acre plot, this incredible property has a high specification and is generous and spacious thr...\n\nReduced on 05/09/2025 by Fine & Country, Rossendale & North Manchester\n01706 335213\nLocal call rate\nContact\nSave\n|\n1/47\n£2,250,000\nGuide Price\nSheringham House, Ladybrook Road, Bramhall, SK7\nDetached\n6\n4\n\nSherringham House - A truly Breath-Taking Victorian Family Residence set within beautiful, Private Grounds on one of Bramhall’s most Sought-After roads. Blending Timeless Period Elegance with thoughtful modern enhancements, offering exceptional family living space, including a Separate Detached ...\n\nAdded on 02/04/2026 by Shrigley Rose & Co, North West\n0161 524 8390\nLocal call rate\nContact\nSave\n|\n1/45\n£2,150,000\nWentworth Avenue, Whitefield, Manchester - 7 Bed Main House plus 2 Bed Annexe -Total a huge 7,300sqft\nDetached\n9\n7\n\nThis bespoke, architect designed contemporary home is brought to the market for the very first time. With 9 bedrooms, (7 to the main house & 2 to the self-contained annexe), plus 7 bathrooms and 6 reception areas, this incredible home amounts to 7,300sqft in all and is simply stunning throughout.\n\nReduced on 08/07/2025 by Fine & Country, Rossendale & North Manchester\n01706 335213\nLocal call rate\nContact\nSave\n|\n|\n1/42\n£2,100,000\nOffers in Region of\nGreenfield, Saddleworth\nDetached\n5\n5\n\nIntroducing this exceptional five bedroom detached residence, ideally positioned in the highly desirable Greenfield area of Saddleworth\n\nAdded on 26/03/2026 by Revilo Homes, Rochdale\n01706 335864\nLocal call rate\nContact\nSave\n1/3\n£2,100,000\nOffers in Region of\nBungalow and Land off Bamford Way, Rochdale OL11 5NB\nDetached Bungalow\n\nADAMSONS BARTON KENDAL are delighted to market this fabulous residential detached bungalow situated on 1.7 acres of land, in the heart of Bamford, accessed off Bamford Way in a wonderful location in one of Rochdale’s premier locations. KEY FEATURES A prestigious development site for ...\n\nReduced on 13/05/2025 by Barton Kendal Residential, Rochdale\n01706 335900\nLocal call rate\nContact\nSave\n|\n|\n1/39\n£2,000,000\nCORNER PLOT\nParkfield Road South, Didsbury Village, M20\nDetached\n4\n3\n\nA MAGNIFICENT EDWARDIAN DETACHED FAMILY HOME, with ELEGANT PROPORTIONS and a WEALTH OF ORIGINAL PERIOD FEATURES throughout, it FEATURES FOUR DOUBLE BEDROOMS, THREE BATHROOMS, THREE RECEPTION ROOMS and A WONDERFUL SUN ROOM. Occupying an IMPOSING CORNER PLOT and RARELY AVAILABLE, the pro...\n\nAdded on 05/05/2026 by Philip James Kennedy, Didsbury\n0161 524 4262\nLocal call rate\nContact\nSave\nPrevious\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\nof 42\nNext\nApproximate location\nShow results on map\nGet ready with a Mortgage in Principle\nPersonalised result in just 20 minutes\nFind out how much you can borrow\nGet viewings faster with agents\nNo impact on your credit score\nGet a Mortgage in Principle\nPowered by\n\nStaying secure when looking for a property\n\nEnsure you're up to date with our latest advice on how to avoid fraud or scams when looking for property online.\n\nView our security centre to find out more >\n\nMap data ©️OpenStreetMap contributors.\n\nDownload the Rightmove app\nResources\nStamp Duty Calculator\nHouse Price Index\nProperty guides\nProperty news\nBuyer guides\nSeller guides\nRenter guides\nLandlord guides\nRemovals\nEnergy efficiency\nMortgage in Principle\nMortgage Calculator\nMortgage guides\nSearch\nSearch homes for sale\nSearch homes for rent\nCommercial for sale\nCommercial to rent\nOverseas homes for sale\nSearch sold house prices\nFind an agent\nStudent accommodation\nRetirement homes\nNew homes\nLocations\nMajor towns and cities in the UK\nLondon\nCornwall\nGlasgow\nCardiff\nEdinburgh\nSpain\nFrance\nPortugal\nRightmove\nTech blog\nAbout\nPress centre\nInvestor relations\nContact us\nCareers\nSign in or create account\nHomeViews\nProfessional\nRightmove Plus\nData Services\nAdvertise on Rightmove\nOverseas agents and developers\nHome and property related services\nAdvertise commercial property\nHomeViews Business Hub\n    \nSite map Help Cookies Safety and Security Terms of Use Privacy Policy\n\nCopyright © 2000-2026 Rightmove Group Limited. All rights reserved. Rightmove prohibits the scraping of its content. You can find further details here.",
+  "ax_tree_excerpt": "{\n  \"nodes\": [\n    {\n      \"nodeId\": \"2\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"RootWebArea\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 144\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Properties For Sale in Untitled (Drawn Area) | Rightmove\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\",\n            \"superseded\": true\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Properties For Sale in Untitled (Drawn Area) | Rightmove\"\n            },\n            \"nativeSource\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"focused\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"busy\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": 1\n          }\n        },\n        {\n          \"name\": \"url\",\n          \"value\": {\n            \"type\": \"string\",\n            \"value\": \"file:///D:/PhD/myArticlesAndPapers/my-papers/5-WISE/wade-bench/data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/page.html\"\n          }\n        }\n      ],\n      \"childIds\": [\n        \"141\"\n      ],\n      \"backendDOMNodeId\": 2,\n      \"frameId\": \"3C8B2CF90AC0F0911F543EC6B396F87D\"\n    },\n    {\n      \"nodeId\": \"141\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"2\",\n      \"childIds\": [\n        \"237\"\n      ],\n      \"backendDOMNodeId\": 141\n    },\n    {\n      \"nodeId\": \"237\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"141\",\n      \"childIds\": [\n        \"240\",\n        \"464\",\n        \"4274\",\n        \"4473\"\n      ],\n      \"backendDOMNodeId\": 237\n    },\n    {\n      \"nodeId\": \"240\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"237\",\n      \"childIds\": [\n        \"242\"\n      ],\n      \"backendDOMNodeId\": 240\n    },\n    {\n      \"nodeId\": \"242\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"banner\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 94\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"240\",\n      \"childIds\": [\n        \"245\",\n        \"247\",\n        \"397\",\n        \"398\"\n      ],\n      \"backendDOMNodeId\": 242\n    },\n    {\n      \"nodeId\": \"464\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"237\",\n      \"childIds\": [\n        \"465\",\n        \"467\"\n      ],\n      \"backendDOMNodeId\": 464\n    },\n    {\n      \"nodeId\": \"4274\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"237\",\n      \"childIds\": [\n        \"4276\"\n      ],\n      \"backendDOMNodeId\": 4274\n    },\n    {\n      \"nodeId\": \"4276\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"contentinfo\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 26\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"4274\",\n      \"childIds\": [\n        \"4277\",\n        \"4433\",\n        \"4461\"\n      ],\n      \"backendDOMNodeId\": 4276\n    },\n    {\n      \"nodeId\": \"4473\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"alert\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 2\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"live\",\n          \"value\": {\n            \"type\": \"token\",\n            \"value\": \"assertive\"\n          }\n        },\n        {\n          \"name\": \"atomic\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        },\n        {\n          \"name\": \"relevant\",\n          \"value\": {\n            \"type\": \"tokenList\",\n            \"value\": \"additions text\"\n          }\n        }\n      ],\n      \"parentId\": \"237\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 4473\n    },\n    {\n      \"nodeId\": \"245\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"242\",\n      \"childIds\": [\n        \"4525\",\n        \"4526\"\n      ],\n      \"backendDOMNodeId\": 245\n    },\n    {\n      \"nodeId\": \"247\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"242\",\n      \"childIds\": [\n        \"248\",\n        \"395\"\n      ],\n      \"backendDOMNodeId\": 247\n    },\n    {\n      \"nodeId\": \"248\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"247\",\n      \"childIds\": [\n        \"249\",\n        \"268\"\n      ],\n      \"backendDOMNodeId\": 248\n    },\n    {\n      \"nodeId\": \"395\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"247\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 395\n    },\n    {\n      \"nodeId\": \"397\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"242\",\n      \"childIds\": [],\n      \"backendDOMNodeId\": 397\n    },\n    {\n      \"nodeId\": \"398\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"242\",\n      \"childIds\": [\n        \"399\",\n        \"411\",\n        \"422\",\n        \"429\",\n        \"433\",\n        \"436\",\n        \"440\",\n        \"445\",\n        \"454\"\n      ],\n      \"backendDOMNodeId\": 398\n    },\n    {\n      \"nodeId\": \"465\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"button\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 9\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"Skip to Content\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"relatedElement\",\n            \"nativeSource\": \"label\"\n          },\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"Skip to Content\"\n            }\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\",\n            \"superseded\": true\n          }\n        ]\n      },\n      \"properties\": [\n        {\n          \"name\": \"invalid\",\n          \"value\": {\n            \"type\": \"token\",\n            \"value\": \"false\"\n          }\n        },\n        {\n          \"name\": \"focusable\",\n          \"value\": {\n            \"type\": \"booleanOrUndefined\",\n            \"value\": true\n          }\n        }\n      ],\n      \"parentId\": \"464\",\n      \"childIds\": [\n        \"4616\"\n      ],\n      \"backendDOMNodeId\": 465\n    },\n    {\n      \"nodeId\": \"467\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"main\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 118\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"464\",\n      \"childIds\": [\n        \"468\"\n      ],\n      \"backendDOMNodeId\": 467\n    },\n    {\n      \"nodeId\": \"4277\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"4276\",\n      \"childIds\": [\n        \"4278\"\n      ],\n      \"backendDOMNodeId\": 4277\n    },\n    {\n      \"nodeId\": \"4278\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"4277\",\n      \"childIds\": [\n        \"4279\"\n      ],\n      \"backendDOMNodeId\": 4278\n    },\n    {\n      \"nodeId\": \"4279\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"list\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 111\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"title\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"4278\",\n      \"childIds\": [\n        \"4280\",\n        \"4299\",\n        \"4333\",\n        \"4361\",\n        \"4387\",\n        \"4411\"\n      ],\n      \"backendDOMNodeId\": 4279\n    },\n    {\n      \"nodeId\": \"4433\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"4276\",\n      \"childIds\": [\n        \"4434\",\n        \"4453\"\n      ],\n      \"backendDOMNodeId\": 4433\n    },\n    {\n      \"nodeId\": \"4434\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"4433\",\n      \"childIds\": [\n        \"4435\",\n        \"4438\",\n        \"4441\",\n        \"4446\",\n        \"4449\"\n      ],\n      \"backendDOMNodeId\": 4434\n    },\n    {\n      \"nodeId\": \"4453\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"generic\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 88\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"4433\",\n      \"childIds\": [\n        \"4454\",\n        \"4455\",\n        \"4456\",\n        \"4457\",\n        \"4458\",\n        \"4459\"\n      ],\n      \"backendDOMNodeId\": 4453\n    },\n    {\n      \"nodeId\": \"4461\",\n      \"ignored\": true,\n      \"ignoredReasons\": [\n        {\n          \"name\": \"uninteresting\",\n          \"value\": {\n            \"type\": \"boolean\",\n            \"value\": true\n          }\n        }\n      ],\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"none\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 0\n      },\n      \"parentId\": \"4276\",\n      \"childIds\": [\n        \"4462\"\n      ],\n      \"backendDOMNodeId\": 4461\n    },\n    {\n      \"nodeId\": \"4462\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"role\",\n        \"value\": \"paragraph\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 133\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"\",\n        \"sources\": [\n          {\n            \"type\": \"relatedElement\",\n            \"attribute\": \"aria-labelledby\"\n          },\n          {\n            \"type\": \"attribute\",\n            \"attribute\": \"aria-label\"\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"4461\",\n      \"childIds\": [\n        \"5180\",\n        \"4463\",\n        \"5182\",\n        \"4464\",\n        \"5184\"\n      ],\n      \"backendDOMNodeId\": 4462\n    },\n    {\n      \"nodeId\": \"4525\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"StaticText\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 158\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \"!\",\n        \"sources\": [\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \"!\"\n            }\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"245\",\n      \"childIds\": [\n        \"-1000000002\"\n      ],\n      \"backendDOMNodeId\": 4525\n    },\n    {\n      \"nodeId\": \"4526\",\n      \"ignored\": false,\n      \"role\": {\n        \"type\": \"internalRole\",\n        \"value\": \"StaticText\"\n      },\n      \"chromeRole\": {\n        \"type\": \"internalRole\",\n        \"value\": 158\n      },\n      \"name\": {\n        \"type\": \"computedString\",\n        \"value\": \" It appears that Javascript is disabled on your browser. We're sorry, some parts of the Rightmove website don't work at their best without JavaScript enabled. Please ensure your JavaScript is turned on to make sure you have the best experience.\",\n        \"sources\": [\n          {\n            \"type\": \"contents\",\n            \"value\": {\n              \"type\": \"computedString\",\n              \"value\": \" It appears that Javascript is disabled on your browser. We're sorry, some parts of the Rightmove website don't work at their best without JavaScript enabled. Please ensure your JavaScript is turned on to make sure you have the best experience.\"\n            }\n          }\n        ]\n      },\n      \"properties\": [],\n      \"parentId\": \"245\",\n      \"childIds\": [\n        \"-1000000003\",\n        \"-10000\n<!-- TRUNCATED -->",
+  "metadata_excerpt": "{\n  \"snapshot_id\": \"SNAP_REAL_RIGHTMOVE_001_LISTING\",\n  \"website_id\": \"rightmove\",\n  \"task_id\": \"WBV1_REAL_RIGHTMOVE_001_LISTING\",\n  \"schema_id\": \"real_estate_listing_v1\",\n  \"page_type\": \"listing\",\n  \"url\": \"https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=USERDEFINEDAREA%5E%7B%22polylines%22%3A%22upcfItd%60N%60xYha%40%7C%7BPslq%40ybDgbjAspXidPm_%5B%7Cj_A_%7C%40huf%40ngN%7Cyh%40jSihC%22%7D\",\n  \"captured_at\": \"2026-05-28T22:29:17.121Z\",\n  \"capture_tool\": \"playwright-stealth\",\n  \"browser\": \"chromium\",\n  \"initial_url\": \"https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=USERDEFINEDAREA%5E%7B%22polylines%22%3A%22upcfItd%60N%60xYha%40%7C%7BPslq%40ybDgbjAspXidPm_%5B%7Cj_A_%7C%40huf%40ngN%7Cyh%40jSihC%22%7D\",\n  \"final_url\": \"https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=USERDEFINEDAREA%5E%7B%22polylines%22%3A%22upcfItd%60N%60xYha%40%7C%7BPslq%40ybDgbjAspXidPm_%5B%7Cj_A_%7C%40huf%40ngN%7Cyh%40jSihC%22%7D\",\n  \"page_title\": \"Properties For Sale in Untitled (Drawn Area) | Rightmove\",\n  \"capture_status\": \"captured\",\n  \"html_size\": 1853668,\n  \"text_size\": 14685\n}",
+  "html_signals": {
+    "title": "Properties For Sale in Untitled (Drawn Area) | Rightmove",
+    "headings": [
+      {
+        "tag": "h1",
+        "text": "Properties For Sale in Untitled (Drawn Area)"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "Buy",
+        "href": "#"
+      },
+      {
+        "text": "Property for sale",
+        "href": "/property-for-sale.html"
+      },
+      {
+        "text": "New homes for sale",
+        "href": "/new-homes-for-sale.html"
+      },
+      {
+        "text": "Property valuation",
+        "href": "/agent-valuation"
+      },
+      {
+        "text": "Agent\n                                            valuation",
+        "href": "/agent-valuation"
+      },
+      {
+        "text": "Investors",
+        "href": "/guides/landlord/investor-newsletter/"
+      },
+      {
+        "text": "Mortgages",
+        "href": "/mortgages"
+      },
+      {
+        "text": "Rent",
+        "href": "#"
+      },
+      {
+        "text": "Property to rent",
+        "href": "/property-to-rent.html"
+      },
+      {
+        "text": "Student property to rent",
+        "href": "/student-accommodation.html"
+      },
+      {
+        "text": "House Prices",
+        "href": "#"
+      },
+      {
+        "text": "Sold house prices",
+        "href": "/house-prices.html"
+      },
+      {
+        "text": "Property valuation",
+        "href": "/agent-valuation"
+      },
+      {
+        "text": "Agent valuation",
+        "href": "/agent-valuation"
+      },
+      {
+        "text": "Instant online valuation",
+        "href": "/house-value.html"
+      },
+      {
+        "text": "Mortgages",
+        "href": "#"
+      },
+      {
+        "text": "Get started",
+        "href": "/mortgages"
+      },
+      {
+        "text": "Get a Mortgage in Principle",
+        "href": "/mortgages/mortgage-in-principle"
+      },
+      {
+        "text": "Check your affordability",
+        "href": "/mortgages/calculators/mortgage-calculator"
+      },
+      {
+        "text": "Remortgage Calculator",
+        "href": "/mortgages/calculators/remortgage-calculator"
+      },
+      {
+        "text": "Mortgage guides",
+        "href": "/mortgages/guides"
+      },
+      {
+        "text": "Find Agent",
+        "href": "#"
+      },
+      {
+        "text": "Find estate agents",
+        "href": "/estate-agents"
+      },
+      {
+        "text": "Commercial",
+        "href": "#"
+      },
+      {
+        "text": "Commercial property to rent",
+        "href": "/commercial-property"
+      },
+      {
+        "text": "Commercial property for sale",
+        "href": "/commercial-property?buy=true"
+      },
+      {
+        "text": "Advertise commercial property",
+        "href": "/c/commercial-advertising/"
+      },
+      {
+        "text": "Inspire",
+        "href": "#"
+      },
+      {
+        "text": "Moving stories",
+        "href": "/moving-stories/"
+      },
+      {
+        "text": "Property\n                                            news",
+        "href": "/news/"
+      },
+      {
+        "text": "Energy efficiency",
+        "href": "/guides/energy-efficiency/"
+      },
+      {
+        "text": "Property\n                                            guides",
+        "href": "/guides/"
+      },
+      {
+        "text": "Housing trends",
+        "href": "/news/house-price-index/"
+      },
+      {
+        "text": "Mortgage guides",
+        "href": "/mortgages/guides/"
+      },
+      {
+        "text": "Overseas blog",
+        "href": "/overseas-magazine/"
+      },
+      {
+        "text": "Country guides",
+        "href": "/overseas-property/country-guides.html"
+      },
+      {
+        "text": "Overseas",
+        "href": "#"
+      },
+      {
+        "text": "All countries",
+        "href": "/overseas-property.html"
+      },
+      {
+        "text": "Spain",
+        "href": "/overseas-property/in-Spain.html"
+      },
+      {
+        "text": "France",
+        "href": "/overseas-property/in-France.html"
+      },
+      {
+        "text": "Portugal",
+        "href": "/overseas-property/in-Portugal.html"
+      },
+      {
+        "text": "Italy",
+        "href": "/overseas-property/in-Italy.html"
+      },
+      {
+        "text": "Greece",
+        "href": "/overseas-property/in-Greece.html"
+      },
+      {
+        "text": "Currency",
+        "href": "/overseas-magazine/currency-zone"
+      },
+      {
+        "text": "Sell overseas property",
+        "href": "/overseas-property/advertise.html"
+      },
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "Sign\n                    in",
+        "href": "/login.html"
+      },
+      {
+        "text": "My Rightmove",
+        "href": "/myrightmove.html"
+      },
+      {
+        "text": "Property for sale",
+        "href": "/property-for-sale.html"
+      },
+      {
+        "text": "New\n                    homes for sale",
+        "href": "/new-homes-for-sale.html"
+      },
+      {
+        "text": "Property\n                    valuation",
+        "href": "/agent-valuation"
+      },
+      {
+        "text": "Investors",
+        "href": "/guides/landlord/investor-newsletter/"
+      },
+      {
+        "text": "Mortgages",
+        "href": "/mortgages"
+      },
+      {
+        "text": "Property to rent",
+        "href": "/property-to-rent.html"
+      },
+      {
+        "text": "Student property to rent",
+        "href": "/student-accommodation.html"
+      },
+      {
+        "text": "Find estate agents",
+        "href": "/estate-agents"
+      },
+      {
+        "text": "Sold house prices",
+        "href": "/house-prices.html"
+      },
+      {
+        "text": "Instant online valuation",
+        "href": "/house-value.html"
+      },
+      {
+        "text": "Get started",
+        "href": "/mortgages"
+      },
+      {
+        "text": "Get a Mortgage in Principle",
+        "href": "/mortgages/mortgage-in-principle"
+      },
+      {
+        "text": "Check your affordability",
+        "href": "/mortgages/calculators/mortgage-calculator"
+      },
+      {
+        "text": "Remortgage Calculator",
+        "href": "/mortgages/calculators/remortgage-calculator"
+      },
+      {
+        "text": "Mortgage guides",
+        "href": "/mortgages/guides"
+      },
+      {
+        "text": "Commercial property to rent",
+        "href": "/commercial-property"
+      },
+      {
+        "text": "Commercial property for sale",
+        "href": "/commercial-property?buy=true"
+      },
+      {
+        "text": "Advertise",
+        "href": "/c/commercial-advertising/"
+      },
+      {
+        "text": "Moving\n                    stories",
+        "href": "/moving-stories/"
+      },
+      {
+        "text": "Property news",
+        "href": "/news/"
+      },
+      {
+        "text": "Energy\n                    efficiency",
+        "href": "/guides/energy-efficiency/"
+      },
+      {
+        "text": "Property\n                    guides",
+        "href": "/guides/"
+      },
+      {
+        "text": "Housing trends",
+        "href": "/news/house-price-index/"
+      },
+      {
+        "text": "Overseas blog",
+        "href": "/overseas-magazine/"
+      },
+      {
+        "text": "Mortgage guides",
+        "href": "/mortgages/guides/"
+      },
+      {
+        "text": "All countries",
+        "href": "/overseas-property.html"
+      },
+      {
+        "text": "Spain",
+        "href": "/overseas-property/in-Spain.html"
+      },
+      {
+        "text": "France",
+        "href": "/overseas-property/in-France.html"
+      },
+      {
+        "text": "Portugal",
+        "href": "/overseas-property/in-Portugal.html"
+      },
+      {
+        "text": "Italy",
+        "href": "/overseas-property/in-Italy.html"
+      },
+      {
+        "text": "Greece",
+        "href": "/overseas-property/in-Greece.html"
+      },
+      {
+        "text": "Currency",
+        "href": "/overseas-property/currency-zone.html"
+      },
+      {
+        "text": "Sell Overseas property",
+        "href": "/overseas-property/advertise.html"
+      },
+      {
+        "text": "Map",
+        "href": "https://www.rightmove.co.uk/property-for-sale/map.html?sortType=2&areaSizeUnit=sqft&viewType=MAP&channel=BUY&index=0&radius=0.0&locationIdentifier=USERDEFINEDAREA%5E%7B%22polylines%22%3A%22upcfItd%60N%60xYha%40%7C%7BPslq%40ybDgbjAspXidPm_%5B%7Cj_A_%7C%40huf%40ngN%7Cyh%40jSihC%22%7D&numberOfPropertiesPerPage=47"
+      },
+      {
+        "text": "| | 1/10",
+        "href": "/properties/89583912#/?channel=RES_BUY"
+      },
+      {
+        "text": "",
+        "href": "/properties/89583912#/?channel=RES_BUY"
+      },
+      {
+        "text": "FEATURED PROPERTY £200,000 Offers in Region of",
+        "href": "/properties/89583912#/?channel=RES_BUY"
+      },
+      {
+        "text": "Completed Manchester Apartment – 6% Rental Yields | Buy-to-Let Investment Apartment 1 1",
+        "href": "/properties/89583912#/?channel=RES_BUY"
+      },
+      {
+        "text": "1-bedroom apartment in central Manchester offering projected rental yields of 6%+.",
+        "href": "/properties/89583912#/?channel=RES_BUY"
+      },
+      {
+        "text": "",
+        "href": "/estate-agents/agent/RW-Invest/Liverpool-68046.html"
+      },
+      {
+        "text": "",
+        "href": "/estate-agents/agent/RW-Invest/Liverpool-68046.html"
+      },
+      {
+        "text": "Call",
+        "href": "tel:0151 453 4672"
+      },
+      {
+        "text": "0151 453 4672 Local call rate",
+        "href": "tel:0151 453 4672"
+      },
+      {
+        "text": "",
+        "href": "/property-for-sale/contactBranch.html?propertyId=89583912&from=null"
+      },
+      {
+        "text": "| 1/17",
+        "href": "/properties/142655393#/?channel=COM_BUY"
+      },
+      {
+        "text": "",
+        "href": "/properties/142655393#/?channel=COM_BUY"
+      },
+      {
+        "text": "£14,000,000",
+        "href": "/properties/142655393#/?channel=COM_BUY"
+      },
+      {
+        "text": "North Werneth, Oldham, Greater Manchester, OL9 Land",
+        "href": "/properties/142655393#/?channel=COM_BUY"
+      },
+      {
+        "text": "An extremely rare opportunity to acquire a brownfield development site (approximately 8.7 acres) in the heart of Oldham for an excellent residential and commercial project on the former Hartford Mill site. The current landowners have undertaken extensive research into planning potent...",
+        "href": "/properties/142655393#/?channel=COM_BUY"
+      },
+      {
+        "text": "",
+        "href": "/estate-agents/agent/Entwistle-Green/Bury-134.html"
+      },
+      {
+        "text": "",
+        "href": "/estate-agents/agent/Entwistle-Green/Bury-134.html"
+      },
+      {
+        "text": "Call",
+        "href": "tel:0161 524 3592"
+      },
+      {
+        "text": "0161 524 3592 Local call rate",
+        "href": "tel:0161 524 3592"
+      },
+      {
+        "text": "",
+        "href": "/commercial-property-for-sale/contactBranch.html?propertyId=142655393&from=null"
+      },
+      {
+        "text": "| 1/3",
+        "href": "/properties/166978733#/?channel=RES_BUY"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/floorplan-white.97dae32e.svg",
+        "alt": "floorplan icon"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/virtualtour-white.2089dcc4.svg",
+        "alt": "virtual tour icon"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/camera-white.579a6efc.svg",
+        "alt": "camera icon"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ccee2f2b4/89583912/ccee2f2b47d2afee8e11593db21b9966_max_476x317.jpeg",
+        "alt": "Property Image 1"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e2409e11/89583912/5e2409e11d94f50a08b2da63f708a337_max_476x317.jpeg",
+        "alt": "Property Image 2"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f8ce8f00c/89583912/f8ce8f00cb85f876049f55e8ed74dc12_max_476x317.jpeg",
+        "alt": "Property Image 10"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/chevron-line.4e0268c8.svg",
+        "alt": "previous image"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/chevron-line.4e0268c8.svg",
+        "alt": "next image"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/partner-logo/17607006-PRODUCTS_LOGO-1766059692.jpeg",
+        "alt": "RW Invest, Liverpool Estate Agent Logo"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/partner-logo/17607006-PRODUCTS_LOGO-1766059692.jpeg",
+        "alt": "RW Invest, Liverpool Estate Agent Logo"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/virtualtour-white.2089dcc4.svg",
+        "alt": "virtual tour icon"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/camera-white.579a6efc.svg",
+        "alt": "camera icon"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2ff67ac4a/142655393/2ff67ac4adbefe59419e76e32b23634d_max_476x317.jpeg",
+        "alt": "PHOTOGRAPHY"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/79caeddd2/142655393/79caeddd2e4fd04b697ae25c1e1069f1_max_476x317.jpeg",
+        "alt": "Photography"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/69dd905d1/142655393/69dd905d17ac570135775c572afc98d0_max_476x317.jpeg",
+        "alt": "PHOTOGRAPHY"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/chevron-line.4e0268c8.svg",
+        "alt": "previous image"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/chevron-line.4e0268c8.svg",
+        "alt": "next image"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/partner-logo/85452-PRODUCTS_LOGO-1766057641.jpeg",
+        "alt": "Entwistle Green, Bury Estate Agent Logo"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/partner-logo/85452-PRODUCTS_LOGO-1766057641.jpeg",
+        "alt": "Entwistle Green, Bury Estate Agent Logo"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/floorplan-white.97dae32e.svg",
+        "alt": "floorplan icon"
+      },
+      {
+        "src": "https://media.rightmove.co.uk/assets/7bb483729b5a8e26f73e1831cde5b842/_next/static/media/camera-white.579a6efc.svg",
+        "alt": "camera icon"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3ea29f946/166978733/3ea29f946c231a523f8e1c08fb95e382_max_476x317.jpeg",
+        "alt": "Picture No. 07"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bc00814bd/166978733/bc00814bdad9a4283334ff3ea3225386_max_476x317.jpeg",
+        "alt": "Google Maps Image"
+      },
+      {
+        "src": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/803e9ac54/166978733/803e9ac54f2b77633cefb3b0c5e8e78d_max_476x317.jpeg",
+        "alt": "Picture No. 04"
+      }
+    ],
+    "embedded_json": []
+  },
+  "tool_trace": [
+    {
+      "step": "local_http_server",
+      "serve_dir": "C:\\Users\\pc-mousannif\\Desktop\\Ismail\\WADE-BENCH\\data\\raw_snapshots\\realestate\\SNAP_REAL_RIGHTMOVE_001_LISTING",
+      "http_url": "http://127.0.0.1:53290/page.safe.html",
+      "file_url": "file:///C:/Users/pc-mousannif/Desktop/Ismail/WADE-BENCH/data/raw_snapshots/realestate/SNAP_REAL_RIGHTMOVE_001_LISTING/page.safe.html"
+    },
+    {
+      "step": "list_tools",
+      "tool_names": [
+        "browser_close",
+        "browser_resize",
+        "browser_console_messages",
+        "browser_handle_dialog",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_fill_form",
+        "browser_press_key",
+        "browser_type",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_take_screenshot",
+        "browser_snapshot",
+        "browser_click",
+        "browser_drag",
+        "browser_hover",
+        "browser_select_option",
+        "browser_tabs",
+        "browser_wait_for"
+      ]
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_navigate",
+      "args": {
+        "url": "http://127.0.0.1:53290/page.safe.html"
+      },
+      "output_preview": "### Ran Playwright code\n```js\nawait page.goto('http://127.0.0.1:53290/page.safe.html');\n```\n### Page\n- Page URL: http://127.0.0.1:53290/page.safe.html\n- Page Title: Properties For Sale in Untitled (Drawn Area) | Rightmove\n- Console: 4 errors, 0 warnings\n### Snapshot\n- [Snapshot](.playwright-mcp\\page-2026-06-30T17-56-27-408Z.yml)\n### Events\n- New console entries: .playwright-mcp\\console-2026-06-30T17-56-26-419Z.log#L1-L4"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_snapshot",
+      "args": {},
+      "output_preview": "### Page\n- Page URL: http://127.0.0.1:53290/page.safe.html\n- Page Title: Properties For Sale in Untitled (Drawn Area) | Rightmove\n- Console: 4 errors, 0 warnings\n### Snapshot\n```yaml\n- generic [active] [ref=e1]:\n  - banner [ref=e3]:\n    - generic [ref=e5]:\n      - link \"Go to Rightmove homepage\" [ref=e6] [cursor=pointer]:\n        - /url: /\n        - img [ref=e7]\n      - navigation [ref=e11]:\n        - link \"Buy\" [ref=e13] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Rent\" [ref=e15] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"House Prices\" [ref=e17] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Mortgages\" [ref=e19] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Find Agent\" [ref=e21] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Commercial\" [ref=e23] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Inspire\" [ref=e25] [cursor=pointer]:\n          - /url: \"#\"\n        - link \"Overseas\" [ref=e27] [cursor=pointer]:\n          - /url: \"#\"\n        - button \"Sign in\" [ref=e29] [cursor=pointer]:\n          - generic [ref=e30]:\n            - img [ref=e31]\n            - text: Sign in\n    - generic:\n      - banner:\n        - link \"Go to homepage\" [ref=e33] [cursor=pointer]:\n          - /url: /\n          - img [ref=e34]\n      - generic [ref=e38]:\n        - img \"log_in\" [ref=e40]\n        - link \"Sign in\" [ref=e46] [cursor=pointer]:\n          - /url: /login.html?from=http://127.0.0.1:53290/page.safe.html\n      - generic:\n        - generic: Buy\n        - link \"Property for sale\" [ref=e47] [cursor=pointer]:\n          - /url: /property-for-sale.html\n        - link \"New homes for sale\" [ref=e48] [cursor=pointer]:\n          - /url: /new-homes-for-sale.html\n        - link \"Property valuation\" [ref=e49] [cursor=pointer]:\n          - /url: /agent-valuation\n        - link \"Investors\" [ref=e50] [cursor=pointer]:\n          - /url: /guides/landlord/investor-newsletter/\n        - link \"Mortgages\" [ref=e51] [cursor=pointer]:\n          - /url"
+    },
+    {
+      "step": "call_tool",
+      "tool": "browser_take_screenshot",
+      "args": {},
+      "output_preview": "### Result\n- [Screenshot of viewport](.playwright-mcp\\page-2026-06-30T17-56-27-529Z.png)\n### Ran Playwright code\n```js\n// Screenshot viewport and save it as .playwright-mcp\\page-2026-06-30T17-56-27-529Z.png\nawait page.screenshot({\n  path: '.playwright-mcp\\\\page-2026-06-30T17-56-27-529Z.png',\n  scale: 'css',\n  type: 'png'\n});\n```\ntype='image' data='iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOydB3xUxfbHZ1u2JJtseiWQSAsgJaB0FNAnAmIBC0WxoGJ7oIDyfKjP8vfpA3zw7IqdYgGliwVQQYpAUFrogfSeTTbbsu1/5s7u3bst2YQQEnK+7Ge5Ze7cuTP3bu5vzpkzUofDQRAEQRAEQRAEQRDkckdMEARBEARBEARBEKQdgAIYQRAEQRAEQRAEaRegAEYQBEEQBEEQBEHaBSiAEQRBEARBEARBkHaBlCAIgiAIgiAIgiAcu83az3T5202VZy0GK2m/AYOlRJQuU41URE1XpwyWa8jlggijQCMIgiAIgiAIggAzy4+8r8sjiCcPqzu8F9OLXBagAEYQBEEQBEEQBCFjivf9YCyHhXkR6XeGJV4pCwsRtd8Ro3UO+2FL7Ve1RQurz8LqDcqYLQlXkbYPCmAEQRAEQRAEQdo7zPZ7hUz1VVy//iHhBHFxoK7mztKDZyyGy8MOjAIYQRAEQRAEQZB2zW6zdkjhbljYnzwU1a8voIEHFPwOC7uSBrf18cAYBRpBEARBEARBkHbNZ7p8wnk+o/r1C1QLVA5xVVSbBgUwgiAIgiAIgiDtmu2mSvi+MyyRIAFglcMqqk2D0yAhCIIgCIIgCNKuOWsxwPeVsjCCBIBVDquoNg1agBGK3mGbW3m81FZHEARBEARBEKSdweb7bc8xnxuEVc5lMDEytjFCzluN/Qt+X1yd069g55E6HUEQBEEQBEEQBLkcQQHc3vnJWN6nYOcJi/4WVXyxre7qwt3rDaUEQRAEQRAEQRDksgMFcLtmYXXOmOL9Rof9y7i+38Vn/pI4UC4S31qS9To32zWCIAiCIAiCIMjlxGUbBKu2Vr9u3ffV1TW33DI2KSkhmEMKCoq+/XYTW37ooXvk8hBy+WJ22KeU/fmtviRRIt8Q37+/PAI2DldE/pk89IbiffMrTxyu030ccyUOhEAQBEEQBEEQXwoKSh965P/2/nEElgcNvHLZ+88lJEQTpNVz2cqbN95496WXFi1d+sHMmXODPAQE8FtvLWMfs9kcKFlNje6PP7LYh7RNymx1gwp3g/odLNccTB7K1C+jo1S5P2noTaq4FbWF1xbtLcewWEib5szyHrIBIs9Pj8WFpDWwcYHIp2wi2dTFZ8gFkrN46tSNpHnZfN8AUd/lOV5buept9nM1An/tK5It2BwoPa3zwHsvMYWL+wYsPK3/ppUcqui+38nlBqsrnw+7RZvUyv7vcBfwTNH8W6AmL2Z7cXeRZ121RYJqX3qHNPdP/e9TL9bP3cXLuRE4b/Lm+0vUHsjPL+07YMrm739XKuUKhXzT5p39rppSUtKoKYK8f82EdwLXKM37N4vebK3lLeiScvnb9xyOZo5UduTI8bvvfpR9QAyTNsjL2tN/1tXMUHf4LXFQvETutTdMLFkf3/+VyK67zdqpZX8RBGnjTPluv8Pi+hyfTeZPaDW//t0WHReUzbJ/07QTc7tf2F+7M8vHzT9B2hMe7UvrcMu4QG8M419xWF4ZS1oxPXPm+hZ+44Jxy0mTKFw8cUk2uUyZtlTY7vTz57Q0cjFaufDbL05MmTaGLH/nIquCi9ZeXFfROOKusU39lqS3UZ"
+    }
+  ]
+}

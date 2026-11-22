@@ -1,0 +1,101 @@
+{
+  "task_id": "WBV1_REAL_FINN_EIENDOM_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.finn.no/realestate/homes/search.html?search_key=SEARCH_ID_REALESTATE_HOMES&page=1",
+          "provenance": {
+            "selector": "meta[name='og:url']",
+            "text_quote": "https://www.finn.no/realestate/homes/search.html?search_key=SEARCH_ID_REALESTATE_HOMES&page=1"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": null,
+            "currency_code": null,
+            "currency_symbol": null,
+            "period": null
+          },
+          "provenance": {
+            "selector": null,
+            "text_quote": "No visible price data for the listing card."
+          }
+        },
+        "address": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "No specific address found on the provided HTML snippet."
+          }
+        },
+        "listing_title": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "No explicit listing title found in the visible card structure."
+          }
+        },
+        "property_type": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "Property type is not explicitly labeled or extractable from the provided HTML snippet."
+          }
+        },
+        "bedrooms": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "Number of bedrooms could not be extracted."
+          }
+        },
+        "bathrooms": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "Number of bathrooms could not be extracted."
+          }
+        },
+        "floor_area": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "Floor area details are missing from the visible listing card structure."
+          }
+        },
+        "listing_agent": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": "Agent information is not present in the provided HTML snippet."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.html",
+        "notes": "The provided HTML only contains general page structure and ad scripts, but no individual property listing cards are visible or fully extractable within the context limit."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 11.994,
+    "input_tokens": 19793,
+    "output_tokens": 697,
+    "total_tokens": 20490,
+    "initial_input_tokens": 19793,
+    "initial_output_tokens": 697,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

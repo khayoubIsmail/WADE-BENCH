@@ -1,0 +1,81 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19547756/",
+        "address": "Kingsfield Avenue, Harrow, HA2 6AQ",
+        "property_type": "House",
+        "price": {
+          "amount": 879000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "bedrooms": 4,
+        "listing_title": "Kingsfield Avenue, Harrow, HA2 6AQ 4 bed semi-detached house for sale - £879,000",
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-1-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-2-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-3-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-4-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-5-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-6-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-7-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-8-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-9-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-10-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-11-1024x1024.jpg",
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-12-1024x1024.jpg"
+        ],
+        "listing_agent": {
+          "name": "Robsons - Pinner",
+          "provenance": {
+            "listing_agent": "og:description"
+          }
+        },
+        "listing_agent_logo": "https://media.onthemarket.com/agents/companies/6752/180613094609042/logo-190x100.jpg",
+        "mls_number": null,
+        "key_features": [
+          "Semi-detached",
+          "Garden",
+          "Garage",
+          "Double glazing",
+          "Central heating"
+        ],
+        "description": "Robsons - Pinner present this 4 bedroom semi-detached house for sale in Kingsfield Avenue, Harrow, HA2 6AQ",
+        "listing_agent_phone": null
+      },
+      "provenance": {
+        "listing_url": "https://www.onthemarket.com/details/19547756/",
+        "address": "Kingsfield Avenue, Harrow, HA2 6AQ",
+        "property_type": "House",
+        "price": "title",
+        "bedrooms": "title",
+        "listing_title": "title",
+        "images_urls": "swiper-slide a href attributes"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 19.235,
+    "input_tokens": 24011,
+    "output_tokens": 1176,
+    "total_tokens": 25187,
+    "initial_input_tokens": 24011,
+    "initial_output_tokens": 1176,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

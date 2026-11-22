@@ -1,0 +1,1263 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_LISTING",
+  "website_id": "casper_us",
+  "schema_id": "product_listing_v1",
+  "snapshot_id": "casper_us_listing_mattresses",
+  "snapshot_path": "raw_snapshots/ecommerce/casper_us_listing_mattresses",
+  "live_url": "https://casper.com/collections/mattresses",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 9
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_LISTING_001",
+      "fields": {
+        "product_name": {
+          "value": "The One",
+          "normalized": "The One"
+        },
+        "short_description": {
+          "value": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love.",
+          "normalized": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love."
+        },
+        "price_raw": {
+          "value": "$599",
+          "normalized": {
+            "amount": 599.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$749",
+          "normalized": {
+            "amount": 749.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "20%",
+          "normalized": 20
+        },
+        "rating": {
+          "value": "4.4",
+          "normalized": 4.4
+        },
+        "review_count": {
+          "value": "17807",
+          "normalized": 17807
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/The-One-PDP-hero-without-Consumer-Reports.jpg?v=1757442326&width=1920",
+          "normalized": "https://casper.com/cdn/shop/files/The-One-PDP-hero-without-Consumer-Reports.jpg?v=1757442326&width=1920"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/casper-one-foam",
+          "normalized": "https://casper.com/products/casper-one-foam"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.product-card__title",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[3]/div[2]/a[1]/span[1]",
+          "text_quote": "The One",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[3]/div[2]/a/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "short_description": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "p.product-card__description",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[3]/p[1]",
+          "text_quote": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three laye",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "sale-price.text-on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[3]/div[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$599",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[3]/div[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "compare-at-price.text-subdued.line-through",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[3]/div[2]/price-list[1]/div[1]/compare-at-price[1]",
+          "text_quote": "$749",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[3]/div[2]/price-list/div/compare-at-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > div:nth-of-type(1) > compare-at-price:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[1]/div[2]/on-sale-badge[1]",
+          "text_quote": "20%",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[1]/div[2]/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-left-panel.yotpo-sr-bottom-line-score",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[3]/div[1]/div[1]/div[1]/div[2]/span[1]/span[2]",
+          "text_quote": "4.4",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[3]/div[1]/div/div/div[2]/span[1]/span[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[3]/div[1]/div[1]/div[1]/div[2]/span[3]/span[1]",
+          "text_quote": "17807",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[3]/div[1]/div/div/div[2]/span[3]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(3) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "img[src*='1757442326']",
+          "xpath": "//img[contains(@src,'1757442326')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[2]/a/img[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "a[href*='casper-one-foam']",
+          "xpath": "//a[@aria-label='View details for The One']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[2]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_LISTING_002",
+      "fields": {
+        "product_name": {
+          "value": "Cloud One",
+          "normalized": "Cloud One"
+        },
+        "short_description": {
+          "value": "Our most popular mattress just got an upgrade. Featuring all-new patent-pending Casper Core+\u2122 technology, Cloud One delivers a boost of plushness while giving you all the support and breathability of The One.",
+          "normalized": "Our most popular mattress just got an upgrade. Featuring all-new patent-pending Casper Core+\u2122 technology, Cloud One delivers a boost of plushness while giving you all the support and breathability of The One."
+        },
+        "price_raw": {
+          "value": "$799",
+          "normalized": {
+            "amount": 799.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$999",
+          "normalized": {
+            "amount": 999.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "20%",
+          "normalized": 20
+        },
+        "rating": {
+          "value": "4.3",
+          "normalized": 4.3
+        },
+        "review_count": {
+          "value": "128",
+          "normalized": 128
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Cloud-One-PDP-Hero-without-Consumer-Reports.jpg?v=1780428805&width=1897",
+          "normalized": "https://casper.com/cdn/shop/files/Cloud-One-PDP-Hero-without-Consumer-Reports.jpg?v=1780428805&width=1897"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/casper-cloud-one-foam",
+          "normalized": "https://casper.com/products/casper-cloud-one-foam"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.product-card__title",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[2]/div[3]/div[2]/a[1]/span[1]",
+          "text_quote": "Cloud One",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[3]/div[2]/a/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "short_description": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "p.product-card__description",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[2]/div[3]/p[1]",
+          "text_quote": "Our most popular mattress just got an upgrade. Featuring all-new patent-pending Casper Core+\u2122 technology, Cloud One deli",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "sale-price.text-on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[2]/div[3]/div[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$799",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[3]/div[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "compare-at-price.text-subdued.line-through",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[2]/div[3]/div[2]/price-list[1]/div[1]/compare-at-price[1]",
+          "text_quote": "$999",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[3]/div[2]/price-list/div/compare-at-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > div:nth-of-type(1) > compare-at-price:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[1]/div[2]/on-sale-badge[1]",
+          "text_quote": "20%",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[1]/div[2]/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-left-panel.yotpo-sr-bottom-line-score",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[2]/div[3]/div[1]/div[1]/div[1]/div[2]/span[1]/span[2]",
+          "text_quote": "4.3",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[3]/div[1]/div/div/div[2]/span[1]/span[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[2]/div[3]/div[1]/div[1]/div[1]/div[2]/span[4]/span[1]",
+          "text_quote": "128",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[3]/div[1]/div/div/div[2]/span[4]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(4) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "img[src*='1780428805']",
+          "xpath": "//img[contains(@src,'1780428805')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[2]/a/img[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "a[href*='casper-cloud-one-foam']",
+          "xpath": "//a[@aria-label='View details for Cloud One']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[2]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_LISTING_003",
+      "fields": {
+        "product_name": {
+          "value": "Dream",
+          "normalized": "Dream"
+        },
+        "short_description": {
+          "value": "Our dream? A hybrid mattress that helps solve tossing and turning. Pairing responsive springs with ergonomic support zones, Dream keeps you aligned and dreaming all night.",
+          "normalized": "Our dream? A hybrid mattress that helps solve tossing and turning. Pairing responsive springs with ergonomic support zones, Dream keeps you aligned and dreaming all night."
+        },
+        "price_raw": {
+          "value": "$1,045",
+          "normalized": {
+            "amount": 1045.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$1,495",
+          "normalized": {
+            "amount": 1495.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "30%",
+          "normalized": 30
+        },
+        "rating": {
+          "value": "4.5",
+          "normalized": 4.5
+        },
+        "review_count": {
+          "value": "4333",
+          "normalized": 4333
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-without-Consumer-Reports.jpg?v=1758832974&width=1920",
+          "normalized": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-without-Consumer-Reports.jpg?v=1758832974&width=1920"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/casper-dream-hybrid",
+          "normalized": "https://casper.com/products/casper-dream-hybrid"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.product-card__title",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[3]/div[2]/a[1]/span[1]",
+          "text_quote": "Dream",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[3]/div[2]/a/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "short_description": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "p.product-card__description",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[3]/p[1]",
+          "text_quote": "Our dream? A hybrid mattress that helps solve tossing and turning. Pairing responsive springs with ergonomic support zon",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "sale-price.text-on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[3]/div[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$1,045",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[3]/div[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "compare-at-price.text-subdued.line-through",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[3]/div[2]/price-list[1]/div[1]/compare-at-price[1]",
+          "text_quote": "$1,495",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[3]/div[2]/price-list/div/compare-at-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > div:nth-of-type(1) > compare-at-price:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[1]/div[1]/on-sale-badge[1]",
+          "text_quote": "30%",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[1]/div/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-left-panel.yotpo-sr-bottom-line-score",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[3]/div[1]/div[1]/div[1]/div[2]/span[1]/span[2]",
+          "text_quote": "4.5",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[3]/div[1]/div/div/div[2]/span[1]/span[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[3]/div[1]/div[1]/div[1]/div[2]/span[3]/span[1]",
+          "text_quote": "4333",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[3]/div[1]/div/div/div[2]/span[3]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(3) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "img[src*='1758832974']",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[2]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[2]/a/img[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "a[href*='casper-dream-hybrid']",
+          "xpath": "//a[@aria-label='View details for Dream']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[2]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_LISTING_004",
+      "fields": {
+        "product_name": {
+          "value": "Snow",
+          "normalized": "Snow"
+        },
+        "short_description": {
+          "value": "Engineered with Snow Technology, including QuickCool\u2122 Cover, our most popular cooling mattress attacks overheating for 12+ hours, not just when you're falling asleep. Pairing together conforming memory foam and encased coils, sleep has never been so refreshing.",
+          "normalized": "Engineered with Snow Technology, including QuickCool\u2122 Cover, our most popular cooling mattress attacks overheating for 12+ hours, not just when you're falling asleep. Pairing together conforming memory foam and encased coils, sleep has never been so refreshing."
+        },
+        "price_raw": {
+          "value": "$1,395",
+          "normalized": {
+            "amount": 1395.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$1,995",
+          "normalized": {
+            "amount": 1995.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "30%",
+          "normalized": 30
+        },
+        "rating": {
+          "value": "4.4",
+          "normalized": 4.4
+        },
+        "review_count": {
+          "value": "982",
+          "normalized": 982
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Snow-PDP-Hero-without-Consumer-Reports.jpg?v=1758832991&width=1920",
+          "normalized": "https://casper.com/cdn/shop/files/Snow-PDP-Hero-without-Consumer-Reports.jpg?v=1758832991&width=1920"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/casper-snow-v3",
+          "normalized": "https://casper.com/products/casper-snow-v3"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.product-card__title",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[4]/div[3]/div[2]/a[1]/span[1]",
+          "text_quote": "Snow",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[4]/div[3]/div[2]/a/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(4) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "short_description": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "p.product-card__description",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[4]/div[3]/p[1]",
+          "text_quote": "Engineered with Snow Technology, including QuickCool\u2122 Cover, our most popular cooling mattress attacks overheating for 1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[4]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(4) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "sale-price.text-on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[4]/div[3]/div[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$1,395",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[4]/div[3]/div[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(4) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "compare-at-price.text-subdued.line-through",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[4]/div[3]/div[2]/price-list[1]/div[1]/compare-at-price[1]",
+          "text_quote": "$1,995",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[4]/div[3]/div[2]/price-list/div/compare-at-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(4) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > div:nth-of-type(1) > compare-at-price:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[1]/div[1]/on-sale-badge[1]",
+          "text_quote": "30%",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[1]/div/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-left-panel.yotpo-sr-bottom-line-score",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[3]/div[1]/div[1]/div[1]/div[2]/span[1]/span[2]",
+          "text_quote": "4.4",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[3]/div[1]/div/div/div[2]/span[1]/span[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[4]/div[3]/div[1]/div[1]/div[1]/div[2]/span[4]/span[1]",
+          "text_quote": "982",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[4]/div[3]/div[1]/div/div/div[2]/span[4]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(4) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(4) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "img[src*='1758832991']",
+          "xpath": "//img[contains(@src,'1758832991')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[4]/div[2]/a/img[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "a[href*='casper-snow-v3']",
+          "xpath": "//a[@aria-label='View details for Snow']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[4]/div[2]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_LISTING_005",
+      "fields": {
+        "product_name": {
+          "value": "Dream Max",
+          "normalized": "Dream Max"
+        },
+        "short_description": {
+          "value": "We made your dream hybrid mattress into a reality. Designed over years, our most supportive mattress ever combines pressure-relieving foam, precise ergonomic zoning, and responsive coils to align your spine, cradle your body, and support you all night.",
+          "normalized": "We made your dream hybrid mattress into a reality. Designed over years, our most supportive mattress ever combines pressure-relieving foam, precise ergonomic zoning, and responsive coils to align your spine, cradle your body, and support you all night."
+        },
+        "price_raw": {
+          "value": "$1,815",
+          "normalized": {
+            "amount": 1815.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$2,595",
+          "normalized": {
+            "amount": 2595.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "30%",
+          "normalized": 30
+        },
+        "rating": {
+          "value": "4.3",
+          "normalized": 4.3
+        },
+        "review_count": {
+          "value": "2572",
+          "normalized": 2572
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647157&width=1920",
+          "normalized": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647157&width=1920"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/casper-dream-max-hybrid",
+          "normalized": "https://casper.com/products/casper-dream-max-hybrid"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.product-card__title",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[5]/div[3]/div[2]/a[1]/span[1]",
+          "text_quote": "Dream Max",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[5]/div[3]/div[2]/a/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "short_description": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "p.product-card__description",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[5]/div[3]/p[1]",
+          "text_quote": "We made your dream hybrid mattress into a reality. Designed over years, our most supportive mattress ever combines press",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[5]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(5) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "sale-price.text-on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[5]/div[3]/div[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$1,815",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[5]/div[3]/div[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "compare-at-price.text-subdued.line-through",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[5]/div[3]/div[2]/price-list[1]/div[1]/compare-at-price[1]",
+          "text_quote": "$2,595",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[5]/div[3]/div[2]/price-list/div/compare-at-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > div:nth-of-type(1) > compare-at-price:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[1]/div[1]/on-sale-badge[1]",
+          "text_quote": "30%",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[1]/div/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-left-panel.yotpo-sr-bottom-line-score",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[2]/div[3]/div[1]/div[1]/div[1]/div[2]/span[1]/span[2]",
+          "text_quote": "4.3",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[3]/div[1]/div/div/div[2]/span[1]/span[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[5]/div[3]/div[1]/div[1]/div[1]/div[2]/span[3]/span[1]",
+          "text_quote": "2572",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[5]/div[3]/div[1]/div/div/div[2]/span[3]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(3) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "img[src*='1772647157']",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[5]/div[2]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[5]/div[2]/a/img[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(5) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "a[href*='casper-dream-max-hybrid']",
+          "xpath": "//a[@aria-label='View details for Dream Max']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[5]/div[2]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(5) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_LISTING_006",
+      "fields": {
+        "product_name": {
+          "value": "Snow Max",
+          "normalized": "Snow Max"
+        },
+        "short_description": {
+          "value": "Aches and pains? Night sweats? With our most supportive ergonomics and enhanced Snow Technology, including QuickCool\u2122 Cover, Snow Max is the ultimate solution for whatever is keeping you up.",
+          "normalized": "Aches and pains? Night sweats? With our most supportive ergonomics and enhanced Snow Technology, including QuickCool\u2122 Cover, Snow Max is the ultimate solution for whatever is keeping you up."
+        },
+        "price_raw": {
+          "value": "$2,270",
+          "normalized": {
+            "amount": 2270.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$3,245",
+          "normalized": {
+            "amount": 3245.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "30%",
+          "normalized": 30
+        },
+        "rating": {
+          "value": "4.4",
+          "normalized": 4.4
+        },
+        "review_count": {
+          "value": "519",
+          "normalized": 519
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Snow-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647162&width=1920",
+          "normalized": "https://casper.com/cdn/shop/files/Snow-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647162&width=1920"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/casper-snow-max-hybrid-v3",
+          "normalized": "https://casper.com/products/casper-snow-max-hybrid-v3"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.product-card__title",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[6]/div[3]/div[2]/a[1]/span[1]",
+          "text_quote": "Snow Max",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[6]/div[3]/div[2]/a/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(6) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "short_description": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "p.product-card__description",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[6]/div[3]/p[1]",
+          "text_quote": "Aches and pains? Night sweats? With our most supportive ergonomics and enhanced Snow Technology, including QuickCool\u2122 Co",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[6]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(6) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "sale-price.text-on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[6]/div[3]/div[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$2,270",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[6]/div[3]/div[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(6) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "compare-at-price.text-subdued.line-through",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[6]/div[3]/div[2]/price-list[1]/div[1]/compare-at-price[1]",
+          "text_quote": "$3,245",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[6]/div[3]/div[2]/price-list/div/compare-at-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(6) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > div:nth-of-type(1) > compare-at-price:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[1]/div[1]/on-sale-badge[1]",
+          "text_quote": "30%",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[1]/div/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-left-panel.yotpo-sr-bottom-line-score",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[1]/div[3]/div[1]/div[1]/div[1]/div[2]/span[1]/span[2]",
+          "text_quote": "4.4",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[1]/div[3]/div[1]/div/div/div[2]/span[1]/span[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[6]/div[3]/div[1]/div[1]/div[1]/div[2]/span[4]/span[1]",
+          "text_quote": "519",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[6]/div[3]/div[1]/div/div/div[2]/span[4]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(6) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(4) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "img[src*='1772647162']",
+          "xpath": "//img[contains(@src,'1772647162')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[6]/div[2]/a/img[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(6) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "a[href*='casper-snow-max-hybrid-v3']",
+          "xpath": "//a[@aria-label='View details for Snow Max']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[6]/div[2]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(6) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_LISTING_007",
+      "fields": {
+        "product_name": {
+          "value": "Dream with QuickCool\u2122 Cover",
+          "normalized": "Dream with QuickCool\u2122 Cover"
+        },
+        "short_description": {
+          "value": "Upgrade your Dream Hybrid Mattress with the Casper QuickCool\u2122 Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy.",
+          "normalized": "Upgrade your Dream Hybrid Mattress with the Casper QuickCool\u2122 Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy."
+        },
+        "price_raw": {
+          "value": "$1,195",
+          "normalized": {
+            "amount": 1195.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$1,645",
+          "normalized": {
+            "amount": 1645.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "30%",
+          "normalized": 30
+        },
+        "rating": {
+          "value": "4.5",
+          "normalized": 4.5
+        },
+        "review_count": {
+          "value": "4333",
+          "normalized": 4333
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-without-Consumer-Reports.jpg?v=1758832974&width=1920",
+          "normalized": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-without-Consumer-Reports.jpg?v=1758832974&width=1920"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/casper-dream-hybrid-quickcool",
+          "normalized": "https://casper.com/products/casper-dream-hybrid-quickcool"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.product-card__title",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[7]/div[3]/div[2]/a[1]/span[1]",
+          "text_quote": "Dream with QuickCool\u2122 Cover",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[7]/div[3]/div[2]/a/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(7) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "short_description": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "p.product-card__description",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[7]/div[3]/p[1]",
+          "text_quote": "Upgrade your Dream Hybrid Mattress with the Casper QuickCool\u2122 Cover featuring specialty cool-to-the-touch fibers that gi",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[7]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(7) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "sale-price.text-on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[7]/div[3]/div[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$1,195",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[7]/div[3]/div[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(7) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "compare-at-price.text-subdued.line-through",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[7]/div[3]/div[2]/price-list[1]/div[1]/compare-at-price[1]",
+          "text_quote": "$1,645",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[7]/div[3]/div[2]/price-list/div/compare-at-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(7) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > div:nth-of-type(1) > compare-at-price:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[1]/div[1]/on-sale-badge[1]",
+          "text_quote": "30%",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[1]/div/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-left-panel.yotpo-sr-bottom-line-score",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[3]/div[1]/div[1]/div[1]/div[2]/span[1]/span[2]",
+          "text_quote": "4.5",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[3]/div[1]/div/div/div[2]/span[1]/span[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[3]/div[1]/div[1]/div[1]/div[2]/span[3]/span[1]",
+          "text_quote": "4333",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[3]/div[1]/div/div/div[2]/span[3]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(3) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "img[src*='1758832974']",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[2]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[2]/a/img[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "a[href*='casper-dream-hybrid']",
+          "xpath": "//a[@aria-label='View details for Dream']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[2]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_LISTING_008",
+      "fields": {
+        "product_name": {
+          "value": "Dream Max with QuickCool\u2122 Cover",
+          "normalized": "Dream Max with QuickCool\u2122 Cover"
+        },
+        "short_description": {
+          "value": "Upgrade your Dream Max Hybrid Mattress with the Casper QuickCool\u2122 Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy. Our ultimate ergonomic design features seven support zones to align your spine and help reduce aches and pains.",
+          "normalized": "Upgrade your Dream Max Hybrid Mattress with the Casper QuickCool\u2122 Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy. Our ultimate ergonomic design features seven support zones to align your spine and help reduce aches and pains."
+        },
+        "price_raw": {
+          "value": "$1,965",
+          "normalized": {
+            "amount": 1965.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$2,745",
+          "normalized": {
+            "amount": 2745.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "30%",
+          "normalized": 30
+        },
+        "rating": {
+          "value": "4.3",
+          "normalized": 4.3
+        },
+        "review_count": {
+          "value": "2572",
+          "normalized": 2572
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647157&width=1920",
+          "normalized": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647157&width=1920"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/casper-dream-hybrid-max-quickcool",
+          "normalized": "https://casper.com/products/casper-dream-hybrid-max-quickcool"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.product-card__title",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[8]/div[3]/div[2]/a[1]/span[1]",
+          "text_quote": "Dream Max with QuickCool\u2122 Cover",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[8]/div[3]/div[2]/a/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(8) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "short_description": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "p.product-card__description",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[8]/div[3]/p[1]",
+          "text_quote": "Upgrade your Dream Max Hybrid Mattress with the Casper QuickCool\u2122 Cover featuring specialty cool-to-the-touch fibers tha",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[8]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(8) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "sale-price.text-on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[8]/div[3]/div[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$1,965",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[8]/div[3]/div[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(8) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "compare-at-price.text-subdued.line-through",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[8]/div[3]/div[2]/price-list[1]/div[1]/compare-at-price[1]",
+          "text_quote": "$2,745",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[8]/div[3]/div[2]/price-list/div/compare-at-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(8) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > div:nth-of-type(1) > compare-at-price:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[3]/div[1]/div[1]/on-sale-badge[1]",
+          "text_quote": "30%",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[1]/div/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-left-panel.yotpo-sr-bottom-line-score",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[2]/div[3]/div[1]/div[1]/div[1]/div[2]/span[1]/span[2]",
+          "text_quote": "4.3",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[2]/div[3]/div[1]/div/div/div[2]/span[1]/span[2]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2)"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[5]/div[3]/div[1]/div[1]/div[1]/div[2]/span[3]/span[1]",
+          "text_quote": "2572",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[5]/div[3]/div[1]/div/div/div[2]/span[3]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(3) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "img[src*='1772647157']",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[5]/div[2]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[5]/div[2]/a/img[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(5) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "a[href*='casper-dream-hybrid']",
+          "xpath": "//a[@aria-label='View details for Dream']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[3]/div[2]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ECOM_03_CASPER_US_LISTING_009",
+      "fields": {
+        "product_name": {
+          "value": "Snug\u2122",
+          "normalized": "Snug\u2122"
+        },
+        "short_description": {
+          "value": "Long-lasting materials and a pair of waterproof mattress protectors give you peace of of mind, while three layers of breathable, supportive foam gives them the deeper sleep little dreamers need.",
+          "normalized": "Long-lasting materials and a pair of waterproof mattress protectors give you peace of of mind, while three layers of breathable, supportive foam gives them the deeper sleep little dreamers need."
+        },
+        "price_raw": {
+          "value": "$499",
+          "normalized": {
+            "amount": 499.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "old_price_raw": {
+          "value": "$599",
+          "normalized": {
+            "amount": 599.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "discount_percentage": {
+          "value": "SAVE $100",
+          "normalized": 100
+        },
+        "rating": {
+          "value": "5",
+          "normalized": 5
+        },
+        "review_count": {
+          "value": "21",
+          "normalized": 21
+        },
+        "image_url": {
+          "value": "https://casper.com/cdn/shop/files/Snug-PDP-Hero-Twin.jpg?v=1772215390&width=1920",
+          "normalized": "https://casper.com/cdn/shop/files/Snug-PDP-Hero-Twin.jpg?v=1772215390&width=1920"
+        },
+        "product_url": {
+          "value": "https://casper.com/products/snug-v2",
+          "normalized": "https://casper.com/products/snug-v2"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.product-card__title",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[9]/div[3]/div[2]/a[1]/span[1]",
+          "text_quote": "Snug\u2122",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[9]/div[3]/div[2]/a/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(9) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "short_description": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "p.product-card__description",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[9]/div[3]/p[1]",
+          "text_quote": "Long-lasting materials and a pair of waterproof mattress protectors give you peace of of mind, while three layers of bre",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[9]/div[3]/p",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(9) > div:nth-of-type(3) > p:nth-of-type(1)"
+        },
+        "price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "sale-price.text-on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[9]/div[3]/div[2]/price-list[1]/sale-price[1]",
+          "text_quote": "$499",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[9]/div[3]/div[2]/price-list/sale-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(9) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > sale-price:nth-of-type(1)"
+        },
+        "old_price_raw": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "compare-at-price.text-subdued.line-through",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[9]/div[3]/div[2]/price-list[1]/div[1]/compare-at-price[1]",
+          "text_quote": "$599",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[9]/div[3]/div[2]/price-list/div/compare-at-price",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(9) > div:nth-of-type(3) > div:nth-of-type(2) > price-list:nth-of-type(1) > div:nth-of-type(1) > compare-at-price:nth-of-type(1)"
+        },
+        "discount_percentage": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "on-sale-badge.badge.badge--on-sale",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[9]/div[1]/div[2]/on-sale-badge[1]",
+          "text_quote": "SAVE $100",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[9]/div[1]/div[2]/on-sale-badge",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(2) > on-sale-badge:nth-of-type(1)"
+        },
+        "rating": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value empty or not directly verifiable in frozen static page.html"
+        },
+        "review_count": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "span.yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel",
+          "xpath": "//*[@id='shopify-section-template--28028742205806__main']/div[1]/div[1]/div[1]/div[2]/div[1]/reveal-items[1]/product-list[1]/product-card[9]/div[3]/div[1]/div[1]/div[1]/div[2]/span[4]/span[1]",
+          "text_quote": "21",
+          "attribute": null,
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[9]/div[3]/div[1]/div/div/div[2]/span[4]/span",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(9) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(4) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "img[src*='1772215390']",
+          "xpath": "//img[contains(@src,'1772215390')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[9]/div[2]/a/img[1]",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(9) > div:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "casper_us_listing_mattresses",
+          "css_selector": "a[href*='snug-v2']",
+          "xpath": "//a[@aria-label='View details for Snug\u2122']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/main/section[1]/div/div/div/div[2]/div/reveal-items/product-list/product-card[9]/div[2]/a",
+          "css_selector_absolute": "html > body > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > reveal-items:nth-of-type(1) > product-list:nth-of-type(1) > product-card:nth-of-type(9) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

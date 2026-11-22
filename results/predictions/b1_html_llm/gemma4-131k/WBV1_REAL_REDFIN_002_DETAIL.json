@@ -1,0 +1,155 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662",
+        "address": "2749 Fish Ave, Bronx, NY 10469",
+        "listing_title": null,
+        "property_type": "House",
+        "price": {
+          "amount": 375000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "bedrooms": 3,
+        "bathrooms": 3.5,
+        "bathrooms_partial": null,
+        "floor_area": {
+          "value": 2058,
+          "unit": "sq. ft."
+        },
+        "rooms": null,
+        "energy_rating": null,
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": null,
+        "monthly_fees": null,
+        "total_price": null,
+        "status": "Pending Short Sale Approval",
+        "published_date": null,
+        "open_house_schedule": [],
+        "key_features": [
+          null
+        ],
+        "description": null,
+        "mls_number": "1005357",
+        "additional_facilities": [],
+        "images_urls": [
+          "https://ssl.cdn-redfin.com/photo/269/mbpaddedwide/357/genMid.1005357_0.jpg"
+        ],
+        "listing_agent": {
+          "name": null,
+          "phone": "8779733346",
+          "logo_url": null,
+          "photo_url": null
+        },
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_agent_phone": "8779733346",
+        "listing_office": null,
+        "parking": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "meta tag",
+          "text_quote": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662"
+        },
+        "address": {
+          "source": "meta tag",
+          "text_quote": "2749 Fish Ave, Bronx, NY 10469"
+        },
+        "listing_title": {
+          "source": "title tag",
+          "text_quote": "2749 Fish Ave, Bronx, NY 10469 | MLS# 1005357 | Redfin"
+        },
+        "property_type": {
+          "source": "meta content",
+          "text_quote": "For Sale: 3 beds, 3.5 baths ∙ 2058 sq. ft. ∙ 2749 Fish Ave, Bronx, NY 10469 ∙ $375,000..."
+        },
+        "price": {
+          "source": "meta content",
+          "text_quote": "$375,000"
+        },
+        "bedrooms": {
+          "source": "meta content",
+          "text_quote": "3 beds"
+        },
+        "bathrooms": {
+          "source": "meta content",
+          "text_quote": "3.5 baths"
+        },
+        "bathrooms_partial": null,
+        "floor_area": {
+          "source": "meta content",
+          "text_quote": "2058 sq. ft."
+        },
+        "rooms": null,
+        "energy_rating": null,
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": null,
+        "monthly_fees": null,
+        "total_price": null,
+        "status": {
+          "source": "meta content",
+          "text_quote": "PENDING SHORT SALE APPROVAL - 3rd PARTY APPROVAL. NO ACCESS, NO INTERIOR SHOWINGS"
+        },
+        "published_date": null,
+        "open_house_schedule": [],
+        "key_features": {
+          "source": "meta content",
+          "text_quote": null
+        },
+        "description": {
+          "source": "meta content",
+          "text_quote": "(OneKey® MLS as Distributed by MLS Grid) For Sale: 3 beds, 3.5 baths ∙ 2058 sq. ft. ∙ 2749 Fish Ave, Bronx, NY 10469 ∙ $375,000 ∙ MLS# 1005357 ∙ PENDING SHORT SALE APPROVAL - 3rd PARTY APPROVAL. NO ACCESS, NO INTERIOR SHOWINGS"
+        },
+        "mls_number": {
+          "source": "title tag",
+          "text_quote": "MLS# 1005357"
+        },
+        "additional_facilities": null,
+        "images_urls": {
+          "source": "meta content",
+          "text_quote": "https://ssl.cdn-redfin.com/photo/269/mbpaddedwide/357/genMid.1005357_0.jpg"
+        },
+        "listing_agent": {
+          "source": "meta content",
+          "text_quote": null
+        },
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_agent_phone": {
+          "source": "meta content",
+          "text_quote": "8779733346"
+        },
+        "listing_office": null,
+        "parking": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 23.414,
+    "input_tokens": 24415,
+    "output_tokens": 1472,
+    "total_tokens": 25887,
+    "initial_input_tokens": 24415,
+    "initial_output_tokens": 1472,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "task_id": "WBV1_JOBS_POSTJOBFREE_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": {
+          "value": "Mechanical Engineer III",
+          "provenance": {
+            "source": "page.safe.html",
+            "text_quote": "Mechanical Engineer III"
+          }
+        },
+        "job_url": {
+          "value": "http://127.0.0.1:61869/page.safe.html",
+          "provenance": {
+            "source": "metadata.json",
+            "text_quote": "initial_url"
+          }
+        },
+        "company_name": {
+          "value": "LaunchPoint Electric Propulsion Solutions, Inc.",
+          "provenance": {
+            "source": "page.safe.html",
+            "text_quote": "Company: LaunchPoint Electric Propulsion Solutions, Inc."
+          }
+        },
+        "location": {
+          "value": "Santa Barbara, CA, 93190",
+          "provenance": {
+            "source": "page.safe.html",
+            "text_quote": "Location: Santa Barbara, CA, 93190"
+          }
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html"
+        },
+        "job_url": {
+          "source": "metadata.json"
+        },
+        "company_name": {
+          "source": "page.safe.html"
+        },
+        "location": {
+          "source": "page.safe.html"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 9.193,
+    "input_tokens": 19220,
+    "output_tokens": 276,
+    "total_tokens": 19496,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_POSTJOBFREE_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_POSTJOBFREE_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "task_id": "WBV1_GOV_UNGM_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "UNDP-FJI-00747 - Expression of Interest – Civil Works for AMOS-RD Project",
+        "tender_url": "https://www.ungm.org/Public/Notice/298074",
+        "reference_number": "UNDP-FJI-00747,2",
+        "agency": "UNDP",
+        "buyer": "UNDP",
+        "country": "Solomon Islands",
+        "beneficiary_countries_or_territories": "Solomon Islands",
+        "registration_level": "Basic level",
+        "published_date": "2026-04-17",
+        "deadline_date": "2026-05-29",
+        "closing_time": "02:00 (GMT -4.00)",
+        "description": "UNDP invites interested and eligible suppliers to submit Expressions of Interest (EOIs) in respect of provision of the requirements described below. The purpose of the REOI is to identify suppliers that wish to participate in a forthcoming solicitation process. 1. Construction of three (03) new Upper-Air Weather Observation stations in Taro, Tulagi, and Lata in the Solomon Islands. 2. Construction of a new SIMS office facility in Kirakira in the Solomon Islands.",
+        "contact_email": "procurement.sb@undp.org",
+        "contact_name": "Procurement Unit",
+        "apply_portal_link": "http://supplier.quantum.partneragencies.org/",
+        "website": "https://www.undp.org/procurement/business/resources-for-bidders",
+        "language": "French",
+        "notice_type": "Expression of Interest",
+        "procurement_method": "Expression of Interest",
+        "status": "Active"
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "page.safe.html",
+          "css_selector": "h1",
+          "xpath": "//h1",
+          "bbox": null,
+          "text_quote": "UNDP-FJI-00747 - Expression of Interest – Civil Works for AMOS-RD Project"
+        },
+        "tender_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.ungm.org/Public/Notice/298074"
+        },
+        "reference_number": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "UNDP-FJI-00747,2"
+        },
+        "agency": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "PNUD"
+        },
+        "country": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Îles Salomon"
+        },
+        "beneficiary_countries_or_territories": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Îles Salomon"
+        },
+        "registration_level": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "niveau de base"
+        },
+        "published_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "17-avr.-2026"
+        },
+        "deadline_date": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "29-mai-2026"
+        },
+        "closing_time": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "29-mai-2026 02:00 (GMT -4.00)"
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "UNDP invites interested and eligible suppliers to submit Expressions of Interest (EOIs) in respect of provision of the requirements described below."
+        },
+        "contact_email": {
+          "source": "page.safe.html",
+          "css_selector": "a[href^='mailto']",
+          "xpath": "//a[contains(@href,'mailto')]",
+          "bbox": null,
+          "text_quote": "procurement.sb@undp.org"
+        },
+        "contact_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Procurement Unit"
+        },
+        "apply_portal_link": {
+          "source": "page.safe.html",
+          "css_selector": "a[href*='quantum']",
+          "xpath": "//a[contains(@href,'quantum')]",
+          "bbox": null,
+          "text_quote": "http://supplier.quantum.partneragencies.org/"
+        },
+        "website": {
+          "source": "page.safe.html",
+          "css_selector": "a[href*='undp.org']",
+          "xpath": "//a[contains(@href,'undp.org')]",
+          "bbox": null,
+          "text_quote": "https://www.undp.org/procurement/business/resources-for-bidders"
+        },
+        "language": {
+          "source": "page.safe.html",
+          "css_selector": "html",
+          "xpath": "//html[@lang]",
+          "bbox": null,
+          "text_quote": "Français"
+        },
+        "notice_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Demande de manifestation d'intérêt"
+        },
+        "procurement_method": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Expression of Interest"
+        },
+        "status": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Active"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 27.371,
+    "input_tokens": 25761,
+    "output_tokens": 1039,
+    "total_tokens": 26800,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_UNGM_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_UNGM_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

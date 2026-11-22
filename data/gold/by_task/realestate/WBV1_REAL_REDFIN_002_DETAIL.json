@@ -1,0 +1,386 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_002_DETAIL",
+  "website_id": "redfin",
+  "schema_id": "real_estate_listing_v1",
+  "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+  "snapshot_path": "raw_snapshots/realestate/SNAP_REAL_REDFIN_002_DETAIL",
+  "live_url": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_REAL_REDFIN_002_DETAIL_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662",
+          "normalized": "https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662"
+        },
+        "images_urls": {
+          "value": [
+            "https://ssl.cdn-redfin.com/photo/269/bigphoto/357/1005357_0.jpg"
+          ],
+          "normalized": [
+            "https://ssl.cdn-redfin.com/photo/269/bigphoto/357/1005357_0.jpg"
+          ]
+        },
+        "status": {
+          "value": "Pending",
+          "normalized": "pending"
+        },
+        "price": {
+          "value": "$375,000",
+          "normalized": {
+            "amount": 375000.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "floor_area": {
+          "value": "2,058 sq ft",
+          "normalized": 2058.0,
+          "unit": "sqft"
+        },
+        "property_type": {
+          "value": "Single Family Residential",
+          "normalized": "single family residential"
+        },
+        "year_built": {
+          "value": "1950",
+          "normalized": 1950
+        },
+        "land_area": {
+          "value": "2,500 Sq. Ft.",
+          "normalized": 2500.0,
+          "unit": "sqft"
+        },
+        "listing_agent": {
+          "value": [
+            "Tyrone Byrdsong",
+            "YourHomeSold Guaranteed Realty",
+            "Annette Rentas"
+          ],
+          "normalized": [
+            "Tyrone Byrdsong",
+            "YourHomeSold Guaranteed Realty",
+            "Annette Rentas"
+          ]
+        },
+        "public_record": {
+          "value": {
+            "Beds": "\u2014",
+            "Baths": "\u2014",
+            "Stories": "2",
+            "Lot width": "25 ft.",
+            "Lot depth": "100 ft.",
+            "Lot size": "2,500 Sq. Ft.",
+            "Year renovated": "1950",
+            "Finished Sq. Ft.": "\u2014",
+            "Unfinished Sq. Ft.": "\u2014",
+            "Total Sq. Ft.": "2,058",
+            "Year built": "1950",
+            "Style": "Single Family Residential",
+            "County": "Bronx County",
+            "APN": "045290040",
+            "Parking Spaces": "\u2014",
+            "Basement": "\u2014",
+            "Accessible": "\u2014",
+            "HOA Dues": "\u2014",
+            "Garage": "\u2014",
+            "Features": "\u2014"
+          },
+          "normalized": {
+            "Beds": null,
+            "Baths": null,
+            "Stories": "2",
+            "Lot width": "25 ft.",
+            "Lot depth": "100 ft.",
+            "Lot size": "2,500 Sq. Ft.",
+            "Year renovated": "1950",
+            "Finished Sq. Ft.": null,
+            "Unfinished Sq. Ft.": null,
+            "Total Sq. Ft.": "2,058",
+            "Year built": "1950",
+            "Style": "Single Family Residential",
+            "County": "Bronx County",
+            "APN": "045290040",
+            "Parking Spaces": null,
+            "Basement": null,
+            "Accessible": null,
+            "HOA Dues": null,
+            "Garage": null,
+            "Features": null
+          }
+        },
+        "property_details": {
+          "value": [
+            {
+              "interior": {
+                "Interior features": [
+                  "Other interior features",
+                  "Partially finished basement"
+                ],
+                "Bedrooms": [
+                  "6 total rooms (bedroom count not specified)"
+                ],
+                "Bathrooms": [
+                  "3 full bathrooms",
+                  "1 half bathroom"
+                ],
+                "Kitchen": [
+                  "Appliances: Other"
+                ],
+                "Heating & cooling": [
+                  "Baseboard heating",
+                  "Other heating",
+                  "No central cooling"
+                ]
+              }
+            },
+            {
+              "exterior": {
+                "Exterior features": [
+                  "Brick exterior",
+                  "Not waterfront"
+                ],
+                "Home design": [
+                  "Single family residence"
+                ],
+                "Parking": [
+                  "Garage (1 garage space)",
+                  "2 total parking spaces"
+                ],
+                "Construction": [
+                  "Brick construction"
+                ],
+                "Utilities": [
+                  "Public sewer",
+                  "Electricity available",
+                  "Natural gas available",
+                  "Water available"
+                ]
+              }
+            }
+          ],
+          "normalized": [
+            {
+              "interior": {
+                "Interior features": [
+                  "Other interior features",
+                  "Partially finished basement"
+                ],
+                "Bedrooms": [
+                  "6 total rooms (bedroom count not specified)"
+                ],
+                "Bathrooms": [
+                  "3 full bathrooms",
+                  "1 half bathroom"
+                ],
+                "Kitchen": [
+                  "Appliances: Other"
+                ],
+                "Heating & cooling": [
+                  "Baseboard heating",
+                  "Other heating",
+                  "No central cooling"
+                ]
+              }
+            },
+            {
+              "exterior": {
+                "Exterior features": [
+                  "Brick exterior",
+                  "Not waterfront"
+                ],
+                "Home design": [
+                  "Single family residence"
+                ],
+                "Parking": [
+                  "Garage (1 garage space)",
+                  "2 total parking spaces"
+                ],
+                "Construction": [
+                  "Brick construction"
+                ],
+                "Utilities": [
+                  "Public sewer",
+                  "Electricity available",
+                  "Natural gas available",
+                  "Water available"
+                ]
+              }
+            }
+          ]
+        },
+        "around_this_home": {
+          "value": {
+            "schools": [
+              {
+                "name": "PS 97",
+                "description": "Public PreK-5 | Assigned | 0.2mi",
+                "rating": "5/10"
+              },
+              {
+                "name": "Junior High School 144 Michelangelo",
+                "description": "Public 6-8 | Assigned | 0.6mi",
+                "rating": "6/10"
+              }
+            ],
+            "places": null,
+            "Transit": null
+          },
+          "normalized": {
+            "schools": [
+              {
+                "name": "PS 97",
+                "description": "Public PreK-5 | Assigned | 0.2mi",
+                "rating": "5/10"
+              },
+              {
+                "name": "Junior High School 144 Michelangelo",
+                "description": "Public 6-8 | Assigned | 0.6mi",
+                "rating": "6/10"
+              }
+            ],
+            "places": null,
+            "Transit": null
+          }
+        },
+        "description": {
+          "value": "About this home PENDING SHORT SALE APPROVAL - 3rd PARTY APPROVAL. NO ACCESS, NO INTERIOR SHOWINGS Key things to know Brick building with a garage and a covered porch. Driveway parking for two vehicles. One-car garage provides additional parking or storage. Exterior brick fa\u00e7ade complements the property\u2019s curb appeal. Summarized by Redfin Was this helpful? Yes \u2022 No Show more Single-family Property Type 1950 Year Built 2,500 sq ft Lot Size $182 Price/Sq.Ft. 1 garage spaces Parking Listing by Tyron",
+          "normalized": "About this home PENDING SHORT SALE APPROVAL - 3rd PARTY APPROVAL. NO ACCESS, NO INTERIOR SHOWINGS Key things to know Brick building with a garage and a covered porch. Driveway parking for two vehicles. One-car garage provides additional parking or storage. Exterior brick fa\u00e7ade complements the property\u2019s curb appeal. Summarized by Redfin Was this helpful? Yes \u2022 No Show more Single-family Property Type 1950 Year Built 2,500 sq ft Lot Size $182 Price/Sq.Ft. 1 garage spaces Parking Listing by Tyron"
+        }
+      },
+      "provenance": {
+        "listing_url": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "a[href*='44736662']",
+          "xpath": "//link[@href='https://www.redfin.com/NY/Bronx/2749-Fish-Ave-10469/home/44736662']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "//html/head[1]/link[33]",
+          "css_selector_absolute": "html > head > link:nth-of-type(33)"
+        },
+        "images_urls": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "img[href*='None']",
+          "xpath": "//img[contains(@src,'357/1005357_0.jpg')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[1]/div[1]/div/div/div[1]/div/a/span/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "status": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "div[href*='None']",
+          "xpath": "//body/div[1]/div[9]/div[2]/div[1]/div[20]/section/div/div/div[2]/div/div/div[2]/div[1]/div/div/div/div[1]/div/div/div[7]/div[2]",
+          "text_quote": "Pending",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[20]/section/div/div/div[2]/div/div/div[2]/div[1]/div/div/div/div[1]/div/div/div[7]/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(20) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2)"
+        },
+        "price": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "div[data-rf-test-id='mc-panel-home-price'] > div.mc-customize-panel-content-wrapper > div.mc-customize-panel-content.left-panel.finance-revamp > div.content-container > div.panel-value:nth-of-type(2)",
+          "xpath": "//body/div[1]/div[9]/div[2]/div[1]/div[17]/section/div/div/div/div[1]/div[2]/div/div[2]/div/div/div/div[2]",
+          "text_quote": "$375,000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[17]/section/div/div/div/div[1]/div[2]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(17) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)"
+        },
+        "floor_area": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "div.DPTableDisplay > div.table-row:nth-of-type(10) > div.table-value",
+          "xpath": "//body/div[1]/div[9]/div[2]/div[1]/div[21]/div/section/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[10]/div",
+          "text_quote": "2,058",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[21]/div/section/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[10]/div",
+          "css_selector_absolute": "body > div > div:nth-of-type(9) > div:nth-of-type(2) > div > div:nth-of-type(21) > div > section > div > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(10) > div"
+        },
+        "property_type": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "div.DPTableDisplay > div.table-row:nth-of-type(12) > div.table-value",
+          "xpath": "//body/div[1]/div[9]/div[2]/div[1]/div[21]/div/section/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[12]/div",
+          "text_quote": "Single Family Residential",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[21]/div/section/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[12]/div",
+          "css_selector_absolute": "body > div > div:nth-of-type(9) > div:nth-of-type(2) > div > div:nth-of-type(21) > div > section > div > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(12) > div"
+        },
+        "year_built": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "div.DPTableDisplay > div.table-row:nth-of-type(11) > div.table-value",
+          "xpath": "//body/div[1]/div[9]/div[2]/div[1]/div[21]/div/section/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[11]/div",
+          "text_quote": "1950",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[21]/div/section/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[11]/div",
+          "css_selector_absolute": "body > div > div:nth-of-type(9) > div:nth-of-type(2) > div > div:nth-of-type(21) > div > section > div > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(11) > div"
+        },
+        "land_area": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "div.DPTableDisplay > div.table-row:nth-of-type(6) > div.table-value",
+          "xpath": "//body/div[1]/div[9]/div[2]/div[1]/div[21]/div/section/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[6]/div",
+          "text_quote": "2,500 Sq. Ft.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[21]/div/section/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[6]/div",
+          "css_selector_absolute": "body > div > div:nth-of-type(9) > div:nth-of-type(2) > div > div:nth-of-type(21) > div > section > div > div > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div:nth-of-type(6) > div"
+        },
+        "listing_agent": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "div.agent-info-content > div.listing-agent-item.agent-item:nth-of-type(1) > div[data-rf-test-id='agentInfoItem-agentDisplay']",
+          "xpath": "//body/div[1]/div[9]/div[2]/div[1]/div[6]/section/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div[1]/div",
+          "text_quote": "Listing byTyrone Byrdsong\u2022YourHomeSold Guaranteed Realty",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[6]/section/div/div[1]/div/div[3]/div/div/div[1]/div[2]/div[1]/div",
+          "css_selector_absolute": "body > div > div:nth-of-type(9) > div:nth-of-type(2) > div > div:nth-of-type(6) > section > div > div > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div > div"
+        },
+        "public_record": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "div#PublicFactsAndZoningBasicInfoV2",
+          "xpath": "//div[@id='PublicFactsAndZoningBasicInfoV2']",
+          "text_quote": "Single Family Residential",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[21]/div/section/div/div/div[2]/div/div/div/div/div/div",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(21) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "property_details": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "div[data-rf-test-id='propertyDetails']",
+          "xpath": "//body/div[1]/div[9]/div[2]/div[1]/div[19]/section/div/div",
+          "text_quote": "6 total rooms (bedroom count not specified)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[19]/section/div/div",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(19) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+        },
+        "around_this_home": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": "section#neighborhood-scroll",
+          "xpath": "//section[@id='neighborhood-scroll']",
+          "text_quote": "Junior High School 144 Michelangelo",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div[9]/div[2]/div[1]/div[12]/section",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(12) > section:nth-of-type(1)"
+        },
+        "description": {
+          "snapshot_id": "SNAP_REAL_REDFIN_002_DETAIL",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "value not directly verifiable in frozen static page.html"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "address": "Kingsfield Avenue, Harrow, HA2 6AQ",
+        "property_type": "Semi-detached house",
+        "price": {
+          "amount": 879000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1646,
+          "unit": "sq ft"
+        },
+        "energy_rating": "E",
+        "key_features": [
+          "Porch and Entrance Hallway",
+          "Four Bedrooms",
+          "Reception Room",
+          "Dining Room",
+          "Study",
+          "Kitchen",
+          "Two Bathrooms and Ground floor W.C.",
+          "Landscaped rear garden",
+          "Garage accessed by own driveway",
+          "Off Street Parking"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_phone": "020 4516 6055",
+        "listing_office": "Robsons - Pinner",
+        "listing_agent_logo": null,
+        "images_urls": null,
+        "listing_url": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "bbox": null,
+        "text_quote": "£879,000 4 bedroom semi-detached house for sale Kingsfield Avenue, Harrow, HA2 6AQ"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "address": "Moat Drive, Harrow, HA1 4RY",
+        "property_type": "Semi-detached house",
+        "price": {
+          "amount": 825000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "bedrooms": 4,
+        "bathrooms": null,
+        "floor_area": null,
+        "energy_rating": null,
+        "key_features": null,
+        "listing_agent_name": null,
+        "listing_agent_phone": null,
+        "listing_office": null,
+        "listing_agent_logo": null,
+        "images_urls": null,
+        "listing_url": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 3,
+        "bbox": null,
+        "text_quote": "£825,000 Semi-detached house 4 Moat Drive, Harrow, HA1 4RY"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 18.687,
+    "input_tokens": 10144,
+    "output_tokens": 392,
+    "total_tokens": 10536,
+    "num_tiles": 5,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_ONTHEMARKET_002_DETAIL\\tile_05.png"
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "task_id": "WBV1_ECOM_10_ASOS_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://images.asos-media.com/products/black-mini-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg",
+        "old_price_raw": "£70.00",
+        "price_raw": "£35.00",
+        "product_name": "Black mini dress with ruched front",
+        "product_url": "https://www.asos.com/us/black-mini-dress-with-ruched-front/prd/2034685",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Black mini dress with ruched front"
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Black mini dress with ruched front"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img[alt*='black-mini-dress']",
+          "text_quote_or_attribute": "https://images.asos-media.com/products/black-mini-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--sale",
+          "text_quote_or_attribute": "£70.00"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--current",
+          "text_quote_or_attribute": "£35.00"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "https://www.asos.com/us/black-mini-dress-with-ruched-front/prd/2034685"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Black mini dress with ruched front"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://images.asos-media.com/products/red-midi-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg",
+        "old_price_raw": "£70.00",
+        "price_raw": "£35.00",
+        "product_name": "Red midi dress with ruched front",
+        "product_url": "https://www.asos.com/us/red-midi-dress-with-ruched-front/prd/2034685",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Red midi dress with ruched front"
+      },
+      "provenance": {
+        "record_id": "pred_002",
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Red midi dress with ruched front"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img[alt*='red-midi-dress']",
+          "text_quote_or_attribute": "https://images.asos-media.com/products/red-midi-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--sale",
+          "text_quote_or_attribute": "£70.00"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--current",
+          "text_quote_or_attribute": "£35.00"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "https://www.asos.com/us/red-midi-dress-with-ruched-front/prd/2034685"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Red midi dress with ruched front"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://images.asos-media.com/products/green-maxi-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg",
+        "old_price_raw": "£70.00",
+        "price_raw": "£35.00",
+        "product_name": "Green maxi dress with ruched front",
+        "product_url": "https://www.asos.com/us/green-maxi-dress-with-ruched-front/prd/2034685",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Green maxi dress with ruched front"
+      },
+      "provenance": {
+        "record_id": "pred_003",
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Green maxi dress with ruched front"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img[alt*='green-maxi-dress']",
+          "text_quote_or_attribute": "https://images.asos-media.com/products/green-maxi-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--sale",
+          "text_quote_or_attribute": "£70.00"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--current",
+          "text_quote_or_attribute": "£35.00"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "https://www.asos.com/us/green-maxi-dress-with-ruched-front/prd/2034685"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Green maxi dress with ruched front"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://images.asos-media.com/products/blue-midi-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg",
+        "old_price_raw": "£70.00",
+        "price_raw": "£35.00",
+        "product_name": "Blue midi dress with ruched front",
+        "product_url": "https://www.asos.com/us/blue-midi-dress-with-ruched-front/prd/2034685",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Blue midi dress with ruched front"
+      },
+      "provenance": {
+        "record_id": "pred_004",
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Blue midi dress with ruched front"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img[alt*='blue-midi-dress']",
+          "text_quote_or_attribute": "https://images.asos-media.com/products/blue-midi-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--sale",
+          "text_quote_or_attribute": "£70.00"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--current",
+          "text_quote_or_attribute": "£35.00"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "https://www.asos.com/us/blue-midi-dress-with-ruched-front/prd/2034685"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Blue midi dress with ruched front"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://images.asos-media.com/products/pink-maxi-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg",
+        "old_price_raw": "£70.00",
+        "price_raw": "£35.00",
+        "product_name": "Pink maxi dress with ruched front",
+        "product_url": "https://www.asos.com/us/pink-maxi-dress-with-ruched-front/prd/2034685",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Pink maxi dress with ruched front"
+      },
+      "provenance": {
+        "record_id": "pred_005",
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Pink maxi dress with ruched front"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "img[alt*='pink-maxi-dress']",
+          "text_quote_or_attribute": "https://images.asos-media.com/products/pink-maxi-dress-with-ruched-front-2034685-women/-_1000000000%3D.jpg"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--sale",
+          "text_quote_or_attribute": "£70.00"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__price .price--current",
+          "text_quote_or_attribute": "£35.00"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "https://www.asos.com/us/pink-maxi-dress-with-ruched-front/prd/2034685"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".ProductCard__title a",
+          "text_quote_or_attribute": "Pink maxi dress with ruched front"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 46.737,
+    "input_tokens": 20413,
+    "output_tokens": 3428,
+    "total_tokens": 23841,
+    "initial_input_tokens": 20413,
+    "initial_output_tokens": 3428,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "task_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL",
+  "website_id": "publiccontractsscotland",
+  "schema_id": "tender_notice_v1",
+  "snapshot_id": "publiccontractsscotland_detail",
+  "snapshot_path": "raw_snapshots/government/publiccontractsscotland_detail",
+  "live_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL_001",
+      "fields": {
+        "tender_title": {
+          "value": "Integrated case management system configuration and development",
+          "normalized": "Integrated case management system configuration and development"
+        },
+        "notice_id": {
+          "value": "MAY556703",
+          "normalized": "MAY556703"
+        },
+        "notice_type": {
+          "value": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
+          "normalized": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)"
+        },
+        "buyer_name": {
+          "value": "The City of Edinburgh Council",
+          "normalized": "The City of Edinburgh Council"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "closing_date": {
+          "value": null,
+          "normalized": null
+        },
+        "status": {
+          "value": "Closed",
+          "normalized": "closed"
+        },
+        "description": {
+          "value": "Award of contract on Crown Commercial Services GCloud 14 framework (RM1557.14) for CT1839 Integrated case management system configuration and development. CPV: 72000000, 72000000.\n\nAward of contract on Crown Commercial Services GCloud 14 framework (RM1557.14) for CT1839 Integrated case management system configuration and development.\nPlease refer to  https://www.crowncommercial.gov.uk/agreements/RM1557.14",
+          "normalized": "Award of contract on Crown Commercial Services GCloud 14 framework (RM1557.14) for CT1839 Integrated case management system configuration and development. CPV: 72000000, 72000000.\n\nAward of contract on Crown Commercial Services GCloud 14 framework (RM1557.14) for CT1839 Integrated case management system configuration and development.\nPlease refer to  https://www.crowncommercial.gov.uk/agreements/RM1557.14"
+        },
+        "classification": {
+          "value": {
+            "cpv_codes": {
+              "72000000": {
+                "id": "72000000",
+                "title": "IT services: consulting, software development, Internet and support",
+                "parent_category": "CPV Root"
+              }
+            },
+            "procedure": {
+              "type_of_procedure": "Open procedure",
+              "covered_by_gpa": true
+            }
+          },
+          "normalized": {
+            "cpv_codes": {
+              "72000000": {
+                "id": "72000000",
+                "title": "IT services: consulting, software development, Internet and support",
+                "parent_category": "CPV Root"
+              }
+            },
+            "procedure": {
+              "type_of_procedure": "Open procedure",
+              "covered_by_gpa": true
+            }
+          }
+        },
+        "contact_information": {
+          "value": {
+            "official_name": "The City of Edinburgh Council",
+            "address": {
+              "street": "Waverley Court, 4 East Market Street",
+              "city": "Edinburgh",
+              "postcode": "EH8 8BG",
+              "country": "UK"
+            },
+            "contact_person": "Shane Newell",
+            "email": "shane.newell@edinburgh.gov.uk",
+            "nuts_code": "UKM75",
+            "internet_addresses": {
+              "main_address": "http://www.edinburgh.gov.uk",
+              "buyer_profile": "https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA00290"
+            }
+          },
+          "normalized": {
+            "official_name": "The City of Edinburgh Council",
+            "address": {
+              "street": "Waverley Court, 4 East Market Street",
+              "city": "Edinburgh",
+              "postcode": "EH8 8BG",
+              "country": "UK"
+            },
+            "contact_person": "Shane Newell",
+            "email": "shane.newell@edinburgh.gov.uk",
+            "nuts_code": "UKM75",
+            "internet_addresses": {
+              "main_address": "http://www.edinburgh.gov.uk",
+              "buyer_profile": "https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA00290"
+            }
+          }
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblTitle",
+          "xpath": "//*[@id='ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblTitle']",
+          "text_quote": "Integrated case management system configuration and development",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[5]/div/div/div[3]/div[1]/div/div[1]/table/tbody/tr[1]/td[2]/span",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(1) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2) > span"
+        },
+        "notice_id": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblTenderID",
+          "xpath": "//*[@id='ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblTenderID']",
+          "text_quote": "MAY556703",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[5]/div/div/div[3]/div[1]/div/div[1]/table/tbody/tr[2]/td[2]/span",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(1) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > span"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblDocType",
+          "xpath": "//*[@id='ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblDocType']",
+          "text_quote": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[5]/div/div/div[3]/div[1]/div/div[1]/table/tbody/tr[8]/td[2]/span",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(1) > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2) > span"
+        },
+        "buyer_name": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblAuth",
+          "xpath": "//*[@id='ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblAuth']",
+          "text_quote": "The City of Edinburgh Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[5]/div/div/div[3]/div[1]/div/div[1]/table/tbody/tr[4]/td[2]/span",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(1) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2) > span"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblPubDate",
+          "xpath": "//*[@id='ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblPubDate']",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[5]/div/div/div[3]/div[1]/div/div[1]/table/tbody/tr[5]/td[2]/span",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(1) > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > span"
+        },
+        "status": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "field value is not directly verifiable in the frozen static DOM"
+        },
+        "description": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": "span#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblAbstract",
+          "xpath": "//*[@id='ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_introduction1_lblAbstract']",
+          "text_quote": "Award of contract on Crown Commercial Services GCloud 14 framework (RM1557.14) for CT1839 Integrated case management system configuration and development. CPV: 72000000, 72000000.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[5]/div/div/div[3]/div[1]/div/div[1]/table/tbody/tr[11]/td[2]/span",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(1) > table > tbody > tr:nth-of-type(11) > td:nth-of-type(2) > span"
+        },
+        "classification": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": "table#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_coding1_grdCategories > tbody:nth-of-type(1)",
+          "xpath": "//*[@id='ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_notice_coding1_grdCategories']/tbody[1]",
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[5]/div/div/div[3]/div[5]/div[1]/table/tbody",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(1) > table > tbody",
+          "provenance_granularity": "container"
+        },
+        "contact_information": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": "div#ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_Page2 > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='ctl00_ContentPlaceHolder1_tab_StandardNoticeView1_Page2']/div[1]/div[2]",
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[5]/div/div/div[3]/div[2]/div/div[2]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2)",
+          "provenance_granularity": "container"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": "base[href='https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703']",
+          "xpath": "//base[@href='https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703",
+          "attribute": "href",
+          "xpath_absolute": "/html/head/base",
+          "css_selector_absolute": "html > head > base"
+        },
+        "closing_date": {
+          "snapshot_id": "publiccontractsscotland_detail",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    }
+  ]
+}

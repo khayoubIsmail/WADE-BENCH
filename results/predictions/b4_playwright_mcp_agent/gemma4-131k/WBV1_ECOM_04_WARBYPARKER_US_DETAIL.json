@@ -1,0 +1,90 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Warby Parker",
+        "description": "Made from hand-polished cellulose acetate. We also offer progressive, blue-light-filtering, and anti-fatigue lenses—plus more! Polycarbonate lenses are the most impact-resistant lens material for glasses. Anti-reflective and scratch-resistant lens coatings block 100% of UV rays.",
+        "image_urls": [
+          {
+            "url": null,
+            "source": "page.safe.html"
+          }
+        ],
+        "price_raw": "$95",
+        "product_name": "Wilkie Eyeglasses in Black Matte Eclipse — Medium",
+        "product_url": "http://127.0.0.1:58145/page.safe.html",
+        "rating": "4.3 out of 5 stars",
+        "review_count": "350"
+      },
+      "provenance": {
+        "brand": {
+          "source": "metadata.json",
+          "selector": null,
+          "xpath": null,
+          "text_quote": "Warby Parker"
+        },
+        "description": {
+          "source": "page.safe.html",
+          "selector": null,
+          "xpath": null,
+          "text_quote": "Made from hand-polished cellulose acetate... Polycarbonate lenses are the most impact-resistant lens material for glasses."
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "selector": null,
+          "xpath": null,
+          "text_quote": "Wilkie in Black Matte Eclipse, image 1"
+        },
+        "price_raw": {
+          "source": "visible_text",
+          "selector": null,
+          "xpath": null,
+          "text_quote": "Starting at $95"
+        },
+        "product_name": {
+          "source": "metadata.json",
+          "selector": null,
+          "xpath": null,
+          "text_quote": "Wilkie Eyeglasses in Black Matte Eclipse — Medium | Warby Parker"
+        },
+        "product_url": {
+          "source": "metadata.json",
+          "selector": null,
+          "xpath": null,
+          "text_quote": "https://www.warbyparker.com/eyeglasses/wilkie/black-matte-eclipse?w=medium"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "selector": null,
+          "xpath": null,
+          "text_quote": "Rating: 4.3 out of 5 stars (350)"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "selector": null,
+          "xpath": null,
+          "text_quote": "(350)"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 16.34,
+    "input_tokens": 21443,
+    "output_tokens": 708,
+    "total_tokens": 22151,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_04_WARBYPARKER_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_04_WARBYPARKER_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

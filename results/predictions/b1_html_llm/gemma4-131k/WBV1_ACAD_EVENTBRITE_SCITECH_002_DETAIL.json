@@ -1,0 +1,88 @@
+{
+  "task_id": "WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2026-06-05",
+        "event_name": "Get Started: Algo & Bot Trading 101",
+        "event_start_date": "2026-06-04",
+        "event_url": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472",
+        "location": null,
+        "description": "Learn the fundamentals of algorithmic trading in one hands-on session — no coding required. We'll walk you through how it works.",
+        "organizer_name": "Matt DeLong",
+        "website": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472",
+        "image_urls": [
+          "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185058271%2F51626203324%2F1%2Foriginal.20260520-172248?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.044&fp-y=0.353&s=ee965e46e47708396a26647f3bc5fc33"
+        ],
+        "event_start_time": "17:30:00-05:00",
+        "event_end_time": "18:30:00-05:00"
+      },
+      "provenance": {
+        "event_end_date": {
+          "source": "meta tag (title)",
+          "text_quote": "Thursday, June 4-Friday, June 5"
+        },
+        "event_name": {
+          "source": "meta tag (og:title)",
+          "text_quote": "Get Started: Algo & Bot Trading 101"
+        },
+        "event_start_date": {
+          "source": "meta tag (title)",
+          "text_quote": "Thursday, June 4-Friday, June 5"
+        },
+        "event_url": {
+          "source": "meta tag (og:url)",
+          "text_quote": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472"
+        },
+        "location": {
+          "source": "schema.org json-ld",
+          "text_quote": "VirtualLocation"
+        },
+        "description": {
+          "source": "meta tag (og:description)",
+          "text_quote": "Learn the fundamentals of algorithmic trading in one hands-on session — no coding required. We'll walk you through how it works."
+        },
+        "organizer_name": {
+          "source": "schema.org json-ld",
+          "text_quote": "Matt DeLong"
+        },
+        "website": {
+          "source": "meta tag (og:url)",
+          "text_quote": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-1990019024472"
+        },
+        "image_urls": {
+          "source": "meta tag (og:image)",
+          "text_quote": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185058271%2F51626203324%2F1%2Foriginal.20260520-172248?crop=focalpoint&fit=crop&w=940&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.044&fp-y=0.353&s=ee965e46e47708396a26647f3bc5fc33"
+        },
+        "event_start_time": {
+          "source": "meta tag (schema.org json-ld)",
+          "text_quote": "2026-06-04T17:30:00-05:00"
+        },
+        "event_end_time": {
+          "source": "meta tag (schema.org json-ld)",
+          "text_quote": "2026-06-04T18:30:00-05:00"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 19.994,
+    "input_tokens": 24278,
+    "output_tokens": 1224,
+    "total_tokens": 25502,
+    "initial_input_tokens": 24278,
+    "initial_output_tokens": 1224,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

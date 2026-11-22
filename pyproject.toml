@@ -1,0 +1,29 @@
+[project]
+name = "wadebench"
+version = "0.1.0"
+description = "WADE-Bench: a schema-guided benchmark for web data extraction agents (MEDES 2026)."
+readme = "README.md"
+authors = [
+    { name = "Ismail Khayoub" },
+    { name = "Mohamed-Amine Chadi" },
+    { name = "Hajar Mousannif" },
+    { name = "Firdaous Ait Mohamed" },
+]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0",
+    "pandas>=2.0",
+    "pyyaml>=6.0",
+    "jsonschema>=4.0",
+    "requests>=2.0",
+    "beautifulsoup4>=4.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+
+[tool.pyright]
+extraPaths = ["src/wadebench"]
+venvPath = "src/wadebench"
+venv = ".venv"

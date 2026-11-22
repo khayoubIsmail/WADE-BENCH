@@ -1,0 +1,65 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/real-estate/san-francisco/899-40th-ave/pid_71923066/",
+        "price": {
+          "amount": 1198000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        }
+      },
+      "provenance": {
+        "page.snapshot.md": "data/raw_snapshots/realestate/SNAP_REAL_APARTMENTS_001_LISTING"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/real-estate/san-francisco/109-s-lake-merced-hls-3e/pid_71923068/",
+        "price": {
+          "amount": 759888,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        }
+      },
+      "provenance": {
+        "page.snapshot.md": "data/raw_snapshots/realestate/SNAP_REAL_APARTMENTS_001_LISTING"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.coldwellbanker.com/real-estate/san-francisco/637-639-clement-st/pid_71923070/",
+        "price": {
+          "amount": 4200000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        }
+      },
+      "provenance": {
+        "page.snapshot.md": "data/raw_snapshots/realestate/SNAP_REAL_APARTMENTS_001_LISTING"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 24.151,
+    "input_tokens": 33678,
+    "output_tokens": 921,
+    "total_tokens": 34599,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

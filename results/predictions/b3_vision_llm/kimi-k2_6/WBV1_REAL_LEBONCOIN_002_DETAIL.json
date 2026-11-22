@@ -1,0 +1,76 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": null,
+        "price": {
+          "amount": 269000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "3 Pièces · 43 m² · Châtillon 92320 - Quartier Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "floor_area": {
+          "value": 43,
+          "unit": "m2"
+        },
+        "rooms": 3,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "energy_rating": "E",
+        "price_per_m2": {
+          "amount": 6256,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "listing_office": "ACOR IMMOBILIER",
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_agent_phone": null,
+        "additional_facilities": [
+          "Cuisine équipée"
+        ],
+        "images_urls": null,
+        "description": "Appartement 3 pièces 43 m²\n\nEXCLUSIVITÉ ACOR IMMOBILIER ! Votre Agence ACOR IMMOBILIER vous propose au pied ...",
+        "published_date": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "bbox": null,
+        "text_quote": "269 000 € 6 256 € / m²\n3 Pièces · 43 m² · Châtillon 92320 - Quartier Vieux Bourg - Malraux\nAppartement 3 pièces 43 m²\nExclusivité\nType de bien Appartement\nSurface habitable 43 m²\nNombre de pièces 3\nNombre de chambres 2 ch.\nNombre de salles d'eau 1\nCaractéristiques Cuisine équipée, ...\nType de chauffage Individuel\nMode de chauffage Gaz\nClasse énergie E"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 13.823,
+    "input_tokens": 10826,
+    "output_tokens": 390,
+    "total_tokens": 11216,
+    "num_tiles": 6,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_LEBONCOIN_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_LEBONCOIN_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_LEBONCOIN_002_DETAIL\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_LEBONCOIN_002_DETAIL\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_LEBONCOIN_002_DETAIL\\tile_05.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_LEBONCOIN_002_DETAIL\\tile_06.png"
+    ],
+    "error": null
+  }
+}

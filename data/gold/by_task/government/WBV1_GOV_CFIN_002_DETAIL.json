@@ -1,0 +1,329 @@
+{
+  "task_id": "WBV1_GOV_CFIN_002_DETAIL",
+  "website_id": "cfin_002",
+  "schema_id": "tender_notice_v1",
+  "snapshot_id": "cfin_002_detail",
+  "snapshot_path": "raw_snapshots/government/cfin_002_detail",
+  "live_url": "https://www.contractsfinder.service.gov.uk/Notice/2b06444b-814c-43b5-a102-8379666b1f2c",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_GOV_CFIN_002_DETAIL_001",
+      "fields": {
+        "tender_title": {
+          "value": "Refurbishment works Harris Academy Beckenham",
+          "normalized": "Refurbishment works Harris Academy Beckenham"
+        },
+        "tender_url": {
+          "value": "https://www.contractsfinder.service.gov.uk/Notice/2b06444b-814c-43b5-a102-8379666b1f2c",
+          "normalized": "https://www.contractsfinder.service.gov.uk/Notice/2b06444b-814c-43b5-a102-8379666b1f2c"
+        },
+        "industry": {
+          "value": "Refurbishment work - 45453100",
+          "normalized": "Refurbishment work - 45453100"
+        },
+        "contract_location": {
+          "value": "London",
+          "normalized": [
+            "London"
+          ]
+        },
+        "contract_value": {
+          "value": "\u00a3380,000",
+          "normalized": {
+            "amount": 380000.0,
+            "currency": {
+              "name": "British pound",
+              "code": "GBP",
+              "symbol": "\u00a3"
+            }
+          }
+        },
+        "procurement_reference": {
+          "value": "MT237418",
+          "normalized": "MT237418"
+        },
+        "publication_date": {
+          "value": "27 May 2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "closing_date": {
+          "value": "19 June 2026",
+          "normalized": {
+            "date": "2026-06-19",
+            "time": null,
+            "datetime": null,
+            "timezone": null
+          }
+        },
+        "closing_time": {
+          "value": "12pm",
+          "normalized": "12:00"
+        },
+        "contract_start_date": {
+          "value": "6 July 2026",
+          "normalized": "2026-07-06"
+        },
+        "contract_end_date": {
+          "value": "28 August 2026",
+          "normalized": "2026-08-28"
+        },
+        "contract_type": {
+          "value": "Works",
+          "normalized": "Works"
+        },
+        "procedure_type": {
+          "value": "Open procedure (below threshold)",
+          "normalized": "Open procedure (below threshold)"
+        },
+        "suitable_for_smes": {
+          "value": "Yes",
+          "normalized": "Yes"
+        },
+        "suitable_for_vcses": {
+          "value": "No",
+          "normalized": "No"
+        },
+        "contact_name": {
+          "value": "Procurement",
+          "normalized": "Procurement"
+        },
+        "address": {
+          "value": "Interchange, 81-85 Station Road Croydon CR0 2RD England",
+          "normalized": "Interchange, 81-85 Station Road Croydon CR0 2RD England"
+        },
+        "telephone": {
+          "value": "+44 2082537777",
+          "normalized": "+44 2082537777"
+        },
+        "email": {
+          "value": "Procurement@harrisfederation.org.uk",
+          "normalized": "Procurement@harrisfederation.org.uk"
+        },
+        "website": {
+          "value": "www.harrisfederation.org.uk",
+          "normalized": "www.harrisfederation.org.uk"
+        },
+        "description": {
+          "value": "As detailed in tender pack",
+          "normalized": "As detailed in tender pack"
+        },
+        "buyer": {
+          "value": "Harris Federation",
+          "normalized": "Harris Federation"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#all-content-wrapper > h1:nth-of-type(1)",
+          "xpath": "//*[@id='all-content-wrapper']/h1[1]",
+          "text_quote": "Refurbishment works Harris Aca",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/h1",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > h1"
+        },
+        "tender_url": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "a[id='6a18c5f182596']",
+          "xpath": "//*[@id='6a18c5f182596']",
+          "text_quote": "Email",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[8]/div/ul/li[3]/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(8) > div > ul > li:nth-of-type(3) > a"
+        },
+        "industry": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "Refurbishment work - 45453100",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "contract_location": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "London",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "contract_value": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "\u00a3380,000",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "procurement_reference": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "MT237418",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "publication_date": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "27 May 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "closing_date": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "19 June 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "closing_time": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "12pm",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "contract_start_date": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "6 July 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "contract_end_date": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "28 August 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "contract_type": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "Works",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "procedure_type": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "Open procedure (below threshold)",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "suitable_for_smes": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "Yes",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "suitable_for_vcses": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(3)",
+          "xpath": "//*[@id='content-holder-left']/div[3]",
+          "text_quote": "No",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[3]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+        },
+        "contact_name": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(7)",
+          "xpath": "//*[@id='content-holder-left']/div[7]",
+          "text_quote": "Procurement",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[7]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(7)"
+        },
+        "address": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(7)",
+          "xpath": "//*[@id='content-holder-left']/div[7]",
+          "text_quote": "Interchange, 81-85 Station Road Croydon CR0 2RD England",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[7]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(7)"
+        },
+        "telephone": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(7)",
+          "xpath": "//*[@id='content-holder-left']/div[7]",
+          "text_quote": "+44 2082537777",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[7]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(7)"
+        },
+        "email": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(7)",
+          "xpath": "//*[@id='content-holder-left']/div[7]",
+          "text_quote": "Procurement@harrisfederation.org.uk",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[7]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(7)"
+        },
+        "website": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(7)",
+          "xpath": "//*[@id='content-holder-left']/div[7]",
+          "text_quote": "www.harrisfederation.org.uk",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[7]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(7)"
+        },
+        "description": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#content-holder-left > div:nth-of-type(4)",
+          "xpath": "//*[@id='content-holder-left']/div[4]",
+          "text_quote": "As detailed in tender pack",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div[4]",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(4)"
+        },
+        "buyer": {
+          "snapshot_id": "cfin_002_detail",
+          "css_selector": "div#home-breadcrumb-description > h2:nth-of-type(1)",
+          "xpath": "//*[@id='home-breadcrumb-description']/h2[1]",
+          "text_quote": "Harris Federation",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[2]/div/div/div/div[1]/h2",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div:nth-of-type(1) > h2"
+        }
+      }
+    }
+  ]
+}

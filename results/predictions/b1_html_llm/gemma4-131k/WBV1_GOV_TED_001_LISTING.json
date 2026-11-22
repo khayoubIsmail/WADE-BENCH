@@ -1,0 +1,182 @@
+{
+  "task_id": "WBV1_GOV_TED_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": {
+          "value": "Tender for the provision of services related to the development and implementation of a digital platform for public service delivery in Greece.",
+          "provenance": {
+            "selector": ".search-result__title",
+            "source": "page.html"
+          }
+        },
+        "tender_url": {
+          "value": "https://ted.europa.eu/tenders/notice/2019/354678/",
+          "provenance": {
+            "selector": "a[href*='/tenders/notice/']",
+            "source": "page.html"
+          }
+        },
+        "awarding_agency": {
+          "value": "Ministry of Digital Governance (Greece)",
+          "provenance": {
+            "selector": ".search-result__description p:nth-child(1)",
+            "source": "page.html"
+          }
+        },
+        "buyer": {
+          "value": "Greek Government",
+          "provenance": {
+            "selector": ".search-result__description p:nth-child(1)",
+            "source": "page.html"
+          }
+        },
+        "notice_information": {
+          "value": "Notice of Public Procurement (NPP)",
+          "provenance": {
+            "selector": ".search-result__type",
+            "source": "page.html"
+          }
+        },
+        "published_date": {
+          "value": "2019/08/27",
+          "provenance": {
+            "selector": ".search-result__date",
+            "source": "page.html"
+          }
+        },
+        "tender_reference": {
+          "value": "TED/GREECE/2019/354678",
+          "provenance": {
+            "selector": ".search-result__reference",
+            "source": "page.html"
+          }
+        },
+        "category": {
+          "value": "IT Services",
+          "provenance": {
+            "selector": ".search-result__keywords span:nth-child(1)",
+            "source": "page.html"
+          }
+        },
+        "overview": {
+          "value": "The Ministry of Digital Governance is seeking a partner to develop and implement a digital platform for public service delivery in Greece, aiming to modernize government services.",
+          "provenance": {
+            "selector": ".search-result__description",
+            "source": "page.html"
+          }
+        },
+        "tender_type": {
+          "value": "Open Procedure",
+          "provenance": {
+            "selector": ".search-result__keywords span:nth-child(2)",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "tender_title": {
+          "value": "Tender for the provision of services related to the development and implementation of a digital platform for public service delivery in Greece.",
+          "provenance": {
+            "selector": ".search-result__title",
+            "source": "page.html"
+          }
+        },
+        "tender_url": {
+          "value": "https://ted.europa.eu/tenders/notice/2019/354678/",
+          "provenance": {
+            "selector": "a[href*='/tenders/notice/']",
+            "source": "page.html"
+          }
+        },
+        "awarding_agency": {
+          "value": "Ministry of Digital Governance (Greece)",
+          "provenance": {
+            "selector": ".search-result__description p:nth-child(1)",
+            "source": "page.html"
+          }
+        },
+        "buyer": {
+          "value": "Greek Government",
+          "provenance": {
+            "selector": ".search-result__description p:nth-child(1)",
+            "source": "page.html"
+          }
+        },
+        "notice_information": {
+          "value": "Notice of Public Procurement (NPP)",
+          "provenance": {
+            "selector": ".search-result__type",
+            "source": "page.html"
+          }
+        },
+        "published_date": {
+          "value": "2019/08/27",
+          "provenance": {
+            "selector": ".search-result__date",
+            "source": "page.html"
+          }
+        },
+        "tender_reference": {
+          "value": "TED/GREECE/2019/354678",
+          "provenance": {
+            "selector": ".search-result__reference",
+            "source": "page.html"
+          }
+        },
+        "category": {
+          "value": "IT Services",
+          "provenance": {
+            "selector": ".search-result__keywords span:nth-child(1)",
+            "source": "page.html"
+          }
+        },
+        "overview": {
+          "value": "The Ministry of Digital Governance is seeking a partner to develop and implement a digital platform for public service delivery in Greece, aiming to modernize government services.",
+          "provenance": {
+            "selector": ".search-result__description",
+            "source": "page.html"
+          }
+        },
+        "tender_type": {
+          "value": "Open Procedure",
+          "provenance": {
+            "selector": ".search-result__keywords span:nth-child(2)",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_002",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 20.656,
+    "input_tokens": 16752,
+    "output_tokens": 1433,
+    "total_tokens": 18185,
+    "initial_input_tokens": 16752,
+    "initial_output_tokens": 1433,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

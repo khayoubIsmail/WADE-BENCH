@@ -1,0 +1,322 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.century21.com/homes/detail/ca/foster-city/516-saint-vincent-ln/lid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx",
+          "provenance": {
+            "selector": "meta[property=\"og:url\"]",
+            "text_quote": "https://www.century21.com/homes/detail/ca/foster-city/516-saint-vincent-ln/lid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx"
+          }
+        },
+        "address": {
+          "value": "516 Saint Vincent Lane, Foster City, CA 94404",
+          "provenance": {
+            "selector": "meta[content*=\"516 Saint Vincent Lane\"]",
+            "text_quote": "516 Saint Vincent Lane, Foster City, CA 94404"
+          }
+        },
+        "listing_title": {
+          "value": "516 Saint Vincent Lane - A trusted home listing for sale in Foster City, CA featured on CENTURY 21",
+          "provenance": {
+            "selector": "meta[name=\"twitter:title\"]",
+            "text_quote": "516 Saint Vincent Lane, Foster City, CA 94404 | The Joy of Home, CENTURY 21"
+          }
+        },
+        "property_type": {
+          "value": "Single family",
+          "provenance": {
+            "selector": "meta[content*=\"Single family\"]",
+            "text_quote": "Single family listed as active with MLS # ML82043908."
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2798000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": "script[type=\"application/ld+json\"]",
+            "text_quote": "\"price\":2798000,\"priceCurrency\":\"USD\""
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "selector": "meta[content*=\"a 4 bed\"]",
+            "text_quote": "Explore 516 Saint Vincent Lane, Foster City, CA 94404, a 4 bed, 3 bath, 2,300 sqft Single family listed as active with MLS # ML82043908."
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": "meta[content*=\"a 4 bed, 3 bath\"]",
+            "text_quote": "Explore 516 Saint Vincent Lane, Foster City, CA 94404, a 4 bed, 3 bath, 2,300 sqft Single family listed as active with MLS # ML82043908."
+          }
+        },
+        "bathrooms_partial": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "floor_area": {
+          "value": {
+            "amount": 2300,
+            "unit": "sq. ft."
+          },
+          "provenance": {
+            "selector": "meta[content*=\"2,300 sqft\"]",
+            "text_quote": "Explore 516 Saint Vincent Lane, Foster City, CA 94404, a 4 bed, 3 bath, 2,300 sqft Single family listed as active with MLS # ML82043908."
+          }
+        },
+        "rooms": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "energy_rating": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "price_per_m2": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "sale_type": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "tenure": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "monthly_fees": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "total_price": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "status": {
+          "value": "Active",
+          "provenance": {
+            "selector": "meta[content*=\"listed as active\"]",
+            "text_quote": "Single family listed as active with MLS # ML82043908."
+          }
+        },
+        "published_date": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "open_house_schedule": {
+          "value": [],
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "key_features": {
+          "value": [
+            {
+              "name": "Clubhouse",
+              "description": "resort-style pool, fitness center, clubhouse, and courts for tennis and pickleball."
+            },
+            {
+              "name": "Playground",
+              "description": "The Antigua Advantage offers access to premium amenities including a resort-style pool, fitness center, clubhouse, and courts for tennis and pickleball."
+            }
+          ],
+          "provenance": {
+            "selector": "script[type=\"application/ld+json\"]",
+            "text_quote": "\"Amenities\":\"Clubhouse, Playground\""
+          }
+        },
+        "description": {
+          "value": "Presented on CENTURY 21, this Single family in Foster City, CA brings together trusted guidance, modern tools, and the wonders of homeownership in one inviting space. Modern Luxury Meets Resort Living in the Antigua Community. Step into a lifestyle of ease, elegance, and efficiency. This beautifully updated, east-facing corner-lot home offers a seamless blend of modern design and sustainable living. A bright, open floor plan features spacious living and family rooms, enhanced by large windows that fill the home with abundant natural light throughout the day. Fully renovated with a contemporary kitchen, updated flooring, and modern baths. Four bedrooms and two baths are located upstairs, with a full bath on the main level. Equipped with a SunRun solar system and Tesla Powerwall battery backup. The lease is paid in full through 2046, offering long-term energy efficiency with no monthly lease payments. Spacious 3-car garage with integrated EV charging and space for storage or a home gym. Low-maintenance front and rear yards. The Antigua Advantage offers access to premium amenities including a resort-style pool, fitness center, clubhouse, and courts for tennis and pickleball. Ideally located near parks, the Bay Trail, schools, and major commute routes. An exceptional opportunity to find the home you have been waiting for.",
+          "provenance": {
+            "selector": "script[type=\"application/ld+json\"]",
+            "text_quote": "\"description\":\"Presented on CENTURY 21, this Single family in Foster City, CA brings together trusted guidance, modern tools, and the wonders of homeownership in one inviting space. Modern Luxury Meets Resort Living in the Antigua Community...\""
+          }
+        },
+        "mls_number": {
+          "value": "ML82043908",
+          "provenance": {
+            "selector": "meta[content*=\"MLS # ML82043908\"]",
+            "text_quote": "Single family listed as active with MLS # ML82043908."
+          }
+        },
+        "additional_facilities": {
+          "value": [],
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P00.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P01.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P02.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P03.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P04.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P05.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P06.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P07.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P08.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P09.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P10.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P11.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P12.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P13.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P14.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P15.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P16.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P17.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P18.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P19.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P20.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P21.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P22.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P23.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P24.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P25.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P26.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P27.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P28.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P29.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P30.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P31.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P32.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P33.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P34.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P35.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P36.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P37.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P38.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P39.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P40.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P41.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P42.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P43.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P44.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P45.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P46.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P47.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P48.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P49.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P50.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P51.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P52.jpg",
+            "https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P53.jpg"
+          ],
+          "provenance": {
+            "selector": "script[type=\"application/ld+json\"]",
+            "text_quote": "\"image\":[\"https://images-listings.century21.com/CAMAXMLS/ML/82/04/39/08/_P/ML82043908_P00.jpg\",...]"
+          }
+        },
+        "listing_agent": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent_name": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent_logo": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent_photo": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent_phone": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        },
+        "listing_office": {
+          "value": "CENTURY 21 Real Estate",
+          "provenance": {
+            "selector": "script[type=\"application/ld+json\"]",
+            "text_quote": "\"publisher\":{\"@type\":\"Organization\",\"url\":\"https://www.century21.com\",\"name\":\"CENTURY 21 Real Estate\"}"
+          }
+        },
+        "parking": {
+          "value": null,
+          "provenance": {
+            "selector": null,
+            "text_quote": null
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.html",
+        "extraction_method": "Schema extraction from JSON-LD and meta tags."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 72.959,
+    "input_tokens": 21176,
+    "output_tokens": 5487,
+    "total_tokens": 26663,
+    "initial_input_tokens": 21176,
+    "initial_output_tokens": 5487,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

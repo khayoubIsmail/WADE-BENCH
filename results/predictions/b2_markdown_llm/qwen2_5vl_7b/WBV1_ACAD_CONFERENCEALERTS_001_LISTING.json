@@ -1,0 +1,56 @@
+{
+  "task_id": "WBV1_ACAD_CONFERENCEALERTS_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "9th International Conference-Workshop on Sustainable Architecture and Urban Design",
+        "event_start_date": "2026-08-10T00:00:00Z",
+        "location": "Penang, Malaysia",
+        "event_url": "show-event?id=276448"
+      },
+      "provenance": {
+        "page_markdown_md": "data/raw_snapshots/academic/conferencealerts_listing"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "event_name": "10th International Conference on Structure and Civil Engineering Research (ICSCER 2026)",
+        "event_start_date": "2026-08-29T00:00:00Z",
+        "location": "Barcelona, Spain",
+        "event_url": "show-event?id=273124"
+      },
+      "provenance": {
+        "page_markdown_md": "data/raw_snapshots/academic/conferencealerts_listing"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "event_name": "16th International Conference on Environmental Engineering and Applications (ICEEA 2026)",
+        "event_start_date": "2026-08-29T00:00:00Z",
+        "location": "Barcelona, Spain",
+        "event_url": "show-event?id=273123"
+      },
+      "provenance": {
+        "page_markdown_md": "data/raw_snapshots/academic/conferencealerts_listing"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 16.571,
+    "input_tokens": 19986,
+    "output_tokens": 807,
+    "total_tokens": 20793,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

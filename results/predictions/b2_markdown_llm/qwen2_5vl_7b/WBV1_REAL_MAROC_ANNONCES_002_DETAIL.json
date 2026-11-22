@@ -1,0 +1,44 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Vente-immobilier/Appartements.html?quartier=650",
+        "price": {
+          "amount": 185000,
+          "currency_code": "DH",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "address": "Marif, Casablanca",
+        "property_type": "Appartements",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 72,
+          "unit": "m2"
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 5.049,
+    "input_tokens": 9491,
+    "output_tokens": 201,
+    "total_tokens": 9692,
+    "repaired": false,
+    "error": null
+  }
+}

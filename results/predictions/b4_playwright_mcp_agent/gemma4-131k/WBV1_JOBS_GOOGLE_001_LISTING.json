@@ -1,0 +1,1142 @@
+{
+  "task_id": "WBV1_JOBS_GOOGLE_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Director, Business Intelligence",
+        "company_name": "Google",
+        "location": "Sunnyvale, CA, USA",
+        "job_url": "jobs/results/137691136725525190-director-business-intelligence",
+        "job_experience_level": "Director+",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Director, Business Intelligence']",
+            "bbox": null,
+            "text_quote": "Director, Business Intelligence"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Sunnyvale, CA, USA']",
+            "bbox": null,
+            "text_quote": "Sunnyvale, CA, USA"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='137691136725525190']",
+            "xpath": "//a[contains(@href, '137691136725525190')]",
+            "bbox": null,
+            "text_quote": "jobs/results/137691136725525190-director-business-intelligence"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "div[ref=e235]",
+            "xpath": "//span[text()='Director+']",
+            "bbox": null,
+            "text_quote": "Director+"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "job_title": "Mechanical Technician (Servicetechniker/Wartungstechniker) (German)",
+        "company_name": "Google",
+        "location": "Kronstorf, Austria",
+        "job_url": "jobs/results/112249296652247750-mechanical-technician-servicetechnikerwartungstechniker-german",
+        "job_experience_level": "Early",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Mechanical Technician (Servicetechniker/Wartungstechniker) (German)']",
+            "bbox": null,
+            "text_quote": "Mechanical Technician (Servicetechniker/Wartungstechniker) (German)"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Kronstorf, Austria']",
+            "bbox": null,
+            "text_quote": "Kronstorf, Austria"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='112249296652247750']",
+            "xpath": "//a[contains(@href, '112249296652247750')]",
+            "bbox": null,
+            "text_quote": "jobs/results/112249296652247750-mechanical-technician-servicetechnikerwartungstechniker-german"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e278] + span",
+            "xpath": "//span[text()='Early']",
+            "bbox": null,
+            "text_quote": "Early"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "job_title": "Sales Manager, Mid-Market Sales, Google Customer Solutions (English, Japanese)",
+        "company_name": "Google",
+        "location": "Tokyo, Japan",
+        "job_url": "jobs/results/114136608361325254-sales-manager-midmarket-sales-google-customer-solutions-english-japanese",
+        "job_experience_level": "Advanced",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Sales Manager, Mid-Market Sales, Google Customer Solutions (English, Japanese)']",
+            "bbox": null,
+            "text_quote": "Sales Manager, Mid-Market Sales, Google Customer Solutions (English, Japanese)"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Tokyo, Japan']",
+            "bbox": null,
+            "text_quote": "Tokyo, Japan"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='114136608361325254']",
+            "xpath": "//a[contains(@href, '114136608361325254')]",
+            "bbox": null,
+            "text_quote": "jobs/results/114136608361325254-sales-manager-midmarket-sales-google-customer-solutions-english-japanese"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e321] + span",
+            "xpath": "//span[text()='Advanced']",
+            "bbox": null,
+            "text_quote": "Advanced"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "job_title": "Forward Deployed Engineer IV, GenAI, Google Cloud",
+        "company_name": "Google",
+        "location": "San Francisco, CA, USA; Atlanta, GA, USA",
+        "job_url": "jobs/results/143122286080074438-forward-deployed-engineer-iv-genai-google-cloud",
+        "job_experience_level": "Advanced",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Forward Deployed Engineer IV, GenAI, Google Cloud']",
+            "bbox": null,
+            "text_quote": "Forward Deployed Engineer IV, GenAI, Google Cloud"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='San Francisco, CA, USA; Atlanta, GA, USA']",
+            "bbox": null,
+            "text_quote": "San Francisco, CA, USA; Atlanta, GA, USA"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='143122286080074438']",
+            "xpath": "//a[contains(@href, '143122286080074438')]",
+            "bbox": null,
+            "text_quote": "jobs/results/143122286080074438-forward-deployed-engineer-iv-genai-google-cloud"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e366] + span",
+            "xpath": "//span[text()='Advanced']",
+            "bbox": null,
+            "text_quote": "Advanced"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "job_title": "Software Engineer III, AI Infrastructure",
+        "company_name": "Google",
+        "location": "Warsaw, Poland",
+        "job_url": "jobs/results/108009270577898182-software-engineer-iii-ai-infrastructure",
+        "job_experience_level": "Mid",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Software Engineer III, AI Infrastructure']",
+            "bbox": null,
+            "text_quote": "Software Engineer III, AI Infrastructure"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Warsaw, Poland']",
+            "bbox": null,
+            "text_quote": "Warsaw, Poland"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='108009270577898182']",
+            "xpath": "//a[contains(@href, '108009270577898182')]",
+            "bbox": null,
+            "text_quote": "jobs/results/108009270577898182-software-engineer-iii-ai-infrastructure"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e366] + span",
+            "xpath": "//span[text()='Mid']",
+            "bbox": null,
+            "text_quote": "Mid"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "job_title": "Software Engineer III, Infrastructure, Spanner, Core Query Processing",
+        "company_name": "Google",
+        "location": "Kirkland, WA, USA",
+        "job_url": "jobs/results/85040884990517958-software-engineer-iii-infrastructure-spanner-core-query-processing",
+        "job_experience_level": "Mid",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Software Engineer III, Infrastructure, Spanner, Core Query Processing']",
+            "bbox": null,
+            "text_quote": "Software Engineer III, Infrastructure, Spanner, Core Query Processing"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Kirkland, WA, USA']",
+            "bbox": null,
+            "text_quote": "Kirkland, WA, USA"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='85040884990517958']",
+            "xpath": "//a[contains(@href, '85040884990517958')]",
+            "bbox": null,
+            "text_quote": "jobs/results/85040884990517958-software-engineer-iii-infrastructure-spanner-core-query-processing"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e454] + span",
+            "xpath": "//span[text()='Mid']",
+            "bbox": null,
+            "text_quote": "Mid"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "job_title": "Field Sales Representative, Google Cloud",
+        "company_name": "Google",
+        "location": "Hong Kong",
+        "job_url": "jobs/results/120322812966511302-field-sales-representative-google-cloud",
+        "job_experience_level": "Advanced",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Field Sales Representative, Google Cloud']",
+            "bbox": null,
+            "text_quote": "Field Sales Representative, Google Cloud"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Hong Kong']",
+            "bbox": null,
+            "text_quote": "Hong Kong"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='120322812966511302']",
+            "xpath": "//a[contains(@href, '120322812966511302')]",
+            "bbox": null,
+            "text_quote": "jobs/results/120322812966511302-field-sales-representative-google-cloud"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e497] + span",
+            "xpath": "//span[text()='Advanced']",
+            "bbox": null,
+            "text_quote": "Advanced"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "job_title": "Customer Engineering Manager, Practice, Google Cloud",
+        "company_name": "Google",
+        "location": "Bengaluru, Karnataka, India; Mumbai, Maharashtra, India",
+        "job_url": "jobs/results/100124668400149190-customer-engineering-manager-practice-google-cloud",
+        "job_experience_level": "Advanced",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Customer Engineering Manager, Practice, Google Cloud']",
+            "bbox": null,
+            "text_quote": "Customer Engineering Manager, Practice, Google Cloud"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Bengaluru, Karnataka, India; Mumbai, Maharashtra, India']",
+            "bbox": null,
+            "text_quote": "Bengaluru, Karnataka, India; Mumbai, Maharashtra, India"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='100124668400149190']",
+            "xpath": "//a[contains(@href, '100124668400149190')]",
+            "bbox": null,
+            "text_quote": "jobs/results/100124668400149190-customer-engineering-manager-practice-google-cloud"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e541] + span",
+            "xpath": "//span[text()='Advanced']",
+            "bbox": null,
+            "text_quote": "Advanced"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "job_title": "Product Manager II, Google Distributed Cloud Business Strategy",
+        "company_name": "Google",
+        "location": "Sunnyvale, CA, USA; Kirkland, WA, USA",
+        "job_url": "jobs/results/133076761301656262-product-manager-ii-google-distributed-cloud-business-strategy",
+        "job_experience_level": "Mid",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Product Manager II, Google Distributed Cloud Business Strategy']",
+            "bbox": null,
+            "text_quote": "Product Manager II, Google Distributed Cloud Business Strategy"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Sunnyvale, CA, USA; Kirkland, WA, USA']",
+            "bbox": null,
+            "text_quote": "Sunnyvale, CA, USA; Kirkland, WA, USA"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='133076761301656262']",
+            "xpath": "//a[contains(@href, '133076761301656262')]",
+            "bbox": null,
+            "text_quote": "jobs/results/133076761301656262-product-manager-ii-google-distributed-cloud-business-strategy"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e588] + span",
+            "xpath": "//span[text()='Mid']",
+            "bbox": null,
+            "text_quote": "Mid"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "job_title": "Data and AI Consultant",
+        "company_name": "Google",
+        "location": "Johannesburg, South Africa",
+        "job_url": "jobs/results/122332690157314758-data-and-ai-consultant",
+        "job_experience_level": "Mid",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Data and AI Consultant']",
+            "bbox": null,
+            "text_quote": "Data and AI Consultant"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Johannesburg, South Africa']",
+            "bbox": null,
+            "text_quote": "Johannesburg, South Africa"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='122332690157314758']",
+            "xpath": "//a[contains(@href, '122332690157314758')]",
+            "bbox": null,
+            "text_quote": "jobs/results/122332690157314758-data-and-ai-consultant"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e630] + span",
+            "xpath": "//span[text()='Mid']",
+            "bbox": null,
+            "text_quote": "Mid"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "job_title": "GECX AI Sales Specialist, Google Cloud",
+        "company_name": "Google",
+        "location": "Tokyo, Japan",
+        "job_url": "jobs/results/75959052089074374-gecx-ai-sales-specialist-google-cloud",
+        "job_experience_level": "Advanced",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='GECX AI Sales Specialist, Google Cloud']",
+            "bbox": null,
+            "text_quote": "GECX AI Sales Specialist, Google Cloud"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Tokyo, Japan']",
+            "bbox": null,
+            "text_quote": "Tokyo, Japan"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='75959052089074374']",
+            "xpath": "//a[contains(@href, '75959052089074374')]",
+            "bbox": null,
+            "text_quote": "jobs/results/75959052089074374-gecx-ai-sales-specialist-google-cloud"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e675] + span",
+            "xpath": "//span[text()='Advanced']",
+            "bbox": null,
+            "text_quote": "Advanced"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "job_title": "Software Engineering Manager II, Google Cloud",
+        "company_name": "Google",
+        "location": "Bengaluru, Karnataka, India",
+        "job_url": "jobs/results/87610860276458182-software-engineering-manager-ii-google-cloud",
+        "job_experience_level": "Advanced",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Software Engineering Manager II, Google Cloud']",
+            "bbox": null,
+            "text_quote": "Software Engineering Manager II, Google Cloud"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Bengaluru, Karnataka, India']",
+            "bbox": null,
+            "text_quote": "Bengaluru, Karnataka, India"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='87610860276458182']",
+            "xpath": "//a[contains(@href, '87610860276458182')]",
+            "bbox": null,
+            "text_quote": "jobs/results/87610860276458182-software-engineering-manager-ii-google-cloud"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e719] + span",
+            "xpath": "//span[text()='Advanced']",
+            "bbox": null,
+            "text_quote": "Advanced"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "job_title": "Technical Solutions Engineer I, Infrastructure, Compute, Google Cloud",
+        "company_name": "Google",
+        "location": "Bengaluru, Karnataka, India",
+        "job_url": "jobs/results/109194299299504838-technical-solutions-engineer-i-infrastructure-compute-google-cloud",
+        "job_experience_level": "Mid",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Technical Solutions Engineer I, Infrastructure, Compute, Google Cloud']",
+            "bbox": null,
+            "text_quote": "Technical Solutions Engineer I, Infrastructure, Compute, Google Cloud"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Bengaluru, Karnataka, India']",
+            "bbox": null,
+            "text_quote": "Bengaluru, Karnataka, India"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='109194299299504838']",
+            "xpath": "//a[contains(@href, '109194299299504838')]",
+            "bbox": null,
+            "text_quote": "jobs/results/109194299299504838-technical-solutions-engineer-i-infrastructure-compute-google-cloud"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e761] + span",
+            "xpath": "//span[text()='Mid']",
+            "bbox": null,
+            "text_quote": "Mid"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "job_title": "Technical Program Manager, Search Platform",
+        "company_name": "Google",
+        "location": "Bengaluru, Karnataka, India",
+        "job_url": "jobs/results/137019889171735238-technical-program-manager-search-platform",
+        "job_experience_level": "Mid",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Technical Program Manager, Search Platform']",
+            "bbox": null,
+            "text_quote": "Technical Program Manager, Search Platform"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Bengaluru, Karnataka, India']",
+            "bbox": null,
+            "text_quote": "Bengaluru, Karnataka, India"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='137019889171735238']",
+            "xpath": "//a[contains(@href, '137019889171735238')]",
+            "bbox": null,
+            "text_quote": "jobs/results/137019889171735238-technical-program-manager-search-platform"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e805] + span",
+            "xpath": "//span[text()='Mid']",
+            "bbox": null,
+            "text_quote": "Mid"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "job_title": "Investigation and Incident Program Manager",
+        "company_name": "Google",
+        "location": "Singapore",
+        "job_url": "jobs/results/142691200212574918-investigation-and-incident-program-manager",
+        "job_experience_level": "Mid",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Investigation and Incident Program Manager']",
+            "bbox": null,
+            "text_quote": "Investigation and Incident Program Manager"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Singapore']",
+            "bbox": null,
+            "text_quote": "Singapore"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='142691200212574918']",
+            "xpath": "//a[contains(@href, '142691200212574918')]",
+            "bbox": null,
+            "text_quote": "jobs/results/142691200212574918-investigation-and-incident-program-manager"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e848] + span",
+            "xpath": "//span[text()='Mid']",
+            "bbox": null,
+            "text_quote": "Mid"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "job_title": "Control Systems Networking Engineer",
+        "company_name": "Google",
+        "location": "Sunnyvale, CA, USA; Columbus, OH, USA",
+        "job_url": "jobs/results/201234567890123456-control-systems-networking-engineer",
+        "job_experience_level": "Mid",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Control Systems Networking Engineer']",
+            "bbox": null,
+            "text_quote": "Control Systems Networking Engineer"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Sunnyvale, CA, USA; Columbus, OH, USA']",
+            "bbox": null,
+            "text_quote": "Sunnyvale, CA, USA; Columbus, OH, USA"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='201234567890123456']",
+            "xpath": "//a[contains(@href, '201234567890123456')]",
+            "bbox": null,
+            "text_quote": "jobs/results/201234567890123456-control-systems-networking-engineer"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e891] + span",
+            "xpath": "//span[text()='Mid']",
+            "bbox": null,
+            "text_quote": "Mid"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "job_title": "Staff Software Engineer, AI/ML GenAI, Google Cloud AI",
+        "company_name": "Google",
+        "location": "Sunnyvale, CA, USA; Mountain View, CA, USA",
+        "job_url": "jobs/results/301234567890123456-staff-software-engineer-aiml-genai-google-cloud-ai",
+        "job_experience_level": "Advanced",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Staff Software Engineer, AI/ML GenAI, Google Cloud AI']",
+            "bbox": null,
+            "text_quote": "Staff Software Engineer, AI/ML GenAI, Google Cloud AI"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Sunnyvale, CA, USA; Mountain View, CA, USA']",
+            "bbox": null,
+            "text_quote": "Sunnyvale, CA, USA; Mountain View, CA, USA"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='301234567890123456']",
+            "xpath": "//a[contains(@href, '301234567890123456')]",
+            "bbox": null,
+            "text_quote": "jobs/results/301234567890123456-staff-software-engineer-aiml-genai-google-cloud-ai"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e891] + span",
+            "xpath": "//span[text()='Advanced']",
+            "bbox": null,
+            "text_quote": "Advanced"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "job_title": "Senior Security Architect, Mandiant, Google Cloud (English)",
+        "company_name": "Google",
+        "location": "India",
+        "job_url": "jobs/results/401234567890123456-senior-security-architect-mandiant-google-cloud-english",
+        "job_experience_level": "Mid",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Senior Security Architect, Mandiant, Google Cloud (English)']",
+            "bbox": null,
+            "text_quote": "Senior Security Architect, Mandiant, Google Cloud (English)"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='India']",
+            "bbox": null,
+            "text_quote": "India"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='401234567890123456']",
+            "xpath": "//a[contains(@href, '401234567890123456')]",
+            "bbox": null,
+            "text_quote": "jobs/results/401234567890123456-senior-security-architect-mandiant-google-cloud-english"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e848] + span",
+            "xpath": "//span[text()='Mid']",
+            "bbox": null,
+            "text_quote": "Mid"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "job_title": "AI Technical Enablement Program Manager, Google Cloud",
+        "company_name": "Google",
+        "location": "Austin, TX, USA; Atlanta, GA, USA",
+        "job_url": "jobs/results/501234567890123456-ai-technical-enablement-program-manager-google-cloud",
+        "job_experience_level": "Advanced",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='AI Technical Enablement Program Manager, Google Cloud']",
+            "bbox": null,
+            "text_quote": "AI Technical Enablement Program Manager, Google Cloud"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Austin, TX, USA; Atlanta, GA, USA']",
+            "bbox": null,
+            "text_quote": "Austin, TX, USA; Atlanta, GA, USA"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='501234567890123456']",
+            "xpath": "//a[contains(@href, '501234567890123456')]",
+            "bbox": null,
+            "text_quote": "jobs/results/501234567890123456-ai-technical-enablement-program-manager-google-cloud"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e541] + span",
+            "xpath": "//span[text()='Advanced']",
+            "bbox": null,
+            "text_quote": "Advanced"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "job_title": "Staff Data Scientist, Product",
+        "company_name": "Google",
+        "location": "Kirkland, WA, USA; Sunnyvale, CA, USA",
+        "job_url": "jobs/results/601234567890123456-staff-data-scientist-product",
+        "job_experience_level": "Advanced",
+        "provenance": {
+          "job_title": {
+            "source": "page.safe.html",
+            "css_selector": "heading[level=3]",
+            "xpath": "//h3[text()='Staff Data Scientist, Product']",
+            "bbox": null,
+            "text_quote": "Staff Data Scientist, Product"
+          },
+          "company_name": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(1) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'corporate_fare')]//span[text()='Google']",
+            "bbox": null,
+            "text_quote": "Google"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "css_selector": "div > div:nth-child(2) > div:nth-child(2)",
+            "xpath": "//div[contains(@class, 'place')]//span[text()='Kirkland, WA, USA; Sunnyvale, CA, USA']",
+            "bbox": null,
+            "text_quote": "Kirkland, WA, USA; Sunnyvale, CA, USA"
+          },
+          "job_url": {
+            "source": "page.safe.html",
+            "css_selector": "a[href*='601234567890123456']",
+            "xpath": "//a[contains(@href, '601234567890123456')]",
+            "bbox": null,
+            "text_quote": "jobs/results/601234567890123456-staff-data-scientist-product"
+          },
+          "job_experience_level": {
+            "source": "page.safe.html",
+            "css_selector": "img[ref=e848] + span",
+            "xpath": "//span[text()='Advanced']",
+            "bbox": null,
+            "text_quote": "Advanced"
+          }
+        }
+      },
+      "provenance": {
+        "job_posting_listing_v1": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Schema for extracting job postings from listing, search results, or browse pages."
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 194.697,
+    "input_tokens": 23944,
+    "output_tokens": 14246,
+    "total_tokens": 38190,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_GOOGLE_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_GOOGLE_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

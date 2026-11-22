@@ -1,0 +1,116 @@
+{
+  "task_id": "WBV1_JOBS_REED_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Junior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/junior-developer/57037836?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Vensis",
+        "location": "Brough, Yorkshire and Humberside, UK",
+        "employment_type": "Permanent, full-time",
+        "salary": {
+          "min_amount": 28000,
+          "max_amount": null,
+          "currency": "GBP",
+          "period": "YEAR"
+        },
+        "job_description": "Vensis builds bespoke software systems for clients with unique data needs. As a trainee developer, you will join a small collaborative team learning how to build these systems.\nVensis works with a range of client from mid-size to international blue chip clients in a sectors including, engineering, retail, transport, defence, manufacturing, travel, Oil & Gas and more.\nSystems are supported by training materials, over the phone and face-to-face. The role is based in Brough in the East Riding of Yorkshire. There is opportunity to travel for those with client facing skills and real development opportunity as the business expands.",
+        "responsibilities": [
+          null
+        ],
+        "qualifications": [
+          "Experience with SQL",
+          "Some knowledge of Excel or Access including VBA",
+          "Experience with Power BI and Power Apps",
+          "Bachelor's degree",
+          "High standard of English",
+          "Willingness to learn and climb a steep learning curve",
+          "Ability to explain technical concepts in simple language",
+          "Good listening skills",
+          "A good attention to detail and eye for design",
+          "A thirst for variety, problem solving challenges and thrive under pressure"
+        ],
+        "benefits": [
+          "Company pension",
+          "Cycle to work scheme",
+          "Free parking",
+          "Transport links"
+        ],
+        "work_arrangement": "hybrid",
+        "job_experience_level": null,
+        "department": null,
+        "salary_range": "£28,000 per year + Bonus Scheme"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "embedded_json",
+          "text_quote": "Junior Developer"
+        },
+        "job_url": {
+          "source": "metadata.json",
+          "text_quote": "https://www.reed.co.uk/jobs/junior-developer/57037836?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "embedded_json",
+          "text_quote": "Vensis"
+        },
+        "location": {
+          "source": "embedded_json",
+          "text_quote": "Brough, Yorkshire and Humberside, UK"
+        },
+        "employment_type": {
+          "source": "embedded_json",
+          "text_quote": "FULL_TIME"
+        },
+        "salary": {
+          "source": "embedded_json",
+          "text_quote": "GBP, 28000, YEAR"
+        },
+        "job_description": {
+          "source": "embedded_json",
+          "text_quote": "Vensis builds bespoke software systems for clients with unique data needs. As a trainee developer, you will join a small collaborative team learning how to build these systems..."
+        },
+        "responsibilities": {
+          "source": "embedded_json",
+          "text_quote": null
+        },
+        "qualifications": {
+          "source": "embedded_json",
+          "text_quote": "Experience with SQL, Some knowledge of Excel or Access including VBA, Experience with Power BI and Power Apps..."
+        },
+        "benefits": {
+          "source": "embedded_json",
+          "text_quote": "Company pension, Cycle to work scheme, Free parking, Transport links"
+        },
+        "work_arrangement": {
+          "source": "visible_text",
+          "text_quote": "Hybrid - Must be able to commute to Brough office"
+        },
+        "job_experience_level": null,
+        "department": null,
+        "salary_range": {
+          "source": "embedded_json",
+          "text_quote": "£28,000 per year + Bonus Scheme"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 43.674,
+    "input_tokens": 79548,
+    "output_tokens": 1081,
+    "total_tokens": 80629,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_REED_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_REED_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

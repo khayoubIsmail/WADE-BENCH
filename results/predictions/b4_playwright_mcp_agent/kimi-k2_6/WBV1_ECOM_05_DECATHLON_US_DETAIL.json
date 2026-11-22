@@ -1,0 +1,241 @@
+{
+  "task_id": "WBV1_ECOM_05_DECATHLON_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Quechua",
+        "description": "This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort.",
+        "image_urls": [],
+        "price_raw": "$19.99",
+        "product_name": "Quechua NH100 Arpenaz 10 L Hiking Backpack",
+        "product_url": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147",
+        "rating": 4.82,
+        "review_count": 18045,
+        "availability": null,
+        "color": "Black",
+        "discount_percentage": null,
+        "first_review": "The 10L WITH bottle slot",
+        "image_url": null,
+        "shipping_text": "Free Shipping on Orders $49+",
+        "size_or_volume": "10 L",
+        "sku": "8775634",
+        "available_colors": [
+          "Black",
+          "Slate Blue",
+          "Yellow Ochre",
+          "Dark Green",
+          "Golden Brown"
+        ],
+        "available_sizes": [
+          "10 L"
+        ],
+        "available_widths": null,
+        "capacity_or_size": null,
+        "care": null,
+        "color_name": "Black",
+        "color_options": null,
+        "colors_options": null,
+        "currency": "USD",
+        "first_review_content": "There are now two Quechua 10L Hiking Backpacks, one for $5.99 and one for $9.99. The appearance and quality and features are much better on this $9.99 one that has an external mesh bottle slot, plus interior zipper slot, plus better straps and rear panel padding. It's the bougie edition. Highly recommended for flights. Note that for occasional use the original lacks features and bougie-appeal, but folds flatter in your carryon.",
+        "first_review_details": null,
+        "first_review_rating": 5,
+        "first_review_text": "There are now two Quechua 10L Hiking Backpacks, one for $5.99 and one for $9.99. The appearance and quality and features are much better on this $9.99 one that has an external mesh bottle slot, plus interior zipper slot, plus better straps and rear panel padding. It's the bougie edition. Highly recommended for flights. Note that for occasional use the original lacks features and bougie-appeal, but folds flatter in your carryon.",
+        "first_review_title": "The 10L WITH bottle slot",
+        "fit": null,
+        "foam_model": null,
+        "key_features": null,
+        "material": null,
+        "materials": null,
+        "measurements": null,
+        "old_price_raw": null,
+        "price": 19.99,
+        "selected_width": null,
+        "seller_name": null,
+        "shipping_info": "Free Shipping on Orders $49+",
+        "short_description": "This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort.",
+        "style_color": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "heading \"Quechua\" [level=4] [ref=e427]"
+        },
+        "description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "heading \"This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort.\" [level=5] [ref=e484]"
+        },
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "No absolute image URLs found in snapshot; placeholder images present"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e463]: $19.99"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "heading \"Quechua NH100 Arpenaz 10 L Hiking Backpack\" [level=3] [ref=e429]"
+        },
+        "product_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.decathlon.com/products/quechua-hiking-10l-backpack-arpenaz-nh100-344147"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic \"Rating of this product is 4.82 out of 5\" [ref=e431]"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "paragraph [ref=e437]: 18045 reviews"
+        },
+        "availability": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "status [ref=e466]"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "radio \"Black\" [checked] [ref=e446]"
+        },
+        "shipping_text": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "paragraph [ref=e10]: Free Shipping on Orders $49+"
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e460]: Size10 L"
+        },
+        "sku": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e486]: ID 8775634"
+        },
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "radio \"Black\" [checked] [ref=e446], radio \"Slate Blue\" [ref=e449], radio \"Yellow Ochre - Sold out\" [disabled] [ref=e452], radio \"Dark Green - Sold out\" [disabled] [ref=e455], radio \"Golden Brown\" [ref=e458]"
+        },
+        "available_sizes": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e460]: Size10 L"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$19.99"
+        },
+        "first_review_content": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "There are now two Quechua 10L Hiking Backpacks, one for $5.99 and one for $9.99. The appearance and quality and features are much better on this $9.99 one that has an external mesh bottle slot, plus interior zipper slot, plus better straps and rear panel padding. It's the bougie edition. Highly recommended for flights. Note that for occasional use the original lacks features and bougie-appeal, but folds flatter in your carryon."
+        },
+        "first_review_rating": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "★★★★★ preceding \"The 10L WITH bottle slot\""
+        },
+        "first_review_text": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "There are now two Quechua 10L Hiking Backpacks, one for $5.99 and one for $9.99. The appearance and quality and features are much better on this $9.99 one that has an external mesh bottle slot, plus interior zipper slot, plus better straps and rear panel padding. It's the bougie edition. Highly recommended for flights. Note that for occasional use the original lacks features and bougie-appeal, but folds flatter in your carryon."
+        },
+        "first_review_title": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "The 10L WITH bottle slot"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "$19.99"
+        },
+        "shipping_info": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "paragraph [ref=e10]: Free Shipping on Orders $49+"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "heading \"This barely-there (7oz) 10L backpack with smart compartments and a bottle holder is your perfect companion for hikes in comfort.\" [level=5] [ref=e484]"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 50.878,
+    "input_tokens": 18730,
+    "output_tokens": 1746,
+    "total_tokens": 20476,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_05_DECATHLON_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_05_DECATHLON_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

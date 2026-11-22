@@ -1,0 +1,79 @@
+{
+  "task_id": "WBV1_JOBS_EUROBRUSSELS_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Public Affairs Consultant",
+        "company_name": "EFC - European Football Clubs",
+        "location": "Brussels",
+        "job_url": "/job_display/291646/Public_Affairs_Consultant_EFC_European_Football_Clubs_Brussels_Belgium",
+        "job_description": "Track and analyse policy, legislative and regulatory developments at the EU and/or (inter)national level that affect EFC, its members and European club football more generally. Provide EFC with relevant information and clear assessments of political and",
+        "tags": [
+          "Communication/Public Relations",
+          "Education and Culture",
+          "Hybrid",
+          "Industry Association"
+        ],
+        "work_arrangement": "hybrid",
+        "posted_date": "2026-06-01",
+        "application_deadline": "2026-06-05"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "html_signals",
+          "text_quote": "Public Affairs Consultant"
+        },
+        "company_name": {
+          "source": "visible_text",
+          "text_quote": "EFC - European Football Clubs"
+        },
+        "location": {
+          "source": "visible_text",
+          "text_quote": "Brussels"
+        },
+        "job_url": {
+          "source": "html_signals",
+          "text_quote": "/job_display/291646/Public_Affairs_Consultant_EFC_European_Football_Clubs_Brussels_Belgium"
+        },
+        "job_description": {
+          "source": "visible_text",
+          "text_quote": "Track and analyse policy, legislative and regulatory developments at the EU and/or (inter)national level that affect EFC, its members and European club football more generally. Provide EFC with relevant information and clear assessments of political and"
+        },
+        "tags": {
+          "source": "visible_text",
+          "text_quote": "Communication/Public Relations Education and Culture Hybrid Industry Association"
+        },
+        "work_arrangement": {
+          "source": "visible_text",
+          "text_quote": "Hybrid"
+        },
+        "posted_date": {
+          "source": "visible_text",
+          "text_quote": "Posted 1 day ago"
+        },
+        "application_deadline": {
+          "source": "visible_text",
+          "text_quote": "Deadline 5 June"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 122.68,
+    "input_tokens": 35551,
+    "output_tokens": 8192,
+    "total_tokens": 43743,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_EUROBRUSSELS_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_EUROBRUSSELS_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/property/12b-mary-street-papanui-christchurch-city-canterbury",
+        "address": "12B Mary Street, Papanui",
+        "listing_title": "12B Mary Street, Papanui",
+        "property_type": "House",
+        "price": {
+          "amount": 756500,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 130,
+          "unit": "m2"
+        },
+        "sale_type": "private_treaty",
+        "images_urls": [],
+        "listing_agent_name": null,
+        "listing_agent_logo": null,
+        "listing_agent_photo": null,
+        "listing_office": null
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "record_index": 0,
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "12B Mary Street, Papanui Automated estimate $786K Estimate updated on 25/05/2026 2 1 130m² 386m² 2",
+        "confidence": 0.9
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 7.857,
+    "input_tokens": 15005,
+    "output_tokens": 228,
+    "total_tokens": 15233,
+    "repaired": false,
+    "error": null
+  }
+}

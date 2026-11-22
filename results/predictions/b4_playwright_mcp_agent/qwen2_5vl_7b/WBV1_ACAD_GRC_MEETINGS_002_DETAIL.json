@@ -1,0 +1,72 @@
+{
+  "task_id": "WBV1_ACAD_GRC_MEETINGS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Additive Manufacturing of Soft Materials Conference GRC",
+        "event_start_date": "2026-07-19T00:00:00Z",
+        "event_end_date": "2026-07-24T00:00:00Z",
+        "location": "Southern New Hampshire University, Manchester, New Hampshire, United States",
+        "registration_url": "https://my.grc.org/event-application/19426"
+      },
+      "provenance": {
+        "source_files": {
+          "page_html": "data/raw_snapshots/academic/grc_meetings_detail_sample/page.html",
+          "text_txt": "data/raw_snapshots/academic/grc_meetings_detail_sample/text.txt",
+          "ax_tree": "data/raw_snapshots/academic/grc_meetings_detail_sample/ax_tree.json",
+          "metadata": "data/raw_snapshots/academic/grc_meetings_detail_sample/metadata.json"
+        },
+        "visible_text": {
+          "text_quote": "Additive Manufacturing of Soft Materials\nGordon Research Conference\nBioprinted, Multimaterial, and AI-Enabled Approaches in Soft Material Additive Manufacturing\nJuly 19 - 24, 2026\nApply Now"
+        },
+        "html_signals": {
+          "title": "Additive Manufacturing of Soft Materials Conference GRC",
+          "headings": [
+            {
+              "tag": "h3",
+              "text": "Additive Manufacturing of Soft Materials"
+            },
+            {
+              "tag": "h1",
+              "text": "Bioprinted, Multimaterial, and AI-Enabled Approaches in Soft Material Additive Manufacturing"
+            },
+            {
+              "tag": "h2",
+              "text": "Application Information"
+            },
+            {
+              "tag": "h2",
+              "text": "Conference Description"
+            },
+            {
+              "tag": "h2",
+              "text": "Related Meeting"
+            },
+            {
+              "tag": "h2",
+              "text": "Conference Program"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": true,
+    "latency_seconds": 37.167,
+    "input_tokens": 42627,
+    "output_tokens": 933,
+    "total_tokens": 43560,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_GRC_MEETINGS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_GRC_MEETINGS_002_DETAIL_tool_trace.json",
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

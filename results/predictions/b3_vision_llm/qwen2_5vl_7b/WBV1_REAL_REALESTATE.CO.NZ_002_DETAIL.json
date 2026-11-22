@@ -1,0 +1,128 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/property/residential/house-for-sale/12b-mary-street-papanui-3469875",
+        "price": {
+          "amount": 786,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "12B Mary Street, Papanui"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 0,
+        "field_values": [
+          {
+            "listing_url": "https://www.realestate.co.nz/property/residential/house-for-sale/12b-mary-street-papanui-3469875"
+          },
+          {
+            "price": {
+              "amount": 786,
+              "currency_code": "NZD",
+              "currency_symbol": "$",
+              "period": null
+            }
+          },
+          {
+            "address": "12B Mary Street, Papanui"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/property/residential/house-for-sale/12b-mary-street-papanui-3469875",
+        "price": {
+          "amount": 786,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "12B Mary Street, Papanui"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 0,
+        "field_values": [
+          {
+            "listing_url": "https://www.realestate.co.nz/property/residential/house-for-sale/12b-mary-street-papanui-3469875"
+          },
+          {
+            "price": {
+              "amount": 786,
+              "currency_code": "NZD",
+              "currency_symbol": "$",
+              "period": null
+            }
+          },
+          {
+            "address": "12B Mary Street, Papanui"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/property/residential/house-for-sale/12b-mary-street-papanui-3469875",
+        "price": {
+          "amount": 786,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": "12B Mary Street, Papanui"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 0,
+        "field_values": [
+          {
+            "listing_url": "https://www.realestate.co.nz/property/residential/house-for-sale/12b-mary-street-papanui-3469875"
+          },
+          {
+            "price": {
+              "amount": 786,
+              "currency_code": "NZD",
+              "currency_symbol": "$",
+              "period": null
+            }
+          },
+          {
+            "address": "12B Mary Street, Papanui"
+          }
+        ]
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 13.812,
+    "input_tokens": 6890,
+    "output_tokens": 751,
+    "total_tokens": 7641,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_REAL_REALESTATE.CO.NZ_002_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

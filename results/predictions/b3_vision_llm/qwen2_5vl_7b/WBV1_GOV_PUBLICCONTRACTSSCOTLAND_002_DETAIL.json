@@ -1,0 +1,38 @@
+{
+  "task_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Integrated case management system configuration and development",
+        "tender_url": "https://www.publiccontracts.scot/notice/MAY556703"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 2.198,
+    "input_tokens": 2402,
+    "output_tokens": 99,
+    "total_tokens": 2501,
+    "num_tiles": 1,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_GOV_PUBLICCONTRACTSSCOTLAND_002_DETAIL\\tile_01.png"
+    ],
+    "error": null
+  }
+}

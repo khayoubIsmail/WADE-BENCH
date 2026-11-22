@@ -1,0 +1,78 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/property/19547756/",
+        "price": {
+          "amount": 879000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Kingsfield Avenue, Harrow, HA2 6AQ",
+        "property_type": "Semi-detached house",
+        "bedrooms": 4,
+        "bathrooms": 2.0,
+        "floor_area": {
+          "value": 1646,
+          "unit": "sq ft"
+        },
+        "price_per_m2": null,
+        "sale_type": null,
+        "tenure": "Freehold",
+        "location": "Kingsfield Avenue, Harrow, HA2 6AQ",
+        "published_date": "< 7 days",
+        "open_house_schedule": [],
+        "key_features": [
+          "Porch and Entrance Hallway",
+          "Four Bedrooms",
+          "Reception Room",
+          "Dining Room",
+          "Study",
+          "Kitchen",
+          "Two Bathrooms and Ground floor W.C.",
+          "Landscaped rear garden",
+          "Garage accessed by own driveway",
+          "Off Street Parking"
+        ],
+        "description": "A well-presented and thoughtfully extended four bedroom, two bathroom semi-detached family home, ideally situated on a sought-after residential road just 0.5 miles from North Harrow’s shops and Metropolitan Line station.",
+        "mls_number": null,
+        "additional_facilities": [],
+        "images_urls": [
+          "https://media.onthemarket.com/properties/19547756/1616476327/image-0-1024x1024.jpg"
+        ],
+        "listing_agent": {
+          "name": null,
+          "phone": "020 4516 6055",
+          "logo": null,
+          "photo": null
+        },
+        "listing_office": null,
+        "parking": [
+          "Garage accessed by own driveway"
+        ]
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "timestamp": "2023-10-05T14:30:00Z"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 10.757,
+    "input_tokens": 12858,
+    "output_tokens": 546,
+    "total_tokens": 13404,
+    "repaired": false,
+    "error": null
+  }
+}

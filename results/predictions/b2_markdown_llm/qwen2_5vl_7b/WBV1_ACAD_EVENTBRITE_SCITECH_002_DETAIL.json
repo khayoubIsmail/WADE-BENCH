@@ -1,0 +1,35 @@
+{
+  "task_id": "WBV1_ACAD_EVENTBRITE_SCITECH_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Get Started: Algo & Bot Trading 101",
+        "event_start_date": "Thursday, June 4-Friday, June 5 • 11:30 PM-12:30 AM GMT+1",
+        "location": "Online event",
+        "event_url": "https://www.eventbrite.com/e/get-started-algo-bot-trading-101-tickets-198647205095"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "css_selector": null,
+        "xpath": null,
+        "bbox": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 4.36,
+    "input_tokens": 6856,
+    "output_tokens": 177,
+    "total_tokens": 7033,
+    "repaired": false,
+    "error": null
+  }
+}

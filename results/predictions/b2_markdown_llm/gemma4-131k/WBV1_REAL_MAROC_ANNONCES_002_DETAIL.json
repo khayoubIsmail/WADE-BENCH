@@ -1,0 +1,55 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+        "address": "Maarif, Casablanca",
+        "listing_title": "Vend joli appart Maarif",
+        "property_type": "appartement",
+        "price": {
+          "amount": 1185000,
+          "currency_code": "DH",
+          "currency_symbol": "DH",
+          "period": null
+        },
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 72,
+          "unit": "M^2"
+        },
+        "description": "Particulier vend joli appartement Maarif avec parking constitué d'un salon, deux chambres, cuisine équipée, salle de bain, proche de toutes commodités, Possibilité de le vendre MEUBLÉ pour les intéressés.",
+        "published_date": "2023-05-28",
+        "additional_facilities": [
+          "parking"
+        ],
+        "listing_agent_name": "Riffi",
+        "listing_agent_phone": "064-5******"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "selector": null,
+        "xpath": null,
+        "bbox": null,
+        "text_quote": "1 185 000 DH Vend joli appart Maarif Casablanca / Maarif Publiée le: 28 May-20:23 Vue: 5 Annonce N°: 10387457 ... Surface en M 2 : 72 Nombre de Chambres : 3 Salles de bain : 1 Ville : Casablanca Detail de l'annonce : Particulier vend joli appartement Maarif avec parking constitué d'un salon, deux chambres, cuisine équipée, salle de bain, proche de toutes commodités, Possibilité de le vendre MEUBLÉ pour les intéressés. Annonceur : Riffi Téléphone : 064-5****** Afficher le numéro"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 8.192,
+    "input_tokens": 9503,
+    "output_tokens": 547,
+    "total_tokens": 10050,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Warby Parker",
+        "description": "There's no need to mess with a good thing. Wilkie is our version of a never-fail frame, with a sloped browline and rectangular lenses that flatters any face.",
+        "image_urls": [
+          "https://i.warbycdn.com/s/c/392aa5615b28164947d08e27bbaff34931d44234"
+        ],
+        "price_raw": "Starting at $95",
+        "product_name": "Wilkie Eyeglasses in Black Matte Eclipse — Medium",
+        "product_url": "https://www.warbyparker.com/eyeglasses/wilkie/black-matte-eclipse?w=medium",
+        "rating": 4.3,
+        "review_count": 350,
+        "availability": null,
+        "color": "Black Matte Eclipse",
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": "https://i.warbycdn.com/s/c/392aa5615b28164947d08e27bbaff34931d44234",
+        "shipping_text": null,
+        "size_or_volume": "Medium",
+        "sku": null,
+        "available_colors": [
+          "black-matte-eclipse",
+          "crystal-with-english-oak",
+          "eastern-bluebird-fade",
+          "greystone",
+          "sea-glass-grey"
+        ],
+        "available_sizes": null,
+        "available_widths": null,
+        "capacity_or_size": null,
+        "care": null,
+        "color_name": "Black Matte Eclipse",
+        "color_options": null,
+        "colors_options": null,
+        "currency": "USD",
+        "first_review_content": null,
+        "first_review_details": null,
+        "first_review_rating": null,
+        "first_review_text": null,
+        "first_review_title": null,
+        "fit": null,
+        "foam_model": null,
+        "key_features": null,
+        "material": null,
+        "materials": null,
+        "measurements": null,
+        "old_price_raw": null,
+        "price": 95,
+        "selected_width": null,
+        "seller_name": null,
+        "shipping_info": null,
+        "short_description": null,
+        "style_color": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "title",
+          "text_quote_or_attribute": "Wilkie Eyeglasses in Black Matte Eclipse — Medium  | Warby Parker"
+        },
+        "description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[name='description']",
+          "text_quote_or_attribute": "There's no need to mess with a good thing. Wilkie is our version of a never-fail frame, with a sloped browline and rectangular lenses that flatters any face."
+        },
+        "image_urls": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:image']",
+          "text_quote_or_attribute": "https://i.warbycdn.com/s/c/392aa5615b28164947d08e27bbaff34931d44234"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".price-reviews-module-scss-module__0_NZHG__priceAndReviewsWrapper .wp-uiparagraph400",
+          "text_quote_or_attribute": "Starting at $95"
+        },
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "title",
+          "text_quote_or_attribute": "Wilkie Eyeglasses in Black Matte Eclipse — Medium"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "link[rel='canonical']",
+          "text_quote_or_attribute": "https://www.warbyparker.com/eyeglasses/wilkie/black-matte-eclipse"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "a.rating-summary-module-scss-module__hTysHa__ratingSummary",
+          "text_quote_or_attribute": "Rating: 4.3 out of 5 stars"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".rating-summary-module-scss-module__hTysHa__ratingText",
+          "text_quote_or_attribute": "(350)"
+        },
+        "color": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".wp-inline.wp-caption200.wp-caption300-d",
+          "text_quote_or_attribute": "Black Matte Eclipse"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:image']",
+          "text_quote_or_attribute": "https://i.warbycdn.com/s/c/392aa5615b28164947d08e27bbaff34931d44234"
+        },
+        "size_or_volume": {
+          "source": "page.html",
+          "css_selector_or_xpath": "title",
+          "text_quote_or_attribute": "Wilkie Eyeglasses in Black Matte Eclipse — Medium"
+        },
+        "available_colors": {
+          "source": "page.html",
+          "css_selector_or_xpath": "[aria-label='Style options for Wilkie'] button",
+          "text_quote_or_attribute": "black-matte-eclipse, crystal-with-english-oak, eastern-bluebird-fade, greystone, sea-glass-grey"
+        },
+        "price": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".price-reviews-module-scss-module__0_NZHG__priceAndReviewsWrapper .wp-uiparagraph400",
+          "text_quote_or_attribute": "Starting at $95"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".price-reviews-module-scss-module__0_NZHG__priceAndReviewsWrapper .wp-uiparagraph400",
+          "text_quote_or_attribute": "$"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 103.357,
+    "input_tokens": 209467,
+    "output_tokens": 1050,
+    "total_tokens": 210517,
+    "initial_input_tokens": 209467,
+    "initial_output_tokens": 1050,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

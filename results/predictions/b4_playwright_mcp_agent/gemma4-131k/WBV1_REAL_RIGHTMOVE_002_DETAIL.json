@@ -1,0 +1,207 @@
+{
+  "task_id": "WBV1_REAL_RIGHTMOVE_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "http://127.0.0.1:57057/page.safe.html",
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Page URL: http://127.0.0.1:57057/page.safe.html"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 1200,
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "period": "month"
+          },
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "£1,200 pcm"
+          }
+        },
+        "address": {
+          "value": "The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ"
+          }
+        },
+        "listing_title": {
+          "value": "1 bedroom apartment for rent in The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ, B16",
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Page Title: 1 bedroom apartment for rent in The Lansdowne, 25 Hagley Road, Birmingham, B16 8FZ, B16"
+          }
+        },
+        "property_type": {
+          "value": "Apartment",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Apartment"
+          }
+        },
+        "bedrooms": {
+          "value": 1,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "1"
+          }
+        },
+        "bathrooms": {
+          "value": 1,
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "1"
+          }
+        },
+        "floor_area": {
+          "value": null,
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "energy_rating": {
+          "value": null,
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "published_date": {
+          "value": "2024-03-22",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "Added on 22/03/2024"
+          }
+        },
+        "key_features": {
+          "value": [
+            "24h Concierge Service",
+            "Bike storage",
+            "Central Living",
+            "Double Glazing",
+            "Gym",
+            "Porter Security"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "24h Concierge ServiceBike storageCentral LivingDouble GlazingGymPorter Security"
+          }
+        },
+        "description": {
+          "value": "This luxurious one-bedroom apartment is pet friendly and situated on the 13th floor, fitted out to provide the best living experience possible. It has a generously sized open living space with floor to ceiling windows, one double bedroom with built-in wardrobe, a high quality kitchen with lots of storage space and integrated appliances. The apartment is furnished with private parking spaces available for an additional fee (POA). There also is a secure bike storage which includes a fully kitted workshop.",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "This luxurious one-bedroom apartment is pet friendly and situated on the 13th floor, fitted out to provide the best living experience possible. It has a generously sized open living space with floor to ceiling windows, one double bedroom with built-in wardrobe, a high quality kitchen with lots of storage space and integrated appliances. The apartment is furnished with private parking spaces available for an additional fee (POA). There also is a secure bike storage which includes a fully kitted workshop."
+          }
+        },
+        "images_urls": {
+          "value": [
+            null
+          ],
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_agent_logo": {
+          "value": null,
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": null
+          }
+        },
+        "listing_office": {
+          "value": "Way of Life - The Lansdowne, The Lansdowne",
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "MARKETED BY\n\nWay of Life - The Lansdowne, The Lansdowne"
+          }
+        },
+        "parking": {
+          "value": [
+            "Yes"
+          ],
+          "provenance": {
+            "source": "text.txt",
+            "selector": null,
+            "xpath": null,
+            "bbox": null,
+            "text_quote": "PARKING\nYes"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source_file": "page.safe.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 31.478,
+    "input_tokens": 28244,
+    "output_tokens": 1699,
+    "total_tokens": 29943,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_RIGHTMOVE_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_RIGHTMOVE_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "schema_id": "real_estate_detail_v1",
+  "domain": "real_estate",
+  "version": "1.0",
+  "description": "Schema for extracting full property details from individual property listing pages (detail/show pages). Each record represents one complete property.",
+
+  "required_fields": [
+    "listing_url",
+    "price"
+  ],
+
+  "optional_fields": {
+    "address": {
+      "type": "string",
+      "description": "Full address of the property.",
+      "normalization": "Preserve the address as shown. Do not geocode.",
+      "sites": ["apartments", "century_21", "daft.ie", "finn_eiendom", "leboncoin", "maroc_annonces", "onthemarket", "realestate.co.nz", "rightmove"]
+    },
+    "listing_title": {
+      "type": "string",
+      "description": "Title or headline of the listing.",
+      "sites": ["finn_eiendom", "leboncoin", "maroc_annonces", "onthemarket"]
+    },
+    "property_type": {
+      "type": "string",
+      "description": "Type of property (e.g. 'Apartment', 'House', 'Villa'). Retain the site's original label.",
+      "sites": ["apartments", "century_21", "daft.ie", "finn_eiendom", "leboncoin", "onthemarket", "redfin", "rightmove"]
+    },
+    "price": {
+      "type": "object",
+      "description": "Asking or sale price. Structured as {amount, currency_code, currency_symbol, period}.",
+      "normalization": "Extract numerical amount, ISO 4217 currency code, symbol, and period (null for sale, 'month'/'week' for rental).",
+      "sites": ["all"]
+    },
+    "bedrooms": {
+      "type": "integer",
+      "description": "Number of bedrooms.",
+      "sites": ["apartments", "century_21", "daft.ie", "finn_eiendom", "leboncoin", "onthemarket", "realestate.co.nz", "rightmove"]
+    },
+    "bathrooms": {
+      "type": "number",
+      "description": "Number of bathrooms (may be fractional).",
+      "sites": ["apartments", "century_21", "daft.ie", "leboncoin", "maroc_annonces", "onthemarket", "realestate.co.nz", "rightmove"]
+    },
+    "full_bathrooms": {"type": "integer", "description": "Number of full bathrooms.", "sites": ["apartments"]},
+    "half_bathrooms": {"type": "integer", "description": "Number of half/powder bathrooms.", "sites": ["apartments"]},
+    "floor_area": {
+      "type": "object",
+      "description": "Total floor/living area. Structured as {value, unit} where unit is 'm2' or 'ft2'.",
+      "normalization": "Preserve original unit. Do not convert between units.",
+      "sites": ["apartments", "century_21", "daft.ie", "finn_eiendom", "leboncoin", "maroc_annonces", "onthemarket", "realestate.co.nz", "redfin"]
+    },
+    "internal_area": {
+      "type": "object",
+      "description": "Internal floor area (distinct from total floor area, Finn Eiendom).",
+      "sites": ["finn_eiendom"]
+    },
+    "land_area": {
+      "type": "object",
+      "description": "Total land/lot area. Structured as {value, unit}.",
+      "sites": ["century_21", "finn_eiendom", "realestate.co.nz", "redfin"]
+    },
+    "lot_size_sq_ft": {"type": "number", "description": "Lot size in square feet.", "sites": ["apartments"]},
+    "lot_size_acres": {"type": "number", "description": "Lot size in acres.", "sites": ["apartments"]},
+    "rooms": {
+      "type": "integer",
+      "description": "Total number of rooms (French/Moroccan convention).",
+      "sites": ["finn_eiendom", "leboncoin", "maroc_annonces"]
+    },
+    "room_layout": {
+      "type": "array",
+      "description": "Room-by-room layout list (Finn Eiendom).",
+      "sites": ["finn_eiendom"]
+    },
+    "floor_level": {
+      "type": ["string", "integer"],
+      "description": "Floor level of the unit within the building.",
+      "sites": ["finn_eiendom"]
+    },
+    "year_built": {
+      "type": "integer",
+      "description": "Year the property was built.",
+      "sites": ["apartments", "century_21", "finn_eiendom", "redfin"]
+    },
+    "energy_rating": {
+      "type": "string",
+      "description": "Energy performance certificate rating (e.g. 'B2', 'C', 'A3').",
+      "sites": ["daft.ie", "finn_eiendom", "leboncoin", "onthemarket"]
+    },
+    "greenhouse_gas_rating": {
+      "type": "string",
+      "description": "Greenhouse gas emission rating (Leboncoin DPE).",
+      "sites": ["leboncoin"]
+    },
+    "ber_number": {
+      "type": "string",
+      "description": "BER certificate number (Daft.ie Ireland).",
+      "sites": ["daft.ie"]
+    },
+    "price_per_m2": {
+      "type": "object",
+      "description": "Price per square metre. Structured as {amount, currency_code, currency_symbol}.",
+      "sites": ["daft.ie", "leboncoin"]
+    },
+    "price_per_area": {
+      "type": "object",
+      "description": "Price per area unit (Century 21).",
+      "sites": ["century_21"]
+    },
+    "price_assessment": {
+      "type": "string",
+      "description": "Price assessment label (e.g. 'Good price', 'High price') from Finn Eiendom.",
+      "sites": ["finn_eiendom"]
+    },
+    "price_sales_history": {
+      "type": "array",
+      "description": "Historical price/sales records for the property.",
+      "sites": ["apartments"]
+    },
+    "status": {
+      "type": "string",
+      "description": "Listing status (e.g. 'Active', 'Pending', 'Sold').",
+      "sites": ["apartments", "century_21", "redfin"]
+    },
+    "sale_type": {
+      "type": "string",
+      "description": "Sale method (e.g. 'auction', 'private_treaty').",
+      "sites": ["apartments", "daft.ie"]
+    },
+    "published_date": {
+      "type": "string",
+      "description": "Date the listing was published. Normalize to ISO 8601 (YYYY-MM-DD).",
+      "normalization": "Convert to YYYY-MM-DD.",
+      "sites": ["century_21", "daft.ie", "finn_eiendom", "maroc_annonces", "rightmove"]
+    },
+    "monthly_fees": {
+      "type": "object",
+      "description": "Monthly HOA/maintenance/co-op fees. Structured as {amount, currency_code}.",
+      "sites": ["century_21", "finn_eiendom", "leboncoin"]
+    },
+    "total_price": {
+      "type": "object",
+      "description": "Total price including joint debt or fees. Structured as {amount, currency_code}.",
+      "sites": ["finn_eiendom"]
+    },
+    "joint_debt": {
+      "type": "object",
+      "description": "Shared/joint debt of the property (Finn Eiendom cooperative housing).",
+      "sites": ["finn_eiendom"]
+    },
+    "joint_wealth": {
+      "type": "object",
+      "description": "Shared equity/wealth component (Finn Eiendom).",
+      "sites": ["finn_eiendom"]
+    },
+    "additional_costs": {
+      "type": "object",
+      "description": "Additional transaction costs (e.g. deed/document fees).",
+      "sites": ["finn_eiendom"]
+    },
+    "hoa_fee": {"type": "number", "description": "HOA fee amount.", "sites": ["apartments"]},
+    "hoa_fee_freq": {"type": "string", "description": "HOA fee frequency (e.g. 'Monthly', 'Annually').", "sites": ["apartments"]},
+    "association_fee": {"type": "number", "description": "Association fee amount.", "sites": ["apartments"]},
+    "assoc_fee_freq": {"type": "string", "description": "Association fee frequency.", "sites": ["apartments"]},
+    "assoc_name": {"type": "string", "description": "Association name.", "sites": ["apartments"]},
+    "association": {"type": "string", "description": "Association details.", "sites": ["apartments"]},
+    "estimated_stamp_duty": {
+      "type": "object",
+      "description": "Estimated stamp duty payable (Daft.ie Ireland).",
+      "sites": ["daft.ie"]
+    },
+    "description": {
+      "type": "string",
+      "description": "Full property description text.",
+      "sites": ["daft.ie", "finn_eiendom", "leboncoin", "maroc_annonces", "redfin", "rightmove"]
+    },
+    "key_features": {
+      "type": "array",
+      "description": "Bullet-point key features of the property.",
+      "sites": ["daft.ie", "onthemarket", "rightmove"]
+    },
+    "property_information": {
+      "type": "object",
+      "description": "Structured property information block (OnTheMarket).",
+      "sites": ["onthemarket"]
+    },
+    "property_details": {
+      "type": "object",
+      "description": "Structured property details block (Redfin).",
+      "sites": ["redfin"]
+    },
+    "public_record": {
+      "type": "object",
+      "description": "Public record data from county records (Redfin).",
+      "sites": ["redfin"]
+    },
+    "around_this_home": {
+      "type": "object",
+      "description": "Neighbourhood/walk score data (Redfin).",
+      "sites": ["redfin"]
+    },
+    "tenure": {
+      "type": "string",
+      "description": "Ownership tenure (e.g. 'Freehold', 'Leasehold').",
+      "sites": ["finn_eiendom"]
+    },
+    "furnish_type": {
+      "type": "string",
+      "description": "Furnishing status (e.g. 'Unfurnished', 'Furnished').",
+      "sites": ["rightmove"]
+    },
+    "has_parking": {
+      "type": "boolean",
+      "description": "Whether parking is available.",
+      "sites": ["rightmove"]
+    },
+    "parking": {
+      "type": ["string", "integer", "object"],
+      "description": "Parking details (spaces count, garage type, etc.).",
+      "sites": ["apartments", "century_21", "realestate.co.nz"]
+    },
+    "garage": {
+      "type": ["string", "object"],
+      "description": "Garage availability or type.",
+      "sites": ["apartments", "century_21"]
+    },
+    "heating_type": {
+      "type": "string",
+      "description": "Heating system type (e.g. 'Forced Air', 'Radiant').",
+      "sites": ["apartments", "leboncoin"]
+    },
+    "heating_mode": {
+      "type": "string",
+      "description": "Heating mode/fuel (e.g. 'Gas', 'Electric').",
+      "sites": ["leboncoin"]
+    },
+    "heating": {"type": "string", "description": "Heating description.", "sites": ["century_21"]},
+    "water": {"type": "string", "description": "Water supply type.", "sites": ["apartments", "century_21"]},
+    "flooring": {"type": "string", "description": "Flooring material/type.", "sites": ["apartments", "century_21"]},
+    "roof": {"type": "string", "description": "Roof type/material.", "sites": ["apartments", "century_21"]},
+    "foundation": {"type": "string", "description": "Foundation type.", "sites": ["apartments"]},
+    "foundation_description": {"type": "string", "description": "Foundation description.", "sites": ["century_21"]},
+    "fireplace": {"type": ["boolean", "string"], "description": "Fireplace presence or type.", "sites": ["apartments"]},
+    "fireplaces": {"type": "integer", "description": "Number of fireplaces.", "sites": ["apartments"]},
+    "number_of_fireplaces": {"type": "integer", "description": "Number of fireplaces (alternate field name).", "sites": ["apartments"]},
+    "number_of_rooms": {"type": "integer", "description": "Total number of rooms.", "sites": ["apartments"]},
+    "architectural_style": {"type": "string", "description": "Architectural style (e.g. 'Victorian', 'Modern').", "sites": ["apartments"]},
+    "appliances": {"type": "array", "description": "List of included appliances.", "sites": ["apartments", "century_21"]},
+    "exterior_features": {"type": "array", "description": "Exterior features list.", "sites": ["apartments"]},
+    "interior_features": {"type": "array", "description": "Interior features list.", "sites": ["apartments"]},
+    "lot_features": {"type": "array", "description": "Lot/land features.", "sites": ["apartments"]},
+    "bathroom_features": {"type": "string", "description": "Bathroom features description.", "sites": ["apartments"]},
+    "kitchen": {"type": "string", "description": "Kitchen description.", "sites": ["apartments"]},
+    "kitchen_description": {"type": "string", "description": "Kitchen details.", "sites": ["century_21"]},
+    "dining_room": {"type": "string", "description": "Dining room description.", "sites": ["apartments"]},
+    "basement_desc": {"type": "string", "description": "Basement description.", "sites": ["apartments"]},
+    "laundry": {"type": "string", "description": "Laundry facilities.", "sites": ["apartments"]},
+    "bedroom_1": {"type": "string", "description": "Primary bedroom description.", "sites": ["apartments"]},
+    "primary_bedroom": {"type": "string", "description": "Primary bedroom details.", "sites": ["apartments"]},
+    "primary_bathroom": {"type": "string", "description": "Primary bathroom details.", "sites": ["apartments"]},
+    "property_view": {"type": "string", "description": "View description (e.g. 'Bay view', 'Garden').", "sites": ["apartments"]},
+    "for_sale": {"type": "boolean", "description": "Whether the property is listed for sale.", "sites": ["apartments"]},
+    "special_conditions": {"type": "string", "description": "Special sale conditions.", "sites": ["apartments"]},
+    "rooms_areas": {"type": "array", "description": "List of rooms with their areas.", "sites": ["apartments"]},
+    "road_maintenance": {"type": "string", "description": "Road maintenance responsibility.", "sites": ["apartments"]},
+    "street_road_desc": {"type": "string", "description": "Street/road description.", "sites": ["apartments"]},
+    "utility_description": {"type": "string", "description": "Utilities description.", "sites": ["apartments"]},
+    "parking_features": {"type": "array", "description": "Parking features list.", "sites": ["apartments"]},
+    "characteristics": {
+      "type": "array",
+      "description": "Property characteristics/features list (Leboncoin).",
+      "sites": ["leboncoin"]
+    },
+    "amenities": {
+      "type": "array",
+      "description": "Building amenities (Century 21).",
+      "sites": ["century_21"]
+    },
+    "building_area": {
+      "type": "object",
+      "description": "Total building area.",
+      "sites": ["century_21"]
+    },
+    "mls_number": {"type": "string", "description": "MLS listing identifier.", "sites": ["apartments"]},
+    "listing_id": {
+      "type": "string",
+      "description": "Site-specific listing identifier.",
+      "sites": ["century_21", "finn_eiendom", "maroc_annonces"]
+    },
+    "apn": {"type": "string", "description": "Assessor's Parcel Number.", "sites": ["apartments"]},
+    "county": {"type": "string", "description": "County the property is located in.", "sites": ["apartments"]},
+    "district": {"type": "string", "description": "District/neighbourhood name.", "sites": ["apartments"]},
+    "cross_streets": {"type": "string", "description": "Nearest cross streets.", "sites": ["apartments"]},
+    "current_bldg_use": {"type": "string", "description": "Current building use classification.", "sites": ["apartments"]},
+    "school_district": {"type": "string", "description": "School district name.", "sites": ["apartments"]},
+    "schools": {"type": "array", "description": "Nearby schools list.", "sites": ["apartments", "daft.ie"]},
+    "transport": {
+      "type": "array",
+      "description": "Nearby transport options (Daft.ie).",
+      "sites": ["daft.ie"]
+    },
+    "nearest_stations": {
+      "type": "array",
+      "description": "Nearest public transport stations (OnTheMarket).",
+      "sites": ["onthemarket"]
+    },
+    "council_tax": {
+      "type": "string",
+      "description": "Council tax band (UK, OnTheMarket).",
+      "sites": ["onthemarket"]
+    },
+    "mobile_signal": {
+      "type": "object",
+      "description": "Mobile signal coverage data (OnTheMarket).",
+      "sites": ["onthemarket"]
+    },
+    "area_statistics": {
+      "type": "object",
+      "description": "Area/neighbourhood statistics (OnTheMarket).",
+      "sites": ["onthemarket"]
+    },
+    "tax_history": {
+      "type": "array",
+      "description": "Annual property tax history.",
+      "sites": ["apartments"]
+    },
+    "satellite_view_url": {
+      "type": "string",
+      "description": "URL of satellite/aerial view image.",
+      "sites": ["daft.ie"]
+    },
+    "street_view_url": {
+      "type": "string",
+      "description": "URL of street view image.",
+      "sites": ["daft.ie"]
+    },
+    "images_urls": {
+      "type": "array",
+      "description": "List of property image URLs.",
+      "sites": ["apartments", "century_21", "finn_eiendom", "leboncoin", "maroc_annonces", "onthemarket", "realestate.co.nz", "redfin", "rightmove"]
+    },
+    "listing_agent": {
+      "type": "object",
+      "description": "Full agent/brokerage details (name, phone, photo, office, etc.).",
+      "sites": ["apartments", "leboncoin", "onthemarket", "redfin"]
+    },
+    "listing_agent_name": {
+      "type": "string",
+      "description": "Name of the listing agent.",
+      "sites": ["maroc_annonces"]
+    },
+    "listing_agent_phone": {
+      "type": "string",
+      "description": "Agent contact phone number.",
+      "sites": ["maroc_annonces", "onthemarket"]
+    },
+    "listing_agent_logo": {
+      "type": "string",
+      "description": "URL of the agent/agency logo.",
+      "sites": ["leboncoin", "onthemarket", "rightmove"]
+    },
+    "listing_agent_location": {
+      "type": "string",
+      "description": "Agent office location (Rightmove).",
+      "sites": ["rightmove"]
+    },
+    "listing_agent_website": {
+      "type": "string",
+      "description": "Agent website URL (OnTheMarket).",
+      "sites": ["onthemarket"]
+    },
+    "listing_office": {
+      "type": "string",
+      "description": "Name of the listing agency or office.",
+      "sites": ["apartments", "rightmove"]
+    },
+    "about_agent": {
+      "type": "string",
+      "description": "Agent biography or description (OnTheMarket).",
+      "sites": ["onthemarket"]
+    },
+    "rating": {
+      "type": "number",
+      "description": "Agent/agency rating score.",
+      "sites": ["rightmove"]
+    },
+    "review_count": {
+      "type": "integer",
+      "description": "Number of agent reviews.",
+      "sites": ["rightmove"]
+    },
+    "reviews": {
+      "type": "array",
+      "description": "Agent/agency reviews.",
+      "sites": ["rightmove"]
+    }
+  },
+
+  "normalization_rules": {
+    "price": "Extract numerical amount without currency symbols. Identify currency by ISO 4217 code. Capture period ('month', 'week') for rentals.",
+    "floor_area": "Preserve original value and unit (m2 or ft2). Do not convert between units.",
+    "land_area": "Preserve original value and unit. Do not convert between units.",
+    "published_date": "Convert to ISO 8601 (YYYY-MM-DD).",
+    "listing_url": "Return the full absolute URL.",
+    "images_urls": "Return a list of full absolute image URLs.",
+    "energy_rating": "Retain the site's original rating label (e.g. 'B2', 'C')."
+  },
+
+  "canonical_record_key": ["listing_url"],
+
+  "provenance_required": true,
+
+  "notes": [
+    "'price' is a structured object — not a raw string.",
+    "'floor_area' and 'land_area' preserve the original unit; do not auto-convert between m2 and ft2.",
+    "Some sites (apartments.com) expose 50+ granular detail fields; only extract those visible/relevant to the task instruction.",
+    "Agent contact details (phone, logo, website) are optional and site-dependent.",
+    "Finn Eiendom has a joint-debt pricing model: price + joint_debt = total_price. All three should be extracted if present."
+  ]
+}

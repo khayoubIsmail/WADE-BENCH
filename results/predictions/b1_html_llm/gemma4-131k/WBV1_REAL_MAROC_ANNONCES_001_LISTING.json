@@ -1,0 +1,213 @@
+{
+  "task_id": "WBV1_REAL_MAROC_ANNONCES_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387457/Vend-joli-appart-Maarif.html",
+          "provenance": {
+            "selector": "a[title='Vend joli appart maarif ']",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "Casablanca / Maarif ",
+          "provenance": {
+            "selector": ".location",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Vend joli appart maarif ",
+          "provenance": {
+            "selector": "h3",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "Appartements",
+          "provenance": {
+            "selector": ".views",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "amount": 1185000,
+          "currency_code": "DH",
+          "currency_symbol": "DH",
+          "period": null,
+          "provenance": {
+            "selector": ".price",
+            "source": "page.html"
+          }
+        },
+        "published_date": {
+          "value": "2024-06-19",
+          "provenance": {
+            "selector": ".cnt-today",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "user_images/315/9837565.jpg"
+          ],
+          "provenance": {
+            "selector": "img[alt='Vend joli appart Maarif ']",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/315/Appartements/annonce/10387454/Belle-appartement-à-vendre.html",
+          "provenance": {
+            "selector": "a[title='Belle appartement à vendre ']",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "Tanger / Marjane ",
+          "provenance": {
+            "selector": ".location",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Belle appartement à vendre ",
+          "provenance": {
+            "selector": "h3",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "Appartements",
+          "provenance": {
+            "selector": ".views",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "amount": 1180000,
+          "currency_code": "DH",
+          "currency_symbol": "DH",
+          "period": null,
+          "provenance": {
+            "selector": ".price",
+            "source": "page.html"
+          }
+        },
+        "published_date": {
+          "value": "2024-06-19",
+          "provenance": {
+            "selector": ".cnt-today",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "user_images/315/3565762.jpg"
+          ],
+          "provenance": {
+            "selector": "img[alt='Belle appartement à vendre ']",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_002",
+        "source": "page.html"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.marocannonces.com/categorie/332/Terrains-constructibles/annonce/10328170/Terrain-commercial,-lotissement-andalouss-,Oujda.html",
+          "provenance": {
+            "selector": "a[title='Terrain commercial, lotissement andalouss ,oujda']",
+            "source": "page.html"
+          }
+        },
+        "address": {
+          "value": "Oujda ",
+          "provenance": {
+            "selector": ".location",
+            "source": "page.html"
+          }
+        },
+        "listing_title": {
+          "value": "Terrain commercial, lotissement andalouss ,oujda",
+          "provenance": {
+            "selector": "h3",
+            "source": "page.html"
+          }
+        },
+        "property_type": {
+          "value": "Terrains constructibles",
+          "provenance": {
+            "selector": ".views",
+            "source": "page.html"
+          }
+        },
+        "price": {
+          "amount": 360000,
+          "currency_code": "DH",
+          "currency_symbol": "DH",
+          "period": null,
+          "provenance": {
+            "selector": ".price",
+            "source": "page.html"
+          }
+        },
+        "published_date": {
+          "value": "2024-06-18",
+          "provenance": {
+            "selector": ".cnt-today",
+            "source": "page.html"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "user_images/332/2803819.jpg"
+          ],
+          "provenance": {
+            "selector": "img[alt='Terrain commercial, lotissement andalouss ,Oujda']",
+            "source": "page.html"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_003",
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 22.501,
+    "input_tokens": 16670,
+    "output_tokens": 1607,
+    "total_tokens": 18277,
+    "initial_input_tokens": 16670,
+    "initial_output_tokens": 1607,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

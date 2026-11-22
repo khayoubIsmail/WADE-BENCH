@@ -1,0 +1,120 @@
+{
+  "schema_id": "job_posting_listing_v1",
+  "domain": "jobs/careers",
+  "version": "1.0",
+  "description": "Schema for extracting job postings from listing, search results, or browse pages. Each record represents one job card as shown on the listing page.",
+
+  "required_fields": [
+    "job_title",
+    "job_url"
+  ],
+
+  "optional_fields": {
+    "company_name": {
+      "type": "string",
+      "description": "Hiring company or organization name.",
+      "sites": ["eurobrussels", "google", "naturecareers", "postjobfree", "reed", "reliefweb", "remoteok", "thtjobs", "unjobs"]
+    },
+    "location": {
+      "type": "string",
+      "description": "Job location as shown (city, region, country, or 'Remote').",
+      "normalization": "Normalize to 'City, Region, Country' where possible.",
+      "sites": ["eurobrussels", "github", "google", "naturecareers", "postjobfree", "reed", "remoteok", "thtjobs"]
+    },
+    "country": {
+      "type": "string",
+      "description": "Country of the job location, when the site separates it from city/region.",
+      "sites": ["reliefweb"]
+    },
+    "salary": {
+      "type": "object",
+      "description": "Salary shown on the listing card. Structured as {min_amount, max_amount, currency: {name, code, symbol}, period}. Null if not shown.",
+      "normalization": "Extract numerical min/max, ISO 4217 currency code, and period (year/month/hour). Set to null if absent.",
+      "sites": ["eurobrussels", "naturecareers", "postjobfree", "reed", "remoteok", "thtjobs"]
+    },
+    "employment_type": {
+      "type": "string",
+      "description": "Employment type as shown (e.g. 'Permanent, full-time', 'Contract'). Retain original string.",
+      "sites": ["google", "reed"]
+    },
+    "posted_date": {
+      "type": "string",
+      "description": "Date the job was posted. Normalize to ISO 8601 (YYYY-MM-DD).",
+      "normalization": "Convert to YYYY-MM-DD. Resolve relative dates using the snapshot date.",
+      "sites": ["postjobfree", "reliefweb", "unjobs"]
+    },
+    "application_deadline": {
+      "type": "string",
+      "description": "Application closing date. Normalize to ISO 8601 (YYYY-MM-DD).",
+      "normalization": "Convert to YYYY-MM-DD.",
+      "sites": ["eurobrussels", "reliefweb"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Technology or category tags (e.g. ['React', 'Senior', 'Remote']).",
+      "sites": ["eurobrussels", "remoteok"]
+    },
+    "categories": {
+      "type": "array",
+      "description": "Job function or department categories (e.g. ['Engineering']).",
+      "sites": ["github"]
+    },
+    "work_arrangement": {
+      "type": "string",
+      "description": "Work arrangement shown on the card.",
+      "normalization": "Normalize to lowercase: 'remote', 'hybrid', or 'onsite'.",
+      "sites": ["github"]
+    },
+    "job_experience_level": {
+      "type": "string",
+      "description": "Experience level classification (e.g. 'Director+', 'Senior').",
+      "sites": ["google"]
+    },
+    "qualifications": {
+      "type": "array",
+      "description": "Key qualification snippets shown on the listing card.",
+      "sites": ["google"]
+    },
+    "job_description": {
+      "type": "string",
+      "description": "Short description or teaser text shown on the listing card.",
+      "sites": ["eurobrussels", "naturecareers", "postjobfree", "reed", "thtjobs"]
+    },
+    "apply_url": {
+      "type": "string",
+      "description": "Direct application URL when distinct from job_url.",
+      "sites": ["github", "remoteok"]
+    },
+    "company_logo_url": {
+      "type": "string",
+      "description": "URL of the company logo as shown on the listing card.",
+      "sites": ["eurobrussels", "naturecareers", "reed", "remoteok", "thtjobs"]
+    },
+    "job_id": {
+      "type": "string",
+      "description": "Internal job identifier used by the site.",
+      "sites": ["github"]
+    }
+  },
+
+  "normalization_rules": {
+    "salary": "Extract min_amount and max_amount as numbers, currency as {name, code, symbol}, period as one of: year, month, hour. Set to null if not advertised.",
+    "posted_date": "Convert to ISO 8601 (YYYY-MM-DD). Resolve relative expressions (e.g. '3 days ago') using the snapshot date.",
+    "application_deadline": "Convert to ISO 8601 (YYYY-MM-DD).",
+    "location": "Normalize to 'City, Region, Country' where possible. Use 'Remote' for fully remote roles.",
+    "work_arrangement": "Normalize to lowercase: 'remote', 'hybrid', or 'onsite'.",
+    "job_url": "Return the full absolute URL.",
+    "apply_url": "Return the full absolute URL."
+  },
+
+  "canonical_record_key": ["job_title", "company_name", "job_url"],
+
+  "provenance_required": true,
+
+  "notes": [
+    "Only extract fields visible on the listing/card itself — do not navigate to detail pages.",
+    "'company_name' and 'location' are expected on most sites but may be absent on some (e.g. GitHub listing omits company_name; UNJobs listing omits location).",
+    "'salary' replaces the old 'salary_range' string field. Use the structured object form.",
+    "Use 'application_deadline' (not 'closing_date') to match actual field names in gold data."
+  ]
+}

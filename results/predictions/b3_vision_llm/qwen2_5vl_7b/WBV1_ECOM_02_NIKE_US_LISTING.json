@@ -1,0 +1,2209 @@
+{
+  "task_id": "WBV1_ECOM_02_NIKE_US_LISTING",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image1.jpg",
+        "old_price_raw": "$220",
+        "price_raw": "$215",
+        "product_name": "Air Jordan 3 \"World's Best\"",
+        "product_url": "https://example.com/product1",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Just In Air Jordan 3 \"World's Best\" Men's Shoes $215"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image2.jpg",
+        "old_price_raw": "$190",
+        "price_raw": "$190",
+        "product_name": "Nike Air Max 95 OG",
+        "product_url": "https://example.com/product2",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 95 OG Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image3.jpg",
+        "old_price_raw": "$125",
+        "price_raw": "$125",
+        "product_name": "Nike Tennis Classic PRM",
+        "product_url": "https://example.com/product3",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Terry Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Tennis Classic PRM Men's Terry Shoes $125"
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "discount_percentage": "-38%",
+        "image_url": "https://example.com/image4.jpg",
+        "old_price_raw": "$125",
+        "price_raw": "$97.97",
+        "product_name": "Nike Dunk Low SE \"LNY\"",
+        "product_url": "https://example.com/product4",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Dunk Low SE \"LNY\" Men's Shoes $97.97 $16524% off"
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "discount_percentage": "-38%",
+        "image_url": "https://example.com/image5.jpg",
+        "old_price_raw": "$125",
+        "price_raw": "$76.97",
+        "product_name": "Nike Air Force 1 '07 RealTree",
+        "product_url": "https://example.com/product5",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Force 1 '07 RealTree Men's Shoes $76.97 $12538% off"
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image6.jpg",
+        "old_price_raw": "$155",
+        "price_raw": "$155",
+        "product_name": "Nike ACG Pegasus Trail",
+        "product_url": "https://example.com/product6",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Trail Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike ACG Pegasus Trail Men's Trail Running Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image7.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Big Bubble",
+        "product_url": "https://example.com/product7",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Big Bubble Men's Shoes $200"
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image8.jpg",
+        "old_price_raw": "$145.97",
+        "price_raw": "$93.97",
+        "product_name": "Nike Phantom 6 Low Academy \"Erling Haaland\"",
+        "product_url": "https://example.com/product8",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Multi-Ground Soccer Cleats"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Phantom 6 Low Academy \"Erling Haaland\" Multi-Ground Soccer Cleats $100"
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image9.jpg",
+        "old_price_raw": "$145.97",
+        "price_raw": "$93.97",
+        "product_name": "Nike Air Force 1 '07 LV8 \"USA\"",
+        "product_url": "https://example.com/product9",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Force 1 '07 LV8 \"USA\" Men's Shoes $125"
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image10.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 90 Premium",
+        "product_url": "https://example.com/product10",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes with Reflective Accents"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 90 Premium Men's Shoes with Reflective Accents $102.97 $14529% off"
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "discount_percentage": null,
+        "image_url": "https://example.com/image11.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$170",
+        "product_name": "Nike Zoom Vapor 12 PRM",
+        "product_url": "https://example.com/product11",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Clay Court Tennis Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Zoom Vapor 12 PRM Men's Clay Court Tennis Shoes $180"
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image12.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Mercurial Vapor 16 Elite LV8",
+        "product_url": "https://example.com/product12",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Firm-Ground Low-Top Soccer Cleats"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Mercurial Vapor 16 Elite LV8 Firm-Ground Low-Top Soccer Cleats $280"
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image13.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Mercurial Superfly 10 Elite LV8",
+        "product_url": "https://example.com/product13",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Firm-Ground High-Top Soccer Cleats"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Mercurial Superfly 10 Elite LV8 Firm-Ground High-Top Soccer Cleats $305"
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image14.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$170",
+        "product_name": "Nike Zoom Vomero 5",
+        "product_url": "https://example.com/product14",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Zoom Vomero 5 Men's Shoes $170"
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image15.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product15",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image16.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product16",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image17.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product17",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image18.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product18",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image19.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product19",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image20.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product20",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image21.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product21",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image22.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product22",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image23.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product23",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image24.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product24",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image25.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product25",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_026",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image26.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product26",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_027",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image27.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product27",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_028",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image28.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product28",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_029",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image29.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product29",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_030",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image30.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product30",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_031",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image31.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product31",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_032",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image32.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product32",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_033",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image33.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product33",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_034",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image34.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product34",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_035",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image35.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product35",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_036",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image36.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product36",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_037",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image37.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product37",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_038",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image38.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product38",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_039",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image39.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product39",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_040",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image40.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product40",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_041",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image41.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product41",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_042",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image42.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product42",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_043",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image43.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product43",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_044",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image44.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product44",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_045",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image45.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product45",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_046",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image46.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product46",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_047",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image47.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product47",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_048",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image48.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product48",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_049",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image49.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product49",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_050",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image50.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product50",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_051",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image51.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product51",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_052",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image52.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product52",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_053",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image53.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product53",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_054",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image54.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product54",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_055",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image55.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product55",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_056",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image56.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product56",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_057",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image57.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product57",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_058",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image58.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product58",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_059",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image59.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product59",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_060",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image60.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product60",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_061",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image61.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product61",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_062",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image62.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product62",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_063",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image63.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product63",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_064",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image64.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product64",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_065",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image65.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product65",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_066",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image66.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product66",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_067",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image67.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product67",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_068",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image68.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product68",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_069",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image69.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product69",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_070",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image70.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product70",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_071",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image71.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product71",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_072",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image72.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product72",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_073",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image73.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product73",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_074",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image74.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product74",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_075",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image75.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product75",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_076",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image76.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product76",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_077",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image77.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product77",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_078",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image78.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product78",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_079",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image79.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product79",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_080",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image80.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product80",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_081",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image81.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product81",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_082",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image82.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product82",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_083",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image83.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product83",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_084",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image84.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product84",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_085",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image85.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product85",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_086",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image86.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product86",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_087",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image87.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product87",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_088",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image88.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product88",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_089",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image89.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product89",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_090",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image90.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product90",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_091",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image91.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product91",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_092",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image92.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product92",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_093",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image93.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product93",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_094",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image94.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product94",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_095",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image95.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product95",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_096",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image96.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product96",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_097",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image97.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product97",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_098",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image98.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product98",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_099",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image99.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product99",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_0100",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image100.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product100",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_0101",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image101.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product101",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_0102",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image102.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product102",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_0103",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image103.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product103",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_0104",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image104.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product104",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Moto 2K Men's Shoes $135"
+      }
+    },
+    {
+      "record_id": "pred_0105",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image105.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max Plus OG \"FFF\"",
+        "product_url": "https://example.com/product105",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max Plus OG \"FFF\" Men's Shoes $190"
+      }
+    },
+    {
+      "record_id": "pred_0106",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image106.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$155.97",
+        "product_name": "Nike Shox R4 \"Brazil\"",
+        "product_url": "https://example.com/product106",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Shox R4 \"Brazil\" Men's Shoes $155"
+      }
+    },
+    {
+      "record_id": "pred_0107",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image107.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Structure 26",
+        "product_url": "https://example.com/product107",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Road Running Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Structure 26 Men's Road Running Shoes $145"
+      }
+    },
+    {
+      "record_id": "pred_0108",
+      "fields": {
+        "discount_percentage": "-29%",
+        "image_url": "https://example.com/image108.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$145.97",
+        "product_name": "Nike Air Max 1 Low SE \"Old Glory\"",
+        "product_url": "https://example.com/product108",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {
+        "url": "https://example.com/mens-shoes",
+        "snapshot_id": "data/raw_snapshots/ecommerce/nike_us_listing_mens_shoes",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Nike Air Max 1 Low SE \"Old Glory\" Men's Shoes $230"
+      }
+    },
+    {
+      "record_id": "pred_0109",
+      "fields": {
+        "discount_percentage": "-27%",
+        "image_url": "https://example.com/image109.jpg",
+        "old_price_raw": "$180",
+        "price_raw": "$135.97",
+        "product_name": "Nike Air Max Moto 2K",
+        "product_url": "https://example.com/product109",
+        "rating": null,
+        "review_count": null,
+        "short_description": "Men's Shoes"
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 360.443,
+    "input_tokens": 12413,
+    "output_tokens": 21948,
+    "total_tokens": 34361,
+    "num_tiles": 8,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_02_NIKE_US_LISTING\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_02_NIKE_US_LISTING\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_02_NIKE_US_LISTING\\tile_03.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_02_NIKE_US_LISTING\\tile_04.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_02_NIKE_US_LISTING\\tile_05.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_02_NIKE_US_LISTING\\tile_06.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_02_NIKE_US_LISTING\\tile_07.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_02_NIKE_US_LISTING\\tile_08.png"
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "task_id": "WBV1_ECOM_08_GLOSSIER_US_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Glossier",
+        "description": "A super gentle cleansing experience. A pH-balanced gel-cream cleanser that’s suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished–never stripped.",
+        "image_urls": [
+          null
+        ],
+        "price_raw": "259 dh",
+        "product_name": "Milky Jelly Cleanser",
+        "product_url": null,
+        "rating": "4.2/5",
+        "review_count": "4634"
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Milky Jelly Cleanser Conditioning face wash 4.200043 star rating (4634) Coming soon 177 mL 60 mL Out of stock 177 mL Add to bag 259 dh Notify me",
+        "selector": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 5.432,
+    "input_tokens": 11974,
+    "output_tokens": 272,
+    "total_tokens": 12246,
+    "repaired": false,
+    "error": null
+  }
+}

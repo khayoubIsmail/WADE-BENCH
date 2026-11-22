@@ -1,0 +1,65 @@
+{
+  "task_id": "WBV1_JOBS_GITHUB_002_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Software Engineer III",
+        "company_name": "GitHub",
+        "location": "Remote, United States",
+        "job_description": "In this role you can work from Remote, United States. The GitHub iOS team is changing the way developers across the world collaborate on GitHub.",
+        "responsibilities": [
+          "Pick up work autonomously and code solutions, working to unblock yourself when stuck either by reaching out for help or finding other solutions in an asynchronous, remote, distributed culture",
+          "Write clear documentation, tests, and recommendations for technical problems",
+          "Collaboratively define, scope, prioritize, and estimate work",
+          "Drive helpful conversations around technical issues and engineering practices, suggesting improvements and ideas as you see fit",
+          "Review code and provide thoughtful, constructive feedback during code reviews",
+          "Triage, reproduce, and debug issues reported for our area of responsibility"
+        ],
+        "qualifications": [
+          {
+            "qualification": "4+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python"
+          },
+          {
+            "qualification": "2+ years of demonstrated proficiency in iOS app development, building and maintaining large-scale, highly scalable iOS applications in Swift, and experience developing modern iOS features using UIKit and/or SwiftUI"
+          }
+        ],
+        "salary_min": 107700,
+        "salary_max": 285900,
+        "currency_code": "USD",
+        "salary_period": "Yr",
+        "employment_type": "Full Time",
+        "work_arrangement": "remote",
+        "job_url": "https://github.com/careers/software-engineer-iii"
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 9.78,
+    "input_tokens": 8853,
+    "output_tokens": 442,
+    "total_tokens": 9295,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_GITHUB_002_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_GITHUB_002_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_JOBS_GITHUB_002_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

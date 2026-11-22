@@ -1,0 +1,73 @@
+{
+  "task_id": "WBV1_JOBS_GITHUB_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Software Engineer III",
+        "company_name": null,
+        "location": "United States",
+        "job_description": "The GitHub iOS team is changing the way developers across the world collaborate on GitHub. Launched in March 2020, GitHub iOS is one of our fastest growing products with over 3.5 million downloads across both apps and a 4.8-star rating on the App Store. The team is looking for someone who is passionate about the iOS platform and who will help us build a world-class app in design, performance, and accessibility.",
+        "salary": null,
+        "employment_type": "Full Time",
+        "work_arrangement": "remote",
+        "posted_date": null,
+        "application_deadline": null,
+        "expected_start_date": null,
+        "apply_url": "https://careers-githubinc.icims.com/jobs/5428/login",
+        "responsibilities": [
+          "Pick up work autonomously and code solutions, working to unblock yourself when stuck either by reaching out for help or finding other solutions in an asynchronous, remote, distributed culture",
+          "Write clear documentation, tests, and recommendations for technical problems",
+          "Collaboratively define, scope, prioritize, and estimate work",
+          "Drive helpful conversations around technical issues and engineering practices, suggesting improvements and ideas as you see fit",
+          "Review code and provide thoughtful, constructive feedback during code reviews",
+          "Triage, reproduce, and debug issues reported for our area of responsibility",
+          "Give and receive feedback to grow yourself and the team",
+          "Provide compassionate technical mentorship, pairing opportunities, and code reviews to encourage the growth of others",
+          "Deliver complex code/features with quality and supportability"
+        ],
+        "qualifications": [
+          "4+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python",
+          "2+ years of demonstrated proficiency in iOS app development, building and maintaining large-scale, highly scalable iOS applications in Swift, and experience developing modern iOS features using UIKit and/or SwiftUI?",
+          "A deep understanding of mobile design patterns, including consistency, reliability, and performance at scale",
+          "Experience with participating in on-call rotations and Apple App Store deployments, including triaging production issues, conducting root cause analysis, and contributing to postmortems"
+        ],
+        "preferred_qualifications": [
+          "Experience in one or more scripting languages (e.g., Bash, Python, or a similar language) to streamline CI/CD pipelines and local development workflows",
+          "Deep expertise with Apple’s Human Interface Guidelines and iOS best practices",
+          "Experience supporting iOS accessibility frameworks and design patterns",
+          "Experience with Apollo GraphQL, including designing API models and implementing resolvers",
+          "Familiarity with service health indicators (SLOs, SLIs), observability tooling, and data-driven decision making for prioritizing reliability improvements",
+          "Experience driving efforts to reduce incident volume and improve system resilience through proactive monitoring and alerting"
+        ],
+        "normalization_rules": {
+          "salary": "Extract min_amount and max_amount as numbers, currency as {name, code, symbol}, period as year/month/hour. Set to null if not advertised.",
+          "posted_date": "Convert to ISO 8601 (YYYY-MM-DD). Resolve relative expressions using the snapshot date."
+        },
+        "provenance_source": "page.markdown.md",
+        "canonical_record_key": [
+          "job_title",
+          "company_name",
+          "job_url"
+        ],
+        "provenance_required": true
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 15.422,
+    "input_tokens": 14802,
+    "output_tokens": 808,
+    "total_tokens": 15610,
+    "repaired": false,
+    "error": null
+  }
+}

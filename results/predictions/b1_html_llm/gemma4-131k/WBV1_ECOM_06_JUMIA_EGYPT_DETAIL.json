@@ -1,0 +1,68 @@
+{
+  "task_id": "WBV1_ECOM_06_JUMIA_EGYPT_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Honor",
+        "description": "Get Honor X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan online at Jumia and other Honor Android Phones at the best price in Egypt ➤ Enjoy Amazing Offers & Best Prices with Jumia Egypt - Free Returns - Cash on Delivery",
+        "image_urls": [
+          {
+            "url": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/79/9031331/1.jpg?8314",
+            "provenance": {
+              "snapshot_id": "page.html",
+              "css_selector_or_xpath": "meta[property=\"og:image\"]/@content",
+              "text_quote_or_attribute": "https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/79/9031331/1.jpg?8314"
+            }
+          }
+        ],
+        "price_raw": "Price not visible",
+        "product_name": "X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan",
+        "product_url": "https://www.jumia.com.eg/honor-x6c-6.61-6gb-ram256gb-rom-android-15-4g-ocean-cyan-133130997.html",
+        "rating": null,
+        "review_count": null
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "page.html",
+          "css_selector_or_xpath": "title",
+          "text_quote_or_attribute": "X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan"
+        },
+        "product_url": {
+          "snapshot_id": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:url\"]/@content",
+          "text_quote_or_attribute": "https://www.jumia.com.eg/honor-x6c-6.61-6gb-ram256gb-rom-android-15-4g-ocean-cyan-133130997.html"
+        },
+        "description": {
+          "snapshot_id": "page.html",
+          "css_selector_or_xpath": "meta[property=\"og:description\"]/@content",
+          "text_quote_or_attribute": "Get Honor X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan online at Jumia and other Honor Android Phones at the best price in Egypt ➤ Enjoy Amazing Offers & Best Prices with Jumia Egypt - Free Returns - Cash on Delivery"
+        },
+        "brand": {
+          "snapshot_id": "page.html",
+          "css_selector_or_xpath": "meta[name=\"title\"]/@content",
+          "text_quote_or_attribute": "X6c 6.61\" 6GB RAM/256GB ROM Android 15 4G - Ocean Cyan"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 14.245,
+    "input_tokens": 20124,
+    "output_tokens": 842,
+    "total_tokens": 20966,
+    "initial_input_tokens": 20124,
+    "initial_output_tokens": 842,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

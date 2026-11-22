@@ -1,0 +1,195 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.coldwellbankerhomes.com/ca/san-francisco/p_2/",
+        "price": {
+          "amount": null,
+          "currency_code": null,
+          "currency_symbol": null,
+          "period": null
+        },
+        "address": "San Francisco, CA",
+        "listing_title": null,
+        "property_type": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "bathrooms_partial": null,
+        "floor_area": {
+          "value": null,
+          "unit": null
+        },
+        "rooms": null,
+        "energy_rating": null,
+        "sale_type": null,
+        "tenure": null,
+        "monthly_fees": null,
+        "total_price": null,
+        "status": null,
+        "published_date": null,
+        "open_house_schedule": [],
+        "key_features": [],
+        "description": "Search 1,385 properties for sale in San Francisco, CA with Coldwell Banker Realty. Get expert guidance and up-to-date real estate listings to find your dream home.",
+        "mls_number": null,
+        "additional_facilities": [],
+        "images_urls": [
+          "https://s.cbhomes.com/p/i/logo/cbr/web/10.svg"
+        ],
+        "listing_agent": {
+          "name": "Coldwell Bankers Realty",
+          "phone": null,
+          "photo": null
+        },
+        "listing_agent_name": null,
+        "listing_agent_logo": "https://s.cbhomes.com/p/i/logo/cbr/web/10.svg",
+        "listing_agent_photo": null,
+        "listing_agent_phone": null,
+        "listing_office": "Coldwell Banker Realty",
+        "parking": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "link",
+          "text_quote": "https://www.coldwellbankerhomes.com/ca/san-francisco/p_2/"
+        },
+        "price": {
+          "source": null,
+          "text_quote": "N/A (No price visible)"
+        },
+        "address": {
+          "source": "meta description",
+          "text_quote": "San Francisco, CA"
+        },
+        "listing_title": {
+          "source": null,
+          "text_quote": "N/A (No title visible)"
+        },
+        "property_type": {
+          "source": null,
+          "text_quote": "N/A (Not explicitly stated on the card)"
+        },
+        "bedrooms": {
+          "source": null,
+          "text_quote": "N/A (No bedroom count visible)"
+        },
+        "bathrooms": {
+          "source": null,
+          "text_quote": "N/A (No bathroom count visible)"
+        },
+        "bathrooms_partial": {
+          "source": null,
+          "text_quote": "N/A (No partial bathroom count visible)"
+        },
+        "floor_area": {
+          "source": null,
+          "text_quote": "N/A (No area measurement visible)"
+        },
+        "rooms": {
+          "source": null,
+          "text_quote": "N/A (No room count visible)"
+        },
+        "energy_rating": {
+          "source": null,
+          "text_quote": "N/A (No energy rating visible)"
+        },
+        "sale_type": {
+          "source": null,
+          "text_quote": "N/A (No sale type visible)"
+        },
+        "tenure": {
+          "source": null,
+          "text_quote": "N/A (No tenure information visible)"
+        },
+        "monthly_fees": {
+          "source": null,
+          "text_quote": "N/A (No monthly fees visible)"
+        },
+        "total_price": {
+          "source": null,
+          "text_quote": "N/A (No total price information visible)"
+        },
+        "status": {
+          "source": null,
+          "text_quote": "N/A (No status visible)"
+        },
+        "published_date": {
+          "source": null,
+          "text_quote": "N/A (No publication date visible)"
+        },
+        "open_house_schedule": {
+          "source": null,
+          "text_quote": "N/A (No open house schedule visible)"
+        },
+        "key_features": {
+          "source": null,
+          "text_quote": "N/A (No key features listed)"
+        },
+        "description": {
+          "source": "meta description",
+          "text_quote": "Search 1,385 properties for sale in San Francisco, CA with Coldwell Banker Realty. Get expert guidance and up-to-date real estate listings to find your dream home."
+        },
+        "mls_number": {
+          "source": null,
+          "text_quote": "N/A (No MLS number visible)"
+        },
+        "additional_facilities": {
+          "source": null,
+          "text_quote": "N/A (No additional facilities listed)"
+        },
+        "images_urls": {
+          "source": "link rel=icon",
+          "text_quote": "https://s.cbhomes.com/p/i/logo/cbr/web/10.svg"
+        },
+        "listing_agent": {
+          "source": "header logo",
+          "text_quote": "Coldwell Bankers Realty home"
+        },
+        "listing_agent_name": {
+          "source": null,
+          "text_quote": "N/A (No agent name visible)"
+        },
+        "listing_agent_logo": {
+          "source": "header logo",
+          "text_quote": "https://s.cbhomes.com/p/i/logo/cbr/web/10.svg"
+        },
+        "listing_agent_photo": {
+          "source": null,
+          "text_quote": "N/A (No agent photo visible)"
+        },
+        "listing_agent_phone": {
+          "source": null,
+          "text_quote": "N/A (No phone number visible)"
+        },
+        "listing_office": {
+          "source": "header logo",
+          "text_quote": "Coldwell Banker Realty"
+        },
+        "parking": {
+          "source": null,
+          "text_quote": "N/A (No parking information visible)"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 23.159,
+    "input_tokens": 16628,
+    "output_tokens": 1659,
+    "total_tokens": 18287,
+    "initial_input_tokens": 16628,
+    "initial_output_tokens": 1659,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

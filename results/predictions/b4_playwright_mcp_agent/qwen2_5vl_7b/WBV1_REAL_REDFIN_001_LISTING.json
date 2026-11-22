@@ -1,0 +1,295 @@
+{
+  "task_id": "WBV1_REAL_REDFIN_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.redfin.com/214-04-33-Ave-Bayside-NY-11361/home/20835511",
+        "price": {
+          "amount": 1499000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "address": {
+          "type": "string",
+          "description": "Full or partial address of the property as shown on the listing card.",
+          "normalization": "Preserve the address as shown. Do not geocode.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": "214-04 33 Ave, Bayside, NY 11361"
+        },
+        "property_type": {
+          "type": "string",
+          "description": "Type of property (e.g. 'Apartment', 'House', 'Studio', 'Villa'). Retain the site's original label.",
+          "normalization": "Preserve the address as shown. Do not geocode.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": "Expanded Colonial"
+        },
+        "bedrooms": {
+          "type": "integer",
+          "description": "Number of bedrooms.",
+          "normalization": "Preserve the number as shown. Do not convert to a different unit.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": "4 beds"
+        },
+        "bathrooms": {
+          "type": "number",
+          "description": "Number of bathrooms (may be fractional, e.g. 1.5).",
+          "normalization": "Preserve the number as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": "3 baths"
+        },
+        "bathrooms_partial": {
+          "type": null,
+          "description": "Number of partial/half bathrooms.",
+          "normalization": "Preserve the number as shown. Do not convert to a different unit.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "floor_area": {
+          "type": "object",
+          "description": "Floor/living area. Structured as {value, unit} where unit is 'm2', 'ft2', or 'sqm'.",
+          "normalization": "Preserve the original value and unit.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "rooms": {
+          "type": null,
+          "description": "Total number of rooms (used on French and Moroccan sites where rooms ≠ bedrooms).",
+          "normalization": "Preserve the number as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "energy_rating": {
+          "type": null,
+          "description": "Energy performance certificate/rating (e.g. 'B2', 'C', 'D').",
+          "normalization": "Preserve the rating as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "price_per_m2": {
+          "type": "object",
+          "description": "Price per square metre. Structured as {amount, currency_code}.",
+          "normalization": "Preserve the amount and currency code.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "sale_type": {
+          "type": null,
+          "description": "Sale method (e.g. 'auction', 'private_treaty', 'tender').",
+          "normalization": "Preserve the sale type as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "tenure": {
+          "type": null,
+          "description": "Ownership tenure (e.g. 'Eierskap', 'Leasehold', 'Freehold').",
+          "normalization": "Preserve the ownership tenure as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "monthly_fees": {
+          "type": "object",
+          "description": "Monthly co-op/HOA/maintenance fees. Structured as {amount, currency_code}.",
+          "normalization": "Preserve the amount and currency code.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "total_price": {
+          "type": "object",
+          "description": "Total price including debt/fees (Finn Eiendom: asking price + joint debt). Structured as {amount, currency_code}.",
+          "normalization": "Preserve the amount and currency code.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "status": {
+          "type": "string",
+          "description": "Listing status (e.g. 'Active', 'Pending', 'Sold').",
+          "normalization": "Preserve the listing status as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "published_date": {
+          "type": "string",
+          "description": "Date the listing was published. Normalize to ISO 8601 (YYYY-MM-DD).",
+          "normalization": "Convert to YYYY-MM-DD and resolve relative dates using the snapshot date.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "open_house_schedule": {
+          "type": "array",
+          "description": "Scheduled open house dates/times (e.g. [{date, time_start, time_end}]).",
+          "normalization": "Preserve the date and times as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "key_features": {
+          "type": "array",
+          "description": "Short feature bullet points shown on the listing card.",
+          "normalization": "Preserve the features as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "description": {
+          "type": "string",
+          "description": "Short description or teaser text shown on the listing card.",
+          "normalization": "Preserve the description as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "mls_number": {
+          "type": "string",
+          "description": "MLS listing identifier.",
+          "normalization": "Preserve the MLS number as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "additional_facilities": {
+          "type": "array",
+          "description": "Additional facilities shown on the listing card (Leboncoin-specific).",
+          "normalization": "Preserve the additional facilities as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "images_urls": {
+          "type": "array",
+          "description": "List of property image URLs from the listing card.",
+          "normalization": "Preserve the image URLs as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "listing_agent": {
+          "type": "object",
+          "description": "Agent or brokerage info as shown on the card. May include name, phone, and/or photo.",
+          "normalization": "Preserve the agent information as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "listing_agent_name": {
+          "type": "string",
+          "description": "Name of the listing agent.",
+          "normalization": "Preserve the name as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "listing_agent_logo": {
+          "type": "string",
+          "description": "URL of the agent/agency logo.",
+          "normalization": "Preserve the URL as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "listing_agent_photo": {
+          "type": "string",
+          "description": "URL of the agent's profile photo.",
+          "normalization": "Preserve the URL as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "listing_agent_phone": {
+          "type": "string",
+          "description": "Agent contact phone number.",
+          "normalization": "Preserve the phone number as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "listing_office": {
+          "type": "string",
+          "description": "Name of the listing agency or office.",
+          "normalization": "Preserve the name as shown.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        },
+        "parking": {
+          "type": "[integer, string]",
+          "description": "Parking availability or count.",
+          "normalization": "Preserve the parking information as shown. Do not convert to a different unit.",
+          "sites": [
+            "redfin"
+          ],
+          "text_quote": null
+        }
+      },
+      "provenance": {
+        "source_files": [
+          "page_html",
+          "page_safe_html",
+          "text_txt",
+          "ax_tree.json",
+          "metadata.json"
+        ]
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 48.191,
+    "input_tokens": 26887,
+    "output_tokens": 2120,
+    "total_tokens": 29007,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_REDFIN_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_REDFIN_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

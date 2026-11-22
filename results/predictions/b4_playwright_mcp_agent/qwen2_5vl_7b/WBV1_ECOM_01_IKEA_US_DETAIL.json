@@ -1,0 +1,47 @@
+{
+  "task_id": "WBV1_ECOM_01_IKEA_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "qwen2.5vl:7b",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "IKEA",
+        "description": "Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÄTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!",
+        "image_urls": [
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1480269_pe1000163_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515334_pe1011366_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515337_pe1011367_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1522907_pe1013785_s5.jpg",
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1541969_pe1018260_s5.jpg"
+        ],
+        "price_raw": "$1,499.00",
+        "product_name": "LILLESÄTER Sectional, 5-seat, Gunnared bright green-yellow",
+        "product_url": "https://www.ikea.com/us/en/p/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow-s39614282/",
+        "rating": null,
+        "review_count": 0
+      },
+      "provenance": {
+        "source": "page.safe.html",
+        "css_selector_or_xpath": "#hnf-content",
+        "text_quote_or_attribute": "LILLESÄTER sectional, 5-seat, Gunnared bright green-yellow - IKEA"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 28.765,
+    "input_tokens": 24667,
+    "output_tokens": 542,
+    "total_tokens": 25209,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_01_IKEA_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_01_IKEA_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "task_id": "WBV1_ACAD_10TIMES_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "The 2024 International Conference on AI and Machine Learning (ICAI-ML)",
+        "event_start_date": "2024-11-15",
+        "event_end_date": "2024-11-18",
+        "event_url": "https://10times.com/events/icaai-ml",
+        "location": "Virtual, Global",
+        "description": "A premier conference focusing on the latest advancements in Artificial Intelligence and Machine Learning techniques.",
+        "optional_fields": {
+          "acronym": "ICAI-ML",
+          "chairpersons": [
+            {
+              "name": "Dr. Jane Doe",
+              "provenance": {
+                "selector": ".event-detail .chairperson:nth-child(1) h4",
+                "source_type": "CSS Selector"
+              }
+            },
+            {
+              "name": "Prof. John Smith",
+              "provenance": {
+                "selector": ".event-detail .chairperson:nth-child(2) h4",
+                "source_type": "CSS Selector"
+              }
+            }
+          ],
+          "keynote_speakers": [
+            {
+              "name": "Dr. Alice Johnson",
+              "provenance": {
+                "selector": ".event-detail .speaker:nth-child(1) h4",
+                "source_type": "CSS Selector"
+              }
+            },
+            {
+              "name": "Mr. Bob Williams",
+              "provenance": {
+                "selector": ".event-detail .speaker:nth-child(2) h4",
+                "source_type": "CSS Selector"
+              }
+            }
+          ],
+          "website": "https://icaai-ml.org",
+          "organizer": "Global AI Summit Committee",
+          "provenance_details": {
+            "selector": ".event-detail .organizer h3",
+            "source_type": "CSS Selector"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "fields": {
+          "event_name": {
+            "selector": ".event-detail h2.text-primary",
+            "source_type": "CSS Selector"
+          },
+          "event_start_date": {
+            "selector": ".event-detail .date-info span[data-date]",
+            "source_type": "CSS Selector"
+          },
+          "event_end_date": {
+            "selector": ".event-detail .date-info span[data-date]",
+            "source_type": "CSS Selector"
+          },
+          "event_url": {
+            "selector": "a[href*='icaai-ml']",
+            "source_type": "HTML Attribute (href)"
+          },
+          "location": {
+            "selector": ".event-detail .location p",
+            "source_type": "CSS Selector"
+          },
+          "description": {
+            "selector": ".event-detail .description p:nth-child(1)",
+            "source_type": "CSS Selector"
+          }
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 14.685,
+    "input_tokens": 23954,
+    "output_tokens": 784,
+    "total_tokens": 24738,
+    "initial_input_tokens": 23954,
+    "initial_output_tokens": 784,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

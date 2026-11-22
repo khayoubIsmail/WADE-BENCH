@@ -1,0 +1,1964 @@
+{
+  "task_id": "WBV1_JOBS_RELIEFWEB_001_LISTING",
+  "website_id": "reliefweb",
+  "schema_id": "job_posting_v1",
+  "snapshot_id": "reliefweb_listing",
+  "snapshot_path": "raw_snapshots/jobs/reliefweb_listing",
+  "live_url": "https://reliefweb.int/jobs",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 20
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_001",
+      "fields": {
+        "country": {
+          "value": "oPt",
+          "normalized": "oPt"
+        },
+        "job_title": {
+          "value": "Medical Doctor Gaza",
+          "normalized": "Medical Doctor Gaza"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215856/medical-doctor-gaza",
+          "normalized": "https://reliefweb.int/job/4215856/medical-doctor-gaza"
+        },
+        "company_name": {
+          "value": "CADUS e.V.",
+          "normalized": "CADUS e.V."
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "14 Jun 2026",
+          "normalized": "2026-06-14"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215856'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215856']/header[1]/p[1]/a[1]",
+          "text_quote": "oPt",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[1]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215856/medical-doctor-gaza']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215856/medical-doctor-gaza']",
+          "text_quote": "Medical Doctor Gaza",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[1]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215856/medical-doctor-gaza']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215856/medical-doctor-gaza']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[1]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > header > h3 > a[href='https://reliefweb.int/job/4215856/medical-doctor-gaza']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/jobs?list=CADUS%20e.V.%20Jobs&advanced-search=%28S46219%29']",
+          "xpath": "//a[@href='https://reliefweb.int/jobs?list=CADUS%20e.V.%20Jobs&advanced-search=%28S46219%29']",
+          "text_quote": "CADUS e.V.",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[1]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T19:51:05+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T19:51:05+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[1]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-14T00:00:00+00:00']",
+          "xpath": "//time[@datetime='2026-06-14T00:00:00+00:00']",
+          "text_quote": "14 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[1]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_002",
+      "fields": {
+        "country": {
+          "value": "USA",
+          "normalized": "USA"
+        },
+        "job_title": {
+          "value": "Employment Specialist",
+          "normalized": "Employment Specialist"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215946/employment-specialist",
+          "normalized": "https://reliefweb.int/job/4215946/employment-specialist"
+        },
+        "company_name": {
+          "value": "IRC",
+          "normalized": "IRC"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "31 Aug 2026",
+          "normalized": "2026-08-31"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215946'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215946']/header[1]/p[1]/a[1]",
+          "text_quote": "USA",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[2]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215946/employment-specialist']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215946/employment-specialist']",
+          "text_quote": "Employment Specialist",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[2]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215946/employment-specialist']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215946/employment-specialist']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[2]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > header > h3 > a[href='https://reliefweb.int/job/4215946/employment-specialist']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215946'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215946']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "IRC",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[2]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T19:15:44+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T19:15:44+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[2]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215946'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215946']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "31 Aug 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[2]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_003",
+      "fields": {
+        "country": {
+          "value": "Kenya",
+          "normalized": "Kenya"
+        },
+        "job_title": {
+          "value": "Regional Humanitarian Access & Security Coordinator",
+          "normalized": "Regional Humanitarian Access & Security Coordinator"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215938/regional-humanitarian-access-security-coordinator",
+          "normalized": "https://reliefweb.int/job/4215938/regional-humanitarian-access-security-coordinator"
+        },
+        "company_name": {
+          "value": "IRC",
+          "normalized": "IRC"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "31 Aug 2026",
+          "normalized": "2026-08-31"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215938'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215938']/header[1]/p[1]/a[1]",
+          "text_quote": "Kenya",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[3]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(3) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215938/regional-humanitarian-access-security-coordinator']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215938/regional-humanitarian-access-security-coordinator']",
+          "text_quote": "Regional Humanitarian Access & Security Coordinator",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[3]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(3) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215938/regional-humanitarian-access-security-coordinator']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215938/regional-humanitarian-access-security-coordinator']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[3]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(3) > header > h3 > a[href='https://reliefweb.int/job/4215938/regional-humanitarian-access-security-coordinator']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215938'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215938']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "IRC",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[3]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(3) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T18:18:09+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T18:18:09+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[3]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(3) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215938'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215938']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "31 Aug 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[3]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(3) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_004",
+      "fields": {
+        "country": {
+          "value": "Pakistan",
+          "normalized": "Pakistan"
+        },
+        "job_title": {
+          "value": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN",
+          "normalized": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215935/deputy-country-director-programmes-pakistan",
+          "normalized": "https://reliefweb.int/job/4215935/deputy-country-director-programmes-pakistan"
+        },
+        "company_name": {
+          "value": "ACF",
+          "normalized": "ACF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "11 Jul 2026",
+          "normalized": "2026-07-11"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215935'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215935']/header[1]/p[1]/a[1]",
+          "text_quote": "Pakistan",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[4]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(4) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215935/deputy-country-director-programmes-pakistan']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215935/deputy-country-director-programmes-pakistan']",
+          "text_quote": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[4]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(4) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215935/deputy-country-director-programmes-pakistan']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215935/deputy-country-director-programmes-pakistan']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[4]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(4) > header > h3 > a[href='https://reliefweb.int/job/4215935/deputy-country-director-programmes-pakistan']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215935'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215935']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "ACF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[4]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(4) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215935'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(2) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215935']/footer[1]/dl[1]/dd[2]/time[1]",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[4]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(4) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215935'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215935']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "11 Jul 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[4]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(4) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_005",
+      "fields": {
+        "country": {
+          "value": "Pakistan",
+          "normalized": "Pakistan"
+        },
+        "job_title": {
+          "value": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN",
+          "normalized": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215936/deputy-country-director-programmes-pakistan",
+          "normalized": "https://reliefweb.int/job/4215936/deputy-country-director-programmes-pakistan"
+        },
+        "company_name": {
+          "value": "ACF",
+          "normalized": "ACF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "11 Jul 2026",
+          "normalized": "2026-07-11"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215936'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215936']/header[1]/p[1]/a[1]",
+          "text_quote": "Pakistan",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[5]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(5) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215936/deputy-country-director-programmes-pakistan']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215936/deputy-country-director-programmes-pakistan']",
+          "text_quote": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[5]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(5) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215936/deputy-country-director-programmes-pakistan']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215936/deputy-country-director-programmes-pakistan']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[5]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(5) > header > h3 > a[href='https://reliefweb.int/job/4215936/deputy-country-director-programmes-pakistan']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215936'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215936']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "ACF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[5]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(5) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215936'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(2) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215936']/footer[1]/dl[1]/dd[2]/time[1]",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[5]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(5) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215936'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215936']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "11 Jul 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[5]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(5) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_006",
+      "fields": {
+        "country": {
+          "value": "Pakistan",
+          "normalized": "Pakistan"
+        },
+        "job_title": {
+          "value": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN",
+          "normalized": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215934/deputy-country-director-programmes-pakistan",
+          "normalized": "https://reliefweb.int/job/4215934/deputy-country-director-programmes-pakistan"
+        },
+        "company_name": {
+          "value": "ACF",
+          "normalized": "ACF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "11 Jul 2026",
+          "normalized": "2026-07-11"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215934'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215934']/header[1]/p[1]/a[1]",
+          "text_quote": "Pakistan",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[6]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(6) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215934/deputy-country-director-programmes-pakistan']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215934/deputy-country-director-programmes-pakistan']",
+          "text_quote": "DEPUTY COUNTRY DIRECTOR - PROGRAMMES- PAKISTAN",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[6]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(6) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215934/deputy-country-director-programmes-pakistan']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215934/deputy-country-director-programmes-pakistan']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[6]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(6) > header > h3 > a[href='https://reliefweb.int/job/4215934/deputy-country-director-programmes-pakistan']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215934'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215934']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "ACF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[6]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(6) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215934'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(2) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215934']/footer[1]/dl[1]/dd[2]/time[1]",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[6]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(6) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215934'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215934']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "11 Jul 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[6]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(6) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_007",
+      "fields": {
+        "country": {
+          "value": "France",
+          "normalized": "France"
+        },
+        "job_title": {
+          "value": "COORDINATEUR\u00b7ICE FINANCE ET ADMINISTRATIF- TRAVAILLEURS HUMANITAIRES-FRANCE",
+          "normalized": "COORDINATEUR\u00b7ICE FINANCE ET ADMINISTRATIF- TRAVAILLEURS HUMANITAIRES-FRANCE"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215937/coordinateurice-finance-et-administratif-travailleurs-humanitaires-france",
+          "normalized": "https://reliefweb.int/job/4215937/coordinateurice-finance-et-administratif-travailleurs-humanitaires-france"
+        },
+        "company_name": {
+          "value": "ACF",
+          "normalized": "ACF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "11 Jul 2026",
+          "normalized": "2026-07-11"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/jobs?list=France%20Jobs&advanced-search=%28C92%29']",
+          "xpath": "//a[@href='https://reliefweb.int/jobs?list=France%20Jobs&advanced-search=%28C92%29']",
+          "text_quote": "France",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[7]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(7) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215937/coordinateurice-finance-et-administratif-travailleurs-humanitaires-france']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215937/coordinateurice-finance-et-administratif-travailleurs-humanitaires-france']",
+          "text_quote": "COORDINATEUR\u00b7ICE FINANCE ET ADMINISTRATIF- TRAVAILLEURS HUMANITAIRES-FRANCE",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[7]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(7) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215937/coordinateurice-finance-et-administratif-travailleurs-humanitaires-france']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215937/coordinateurice-finance-et-administratif-travailleurs-humanitaires-france']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[7]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(7) > header > h3 > a[href='https://reliefweb.int/job/4215937/coordinateurice-finance-et-administratif-travailleurs-humanitaires-france']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215937'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215937']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "ACF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[7]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(7) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215937'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(2) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215937']/footer[1]/dl[1]/dd[2]/time[1]",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[7]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(7) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215937'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215937']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "11 Jul 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[7]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(7) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_008",
+      "fields": {
+        "country": {
+          "value": "USA",
+          "normalized": "USA"
+        },
+        "job_title": {
+          "value": "Legal Assistant",
+          "normalized": "Legal Assistant"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4214337/legal-assistant",
+          "normalized": "https://reliefweb.int/job/4214337/legal-assistant"
+        },
+        "company_name": {
+          "value": "IRC",
+          "normalized": "IRC"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "31 Aug 2026",
+          "normalized": "2026-08-31"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4214337'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4214337']/header[1]/p[1]/a[1]",
+          "text_quote": "USA",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[8]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(8) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4214337/legal-assistant']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4214337/legal-assistant']",
+          "text_quote": "Legal Assistant",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[8]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(8) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4214337/legal-assistant']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4214337/legal-assistant']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[8]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(8) > header > h3 > a[href='https://reliefweb.int/job/4214337/legal-assistant']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4214337'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4214337']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "IRC",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[8]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(8) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T17:56:52+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T17:56:52+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[8]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(8) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4214337'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4214337']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "31 Aug 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[8]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(8) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_009",
+      "fields": {
+        "country": {
+          "value": "USA",
+          "normalized": "USA"
+        },
+        "job_title": {
+          "value": "Adult ESL Instructor",
+          "normalized": "Adult ESL Instructor"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4214327/adult-esl-instructor",
+          "normalized": "https://reliefweb.int/job/4214327/adult-esl-instructor"
+        },
+        "company_name": {
+          "value": "IRC",
+          "normalized": "IRC"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "31 Aug 2026",
+          "normalized": "2026-08-31"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4214327'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4214327']/header[1]/p[1]/a[1]",
+          "text_quote": "USA",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[9]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(9) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4214327/adult-esl-instructor']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4214327/adult-esl-instructor']",
+          "text_quote": "Adult ESL Instructor",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[9]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(9) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4214327/adult-esl-instructor']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4214327/adult-esl-instructor']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[9]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(9) > header > h3 > a[href='https://reliefweb.int/job/4214327/adult-esl-instructor']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4214327'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4214327']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "IRC",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[9]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(9) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T17:51:40+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T17:51:40+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[9]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(9) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4214327'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4214327']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "31 Aug 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[9]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(9) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_010",
+      "fields": {
+        "country": {
+          "value": "Haiti",
+          "normalized": "Haiti"
+        },
+        "job_title": {
+          "value": "Superviseurs Logistique bas\u00e9/e/s \u00e0 SAINT-MARC \u2013 Niveau 6",
+          "normalized": "Superviseurs Logistique bas\u00e9/e/s \u00e0 SAINT-MARC \u2013 Niveau 6"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215933/superviseurs-logistique-basees-saint-marc-niveau-6",
+          "normalized": "https://reliefweb.int/job/4215933/superviseurs-logistique-basees-saint-marc-niveau-6"
+        },
+        "company_name": {
+          "value": "MSF",
+          "normalized": "MSF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "21 Jun 2026",
+          "normalized": "2026-06-21"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215933'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215933']/header[1]/p[1]/a[1]",
+          "text_quote": "Haiti",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[10]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(10) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215933/superviseurs-logistique-basees-saint-marc-niveau-6']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215933/superviseurs-logistique-basees-saint-marc-niveau-6']",
+          "text_quote": "Superviseurs Logistique bas\u00e9/e/s \u00e0 SAINT-MARC \u2013 Niveau 6",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[10]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(10) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215933/superviseurs-logistique-basees-saint-marc-niveau-6']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215933/superviseurs-logistique-basees-saint-marc-niveau-6']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[10]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(10) > header > h3 > a[href='https://reliefweb.int/job/4215933/superviseurs-logistique-basees-saint-marc-niveau-6']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215933'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215933']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "MSF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[10]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(10) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T17:47:13+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T17:47:13+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[10]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(10) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215933'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215933']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "21 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[10]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(10) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_011",
+      "fields": {
+        "country": {
+          "value": "Haiti",
+          "normalized": "Haiti"
+        },
+        "job_title": {
+          "value": "1 Infirmier/Infirmi\u00e8re superviseur bas\u00e9/e \u00e0 Saint-Marc \u2013 Niveau 8",
+          "normalized": "1 Infirmier/Infirmi\u00e8re superviseur bas\u00e9/e \u00e0 Saint-Marc \u2013 Niveau 8"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215932/1-infirmierinfirmiere-superviseur-basee-saint-marc-niveau-8",
+          "normalized": "https://reliefweb.int/job/4215932/1-infirmierinfirmiere-superviseur-basee-saint-marc-niveau-8"
+        },
+        "company_name": {
+          "value": "MSF",
+          "normalized": "MSF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "21 Jun 2026",
+          "normalized": "2026-06-21"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215932'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215932']/header[1]/p[1]/a[1]",
+          "text_quote": "Haiti",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[11]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(11) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215932/1-infirmierinfirmiere-superviseur-basee-saint-marc-niveau-8']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215932/1-infirmierinfirmiere-superviseur-basee-saint-marc-niveau-8']",
+          "text_quote": "1 Infirmier/Infirmi\u00e8re superviseur bas\u00e9/e \u00e0 Saint-Marc \u2013 Niveau 8",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[11]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(11) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215932/1-infirmierinfirmiere-superviseur-basee-saint-marc-niveau-8']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215932/1-infirmierinfirmiere-superviseur-basee-saint-marc-niveau-8']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[11]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(11) > header > h3 > a[href='https://reliefweb.int/job/4215932/1-infirmierinfirmiere-superviseur-basee-saint-marc-niveau-8']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215932'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215932']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "MSF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[11]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(11) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T17:45:41+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T17:45:41+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[11]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(11) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215932'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215932']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "21 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[11]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(11) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_012",
+      "fields": {
+        "country": {
+          "value": "Haiti",
+          "normalized": "Haiti"
+        },
+        "job_title": {
+          "value": "1 Responsable Administration du personnel bas\u00e9/e aux GONA\u00cfVES \u2013 Niveau 10",
+          "normalized": "1 Responsable Administration du personnel bas\u00e9/e aux GONA\u00cfVES \u2013 Niveau 10"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215931/1-responsable-administration-du-personnel-basee-aux-gonaives-niveau-10",
+          "normalized": "https://reliefweb.int/job/4215931/1-responsable-administration-du-personnel-basee-aux-gonaives-niveau-10"
+        },
+        "company_name": {
+          "value": "MSF",
+          "normalized": "MSF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "25 Jun 2026",
+          "normalized": "2026-06-25"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215931'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215931']/header[1]/p[1]/a[1]",
+          "text_quote": "Haiti",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[12]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(12) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215931/1-responsable-administration-du-personnel-basee-aux-gonaives-niveau-10']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215931/1-responsable-administration-du-personnel-basee-aux-gonaives-niveau-10']",
+          "text_quote": "1 Responsable Administration du personnel bas\u00e9/e aux GONA\u00cfVES \u2013 Niveau 10",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[12]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(12) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215931/1-responsable-administration-du-personnel-basee-aux-gonaives-niveau-10']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215931/1-responsable-administration-du-personnel-basee-aux-gonaives-niveau-10']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[12]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(12) > header > h3 > a[href='https://reliefweb.int/job/4215931/1-responsable-administration-du-personnel-basee-aux-gonaives-niveau-10']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215931'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215931']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "MSF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[12]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(12) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T17:42:46+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T17:42:46+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[12]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(12) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215931'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215931']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "25 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[12]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(12) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_013",
+      "fields": {
+        "country": {
+          "value": "Haiti",
+          "normalized": "Haiti"
+        },
+        "job_title": {
+          "value": "1 Responsable comptabilit\u00e9 et Finances bas\u00e9/e aux GONA\u00cfVES \u2013 Niveau 10",
+          "normalized": "1 Responsable comptabilit\u00e9 et Finances bas\u00e9/e aux GONA\u00cfVES \u2013 Niveau 10"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215930/1-responsable-comptabilite-et-finances-basee-aux-gonaives-niveau-10",
+          "normalized": "https://reliefweb.int/job/4215930/1-responsable-comptabilite-et-finances-basee-aux-gonaives-niveau-10"
+        },
+        "company_name": {
+          "value": "MSF",
+          "normalized": "MSF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "25 Jun 2026",
+          "normalized": "2026-06-25"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215930'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215930']/header[1]/p[1]/a[1]",
+          "text_quote": "Haiti",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[13]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(13) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215930/1-responsable-comptabilite-et-finances-basee-aux-gonaives-niveau-10']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215930/1-responsable-comptabilite-et-finances-basee-aux-gonaives-niveau-10']",
+          "text_quote": "1 Responsable comptabilit\u00e9 et Finances bas\u00e9/e aux GONA\u00cfVES \u2013 Niveau 10",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[13]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(13) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215930/1-responsable-comptabilite-et-finances-basee-aux-gonaives-niveau-10']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215930/1-responsable-comptabilite-et-finances-basee-aux-gonaives-niveau-10']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[13]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(13) > header > h3 > a[href='https://reliefweb.int/job/4215930/1-responsable-comptabilite-et-finances-basee-aux-gonaives-niveau-10']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215930'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215930']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "MSF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[13]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(13) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T17:40:07+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T17:40:07+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[13]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(13) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215930'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215930']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "25 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[13]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(13) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_014",
+      "fields": {
+        "country": {
+          "value": "Rwanda",
+          "normalized": "Rwanda"
+        },
+        "job_title": {
+          "value": "Sustainable Agriculture Innovation Lead",
+          "normalized": "Sustainable Agriculture Innovation Lead"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215926/sustainable-agriculture-innovation-lead",
+          "normalized": "https://reliefweb.int/job/4215926/sustainable-agriculture-innovation-lead"
+        },
+        "company_name": {
+          "value": "OAF",
+          "normalized": "OAF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "8 Sep 2026",
+          "normalized": "2026-09-08"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/jobs?list=Rwanda%20Jobs&advanced-search=%28C198%29']",
+          "xpath": "//a[@href='https://reliefweb.int/jobs?list=Rwanda%20Jobs&advanced-search=%28C198%29']",
+          "text_quote": "Rwanda",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[14]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(14) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215926/sustainable-agriculture-innovation-lead']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215926/sustainable-agriculture-innovation-lead']",
+          "text_quote": "Sustainable Agriculture Innovation Lead",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[14]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(14) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215926/sustainable-agriculture-innovation-lead']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215926/sustainable-agriculture-innovation-lead']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[14]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(14) > header > h3 > a[href='https://reliefweb.int/job/4215926/sustainable-agriculture-innovation-lead']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215926'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215926']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "OAF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[14]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(14) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T17:02:33+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T17:02:33+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[14]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(14) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-09-08T00:00:00+00:00']",
+          "xpath": "//time[@datetime='2026-09-08T00:00:00+00:00']",
+          "text_quote": "8 Sep 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[14]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(14) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_015",
+      "fields": {
+        "country": {
+          "value": "Venezuela",
+          "normalized": "Venezuela"
+        },
+        "job_title": {
+          "value": "Gerente de Protecci\u00f3n - GDO",
+          "normalized": "Gerente de Protecci\u00f3n - GDO"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215924/gerente-de-proteccion-gdo",
+          "normalized": "https://reliefweb.int/job/4215924/gerente-de-proteccion-gdo"
+        },
+        "company_name": {
+          "value": "DRC",
+          "normalized": "DRC"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "28 Jun 2026",
+          "normalized": "2026-06-28"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/jobs?list=Venezuela%20%28Bolivarian%20Republic%20of%29%20Jobs&advanced-search=%28C250%29']",
+          "xpath": "//a[@href='https://reliefweb.int/jobs?list=Venezuela%20%28Bolivarian%20Republic%20of%29%20Jobs&advanced-search=%28C250%29']",
+          "text_quote": "Venezuela",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[15]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(15) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215924/gerente-de-proteccion-gdo']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215924/gerente-de-proteccion-gdo']",
+          "text_quote": "Gerente de Protecci\u00f3n - GDO",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[15]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(15) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215924/gerente-de-proteccion-gdo']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215924/gerente-de-proteccion-gdo']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[15]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(15) > header > h3 > a[href='https://reliefweb.int/job/4215924/gerente-de-proteccion-gdo']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/jobs?list=Danish%20Refugee%20Council%20Jobs&advanced-search=%28S522%29']",
+          "xpath": "//a[@href='https://reliefweb.int/jobs?list=Danish%20Refugee%20Council%20Jobs&advanced-search=%28S522%29']",
+          "text_quote": "DRC",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[15]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(15) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T16:51:38+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T16:51:38+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[15]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(15) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-28T00:00:00+00:00']",
+          "xpath": "//time[@datetime='2026-06-28T00:00:00+00:00']",
+          "text_quote": "28 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[15]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(15) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_016",
+      "fields": {
+        "job_title": {
+          "value": "Emergency Women\u2019s Protection and Empowerment Coordinator, Global Surge",
+          "normalized": "Emergency Women\u2019s Protection and Empowerment Coordinator, Global Surge"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215923/emergency-womens-protection-and-empowerment-coordinator-global-surge",
+          "normalized": "https://reliefweb.int/job/4215923/emergency-womens-protection-and-empowerment-coordinator-global-surge"
+        },
+        "company_name": {
+          "value": "IRC",
+          "normalized": "IRC"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "31 Jul 2026",
+          "normalized": "2026-07-31"
+        }
+      },
+      "provenance": {
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215923/emergency-womens-protection-and-empowerment-coordinator-global-surge']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215923/emergency-womens-protection-and-empowerment-coordinator-global-surge']",
+          "text_quote": "Emergency Women\u2019s Protection and Empowerment Coordinator, Global Surge",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[16]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(16) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215923/emergency-womens-protection-and-empowerment-coordinator-global-surge']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215923/emergency-womens-protection-and-empowerment-coordinator-global-surge']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[16]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(16) > header > h3 > a[href='https://reliefweb.int/job/4215923/emergency-womens-protection-and-empowerment-coordinator-global-surge']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215923'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215923']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "IRC",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[16]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(16) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T16:47:32+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T16:47:32+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[16]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(16) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-07-31T00:00:00+00:00']",
+          "xpath": "//time[@datetime='2026-07-31T00:00:00+00:00']",
+          "text_quote": "31 Jul 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[16]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(16) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_017",
+      "fields": {
+        "country": {
+          "value": "oPt",
+          "normalized": "oPt"
+        },
+        "job_title": {
+          "value": "Occupied Palestinian Territories : Consortium Project Developement Manager - Ramallah",
+          "normalized": "Occupied Palestinian Territories : Consortium Project Developement Manager - Ramallah"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215915/occupied-palestinian-territories-consortium-project-developement-manager-ramallah",
+          "normalized": "https://reliefweb.int/job/4215915/occupied-palestinian-territories-consortium-project-developement-manager-ramallah"
+        },
+        "company_name": {
+          "value": "ACTED",
+          "normalized": "ACTED"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "11 Jul 2026",
+          "normalized": "2026-07-11"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215915'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215915']/header[1]/p[1]/a[1]",
+          "text_quote": "oPt",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[17]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(17) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215915/occupied-palestinian-territories-consortium-project-developement-manager-ramallah']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215915/occupied-palestinian-territories-consortium-project-developement-manager-ramallah']",
+          "text_quote": "Occupied Palestinian Territories : Consortium Project Developement Manager - Ramallah",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[17]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(17) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215915/occupied-palestinian-territories-consortium-project-developement-manager-ramallah']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215915/occupied-palestinian-territories-consortium-project-developement-manager-ramallah']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[17]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(17) > header > h3 > a[href='https://reliefweb.int/job/4215915/occupied-palestinian-territories-consortium-project-developement-manager-ramallah']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/jobs?list=Agency%20for%20Technical%20Cooperation%20and%20Development%20Jobs&advanced-search=%28S823%29']",
+          "xpath": "//a[@href='https://reliefweb.int/jobs?list=Agency%20for%20Technical%20Cooperation%20and%20Development%20Jobs&advanced-search=%28S823%29']",
+          "text_quote": "ACTED",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[17]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(17) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T15:42:57+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T15:42:57+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[17]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(17) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215915'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215915']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "11 Jul 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[17]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(17) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_018",
+      "fields": {
+        "country": {
+          "value": "DR Congo",
+          "normalized": "DR Congo"
+        },
+        "job_title": {
+          "value": "Supply Chain Assistant",
+          "normalized": "Supply Chain Assistant"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215906/supply-chain-assistant",
+          "normalized": "https://reliefweb.int/job/4215906/supply-chain-assistant"
+        },
+        "company_name": {
+          "value": "IRC",
+          "normalized": "IRC"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "10 Jul 2026",
+          "normalized": "2026-07-10"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/jobs?list=Democratic%20Republic%20of%20the%20Congo%20Jobs&advanced-search=%28C75%29']",
+          "xpath": "//a[@href='https://reliefweb.int/jobs?list=Democratic%20Republic%20of%20the%20Congo%20Jobs&advanced-search=%28C75%29']",
+          "text_quote": "DR Congo",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[18]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(18) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215906/supply-chain-assistant']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215906/supply-chain-assistant']",
+          "text_quote": "Supply Chain Assistant",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[18]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(18) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215906/supply-chain-assistant']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215906/supply-chain-assistant']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[18]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(18) > header > h3 > a[href='https://reliefweb.int/job/4215906/supply-chain-assistant']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215906'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215906']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "IRC",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[18]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(18) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T14:14:46+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T14:14:46+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[18]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(18) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-07-10T00:00:00+00:00']",
+          "xpath": "//time[@datetime='2026-07-10T00:00:00+00:00']",
+          "text_quote": "10 Jul 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[18]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(18) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_019",
+      "fields": {
+        "country": {
+          "value": "Jordan",
+          "normalized": "Jordan"
+        },
+        "job_title": {
+          "value": "Senior Child Protection Case Management Specialist, oPt Country Program",
+          "normalized": "Senior Child Protection Case Management Specialist, oPt Country Program"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215534/senior-child-protection-case-management-specialist-opt-country-program",
+          "normalized": "https://reliefweb.int/job/4215534/senior-child-protection-case-management-specialist-opt-country-program"
+        },
+        "company_name": {
+          "value": "IRC",
+          "normalized": "IRC"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "31 Aug 2026",
+          "normalized": "2026-08-31"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/jobs?list=Jordan%20Jobs&advanced-search=%28C129%29']",
+          "xpath": "//a[@href='https://reliefweb.int/jobs?list=Jordan%20Jobs&advanced-search=%28C129%29']",
+          "text_quote": "Jordan",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[19]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(19) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215534/senior-child-protection-case-management-specialist-opt-country-program']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215534/senior-child-protection-case-management-specialist-opt-country-program']",
+          "text_quote": "Senior Child Protection Case Management Specialist, oPt Country Program",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[19]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(19) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215534/senior-child-protection-case-management-specialist-opt-country-program']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215534/senior-child-protection-case-management-specialist-opt-country-program']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[19]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(19) > header > h3 > a[href='https://reliefweb.int/job/4215534/senior-child-protection-case-management-specialist-opt-country-program']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215534'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215534']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "IRC",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[19]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(19) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T13:51:06+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T13:51:06+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[19]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(19) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215534'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(3) > time:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215534']/footer[1]/dl[1]/dd[3]/time[1]",
+          "text_quote": "31 Aug 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[19]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(19) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    },
+    {
+      "gold_record_id": "WBV1_JOBS_RELIEFWEB_001_LISTING_020",
+      "fields": {
+        "country": {
+          "value": "Kenya",
+          "normalized": "Kenya"
+        },
+        "job_title": {
+          "value": "Tupande Product Quality Supervisor",
+          "normalized": "Tupande Product Quality Supervisor"
+        },
+        "job_url": {
+          "value": "https://reliefweb.int/job/4215902/tupande-product-quality-supervisor",
+          "normalized": "https://reliefweb.int/job/4215902/tupande-product-quality-supervisor"
+        },
+        "company_name": {
+          "value": "OAF",
+          "normalized": "OAF"
+        },
+        "posted_date": {
+          "value": "11 Jun 2026",
+          "normalized": "2026-06-11"
+        },
+        "application_deadline": {
+          "value": "9 Sep 2026",
+          "normalized": "2026-09-09"
+        }
+      },
+      "provenance": {
+        "country": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215902'] > header:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215902']/header[1]/p[1]/a[1]",
+          "text_quote": "Kenya",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[20]/header/p/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(20) > header > p > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_title": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215902/tupande-product-quality-supervisor']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215902/tupande-product-quality-supervisor']",
+          "text_quote": "Tupande Product Quality Supervisor",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[20]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(20) > header > h3 > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "job_url": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "a[href='https://reliefweb.int/job/4215902/tupande-product-quality-supervisor']",
+          "xpath": "//a[@href='https://reliefweb.int/job/4215902/tupande-product-quality-supervisor']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[20]/header/h3/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(20) > header > h3 > a[href='https://reliefweb.int/job/4215902/tupande-product-quality-supervisor']",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_attr_match"
+        },
+        "company_name": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "article[data-id='4215902'] > footer:nth-of-type(1) > dl:nth-of-type(1) > dd:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//article[@data-id='4215902']/footer[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]",
+          "text_quote": "OAF",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[20]/footer/dl/dd[1]/ul/li/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(20) > footer > dl > dd:nth-of-type(1) > ul > li > a",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "posted_date": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-06-11T13:45:09+00:00']",
+          "xpath": "//time[@datetime='2026-06-11T13:45:09+00:00']",
+          "text_quote": "11 Jun 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[20]/footer/dl/dd[2]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(20) > footer > dl > dd:nth-of-type(2) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        },
+        "application_deadline": {
+          "snapshot_id": "reliefweb_listing",
+          "css_selector": "time[datetime='2026-09-09T00:00:00+00:00']",
+          "xpath": "//time[@datetime='2026-09-09T00:00:00+00:00']",
+          "text_quote": "9 Sep 2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[1]/div/main/div/div/div/section/section[3]/div[2]/article[20]/footer/dl/dd[3]/time",
+          "css_selector_absolute": "html > body > div:nth-of-type(1) > div > main > div > div > div > section > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(20) > footer > dl > dd:nth-of-type(3) > time",
+          "provenance_verifiable": true,
+          "provenance_note": "scoped_text_match"
+        }
+      },
+      "notes": "Extracted via script"
+    }
+  ]
+}

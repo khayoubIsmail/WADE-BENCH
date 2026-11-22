@@ -1,0 +1,60 @@
+{
+  "task_id": "WBV1_ACAD_MIT_EVENTS_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Food Truck Wednesdays",
+        "description": "Enjoy a selection of local food trucks every Wednesday in the Kendall/MIT Open Space, with plenty of outdoor seating options available! Please check this page for an up-to-date lineup each week.",
+        "event_start_date": "2026-06-03",
+        "event_end_date": "2026-06-03",
+        "event_url": "https://calendar.mit.edu/event/food-truck-wednesdays",
+        "location": "Cambridge, MA",
+        "website": "https://www.openspace.mit.edu/foodtrucks-2026"
+      },
+      "provenance": {
+        "event_name": {
+          "source": "page.safe.html",
+          "selector": "h1"
+        },
+        "description": {
+          "source": "embedded_json",
+          "selector": "application/ld+json"
+        },
+        "event_start_date": {
+          "source": "embedded_json",
+          "selector": "application/ld+json"
+        },
+        "event_end_date": {
+          "source": "embedded_json",
+          "selector": "application/ld+json"
+        },
+        "event_url": {
+          "source": "metadata.json",
+          "selector": "url"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "selector": "p"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 12.571,
+    "input_tokens": 27439,
+    "output_tokens": 334,
+    "total_tokens": 27773,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_MIT_EVENTS_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_MIT_EVENTS_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

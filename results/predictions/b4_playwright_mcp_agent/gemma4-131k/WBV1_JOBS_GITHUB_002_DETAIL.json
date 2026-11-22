@@ -1,0 +1,160 @@
+{
+  "task_id": "WBV1_JOBS_GITHUB_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Software Engineer III",
+        "company_name": "GitHub, Inc.",
+        "location": "Remote, United States",
+        "job_description": "GitHub is the world’s leading platform for agentic software development — powered by Copilot to build, scale, and deliver secure software. Over 180 million developers, including more than 90% of the Fortune 100 companies, use GitHub to collaborate, and more than 77,000 organisations have adopted GitHub Copilot. The GitHub iOS team is changing the way developers across the world collaborate on GitHub. Launched in March 2020, GitHub iOS is one of our fastest growing products with over 3.5 million downloads across both apps and a 4.8-star rating on the App Store. The team is looking for someone who is passionate about the iOS platform and who will help us build a world-class app in design, performance, and accessibility. As a Software Engineer on the iOS team at GitHub, you will enhance the developer experience by working closely with a community of engineers and designers on a distributed, diverse and passionate team delivering the services that millions of developers depend on. In this role you will design, prototype, implement, ship and support highly performant user-facing features with your team. The iOS team is a sub team of the broader GitHub Client Apps Team within the Core Productivity engineering organization. Our core strategy is to invest in making the iOS app a reliable, fast, and flexible solution that scales with the growth of our user base. We are a product team, which means our customers are the millions of developers who use the GitHub iOS app daily. We measure our success by service level objectives and customer feedback on reliability and performance. We are looking for creative problem solvers and diverse thinkers, people who care about culture as well as customers and features. We believe that how we do things is as important as what we do. Big vision, a common purpose, passion for quality, curiosity, dedication, and investment in fun and collaboration are what lead to great results. Great products reflect the teams that build them.",
+        "salary": {
+          "min_amount": 107700,
+          "max_amount": 285900,
+          "currency": {
+            "name": "US Dollar",
+            "code": "USD",
+            "symbol": "$"
+          },
+          "period": "YEAR"
+        },
+        "employment_type": "Full Time",
+        "work_arrangement": "remote",
+        "responsibilities": [
+          "Pick up work autonomously and code solutions, working to unblock yourself when stuck either by reaching out for help or finding other solutions in an asynchronous, remote, distributed culture",
+          "Write clear documentation, tests, and recommendations for technical problems",
+          "Collaboratively define, scope, prioritize, and estimate work",
+          "Drive helpful conversations around technical issues and engineering practices, suggesting improvements and ideas as you see fit",
+          "Review code and provide thoughtful, constructive feedback during code reviews",
+          "Triage, reproduce, and debug issues reported for our area of responsibility",
+          "Give and receive feedback to grow yourself and the team",
+          "Provide compassionate technical mentorship, pairing opportunities, and code reviews to encourage the growth of others",
+          "Deliver complex code/features with quality and supportability"
+        ],
+        "qualifications": [
+          "4+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python",
+          "OR Associate’s Degree in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related field AND 3+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python",
+          "OR Bachelor's Degree in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related field AND 2+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python",
+          "OR Master's Degree in Computer Science, Electrical Engineering, Electronics Engineering, Math, Physics, Computer Engineering, Computer Science, or related field OR equivalent experience.",
+          "2+ years of demonstrated proficiency in iOS app development, building and maintaining large-scale, highly scalable iOS applications in Swift, and experience developing modern iOS features using UIKit and/or SwiftUI?",
+          "A deep understanding of mobile design patterns, including consistency, reliability, and performance at scale",
+          "Experience with participating in on-call rotations and Apple App Store deployments, including triaging production issues, conducting root cause analysis, and contributing to postmortems"
+        ],
+        "preferred_qualifications": [
+          "Experience in one or more scripting languages (e.g., Bash, Python, or a similar language) to streamline CI/CD pipelines and local development workflows",
+          "Deep expertise with Apple’s Human Interface Guidelines and iOS best practices",
+          "Experience supporting iOS accessibility frameworks and design patterns",
+          "Experience with Apollo GraphQL, including designing API models and implementing resolvers",
+          "Experience with federated GraphQL architectures and API design strategies",
+          "Familiarity with service health indicators (SLOs, SLIs), observability tooling, and data-driven decision making for prioritizing reliability improvements",
+          "Experience driving efforts to reduce incident volume and improve system resilience through proactive monitoring and alerting"
+        ],
+        "job_url": "https://www.github.careers/careers-home/jobs/5428?lang=en-us",
+        "apply_url": "https://careers-githubinc.icims.com/jobs/5428/login"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Software Engineer III"
+        },
+        "company_name": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "GitHub, Inc."
+        },
+        "location": {
+          "source": "visible_text",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Remote, United States"
+        },
+        "job_description": {
+          "source": "html_signals",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "GitHub is the world’s leading platform for agentic software development — powered by Copilot to build, scale, and deliver secure software. Over 180 million developers, including more than 90% of the Fortune 100 companies, use GitHub to collaborate, and more than 77,000 organisations have adopted GitHub Copilot. [...]"
+        },
+        "salary": {
+          "source": "html_signals",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "USD $107,700.00 - USD $285,900.00 /Yr."
+        },
+        "employment_type": {
+          "source": "html_signals",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "FULL_TIME"
+        },
+        "work_arrangement": {
+          "source": "visible_text",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Remote"
+        },
+        "responsibilities": {
+          "source": "html_signals",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Pick up work autonomously and code solutions, working to unblock yourself when stuck either by reaching out for help or finding other solutions in an asynchronous, remote, distributed culture"
+        },
+        "qualifications": {
+          "source": "html_signals",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4+ years experience in Software Engineering, Computer Science, or related technical discipline with proven experience maintaining and delivering production software coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, Go, Ruby, Rust, or Python"
+        },
+        "preferred_qualifications": {
+          "source": "html_signals",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Experience in one or more scripting languages (e.g., Bash, Python, or a similar language) to streamline CI/CD pipelines and local development workflows"
+        },
+        "job_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.github.careers/careers-home/jobs/5428?lang=en-us"
+        },
+        "apply_url": {
+          "source": "html_signals",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://careers-githubinc.icims.com/jobs/5428/login"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 38.74,
+    "input_tokens": 27248,
+    "output_tokens": 2269,
+    "total_tokens": 29517,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_GITHUB_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_GITHUB_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

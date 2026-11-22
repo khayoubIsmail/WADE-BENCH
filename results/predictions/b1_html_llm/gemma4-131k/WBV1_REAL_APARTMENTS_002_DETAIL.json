@@ -1,0 +1,122 @@
+{
+  "task_id": "WBV1_REAL_APARTMENTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": {
+          "value": "https://www.coldwellbankerhomes.com/ca/san-francisco/130-maywood-dr/pid_71582925/",
+          "provenance": {
+            "selector": "link[rel='canonical']",
+            "text_quote": "<link rel=\"canonical\" href=\"https://www.coldwellbankerhomes.com/ca/san-francisco/130-maywood-dr/pid_71582925/\" />"
+          }
+        },
+        "address": {
+          "value": "130 Maywood Dr, San Francisco, CA 94127",
+          "provenance": {
+            "selector": "h1#main-content",
+            "text_quote": "<h1 id=\"main-content\" class=\" notranslate\"><span class='notranslate'>130 Maywood Dr <span class='shrink'>San Francisco, CA 94127</span></span></h1>"
+          }
+        },
+        "listing_title": {
+          "value": "130 Maywood Dr, San Francisco, CA 94127 - MLS 426131611 - Coldwell Banker",
+          "provenance": {
+            "selector": "meta[property='og:title']",
+            "text_quote": "<meta property=\"og:title\" content=\"130 Maywood Dr, San Francisco, CA 94127 - MLS 426131611 - Coldwell Banker\" />"
+          }
+        },
+        "property_type": {
+          "value": "single family property",
+          "provenance": {
+            "selector": "meta[name='description']",
+            "text_quote": "<meta name=\"description\" content=\"For Sale - 130 Maywood Dr, San Francisco, CA - $2,395,000. View details, map and photos of this single family property with 4 bedrooms and 3 total baths. MLS# 426131611.\" />"
+          }
+        },
+        "price": {
+          "value": {
+            "amount": 2395000,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "period": null
+          },
+          "provenance": {
+            "selector": "meta[name='description']",
+            "text_quote": "<meta name=\"description\" content=\"For Sale - 130 Maywood Dr, San Francisco, CA - $2,395,000. View details, map and photos of this single family property with 4 bedrooms and 3 total baths. MLS# 426131611.\" />"
+          }
+        },
+        "bedrooms": {
+          "value": 4,
+          "provenance": {
+            "selector": "meta[name='description']",
+            "text_quote": "<meta name=\"description\" content=\"For Sale - 130 Maywood Dr, San Francisco, CA - $2,395,000. View details, map and photos of this single family property with 4 bedrooms and 3 total baths. MLS# 426131611.\" />"
+          }
+        },
+        "bathrooms": {
+          "value": 3,
+          "provenance": {
+            "selector": "meta[name='description']",
+            "text_quote": "<meta name=\"description\" content=\"For Sale - 130 Maywood Dr, San Francisco, CA - $2,395,000. View details, map and photos of this single family property with 4 bedrooms and 3 total baths. MLS# 426131611.\" />"
+          }
+        },
+        "mls_number": {
+          "value": "426131611",
+          "provenance": {
+            "selector": "meta[name='description']",
+            "text_quote": "<meta name=\"description\" content=\"For Sale - 130 Maywood Dr, San Francisco, CA - $2,395,000. View details, map and photos of this single family property with 4 bedrooms and 3 total baths. MLS# 426131611.\" />"
+          }
+        },
+        "images_urls": {
+          "value": [
+            "https://m1.cbhomes.com/p/1111/426131611/7C6Bf4CE39354F9/pds23tp.webp",
+            "https://m1.cbhomes.com/p/1111/426131611/7929df464c0D401/pds23tp.webp",
+            "https://m.cbhomes.com/p/1111/426131611/8A2eC724e1C840a/pds23tp.webp",
+            "https://m1.cbhomes.com/p/1111/426131611/3A2166093DE9479/pds23tp.webp",
+            "https://m.cbhomes.com/p/1111/426131611/070328Bb5c1D483/pds23tp.webp",
+            "https://m1.cbhomes.com/p/1111/426131611/fb91799CeCE7460/pds23tp.webp",
+            "https://m.cbhomes.com/p/1111/426131611/D373B7174C0244F/pds23tp.webp",
+            "https://m1.cbhomes.com/p/1111/426131611/9106EC5A06794f1/pds23tp.webp",
+            "https://m.cbhomes.com/p/1111/426131611/9719e04DF234428/pds23tp.webp",
+            "https://m1.cbhomes.com/p/1111/426131611/72bdc1136F3d4D5/pds23tp.webp",
+            "https://m.cbhomes.com/p/1111/426131611/F349998c340C466/pds23tp.webp",
+            "https://m1.cbhomes.com/p/1111/426131611/0944feEB63574e8/pds23tp.webp",
+            "https://m.cbhomes.com/p/1111/426131611/Ef846f8F657049c/pds23tp.webp"
+          ],
+          "provenance": {
+            "selector": ".owl-carousel img[data-src]",
+            "text_quote": "data-src=\"https://m1.cbhomes.com/p/1111/426131611/7C6Bf4CE39354F9/pds23tp.webp\""
+          }
+        },
+        "listing_agent": {
+          "value": null,
+          "provenance": {
+            "selector": "body",
+            "text_quote": "No explicit agent details found in the visible HTML structure."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.html",
+        "notes": "Extracted data from a property detail page (Coldwell Banker). Multiple fields were sourced from meta tags and structural elements."
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 27.862,
+    "input_tokens": 19639,
+    "output_tokens": 1964,
+    "total_tokens": 21603,
+    "initial_input_tokens": 19639,
+    "initial_output_tokens": 1964,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

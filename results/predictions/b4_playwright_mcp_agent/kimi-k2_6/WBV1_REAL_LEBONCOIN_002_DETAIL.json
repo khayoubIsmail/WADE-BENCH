@@ -1,0 +1,161 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3201084037",
+        "price": {
+          "amount": 269000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon (92320), Quartier Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "rooms": 3,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "floor_area": {
+          "value": 43,
+          "unit": "m2"
+        },
+        "energy_rating": "D",
+        "price_per_m2": {
+          "amount": 6256,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "additional_facilities": [
+          "Cuisine équipée",
+          "Cave",
+          "Interphone"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-large",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/1c/02/66/1c0266d6e8f7a01caf49fc78d3f635ef4b258059.jpg?rule=ad-large",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/0b/42/580b42b80c2c771bd2f8fab8fa4d88b813ac0487.jpg?rule=ad-large"
+        ],
+        "listing_office": "ACOR IMMOBILIER",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-thumb"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "metadata.json",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://www.leboncoin.fr/ad/ventes_immobilieres/3201084037"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "269 000 €"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Quartier Vieux Bourg - Malraux\nChâtillon (92320)"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Appartement"
+        },
+        "rooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 ch."
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "43 m²"
+        },
+        "energy_rating": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "D"
+        },
+        "price_per_m2": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "6 256 € / m²"
+        },
+        "additional_facilities": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Cuisine équipée, Cave, Interphone"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-large"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "ACOR IMMOBILIER"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://img.leboncoin.fr/api/v1/lbcpb1/images/37/f0/f9/37f0f9feab6adc02d0f650d58ba6728356f4233d.jpg?rule=ad-thumb"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 27.891,
+    "input_tokens": 25158,
+    "output_tokens": 944,
+    "total_tokens": 26102,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_LEBONCOIN_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_LEBONCOIN_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

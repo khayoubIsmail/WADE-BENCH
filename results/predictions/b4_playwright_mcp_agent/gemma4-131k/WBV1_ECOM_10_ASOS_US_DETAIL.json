@@ -1,0 +1,145 @@
+{
+  "task_id": "WBV1_ECOM_10_ASOS_US_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Vila",
+        "description": null,
+        "image_urls": [
+          "https://www.asos.com/asos-design/asos-design-foxton-jelly-flip-flops-in-black/prd/209734628#ctaref-complementary+items_0&featureref1-complementary+items",
+          "https://www.asos.com/4505/4505-icon-soft-touch-yoga-wide-headband-in-white/prd/210051656#ctaref-complementary+items_1&featureref1-complementary+items",
+          "https://www.asos.com/asos-design/asos-design-faina-weave-flat-sandal-in-natural-fabrication/prd/210173010#ctaref-complementary+items_2&featureref1-complementary+items",
+          "https://www.asos.com/asos-design/asos-design-small-stud-earrings-with-mini-wire-floral-design-in-ivory/prd/210468414#ctaref-complementary+items_3&featureref1-complementary+items"
+        ],
+        "price_raw": "$73.00",
+        "product_name": "Vila chiffon trapeze mini dress in light pink",
+        "product_url": "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626?colourWayId=210606627",
+        "rating": null,
+        "review_count": null,
+        "available_colors": [
+          "Sea Pink"
+        ],
+        "color": "Sea Pink",
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": "Vila chiffon trapeze mini dress in light pink",
+        "shipping_text": "Free delivery on qualifying orders.",
+        "size_or_volume": {
+          "selected_size": "Please select",
+          "available_sizes": [
+            "EU 34",
+            "EU 36",
+            "EU 38",
+            "EU 40",
+            "EU 42",
+            "EU 44"
+          ]
+        },
+        "sku": null,
+        "available_sizes": [
+          "EU 34",
+          "EU 36",
+          "EU 38",
+          "EU 40",
+          "EU 42",
+          "EU 44"
+        ],
+        "currency": "USD",
+        "old_price_raw": null,
+        "price": 73.0
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "h1[level=1]",
+          "text_quote": "Vila chiffon trapeze mini dress in light pink"
+        },
+        "description": null,
+        "image_urls": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "list \"Product thumbnails\" [ref=e99]",
+          "text_quote": "Thumbnail 1 of 4, Thumbnail 2 of 4, etc."
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic [ref=e163]",
+          "text_quote": "$73.00"
+        },
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "heading \"Vila chiffon trapeze mini dress in light pink\" [level=1] [ref=e157]",
+          "text_quote": "Vila chiffon trapeze mini dress in light pink"
+        },
+        "product_url": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote": "https://www.asos.com/vila/vila-chiffon-trapeze-mini-dress-in-light-pink/prd/210606626?colourWayId=210606627"
+        },
+        "rating": null,
+        "review_count": null,
+        "available_colors": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic [ref=e167]",
+          "text_quote": "Sea Pink"
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic [ref=e167]",
+          "text_quote": "Sea Pink"
+        },
+        "discount_percentage": null,
+        "first_review": null,
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "region \"Product Gallery\" [ref=e96]",
+          "text_quote": "Vila chiffon trapeze mini dress in light pink"
+        },
+        "shipping_text": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic [ref=e185]",
+          "text_quote": "Free delivery on qualifying orders."
+        },
+        "size_or_volume": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "combobox \"SIZE:\" [ref=e173]",
+          "text_quote": "Please select (Selected)"
+        },
+        "sku": null,
+        "available_sizes": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "combobox \"SIZE:\" [ref=e173]",
+          "text_quote": "EU 34, EU 36, EU 38, EU 40, EU 42, EU 44"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic [ref=e163]",
+          "text_quote": "$73.00"
+        },
+        "old_price_raw": null,
+        "price": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "generic [ref=e163]",
+          "text_quote": "$73.00"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 29.044,
+    "input_tokens": 22657,
+    "output_tokens": 1650,
+    "total_tokens": 24307,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_10_ASOS_US_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_10_ASOS_US_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

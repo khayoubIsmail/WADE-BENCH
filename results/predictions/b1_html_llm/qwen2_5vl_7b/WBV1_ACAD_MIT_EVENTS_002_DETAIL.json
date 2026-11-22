@@ -1,0 +1,47 @@
+{
+  "task_id": "WBV1_ACAD_MIT_EVENTS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "Food Truck Wednesdays",
+        "event_start_date": "2026-05-06T11:30:00-04:00",
+        "event_end_date": "2026-05-06T14:00:00-04:00",
+        "location": {
+          "name": "Building E23",
+          "address": "25 CARLETON ST, Cambridge, MA 02142"
+        },
+        "event_url": "https://calendar.mit.edu/event/food-truck-wednesdays",
+        "image_urls": [
+          "https://localist-images.azureedge.net/photos/52577676356373/huge/89bb992c50db17ea8d68c85018923f58d7fddbdc.jpg"
+        ],
+        "provenance": {
+          "source": "page.html",
+          "text_quote": "Enjoy a selection of local food trucks every Wednesday in the Kendall/MIT Open Space, with plenty of outdoor seating options available! Please check this page for an up-to-date lineup each week."
+        }
+      },
+      "provenance": {
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 11.268,
+    "input_tokens": 22183,
+    "output_tokens": 321,
+    "total_tokens": 22504,
+    "initial_input_tokens": 22183,
+    "initial_output_tokens": 321,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

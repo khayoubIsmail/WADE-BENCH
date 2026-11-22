@@ -1,0 +1,54 @@
+{
+  "task_id": "WBV1_JOBS_RELIEFWEB_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Medical Doctor Gaza",
+        "job_url": "https://reliefweb.int/job/4215856/medical-doctor-gaza",
+        "company_name": "CADUS e.V.",
+        "location": "USA",
+        "posted_date": null,
+        "application_deadline": null,
+        "country": null,
+        "tags": [],
+        "job_description": null
+      },
+      "provenance": {
+        "page.md": "https://reliefweb.int/jobs?list=occupied%20Palestinian%20territory%20Jobs&advanced-search=%28C180%29"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "job_title": "Employment Specialist",
+        "job_url": "https://reliefweb.int/job/4215946/employment-specialist",
+        "company_name": "IRC",
+        "location": "Kenya + 1 more",
+        "posted_date": null,
+        "application_deadline": null,
+        "country": null,
+        "tags": [],
+        "job_description": null
+      },
+      "provenance": {
+        "page.md": "https://reliefweb.int/jobs?list=International%20Rescue%20Committee%20Jobs&advanced-search=%28S2012%29"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 14.018,
+    "input_tokens": 16492,
+    "output_tokens": 689,
+    "total_tokens": 17181,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

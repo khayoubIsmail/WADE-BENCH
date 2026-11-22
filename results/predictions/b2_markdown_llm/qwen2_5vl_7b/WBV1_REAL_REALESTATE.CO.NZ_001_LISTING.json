@@ -1,0 +1,65 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/svgs/re-logo-2022-square.svg",
+        "price": {
+          "amount": 925,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/residential/sale/333-beacon-point-road-wanaka",
+        "price": {
+          "amount": 539,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/residential/sale/28-milan-drive-glen-eden",
+        "price": {
+          "amount": 925,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 14.72,
+    "input_tokens": 18366,
+    "output_tokens": 683,
+    "total_tokens": 19049,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "task_id": "WBV1_GOV_TED_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "government",
+  "schema_id": "tender_notice_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "tender_title": "Spain – Guard services – Servicios de Seguridad y Vigilancia en las dependencias de la Delegación del Gobierno en Andalucía y de la Subdelegación del Gobierno en Sevilla.",
+        "tender_url": "https://ted.europa.eu/en/notice/-/detail/402651-2026",
+        "address": null,
+        "agency": "Delegación del Gobierno en Andalucía",
+        "alternate_physical_delivery_address": null,
+        "alternate_physical_fax_number": null,
+        "apply_portal_link": null,
+        "attachments": null,
+        "authority_id": null,
+        "award_criteria": null,
+        "awarding_agency": "Delegación del Gobierno en Andalucía",
+        "beneficiary_countries_or_territories": [
+          {
+            "country": "Spain",
+            "text": "Spain"
+          }
+        ],
+        "bid_security": null,
+        "bidding_details": {
+          "closing_time": "14:00:00 (UTC+02:00)",
+          "deadline_date": "13/07/2026",
+          "contact_name": null,
+          "contact_persons_details": null,
+          "contract_details": {
+            "contract_nature": "Services",
+            "procedure_type": "Open"
+          }
+        },
+        "borrower_bid_reference": null,
+        "buyer": "Delegación del Gobierno en Andalucía",
+        "buyer_address": null,
+        "categories": [
+          {
+            "category": "Services",
+            "text": "Services"
+          }
+        ],
+        "category": "Services",
+        "classification": null,
+        "close_date": "2026-07-13",
+        "closing_time": "14:00:00 (UTC+02:00)",
+        "contact": null,
+        "contact_information": null,
+        "contact_name": null,
+        "contact_persons_details": null,
+        "contract_duration": null,
+        "contract_end_date": null,
+        "contract_location": null,
+        "contract_nature": "Services",
+        "contract_start_date": null,
+        "contract_terms": null,
+        "contract_type": null,
+        "contract_value": null,
+        "country": "Spain",
+        "current_date_offers_due": null,
+        "deadline_date": "2026-07-13",
+        "department": null,
+        "department_ind_agency": null,
+        "documents": null,
+        "email": null,
+        "engagement": null,
+        "estimated_value_excluding_vat": null,
+        "form_type": null,
+        "inactive_date": null,
+        "industry": null,
+        "internal_identifier": "402651-2026",
+        "items_to_respond": null,
+        "language": null,
+        "last_modified_date": null,
+        "legal_basis": null,
+        "links": [
+          {
+            "text": "Notice Number",
+            "url": "https://ted.europa.eu/en/notice/-/detail/402651-2026"
+          }
+        ],
+        "location": {
+          "city": "Sevilla",
+          "country": "Spain"
+        },
+        "lot_details": null,
+        "lots": null,
+        "notice_dispatch_date": "2026-06-11",
+        "notice_information": null,
+        "ocid": null,
+        "offer_validity_duration": null,
+        "office": null,
+        "open_date": "2026-06-11",
+        "organisation": "Delegación del Gobierno en Andalucía",
+        "original_closing_date": null,
+        "original_publication_date": null,
+        "overview": null,
+        "payment_terms": null,
+        "place_of_performance": {
+          "city": "Sevilla",
+          "country": "Spain"
+        },
+        "procedure_identifier": null,
+        "procedure_type": "Open",
+        "procurement_category": null,
+        "procurement_documents": null,
+        "procurement_method": null,
+        "procurement_nature": "Services",
+        "procurement_reference": "402651-2026",
+        "procurement_stage": null,
+        "procurement_type": null,
+        "project_financing": null,
+        "project_id": null,
+        "project_title": null,
+        "published_by": "Delegación del Gobierno en Andalucía",
+        "published_date": "2026-06-11",
+        "published_to": null,
+        "quotation_no": null,
+        "quotation_type": null,
+        "reference": "402651-2026",
+        "reference_no": "402651-2026",
+        "reference_no_in_notice_text": null,
+        "reference_number": "402651-2026",
+        "regions": [
+          {
+            "country": "Spain",
+            "region": "Andalucía"
+          }
+        ],
+        "registration_level": null,
+        "remarks": null,
+        "required_pre_qualifications": null,
+        "review": null,
+        "revisions": null,
+        "rfx_id": null,
+        "selection_criteria": null,
+        "submission": null,
+        "subtier": null,
+        "suitable_for_smes": null,
+        "suitable_for_vcses": null,
+        "telephone": null,
+        "tender_coverage": null,
+        "tender_reference": "402651-2026",
+        "tender_type": null,
+        "trade_agreements": null,
+        "type_submission": null,
+        "unspsc_codes": null,
+        "updated_date": null,
+        "url_pdf_spanish_language": null,
+        "value": null,
+        "website": null
+      },
+      "provenance": {
+        "tender_title": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(2)"
+        },
+        "tender_url": {
+          "source": "page.html",
+          "selector": "a[href*='402651-2026']"
+        },
+        "agency": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(3)"
+        },
+        "awarding_agency": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(3)"
+        },
+        "beneficiary_countries_or_territories": [
+          {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(4)"
+          }
+        ],
+        "bidding_details": {
+          "closing_time": {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(7)"
+          },
+          "deadline_date": {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(8)"
+          },
+          "contact_name": null,
+          "contact_persons_details": null,
+          "contract_details": {
+            "contract_nature": {
+              "source": "text.txt",
+              "selector": "row:nth-child(2) > *:nth-child(6)"
+            },
+            "procedure_type": {
+              "source": "text.txt",
+              "selector": "row:nth-child(2) > *:nth-child(5)"
+            }
+          }
+        },
+        "buyer": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(3)"
+        },
+        "categories": [
+          {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(6)"
+          }
+        ],
+        "category": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(6)"
+        },
+        "close_date": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(8)"
+        },
+        "closing_time": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(7)"
+        },
+        "contact": null,
+        "contact_information": null,
+        "contact_name": null,
+        "contact_persons_details": null,
+        "contract_duration": null,
+        "contract_end_date": null,
+        "contract_location": null,
+        "contract_nature": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(6)"
+        },
+        "contract_start_date": null,
+        "contract_terms": null,
+        "contract_type": null,
+        "contract_value": null,
+        "country": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(4)"
+        },
+        "current_date_offers_due": null,
+        "deadline_date": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(8)"
+        },
+        "department": null,
+        "department_ind_agency": null,
+        "documents": null,
+        "email": null,
+        "engagement": null,
+        "estimated_value_excluding_vat": null,
+        "form_type": null,
+        "inactive_date": null,
+        "industry": null,
+        "internal_identifier": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(1)"
+        },
+        "items_to_respond": null,
+        "language": null,
+        "last_modified_date": null,
+        "legal_basis": null,
+        "links": [
+          {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(2)"
+          }
+        ],
+        "location": {
+          "city": {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(4)"
+          },
+          "country": {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(4)"
+          }
+        },
+        "lot_details": null,
+        "lots": null,
+        "notice_dispatch_date": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(5)"
+        },
+        "notice_information": null,
+        "ocid": null,
+        "offer_validity_duration": null,
+        "office": null,
+        "open_date": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(5)"
+        },
+        "organisation": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(3)"
+        },
+        "original_closing_date": null,
+        "original_publication_date": null,
+        "overview": null,
+        "payment_terms": null,
+        "place_of_performance": {
+          "city": {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(4)"
+          },
+          "country": {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(4)"
+          }
+        },
+        "procedure_identifier": null,
+        "procedure_type": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(5)"
+        },
+        "procurement_category": null,
+        "procurement_documents": null,
+        "procurement_method": null,
+        "procurement_nature": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(6)"
+        },
+        "procurement_reference": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(1)"
+        },
+        "procurement_stage": null,
+        "procurement_type": null,
+        "project_financing": null,
+        "project_id": null,
+        "project_title": null,
+        "published_by": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(3)"
+        },
+        "published_date": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(5)"
+        },
+        "published_to": null,
+        "quotation_no": null,
+        "quotation_type": null,
+        "reference": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(1)"
+        },
+        "reference_no": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(1)"
+        },
+        "reference_no_in_notice_text": null,
+        "region": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(4)"
+        },
+        "regions": [
+          {
+            "source": "text.txt",
+            "selector": "row:nth-child(2) > *:nth-child(4)"
+          }
+        ],
+        "registration_level": null,
+        "remarks": null,
+        "required_pre_qualifications": null,
+        "review": null,
+        "revisions": null,
+        "rfx_id": null,
+        "selection_criteria": null,
+        "submission": null,
+        "subtier": null,
+        "suitable_for_smes": null,
+        "suitable_for_vcses": null,
+        "telephone": null,
+        "tender_coverage": null,
+        "tender_reference": {
+          "source": "text.txt",
+          "selector": "row:nth-child(2) > *:nth-child(1)"
+        },
+        "tender_type": null,
+        "trade_agreements": null,
+        "type_submission": null,
+        "unspsc_codes": null,
+        "updated_date": null,
+        "url_pdf_spanish_language": null,
+        "value": null,
+        "website": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 52.84,
+    "input_tokens": 30608,
+    "output_tokens": 3263,
+    "total_tokens": 33871,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_GOV_TED_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_GOV_TED_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

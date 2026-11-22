@@ -1,0 +1,35 @@
+{
+  "task_id": "WBV1_REAL_CENTURY_21_002_DETAIL",
+  "baseline": "b2_markdown_llm",
+  "model": "qwen2.5vl:7b",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.century21.com/homes/detail/ca/foster-city/516-saint-vincent-lane/lid-P00800000HBedlsr85sXbFx0cqjVggkXDKwuEsSx",
+        "price": {
+          "amount": 2798000,
+          "currency_code": "USD",
+          "currency_symbol": "$",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 7.581,
+    "input_tokens": 21553,
+    "output_tokens": 163,
+    "total_tokens": 21716,
+    "repaired": false,
+    "error": null
+  }
+}

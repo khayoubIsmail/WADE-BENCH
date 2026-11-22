@@ -1,0 +1,504 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_001_LISTING",
+  "baseline": "b2_markdown_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "address": "Châtillon 92320 Roissys - Béranger",
+        "property_type": "Appartement",
+        "bedrooms": 4,
+        "floor_area": {
+          "value": 77,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 410000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "À la une Annonce à la une. 410 000 € Prix: 410 000 €.. Baisse de prix 5 325 € par / mètres carrés m² Appartement · 4 pièces · 77m² Jardin Jardin Parking Parking Châtillon 92320 Roissys - Béranger Située à Châtillon 92320 Roissys - Béranger."
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "address": "Châtillon 92320 Roissys - Béranger",
+        "property_type": "Maison",
+        "bedrooms": 6,
+        "floor_area": {
+          "value": 180,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 990000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "À la une Annonce à la une. 990 000 € Prix: 990 000 €.. Baisse de prix 5 500 € par / mètres carrés m² Maison · 6 pièces · 180m² Terrain : 287 m² Surface du terrain 287 mètres carrés Châtillon 92320 Roissys - Béranger Située à Châtillon 92320 Roissys - Béranger."
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "address": "Châtillon 92320 Vauban - Coulée Verte",
+        "property_type": "Maison",
+        "bedrooms": 5,
+        "floor_area": {
+          "value": 101,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 549000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Sponsorisé 549 000 € Prix: 549 000 €. 5 436 € par / mètres carrés m² Maison · 5 pièces · 101m² Châtillon 92320 Vauban - Coulée Verte Située à Châtillon 92320 Vauban - Coulée Verte."
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "address": "Châtillon 92320 Matisse - Pierrelais",
+        "property_type": "Appartement",
+        "bedrooms": 5,
+        "floor_area": {
+          "value": 102,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 699000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "699 000 € Prix: 699 000 €.. Baisse de prix 6 853 € par / mètres carrés m² Appartement · 5 pièces · 102m² Terrasse Terrasse Dernier étage Dernier étage Châtillon 92320 Matisse - Pierrelais Située à Châtillon 92320 Matisse - Pierrelais."
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "address": "Châtillon 92320 Centre-ville - Sarments",
+        "property_type": "Appartement",
+        "bedrooms": 3,
+        "floor_area": {
+          "value": 66,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 359000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "359 000 € Prix: 359 000 €. 5 439 € par / mètres carrés m² Appartement · 3 pièces · 66m² Parking Parking Cave Cave Châtillon 92320 Centre-ville - Sarments Située à Châtillon 92320 Centre-ville - Sarments."
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "address": "Châtillon 92320 Berthelot - Avenue de Paris",
+        "property_type": "Appartement",
+        "bedrooms": 2,
+        "floor_area": {
+          "value": 47,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 269000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Skip in SKIP_DURATION 269 000 € Prix: 269 000 €. 5 723 € par / mètres carrés m² Appartement · 2 pièces · 47m² Balcon Balcon Parking Parking Châtillon 92320 Berthelot - Avenue de Paris Située à Châtillon 92320 Berthelot - Avenue de Paris."
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "address": "Châtillon 92320 Roissys - Béranger",
+        "property_type": "Maison",
+        "bedrooms": 4,
+        "floor_area": {
+          "value": 90,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 620000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "620 000 € Prix: 620 000 €. 6 889 € par / mètres carrés m² Maison · 4 pièces · 90m² Terrain : 137 m² Surface du terrain 137 mètres carrés Châtillon 92320 Roissys - Béranger Située à Châtillon 92320 Roissys - Béranger."
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "address": "Châtillon 92320 Berthelot - Avenue de Paris",
+        "property_type": "Maison",
+        "bedrooms": 5,
+        "floor_area": {
+          "value": 101,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 559000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "559 000 € Prix: 559 000 €.. Baisse de prix 5 535 € par / mètres carrés m² Maison · 5 pièces · 101m² Châtillon 92320 Berthelot - Avenue de Paris Située à Châtillon 92320 Berthelot - Avenue de Paris."
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "address": "Châtillon 92320 Vieux Bourg - Malraux",
+        "property_type": "Maison",
+        "bedrooms": 6,
+        "floor_area": {
+          "value": 221,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 990000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Sponsorisé 990 000 € Prix: 990 000 €.. Baisse de prix 4 480 € par / mètres carrés m² Maison · 6 pièces · 221m² Terrain : 287 m² Surface du terrain 287 mètres carrés Châtillon 92320 Vieux Bourg - Malraux Située à Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "address": "Châtillon 92320 Centre-ville - Sarments",
+        "property_type": "Appartement",
+        "bedrooms": 2,
+        "floor_area": {
+          "value": 42,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 278000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "278 000 € Prix: 278 000 €. 6 619 € par / mètres carrés m² Appartement · 2 pièces · 42m² Cave Cave Châtillon 92320 Centre-ville - Sarments Située à Châtillon 92320 Centre-ville - Sarments."
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "address": "Châtillon 92320 Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "bedrooms": 2,
+        "floor_area": {
+          "value": 44,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 313000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "313 000 € Prix: 313 000 €. 7 114 € par / mètres carrés m² Appartement · 2 pièces · 44m² Balcon Balcon Parking Parking Châtillon 92320 Vieux Bourg - Malraux Située à Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "address": "Châtillon 92320 Savoie - Brossolette",
+        "property_type": "Appartement",
+        "bedrooms": 3,
+        "floor_area": {
+          "value": 68,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 386500,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "386 500 € Prix: 386 500 €. 5 684 € par / mètres carrés m² Appartement · 3 pièces · 68m² Balcon Balcon Dernier étage Dernier étage Châtillon 92320 Savoie - Brossolette Située à Châtillon 92320 Savoie - Brossolette."
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "address": "Châtillon 92320 Savoie - Brossolette",
+        "property_type": "Appartement",
+        "bedrooms": 3,
+        "floor_area": {
+          "value": 61,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 250000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "250 000 € Prix: 250 000 €.. Baisse de prix 4 098 € par / mètres carrés m² Appartement · 3 pièces · 61m² Dernier étage Dernier étage Parking Parking Châtillon 92320 Savoie - Brossolette Située à Châtillon 92320 Savoie - Brossolette."
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "address": "Châtillon 92320 Matisse - Pierrelais",
+        "property_type": "Appartement",
+        "bedrooms": null,
+        "floor_area": {
+          "value": 180,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 460000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "460 000 € Prix: 460 000 €. 2 556 € par / mètres carrés m² Appartement · 180m² Châtillon 92320 Matisse - Pierrelais Située à Châtillon 92320 Matisse - Pierrelais."
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "address": "Châtillon 92320 Conservatoire",
+        "property_type": "Appartement",
+        "bedrooms": 1,
+        "floor_area": {
+          "value": 25,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 212000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Sponsorisé 212 000 € Prix: 212 000 €. 8 480 € par / mètres carrés m² Appartement · 1 pièce · 25m² Parking Parking Châtillon 92320 Conservatoire Située à Châtillon 92320 Conservatoire."
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "address": "Châtillon 92320 Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "bedrooms": 2,
+        "floor_area": {
+          "value": 42,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 274000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "274 000 € Prix: 274 000 €. 6 524 € par / mètres carrés m² Appartement · 2 pièces · 42m² Terrasse Terrasse Parking Parking Châtillon 92320 Vieux Bourg - Malraux Située à Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "address": "Châtillon 92320 Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "bedrooms": 2,
+        "floor_area": {
+          "value": 42,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 274000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "274 000 € Prix: 274 000 €. 6 524 € par / mètres carrés m² Appartement · 2 pièces · 42m² Terrasse Terrasse Parking Parking Châtillon 92320 Vieux Bourg - Malraux Située à Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "address": "Châtillon 92320 Maison Blanche",
+        "property_type": "Appartement",
+        "bedrooms": 2,
+        "floor_area": {
+          "value": 48,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 321500,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "321 500 € Prix: 321 500 €. 6 698 € par / mètres carrés m² Appartement · 2 pièces · 48m² Terrasse Terrasse Parking Parking Châtillon 92320 Maison Blanche Située à Châtillon 92320 Maison Blanche."
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "address": "Châtillon 92320 Berthelot - Avenue de Paris",
+        "property_type": "Maison",
+        "bedrooms": 4,
+        "floor_area": {
+          "value": 82,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 659000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "659 000 € Prix: 659 000 €. 8 037 € par / mètres carrés m² Maison · 4 pièces · 82m² Jardin Jardin Châtillon 92320 Berthelot - Avenue de Paris Située à Châtillon 92320 Berthelot - Avenue de Paris."
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "address": "Châtillon 92320 Vauban - Coulée Verte",
+        "property_type": "Appartement",
+        "bedrooms": 3,
+        "floor_area": {
+          "value": 62,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 342000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "342 000 € Prix: 342 000 €. 5 516 € par / mètres carrés m² Appartement · 3 pièces · 62m² Parking Parking Cave Cave Châtillon 92320 Vauban - Coulée Verte Située à Châtillon 92320 Vauban - Coulée Verte."
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "address": "Châtillon 92320 Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "bedrooms": 5,
+        "floor_area": {
+          "value": 118,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 798000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "798 000 € Prix: 798 000 €. 6 763 € par / mètres carrés m² Appartement · 5 pièces · 118m² Terrasse Terrasse Dernier étage Dernier étage Châtillon 92320 Vieux Bourg - Malraux Située à Châtillon 92320 Vieux Bourg - Malraux."
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "address": "Châtillon 92320 Savoie - Brossolette",
+        "property_type": "Maison",
+        "bedrooms": 7,
+        "floor_area": {
+          "value": 207,
+          "unit": "m2"
+        },
+        "price": {
+          "amount": 950000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        }
+      },
+      "provenance": {
+        "source": "page.markdown.md",
+        "text_quote": "Sponsorisé 950 000 € Prix: 950 000 €. 4 589 € par / mètres carrés m² Maison · 7 pièces · 207m² Terrain : 230 m² Surface du terrain 230 mètres carrés Châtillon 92320 Savoie - Brossolette Située à Châtillon 92320 Savoie -"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 175.896,
+    "input_tokens": 28138,
+    "output_tokens": 13782,
+    "total_tokens": 41920,
+    "repaired": true,
+    "error": "json_repaired_after_error: No valid JSON object found in model output"
+  }
+}

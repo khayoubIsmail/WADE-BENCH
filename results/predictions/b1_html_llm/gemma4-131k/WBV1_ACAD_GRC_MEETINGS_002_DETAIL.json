@@ -1,0 +1,85 @@
+{
+  "task_id": "WBV1_ACAD_GRC_MEETINGS_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2026-07-24",
+        "event_name": "Additive Manufacturing of Soft Materials GRC",
+        "event_start_date": "2026-07-19",
+        "event_url": "https://www.grc.org/additive-manufacturing-of-soft-materials-conference/2026/",
+        "location": {
+          "value": "Southern New Hampshire University, Manchester, New Hampshire, United States",
+          "provenance": {
+            "selector": ".large-5.medium-5.columns div#ctl00_ContentPlaceHolder_ContentPage_ucMeetingDetails_pnlSiteLocationInfo span:nth-child(1) .titleLabel + span",
+            "text_quote": "Southern New Hampshire University\n2500 North River Road\nManchester, New Hampshire, United States"
+          }
+        },
+        "Chairs": {
+          "value": null,
+          "provenance": {
+            "selector": ".large-5.medium-5.columns div#ctl00_ContentPlaceHolder_ContentPage_ucMeetingDetails_divChairs .chairsTitle img:nth-child(1)",
+            "text_quote": null
+          }
+        },
+        "Vice Chairs": {
+          "value": null,
+          "provenance": {
+            "selector": ".large-7.medium-7.columns div#ctl00_ContentPlaceHolder_ContentPage_ucMeetingDetails_divViceChairs .chairsTitle img:nth-child(1)",
+            "text_quote": null
+          }
+        },
+        "abstract_deadline": {
+          "value": "2026-06-21",
+          "provenance": {
+            "selector": ".sectionInfo strong",
+            "text_quote": "June 21, 2026"
+          }
+        },
+        "organizer": {
+          "value": "GRC",
+          "provenance": {
+            "selector": ".meetingName h3",
+            "text_quote": "Additive Manufacturing of Soft Materials"
+          }
+        },
+        "website": {
+          "value": "https://www.grc.org/additive-manufacturing-of-soft-materials-conference/2026/",
+          "provenance": {
+            "selector": "base[href]",
+            "text_quote": "https://www.grc.org/additive-manufacturing-of-soft-materials-conference/2026/"
+          }
+        },
+        "description": {
+          "value": "The Additive Manufacturing of Soft Materials GRC is a premier, international scientific conference focused on advancing the frontiers of science through the presentation of cutting-edge and unpublished research, prioritizing time for discussion after each talk and fostering informal interactions among scientists of all career stages. The conference program includes an array of speakers and discussion leaders from institutions and organizations worldwide, concentrating on the latest developments in the field. The conference is five days long and held in a remote location to increase the sense of camaraderie and create scientific communities, with lasting collaborations and friendships. In addition to premier talks, the conference has designated time for poster sessions from individuals of all career stages, and afternoon free time and communal meals allow for informal networking opportunities with leaders in the field. Next-generation soft material additive manufacturing (AM) demands the seamless integration of light-driven chemistries, biofabrication strategies, intelligent systems, and advanced multimaterial platforms. Innovations in performance and fidelity remain critical to enabling functional, stimuli-responsive parts for healthcare, sensing, and beyond. This conference highlights emerging directions in soft matter AM, including bioprinting for medical applications, AI/ML-enabled systems-level design and optimization, and tooling innovations that support the fabrication of complex, multimaterial architectures. By uniting materials chemistry, digital design, instrumentation, and responsive functionality, we aim to address urgent technological challenges across human health and sustainability. This meeting brings together an array of voices from academia, industry, and government to catalyze interdisciplinary collaboration and advance the state of soft material AM.",
+          "provenance": {
+            "selector": ".sectionInfo p",
+            "text_quote": "The Additive Manufacturing of Soft Materials GRC is a premier, international scientific conference focused on advancing the frontiers of science through the presentation of cutting-edge and unpublished research, prioritizing time for discussion after each talk and fostering informal interactions among scientists of all career stages. The conference program includes an array of speakers and discussion leaders from institutions and organizations worldwide, concentrating on the latest developments in the field. The conference is five days long and held in a remote location to increase the sense of camaraderie and create scientific communities, with lasting collaborations and friendships. In addition to premier talks, the conference has designated time for poster sessions from individuals of all career stages, and afternoon free time and communal meals allow for informal networking opportunities with leaders in the field. Next-generation soft material additive manufacturing (AM) demands the seamless integration of light-driven chemistries, biofabrication strategies, intelligent systems, and advanced multimaterial platforms. Innovations in performance and fidelity remain critical to enabling functional, stimuli-responsive parts for healthcare, sensing, and beyond. This conference highlights emerging directions in soft matter AM, including bioprinting for medical applications, AI/ML-enabled systems-level design and optimization, and tooling innovations that support the fabrication of complex, multimaterial architectures. By uniting materials chemistry, digital design, instrumentation, and responsive functionality, we aim to address urgent technological challenges across human health and sustainability. This meeting brings together an array of voices from academia, industry, and government to catalyze interdisciplinary collaboration and advance the state of soft material AM."
+          }
+        }
+      },
+      "provenance": {
+        "source": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 21.785,
+    "input_tokens": 22761,
+    "output_tokens": 1410,
+    "total_tokens": 24171,
+    "initial_input_tokens": 22761,
+    "initial_output_tokens": 1410,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

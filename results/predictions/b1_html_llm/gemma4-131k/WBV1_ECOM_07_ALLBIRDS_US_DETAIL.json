@@ -1,0 +1,85 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Allbirds",
+        "description": "Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with everything.",
+        "image_urls": [
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_LEFT_df58554d-c598-43ea-8ec2-e1f1c0155ccf.png?v=1768955521",
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_BACK_41a00c46-98de-480a-a6e0-a68a6cf09a5b.png?v=1768955521",
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_TD_a5e9e107-fce3-40e1-bbda-4020c586334a.png?v=1768955522",
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_SOLE_8604c34f-2e60-45ae-9368-627fd980a9c8.png?v=1768955521",
+          "https://www.allbirds.com/cdn/shop/files/A12405_26Q1_Cruiser-Canvas-Anthracite-Natural-White_PDP_PAIR_3Q_ace4d1cc-c23b-4831-8ca3-02d7d372cbe9.png?v=1768955522"
+        ],
+        "price_raw": "$75.00",
+        "product_name": "Men's Cruiser Canvas - Anthracite (Natural White Sole)",
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas",
+        "rating": null,
+        "review_count": null
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.html",
+          "selector_or_xpath": "og:site_name",
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "description": {
+          "source": "page.html",
+          "selector_or_xpath": "meta[content*='Classic court style'], meta[name='twitter:description']",
+          "text_quote_or_attribute": "Classic court style, relaxed for warmer days. Cruiser Canvas pairs a familiar silhouette with a subtly textured hemp-and-cotton upper that feels light, breathable, and ready to wear on repeat. Comfortable enough for all day. Simple enough to go with everything."
+        },
+        "image_urls": {
+          "source": "page.html",
+          "selector_or_xpath": "script[type='text/javascript'] > window.ALLBIRDS.page.productDetailsPage.images[*].src",
+          "text_quote_or_attribute": "Multiple image URLs extracted from the ALLBIRDS JavaScript object."
+        },
+        "price_raw": {
+          "source": "page.html",
+          "selector_or_xpath": "meta[property='og:price:amount']",
+          "text_quote_or_attribute": "75.00"
+        },
+        "product_name": {
+          "source": "page.html",
+          "selector_or_xpath": "meta[property='og:title']",
+          "text_quote_or_attribute": "Men's Cruiser Canvas - Anthracite (Natural White Sole)"
+        },
+        "product_url": {
+          "source": "page.html",
+          "selector_or_xpath": "link[rel='canonical']/@href",
+          "text_quote_or_attribute": "https://www.allbirds.com/products/mens-cruiser-canvas"
+        },
+        "rating": {
+          "source": "page.html",
+          "selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "review_count": {
+          "source": "page.html",
+          "selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 15.305,
+    "input_tokens": 15598,
+    "output_tokens": 1217,
+    "total_tokens": 16815,
+    "initial_input_tokens": 15598,
+    "initial_output_tokens": 1217,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

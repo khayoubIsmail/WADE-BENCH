@@ -1,0 +1,690 @@
+{
+  "task_id": "WBV1_ECOM_03_CASPER_US_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "product_name": "The One",
+        "product_url": "https://casper.com/products/casper-one-foam",
+        "image_url": "https://casper.com/cdn/shop/files/The-One-PDP-hero-without-Consumer-Reports.jpg?v=1757442326&width=1920",
+        "price_raw": "$599",
+        "old_price_raw": "$749",
+        "discount_percentage": "20%",
+        "rating": "4.4",
+        "review_count": "17807",
+        "short_description": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love.",
+        "currency": "USD",
+        "brand": "Casper",
+        "category": "Mattress",
+        "availability": null,
+        "color": null,
+        "color_options": null,
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-one-foam\"] .product-card__title",
+          "text_quote": "The One"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-one-foam\"] a[href=\"/products/casper-one-foam\"]",
+          "text_quote": "href=\"/products/casper-one-foam\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-one-foam\"] img.product-card__image--primary",
+          "text_quote": "src=\"https://casper.com/cdn/shop/files/The-One-PDP-hero-without-Consumer-Reports.jpg?v=1757442326&width=1920\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-one-foam\"] sale-price",
+          "text_quote": "$599"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-one-foam\"] compare-at-price",
+          "text_quote": "$749"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-one-foam\"] on-sale-badge",
+          "text_quote": "SAVE 20%"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-one-foam\"] .yotpo-sr-bottom-line-score",
+          "text_quote": "4.4"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-one-foam\"] .yotpo-sr-bottom-line-text",
+          "text_quote": "(17807)"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-one-foam\"] .product-card__description",
+          "text_quote": "Expertly engineered to solve your sleep needs without breaking the bank, our signature foam mattress features three layers of cradling foam and a responsive yet supportive medium-firm feel sleepers love."
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-currency=\"USD\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "product_name": "Cloud One",
+        "product_url": "https://casper.com/products/casper-cloud-one-foam",
+        "image_url": "https://casper.com/cdn/shop/files/Cloud-One-PDP-Hero-without-Consumer-Reports.jpg?v=1780428805&width=1897",
+        "price_raw": "$799",
+        "old_price_raw": "$999",
+        "discount_percentage": "20%",
+        "rating": "4.3",
+        "review_count": "128",
+        "short_description": "Our most popular mattress just got an upgrade. Featuring all-new patent-pending Casper Core+™ technology, Cloud One delivers a boost of plushness while giving you all the support and breathability of The One.",
+        "currency": "USD",
+        "brand": "Casper",
+        "category": "Mattress",
+        "availability": null,
+        "color": null,
+        "color_options": null,
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-cloud-one-foam\"] .product-card__title",
+          "text_quote": "Cloud One"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-cloud-one-foam\"] a[href=\"/products/casper-cloud-one-foam\"]",
+          "text_quote": "href=\"/products/casper-cloud-one-foam\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-cloud-one-foam\"] img.product-card__image--primary",
+          "text_quote": "src=\"https://casper.com/cdn/shop/files/Cloud-One-PDP-Hero-without-Consumer-Reports.jpg?v=1780428805&width=1897\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-cloud-one-foam\"] sale-price",
+          "text_quote": "$799"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-cloud-one-foam\"] compare-at-price",
+          "text_quote": "$999"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-cloud-one-foam\"] on-sale-badge",
+          "text_quote": "SAVE 20%"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-cloud-one-foam\"] .yotpo-sr-bottom-line-score",
+          "text_quote": "4.3"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-cloud-one-foam\"] .yotpo-sr-bottom-line-text",
+          "text_quote": "(128)"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-cloud-one-foam\"] .product-card__description",
+          "text_quote": "Our most popular mattress just got an upgrade. Featuring all-new patent-pending Casper Core+™ technology, Cloud One delivers a boost of plushness while giving you all the support and breathability of The One."
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-currency=\"USD\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "product_name": "Dream",
+        "product_url": "https://casper.com/products/casper-dream-hybrid",
+        "image_url": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-without-Consumer-Reports.jpg?v=1758832974&width=1920",
+        "price_raw": "$1,045",
+        "old_price_raw": "$1,495",
+        "discount_percentage": "30%",
+        "rating": "4.5",
+        "review_count": "4333",
+        "short_description": "Our dream? A hybrid mattress that helps solve tossing and turning. Pairing responsive springs with ergonomic support zones, Dream keeps you aligned and dreaming all night.",
+        "currency": "USD",
+        "brand": "Casper",
+        "category": "Mattress",
+        "availability": null,
+        "color": null,
+        "color_options": null,
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid\"] .product-card__title",
+          "text_quote": "Dream"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid\"] a[href=\"/products/casper-dream-hybrid\"]",
+          "text_quote": "href=\"/products/casper-dream-hybrid\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid\"] img.product-card__image--primary",
+          "text_quote": "src=\"https://casper.com/cdn/shop/files/Dream-PDP-Hero-without-Consumer-Reports.jpg?v=1758832974&width=1920\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid\"] sale-price",
+          "text_quote": "$1,045"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid\"] compare-at-price",
+          "text_quote": "$1,495"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid\"] on-sale-badge",
+          "text_quote": "SAVE 30%"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid\"] .yotpo-sr-bottom-line-score",
+          "text_quote": "4.5"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid\"] .yotpo-sr-bottom-line-text",
+          "text_quote": "(4333)"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid\"] .product-card__description",
+          "text_quote": "Our dream? A hybrid mattress that helps solve tossing and turning. Pairing responsive springs with ergonomic support zones, Dream keeps you aligned and dreaming all night."
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-currency=\"USD\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "product_name": "Snow",
+        "product_url": "https://casper.com/products/casper-snow-v3",
+        "image_url": "https://casper.com/cdn/shop/files/Snow-PDP-Hero-without-Consumer-Reports.jpg?v=1758832991&width=1920",
+        "price_raw": "$1,395",
+        "old_price_raw": "$1,995",
+        "discount_percentage": "30%",
+        "rating": "4.4",
+        "review_count": "982",
+        "short_description": "Engineered with Snow Technology, including QuickCool™ Cover, our most popular cooling mattress attacks overheating for 12+ hours, not just when you're falling asleep. Pairing together conforming memory foam and encased coils, sleep has never been so refreshing.",
+        "currency": "USD",
+        "brand": "Casper",
+        "category": "Mattress",
+        "availability": null,
+        "color": null,
+        "color_options": null,
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-v3\"] .product-card__title",
+          "text_quote": "Snow"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-v3\"] a[href=\"/products/casper-snow-v3\"]",
+          "text_quote": "href=\"/products/casper-snow-v3\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-v3\"] img.product-card__image--primary",
+          "text_quote": "src=\"https://casper.com/cdn/shop/files/Snow-PDP-Hero-without-Consumer-Reports.jpg?v=1758832991&width=1920\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-v3\"] sale-price",
+          "text_quote": "$1,395"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-v3\"] compare-at-price",
+          "text_quote": "$1,995"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-v3\"] on-sale-badge",
+          "text_quote": "SAVE 30%"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-v3\"] .yotpo-sr-bottom-line-score",
+          "text_quote": "4.4"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-v3\"] .yotpo-sr-bottom-line-text",
+          "text_quote": "(982)"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-v3\"] .product-card__description",
+          "text_quote": "Engineered with Snow Technology, including QuickCool™ Cover, our most popular cooling mattress attacks overheating for 12+ hours, not just when you're falling asleep. Pairing together conforming memory foam and encased coils, sleep has never been so refreshing."
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-currency=\"USD\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "product_name": "Dream Max",
+        "product_url": "https://casper.com/products/casper-dream-max-hybrid",
+        "image_url": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647157&width=1920",
+        "price_raw": "$1,815",
+        "old_price_raw": "$2,595",
+        "discount_percentage": "30%",
+        "rating": "4.3",
+        "review_count": "2572",
+        "short_description": "We made your dream hybrid mattress into a reality. Designed over years, our most supportive mattress ever combines pressure-relieving foam, precise ergonomic zoning, and responsive coils to align your spine, cradle your body, and support you all night.",
+        "currency": "USD",
+        "brand": "Casper",
+        "category": "Mattress",
+        "availability": null,
+        "color": null,
+        "color_options": null,
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-max-hybrid\"] .product-card__title",
+          "text_quote": "Dream Max"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-max-hybrid\"] a[href=\"/products/casper-dream-max-hybrid\"]",
+          "text_quote": "href=\"/products/casper-dream-max-hybrid\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-max-hybrid\"] img.product-card__image--primary",
+          "text_quote": "src=\"https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647157&width=1920\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-max-hybrid\"] sale-price",
+          "text_quote": "$1,815"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-max-hybrid\"] compare-at-price",
+          "text_quote": "$2,595"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-max-hybrid\"] on-sale-badge",
+          "text_quote": "SAVE 30%"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-max-hybrid\"] .yotpo-sr-bottom-line-score",
+          "text_quote": "4.3"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-max-hybrid\"] .yotpo-sr-bottom-line-text",
+          "text_quote": "(2572)"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-max-hybrid\"] .product-card__description",
+          "text_quote": "We made your dream hybrid mattress into a reality. Designed over years, our most supportive mattress ever combines pressure-relieving foam, precise ergonomic zoning, and responsive coils to align your spine, cradle your body, and support you all night."
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-currency=\"USD\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "product_name": "Snow Max",
+        "product_url": "https://casper.com/products/casper-snow-max-hybrid-v3",
+        "image_url": "https://casper.com/cdn/shop/files/Snow-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647162&width=1920",
+        "price_raw": "$2,270",
+        "old_price_raw": "$3,245",
+        "discount_percentage": "30%",
+        "rating": "4.4",
+        "review_count": "519",
+        "short_description": "Aches and pains? Night sweats? With our most supportive ergonomics and enhanced Snow Technology, including QuickCool™ Cover, Snow Max is the ultimate solution for whatever is keeping you up.",
+        "currency": "USD",
+        "brand": "Casper",
+        "category": "Mattress",
+        "availability": null,
+        "color": null,
+        "color_options": null,
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-max-hybrid-v3\"] .product-card__title",
+          "text_quote": "Snow Max"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-max-hybrid-v3\"] a[href=\"/products/casper-snow-max-hybrid-v3\"]",
+          "text_quote": "href=\"/products/casper-snow-max-hybrid-v3\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-max-hybrid-v3\"] img.product-card__image--primary",
+          "text_quote": "src=\"https://casper.com/cdn/shop/files/Snow-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647162&width=1920\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-max-hybrid-v3\"] sale-price",
+          "text_quote": "$2,270"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-max-hybrid-v3\"] compare-at-price",
+          "text_quote": "$3,245"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-max-hybrid-v3\"] on-sale-badge",
+          "text_quote": "SAVE 30%"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-max-hybrid-v3\"] .yotpo-sr-bottom-line-score",
+          "text_quote": "4.4"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-max-hybrid-v3\"] .yotpo-sr-bottom-line-text",
+          "text_quote": "(519)"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-snow-max-hybrid-v3\"] .product-card__description",
+          "text_quote": "Aches and pains? Night sweats? With our most supportive ergonomics and enhanced Snow Technology, including QuickCool™ Cover, Snow Max is the ultimate solution for whatever is keeping you up."
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-currency=\"USD\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "product_name": "Dream with QuickCool™ Cover",
+        "product_url": "https://casper.com/products/casper-dream-hybrid-quickcool",
+        "image_url": "https://casper.com/cdn/shop/files/Dream-PDP-Hero-without-Consumer-Reports.jpg?v=1758832974&width=1920",
+        "price_raw": "$1,195",
+        "old_price_raw": "$1,645",
+        "discount_percentage": "30%",
+        "rating": "4.5",
+        "review_count": "4333",
+        "short_description": "Upgrade your Dream Hybrid Mattress with the Casper QuickCool™ Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy.",
+        "currency": "USD",
+        "brand": "Casper",
+        "category": "Mattress",
+        "availability": null,
+        "color": null,
+        "color_options": null,
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-quickcool\"] .product-card__title",
+          "text_quote": "Dream with QuickCool™ Cover"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-quickcool\"] a[href=\"/products/casper-dream-hybrid-quickcool\"]",
+          "text_quote": "href=\"/products/casper-dream-hybrid-quickcool\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-quickcool\"] img.product-card__image--primary",
+          "text_quote": "src=\"https://casper.com/cdn/shop/files/Dream-PDP-Hero-without-Consumer-Reports.jpg?v=1758832974&width=1920\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-quickcool\"] sale-price",
+          "text_quote": "$1,195"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-quickcool\"] compare-at-price",
+          "text_quote": "$1,645"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-quickcool\"] on-sale-badge",
+          "text_quote": "SAVE 30%"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-quickcool\"] .yotpo-sr-bottom-line-score",
+          "text_quote": "4.5"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-quickcool\"] .yotpo-sr-bottom-line-text",
+          "text_quote": "(4333)"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-quickcool\"] .product-card__description",
+          "text_quote": "Upgrade your Dream Hybrid Mattress with the Casper QuickCool™ Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy."
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-currency=\"USD\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "product_name": "Dream Max with QuickCool™ Cover",
+        "product_url": "https://casper.com/products/casper-dream-hybrid-max-quickcool",
+        "image_url": "https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647157&width=1920",
+        "price_raw": "$1,965",
+        "old_price_raw": "$2,745",
+        "discount_percentage": "30%",
+        "rating": "4.3",
+        "review_count": "2572",
+        "short_description": "Upgrade your Dream Max Hybrid Mattress with the Casper QuickCool™ Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy. Our ultimate ergonomic design features seven support zones to align your spine and help reduce aches and pains.",
+        "currency": "USD",
+        "brand": "Casper",
+        "category": "Mattress",
+        "availability": null,
+        "color": null,
+        "color_options": null,
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-max-quickcool\"] .product-card__title",
+          "text_quote": "Dream Max with QuickCool™ Cover"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-max-quickcool\"] a[href=\"/products/casper-dream-hybrid-max-quickcool\"]",
+          "text_quote": "href=\"/products/casper-dream-hybrid-max-quickcool\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-max-quickcool\"] img.product-card__image--primary",
+          "text_quote": "src=\"https://casper.com/cdn/shop/files/Dream-Max-PDP-Hero-with-ACA-badge-top-right.jpg?v=1772647157&width=1920\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-max-quickcool\"] sale-price",
+          "text_quote": "$1,965"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-max-quickcool\"] compare-at-price",
+          "text_quote": "$2,745"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-max-quickcool\"] on-sale-badge",
+          "text_quote": "SAVE 30%"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-max-quickcool\"] .yotpo-sr-bottom-line-score",
+          "text_quote": "4.3"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-max-quickcool\"] .yotpo-sr-bottom-line-text",
+          "text_quote": "(2572)"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"casper-dream-hybrid-max-quickcool\"] .product-card__description",
+          "text_quote": "Upgrade your Dream Max Hybrid Mattress with the Casper QuickCool™ Cover featuring specialty cool-to-the-touch fibers that give an instantly refreshing feel to help you get cozy. Our ultimate ergonomic design features seven support zones to align your spine and help reduce aches and pains."
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-currency=\"USD\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "product_name": "Snug™",
+        "product_url": "https://casper.com/products/snug-v2",
+        "image_url": "https://casper.com/cdn/shop/files/Snug-PDP-Hero-Twin.jpg?v=1772215390&width=1920",
+        "price_raw": "$499",
+        "old_price_raw": "$599",
+        "discount_percentage": "$100",
+        "rating": "5",
+        "review_count": "21",
+        "short_description": "Long-lasting materials and a pair of waterproof mattress protectors give you peace of of mind, while three layers of breathable, supportive foam gives them the deeper sleep little dreamers need.",
+        "currency": "USD",
+        "brand": "Casper",
+        "category": "Mattress",
+        "availability": null,
+        "color": null,
+        "color_options": null,
+        "seller_name": null
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"snug-v2\"] .product-card__title",
+          "text_quote": "Snug™"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"snug-v2\"] a[href=\"/products/snug-v2\"]",
+          "text_quote": "href=\"/products/snug-v2\""
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"snug-v2\"] img.product-card__image--primary",
+          "text_quote": "src=\"https://casper.com/cdn/shop/files/Snug-PDP-Hero-Twin.jpg?v=1772215390&width=1920\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"snug-v2\"] sale-price",
+          "text_quote": "$499"
+        },
+        "old_price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"snug-v2\"] compare-at-price",
+          "text_quote": "$599"
+        },
+        "discount_percentage": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"snug-v2\"] on-sale-badge",
+          "text_quote": "SAVE $100"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"snug-v2\"] .yotpo-sr-bottom-line-score",
+          "text_quote": "5"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"snug-v2\"] .yotpo-sr-bottom-line-text",
+          "text_quote": "(21)"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "product-card[handle=\"snug-v2\"] .product-card__description",
+          "text_quote": "Long-lasting materials and a pair of waterproof mattress protectors give you peace of of mind, while three layers of breathable, supportive foam gives them the deeper sleep little dreamers need."
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "script[data-currency=\"USD\"]",
+          "text_quote": "USD",
+          "inferred": true
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 161.496,
+    "input_tokens": 179007,
+    "output_tokens": 6034,
+    "total_tokens": 185041,
+    "initial_input_tokens": 179007,
+    "initial_output_tokens": 6034,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

@@ -1,0 +1,1037 @@
+{
+  "task_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING",
+  "website_id": "mit_events",
+  "schema_id": "academic_event_v1",
+  "snapshot_id": "mit_events_listing",
+  "snapshot_path": "raw_snapshots/academic/mit_events_listing",
+  "live_url": "https://calendar.mit.edu",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 10
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_001",
+      "fields": {
+        "event_name": {
+          "value": "Book Discussion",
+          "normalized": "Book Discussion"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/book-discussion",
+          "normalized": "https://calendar.mit.edu/event/book-discussion"
+        },
+        "event_start_date": {
+          "value": "Wed, May 27 4:30pm GMT+1",
+          "normalized": "05-27-2026; 16:30"
+        },
+        "event_end_date": {
+          "value": "Thu, May 28 5am GMT+1",
+          "normalized": "05-28-2026; 05:00"
+        },
+        "location": {
+          "value": "Virtual Event",
+          "normalized": "Virtual Event"
+        },
+        "cost": {
+          "value": "free",
+          "normalized": "free"
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/50472045795618/card/850abea70344afe5be5db93b6971b2bb9020ad63.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/50472045795618/card/850abea70344afe5be5db93b6971b2bb9020ad63.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[1]/div[2]/h3[1]/a[1]",
+          "text_quote": "Book Discussion",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[1]/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[1]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[1]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "em-local-time[start='2026-05-27T11:30:00-04:00']",
+          "xpath": "//em-local-time[@start='2026-05-27T11:30:00-04:00']",
+          "text_quote": "Wed, May 27 4:30pm - Thu, May 28 5am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[1]/div[2]/p[1]/em-local-time",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[1]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Thu, May 28 5am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[1]/div[2]/p[1]/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(2)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[1]/div[2]/p[2]",
+          "text_quote": "Virtual Event",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[1]/div[2]/p[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(2)"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[1]/div[2]/span[1]",
+          "text_quote": "free",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[1]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[1]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_002",
+      "fields": {
+        "event_name": {
+          "value": "Food Truck Wednesdays",
+          "normalized": "Food Truck Wednesdays"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/food-truck-wednesdays",
+          "normalized": "https://calendar.mit.edu/event/food-truck-wednesdays"
+        },
+        "event_start_date": {
+          "value": "Wed, May 27 4:30pm GMT+1",
+          "normalized": "05-27-2026; 16:30"
+        },
+        "event_end_date": {
+          "value": "Wed, May 27 7pm GMT+1",
+          "normalized": "05-27-2026; 19:00"
+        },
+        "location": {
+          "value": "Building E23, Outside",
+          "normalized": "Building E23, Outside"
+        },
+        "cost": {
+          "value": null,
+          "normalized": null
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/52577676356373/card/89bb992c50db17ea8d68c85018923f58d7fddbdc.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/52577676356373/card/89bb992c50db17ea8d68c85018923f58d7fddbdc.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='featured_section_47356254044824_item_0'] > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='featured_section_47356254044824_item_0']/div[2]/h3[1]/a[1]",
+          "text_quote": "Food Truck Wednesdays",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='featured_section_47356254044824_item_0'] > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='featured_section_47356254044824_item_0']/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "em-local-time[start='2026-05-27T11:30:00-04:00']",
+          "xpath": "//em-local-time[@start='2026-05-27T11:30:00-04:00']",
+          "text_quote": "Wednesday, May 27, 2026 4:30pm to 7:00pm GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[2]/p[1]/em-local-time",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "em-local-time[end='2026-05-27T14:00:00-04:00']",
+          "xpath": "//em-local-time[@end='2026-05-27T14:00:00-04:00']",
+          "text_quote": "Wednesday, May 27, 2026 4:30pm to 7:00pm GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[2]/p[1]/em-local-time",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='featured_section_47356254044824_item_0'] > div:nth-of-type(2) > p:nth-of-type(2) > a:nth-of-type(1)",
+          "xpath": "//*[@id='featured_section_47356254044824_item_0']/div[2]/p[2]/a[1]",
+          "text_quote": "Building E23, Outside",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/div[2]/p[2]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[2]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[2]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_003",
+      "fields": {
+        "event_name": {
+          "value": "Thesis Defense - Skylar Kim",
+          "normalized": "Thesis Defense - Skylar Kim"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/thesis-defense-skylar-kim",
+          "normalized": "https://calendar.mit.edu/event/thesis-defense-skylar-kim"
+        },
+        "event_start_date": {
+          "value": "Wed, May 27 6pm GMT+1",
+          "normalized": "05-27-2026; 18:00"
+        },
+        "event_end_date": {
+          "value": "Wed, May 27 6pm GMT+1",
+          "normalized": "05-27-2026; 18:00"
+        },
+        "location": {
+          "value": "Building 37, 212",
+          "normalized": "Building 37, 212"
+        },
+        "cost": {
+          "value": null,
+          "normalized": null
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/52835004743057/card/6b135ce4e7015321d01fca8a60a68ac43d869e3c.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/52835004743057/card/6b135ce4e7015321d01fca8a60a68ac43d869e3c.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[3]/div[2]/h3[1]/a[1]",
+          "text_quote": "Thesis Defense - Skylar Kim",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[3]/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[3]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[3]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[3]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Wed, May 27 6pm GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[3]/div[2]/p[1]/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[3]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Wed, May 27 6pm GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[3]/div[2]/p[1]/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(2) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[3]/div[2]/p[2]/a[1]",
+          "text_quote": "Building 37, 212",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[3]/div[2]/p[2]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[3]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[3]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_004",
+      "fields": {
+        "event_name": {
+          "value": "Softball vs. Colby College",
+          "normalized": "Softball vs. Colby College"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/softball-vs-brown-university-3228",
+          "normalized": "https://calendar.mit.edu/event/softball-vs-brown-university-3228"
+        },
+        "event_start_date": {
+          "value": "Thu, May 28 6am GMT+1",
+          "normalized": "05-28-2026; 06:00"
+        },
+        "event_end_date": {
+          "value": "Thu, May 28 6am GMT+1",
+          "normalized": "05-28-2026; 06:00"
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        },
+        "cost": {
+          "value": null,
+          "normalized": null
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[4]/div[2]/h3[1]/a[1]",
+          "text_quote": "Softball vs. Colby College",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[4]/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[4]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[4]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[4]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Thu, May 28 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[4]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[4]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Thu, May 28 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[4]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[4]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[4]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_005",
+      "fields": {
+        "event_name": {
+          "value": "Baseball vs. Salve Regina",
+          "normalized": "Baseball vs. Salve Regina"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/baseball-vs-st-olaf-college",
+          "normalized": "https://calendar.mit.edu/event/baseball-vs-st-olaf-college"
+        },
+        "event_start_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "event_end_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        },
+        "cost": {
+          "value": null,
+          "normalized": null
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[5]/div[2]/h3[1]/a[1]",
+          "text_quote": "Baseball vs. Salve Regina",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[5]/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[5]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[5]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[5]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[5]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[5]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[5]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[5]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[5]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_006",
+      "fields": {
+        "event_name": {
+          "value": "Men's Heavyweight Crew vs. IRA National Championship",
+          "normalized": "Men's Heavyweight Crew vs. IRA National Championship"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/mens-heavyweight-crew-vs-united-states-coast-guard-academy",
+          "normalized": "https://calendar.mit.edu/event/mens-heavyweight-crew-vs-united-states-coast-guard-academy"
+        },
+        "event_start_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "event_end_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        },
+        "cost": {
+          "value": null,
+          "normalized": null
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[6]/div[2]/h3[1]/a[1]",
+          "text_quote": "Men's Heavyweight Crew vs. IRA National Championship",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[6]/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[6]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[6]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[6]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[6]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[6]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[6]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[6]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[6]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_007",
+      "fields": {
+        "event_name": {
+          "value": "Men's Lightweight Crew vs. IRA National Championship",
+          "normalized": "Men's Lightweight Crew vs. IRA National Championship"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/mens-lightweight-crew-vs-national-collegiate-lightweight-invitational",
+          "normalized": "https://calendar.mit.edu/event/mens-lightweight-crew-vs-national-collegiate-lightweight-invitational"
+        },
+        "event_start_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "event_end_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        },
+        "cost": {
+          "value": null,
+          "normalized": null
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[7]/div[2]/h3[1]/a[1]",
+          "text_quote": "Men's Lightweight Crew vs. IRA National Championship",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[7]/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[7]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[7]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[7]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[7]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[7]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[7]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[7]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[7]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_008",
+      "fields": {
+        "event_name": {
+          "value": "Women's Lightweight Crew vs. IRA National Championship",
+          "normalized": "Women's Lightweight Crew vs. IRA National Championship"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/womens-lightweight-crew-vs-simmons-university-9789",
+          "normalized": "https://calendar.mit.edu/event/womens-lightweight-crew-vs-simmons-university-9789"
+        },
+        "event_start_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "event_end_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        },
+        "cost": {
+          "value": null,
+          "normalized": null
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[8]/div[2]/h3[1]/a[1]",
+          "text_quote": "Women's Lightweight Crew vs. IRA National Championship",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[8]/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[8]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[8]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[8]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[8]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[8]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[8]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[8]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[8]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_009",
+      "fields": {
+        "event_name": {
+          "value": "Women's Openweight Crew vs. Patriot League Rowing Championship",
+          "normalized": "Women's Openweight Crew vs. Patriot League Rowing Championship"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/womens-openweight-crew-vs-united-states-coast-guard-academy",
+          "normalized": "https://calendar.mit.edu/event/womens-openweight-crew-vs-united-states-coast-guard-academy"
+        },
+        "event_start_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "event_end_date": {
+          "value": "Fri, May 29 6am GMT+1",
+          "normalized": "05-29-2026; 06:00"
+        },
+        "location": {
+          "value": null,
+          "normalized": null
+        },
+        "cost": {
+          "value": null,
+          "normalized": null
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/32945804732411/card/00bcef2f5210c1816251245b37f2460ec83aa8df.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[9]/div[2]/h3[1]/a[1]",
+          "text_quote": "Women's Openweight Crew vs. Patriot League Rowing Championship",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[9]/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[9]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[9]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[9]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[9]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[9]/div[2]/p[1]/em-local-time[1]",
+          "text_quote": "Fri, May 29 6am GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[9]/div[2]/p/em-local-time",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[9]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[9]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_ACAD_MIT_EVENTS_001_LISTING_010",
+      "fields": {
+        "event_name": {
+          "value": "MIT Mobility Forum",
+          "normalized": "MIT Mobility Forum"
+        },
+        "event_url": {
+          "value": "https://calendar.mit.edu/event/mit-mobility-forum-1553",
+          "normalized": "https://calendar.mit.edu/event/mit-mobility-forum-1553"
+        },
+        "event_start_date": {
+          "value": "Fri, May 29 5pm GMT+1",
+          "normalized": "05-29-2026; 17:00"
+        },
+        "event_end_date": {
+          "value": "Fri, May 29 6pm GMT+1",
+          "normalized": "05-29-2026; 18:00"
+        },
+        "location": {
+          "value": "Virtual Event",
+          "normalized": "Virtual Event"
+        },
+        "cost": {
+          "value": "Free",
+          "normalized": "free"
+        },
+        "image_url": {
+          "value": "https://localist-images.azureedge.net/photos/45084716536999/card/c32e91cd0ec6e9be43f42f066e8abb75f8e079d2.jpg",
+          "normalized": "https://localist-images.azureedge.net/photos/45084716536999/card/c32e91cd0ec6e9be43f42f066e8abb75f8e079d2.jpg"
+        }
+      },
+      "provenance": {
+        "event_name": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[10]/div[2]/h3[1]/a[1]",
+          "text_quote": "MIT Mobility Forum",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[10]/div[2]/h3/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(2) > h3:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[10]/div[1]/a[1]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[10]/div[1]/a",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "event_start_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "em-local-time[start='2026-05-29T12:00:00-04:00']",
+          "xpath": "//em-local-time[@start='2026-05-29T12:00:00-04:00']",
+          "text_quote": "Fri, May 29 5pm to 6pm GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[10]/div[2]/p[1]/em-local-time",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(10) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "event_end_date": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "em-local-time[end='2026-05-29T13:00:00-04:00']",
+          "xpath": "//em-local-time[@end='2026-05-29T13:00:00-04:00']",
+          "text_quote": "Fri, May 29 5pm to 6pm GMT+1",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[10]/div[2]/p[1]/em-local-time",
+          "css_selector_absolute": "html > body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(10) > div:nth-of-type(2) > p:nth-of-type(1) > em-local-time",
+          "provenance_verifiable": true,
+          "provenance_note": "date value derived from the referenced event date/range node in frozen DOM"
+        },
+        "location": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(2) > p:nth-of-type(2)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[10]/div[2]/p[2]",
+          "text_quote": "Virtual Event",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[10]/div[2]/p[2]",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(2) > p:nth-of-type(2)"
+        },
+        "cost": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(2) > span:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[10]/div[2]/span[1]",
+          "text_quote": "Free",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[10]/div[2]/span",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(2) > span:nth-of-type(1)"
+        },
+        "image_url": {
+          "snapshot_id": "mit_events_listing",
+          "css_selector": "[id='tabs-2902-3600'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)",
+          "xpath": "//*[@id='tabs-2902-3600']/div[1]/div[1]/div[10]/div[1]/a[1]/img[1]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[2]/div[3]/div[2]/div[1]/div/div/div[10]/div[1]/a/img",
+          "css_selector_absolute": "html > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(10) > div:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2951 @@
+{
+  "task_id": "WBV1_REAL_ONTHEMARKET_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19328039/",
+        "price": {
+          "amount": 450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "White Horse Road, East Ham, London, E6",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain free",
+          "Three bedrooms",
+          "Spacious through lounge"
+        ],
+        "listing_agent_name": "Bairstow Eves - East Ham",
+        "listing_agent_phone": "020 4645 2354",
+        "listing_office": "Bairstow Eves - East Ham",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19328039/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"3 bedroom terraced house for sale, White Horse Road, East Ham, London, E6\" [ref=e97] [cursor=pointer]: /url: /details/19328039/"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19328039/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"£450,000\" [ref=e136]: /url: /details/19328039/"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e137]: White Horse Road, East Ham, London, E6"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e139]: Terraced house"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"3\""
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"2\""
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e148]: \"Tenure: FreeholdChain freeThree bedroomsSpacious through lounge\""
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e153]: Bairstow Eves - East Ham"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href^=\"tel:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"020 4645 2354\" [ref=e157]: /url: tel:020 4645 2354"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e153]: Bairstow Eves - East Ham"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"3 bedroom terraced house for sale, White Horse Road, East Ham, London, E6\" [ref=e99]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19591853/",
+        "price": {
+          "amount": 395000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "18 Brumwell Avenue, Woolwich",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (118 years remaining)",
+          "Two Bedrooms",
+          "Two Balconies",
+          "Modern Apartment"
+        ],
+        "listing_agent_name": "Felicity J. Lord - Blackheath",
+        "listing_agent_phone": "020 8022 7076",
+        "listing_office": "Felicity J. Lord - Blackheath",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19591853/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"2 bedroom apartment for sale, 18 Brumwell Avenue, Woolwich\" [ref=e171] [cursor=pointer]: /url: /details/19591853/"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19591853/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"£395,000\" [ref=e209]: /url: /details/19591853/"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e210]: 18 Brumwell Avenue, Woolwich"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e212]: Apartment"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"2\""
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"1\""
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e221]: \"Tenure: Leasehold (118 years remaining)Two BedroomsTwo BalconiesModern Apartment\""
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e226]: Felicity J. Lord - Blackheath"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href^=\"tel:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"020 8022 7076\" [ref=e230]: /url: tel:020 8022 7076"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e226]: Felicity J. Lord - Blackheath"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"2 bedroom apartment for sale, 18 Brumwell Avenue, Woolwich\" [ref=e173]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19591397/",
+        "price": {
+          "amount": 300000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Stoneleigh Road, Clayhall",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Leasehold (105 years remaining)",
+          "Ground Floor Apartment",
+          "Two Bedrooms",
+          "Bathroom and En-suite",
+          "Chain-free"
+        ],
+        "listing_agent_name": "haart Estate Agents - Barkingside",
+        "listing_agent_phone": "020 8022 6704",
+        "listing_office": "haart Estate Agents - Barkingside",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19591397/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"2 bedroom apartment for sale, Stoneleigh Road, Clayhall\" [ref=e244] [cursor=pointer]: /url: /details/19591397/"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19591397/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"£300,000\" [ref=e283]: /url: /details/19591397/"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e284]: Stoneleigh Road, Clayhall"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e286]: Apartment"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"2\""
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"2\""
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e295]: \"Tenure: Leasehold (105 years remaining)Ground Floor ApartmentTwo BedroomsBathroom and En-suiteChain-free\""
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e300]: haart Estate Agents - Barkingside"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href^=\"tel:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"020 8022 6704\" [ref=e304]: /url: tel:020 8022 6704"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e300]: haart Estate Agents - Barkingside"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"2 bedroom apartment for sale, Stoneleigh Road, Clayhall\" [ref=e246]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19595111/",
+        "price": {
+          "amount": 550000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Eversleigh Road, East Ham, London, E6",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain free",
+          "Private garage",
+          "Recently renovated throughout",
+          "Chain-free",
+          "Study"
+        ],
+        "listing_agent_name": "Bairstow Eves - East Ham",
+        "listing_agent_phone": "020 4645 2354",
+        "listing_office": "Bairstow Eves - East Ham",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19595111/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"3 bedroom terraced house for sale, Eversleigh Road, East Ham, London, E6\" [ref=e337] [cursor=pointer]: /url: /details/19595111/"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19595111/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"£550,000\" [ref=e375]: /url: /details/19595111/"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e376]: Eversleigh Road, East Ham, London, E6"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e378]: Terraced house"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"3\""
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"2\""
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e387]: \"Tenure: FreeholdChain freePrivate garageRecently renovated throughoutChain-freeStudy\""
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e392]: Bairstow Eves - East Ham"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href^=\"tel:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"020 4645 2354\" [ref=e396]: /url: tel:020 4645 2354"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e392]: Bairstow Eves - East Ham"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"3 bedroom terraced house for sale, Eversleigh Road, East Ham, London, E6\" [ref=e339]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593929/",
+        "price": {
+          "amount": 140000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Vicarage Close, Northolt",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (173 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "First for Auctions - National",
+        "listing_agent_phone": "01344 527052",
+        "listing_office": "First for Auctions - National",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19593929/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"1 bedroom apartment for sale, Vicarage Close, Northolt\" [ref=e409] [cursor=pointer]: /url: /details/19593929/"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19593929/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"£140,000\" [ref=e438]: /url: /details/19593929/"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e439]: Vicarage Close, Northolt"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e441]: Apartment"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"1\""
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"1\""
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e450]: \"Tenure: Leasehold (173 years remaining)For sale by online auctionAuction\""
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e455]: First for Auctions - National"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href^=\"tel:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"01344 527052\" [ref=e459]: /url: tel:01344 527052"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e455]: First for Auctions - National"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"1 bedroom apartment for sale, Vicarage Close, Northolt\" [ref=e411]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593942/",
+        "price": {
+          "amount": 140000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Vicarage Close, Northolt",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (83 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "Gibbs Gillespie - Ruislip Manor Sales",
+        "listing_agent_phone": "01895 754548",
+        "listing_office": "Gibbs Gillespie - Ruislip Manor Sales",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19593942/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"1 bedroom apartment for sale, Vicarage Close, Northolt\" [ref=e472] [cursor=pointer]: /url: /details/19593942/"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19593942/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"£140,000\" [ref=e501]: /url: /details/19593942/"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e502]: Vicarage Close, Northolt"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e504]: Apartment"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"1\""
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"1\""
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e513]: \"Tenure: Leasehold (83 years remaining)For sale by online auctionAuction\""
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e518]: Gibbs Gillespie - Ruislip Manor Sales"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href^=\"tel:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"01895 754548\" [ref=e522]: /url: tel:01895 754548"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e518]: Gibbs Gillespie - Ruislip Manor Sales"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"1 bedroom apartment for sale, Vicarage Close, Northolt\" [ref=e474]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593878/",
+        "price": {
+          "amount": 275000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Pembroke Road, Ruislip",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Leasehold (971 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "First for Auctions - National",
+        "listing_agent_phone": "01344 527052",
+        "listing_office": "First for Auctions - National",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19593878/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"2 bedroom apartment for sale, Pembroke Road, Ruislip\" [ref=e535] [cursor=pointer]: /url: /details/19593878/"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/19593878/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"£275,000\" [ref=e564]: /url: /details/19593878/"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e565]: Pembroke Road, Ruislip"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e567]: Apartment"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"2\""
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"2\""
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e576]: \"Tenure: Leasehold (971 years remaining)For sale by online auctionAuction\""
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e581]: First for Auctions - National"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href^=\"tel:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"01344 527052\" [ref=e585]: /url: tel:01344 527052"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e581]: First for Auctions - National"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"2 bedroom apartment for sale, Pembroke Road, Ruislip\" [ref=e537]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/18923176/",
+        "price": {
+          "amount": 100000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Limewood Court, Beehive Lane, Ilford, IG4",
+        "property_type": "Flat",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (60 years remaining)",
+          "Retirement",
+          "Chain-free",
+          "Nearest station 0.3mi.",
+          "Nearest school 0.1mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Barkingside",
+        "listing_agent_phone": "020 4645 3221",
+        "listing_office": "Bairstow Eves - Barkingside",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/18923176/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"1 bedroom flat for sale, Limewood Court, Beehive Lane, Ilford, IG4\" [ref=e598] [cursor=pointer]: /url: /details/18923176/"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/18923176/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"£100,000\" [ref=e637]: /url: /details/18923176/"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e638]: Limewood Court, Beehive Lane, Ilford, IG4"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e640]: Flat"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"1\""
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"1\""
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e649]: \"Tenure: Leasehold (60 years remaining)RetirementChain-freeNearest station 0.3mi.Nearest school 0.1mi.\""
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e654]: Bairstow Eves - Barkingside"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href^=\"tel:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"020 4645 3221\" [ref=e658]: /url: tel:020 4645 3221"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e654]: Bairstow Eves - Barkingside"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"1 bedroom flat for sale, Limewood Court, Beehive Lane, Ilford, IG4\" [ref=e600]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/16508645/",
+        "price": {
+          "amount": 1450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8",
+        "property_type": "Apartment",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "floor_area": {
+          "value": 1246,
+          "unit": "sq ft"
+        },
+        "key_features": [
+          "Tenure: Leasehold (923 years remaining)",
+          "3 bedrooms",
+          "2 bathrooms",
+          "1,246 sq ft / 115.8 sq m"
+        ],
+        "listing_agent_name": "Hanover - St Johns Wood",
+        "listing_agent_phone": "020 8115 0361",
+        "listing_office": "Hanover - St Johns Wood",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/16508645/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"3 bedroom apartment for sale, Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8\" [ref=e671] [cursor=pointer]: /url: /details/16508645/"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href=\"/details/16508645/\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"£1,450,000\" [ref=e709]: /url: /details/16508645/"
+        },
+        "address": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e710]: Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8"
+        },
+        "property_type": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e712]: Apartment"
+        },
+        "bedrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"3\""
+        },
+        "bathrooms": {
+          "source": "page.safe.html",
+          "css_selector": "article div img + text",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "text: \"2\""
+        },
+        "floor_area": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e721]: \"Tenure: Leasehold (923 years remaining)3 bedrooms2 bathrooms1,246 sq ft / 115.8 sq m\""
+        },
+        "key_features": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e721]: \"Tenure: Leasehold (923 years remaining)3 bedrooms2 bathrooms1,246 sq ft / 115.8 sq m\""
+        },
+        "listing_agent_name": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+        },
+        "listing_agent_phone": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href^=\"tel:\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "link \"020 8115 0361\" [ref=e730]: /url: tel:020 8115 0361"
+        },
+        "listing_office": {
+          "source": "page.safe.html",
+          "css_selector": "article div",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "generic [ref=e726]: Hanover - St Johns Wood"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"3 bedroom apartment for sale, Viceroy Court, Prince Albert Road, St Johns Wood, London, NW8\" [ref=e673]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593521/",
+        "price": {
+          "amount": 195000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Lee High Road, London",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (109 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "First for Auctions - National",
+        "listing_agent_phone": "01344 527052",
+        "listing_office": "First for Auctions - National",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 bedroom apartment for sale, Lee High Road, London"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£195,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Lee High Road, London"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: Leasehold (109 years remaining)For sale by online auctionAuction"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "First for Auctions - National"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "01344 527052"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "First for Auctions - National"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"1 bedroom apartment for sale, Lee High Road, London\" [ref=e745]"
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593524/",
+        "price": {
+          "amount": 220000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Glebe Road, Stanmore",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (977 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "Gibbs Gillespie - Stanmore",
+        "listing_agent_phone": "020 8128 5233",
+        "listing_office": "Gibbs Gillespie - Stanmore",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 bedroom apartment for sale, Glebe Road, Stanmore"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£220,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Glebe Road, Stanmore"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: Leasehold (977 years remaining)For sale by online auctionAuction"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gibbs Gillespie - Stanmore"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 8128 5233"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gibbs Gillespie - Stanmore"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"2 bedroom apartment for sale, Glebe Road, Stanmore\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593527/",
+        "price": {
+          "amount": 700000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Gates Green Road, Coney Hall, West Wickham, BR4",
+        "property_type": "Bungalow",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Freehold",
+          "Nearest station 0.6mi.",
+          "Nearest school 0.2mi."
+        ],
+        "listing_agent_name": "Mann - Beckenham",
+        "listing_agent_phone": "020 7768 6890",
+        "listing_office": "Mann - Beckenham",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 bedroom bungalow for sale, Gates Green Road, Coney Hall, West Wickham, BR4"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£700,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Gates Green Road, Coney Hall, West Wickham, BR4"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bungalow"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: FreeholdNearest station 0.6mi.Nearest school 0.2mi."
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Mann - Beckenham"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 7768 6890"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Mann - Beckenham"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"2 bedroom bungalow for sale, Gates Green Road, Coney Hall, West Wickham, BR4\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593530/",
+        "price": {
+          "amount": 220000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Glebe Road, Stanmore",
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Share of freehold (977 years remaining)",
+          "For sale by online auction",
+          "Auction"
+        ],
+        "listing_agent_name": "First for Auctions - National",
+        "listing_agent_phone": "01344 527052",
+        "listing_office": "First for Auctions - National",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 bedroom apartment for sale, Glebe Road, Stanmore"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£220,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Glebe Road, Stanmore"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: Share of freehold (977 years remaining)For sale by online auctionAuction"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "First for Auctions - National"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "01344 527052"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "First for Auctions - National"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"2 bedroom apartment for sale, Glebe Road, Stanmore\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593533/",
+        "price": {
+          "amount": 450000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Porters Avenue, DAGENHAM, Essex, RM9",
+        "property_type": "Semi-detached house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Study",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Dagenham",
+        "listing_agent_phone": "020 4645 3408",
+        "listing_office": "Bairstow Eves - Dagenham",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 bedroom semi-detached house for sale, Porters Avenue, DAGENHAM, Essex, RM9"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£450,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Porters Avenue, DAGENHAM, Essex, RM9"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Semi-detached house"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: FreeholdStudyNearest station 0.4mi.Nearest school 0.3mi."
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Dagenham"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 4645 3408"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Dagenham"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"3 bedroom semi-detached house for sale, Porters Avenue, DAGENHAM, Essex, RM9\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593536/",
+        "price": {
+          "amount": 600000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Otley Drive, Ilford, IG2",
+        "property_type": "End of terrace house",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Freehold",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Barkingside",
+        "listing_agent_phone": "020 4645 3221",
+        "listing_office": "Bairstow Eves - Barkingside",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 bedroom end of terrace house for sale, Otley Drive, Ilford, IG2"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£600,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Otley Drive, Ilford, IG2"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "End of terrace house"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: FreeholdNearest station 0.4mi.Nearest school 0.3mi."
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Barkingside"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 4645 3221"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Barkingside"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"3 bedroom end of terrace house for sale, Otley Drive, Ilford, IG2\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593539/",
+        "price": {
+          "amount": 475000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Tweedmouth Road,, London, E13",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain-free",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.1mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Stratford",
+        "listing_agent_phone": "020 4645 2667",
+        "listing_office": "Bairstow Eves - Stratford",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 bedroom terraced house for sale, Tweedmouth Road,, London, E13"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£475,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tweedmouth Road,, London, E13"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Terraced house"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: FreeholdChain-freeNearest station 0.4mi.Nearest school 0.1mi."
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Stratford"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 4645 2667"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Stratford"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"3 bedroom terraced house for sale, Tweedmouth Road,, London, E13\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593542/",
+        "price": {
+          "amount": 545000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold",
+          "High spec finishes throughout",
+          "New build"
+        ],
+        "listing_agent_name": "Peabody - Zone Oval Village Shared Ownership",
+        "listing_agent_phone": "020 8022 4899",
+        "listing_office": "Peabody - Zone Oval Village Shared Ownership",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 bedroom apartment for sale, Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£545,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: LeaseholdHigh spec finishes throughoutNew build"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Peabody - Zone Oval Village Shared Ownership"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 8022 4899"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Peabody - Zone Oval Village Shared Ownership"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"1 bedroom apartment for sale, Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593545/",
+        "price": {
+          "amount": 136250,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11",
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold",
+          "High spec finishes throughout",
+          "New build"
+        ],
+        "listing_agent_name": "Peabody - Zone Oval Village Shared Ownership",
+        "listing_agent_phone": "020 8022 4899",
+        "listing_office": "Peabody - Zone Oval Village Shared Ownership",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 bedroom apartment for sale, Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£136,250"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: LeaseholdHigh spec finishes throughoutNew build"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Peabody - Zone Oval Village Shared Ownership"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 8022 4899"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Peabody - Zone Oval Village Shared Ownership"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"1 bedroom apartment for sale, Zone Oval Village Shared Ownership at Zone at Oval Village, 15 Gasholder Place, Oval, Lambeth SE11\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593548/",
+        "price": {
+          "amount": 160000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Jedburgh Road, Plaistow, London, E13",
+        "property_type": "Flat",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (137 years remaining)",
+          "Chain free",
+          "Long lease – 138 years remaining",
+          "No service charges or ground rent",
+          "Auction",
+          "Chain-free"
+        ],
+        "listing_agent_name": "Bairstow Eves - East Ham",
+        "listing_agent_phone": "020 4645 2354",
+        "listing_office": "Bairstow Eves - East Ham",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 bedroom flat for sale, Jedburgh Road, Plaistow, London, E13"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£160,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Jedburgh Road, Plaistow, London, E13"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: Leasehold (137 years remaining)Chain freeLong lease – 138 years remainingNo service charges or ground rentAuctionChain-free"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - East Ham"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 4645 2354"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - East Ham"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"1 bedroom flat for sale, Jedburgh Road, Plaistow, London, E13\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593551/",
+        "price": {
+          "amount": 475000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Surrey Road, Dagenham, Essex, RM10",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain-free",
+          "Nearest station 0.2mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Dagenham",
+        "listing_agent_phone": "020 4645 3408",
+        "listing_office": "Bairstow Eves - Dagenham",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 bedroom terraced house for sale, Surrey Road, Dagenham, Essex, RM10"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£475,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Surrey Road, Dagenham, Essex, RM10"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Terraced house"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: FreeholdChain-freeNearest station 0.2mi.Nearest school 0.3mi."
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Dagenham"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 4645 3408"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Dagenham"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"3 bedroom terraced house for sale, Surrey Road, Dagenham, Essex, RM10\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593554/",
+        "price": {
+          "amount": 2000000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "South Lodge Drive, LONDON, London, N14",
+        "property_type": "Bungalow",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "key_features": [
+          "Tenure: Freehold",
+          "Study",
+          "Nearest station 0.5mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Southgate",
+        "listing_agent_phone": "020 4645 2800",
+        "listing_office": "Bairstow Eves - Southgate",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 bedroom bungalow for sale, South Lodge Drive, LONDON, London, N14"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£2,000,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "South Lodge Drive, LONDON, London, N14"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bungalow"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: FreeholdStudyNearest station 0.5mi.Nearest school 0.3mi."
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Southgate"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 4645 2800"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Southgate"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"4 bedroom bungalow for sale, South Lodge Drive, LONDON, London, N14\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593557/",
+        "price": {
+          "amount": 300000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Jedburgh Road, Plaistow, London, E13",
+        "property_type": "Flat",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (97 years remaining)",
+          "Impressively spacious",
+          "Contemporary bathroom",
+          "Factory conversion",
+          "Chain-free"
+        ],
+        "listing_agent_name": "Bairstow Eves - East Ham",
+        "listing_agent_phone": "020 4645 2354",
+        "listing_office": "Bairstow Eves - East Ham",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 bedroom flat for sale, Jedburgh Road, Plaistow, London, E13"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£300,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Jedburgh Road, Plaistow, London, E13"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: Leasehold (97 years remaining)Impressively spaciousContemporary bathroomFactory conversionChain-free"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - East Ham"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 4645 2354"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - East Ham"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"1 bedroom flat for sale, Jedburgh Road, Plaistow, London, E13\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593560/",
+        "price": {
+          "amount": 475000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Croombs Road, London, E16",
+        "property_type": "Terraced house",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "key_features": [
+          "Tenure: Freehold",
+          "Chain-free",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.2mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Stratford",
+        "listing_agent_phone": "020 4645 2667",
+        "listing_office": "Bairstow Eves - Stratford",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 bedroom terraced house for sale, Croombs Road, London, E16"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£475,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Croombs Road, London, E16"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Terraced house"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: FreeholdChain-freeNearest station 0.4mi.Nearest school 0.2mi."
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Stratford"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 4645 2667"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Stratford"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"3 bedroom terraced house for sale, Croombs Road, London, E16\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593563/",
+        "price": {
+          "amount": 290000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Fairmont Road, Rainham, Essex, RM13",
+        "property_type": "Flat",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Leasehold (242 years remaining)",
+          "Lift Access",
+          "Secure Entry System",
+          "Two Bedrooms"
+        ],
+        "listing_agent_name": "Bairstow Eves - Rainham",
+        "listing_agent_phone": "01708 243973",
+        "listing_office": "Bairstow Eves - Rainham",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 bedroom flat for sale, Fairmont Road, Rainham, Essex, RM13"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£290,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Fairmont Road, Rainham, Essex, RM13"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: Leasehold (242 years remaining)Lift AccessSecure Entry SystemTwo Bedrooms"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Rainham"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "01708 243973"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Rainham"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"2 bedroom flat for sale, Fairmont Road, Rainham, Essex, RM13\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593566/",
+        "price": {
+          "amount": 300000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Albemarle Road, Beckenham, BR3",
+        "property_type": "Flat",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Share of freehold (998 years remaining)",
+          "Auction",
+          "Nearest station 0.4mi.",
+          "Nearest school 0.2mi."
+        ],
+        "listing_agent_name": "Mann - Beckenham",
+        "listing_agent_phone": "020 7768 6890",
+        "listing_office": "Mann - Beckenham",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 bedroom flat for sale, Albemarle Road, Beckenham, BR3"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£300,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Albemarle Road, Beckenham, BR3"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: Share of freehold (998 years remaining)AuctionNearest station 0.4mi.Nearest school 0.2mi."
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Mann - Beckenham"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 7768 6890"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Mann - Beckenham"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"2 bedroom flat for sale, Albemarle Road, Beckenham, BR3\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_026",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593569/",
+        "price": {
+          "amount": 600000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Stanley Road, Hornchurch, RM12",
+        "property_type": "End of terrace house",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "key_features": [
+          "Tenure: Freehold",
+          "Nearest station 0.3mi.",
+          "Nearest school 0.3mi."
+        ],
+        "listing_agent_name": "Bairstow Eves - Hornchurch",
+        "listing_agent_phone": "01708 243066",
+        "listing_office": "Bairstow Eves - Hornchurch",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 bedroom end of terrace house for sale, Stanley Road, Hornchurch, RM12"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£600,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Stanley Road, Hornchurch, RM12"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "End of terrace house"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: FreeholdNearest station 0.3mi.Nearest school 0.3mi."
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Hornchurch"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "01708 243066"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bairstow Eves - Hornchurch"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"4 bedroom end of terrace house for sale, Stanley Road, Hornchurch, RM12\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_027",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593572/",
+        "price": {
+          "amount": 1350000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Eastbrook Drive, Romford, RM7",
+        "property_type": "Semi-detached house",
+        "bedrooms": 8,
+        "bathrooms": 3,
+        "key_features": [
+          "Tenure: Freehold",
+          "*chain free*",
+          "Chain-free",
+          "Study"
+        ],
+        "listing_agent_name": "Purplebricks - Covering Romford",
+        "listing_agent_phone": "01708 243284",
+        "listing_office": "Purplebricks - Covering Romford",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "8 bedroom semi-detached house for sale, Eastbrook Drive, Romford, RM7"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£1,350,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Eastbrook Drive, Romford, RM7"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Semi-detached house"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "8"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: Freehold*chain free*Chain-freeStudy"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Purplebricks - Covering Romford"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "01708 243284"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Purplebricks - Covering Romford"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"8 bedroom semi-detached house for sale, Eastbrook Drive, Romford, RM7\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_028",
+      "fields": {
+        "listing_url": "https://www.onthemarket.com/details/19593575/",
+        "price": {
+          "amount": 350000,
+          "currency_code": "GBP",
+          "currency_symbol": "£",
+          "period": null
+        },
+        "address": "Coldharbour Lane, London, SE5",
+        "property_type": "Flat",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "key_features": [
+          "Tenure: Share of freehold (175 years remaining)",
+          "One Bedroom"
+        ],
+        "listing_agent_name": "Hunters - Camberwell",
+        "listing_agent_phone": "020 8128 9302",
+        "listing_office": "Hunters - Camberwell",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1 bedroom flat for sale, Coldharbour Lane, London, SE5"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£350,000"
+        },
+        "address": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Coldharbour Lane, London, SE5"
+        },
+        "property_type": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Flat"
+        },
+        "bedrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "1"
+        },
+        "key_features": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Tenure: Share of freehold (175 years remaining)One Bedroom"
+        },
+        "listing_agent_name": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Hunters - Camberwell"
+        },
+        "listing_agent_phone": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "020 8128 9302"
+        },
+        "listing_office": {
+          "source": "text.txt",
+          "css_selector": null,
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Hunters - Camberwell"
+        },
+        "images_urls": {
+          "source": "page.safe.html",
+          "css_selector": "article img",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "img \"1 bedroom flat for sale, Coldharbour Lane, London, SE5\""
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 230.873,
+    "input_tokens": 23422,
+    "output_tokens": 16297,
+    "total_tokens": 39719,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_REAL_ONTHEMARKET_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_REAL_ONTHEMARKET_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

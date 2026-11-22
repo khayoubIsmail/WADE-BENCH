@@ -1,0 +1,41 @@
+{
+  "task_id": "WBV1_ACAD_CERN_INDICO_002_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_end_date": "2026-05-31",
+        "event_name": "The 2nd Seoul Particle Theory Workshop",
+        "event_start_date": "2026-05-22",
+        "event_url": "https://indico.cern.ch/event/1639790/",
+        "location": "KIAS, Unknown Region, Unknown Country"
+      },
+      "provenance": {
+        "event_end_date": "page.html",
+        "event_name": "page.html",
+        "event_start_date": "page.html",
+        "event_url": "page.html",
+        "location": "page.html"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 4.278,
+    "input_tokens": 10032,
+    "output_tokens": 216,
+    "total_tokens": 10248,
+    "initial_input_tokens": 10032,
+    "initial_output_tokens": 216,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

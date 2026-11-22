@@ -1,0 +1,56 @@
+{
+  "task_id": "WBV1_ACAD_ALLCONFERENCEALERT_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "academic",
+  "schema_id": "academic_event_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "event_name": "International Conference on Recent Innovations in Engineering and Technology (ICRIET)",
+        "event_start_date": "2026-05-29",
+        "event_end_date": null,
+        "event_url": "https://www.allconferencealert.com/event/1606177",
+        "location": {
+          "city": "Beijing",
+          "region": null,
+          "country": "China"
+        },
+        "provenance": {
+          "event_name": {
+            "source": "page.safe.html",
+            "text_quote": "International Conference on Recent Innovations in Engineering and Technology (ICRIET)"
+          },
+          "event_start_date": {
+            "source": "page.safe.html",
+            "text_quote": "29 May 2026"
+          },
+          "event_end_date": null,
+          "event_url": {
+            "source": "page.safe.html",
+            "text_quote": "https://www.allconferencealert.com/event/1606177"
+          },
+          "location": {
+            "source": "page.safe.html",
+            "text_quote": "Beijing, China"
+          }
+        }
+      },
+      "provenance": {}
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 120.574,
+    "input_tokens": 32350,
+    "output_tokens": 8192,
+    "total_tokens": 40542,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ACAD_ALLCONFERENCEALERT_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ACAD_ALLCONFERENCEALERT_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

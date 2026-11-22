@@ -1,0 +1,1282 @@
+{
+  "task_id": "WBV1_REAL_REALESTATE.CO.NZ_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/42964030/residential/sale/65b-hamilton-road-herne-bay",
+        "address": "65B Hamilton Road, Herne Bay",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/42964030/0c92e832da13a9e41b741bdcbe104280.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": "Cristina Casares",
+        "listing_agent_photo": "https://mediaserver.realestate.co.nz/per_orgs/364503/fcca75a72af2701c9c0a38d90d3dc6a1.fcrop.60x60.jpg",
+        "listing_office": "Bayleys Real Estate Ltd (Licensed: REAA 2008) - Ponsonby",
+        "listing_agent_logo": "https://mediaserver.realestate.co.nz/per_orgs/239559/5cc1d167ace4399b11660ebf9a3f9009.scale.x35.jpg"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/42964030/residential/sale/65b-hamilton-road-herne-bay']",
+          "text_quote": "href=\"https://www.realestate.co.nz/42964030/residential/sale/65b-hamilton-road-herne-bay\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "65B Hamilton Road, Herne Bay"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "POA"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "2"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='65B Hamilton Road, Herne Bay']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/42964030/0c92e832da13a9e41b741bdcbe104280.crop.324x208.jpg?options=compress\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "img[alt='Cristina Casares']",
+          "text_quote": "alt=\"Cristina Casares\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "img[alt='Cristina Casares']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/364503/fcca75a72af2701c9c0a38d90d3dc6a1.fcrop.60x60.jpg\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Bayleys Real Estate Ltd (Licensed: REAA 2008) - Ponsonby']",
+          "text_quote": "aria-label=\"Visit Bayleys Real Estate Ltd (Licensed: REAA 2008) - Ponsonby\""
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt='Bayleys Real Estate Ltd (Licensed: REAA 2008) - Ponsonby']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/239559/5cc1d167ace4399b11660ebf9a3f9009.scale.x35.jpg\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43015388/residential/sale/333-beacon-point-road-wanaka",
+        "address": "333 Beacon Point Road, Wanaka",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "Section",
+        "bedrooms": null,
+        "bathrooms": null,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43015388/f3ee40e6549b33c023ba6b88af706462.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": "Craig Myles",
+        "listing_agent_photo": "https://mediaserver.realestate.co.nz/per_orgs/1862473/a6f6dd72750bc9c44bcee28032185660.fcrop.60x60.jpg",
+        "listing_office": "Aspire Realty - A Branch of eXp New Zealand Ltd (Licensed: REAA 2008)",
+        "listing_agent_logo": "https://mediaserver.realestate.co.nz/per_orgs/1717560/aab560c1a78cd66daffb7bc52a45f8bc.scale.x35.jpg"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43015388/residential/sale/333-beacon-point-road-wanaka']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43015388/residential/sale/333-beacon-point-road-wanaka\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "333 Beacon Point Road, Wanaka"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Negotiation"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "Section"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='333 Beacon Point Road, Wanaka']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43015388/f3ee40e6549b33c023ba6b88af706462.crop.324x208.jpg?options=compress\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "img[alt='Craig Myles']",
+          "text_quote": "alt=\"Craig Myles\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "img[alt='Craig Myles']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/1862473/a6f6dd72750bc9c44bcee28032185660.fcrop.60x60.jpg\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Aspire Realty - A Branch of eXp New Zealand Ltd (Licensed: REAA 2008)']",
+          "text_quote": "aria-label=\"Visit Aspire Realty - A Branch of eXp New Zealand Ltd (Licensed: REAA 2008)\""
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt='Aspire Realty - A Branch of eXp New Zealand Ltd (Licensed: REAA 2008)']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/1717560/aab560c1a78cd66daffb7bc52a45f8bc.scale.x35.jpg\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43047788/residential/sale/28-milan-drive-glen-eden",
+        "address": "28 Milan Drive, Glen Eden",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43047788/78d0f293e16d6bfec841f008d9bfb9ec.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": "Emma Moyle",
+        "listing_agent_photo": "https://mediaserver.realestate.co.nz/per_orgs/179566/9fd21f16bf6b212d5314285e91c63d4d.fcrop.60x60.jpg",
+        "listing_office": "Carpenter Realty Ltd (Licensed: REAA 2008) - Ray White Carpenter Central",
+        "listing_agent_logo": "https://mediaserver.realestate.co.nz/per_orgs/434892/bcf30b21eb0a703a94ac421a4a4520e4.scale.x35.jpg"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43047788/residential/sale/28-milan-drive-glen-eden']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43047788/residential/sale/28-milan-drive-glen-eden\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "28 Milan Drive, Glen Eden"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Auction"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "1"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='28 Milan Drive, Glen Eden']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43047788/78d0f293e16d6bfec841f008d9bfb9ec.crop.324x208.jpg?options=compress\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "img[alt='Emma Moyle']",
+          "text_quote": "alt=\"Emma Moyle\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "img[alt='Emma Moyle']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/179566/9fd21f16bf6b212d5314285e91c63d4d.fcrop.60x60.jpg\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Carpenter Realty Ltd (Licensed: REAA 2008) - Ray White Carpenter Central']",
+          "text_quote": "aria-label=\"Visit Carpenter Realty Ltd (Licensed: REAA 2008) - Ray White Carpenter Central\""
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt='Carpenter Realty Ltd (Licensed: REAA 2008) - Ray White Carpenter Central']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/434892/bcf30b21eb0a703a94ac421a4a4520e4.scale.x35.jpg\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43055540/residential/sale/114a-pioneer-road-moturoa",
+        "address": "114A Pioneer Road, Moturoa",
+        "price": {
+          "amount": 539000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43055540/18f7b243b2d372d15f455e29873cab44.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": "Anu Bhatnagar",
+        "listing_agent_photo": "https://mediaserver.realestate.co.nz/per_orgs/487014/27164c058b6a29ab4d8b249ae1eeb556.fcrop.60x60.jpg",
+        "listing_office": "Success Realty Ltd (Licensed: REAA 2008) - Bayleys, New Plymouth",
+        "listing_agent_logo": "https://mediaserver.realestate.co.nz/per_orgs/18329/d9c60ca09153af921141c006bb00fd77.scale.x35.jpg"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43055540/residential/sale/114a-pioneer-road-moturoa']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43055540/residential/sale/114a-pioneer-road-moturoa\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "114A Pioneer Road, Moturoa"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Offers Over $539,000"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "1"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='114A Pioneer Road, Moturoa']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43055540/18f7b243b2d372d15f455e29873cab44.crop.324x208.jpg?options=compress\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "img[alt='Anu Bhatnagar']",
+          "text_quote": "alt=\"Anu Bhatnagar\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "img[alt='Anu Bhatnagar']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/487014/27164c058b6a29ab4d8b249ae1eeb556.fcrop.60x60.jpg\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Success Realty Ltd (Licensed: REAA 2008) - Bayleys, New Plymouth']",
+          "text_quote": "aria-label=\"Visit Success Realty Ltd (Licensed: REAA 2008) - Bayleys, New Plymouth\""
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt='Success Realty Ltd (Licensed: REAA 2008) - Bayleys, New Plymouth']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/18329/d9c60ca09153af921141c006bb00fd77.scale.x35.jpg\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43032799/residential/sale/1111-20-park-avenue-ellerslie",
+        "address": "1111/20 Park Avenue, Ellerslie",
+        "price": {
+          "amount": 725000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43032799/fff82d1aa93f69438b5197d8d3743066.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": "Scarlett Wood",
+        "listing_agent_photo": "https://mediaserver.realestate.co.nz/per_orgs/383335/9ae7125c811699e2ab45898649eebc7e.fcrop.60x60.jpg",
+        "listing_office": "New Zealand Sotheby's International Realty (Licensed: REAA 2008) - Auckland Ponsonby",
+        "listing_agent_logo": "https://mediaserver.realestate.co.nz/per_orgs/122894/27f1a101b8583280fb380c5269b6d8c1.scale.x35.jpg"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43032799/residential/sale/1111-20-park-avenue-ellerslie']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43032799/residential/sale/1111-20-park-avenue-ellerslie\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "1111/20 Park Avenue, Ellerslie"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "$725,000"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "1"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='1111/20 Park Avenue, Ellerslie']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43032799/fff82d1aa93f69438b5197d8d3743066.crop.324x208.jpg?options=compress\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "img[alt='Scarlett Wood']",
+          "text_quote": "alt=\"Scarlett Wood\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "img[alt='Scarlett Wood']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/383335/9ae7125c811699e2ab45898649eebc7e.fcrop.60x60.jpg\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit New Zealand Sotheby\\'s International Realty (Licensed: REAA 2008) - Auckland Ponsonby']",
+          "text_quote": "aria-label=\"Visit New Zealand Sotheby's International Realty (Licensed: REAA 2008) - Auckland Ponsonby\""
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt='New Zealand Sotheby\\'s International Realty (Licensed: REAA 2008) - Auckland Ponsonby']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/122894/27f1a101b8583280fb380c5269b6d8c1.scale.x35.jpg\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43046265/residential/sale/28a-cambridge-street-milson",
+        "address": "28A Cambridge Street, Milson",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43046265/9fdadd071fdd4adb78a9557ca32235b9.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": "Deb Quin",
+        "listing_agent_photo": "https://mediaserver.realestate.co.nz/per_orgs/25178/cc41cc48acd378ed26da22880038e86f.fcrop.60x60.jpg",
+        "listing_office": "Team Manawatu Realty Ltd (Licensed: REAA 2008) - Harcourts, Palmerston North",
+        "listing_agent_logo": "https://mediaserver.realestate.co.nz/per_orgs/29185/a998bfa536289a3ced28100313a697b4.scale.x35.jpg"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43046265/residential/sale/28a-cambridge-street-milson']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43046265/residential/sale/28a-cambridge-street-milson\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "28A Cambridge Street, Milson"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Negotiation"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "1"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='28A Cambridge Street, Milson']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43046265/9fdadd071fdd4adb78a9557ca32235b9.crop.324x208.jpg?options=compress\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "img[alt='Deb Quin']",
+          "text_quote": "alt=\"Deb Quin\""
+        },
+        "listing_agent_photo": {
+          "source": "page.html",
+          "selector": "img[alt='Deb Quin']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/25178/cc41cc48acd378ed26da22880038e86f.fcrop.60x60.jpg\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Team Manawatu Realty Ltd (Licensed: REAA 2008) - Harcourts, Palmerston North']",
+          "text_quote": "aria-label=\"Visit Team Manawatu Realty Ltd (Licensed: REAA 2008) - Harcourts, Palmerston North\""
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt='Team Manawatu Realty Ltd (Licensed: REAA 2008) - Harcourts, Palmerston North']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/per_orgs/29185/a998bfa536289a3ced28100313a697b4.scale.x35.jpg\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43038630/residential/sale/29-pakuranga-road-pakuranga",
+        "address": "29 Pakuranga Road, Pakuranga",
+        "price": {
+          "amount": 925000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43038630/f63a848e0f65a2090092e969e75f6a07.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Southern Corridor Realty Ltd (Licensed: REAA 2008) - Ray White, Pukekohe",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43038630/residential/sale/29-pakuranga-road-pakuranga']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43038630/residential/sale/29-pakuranga-road-pakuranga\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "29 Pakuranga Road, Pakuranga"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Asking Price $925,000"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "1"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='29 Pakuranga Road, Pakuranga']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43038630/f63a848e0f65a2090092e969e75f6a07.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Southern Corridor Realty Ltd (Licensed: REAA 2008) - Ray White, Pukekohe']",
+          "text_quote": "aria-label=\"Visit Southern Corridor Realty Ltd (Licensed: REAA 2008) - Ray White, Pukekohe\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/42944152/residential/sale/729-orapiu-road-waiheke-island",
+        "address": "729 Orapiu Road, Waiheke Island",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "Lifestyle Property",
+        "bedrooms": 7,
+        "bathrooms": 7,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/42944152/36408ca2cbe2423f48e8eaaa4aa72c49.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "New Zealand Sotheby's International Realty (Licensed: REAA 2008) - Waiheke Island",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/42944152/residential/sale/729-orapiu-road-waiheke-island']",
+          "text_quote": "href=\"https://www.realestate.co.nz/42944152/residential/sale/729-orapiu-road-waiheke-island\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "729 Orapiu Road, Waiheke Island"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Negotiation"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "Lifestyle Property"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "7"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "7"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='729 Orapiu Road, Waiheke Island']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/42944152/36408ca2cbe2423f48e8eaaa4aa72c49.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit New Zealand Sotheby\\'s International Realty (Licensed: REAA 2008) - Waiheke Island']",
+          "text_quote": "aria-label=\"Visit New Zealand Sotheby's International Realty (Licensed: REAA 2008) - Waiheke Island\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43046415/residential/sale/lot-1-35-royton-avenue-mangere-east",
+        "address": "Lot  1/35 Royton Avenue, Mangere East",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "Townhouse",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43046415/a404a86b67de6b6a94a42b0f9caa8868.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Barfoot & Thompson Ltd (Licensed: REAA 2008) - Otahuhu",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43046415/residential/sale/lot-1-35-royton-avenue-mangere-east']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43046415/residential/sale/lot-1-35-royton-avenue-mangere-east\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "Lot  1/35 Royton Avenue, Mangere East"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Negotiation"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "Townhouse"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "4"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "3"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='Lot  1/35 Royton Avenue, Mangere East']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43046415/a404a86b67de6b6a94a42b0f9caa8868.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Barfoot &amp; Thompson Ltd (Licensed: REAA 2008) - Otahuhu']",
+          "text_quote": "aria-label=\"Visit Barfoot &amp; Thompson Ltd (Licensed: REAA 2008) - Otahuhu\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/42996416/residential/sale/3-lealands-lane-aokautere",
+        "address": "3 Lealands Lane, Aokautere",
+        "price": {
+          "amount": 1199000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/42996416/9780b2e78d12e0a2d66e4a04ca2289c3.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Property Brokers Ltd (Licensed: REAA 2008) - Palmerston North",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/42996416/residential/sale/3-lealands-lane-aokautere']",
+          "text_quote": "href=\"https://www.realestate.co.nz/42996416/residential/sale/3-lealands-lane-aokautere\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "3 Lealands Lane, Aokautere"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Offers Over $1,199,000"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "4"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "3"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='3 Lealands Lane, Aokautere']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/42996416/9780b2e78d12e0a2d66e4a04ca2289c3.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Property Brokers Ltd (Licensed: REAA 2008) - Palmerston North']",
+          "text_quote": "aria-label=\"Visit Property Brokers Ltd (Licensed: REAA 2008) - Palmerston North\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43041750/residential/sale/5-hailes-road-kamo",
+        "address": "5 Hailes Road, Kamo",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43041750/6219f367723f52af1e71c1761174e8ce.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Optimize Realty Ltd (Licensed: REAA 2008) - Harcourts, Whangarei",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43041750/residential/sale/5-hailes-road-kamo']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43041750/residential/sale/5-hailes-road-kamo\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "5 Hailes Road, Kamo"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Auction"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "1"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='5 Hailes Road, Kamo']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43041750/6219f367723f52af1e71c1761174e8ce.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Optimize Realty Ltd (Licensed: REAA 2008) - Harcourts, Whangarei']",
+          "text_quote": "aria-label=\"Visit Optimize Realty Ltd (Licensed: REAA 2008) - Harcourts, Whangarei\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43049905/residential/sale/6-36-opito-way-east-tamaki",
+        "address": "6/36 Opito Way, East Tamaki",
+        "price": {
+          "amount": 599000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43049905/379ef34cf47b30b669650c1c1d012ddd.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Hoverd & Co Ltd (Licensed: REAA 2008) - Harcourts, Flat Bush",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43049905/residential/sale/6-36-opito-way-east-tamaki']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43049905/residential/sale/6-36-opito-way-east-tamaki\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "6/36 Opito Way, East Tamaki"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Asking Price $599,000"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "Apartment"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "1"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='6/36 Opito Way, East Tamaki']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43049905/379ef34cf47b30b669650c1c1d012ddd.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Hoverd &amp; Co Ltd (Licensed: REAA 2008) - Harcourts, Flat Bush']",
+          "text_quote": "aria-label=\"Visit Hoverd &amp; Co Ltd (Licensed: REAA 2008) - Harcourts, Flat Bush\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43053511/residential/sale/102-harbour-road-ohope",
+        "address": "102 Harbour Road, Ohope",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43053511/1697edfe0f5f2b02dcdaf337fe08aa7f.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Success Realty Ltd (Licensed: REAA 2008) - Bayleys, Whakatane",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43053511/residential/sale/102-harbour-road-ohope']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43053511/residential/sale/102-harbour-road-ohope\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "102 Harbour Road, Ohope"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Tender"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "2"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='102 Harbour Road, Ohope']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43053511/1697edfe0f5f2b02dcdaf337fe08aa7f.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Success Realty Ltd (Licensed: REAA 2008) - Bayleys, Whakatane']",
+          "text_quote": "aria-label=\"Visit Success Realty Ltd (Licensed: REAA 2008) - Bayleys, Whakatane\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43032311/residential/sale/63-65-67-anzac-street-takapuna",
+        "address": "63&65&67 Anzac Street, Takapuna",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43032311/07b39c9d3bba91a7ce859eaa01d4161f.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Infinite Real Estate Company Ltd (Licensed: REAA 2008) - Harcourts Infinite",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43032311/residential/sale/63-65-67-anzac-street-takapuna']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43032311/residential/sale/63-65-67-anzac-street-takapuna\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "63&amp;65&amp;67 Anzac Street, Takapuna"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Negotiation"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "1"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "1"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='63&amp;65&amp;67 Anzac Street, Takapuna']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43032311/07b39c9d3bba91a7ce859eaa01d4161f.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Infinite Real Estate Company Ltd (Licensed: REAA 2008) - Harcourts Infinite']",
+          "text_quote": "aria-label=\"Visit Infinite Real Estate Company Ltd (Licensed: REAA 2008) - Harcourts Infinite\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43011838/residential/sale/lot-1-queensberry-terrace-queensberry",
+        "address": "Lot 1, Queensberry Terrace, Queensberry",
+        "price": {
+          "amount": 995000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "Section",
+        "bedrooms": null,
+        "bathrooms": null,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43011838/972da80565645b66cca917b8feaa648a.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Lake Wanaka Realty Ltd (Licensed: REAA 2008) - Bayleys, Wanaka",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43011838/residential/sale/lot-1-queensberry-terrace-queensberry']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43011838/residential/sale/lot-1-queensberry-terrace-queensberry\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "Lot 1, Queensberry Terrace, Queensberry"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "$995,000"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "Section"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='Lot 1, Queensberry Terrace, Queensberry']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43011838/972da80565645b66cca917b8feaa648a.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Lake Wanaka Realty Ltd (Licensed: REAA 2008) - Bayleys, Wanaka']",
+          "text_quote": "aria-label=\"Visit Lake Wanaka Realty Ltd (Licensed: REAA 2008) - Bayleys, Wanaka\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43048127/residential/sale/281-south-road-hawera",
+        "address": "281 South Road, Hawera",
+        "price": {
+          "amount": 385000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43048127/150ef42516b1e6338402087b4179fdad.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Mills Gibbon and Co Ltd (Licensed: REAA 2008) - Collective First National, Taranaki",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43048127/residential/sale/281-south-road-hawera']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43048127/residential/sale/281-south-road-hawera\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "281 South Road, Hawera"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Enquiries Over $385,000"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "2"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "1"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='281 South Road, Hawera']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43048127/150ef42516b1e6338402087b4179fdad.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Mills Gibbon and Co Ltd (Licensed: REAA 2008) - Collective First National, Taranaki']",
+          "text_quote": "aria-label=\"Visit Mills Gibbon and Co Ltd (Licensed: REAA 2008) - Collective First National, Taranaki\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/42527042/residential/sale/126-patiki-place-whangamata",
+        "address": "126 Patiki Place, Whangamata",
+        "price": {
+          "amount": 1590000,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/42527042/663cb505239dce64d6a39a079e7fa7eb.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "M H Realty Limited (Licensed: REAA 2008) - Bayleys Whangamata",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/42527042/residential/sale/126-patiki-place-whangamata']",
+          "text_quote": "href=\"https://www.realestate.co.nz/42527042/residential/sale/126-patiki-place-whangamata\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "126 Patiki Place, Whangamata"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "$1,590,000"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "3"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='126 Patiki Place, Whangamata']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/42527042/663cb505239dce64d6a39a079e7fa7eb.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit M H Realty Limited (Licensed: REAA 2008) - Bayleys Whangamata']",
+          "text_quote": "aria-label=\"Visit M H Realty Limited (Licensed: REAA 2008) - Bayleys Whangamata\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.realestate.co.nz/43051361/residential/sale/430-brookfields-road-meeanee",
+        "address": "430 Brookfields Road, Meeanee",
+        "price": {
+          "amount": null,
+          "currency_code": "NZD",
+          "currency_symbol": "$",
+          "period": null
+        },
+        "listing_title": null,
+        "property_type": "House",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "images_urls": [
+          "https://mediaserver.realestate.co.nz/listings/43051361/bcc08bd5f8421f4e18ae7e3392c1cc10.crop.324x208.jpg?options=compress"
+        ],
+        "listing_agent_name": null,
+        "listing_agent_photo": null,
+        "listing_office": "Eastern Realty Ltd (Licensed: REAA 2008) - Bayleys, Napier",
+        "listing_agent_logo": null
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href='https://www.realestate.co.nz/43051361/residential/sale/430-brookfields-road-meeanee']",
+          "text_quote": "href=\"https://www.realestate.co.nz/43051361/residential/sale/430-brookfields-road-meeanee\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "h3[data-test='homepage-carousel__listing-title']",
+          "text_quote": "430 Brookfields Road, Meeanee"
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "h4",
+          "text_quote": "Tender"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "div[data-test='tile__search-result__content__features__divider']",
+          "text_quote": "House"
+        },
+        "bedrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bedroom']",
+          "text_quote": "3"
+        },
+        "bathrooms": {
+          "source": "page.html",
+          "selector": "div[data-test='bathroom']",
+          "text_quote": "2"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[alt='430 Brookfields Road, Meeanee']",
+          "text_quote": "src=\"https://mediaserver.realestate.co.nz/listings/43051361/bcc08bd5f8421f4e18ae7e3392c1cc10.crop.324x208.jpg?options=compress\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "a[aria-label='Visit Eastern Realty Ltd (Licensed: REAA 2008) - Bayleys, Napier']",
+          "text_quote": "aria-label=\"Visit Eastern Realty Ltd (Licensed: REAA 2008) - Bayleys, Napier\""
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 404.972,
+    "input_tokens": 230125,
+    "output_tokens": 14697,
+    "total_tokens": 244822,
+    "initial_input_tokens": 230125,
+    "initial_output_tokens": 14697,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

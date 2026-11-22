@@ -1,0 +1,107 @@
+{
+  "task_id": "WBV1_ECOM_04_WARBYPARKER_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Warby Parker",
+        "description": "Wilkie is our version of a never-fail frame, with a sloped browline and rectangular lenses that flatters any face.",
+        "image_urls": [
+          "https://i.warbycdn.com/s/c/392aa5615b28164947d08e27bbaff34931d44234"
+        ],
+        "price_raw": "Price not visible",
+        "product_name": "Wilkie Eyeglasses in Black Matte Eclipse — Medium",
+        "product_url": "https://www.warbyparker.com/eyeglasses/wilkie/black-matte-eclipse?w=medium",
+        "rating": null,
+        "review_count": null,
+        "available_colors": [
+          {
+            "color_name": "Black Matte Eclipse",
+            "provenance": {
+              "source": "page.html",
+              "selector": "meta[content*='Wilkie Eyeglasses in Black Matte Eclipse']",
+              "quote": "Wilkie Eyeglasses in Black Matte Eclipse — Medium"
+            }
+          }
+        ],
+        "sku": null,
+        "short_description": "There’s no need to mess with a good thing. Wilkie is our version of a never-fail frame, with a sloped browline and rectangular lenses that flatters any face.",
+        "currency": "$",
+        "old_price_raw": null,
+        "price": null
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "brand": {
+          "source": "page.html",
+          "selector": "meta[content*='Warby Parker']",
+          "quote": "Warby Parker"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "meta[name='twitter:description']",
+          "quote": "Wilkie Eyeglasses in Black Matte Eclipse — Medium. There’s no need to mess with a good thing. Wilkie is our version of a never-fail frame, with a sloped browline and rectangular lenses that flatters any face."
+        },
+        "image_urls": {
+          "source": "page.html",
+          "selector": "meta[property='og:image']/@content",
+          "quote": "https://i.warbycdn.com/s/c/392aa5615b28164947d08e27bbaff34931d44234"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "selector": "body",
+          "quote": "Price not visible"
+        },
+        "product_name": {
+          "source": "page.html",
+          "selector": "title",
+          "quote": "Wilkie Eyeglasses in Black Matte Eclipse — Medium  | Warby Parker"
+        },
+        "product_url": {
+          "source": "page.html",
+          "selector": "meta[property='og:url']/@content",
+          "quote": "https://www.warbyparker.com/eyeglasses/wilkie/black-matte-eclipse?w=medium"
+        },
+        "rating": null,
+        "review_count": null,
+        "available_colors": {
+          "source": "page.html",
+          "selector": "meta[content*='Wilkie Eyeglasses in Black Matte Eclipse']",
+          "quote": "Black Matte Eclipse"
+        },
+        "sku": null,
+        "short_description": {
+          "source": "page.html",
+          "selector": "meta[property='og:description']",
+          "quote": "Wilkie Eyeglasses in Black Matte Eclipse — Medium. There’s no need to mess with a good thing. Wilkie is our version of a never-fail frame, with a sloped browline and rectangular lenses that flatters any face."
+        },
+        "currency": {
+          "source": "page.html",
+          "selector": "div.top-nav-module-scss-module__SnGFkq__upperBar .icon-link-module-scss-module__n42LzW__base",
+          "quote": "$95"
+        },
+        "old_price_raw": null,
+        "price": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 21.877,
+    "input_tokens": 32204,
+    "output_tokens": 1166,
+    "total_tokens": 33370,
+    "initial_input_tokens": 32204,
+    "initial_output_tokens": 1166,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

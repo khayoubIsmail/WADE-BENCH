@@ -1,0 +1,2696 @@
+{
+  "task_id": "WBV1_ECOM_07_ALLBIRDS_US_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "product_name": "Men's Dasher NZ",
+        "short_description": "Anthracite",
+        "image_url": "https://www.allbirds.com/cdn/shop/files/A12416_26Q1_Dasher-NZ-Anthracite-Dark-Anthr_PDP_LEFT.png?v=1768948005",
+        "product_url": "https://www.allbirds.com/products/mens-dasher-nz-anthracite",
+        "price_raw": "$140",
+        "price": 140,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Anthracite (Dark Anthracite Sole)",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Dasher NZ - Anthracite (Dark Anthracite Sole)"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e95"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e96"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e92"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e94"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e112"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e112"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"color_name\":\"Anthracite (Dark Anthracite Sole)\"..."
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+8"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e92"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "product_name": "Men's Canvas Cruiser",
+        "short_description": "Sea Spray",
+        "image_url": "https://www.allbirds.com/cdn/shop/files/A12852_26Q1_Cruiser-Canvas-Sea-Spray-Natural-White-Sole_PDP_LEFT.png?v=1771027497",
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$75",
+        "price": 75,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Sea Spray (Natural White Sole)",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Canvas Cruiser - Sea Spray (Natural White Sole)"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e118"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e119"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e115"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e135"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e135"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"color_name\":\"Sea Spray (Natural White Sole)\"..."
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+10"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+10"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e124"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "product_name": "Men's Tree Runner NZ",
+        "short_description": "Blizzard/Verdant Green",
+        "image_url": "https://www.allbirds.com/cdn/shop/files/A12465_26Q1_Tree-Runner-NZ-Blizzard-Vrdnt-Grn-Blizzard_PDP_LEFT.png?v=1765241835",
+        "product_url": "https://www.allbirds.com/products/mens-tree-runner-nz-blizzard-verdant-green",
+        "price_raw": "$100",
+        "price": 100,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Blizzard/Verdant Green (Blizzard Sole)",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Tree Runner NZ - Blizzard/Verdant Green (Blizzard Sole)"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e144"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e145"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e141"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e143"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e160"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e160"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"color_name\":\"Blizzard/Verdant Green (Blizzard Sole)\"..."
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+8"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+8"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e150"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "product_name": "Men's Varsity Airy",
+        "short_description": "Mushroom",
+        "image_url": "https://www.allbirds.com/cdn/shop/files/A12569_26Q1_Mens-Varsity-Airy-Mushroom-Blizzard-Sole_PDP_LEFT.png?v=1770677122",
+        "product_url": "https://www.allbirds.com/products/mens-varsity-airy-mushroom-blizzard",
+        "price_raw": "$120",
+        "price": 120,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Mushroom (Blizzard Sole)",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Varsity Airy - Mushroom (Blizzard Sole)"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e164"
+        },
+        "short_description": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e165"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e167"
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e169"
+        },
+        "price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e134"
+        },
+        "price": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e134"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"color_name\":\"Mushroom (Blizzard Sole)\"..."
+        },
+        "review_count": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW COLOR"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e150"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "product_name": "Men's Canvas Cruiser Slip On",
+        "short_description": "Deep Navy Stripes",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-canvas-cruiser-sea-spray",
+        "price_raw": "$75",
+        "price": 75,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Deep Navy Stripes",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Canvas Cruiser Slip On"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S CANVAS CRUISER SLIP ON"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Deep Navy Stripes"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$75"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$75"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Deep Navy Stripes"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "product_name": "Men's Varsity",
+        "short_description": "Parchment",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-varsity-airy-mushroom-blizzard",
+        "price_raw": "$120",
+        "price": 120,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Parchment",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Varsity"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S VARSITY"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Parchment"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e169"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$120"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$120"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Parchment"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "product_name": "Men's Cruiser Terralux",
+        "short_description": "Anthracite",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$135",
+        "price": 135,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Anthracite",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Cruiser Terralux"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S CRUISER TERRALUX"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Anthracite"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$135"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$135"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Anthracite"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "product_name": "Men's Dasher NZ Relay",
+        "short_description": "Seagrass",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-dasher-nz-anthracite",
+        "price_raw": "$135",
+        "price": 135,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Seagrass",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Dasher NZ Relay"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S DASHER NZ RELAY"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Seagrass"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e94"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$135"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$135"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Seagrass"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "product_name": "Men's Tree Runner NZ",
+        "short_description": "Mist",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-tree-runner-nz-blizzard-verdant-green",
+        "price_raw": "$100",
+        "price": 100,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Mist",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Tree Runner NZ"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S TREE RUNNER"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Mist"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e143"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$100"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$100"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Mist"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "product_name": "Men's Cruiser Jersey",
+        "short_description": "Light Grey/Anthracite",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$115",
+        "price": 115,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Light Grey/Anthracite",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Cruiser Jersey"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S CRUISER JERSEY"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Light Grey/Anthracite"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$115"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$115"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Light Grey/Anthracite"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "product_name": "Men's Varsity Terralux",
+        "short_description": "Toasted Coconut",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-varsity-airy-mushroom-blizzard",
+        "price_raw": "$145",
+        "price": 145,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Toasted Coconut",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Varsity Terralux"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S VARSITY TERRALUX"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Toasted Coconut"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e169"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$145"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$145"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Toasted Coconut"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "product_name": "Men's Runner NZ Jersey",
+        "short_description": "Light Grey/Anthracite",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$110",
+        "price": 110,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Light Grey/Anthracite",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Runner NZ Jersey"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S RUNNER NZ JERSEY"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Light Grey/Anthracite"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$110"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$110"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Light Grey/Anthracite"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "product_name": "Men's Cruiser Slip On",
+        "short_description": "Deep Navy",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$100",
+        "price": 100,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Deep Navy",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Cruiser Slip On"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S CRUISER SLIP ON"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Deep Navy"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$100"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$100"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Deep Navy"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "product_name": "Men's Allbirds Flip Flop",
+        "short_description": "Anthracite",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-varsity-airy-mushroom-blizzard",
+        "price_raw": "$25/$50",
+        "price": 25,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Anthracite",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$50"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$50"
+        },
+        "availability": "In Stock",
+        "product_subtitle": "Men's Allbirds Flip Flop"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S ALLBIRDS FLIP FLOP"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Anthracite"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e169"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$25\n$50"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$25"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Anthracite"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$50"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$50"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW COLOR"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "product_name": "Men's Golf Dasher",
+        "short_description": "Blizzard/Burnt Olive",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-dasher-nz-anthracite",
+        "price_raw": "$150",
+        "price": 150,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Blizzard/Burnt Olive",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Golf Dasher"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S GOLF DASHER"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Blizzard/Burnt Olive"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e94"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$150"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$150"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Blizzard/Burnt Olive"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "product_name": "Men's Runner NZ Slip On",
+        "short_description": "Burnt Olive",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$105",
+        "price": 105,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Burnt Olive",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Runner NZ Slip On"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S RUNNER NZ SLIP ON"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Burnt Olive"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$105"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$105"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Burnt Olive"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "product_name": "Men's Allbirds Slide",
+        "short_description": "Natural Black",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-varsity-airy-mushroom-blizzard",
+        "price_raw": "$27/$55",
+        "price": 27,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Natural Black",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$55"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$55"
+        },
+        "availability": "In Stock",
+        "product_subtitle": "Men's Allbirds Slide"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S ALLBIRDS SLIDE"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Natural Black"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e169"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$27\n$55"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$27"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Natural Black"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$55"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$55"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "product_name": "Men's Wool Cruiser",
+        "short_description": "Forest Green",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$105",
+        "price": 105,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Forest Green",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Wool Cruiser"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S WOOL CRUISER"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Forest Green"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$105"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$105"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Forest Green"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+3"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "product_name": "Men's Wool Cruiser Slip On",
+        "short_description": "Dark Grey",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$100",
+        "price": 100,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Dark Grey",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Wool Cruiser Slip On"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S WOOL CRUISER SLIP ON"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dark Grey"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$100"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$100"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dark Grey"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+1"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_020",
+      "fields": {
+        "product_name": "Men's Tree Glider",
+        "short_description": "Mushroom",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-varsity-airy-mushroom-blizzard",
+        "price_raw": "$140",
+        "price": 140,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Mushroom",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Tree Glider"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S TREE GLIDER"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Mushroom"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e169"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$140"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$140"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Mushroom"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+2"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_021",
+      "fields": {
+        "product_name": "Men's Kiwi Clog",
+        "short_description": "Dark Camel",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$110",
+        "price": 110,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Dark Camel",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Kiwi Clog"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S KIWI CLOG"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dark Camel"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$110"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$110"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dark Camel"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW COLOR"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_022",
+      "fields": {
+        "product_name": "Men's Cruiser",
+        "short_description": "Verdant Green",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$105",
+        "price": 105,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Verdant Green",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Cruiser"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S CRUISER"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Verdant Green"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$105"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$105"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Verdant Green"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "WATERPROOF"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_023",
+      "fields": {
+        "product_name": "Men's Wool Runner NZ Mid Waterproof",
+        "short_description": "Natural Black",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$160",
+        "price": 160,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Natural Black",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Wool Runner NZ Mid Waterproof"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ MID WATERPROOF"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Natural Black"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$160"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$160"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Natural Black"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "WATERPROOF"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_024",
+      "fields": {
+        "product_name": "Men's Wool Runner NZ Waterproof",
+        "short_description": "Dark Grey",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$150",
+        "price": 150,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Dark Grey",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Wool Runner NZ Waterproof"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S WOOL RUNNER NZ WATERPROOF"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dark Grey"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$150"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$150"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dark Grey"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "+1"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_025",
+      "fields": {
+        "product_name": "Men's Wool Runner",
+        "short_description": "Dapple Grey",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$110",
+        "price": 110,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Dapple Grey",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Wool Runner"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S WOOL RUNNER"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dapple Grey"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$110"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$110"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dapple Grey"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW COLOR"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_026",
+      "fields": {
+        "product_name": "Men's Trail Runners",
+        "short_description": "Parchment/Seagrass",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$145",
+        "price": 145,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Parchment/Seagrass",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Trail Runners"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S TRAIL RUNNERS"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Parchment/Seagrass"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$145"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$145"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Parchment/Seagrass"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_027",
+      "fields": {
+        "product_name": "Men's Varsity Jersey",
+        "short_description": "Light Grey/Anthracite",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-varsity-airy-mushroom-blizzard",
+        "price_raw": "$130",
+        "price": 130,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Light Grey/Anthracite",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": null,
+        "old_price_raw": null,
+        "availability": "In Stock",
+        "product_subtitle": "Men's Varsity Jersey"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S VARSITY JERSEY"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Light Grey/Anthracite"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e169"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$130"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$130"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Light Grey/Anthracite"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "old_price_raw": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "NEW"
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    },
+    {
+      "record_id": "pred_028",
+      "fields": {
+        "product_name": "Men's Wool Strider",
+        "short_description": "Dark Grey",
+        "image_url": null,
+        "product_url": "https://www.allbirds.com/products/mens-cruiser-canvas-sea-spray",
+        "price_raw": "$78/$130",
+        "price": 78,
+        "currency": "USD",
+        "brand": "Allbirds",
+        "category": "Shoes",
+        "color": "Dark Grey",
+        "review_count": null,
+        "rating": null,
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$130"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$130"
+        },
+        "availability": "In Stock",
+        "product_subtitle": "Men's Wool Strider"
+      },
+      "provenance": {
+        "product_name": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "MEN'S WOOL STRIDER"
+        },
+        "short_description": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dark Grey"
+        },
+        "image_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        },
+        "product_url": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "ref=e117"
+        },
+        "price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$78\n$130"
+        },
+        "price": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$78"
+        },
+        "currency": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_currency=USD"
+        },
+        "brand": {
+          "source": "metadata.json",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Allbirds"
+        },
+        "category": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"category\":\"Shoes\"..."
+        },
+        "color": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "Dark Grey"
+        },
+        "review_count": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": "a_ajs_prop_products=...\"on_sale\":false..."
+        },
+        "rating": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "discount_percentage": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$130"
+        },
+        "old_price_raw": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": "$130"
+        },
+        "availability": {
+          "source": "text.txt",
+          "css_selector_or_xpath": null,
+          "text_quote_or_attribute": null
+        },
+        "product_subtitle": {
+          "source": "page.safe.html",
+          "css_selector_or_xpath": null
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 351.12,
+    "input_tokens": 31013,
+    "output_tokens": 23970,
+    "total_tokens": 54983,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_ECOM_07_ALLBIRDS_US_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_ECOM_07_ALLBIRDS_US_LISTING_tool_trace.json",
+    "error": null
+  }
+}

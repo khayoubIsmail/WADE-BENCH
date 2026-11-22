@@ -1,0 +1,1185 @@
+{
+  "task_id": "WBV1_JOBS_REED_001_LISTING",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "kimi-k2.6",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": "Senior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/senior-developer/56875053?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Reed",
+        "location": "London",
+        "salary": {
+          "min_amount": 90000,
+          "max_amount": 90000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-16",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_40693.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Senior Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/senior-developer/56875053?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/reed-specialist-recruitment\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Reed"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "London"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£90,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"4 days ago\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 days ago by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Reed jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_40693.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "job_title": "Junior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/junior-developer/57037836?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Vensis",
+        "location": "Brough, North Humberside",
+        "salary": {
+          "min_amount": 28000,
+          "max_amount": 28000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-19",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_112698.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Junior Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/junior-developer/57037836?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/vensis\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Vensis"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Brough, North Humberside"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£28,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"Yesterday\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Yesterday by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Vensis jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_112698.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "job_title": "Web Developer",
+        "job_url": "https://www.reed.co.uk/jobs/web-developer/57033902?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Iken Business Ltd.",
+        "location": "Bristol, Avon",
+        "salary": {
+          "min_amount": 30000,
+          "max_amount": 40000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-18",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_79173.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Web Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/web-developer/57033902?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/iken-business-ltd\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Iken Business Ltd."
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bristol, Avon"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£30,000 - £40,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"2 days ago\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 days ago by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Iken Business Ltd. jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_79173.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "job_title": "Senior Software Developer",
+        "job_url": "https://www.reed.co.uk/jobs/senior-software-developer/56904263?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "TyneStack Partners Ltd",
+        "location": "Newcastle Upon Tyne, Tyne and Wear",
+        "salary": {
+          "min_amount": 55000,
+          "max_amount": 65000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-05-15",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_112140.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Senior Software Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/senior-software-developer/56904263?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/tynestack-partners-ltd\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "TyneStack Partners Ltd"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Newcastle Upon Tyne, Tyne and Wear"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£55,000 - £65,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"15 May\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "15 May by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"TyneStack Partners Ltd jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_112140.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "job_title": "Senior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/senior-developer/56994855?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Michael Page Technology",
+        "location": "Birmingham, West Midlands (County)",
+        "salary": {
+          "min_amount": 55000,
+          "max_amount": 65000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-08",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_59782.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Senior Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/senior-developer/56994855?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/michael-page-technology\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Michael Page Technology"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Birmingham, West Midlands (County)"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£55,000 - £65,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"8 June\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "8 June by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Michael Page Technology jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_59782.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "job_title": "Senior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/senior-developer/57028675?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Uniting Ambition",
+        "location": "Stoke-on-Trent, Staffordshire",
+        "salary": {
+          "min_amount": 60000,
+          "max_amount": 75000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-17",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_89045.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Senior Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/senior-developer/57028675?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/uniting-ambition\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Uniting Ambition"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Stoke-on-Trent, Staffordshire"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£60,000 - £75,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"3 days ago\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 days ago by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Uniting Ambition jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_89045.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "job_title": "Senior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/senior-developer/57000790?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Initialize",
+        "location": "London",
+        "salary": {
+          "min_amount": 80000,
+          "max_amount": 80000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-09",
+        "work_arrangement": "remote",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/.?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Senior Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/senior-developer/57000790?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/initialize\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Initialize"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "London"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£80,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"9 June\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "9 June by"
+        },
+        "work_arrangement": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Home\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Work from home"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Initialize jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/.?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "job_title": "Senior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/senior-developer/57023352?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Spectrum IT Recruitment",
+        "location": "Chichester, West Sussex",
+        "salary": {
+          "min_amount": 35000,
+          "max_amount": 60000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-16",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_8868.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Senior Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/senior-developer/57023352?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/spectrum-it\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Spectrum IT Recruitment"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Chichester, West Sussex"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£35,000 - £60,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"4 days ago\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "4 days ago by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Spectrum IT Recruitment jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_8868.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "job_title": "Software Developer",
+        "job_url": "https://www.reed.co.uk/jobs/software-developer/56971620?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Oscar Technology",
+        "location": "Bristol, Avon",
+        "salary": {
+          "min_amount": 40000,
+          "max_amount": 60000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-02",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_20715.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Software Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/software-developer/56971620?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/oscar-associates\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Oscar Technology"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Bristol, Avon"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£40,000 - £60,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"2 June\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "2 June by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Oscar Technology jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_20715.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "job_title": "Senior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/senior-developer/56936064?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "DCS Recruitment",
+        "location": "Hereford, Herefordshire",
+        "salary": {
+          "min_amount": 50000,
+          "max_amount": 60000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Contract, full-time",
+        "posted_date": "2026-05-22",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_13858.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Senior Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/senior-developer/56936064?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/dcs-recruitment\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "DCS Recruitment"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Hereford, Herefordshire"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£50,000 - £60,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Contract, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"22 May\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "22 May by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"DCS Recruitment jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_13858.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "job_title": "Senior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/senior-developer/56994882?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Michael Page Technology",
+        "location": "City of London, London",
+        "salary": {
+          "min_amount": 65000,
+          "max_amount": 75000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-08",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_59782.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Senior Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/senior-developer/56994882?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/michael-page-technology\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Michael Page Technology"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "City of London, London"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£65,000 - £75,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"8 June\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "8 June by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Michael Page Technology jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_59782.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "job_title": "Senior Developer",
+        "job_url": "https://www.reed.co.uk/jobs/senior-developer/57002482?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Addition",
+        "location": "London",
+        "salary": {
+          "min_amount": 70000,
+          "max_amount": 90000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-09",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_27273.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Senior Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/senior-developer/57002482?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/addition-solutions-ltd\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Addition"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "London"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£70,000 - £90,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"9 June\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "9 June by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Addition jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_27273.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "job_title": "Software Developer",
+        "job_url": "https://www.reed.co.uk/jobs/software-developer/56979480?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Spectrum IT Recruitment",
+        "location": "Southampton, Hampshire",
+        "salary": {
+          "min_amount": 50000,
+          "max_amount": 70000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-17",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_8868.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Software Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/software-developer/56979480?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/spectrum-it\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Spectrum IT Recruitment"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Southampton, Hampshire"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£50,000 - £70,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"3 days ago\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 days ago by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Spectrum IT Recruitment jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_8868.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "job_title": "Software Developer",
+        "job_url": "https://www.reed.co.uk/jobs/software-developer/56929293?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "VIQU IT Recruitment",
+        "location": "London",
+        "salary": {
+          "min_amount": 300,
+          "max_amount": 400,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "day"
+        },
+        "employment_type": "Contract, full-time",
+        "posted_date": "2026-05-21",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_86416.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Software Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/software-developer/56929293?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/viqu-limited\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "VIQU IT Recruitment"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "London"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£300 - £400 per day"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Contract, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"21 May\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "21 May by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"VIQU IT Recruitment jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_86416.png?w=256&q=75"
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "job_title": "Software Developer",
+        "job_url": "https://www.reed.co.uk/jobs/software-developer/56946758?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs",
+        "company_name": "Anna Maher Recruitment",
+        "location": "Sheffield, South Yorkshire",
+        "salary": {
+          "min_amount": 35000,
+          "max_amount": 38000,
+          "currency": "GBP",
+          "symbol": "£",
+          "period": "year"
+        },
+        "employment_type": "Permanent, full-time",
+        "posted_date": "2026-06-03",
+        "company_logo_url": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_67453.png?w=256&q=75"
+      },
+      "provenance": {
+        "job_title": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Software Developer"
+        },
+        "job_url": {
+          "source": "page.safe.html",
+          "css_selector": "article h2 a",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "/jobs/software-developer/56946758?source=searchResults&filter=%2Fjobs%2Fdeveloper-jobs"
+        },
+        "company_name": {
+          "source": "page.safe.html",
+          "css_selector": "article a[href*=\"/jobs/anna-maher-consulting-limited\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Anna Maher Recruitment"
+        },
+        "location": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Location\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Sheffield, South Yorkshire"
+        },
+        "salary": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Salary\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "£35,000 - £38,000 per annum"
+        },
+        "employment_type": {
+          "source": "page.safe.html",
+          "css_selector": "article li:has(img[alt=\"Clock\"])",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "Permanent, full-time"
+        },
+        "posted_date": {
+          "source": "page.safe.html",
+          "css_selector": "article span:contains(\"3 June\")",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "3 June by"
+        },
+        "company_logo_url": {
+          "source": "page.html",
+          "css_selector": "img[alt=\"Anna Maher Recruitment jobs\"]",
+          "xpath": null,
+          "bbox": null,
+          "text_quote": "https://resources.reed.co.uk/profileimages/logos/thumbs/Logo_67453.png?w=256&q=75"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 126.492,
+    "input_tokens": 29898,
+    "output_tokens": 7535,
+    "total_tokens": 37433,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_REED_001_LISTING\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_REED_001_LISTING_tool_trace.json",
+    "error": null
+  }
+}

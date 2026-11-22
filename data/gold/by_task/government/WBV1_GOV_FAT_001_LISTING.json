@@ -1,0 +1,1179 @@
+{
+  "task_id": "WBV1_GOV_FAT_001_LISTING",
+  "website_id": "fat_001",
+  "schema_id": "tender_notice_v1",
+  "snapshot_id": "fat_001_listing",
+  "snapshot_path": "raw_snapshots/government/fat_001_listing",
+  "live_url": "https://www.gebiz.gov.sg/ptn/opportunity/BOListing.xhtml?origin=menu",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 10
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_001",
+      "fields": {
+        "tender_title": {
+          "value": "Supply, Delivery, Installation, Commissioning and Maintenance of Seven (7) Units of Ion, Gas and Liquid Chromatography Systems",
+          "normalized": "Supply, Delivery, Installation, Commissioning and Maintenance of Seven (7) Units of Ion, Gas and Liquid Chromatography Systems"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000072",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000072"
+        },
+        "agency": {
+          "value": "Public Utilities Board",
+          "normalized": "Public Utilities Board"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Dental, Medical & Laboratory \u21d2 Laboratory Equipment & Supplies",
+          "normalized": "Dental, Medical & Laboratory \u21d2 Laboratory Equipment & Supplies"
+        },
+        "closing_date": {
+          "value": "09 Jul 2026 04:00PM",
+          "normalized": {
+            "date": "2026-07-09",
+            "time": "16:00",
+            "datetime": "2026-07-09T16:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Electronic Submission",
+          "normalized": "Electronic Submission"
+        },
+        "tender_reference": {
+          "value": "Tender  - PUB000ETT26000072 / WQ/33260067",
+          "normalized": "Tender  - PUB000ETT26000072 / WQ/33260067"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000072']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000072']",
+          "text_quote": "Supply, Delivery, Installation, Commissioning and Maintenance of Seven (7) Units of Ion, Gas and Liq",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[3]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000072']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000072']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[3]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id30:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id30:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Public Utilities Board",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[3]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id30:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id30:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[3]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id30:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id30:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Dental, Medical & Laboratory \u21d2 Laboratory Equipment & Supplies",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[3]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id30:j_id33'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id30:j_id33']/div[1]/div[2]/div[1]",
+          "text_quote": "09 Jul 2026 04:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[3]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id30:j_id33'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id30:j_id33']/div[1]/div[2]/div[1]",
+          "text_quote": "Electronic Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[3]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id30:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id30:j_idt828']",
+          "text_quote": "Tender  - PUB000ETT26000072 / WQ/33260067",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_002",
+      "fields": {
+        "tender_title": {
+          "value": "LEASE AND OPERATIONS OF A TAKEAWAY SALAD KIOSK AT #B1-K13 IN OUR TAMPINES HUB AT 1 TAMPINES WALK, SINGAPORE 528523",
+          "normalized": "LEASE AND OPERATIONS OF A TAKEAWAY SALAD KIOSK AT #B1-K13 IN OUR TAMPINES HUB AT 1 TAMPINES WALK, SINGAPORE 528523"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000052",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000052"
+        },
+        "agency": {
+          "value": "People's Association",
+          "normalized": "People's Association"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Miscellaneous \u21d2 Others",
+          "normalized": "Miscellaneous \u21d2 Others"
+        },
+        "closing_date": {
+          "value": "26 Jun 2026 04:00PM",
+          "normalized": {
+            "date": "2026-06-26",
+            "time": "16:00",
+            "datetime": "2026-06-26T16:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Electronic Submission",
+          "normalized": "Electronic Submission"
+        },
+        "tender_reference": {
+          "value": "Tender  - PAS000ETT26000052 / OTH-ITT-2026-0007",
+          "normalized": "Tender  - PAS000ETT26000052 / OTH-ITT-2026-0007"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000052']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000052']",
+          "text_quote": "LEASE AND OPERATIONS OF A TAKEAWAY SALAD KIOSK AT #B1-K13 IN OUR TAMPINES HUB AT 1 TAMPINES WALK, SI",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[8]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(8) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000052']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000052']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[8]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(8) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id54:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id54:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "People's Association",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[8]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(8) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id54:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id54:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[8]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(8) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id54:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id54:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Miscellaneous \u21d2 Others",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[8]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(8) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id54:j_id57'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id54:j_id57']/div[1]/div[2]/div[1]",
+          "text_quote": "26 Jun 2026 04:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[8]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(8) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id54:j_id57'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id54:j_id57']/div[1]/div[2]/div[1]",
+          "text_quote": "Electronic Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[8]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(8) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id54:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id54:j_idt828']",
+          "text_quote": "Tender  - PAS000ETT26000052 / OTH-ITT-2026-0007",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[7]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(7)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_003",
+      "fields": {
+        "tender_title": {
+          "value": "Provision and installation of curtains and related furnishings for the Residence of the Ambassador of Singapore in Paris, France",
+          "normalized": "Provision and installation of curtains and related furnishings for the Residence of the Ambassador of Singapore in Paris, France"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=FOR000ETT26000043",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=FOR000ETT26000043"
+        },
+        "agency": {
+          "value": "Ministry of Foreign Affairs",
+          "normalized": "Ministry of Foreign Affairs"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Construction \u21d2 Interior Decoration",
+          "normalized": "Construction \u21d2 Interior Decoration"
+        },
+        "closing_date": {
+          "value": "20 Jul 2026 04:00PM",
+          "normalized": {
+            "date": "2026-07-20",
+            "time": "16:00",
+            "datetime": "2026-07-20T16:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Manual Submission",
+          "normalized": "Manual Submission"
+        },
+        "tender_reference": {
+          "value": "Tender  - FOR000ETT26000043",
+          "normalized": "Tender  - FOR000ETT26000043"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=FOR000ETT26000043']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=FOR000ETT26000043']",
+          "text_quote": "Provision and installation of curtains and related furnishings for the Residence of the Ambassador o",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[13]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(13) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=FOR000ETT26000043']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=FOR000ETT26000043']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[13]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(13) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id78:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id78:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Ministry of Foreign Affairs",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[13]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(13) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id78:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id78:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[13]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(13) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id78:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id78:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Construction \u21d2 Interior Decoration",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[13]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(13) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id78:j_id81'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id78:j_id81']/div[1]/div[2]/div[1]",
+          "text_quote": "20 Jul 2026 04:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[13]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(13) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id78:j_id81'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id78:j_id81']/div[1]/div[2]/div[1]",
+          "text_quote": "Manual Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[13]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(13) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id78:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id78:j_idt828']",
+          "text_quote": "Tender  - FOR000ETT26000043",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[12]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(12)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_004",
+      "fields": {
+        "tender_title": {
+          "value": "Sewer Maintenance for Eastern and Western Catchments for 2026 - 2029",
+          "normalized": "Sewer Maintenance for Eastern and Western Catchments for 2026 - 2029"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000071",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000071"
+        },
+        "agency": {
+          "value": "Public Utilities Board",
+          "normalized": "Public Utilities Board"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Construction \u21d2 Civil Engineering",
+          "normalized": "Construction \u21d2 Civil Engineering"
+        },
+        "closing_date": {
+          "value": "09 Jul 2026 04:00PM",
+          "normalized": {
+            "date": "2026-07-09",
+            "time": "16:00",
+            "datetime": "2026-07-09T16:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Electronic Submission",
+          "normalized": "Electronic Submission"
+        },
+        "tender_reference": {
+          "value": "Tender  - PUB000ETT26000071 / WRN/33260066",
+          "normalized": "Tender  - PUB000ETT26000071 / WRN/33260066"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000071']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000071']",
+          "text_quote": "Sewer Maintenance for Eastern and Western Catchments for 2026 - 2029",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[18]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(18) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000071']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000071']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[18]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(18) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id102:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id102:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Public Utilities Board",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[18]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(18) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id102:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id102:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[18]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(18) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id102:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id102:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Construction \u21d2 Civil Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[18]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(18) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id102:j_id105'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id102:j_id105']/div[1]/div[2]/div[1]",
+          "text_quote": "09 Jul 2026 04:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[18]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(18) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id102:j_id105'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id102:j_id105']/div[1]/div[2]/div[1]",
+          "text_quote": "Electronic Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[18]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(18) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id102:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id102:j_idt828']",
+          "text_quote": "Tender  - PUB000ETT26000071 / WRN/33260066",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[17]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(17)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_005",
+      "fields": {
+        "tender_title": {
+          "value": "Term Contract for Topographical Survey for Outlet Drains",
+          "normalized": "Term Contract for Topographical Survey for Outlet Drains"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000070",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000070"
+        },
+        "agency": {
+          "value": "Public Utilities Board",
+          "normalized": "Public Utilities Board"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Services \u21d2 Professional Services",
+          "normalized": "Services \u21d2 Professional Services"
+        },
+        "closing_date": {
+          "value": "09 Jul 2026 04:00PM",
+          "normalized": {
+            "date": "2026-07-09",
+            "time": "16:00",
+            "datetime": "2026-07-09T16:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Electronic Submission",
+          "normalized": "Electronic Submission"
+        },
+        "tender_reference": {
+          "value": "Tender  - PUB000ETT26000070 / FRP/33260082",
+          "normalized": "Tender  - PUB000ETT26000070 / FRP/33260082"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000070']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000070']",
+          "text_quote": "Term Contract for Topographical Survey for Outlet Drains",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[23]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(23) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000070']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PUB000ETT26000070']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[23]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(23) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id126:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id126:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Public Utilities Board",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[23]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(23) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id126:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id126:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[23]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(23) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id126:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id126:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Services \u21d2 Professional Services",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[23]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(23) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id126:j_id129'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id126:j_id129']/div[1]/div[2]/div[1]",
+          "text_quote": "09 Jul 2026 04:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[23]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(23) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id126:j_id129'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id126:j_id129']/div[1]/div[2]/div[1]",
+          "text_quote": "Electronic Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[23]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(23) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id126:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id126:j_idt828']",
+          "text_quote": "Tender  - PUB000ETT26000070 / FRP/33260082",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[22]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(22)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_006",
+      "fields": {
+        "tender_title": {
+          "value": "FOR THE LEASE AND OPERATION OF A TRADITIONAL COOKIES, CAKES AND KUEH SHOP AT #B1-52B IN OUR TAMPINES HUB AT 1 TAMPINES WALK, SINGAPORE 528523",
+          "normalized": "FOR THE LEASE AND OPERATION OF A TRADITIONAL COOKIES, CAKES AND KUEH SHOP AT #B1-52B IN OUR TAMPINES HUB AT 1 TAMPINES WALK, SINGAPORE 528523"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000051",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000051"
+        },
+        "agency": {
+          "value": "People's Association",
+          "normalized": "People's Association"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Facilities Management \u21d2 Management Services",
+          "normalized": "Facilities Management \u21d2 Management Services"
+        },
+        "closing_date": {
+          "value": "26 Jun 2026 04:00PM",
+          "normalized": {
+            "date": "2026-06-26",
+            "time": "16:00",
+            "datetime": "2026-06-26T16:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Electronic Submission",
+          "normalized": "Electronic Submission"
+        },
+        "tender_reference": {
+          "value": "Tender  - PAS000ETT26000051 / OTH-ITT-2026-0006",
+          "normalized": "Tender  - PAS000ETT26000051 / OTH-ITT-2026-0006"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000051']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000051']",
+          "text_quote": "FOR THE LEASE AND OPERATION OF A TRADITIONAL COOKIES, CAKES AND KUEH SHOP AT #B1-52B IN OUR TAMPINES",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[28]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(28) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000051']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000051']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[28]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(28) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id150:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id150:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "People's Association",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[28]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(28) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id150:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id150:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[28]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(28) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id150:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id150:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Facilities Management \u21d2 Management Services",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[28]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(28) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id150:j_id153'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id150:j_id153']/div[1]/div[2]/div[1]",
+          "text_quote": "26 Jun 2026 04:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[28]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(28) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id150:j_id153'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id150:j_id153']/div[1]/div[2]/div[1]",
+          "text_quote": "Electronic Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[28]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(28) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id150:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id150:j_idt828']",
+          "text_quote": "Tender  - PAS000ETT26000051 / OTH-ITT-2026-0006",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[27]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(27)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_007",
+      "fields": {
+        "tender_title": {
+          "value": "FOR THE LEASE AND OPERATION AS A CHIROPRACTIC CLINIC AT #B1-21 IN OUR TAMPINES HUB AT 1 TAMPINES WALK, SINGAPORE 528523",
+          "normalized": "FOR THE LEASE AND OPERATION AS A CHIROPRACTIC CLINIC AT #B1-21 IN OUR TAMPINES HUB AT 1 TAMPINES WALK, SINGAPORE 528523"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000050",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000050"
+        },
+        "agency": {
+          "value": "People's Association",
+          "normalized": "People's Association"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Miscellaneous \u21d2 Others",
+          "normalized": "Miscellaneous \u21d2 Others"
+        },
+        "closing_date": {
+          "value": "26 Jun 2026 04:00PM",
+          "normalized": {
+            "date": "2026-06-26",
+            "time": "16:00",
+            "datetime": "2026-06-26T16:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Electronic Submission",
+          "normalized": "Electronic Submission"
+        },
+        "tender_reference": {
+          "value": "Tender  - PAS000ETT26000050 / OTH-ITT-2026-0005",
+          "normalized": "Tender  - PAS000ETT26000050 / OTH-ITT-2026-0005"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000050']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000050']",
+          "text_quote": "FOR THE LEASE AND OPERATION AS A CHIROPRACTIC CLINIC AT #B1-21 IN OUR TAMPINES HUB AT 1 TAMPINES WAL",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[33]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(33) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000050']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=PAS000ETT26000050']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[33]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(33) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id174:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id174:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "People's Association",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[33]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(33) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id174:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id174:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[33]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(33) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id174:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id174:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Miscellaneous \u21d2 Others",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[33]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(33) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id174:j_id177'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id174:j_id177']/div[1]/div[2]/div[1]",
+          "text_quote": "26 Jun 2026 04:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[33]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(33) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id174:j_id177'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id174:j_id177']/div[1]/div[2]/div[1]",
+          "text_quote": "Electronic Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[33]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(33) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id174:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id174:j_idt828']",
+          "text_quote": "Tender  - PAS000ETT26000050 / OTH-ITT-2026-0005",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[32]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(32)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_008",
+      "fields": {
+        "tender_title": {
+          "value": "Rental of ISO Tank",
+          "normalized": "Rental of ISO Tank"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=DEFNGPP7126100683",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=DEFNGPP7126100683"
+        },
+        "agency": {
+          "value": "Ministry of Defence 6",
+          "normalized": "Ministry of Defence 6"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Miscellaneous \u21d2 Others",
+          "normalized": "Miscellaneous \u21d2 Others"
+        },
+        "closing_date": {
+          "value": "22 Jun 2026 01:00PM",
+          "normalized": {
+            "date": "2026-06-22",
+            "time": "13:00",
+            "datetime": "2026-06-22T13:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Electronic Submission",
+          "normalized": "Electronic Submission"
+        },
+        "tender_reference": {
+          "value": "Quotation  - DEFNGPP7126100683",
+          "normalized": "Quotation  - DEFNGPP7126100683"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=DEFNGPP7126100683']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=DEFNGPP7126100683']",
+          "text_quote": "Rental of ISO Tank",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[38]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(38) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=DEFNGPP7126100683']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=DEFNGPP7126100683']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[38]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(38) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id198:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id198:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Ministry of Defence 6",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[38]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(38) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id198:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id198:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[38]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(38) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id198:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id198:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Miscellaneous \u21d2 Others",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[38]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(38) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id198:j_id201'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id198:j_id201']/div[1]/div[2]/div[1]",
+          "text_quote": "22 Jun 2026 01:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[38]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(38) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id198:j_id201'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id198:j_id201']/div[1]/div[2]/div[1]",
+          "text_quote": "Electronic Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[38]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(38) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id198:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id198:j_idt828']",
+          "text_quote": "Quotation  - DEFNGPP7126100683",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[37]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(37)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_009",
+      "fields": {
+        "tender_title": {
+          "value": "Invitation to Quote (ITQ) for the Supply and Delivery of Precision Dimensional Measuring Instruments",
+          "normalized": "Invitation to Quote (ITQ) for the Supply and Delivery of Precision Dimensional Measuring Instruments"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=NYP000ETQ26000108",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=NYP000ETQ26000108"
+        },
+        "agency": {
+          "value": "Nanyang Polytechnic",
+          "normalized": "Nanyang Polytechnic"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Dental, Medical & Laboratory \u21d2 Laboratory Equipment & Supplies",
+          "normalized": "Dental, Medical & Laboratory \u21d2 Laboratory Equipment & Supplies"
+        },
+        "closing_date": {
+          "value": "24 Jun 2026 01:00PM",
+          "normalized": {
+            "date": "2026-06-24",
+            "time": "13:00",
+            "datetime": "2026-06-24T13:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Electronic Submission",
+          "normalized": "Electronic Submission"
+        },
+        "tender_reference": {
+          "value": "Quotation  - NYP000ETQ26000108",
+          "normalized": "Quotation  - NYP000ETQ26000108"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=NYP000ETQ26000108']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=NYP000ETQ26000108']",
+          "text_quote": "Invitation to Quote (ITQ) for the Supply and Delivery of Precision Dimensional Measuring Instruments",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[43]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(43) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=NYP000ETQ26000108']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=NYP000ETQ26000108']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[43]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(43) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id222:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id222:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Nanyang Polytechnic",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[43]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(43) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id222:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id222:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[43]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(43) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id222:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id222:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Dental, Medical & Laboratory \u21d2 Laboratory Equipment & Supplies",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[43]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(43) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id222:j_id225'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id222:j_id225']/div[1]/div[2]/div[1]",
+          "text_quote": "24 Jun 2026 01:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[43]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(43) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id222:j_id225'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id222:j_id225']/div[1]/div[2]/div[1]",
+          "text_quote": "Electronic Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[43]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(43) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id222:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id222:j_idt828']",
+          "text_quote": "Quotation  - NYP000ETQ26000108",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[42]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(42)"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_FAT_001_LISTING_010",
+      "fields": {
+        "tender_title": {
+          "value": "TPO-REQ-2026-004004-SH-Invitation to Quote for Appointment of Auditor for Audit Certification Services for two years",
+          "normalized": "TPO-REQ-2026-004004-SH-Invitation to Quote for Appointment of Auditor for Audit Certification Services for two years"
+        },
+        "tender_url": {
+          "value": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=TPO000ETQ26000077",
+          "normalized": "https://www.gebiz.gov.sg/ptn/opportunity/directlink.xhtml?docCode=TPO000ETQ26000077"
+        },
+        "agency": {
+          "value": "Temasek Polytechnic",
+          "normalized": "Temasek Polytechnic"
+        },
+        "published_date": {
+          "value": "12 Jun 2026 12:05 AM",
+          "normalized": "2026-06-12T00:05:00"
+        },
+        "procurement_category": {
+          "value": "Services \u21d2 Professional Services",
+          "normalized": "Services \u21d2 Professional Services"
+        },
+        "closing_date": {
+          "value": "25 Jun 2026 01:00PM",
+          "normalized": {
+            "date": "2026-06-25",
+            "time": "13:00",
+            "datetime": "2026-06-25T13:00:00",
+            "timezone": null
+          }
+        },
+        "type_submission": {
+          "value": "Electronic Submission",
+          "normalized": "Electronic Submission"
+        },
+        "tender_reference": {
+          "value": "Quotation  - TPO000ETQ26000077 / TPO-REQ-2026-004004-SH",
+          "normalized": "Quotation  - TPO000ETQ26000077 / TPO-REQ-2026-004004-SH"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=TPO000ETQ26000077']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=TPO000ETQ26000077']",
+          "text_quote": "TPO-REQ-2026-004004-SH-Invitation to Quote for Appointment of Auditor for Audit Certification Servic",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[48]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(48) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "tender_url": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "a[href='/ptn/opportunity/directlink.xhtml?docCode=TPO000ETQ26000077']",
+          "xpath": "//a[@href='/ptn/opportunity/directlink.xhtml?docCode=TPO000ETQ26000077']",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[48]/div/div[1]/div/div[1]/div/div/div/div/div/span/a",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(48) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div > div > span > a"
+        },
+        "agency": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id246:j_idt834'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id246:j_idt834']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Temasek Polytechnic",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[48]/div/div[1]/div/div[2]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(48) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2)"
+        },
+        "published_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id246:j_idt835'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id246:j_idt835']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "12 Jun 2026 12:05 AM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[48]/div/div[1]/div/div[3]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(48) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(2)"
+        },
+        "procurement_category": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id246:j_idt836'] > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id246:j_idt836']/div[1]/div[1]/div[1]/div[2]",
+          "text_quote": "Services \u21d2 Professional Services",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[48]/div/div[1]/div/div[4]/div/div/div/div[2]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(48) > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(2)"
+        },
+        "closing_date": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id246:j_id249'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id246:j_id249']/div[1]/div[2]/div[1]",
+          "text_quote": "25 Jun 2026 01:00PM",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[48]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(48) > div > div:nth-of-type(2) > div"
+        },
+        "type_submission": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id246:j_id249'] > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id246:j_id249']/div[1]/div[2]/div[1]",
+          "text_quote": "Electronic Submission",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[48]/div/div[2]/div",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(48) > div > div:nth-of-type(2) > div"
+        },
+        "tender_reference": {
+          "snapshot_id": "fat_001_listing",
+          "css_selector": "div[id='contentForm:j_idt825:j_id246:j_idt828']",
+          "xpath": "//*[@id='contentForm:j_idt825:j_id246:j_idt828']",
+          "text_quote": "Quotation  - TPO000ETQ26000077 / TPO-REQ-2026-004004-SH",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div/form[2]/div[7]/div/div/div[1]/div/div/div/div/div[2]/div/div[4]/div/div/div/div[47]",
+          "css_selector_absolute": "html > body > div > form:nth-of-type(2) > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(4) > div > div > div > div:nth-of-type(47)"
+        }
+      }
+    }
+  ]
+}

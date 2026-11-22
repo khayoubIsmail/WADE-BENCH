@@ -1,0 +1,72 @@
+{
+  "task_id": "WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL",
+  "baseline": "b3_vision_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "product_name": "Wood Pendant Light | Mid Century Modern | Handmade Lamp | Ceiling Lamp | Chandelier Lighting | Industrial Lamp | Wood Lampshade | Lamp Shade",
+        "brand": "DEZAART",
+        "price_raw": "MAD 1,157.25+",
+        "old_price_raw": "MAD 1,653.21+",
+        "currency": "MAD",
+        "discount_percentage": "30% off",
+        "description": "This handmade wood pendant light combines contemporary industrial design with a mid-century modern feeling. What is so unique about this lamp is the fact that it creates streams of shadow and light on the ceiling and walls. The stronger the light, the bigger the casting shadows.",
+        "rating": 4.8,
+        "review_count": "1.5k reviews",
+        "availability": "In stock",
+        "shipping_text": "Order today to get by Jun 8-12",
+        "shipping_info": "Cost to ship: MAD 278.26\nShips from: Greece\nReturns accepted within 30 days",
+        "material": "Wood",
+        "seller_name": "Athanasios Athanasiou (DEZAART)",
+        "image_urls": [
+          "https://i.etsystatic.com/.../wood-pendant-light-main.jpg"
+        ],
+        "product_url": "https://www.etsy.com/listing/.../wood-pendant-light-mid-century-modern",
+        "first_review": "The ceiling pendant is absolutely stunning. It was very easy to assemble and install. It's a great focal point in my kitchen/dining area.",
+        "first_review_rating": 5,
+        "first_review_details": "Patti · May 27, 2026",
+        "color": null,
+        "size_or_volume": null,
+        "sku": null,
+        "available_colors": null,
+        "available_sizes": null,
+        "measurements": null,
+        "care": null,
+        "key_features": null
+      },
+      "provenance": {
+        "source": "screenshot.png",
+        "tile_index": 1,
+        "url": "https://www.etsy.com/listing/.../wood-pendant-light-mid-century-modern",
+        "snapshot_id": "etsy_home_living_detail_sample",
+        "css_selector_or_xpath": null,
+        "text_quote_or_attribute": "Wood Pendant Light | Mid Century Modern | Handmade Lamp | Ceiling Lamp | Chandelier Lighting | Industrial Lamp | Wood Lampshade | Lamp Shade",
+        "bbox": null
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 22.839,
+    "input_tokens": 5035,
+    "output_tokens": 457,
+    "total_tokens": 5492,
+    "num_tiles": 3,
+    "tile_height": 1400,
+    "tile_overlap": 180,
+    "max_tiles": 24,
+    "tile_paths": [
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL\\tile_01.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL\\tile_02.png",
+      "data\\processed_screenshots\\b3_tiles\\WBV1_ECOM_09_ETSY_HOME_LIVING_DETAIL\\tile_03.png"
+    ],
+    "error": null
+  }
+}

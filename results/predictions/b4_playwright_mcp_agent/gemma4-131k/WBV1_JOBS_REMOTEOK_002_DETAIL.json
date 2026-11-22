@@ -1,0 +1,62 @@
+{
+  "task_id": "WBV1_JOBS_REMOTEOK_002_DETAIL",
+  "baseline": "b4_playwright_mcp_agent",
+  "model": "gemma4-131k:latest",
+  "domain": "jobs",
+  "schema_id": "job_posting_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "job_title": {
+          "value": "Digital Solutions Specialist",
+          "provenance": {
+            "source": "page.html",
+            "selector": "h2",
+            "text_quote": "Digital Solutions Specialist"
+          }
+        },
+        "job_url": {
+          "value": "http://127.0.0.1:51989/remote-jobs/remote-digital-solutions-specialist-newport-water-1132423",
+          "provenance": {
+            "source": "metadata.json",
+            "selector": "url",
+            "text_quote": "https://remoteok.com/remote-jobs/remote-digital-solutions-specialist-newport-water-1132423"
+          }
+        },
+        "company_name": {
+          "value": "Newport Water",
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": "cell [ref=e38]",
+            "text_quote": "Newport Water"
+          }
+        },
+        "location": {
+          "value": "Barbados",
+          "provenance": {
+            "source": "page.safe.html",
+            "selector": "cell [ref=e105]",
+            "text_quote": "Location: Barbados"
+          }
+        }
+      },
+      "provenance": {
+        "record_id": "pred_001"
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "repaired": false,
+    "latency_seconds": 22.812,
+    "input_tokens": 52871,
+    "output_tokens": 352,
+    "total_tokens": 53223,
+    "evidence_path": "data\\processed_evidence\\b4_playwright_mcp_agent\\WBV1_JOBS_REMOTEOK_002_DETAIL\\evidence.json",
+    "tool_trace_path": "logs\\b4_playwright_mcp_agent\\dev\\WBV1_JOBS_REMOTEOK_002_DETAIL_tool_trace.json",
+    "error": null
+  }
+}

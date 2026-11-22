@@ -1,0 +1,112 @@
+{
+  "task_id": "WBV1_ECOM_01_IKEA_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "gemma4-131k:latest",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "IKEA",
+        "description": "LILLESÄTER sectional, 5-seat, Gunnared bright green-yellow Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÄTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!",
+        "image_urls": [
+          "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg"
+        ],
+        "price_raw": "$1,499",
+        "product_name": "LILLESÄTER sectional, 5-seat, Gunnared bright green-yellow",
+        "product_url": "https://www.ikea.com/us/en/p/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow-s39614282/",
+        "rating": null,
+        "review_count": null,
+        "available_colors": [
+          {
+            "color_name": "Gunnared bright green-yellow",
+            "provenance": {
+              "source": "page.html",
+              "selector": "meta[content*='Gunnared bright green-yellow']",
+              "quote": "LILLESÄTER sectional, 5-seat, Gunnared bright green-yellow"
+            }
+          }
+        ],
+        "currency": "USD",
+        "short_description": "LILLESÄTER sectional, 5-seat, Gunnared bright green-yellow Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÄTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!",
+        "sku": "39614282",
+        "material": null,
+        "measurements": null
+      },
+      "provenance": {
+        "record_id": "pred_001",
+        "product_name": {
+          "source": "page.html",
+          "selector": "meta[content*='LILLESÄTER sectional, 5-seat']",
+          "quote": "LILLESÄTER sectional, 5-seat, Gunnared bright green-yellow  - IKEA"
+        },
+        "description": {
+          "source": "page.html",
+          "selector": "meta[name='og:description']",
+          "quote": "LILLESÄTER sectional, 5-seat, Gunnared bright green-yellow Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÄTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!"
+        },
+        "image_urls": {
+          "source": "page.html",
+          "selector": "meta[property='og:image']",
+          "quote": "https://www.ikea.com/us/en/images/products/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow__1515406_pe1011406_s5.jpg"
+        },
+        "price_raw": {
+          "source": "page.html",
+          "selector": "script[data-type='utag-data']",
+          "quote": "\"product_prices\": [\"1499\"]"
+        },
+        "product_url": {
+          "source": "page.html",
+          "selector": "link[rel='canonical']",
+          "quote": "https://www.ikea.com/us/en/p/lillesaeter-sectional-5-seat-gunnared-bright-green-yellow-s39614282/"
+        },
+        "rating": {
+          "source": "page.html",
+          "selector": "body",
+          "quote": null
+        },
+        "review_count": {
+          "source": "page.html",
+          "selector": "body",
+          "quote": null
+        },
+        "available_colors": {
+          "source": "page.html",
+          "selector": "meta[content*='Gunnared bright green-yellow']",
+          "quote": "LILLESÄTER sectional, 5-seat, Gunnared bright green-yellow"
+        },
+        "currency": {
+          "source": "page.html",
+          "selector": "script[data-type='utag-data']",
+          "quote": "\"currency_code\":\"USD\""
+        },
+        "short_description": {
+          "source": "page.html",
+          "selector": "meta[name='og:description']",
+          "quote": "LILLESÄTER sectional, 5-seat, Gunnared bright green-yellow Sweeping, soft shapes that are easy on both the eye and the body. The LILLESÄTER series has a modern expression that feels stylish and elegant – yet youthfully playful. Subtle and bold at the same time!"
+        },
+        "sku": {
+          "source": "page.html",
+          "selector": "script[data-type='utag-data']",
+          "quote": "\"product_ids\":[\"39614282\"]"
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 19.965,
+    "input_tokens": 17409,
+    "output_tokens": 1369,
+    "total_tokens": 18778,
+    "initial_input_tokens": 17409,
+    "initial_output_tokens": 1369,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

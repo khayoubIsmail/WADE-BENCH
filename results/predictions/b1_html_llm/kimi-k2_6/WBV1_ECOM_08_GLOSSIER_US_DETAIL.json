@@ -1,0 +1,165 @@
+{
+  "task_id": "WBV1_ECOM_08_GLOSSIER_US_DETAIL",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "ecommerce",
+  "schema_id": "product_detail_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "brand": "Glossier",
+        "description": "A pH-balanced gel-cream cleanser that's suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished–never stripped.",
+        "image_urls": [
+          "https://www.glossier.com/cdn/shop/files/glossier-skincare-mjc177ml-carousel-1.png?v=1770906323",
+          "https://www.glossier.com/cdn/shop/files/glossier-mjc-177-02.png?v=1770906323",
+          "https://www.glossier.com/cdn/shop/files/glossier-mjc-carousel-04_fb65ca2d-b3e4-4006-9323-cc0f90e75548.png?v=1770906323",
+          "https://www.glossier.com/cdn/shop/files/glossier-mjc-carousel-05_65e218da-92f8-4b23-bcc9-8c0e78f9583f.png?v=1770906323",
+          "https://www.glossier.com/cdn/shop/files/glossier-mjc-carousel-06_2f368e87-fc73-4714-bc65-635e0f8fa4fb.png?v=1770906323",
+          "https://www.glossier.com/cdn/shop/files/glossier-mjc-carousel-08_1362a25c-5283-4e48-bc2c-d1bb8187b621.png?v=1770906323"
+        ],
+        "price_raw": "Dh 259.00 MAD",
+        "product_name": "Milky Jelly Cleanser",
+        "product_url": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser",
+        "rating": 4.2,
+        "review_count": 4634,
+        "availability": "InStock",
+        "currency": "MAD",
+        "image_url": "https://www.glossier.com/cdn/shop/files/glossier-skincare-mjc177ml-carousel-1.png?v=1770906323",
+        "price": 259.0,
+        "shipping_text": "Free express shipping on orders 1,375 dh or more",
+        "size_or_volume": "177 mL",
+        "sku": "MJC-000-00-00",
+        "available_sizes": [
+          "177 mL",
+          "60 mL",
+          "300 mL",
+          "15 mL"
+        ],
+        "key_features": [
+          "Nourishing",
+          "Soothing"
+        ],
+        "materials": [
+          "Rose Water",
+          "Comfrey Root Extract",
+          "Xylitol",
+          "Pro-Vitamin B5"
+        ],
+        "short_description": "A super gentle cleansing experience."
+      },
+      "provenance": {
+        "brand": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:site_name']",
+          "text_quote_or_attribute": "Glossier"
+        },
+        "description": {
+          "source": "page.html",
+          "css_selector_or_xpath": "#description-item",
+          "text_quote_or_attribute": "A pH-balanced gel-cream cleanser that's suitable for all skin types. Formulated with gentle, conditioning ingredients, this cleanser dissolves dirt, oil and makeup while leaving skin soft and nourished–never stripped."
+        },
+        "image_urls": {
+          "source": "page.html",
+          "css_selector_or_xpath": "SDG.Data.productJson.images",
+          "text_quote_or_attribute": "\"//www.glossier.com/cdn/shop/files/glossier-skincare-mjc177ml-carousel-1.png?v=1770906323\""
+        },
+        "price_raw": {
+          "source": "page.html",
+          "css_selector_or_xpath": "[data-variant-id='44415832752373'][data-variant-price]",
+          "text_quote_or_attribute": "Dh 259.00 MAD"
+        },
+        "product_name": {
+          "source": "page.html",
+          "css_selector_or_xpath": "h1.pv-header__title",
+          "text_quote_or_attribute": "Milky Jelly Cleanser"
+        },
+        "product_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "link[rel='canonical']",
+          "text_quote_or_attribute": "https://www.glossier.com/en-ma/products/milky-jelly-cleanser?variant=44415832752373"
+        },
+        "rating": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pv-reviews__header-score-text",
+          "text_quote_or_attribute": "4.2"
+        },
+        "review_count": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pv-reviews__header-summary-item-value--underline",
+          "text_quote_or_attribute": "4634"
+        },
+        "availability": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='product:availability']",
+          "text_quote_or_attribute": "instock"
+        },
+        "currency": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='product:price:currency']",
+          "text_quote_or_attribute": "USD"
+        },
+        "image_url": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='og:image']",
+          "text_quote_or_attribute": "http://www.glossier.com/cdn/shop/files/glossier-skincare-mjc177ml-carousel-1.png?v=1770906323"
+        },
+        "price": {
+          "source": "page.html",
+          "css_selector_or_xpath": "meta[property='product:price:amount']",
+          "text_quote_or_attribute": "54.00"
+        },
+        "shipping_text": {
+          "source": "page.html",
+          "css_selector_or_xpath": "#bagFreeShippingNotReached",
+          "text_quote_or_attribute": "1,375 dh  away from free express shipping"
+        },
+        "size_or_volume": {
+          "source": "page.html",
+          "css_selector_or_xpath": "[data-variant-id='44415832752373'][data-variant-title]",
+          "text_quote_or_attribute": "177 mL"
+        },
+        "sku": {
+          "source": "page.html",
+          "css_selector_or_xpath": "[data-variant-id='44415832752373'][data-variant-sku]",
+          "text_quote_or_attribute": "MJC-000-00-00"
+        },
+        "available_sizes": {
+          "source": "page.html",
+          "css_selector_or_xpath": "SDG.Data.productJsonOptionsWithValues",
+          "text_quote_or_attribute": "\"values\":[\"177 mL\",\"60 mL\",\"300 mL\",\"15 mL\"]"
+        },
+        "key_features": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pv-details__good-to-know-item",
+          "text_quote_or_attribute": "Nourishing"
+        },
+        "materials": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".acc__title",
+          "text_quote_or_attribute": "Rose Water"
+        },
+        "short_description": {
+          "source": "page.html",
+          "css_selector_or_xpath": ".pv-details__tagline",
+          "text_quote_or_attribute": "A super gentle cleansing experience."
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 87.203,
+    "input_tokens": 172783,
+    "output_tokens": 1298,
+    "total_tokens": 174081,
+    "initial_input_tokens": 172783,
+    "initial_output_tokens": 1298,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

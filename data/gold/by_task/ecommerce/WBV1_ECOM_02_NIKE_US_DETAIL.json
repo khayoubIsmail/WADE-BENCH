@@ -1,0 +1,171 @@
+{
+  "task_id": "WBV1_ECOM_02_NIKE_US_DETAIL",
+  "website_id": "nike_us",
+  "schema_id": "product_detail_v1",
+  "snapshot_id": "nike_us_detail_sample",
+  "snapshot_path": "raw_snapshots/ecommerce/nike_us_detail_sample",
+  "live_url": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 1
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_ECOM_02_NIKE_US_DETAIL_001",
+      "fields": {
+        "product_name": {
+          "value": "Air Jordan 4 'Toro'",
+          "normalized": "Air Jordan 4 'Toro'"
+        },
+        "price": {
+          "value": "$220",
+          "normalized": {
+            "amount": 220.0,
+            "currency": {
+              "name": "US dollar",
+              "code": "USD",
+              "symbol": "$"
+            }
+          }
+        },
+        "description": {
+          "value": "\u00a1Ol\u00e9! We're bringing the 'Toro' colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey. Staying true to form, Nike Air cushioning in the heel and forefoot softens your step. Original design elements\u2014like floating eyestays and mesh-like panels\u2014make it feel as fresh as it did in '89.",
+          "normalized": "\u00a1Ol\u00e9! We're bringing the 'Toro' colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings the heat, accented with black and cool Cement Grey. Staying true to form, Nike Air cushioning in the heel and forefoot softens your step. Original design elements\u2014like floating eyestays and mesh-like panels\u2014make it feel as fresh as it did in '89."
+        },
+        "available_colors": {
+          "value": [
+            "Fire Red/Black/Cement Grey/White"
+          ],
+          "normalized": [
+            "Fire Red/Black/Cement Grey/White"
+          ]
+        },
+        "image_urls": {
+          "value": [
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fde2cc9-99ff-469a-81b3-e74ffe5be20f/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3a51bb6a-69e8-4841-942e-fe8494db5b7a/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/86cde36b-dc2f-49cc-91e9-35375005fd20/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f8e9a46a-2011-48d8-8656-f36d2190f83c/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6352932a-f7a6-4223-a917-8b04436dd6ac/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4f99de33-b486-49d0-ba08-0cde026f665b/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d4d8c056-ed82-4ce3-8ac1-d07f2097f1cc/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4eab3c82-a786-49c3-b2d6-46560cc23326/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/352f1d88-987e-468c-94c5-da30a9b9d413/AIR+JORDAN+4+RETRO.png"
+          ],
+          "normalized": [
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fde2cc9-99ff-469a-81b3-e74ffe5be20f/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3a51bb6a-69e8-4841-942e-fe8494db5b7a/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/86cde36b-dc2f-49cc-91e9-35375005fd20/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f8e9a46a-2011-48d8-8656-f36d2190f83c/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6352932a-f7a6-4223-a917-8b04436dd6ac/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4f99de33-b486-49d0-ba08-0cde026f665b/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d4d8c056-ed82-4ce3-8ac1-d07f2097f1cc/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4eab3c82-a786-49c3-b2d6-46560cc23326/AIR+JORDAN+4+RETRO.png",
+            "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/352f1d88-987e-468c-94c5-da30a9b9d413/AIR+JORDAN+4+RETRO.png"
+          ]
+        },
+        "product_url": {
+          "value": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600",
+          "normalized": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600"
+        },
+        "fit": {
+          "value": [
+            "Baby/Toddler",
+            "Little Kids",
+            "Big Kids",
+            "Adults"
+          ],
+          "normalized": [
+            "Baby/Toddler",
+            "Little Kids",
+            "Big Kids",
+            "Adults"
+          ]
+        },
+        "style_color": {
+          "value": "Style: FQ8138-600",
+          "normalized": "Style: FQ8138-600"
+        }
+      },
+      "provenance": {
+        "product_name": {
+          "snapshot_id": "nike_us_detail_sample",
+          "css_selector": "#__next > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(7) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "xpath": "//*[@id='__next']/main[1]/div[2]/div[3]/div[7]/div[1]/p[1]",
+          "text_quote": "Air Jordan 4 'Toro'",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div/main/div[2]/div[3]/div[7]/div/p[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(7) > div:nth-of-type(1) > p:nth-of-type(1)"
+        },
+        "price": {
+          "snapshot_id": "nike_us_detail_sample",
+          "css_selector": "span[data-testid='currentPrice-container']",
+          "xpath": "//*[@id='__next']/main[1]/div[2]/div[3]/div[7]/div[1]/div[1]/span[1]",
+          "text_quote": "$220",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div/main/div[2]/div[3]/div[7]/div/div[1]/span",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+        },
+        "description": {
+          "snapshot_id": "nike_us_detail_sample",
+          "css_selector": "div#product-description-container",
+          "xpath": "//*[@id='product-description-container']",
+          "text_quote": "\u00a1Ol\u00e9! We're bringing the 'Toro' colorway all the way back from 2013 in all its bullish glory. A Fire Red upper brings th",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div/main/div[2]/div[3]/div[6]",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(6)"
+        },
+        "fit": {
+          "snapshot_id": "nike_us_detail_sample",
+          "css_selector": "fieldset[aria-label='Select Fit']",
+          "xpath": "//fieldset[@aria-label='Select Fit']",
+          "text_quote": "Baby/Toddler",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div/main/div[2]/div[3]/div[2]/div[2]/fieldset",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > fieldset:nth-of-type(1)"
+        },
+        "available_colors": {
+          "snapshot_id": "nike_us_detail_sample",
+          "css_selector": "li.nds-text.css-xlkxpi.e1yhcai00",
+          "xpath": "//*[@id='__next']/main[1]/div[2]/div[3]/div[7]/div[1]/div[5]/ul[1]/li[1]",
+          "text_quote": "Fire Red/Black/Cement Grey/White",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div/main/div[2]/div[3]/div[7]/div/div[5]/ul/li[1]",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(5) > ul:nth-of-type(1) > li:nth-of-type(1)"
+        },
+        "image_urls": {
+          "snapshot_id": "nike_us_detail_sample",
+          "css_selector": "img[src*='AIR+JORDAN+4+RETRO.png']",
+          "xpath": "//img[contains(@src,'t_web_pdp_936_v2')]",
+          "text_quote": null,
+          "attribute": "src",
+          "xpath_absolute": "/html/body/div[4]/div/main/div[2]/div[3]/div[2]/div[1]/ul/li[1]/div/img",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+        },
+        "product_url": {
+          "snapshot_id": "nike_us_detail_sample",
+          "css_selector": "a[href*='FQ8138-600']",
+          "xpath": "//a[contains(@href,'FQ8138-600')]",
+          "text_quote": null,
+          "attribute": "href",
+          "xpath_absolute": "/html/body/div[4]/div/main/div[2]/div[3]/div[2]/div[3]/div/a",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)"
+        },
+        "style_color": {
+          "snapshot_id": "nike_us_detail_sample",
+          "css_selector": "li.nds-text.css-xlkxpi.e1yhcai00",
+          "xpath": "//*[@id='__next']/main[1]/div[2]/div[3]/div[7]/div[1]/div[5]/ul[1]/li[2]",
+          "text_quote": "Style: FQ8138-600",
+          "attribute": null,
+          "xpath_absolute": "/html/body/div[4]/div/main/div[2]/div[3]/div[7]/div/div[5]/ul/li[2]",
+          "css_selector_absolute": "html > body > div:nth-of-type(4) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(5) > ul:nth-of-type(1) > li:nth-of-type(2)"
+        }
+      }
+    }
+  ]
+}

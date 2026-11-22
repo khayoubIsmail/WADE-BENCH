@@ -1,0 +1,1880 @@
+{
+  "task_id": "WBV1_REAL_LEBONCOIN_001_LISTING",
+  "baseline": "b1_html_llm",
+  "model": "kimi-k2.6",
+  "domain": "realestate",
+  "schema_id": "real_estate_listing_v1",
+  "records": [
+    {
+      "record_id": "pred_001",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3051337441",
+        "price": {
+          "amount": 410000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Roissys - Béranger",
+        "property_type": "Appartement",
+        "rooms": 4,
+        "floor_area": {
+          "value": 77,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5325,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "additional_facilities": [
+          "Jardin",
+          "Parking"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/08/41/5b084182d687d3fabc0817fb36bc765ab98223cf.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/89/ca/4b/89ca4b7fe455c25cbccd448a348a5539da23eb2d.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/ed/3d/4a/ed3d4a8d4e75006d4a77e9d9701007d75facdaf6.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/7a/9d/f7/7a9df73cde59fa6893cb82ede5e9addf638585ce.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/33/7f/ee/337fee2ca4a02201d4397ea00136129cbaa7543e.jpg?rule=ad-image"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3051337441\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3051337441\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "410 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Roissys - Béranger"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 4 pièces · 77m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "4 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "77m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "5 325 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie D\"]",
+          "text_quote": "Classe énergie D"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Jardin, Parking"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"5b084182d687d3fabc0817fb36bc765ab98223cf\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/08/41/5b084182d687d3fabc0817fb36bc765ab98223cf.jpg?rule=ad-image\""
+        }
+      }
+    },
+    {
+      "record_id": "pred_002",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3133429740",
+        "price": {
+          "amount": 990000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Roissys - Béranger",
+        "property_type": "Maison",
+        "rooms": 6,
+        "floor_area": {
+          "value": 180,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5500,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "additional_facilities": [
+          "Terrain : 287 m²"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/a4/1d/68/a41d68b99415207f40d3bc13c1935cef3bec88fd.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/7b/a9/66/7ba96616b7e6922241a14002a69d856f6e836330.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/31/3b/cc/313bcc6e148bf437dc9651fad3324d082770718f.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/5c/ac/bf/5cacbf4fb11598e50dbe2c2c66196ccc09e9f617.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/d1/01/ce/d101ce7b7ea78c88119ead1a734f731a97891747.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "MAISON KARREZ",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/3e/45/71/3e45719b-b90b-4eae-b96d-9f66a1525aa1?rule=bo-thumb",
+        "listing_office": "MAISON KARREZ"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3133429740\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3133429740\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "990 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Roissys - Béranger"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Maison · 6 pièces · 180m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "6 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "180m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "5 500 € / m²"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Terrain : 287 m²"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"a41d68b99415207f40d3bc13c1935cef3bec88fd\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/a4/1d/68/a41d68b99415207f40d3bc13c1935cef3bec88fd.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "MAISON KARREZ"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/3e/45/71/3e45719b-b90b-4eae-b96d-9f66a1525aa1?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "MAISON KARREZ"
+        }
+      }
+    },
+    {
+      "record_id": "pred_003",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3206515329",
+        "price": {
+          "amount": 549000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Vauban - Coulée Verte",
+        "property_type": "Maison",
+        "rooms": 5,
+        "floor_area": {
+          "value": 101,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5436,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "images_urls": []
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3206515329\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3206515329\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "549 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Vauban - Coulée Verte"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Maison · 5 pièces · 101m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "5 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "101m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "5 436 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie D\"]",
+          "text_quote": "Classe énergie D"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "div.adcard_e0bfe438a svg[data-title=\"SvgImageFill\"]",
+          "text_quote": "no images available"
+        }
+      }
+    },
+    {
+      "record_id": "pred_004",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3167119484",
+        "price": {
+          "amount": 699000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Matisse - Pierrelais",
+        "property_type": "Appartement",
+        "rooms": 5,
+        "floor_area": {
+          "value": 102,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 6853,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "C",
+        "additional_facilities": [
+          "Terrasse",
+          "Dernier étage"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/ea/fe/8e/eafe8e4df3b88e6197aa2516187a8ac284617ea1.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/05/dc/e1/05dce186f35483bc176fcec117e463a8ef91349b.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/fd/1d/1c/fd1d1ca15eeac8efed37d2f6880ca1cf048500b1.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/2f/f7/74/2ff774c064170106f6a5d180ae13c769a1974246.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/a2/3b/bb/a23bbb25a90875c2fc021d224d985d02165f39c2.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "CHOUVET Franck - proprietes-privees.com",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/34/4b/e2/344be230-facb-4b06-a3c6-d29ce099e605?rule=bo-thumb",
+        "listing_office": "CHOUVET Franck - proprietes-privees.com"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3167119484\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3167119484\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "699 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Matisse - Pierrelais"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 5 pièces · 102m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "5 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "102m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "6 853 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie C\"]",
+          "text_quote": "Classe énergie C"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Terrasse, Dernier étage"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"eafe8e4df3b88e6197aa2516187a8ac284617ea1\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/ea/fe/8e/eafe8e4df3b88e6197aa2516187a8ac284617ea1.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "CHOUVET Franck - proprietes-privees.com"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/34/4b/e2/344be230-facb-4b06-a3c6-d29ce099e605?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "CHOUVET Franck - proprietes-privees.com"
+        }
+      }
+    },
+    {
+      "record_id": "pred_005",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3169369611",
+        "price": {
+          "amount": 359000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Centre-ville - Sarments",
+        "property_type": "Appartement",
+        "rooms": 3,
+        "floor_area": {
+          "value": 66,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5439,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "C",
+        "additional_facilities": [
+          "Parking",
+          "Cave"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/89/98/6e/89986ed7fc10d16063b1f63ea0d9c1a870b1ae3d.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/79/73/98/797398cfb798b8f9dbfe4f521024ff467fd8e885.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/20/8e/c1/208ec1a2c5a3e76ff41d076643d7c95f8d822377.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/36/9b/ad/369bad1da710a3dacb0733f293c04105485d7592.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/eb/17/1deb17a030f72f412a35d372b3d1f6b6627198c9.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "Adelina Navarro - IAD France",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/09/ac/cf09ac5a-cf5c-484e-9e50-76b8a5e8714e?rule=bo-thumb",
+        "listing_office": "Adelina Navarro - IAD France"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3169369611\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3169369611\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "359 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Centre-ville - Sarments"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 3 pièces · 66m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "3 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "66m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "5 439 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie C\"]",
+          "text_quote": "Classe énergie C"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Parking, Cave"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"89986ed7fc10d16063b1f63ea0d9c1a870b1ae3d\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/89/98/6e/89986ed7fc10d16063b1f63ea0d9c1a870b1ae3d.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Adelina Navarro - IAD France"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/09/ac/cf09ac5a-cf5c-484e-9e50-76b8a5e8714e?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Adelina Navarro - IAD France"
+        }
+      }
+    },
+    {
+      "record_id": "pred_006",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3203498861",
+        "price": {
+          "amount": 269000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Berthelot - Avenue de Paris",
+        "property_type": "Appartement",
+        "rooms": 2,
+        "floor_area": {
+          "value": 47,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5723,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "additional_facilities": [
+          "Balcon",
+          "Parking"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/3a/91/fd/3a91fd6ca9cd086d8608d5e737c4ef4892ef09ad.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/6d/a3/c1/6da3c1422f9506bb5971685c953a7b1b064c07d8.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/58/85/77/588577a8628c7d5f88cd565f5ba4a5f431c53c31.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/5f/b1/fb/5fb1fb00b2ba655ae702502665ad40675675b99e.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/b9/85/47b985728504f46dfa100b0490bd6bb5806c9e0f.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "ACOR IMMOBILIER",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/4c/a5/d6/4ca5d683-a7e8-4231-896d-db3a53744798?rule=bo-thumb",
+        "listing_office": "ACOR IMMOBILIER"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3203498861\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3203498861\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "269 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Berthelot - Avenue de Paris"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 2 pièces · 47m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "2 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "47m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "5 723 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie D\"]",
+          "text_quote": "Classe énergie D"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Balcon, Parking"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"3a91fd6ca9cd086d8608d5e737c4ef4892ef09ad\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/3a/91/fd/3a91fd6ca9cd086d8608d5e737c4ef4892ef09ad.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "ACOR IMMOBILIER"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/4c/a5/d6/4ca5d683-a7e8-4231-896d-db3a53744798?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "ACOR IMMOBILIER"
+        }
+      }
+    },
+    {
+      "record_id": "pred_007",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3168980478",
+        "price": {
+          "amount": 620000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Roissys - Béranger",
+        "property_type": "Maison",
+        "rooms": 4,
+        "floor_area": {
+          "value": 90,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 6889,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "additional_facilities": [
+          "Terrain : 137 m²"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/7d/0e/a77d0e7de6f4b8300ffbcdc70f63a8698b76cd03.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/4a/18/7c/4a187c95a8c9ce2be6abc95a5a842516903f4af2.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/db/17/a9/db17a9ecd74129f706aeef7691a4968c93a5a8ba.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/c1/cd/09/c1cd09a88ba1bf268b4f38cdac66889c1ce6c18e.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/fa/a4/ff/faa4ff23c27c657926d43eb04576dd34a6fca2eb.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "Julien Bernardini - IAD France",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/09/ac/cf09ac5a-cf5c-484e-9e50-76b8a5e8714e?rule=bo-thumb",
+        "listing_office": "Julien Bernardini - IAD France"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3168980478\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3168980478\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "620 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Roissys - Béranger"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Maison · 4 pièces · 90m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "4 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "90m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "6 889 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie D\"]",
+          "text_quote": "Classe énergie D"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Terrain : 137 m²"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"a77d0e7de6f4b8300ffbcdc70f63a8698b76cd03\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/7d/0e/a77d0e7de6f4b8300ffbcdc70f63a8698b76cd03.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Julien Bernardini - IAD France"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/09/ac/cf09ac5a-cf5c-484e-9e50-76b8a5e8714e?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Julien Bernardini - IAD France"
+        }
+      }
+    },
+    {
+      "record_id": "pred_008",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3156341242",
+        "price": {
+          "amount": 559000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Berthelot - Avenue de Paris",
+        "property_type": "Maison",
+        "rooms": 5,
+        "floor_area": {
+          "value": 101,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5535,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/2c/75/a0/2c75a081225c0d8c5943744b082dd26a4cec8978.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/44/dc/22/44dc22c103fd70461c5f1c2497ced38ad846d509.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/53/28/70/532870555fe81d6afaebbe211083c38542eaeeb7.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/c2/b4/1bc2b4651a1883ec6e8658b4f7e9e69cc8307227.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/85/a0/ab/85a0abc276b65fe6b53c9f5d22f141ce54357963.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "Samia Appraoui - IAD France",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/09/ac/cf09ac5a-cf5c-484e-9e50-76b8a5e8714e?rule=bo-thumb",
+        "listing_office": "Samia Appraoui - IAD France"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3156341242\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3156341242\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "559 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Berthelot - Avenue de Paris"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Maison · 5 pièces · 101m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "5 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "101m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "5 535 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie D\"]",
+          "text_quote": "Classe énergie D"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"2c75a081225c0d8c5943744b082dd26a4cec8978\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/2c/75/a0/2c75a081225c0d8c5943744b082dd26a4cec8978.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Samia Appraoui - IAD France"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/09/ac/cf09ac5a-cf5c-484e-9e50-76b8a5e8714e?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Samia Appraoui - IAD France"
+        }
+      }
+    },
+    {
+      "record_id": "pred_009",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3076171649",
+        "price": {
+          "amount": 990000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Vieux Bourg - Malraux",
+        "property_type": "Maison",
+        "rooms": 6,
+        "floor_area": {
+          "value": 221,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 4480,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "additional_facilities": [
+          "Terrain : 287 m²"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/31/55/22/315522cac410df0a90efe0205c40601dfdd29c4b.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/04/68/1f04683e32f1f74865977c63be95cd5b5cbff679.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/a8/89/96/a88996f82f05384e3381d69181554c1765897e25.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/a5/74/5c/a5745c57335c1bf1172adaba47a69a0589d4a918.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/a9/e6/d3/a9e6d34a13ef1be345e7ba30e2c614c1d2b7dada.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "Patrice Besse",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/83/a2/2e83a27f887fcf036202b2e8c569b42e59e564f2?rule=bo-thumb",
+        "listing_office": "Patrice Besse"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3076171649\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3076171649\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "990 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Vieux Bourg - Malraux"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Maison · 6 pièces · 221m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "6 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "221m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "4 480 € / m²"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Terrain : 287 m²"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"315522cac410df0a90efe0205c40601dfdd29c4b\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/31/55/22/315522cac410df0a90efe0205c40601dfdd29c4b.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Patrice Besse"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/83/a2/2e83a27f887fcf036202b2e8c569b42e59e564f2?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Patrice Besse"
+        }
+      }
+    },
+    {
+      "record_id": "pred_010",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3186025458",
+        "price": {
+          "amount": 278000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Centre-ville - Sarments",
+        "property_type": "Appartement",
+        "rooms": 2,
+        "floor_area": {
+          "value": 42,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 6619,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "additional_facilities": [
+          "Cave"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/83/b6/7d/83b67dfad599b509596a395d9ad2d2b303fd1110.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/e6/c7/b8/e6c7b823b4214fd8de3322896fad2f7d212674ec.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/68/c8/16/68c8160ca1601924c8fe7d0196114867e330935a.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/cc/b5/5e/ccb55ee7fce76aab0baf9af8293ff18299225973.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/90/55/4b/90554b3386f1539d0b6de3d5b8ac4f743b855848.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "RESOMIA IMMOBILIER",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/09/16/cf/0916cf01-c54d-479d-b994-be1da83086cd?rule=bo-thumb",
+        "listing_office": "RESOMIA IMMOBILIER"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3186025458\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3186025458\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "278 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Centre-ville - Sarments"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 2 pièces · 42m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "2 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "42m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "6 619 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie D\"]",
+          "text_quote": "Classe énergie D"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Cave"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"83b67dfad599b509596a395d9ad2d2b303fd1110\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/83/b6/7d/83b67dfad599b509596a395d9ad2d2b303fd1110.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "RESOMIA IMMOBILIER"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/09/16/cf/0916cf01-c54d-479d-b994-be1da83086cd?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "RESOMIA IMMOBILIER"
+        }
+      }
+    },
+    {
+      "record_id": "pred_011",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3193243794",
+        "price": {
+          "amount": 313000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "rooms": 2,
+        "floor_area": {
+          "value": 44,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 7114,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "B",
+        "additional_facilities": [
+          "Balcon",
+          "Parking"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/4c/df/ed/4cdfed8521e50e806c7037bb0e3f82bf461485cc.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/aa/8c/75/aa8c756286e966f86c07be7ef3e549b4cdfaa7f7.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/3c/f7/a8/3cf7a8dce17948b0f80c00fb342a37c0ee3ee7e7.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/bb/79/88/bb7988f1bc5630337edc58f31cf765c5ded8918c.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/ac/79/38/ac79382c0a4d49bbe0d81cb56cb01cae1248e55a.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "ORPI Chatillon Immobilier Gestion",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/87/98/13/879813082168278.jpg?rule=bo-thumb",
+        "listing_office": "ORPI Chatillon Immobilier Gestion"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3193243794\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3193243794\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "313 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Vieux Bourg - Malraux"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 2 pièces · 44m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "2 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "44m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "7 114 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie B\"]",
+          "text_quote": "Classe énergie B"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Balcon, Parking"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"4cdfed8521e50e806c7037bb0e3f82bf461485cc\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/4c/df/ed/4cdfed8521e50e806c7037bb0e3f82bf461485cc.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "ORPI Chatillon Immobilier Gestion"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/87/98/13/879813082168278.jpg?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "ORPI Chatillon Immobilier Gestion"
+        }
+      }
+    },
+    {
+      "record_id": "pred_012",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3187976666",
+        "price": {
+          "amount": 386500,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Savoie - Brossolette",
+        "property_type": "Appartement",
+        "rooms": 3,
+        "floor_area": {
+          "value": 68,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 5684,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "additional_facilities": [
+          "Balcon",
+          "Dernier étage"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/61/b1/e7/61b1e735c27569b5c0374268883792489d43b99f.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/6d/ec/ad/6decadded83c14b5886bca82a7fe122a0247c05a.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/63/9e/27/639e27e187279c24987e3e72209a035d62b903ae.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/e8/03/d4/e803d4be91578c143b7767d09de0dbca6020af87.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/a6/f5/a0/a6f5a0a2bce0d51ebb2cca050ad9b0c5eb960aa0.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "ORPI Chatillon Immobilier Gestion",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/87/98/13/879813082168278.jpg?rule=bo-thumb",
+        "listing_office": "ORPI Chatillon Immobilier Gestion"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3187976666\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3187976666\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "386 500 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Savoie - Brossolette"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 3 pièces · 68m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "3 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "68m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "5 684 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie D\"]",
+          "text_quote": "Classe énergie D"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Balcon, Dernier étage"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"61b1e735c27569b5c0374268883792489d43b99f\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/61/b1/e7/61b1e735c27569b5c0374268883792489d43b99f.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "ORPI Chatillon Immobilier Gestion"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/87/98/13/879813082168278.jpg?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "ORPI Chatillon Immobilier Gestion"
+        }
+      }
+    },
+    {
+      "record_id": "pred_013",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3152157021",
+        "price": {
+          "amount": 250000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Savoie - Brossolette",
+        "property_type": "Appartement",
+        "rooms": 3,
+        "floor_area": {
+          "value": 61,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 4098,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "D",
+        "additional_facilities": [
+          "Dernier étage",
+          "Parking"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/86/77/e8/8677e871c68ea25a3368f23a1e77525e08356dd0.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/88/7b/68/887b68dff81ae474160c06804ef8ee4213814152.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/0d/66/8f/0d668f7de7d8824a40d8282edfd508e2ef7ac98a.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/ab/a8/9d/aba89dc0d1fba6358174d250068f9b6a4f0dff55.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/e5/a9/c9/e5a9c90a70cf2f4536497ff2d1ae3fae6f578b30.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "ORPI Chatillon Immobilier Gestion",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/87/98/13/879813082168278.jpg?rule=bo-thumb",
+        "listing_office": "ORPI Chatillon Immobilier Gestion"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3152157021\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3152157021\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "250 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Savoie - Brossolette"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 3 pièces · 61m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "3 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "61m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "4 098 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie D\"]",
+          "text_quote": "Classe énergie D"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Dernier étage, Parking"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"8677e871c68ea25a3368f23a1e77525e08356dd0\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/86/77/e8/8677e871c68ea25a3368f23a1e77525e08356dd0.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "ORPI Chatillon Immobilier Gestion"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/87/98/13/879813082168278.jpg?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "ORPI Chatillon Immobilier Gestion"
+        }
+      }
+    },
+    {
+      "record_id": "pred_014",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3143269237",
+        "price": {
+          "amount": 460000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Matisse - Pierrelais",
+        "property_type": "Appartement",
+        "rooms": null,
+        "floor_area": {
+          "value": 180,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 2556,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/3c/02/09/3c020908fd24e6e4ea0c2b76be4aea0ae9e9f042.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/a6/ad/6a/a6ad6a484575419a25a6a3da92f80859991af8b4.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/50/51/75/5051755cde4fec8d6543d391b22147e42f6e965e.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/4a/76/d1/4a76d1bc59bc965d762fbe5e66becb72e94cf3a1.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/76/c0/54/76c0546d20a511405ac36684775a4acae9769574.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "Marion DIGEON - IAD France",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/09/ac/cf09ac5a-cf5c-484e-9e50-76b8a5e8714e?rule=bo-thumb",
+        "listing_office": "Marion DIGEON - IAD France"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3143269237\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3143269237\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "460 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Matisse - Pierrelais"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 180m²"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "180m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "2 556 € / m²"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"3c020908fd24e6e4ea0c2b76be4aea0ae9e9f042\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/3c/02/09/3c020908fd24e6e4ea0c2b76be4aea0ae9e9f042.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Marion DIGEON - IAD France"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/cf/09/ac/cf09ac5a-cf5c-484e-9e50-76b8a5e8714e?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Marion DIGEON - IAD France"
+        }
+      }
+    },
+    {
+      "record_id": "pred_015",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3206375288",
+        "price": {
+          "amount": 212000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Conservatoire",
+        "property_type": "Appartement",
+        "rooms": 1,
+        "floor_area": {
+          "value": 25,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 8480,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "additional_facilities": [
+          "Parking"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/44/78/3d/44783d7ffba35998f650c7c36c8d32f61d73b27e.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/8c/af/d5/8cafd5235589ae772f085d76e556fdf273f44bbc.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/73/3b/6a/733b6ae985ec8a8542caab9410fbad6ad2515967.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/b8/ad/32/b8ad32d3530c3cfa11c129fca4a2d2fb8ab0263b.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/d7/75/de/d775de180ae416cd97dfa7d1e341a9ae1e0736f3.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "La Petite Agence 92",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/c6/81/1fc6812e-079b-43e3-b8f5-73a66da5d469?rule=bo-thumb",
+        "listing_office": "La Petite Agence 92"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3206375288\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3206375288\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "212 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Conservatoire"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 1 pièce · 25m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "1 pièce"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "25m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "8 480 € / m²"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Parking"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"44783d7ffba35998f650c7c36c8d32f61d73b27e\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/44/78/3d/44783d7ffba35998f650c7c36c8d32f61d73b27e.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "La Petite Agence 92"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/c6/81/1fc6812e-079b-43e3-b8f5-73a66da5d469?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "La Petite Agence 92"
+        }
+      }
+    },
+    {
+      "record_id": "pred_016",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3206358027",
+        "price": {
+          "amount": 274000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "rooms": 2,
+        "floor_area": {
+          "value": 42,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 6524,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "C",
+        "additional_facilities": [
+          "Terrasse",
+          "Parking"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/d2/0f/ee/d20fee27a699b85ba4f5bd00294c4951c1b34640.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/7c/59/3e/7c593e928e9b4e9f5af66014f4ff4429954917a9.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/4f/a2/154fa2f1a8314c96e835e20a2c92775b35627f49.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "Grand Paris Groupe",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/b4/70/3e/b4703e23-3e6c-4df6-a609-ad5c9bf94c12?rule=bo-thumb",
+        "listing_office": "Grand Paris Groupe"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3206358027\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3206358027\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "274 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Vieux Bourg - Malraux"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 2 pièces · 42m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "2 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "42m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "6 524 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie C\"]",
+          "text_quote": "Classe énergie C"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Terrasse, Parking"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"d20fee27a699b85ba4f5bd00294c4951c1b34640\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/d2/0f/ee/d20fee27a699b85ba4f5bd00294c4951c1b34640.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Grand Paris Groupe"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/b4/70/3e/b4703e23-3e6c-4df6-a609-ad5c9bf94c12?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Grand Paris Groupe"
+        }
+      }
+    },
+    {
+      "record_id": "pred_017",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3206357120",
+        "price": {
+          "amount": 274000,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Vieux Bourg - Malraux",
+        "property_type": "Appartement",
+        "rooms": 2,
+        "floor_area": {
+          "value": 42,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 6524,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "C",
+        "additional_facilities": [
+          "Terrasse",
+          "Parking"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/a9/88/ad/a988adde03ed2d78dac5bc89120ff4f6a2327775.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/91/d1/77/91d1778febf583f79943089c73be556d69689070.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/2c/9c/7b/2c9c7b146850a68349031ea25f71c9fa099c961c.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "Grand Paris Groupe",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/b4/70/3e/b4703e23-3e6c-4df6-a609-ad5c9bf94c12?rule=bo-thumb",
+        "listing_office": "Grand Paris Groupe"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3206357120\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3206357120\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "274 000 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Vieux Bourg - Malraux"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 2 pièces · 42m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "2 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "42m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "6 524 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie C\"]",
+          "text_quote": "Classe énergie C"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Terrasse, Parking"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"a988adde03ed2d78dac5bc89120ff4f6a2327775\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/a9/88/ad/a988adde03ed2d78dac5bc89120ff4f6a2327775.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Grand Paris Groupe"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/b4/70/3e/b4703e23-3e6c-4df6-a609-ad5c9bf94c12?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "Grand Paris Groupe"
+        }
+      }
+    },
+    {
+      "record_id": "pred_018",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3203577218",
+        "price": {
+          "amount": 321500,
+          "currency_code": "EUR",
+          "currency_symbol": "€",
+          "period": null
+        },
+        "address": "Châtillon 92320 Maison Blanche",
+        "property_type": "Appartement",
+        "rooms": 2,
+        "floor_area": {
+          "value": 48,
+          "unit": "m2"
+        },
+        "price_per_m2": {
+          "amount": 6698,
+          "currency_code": "EUR",
+          "currency_symbol": "€"
+        },
+        "energy_rating": "C",
+        "additional_facilities": [
+          "Terrasse",
+          "Parking"
+        ],
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/6e/3b/a9/6e3ba9065a710a9d0621aac392ee8ce0369a7619.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/2d/77/152d77d5eb240b3c567e06d8cfa1633ecb918406.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/ba/8f/49/ba8f49801d8da8c0448ae70423582dfa72a48ccf.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/78/50/1d7850a505d4721e15bc6f74ff422717ab3fec8a.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/e4/e2/9d/e4e29d3ce020bcb8b59283b4c0b6edd73918e51d.jpg?rule=ad-image"
+        ],
+        "listing_agent_name": "efficity - Meriem Michee",
+        "listing_agent_logo": "https://img.leboncoin.fr/api/v1/lbcpb1/images/98/68/e0/9868e0e5-9e4a-4f29-a51a-f8f5049b5eb1?rule=bo-thumb",
+        "listing_office": "efficity - Meriem Michee"
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3203577218\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3203577218\""
+        },
+        "price": {
+          "source": "page.html",
+          "selector": "span.text-success",
+          "text_quote": "321 500 €"
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Maison Blanche"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Appartement · 2 pièces · 48m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "2 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "48m²"
+        },
+        "price_per_m2": {
+          "source": "page.html",
+          "selector": "div.text-caption.text-on-background\\/dim-1",
+          "text_quote": "6 698 € / m²"
+        },
+        "energy_rating": {
+          "source": "page.html",
+          "selector": "img[alt=\"Classe énergie C\"]",
+          "text_quote": "Classe énergie C"
+        },
+        "additional_facilities": {
+          "source": "page.html",
+          "selector": "div.AdcardPositiveParams_positiveParams__96HJR",
+          "text_quote": "Terrasse, Parking"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"6e3ba9065a710a9d0621aac392ee8ce0369a7619\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/6e/3b/a9/6e3ba9065a710a9d0621aac392ee8ce0369a7619.jpg?rule=ad-image\""
+        },
+        "listing_agent_name": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "efficity - Meriem Michee"
+        },
+        "listing_agent_logo": {
+          "source": "page.html",
+          "selector": "img[alt=\"Logo du professionnel\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/98/68/e0/9868e0e5-9e4a-4f29-a51a-f8f5049b5eb1?rule=bo-thumb\""
+        },
+        "listing_office": {
+          "source": "page.html",
+          "selector": "p[data-qa-id=\"pro-store-name\"] strong",
+          "text_quote": "efficity - Meriem Michee"
+        }
+      }
+    },
+    {
+      "record_id": "pred_019",
+      "fields": {
+        "listing_url": "https://www.leboncoin.fr/ad/ventes_immobilieres/3206347302",
+        "price": {
+          "amount": null,
+          "currency_code": null,
+          "currency_symbol": null,
+          "period": null
+        },
+        "address": "Châtillon 92320 Roissys - Béranger",
+        "property_type": "Maison",
+        "rooms": 4,
+        "floor_area": {
+          "value": 82,
+          "unit": "m2"
+        },
+        "images_urls": [
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/86/0f/84/860f8436518c0f6157546cdf8eb302e1684a8bd0.jpg?rule=ad-image",
+          "https://img.leboncoin.fr/api/v1/lbcpb1/images/06/a8/a0/06a8a0e6a5453143ac9990bfcd8ec293d0f0f385.jpg?rule=ad-image"
+        ]
+      },
+      "provenance": {
+        "listing_url": {
+          "source": "page.html",
+          "selector": "a[href=\"/ad/ventes_immobilieres/3206347302\"]",
+          "text_quote": "href=\"/ad/ventes_immobilieres/3206347302\""
+        },
+        "address": {
+          "source": "page.html",
+          "selector": "p.text-caption.text-neutral.text-body-2",
+          "text_quote": "Châtillon 92320 Roissys - Béranger"
+        },
+        "property_type": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "Maison · 4 pièces · 82m²"
+        },
+        "rooms": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "4 pièces"
+        },
+        "floor_area": {
+          "source": "page.html",
+          "selector": "p.text-body-2-highlight",
+          "text_quote": "82m²"
+        },
+        "images_urls": {
+          "source": "page.html",
+          "selector": "img[src*=\"860f8436518c0f6157546cdf8eb302e1684a8bd0\"]",
+          "text_quote": "src=\"https://img.leboncoin.fr/api/v1/lbcpb1/images/86/0f/84/860f8436518c0f6157546cdf8eb302e1684a8bd0.jpg?rule=ad-image\""
+        }
+      }
+    }
+  ],
+  "run_metadata": {
+    "success": true,
+    "json_valid": true,
+    "runtime_success": true,
+    "latency_seconds": 465.709,
+    "input_tokens": 222435,
+    "output_tokens": 17350,
+    "total_tokens": 239785,
+    "initial_input_tokens": 222435,
+    "initial_output_tokens": 17350,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0,
+    "repaired": false,
+    "error": null
+  }
+}

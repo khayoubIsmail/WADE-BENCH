@@ -1,0 +1,1174 @@
+{
+  "task_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING",
+  "website_id": "publiccontractsscotland",
+  "schema_id": "tender_notice_v1",
+  "snapshot_id": "publiccontractsscotland_listing",
+  "snapshot_path": "raw_snapshots/government/publiccontractsscotland_listing",
+  "live_url": "https://www.publiccontractsscotland.gov.uk/search/search_mainpage.aspx",
+  "annotation_metadata": {
+    "annotation_version": "v1",
+    "annotator_id": [
+      "ismail_khayoub",
+      "firdaous_aitmohamed"
+    ],
+    "verification_status": "human_verified",
+    "total_records_extracted": 10
+  },
+  "records": [
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_001",
+      "fields": {
+        "tender_title": {
+          "value": "Integrated case management system configuration and development",
+          "normalized": "Integrated case management system configuration and development"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556703"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556703",
+          "normalized": "MAY556703"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000833071",
+          "normalized": "ocds-r6ebe6-0000833071"
+        },
+        "published_by": {
+          "value": "The City of Edinburgh Council",
+          "normalized": "The City of Edinburgh Council"
+        },
+        "deadline_date": {
+          "value": null,
+          "normalized": null
+        },
+        "notice_type": {
+          "value": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
+          "normalized": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556703']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556703']",
+          "text_quote": "Integrated case management system configuration an",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556703']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556703']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[1]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[1]/td[2]/div[1]",
+          "text_quote": "MAY556703",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[1]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000833071",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[1]/td[2]/div[1]",
+          "text_quote": "The City of Edinburgh Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[1]/td[2]/div[1]",
+          "text_quote": "03 Contract Award Notice (below FTS threshold) or ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[1]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_002",
+      "fields": {
+        "tender_title": {
+          "value": "4.8MW Substation design and installation",
+          "normalized": "4.8MW Substation design and installation"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556702",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556702"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556702",
+          "normalized": "MAY556702"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000832574",
+          "normalized": "ocds-r6ebe6-0000832574"
+        },
+        "published_by": {
+          "value": "European Marine Energy Centre (EMEC) Ltd",
+          "normalized": "European Marine Energy Centre (EMEC) Ltd"
+        },
+        "deadline_date": {
+          "value": "26-Jun-26",
+          "normalized": "26-Jun-26"
+        },
+        "notice_type": {
+          "value": "02 Contract Notice",
+          "normalized": "02 Contract Notice"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556702']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556702']",
+          "text_quote": "4.8MW Substation design and installation",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556702']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556702']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[2]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[2]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[2]/td[2]/div[1]",
+          "text_quote": "MAY556702",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[2]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000832574",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[2]/td[2]/div[1]",
+          "text_quote": "European Marine Energy Centre (EMEC) Ltd",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[2]/td[2]/div[1]",
+          "text_quote": "26-Jun-26",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[2]/td[2]/div[1]",
+          "text_quote": "02 Contract Notice",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[2]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_003",
+      "fields": {
+        "tender_title": {
+          "value": "Proposed Peatland Restoration \u2013 Monaltrie Moss (North) Phases 1 & 2, Invercauld Estate  \u2013 Aberdeenshire Council",
+          "normalized": "Proposed Peatland Restoration \u2013 Monaltrie Moss (North) Phases 1 & 2, Invercauld Estate  \u2013 Aberdeenshire Council"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556699",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556699"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556699",
+          "normalized": "MAY556699"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000832799",
+          "normalized": "ocds-r6ebe6-0000832799"
+        },
+        "published_by": {
+          "value": "Caledonian Climate Partners",
+          "normalized": "Caledonian Climate Partners"
+        },
+        "deadline_date": {
+          "value": "24-Jun-26",
+          "normalized": "24-Jun-26"
+        },
+        "notice_type": {
+          "value": "02 Contract Notice (below FTS threshold or call offs of any value)",
+          "normalized": "02 Contract Notice (below FTS threshold or call offs of any value)"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556699']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556699']",
+          "text_quote": "Proposed Peatland Restoration \u2013 Monaltrie Moss (No",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[3]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(3) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556699']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556699']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[3]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(3) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[3]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[3]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(3) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[3]/td[2]/div[1]",
+          "text_quote": "MAY556699",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[3]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(3) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[3]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000832799",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[3]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(3) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[3]/td[2]/div[1]",
+          "text_quote": "Caledonian Climate Partners",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[3]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(3) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[3]/td[2]/div[1]",
+          "text_quote": "24-Jun-26",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[3]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(3) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[3]/td[2]/div[1]",
+          "text_quote": "02 Contract Notice (below FTS threshold or call of",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[3]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(3) > td:nth-of-type(2) > div"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_004",
+      "fields": {
+        "tender_title": {
+          "value": "Power Hardware-in-the-Loop System",
+          "normalized": "Power Hardware-in-the-Loop System"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556696",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556696"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556696",
+          "normalized": "MAY556696"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000833060",
+          "normalized": "ocds-r6ebe6-0000833060"
+        },
+        "published_by": {
+          "value": "University Of Edinburgh",
+          "normalized": "University Of Edinburgh"
+        },
+        "deadline_date": {
+          "value": null,
+          "normalized": null
+        },
+        "notice_type": {
+          "value": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
+          "normalized": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556696']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556696']",
+          "text_quote": "Power Hardware-in-the-Loop System",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[4]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556696']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556696']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[4]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[4]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[4]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[4]/td[2]/div[1]",
+          "text_quote": "MAY556696",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[4]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[4]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000833060",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[4]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[4]/td[2]/div[1]",
+          "text_quote": "University Of Edinburgh",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[4]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[4]/td[2]/div[1]",
+          "text_quote": "03 Contract Award Notice (below FTS threshold) or ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[4]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_005",
+      "fields": {
+        "tender_title": {
+          "value": "DNA Processing Instrumentation",
+          "normalized": "DNA Processing Instrumentation"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556695",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556695"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556695",
+          "normalized": "MAY556695"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000833036",
+          "normalized": "ocds-r6ebe6-0000833036"
+        },
+        "published_by": {
+          "value": "Scottish Police Authority",
+          "normalized": "Scottish Police Authority"
+        },
+        "deadline_date": {
+          "value": null,
+          "normalized": null
+        },
+        "notice_type": {
+          "value": "01 Prior Information Notices (below FTS threshold or call offs of any value)",
+          "normalized": "01 Prior Information Notices (below FTS threshold or call offs of any value)"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556695']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556695']",
+          "text_quote": "DNA Processing Instrumentation",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[5]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556695']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556695']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[5]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[5]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[5]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(5) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[5]/td[2]/div[1]",
+          "text_quote": "MAY556695",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[5]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[5]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000833036",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[5]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[5]/td[2]/div[1]",
+          "text_quote": "Scottish Police Authority",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[5]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[5]/td[2]/div[1]",
+          "text_quote": "01 Prior Information Notices (below FTS threshold ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[5]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(5) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_006",
+      "fields": {
+        "tender_title": {
+          "value": "Cryostat of the School of Engineering",
+          "normalized": "Cryostat of the School of Engineering"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556694",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556694"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556694",
+          "normalized": "MAY556694"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000808849",
+          "normalized": "ocds-r6ebe6-0000808849"
+        },
+        "published_by": {
+          "value": "University Of Edinburgh",
+          "normalized": "University Of Edinburgh"
+        },
+        "deadline_date": {
+          "value": null,
+          "normalized": null
+        },
+        "notice_type": {
+          "value": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
+          "normalized": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556694']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556694']",
+          "text_quote": "Cryostat of the School of Engineering",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[6]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(6) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556694']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556694']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[6]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(6) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(6) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[6]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[6]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(6) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(6) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[6]/td[2]/div[1]",
+          "text_quote": "MAY556694",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[6]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(6) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(6) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[6]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000808849",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[6]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(6) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(6) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[6]/td[2]/div[1]",
+          "text_quote": "University Of Edinburgh",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[6]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(6) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(6) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[6]/td[2]/div[1]",
+          "text_quote": "03 Contract Award Notice (below FTS threshold) or ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[6]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(6) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_007",
+      "fields": {
+        "tender_title": {
+          "value": "SW Unit Jetting enquiry",
+          "normalized": "SW Unit Jetting enquiry"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556693",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556693"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556693",
+          "normalized": "MAY556693"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000833051",
+          "normalized": "ocds-r6ebe6-0000833051"
+        },
+        "published_by": {
+          "value": "Amey",
+          "normalized": "Amey"
+        },
+        "deadline_date": {
+          "value": "04-Jun-26",
+          "normalized": "04-Jun-26"
+        },
+        "notice_type": {
+          "value": "Sub-Contract Opportunity",
+          "normalized": "Sub-Contract Opportunity"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556693']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556693']",
+          "text_quote": "SW Unit Jetting enquiry",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[7]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556693']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556693']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[7]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[7]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[7]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(7) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[7]/td[2]/div[1]",
+          "text_quote": "MAY556693",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[7]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[7]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000833051",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[7]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[7]/td[2]/div[1]",
+          "text_quote": "Amey",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[7]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[7]/td[2]/div[1]",
+          "text_quote": "04-Jun-26",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[7]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(7) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[7]/td[2]/div[1]",
+          "text_quote": "Sub-Contract Opportunity",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[7]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2) > div"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_008",
+      "fields": {
+        "tender_title": {
+          "value": "HTHW DHN Reactive Maintenance",
+          "normalized": "HTHW DHN Reactive Maintenance"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556685",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556685"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556685",
+          "normalized": "MAY556685"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000828006",
+          "normalized": "ocds-r6ebe6-0000828006"
+        },
+        "published_by": {
+          "value": "University of Dundee",
+          "normalized": "University of Dundee"
+        },
+        "deadline_date": {
+          "value": null,
+          "normalized": null
+        },
+        "notice_type": {
+          "value": "03 Contract Award Notice - Incomplete Procedure",
+          "normalized": "03 Contract Award Notice - Incomplete Procedure"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556685']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556685']",
+          "text_quote": "HTHW DHN Reactive Maintenance",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[8]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556685']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556685']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[8]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(8) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[8]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[8]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(8) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(8) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[8]/td[2]/div[1]",
+          "text_quote": "MAY556685",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[8]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(8) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[8]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000828006",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[8]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(8) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[8]/td[2]/div[1]",
+          "text_quote": "University of Dundee",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[8]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(8) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[8]/td[2]/div[1]",
+          "text_quote": "03 Contract Award Notice - Incomplete Procedure",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[8]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_009",
+      "fields": {
+        "tender_title": {
+          "value": "Hawkhead Cemetery Infrastructure Improvements",
+          "normalized": "Hawkhead Cemetery Infrastructure Improvements"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556679",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556679"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556679",
+          "normalized": "MAY556679"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000833040",
+          "normalized": "ocds-r6ebe6-0000833040"
+        },
+        "published_by": {
+          "value": "Renfrewshire Council",
+          "normalized": "Renfrewshire Council"
+        },
+        "deadline_date": {
+          "value": null,
+          "normalized": null
+        },
+        "notice_type": {
+          "value": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
+          "normalized": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556679']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556679']",
+          "text_quote": "Hawkhead Cemetery Infrastructure Improvements",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[9]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556679']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556679']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[9]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[9]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[9]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(9) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[9]/td[2]/div[1]",
+          "text_quote": "MAY556679",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[9]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[9]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000833040",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[9]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[9]/td[2]/div[1]",
+          "text_quote": "Renfrewshire Council",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[9]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(9) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[9]/td[2]/div[1]",
+          "text_quote": "03 Contract Award Notice (below FTS threshold) or ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[9]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(9) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    },
+    {
+      "gold_record_id": "WBV1_GOV_PUBLICCONTRACTSSCOTLAND_001_LISTING_010",
+      "fields": {
+        "tender_title": {
+          "value": "Furniture for the Skills Transition Centre",
+          "normalized": "Furniture for the Skills Transition Centre"
+        },
+        "tender_url": {
+          "value": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556676",
+          "normalized": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAY556676"
+        },
+        "publication_date": {
+          "value": "27/05/2026",
+          "normalized": {
+            "published_date": "2026-05-27",
+            "last_edited_date": null
+          }
+        },
+        "reference_no": {
+          "value": "MAY556676",
+          "normalized": "MAY556676"
+        },
+        "ocid": {
+          "value": "ocds-r6ebe6-0000833015",
+          "normalized": "ocds-r6ebe6-0000833015"
+        },
+        "published_by": {
+          "value": "Forth Valley College",
+          "normalized": "Forth Valley College"
+        },
+        "deadline_date": {
+          "value": null,
+          "normalized": null
+        },
+        "notice_type": {
+          "value": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)",
+          "normalized": "03 Contract Award Notice (below FTS threshold) or call off from a framework (any value)"
+        }
+      },
+      "provenance": {
+        "tender_title": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556676']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556676']",
+          "text_quote": "Furniture for the Skills Transition Centre",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[10]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(10) > td:nth-of-type(2) > a"
+        },
+        "tender_url": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "a[href='/search/show/search_view.aspx?ID=MAY556676']",
+          "xpath": "//a[@href='/search/show/search_view.aspx?ID=MAY556676']",
+          "text_quote": "https://www.publiccontractsscotland.gov.uk/search/",
+          "attribute": "href",
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[10]/td[2]/a",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(10) > td:nth-of-type(2) > a"
+        },
+        "publication_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(10) > td:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[10]/td[1]",
+          "text_quote": "27/05/2026",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[10]/td[1]",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(10) > td:nth-of-type(1)"
+        },
+        "reference_no": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(10) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[10]/td[2]/div[1]",
+          "text_quote": "MAY556676",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[10]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(10) > td:nth-of-type(2) > div"
+        },
+        "ocid": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(10) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[10]/td[2]/div[1]",
+          "text_quote": "ocds-r6ebe6-0000833015",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[10]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(10) > td:nth-of-type(2) > div"
+        },
+        "published_by": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(10) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[10]/td[2]/div[1]",
+          "text_quote": "Forth Valley College",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[10]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(10) > td:nth-of-type(2) > div"
+        },
+        "notice_type": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": "table#maintablecontent > tbody:nth-of-type(1) > tr:nth-of-type(10) > td:nth-of-type(2) > div:nth-of-type(1)",
+          "xpath": "//*[@id='maintablecontent']/tbody[1]/tr[10]/td[2]/div[1]",
+          "text_quote": "03 Contract Award Notice (below FTS threshold) or ",
+          "attribute": null,
+          "xpath_absolute": "/html/body/form/div[3]/div[2]/div[1]/div/div[2]/div[2]/table/tbody/tr[10]/td[2]/div",
+          "css_selector_absolute": "html > body > form > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > table > tbody > tr:nth-of-type(10) > td:nth-of-type(2) > div"
+        },
+        "deadline_date": {
+          "snapshot_id": "publiccontractsscotland_listing",
+          "css_selector": null,
+          "xpath": null,
+          "text_quote": null,
+          "attribute": null,
+          "xpath_absolute": null,
+          "css_selector_absolute": null,
+          "provenance_verifiable": false,
+          "provenance_note": "gold value empty; no DOM provenance possible"
+        }
+      }
+    }
+  ],
+  "total_records_extracted": 10
+}
